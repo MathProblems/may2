@@ -151,10 +151,6 @@ def infer(q,a,VERBOSE):
         
 
         integerproblem = all([float(x[0]).is_integer() for x in numlist if x[0]!='x'])
-        multi = False
-        if len(objs)>3:
-            multiops+=1
-            multi = True
         if VERBOSE:
             print(objs,numlist,[v.num for k,v in sets])
         #print(allnumbs)
@@ -233,11 +229,14 @@ def infer(q,a,VERBOSE):
                     exit()
                 score,c = pute
                 thisscore.append(score)
-            if target[1][1].entity != c.entity:
-                thisscore.append(-0.2)
+            #if target[1][1].entity != c.entity:
+            #    thisscore.append(-0.2)
             #print("WAT",thisscore,c.ent,c.num)
+            if len(thisscore)==0:
+                scores.append(0)
+            else:
+                scores.append(sum(thisscore)/float(len(thisscore)))
             
-            scores.append(sum(thisscore))
 
             #print(compound)
         m = np.argmax(scores)
@@ -257,7 +256,6 @@ def infer(q,a,VERBOSE):
                 print(numlist[0].num+"="+target.num)
         '''
         eqidxs = [y[0] for y in sorted(enumerate(scores),key=lambda x:x[1],reverse=True)]
-        eqnidsx = [x[1] for x in srt]
         seen = []
         tright = 0
         for i in eqidxs:

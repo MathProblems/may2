@@ -13,12 +13,11 @@ from StringTemplate import StringTemplate
 from svmutil import *
 import makesets
 from sympy.solvers.solvers import solve
+import vectorize_eqn
+import local_score
 
-md = svm_load_model("5.5.gold.md.m")
-pm = svm_load_model("5.5.gold.pm.m")
-pmvmd = svm_load_model("5.5.gold.pmvmd.m")
-multi = svm_load_model("5.5.multi.m")
-emulti = svm_load_model("5.6.emnlp.m")
+multi = None
+globalm = None
 
 class StanfordNLP:
     def __init__(self, port_number=8080):
@@ -36,7 +35,7 @@ def compute(p,op,e,target,problem):
     #    val = 0
     #else:
     if True:
-        op_label, op_acc, op_val = svm_predict([-1], [vec], emulti ,'-q -b 1')
+        op_label, op_acc, op_val = svm_predict([-1], [vec], multi ,'-q -b 1')
         #pmop_label, pmop_acc, pmop_val = svm_predict([-1], [vec], pm ,'-q -b 1')
         #mmop_label, mmop_acc, mmop_val = svm_predict([-1], [vec], md ,'-q -b 1')
         op_val=op_val[0]
@@ -60,8 +59,8 @@ def cleannum(n):
 
 
 def infer(q,a,VERBOSE):
-    wps = open(q).readlines()
-    answs = open(a).readlines()
+    wps = q #open(q).readlines()
+    answs = a #open(a).readlines()
     problematic = open('somethingWrongProblems','a')
 
     ar = [0,0]
@@ -86,194 +85,38 @@ def infer(q,a,VERBOSE):
             k = int(input())
         print(k)
         problem = wps[k].lower()
-        #First preprocessing, tokenize slightly
-        problem = problem.strip().split(" ")
-        for i,x in enumerate(problem):
-            if len(x)==0:continue
-            if x[-1] in [',','.','?']:
-                problem[i] = x[:-1]+" "+x[-1]
-        problem = ' '.join(problem)
-        problem = " " + problem + " "
-        print(problem)
-
-        for r in replacements:
-            problem = problem.replace(r,replacements[r])
-
-        story = nlp.parse(problem)
-        sets = makesets.makesets(story['sentences'])
-            #REMOVE DUPS THIS IS BAD:
-        i = 0
-        while i < len(sets):
-            x = sets[i]
-            dups = [y for y in sets if y[1].num == x[1].num]
-            if len(dups)>1:
-                for x in dups[1:]:
-                    sets.remove(x)
-            i+=1
-
-        print("Sets detected: ")
-        for x in sets:
-            x[1].details()
-        numlist = [(cleannum(v.num),v) for k,v in sets]
-        numlist = [x for x in numlist if x[0]!='']
-        if VERBOSE:
-            for z,v in numlist:
-                v.details()
-            input()
-
-        allnumbs = {str(k):v for k,v in numlist}
-            
-
-        objs = {k:(0,v) for k,v in numlist}
-
-
-        constraints = []
-        for i in range(len(numlist)):
-            if numlist[i][0][-1] == "*":
-                if i==0:continue
-                constraints.append(numlist[i-1][0]+" * "+numlist[i][0][:-1])
-                numlist[i] = (''.join([x for x in numlist[i][0] if x not in ['*','/']]),numlist[i][1])
-                numlist[i][1].num = numlist[i][0]
-            elif numlist[i][0][0] == "*":
-                if i==0:continue
-                numlist[i] = (''.join([x for x in numlist[i][0] if x not in ['*','/']]),numlist[i][1])
-                tmp = numlist[i-1]
-                numlist[i-1]=numlist[i]
-                numlist[i]=tmp
-                constraints.append(numlist[i-1][0]+" * "+numlist[i][0][1:])
-            elif numlist[i][0][-1] == "/":
-                if i==0:continue
-                constraints.append(" / "+numlist[i][0][:-1])
-                numlist[i] = (''.join([x for x in numlist[i][0] if x not in ['*','/']]),numlist[i][1])
-        objs = {k:(0,v) for k,v in numlist}
-        if len(objs)<2:
+        
+           
+        ret = local_score.score(problem)
+        if ret == -1:
             wrong.append(k)
             continue
-        if 'x' not in objs:
-            wrong.append(k)
-            continue
-        
 
-        integerproblem = all([float(x[0]).is_integer() for x in numlist if x[0]!='x'])
-        multi = False
-        if len(objs)>3:
-            multiops+=1
-            multi = True
-        if VERBOSE:
-            print(objs,numlist,[v.num for k,v in sets])
-        #print(allnumbs)
-
-
-        state = []
-        #print(numlist)
-
-        
-
-        #for e in allnumbs.items():
-        #print(numlist)
-        numidxlist = [x[0] for x in numlist]
-        ST = StringTemplate(numidxlist, inf=True)
-        scores = []
-        for j,eq in enumerate(ST.equations):
-            #print(j,eq.toString())
-            good = False
-            if len(constraints)==0:
-                good = True
-            else:
-                for constraint in constraints:
-                    if constraint in eq.toString():
-                        good = True
-            if not good:
-                scores.append(-0.2)
-                continue
-            
-                    
-            thisscore = []
-            #print(eq.toString())
-            #determine score for this eq
-            l,r = [x.strip().split(' ') for x in eq.toString().split('=')]
-            #print(l,r)
-            
-            if len(r)>1 and len(l)>1:
-                scores.append(-0.2);continue
-            if len(r)>1: 
-
-                compound = r
-                target = l[0]
-            else:
-                #print(constraints)
-                compound = l
-                target = r[0]
-            target = (target,objs[target])
-
-            #find innermost parens?
-            while len(compound)>1:
-                if "(" in compound:
-                    rpidx = (len(compound) - 1) - compound[::-1].index('(')
-                    lpidx = rpidx+compound[rpidx:].index(")")
-                    subeq = compound[rpidx+1:lpidx]
-                    substr = "("+''.join(subeq)+")"
-                    compound = compound[:rpidx]+[substr]+compound[lpidx+1:]
-                else:
-                    subeq = compound[0:3]
-                    substr = "("+''.join(subeq)+")"
-                    compound = [substr]+compound[3:]
-                if substr in objs:
-                    pute = objs[substr]
-                    #print(pute[0],pute[1].num)
-                else:
-                    p,op,e = subeq
-                    #print(p,op,e)
-                    p = objs[p][1]
-                    e = objs[e][1]
-                    op = op.strip()
-                    pute = compute(p,op,e,target,problem)
-                    #print("OPERATION SELECTED: ",op)
-                    #p.details()
-                    #e.details()
-                    #print(substr,pute[1].num)
-                    objs[substr]=pute
-                if pute == -1:
-                    exit()
-                score,c = pute
-                thisscore.append(score)
-            if target[1][1].entity != c.entity:
-                thisscore.append(-0.2)
-            #print("WAT",thisscore,c.ent,c.num)
-            
-            scores.append(sum(thisscore))
-
-            #print(compound)
+        equations, scores, equalsmatch, contmatch, integerproblem = ret
         m = np.argmax(scores)
         #print(scores[m],ST.equations[m].toString())
         srt = sorted([(x,i) for i,x in enumerate(scores)],reverse=True)
         print('\n Top scoring 3 equations: ')
         for x,i in srt[:3]:
-            print(x,ST.equations[i].toString())
+            print(x,equations[i].toString())
 
-        '''
-        try:
-            if target.ent=='dozen':
-                guess = solve('('+numlist[0].num+'/12)'+"-"+target.num,'x')[0]
-                print(numlist[0].num+"/12="+target.num)
-            else:
-                guess = solve(numlist[0].num+"-"+target.num,'x')[0]
-                print(numlist[0].num+"="+target.num)
-        '''
+
         eqidxs = [y[0] for y in sorted(enumerate(scores),key=lambda x:x[1],reverse=True)]
         eqnidsx = [x[1] for x in srt]
         seen = []
         tright = 0
+        globallyadjusted = []
+        answ = float(answs[k])
         for i in eqidxs:
-            if len(seen)>=1:break
-            eq = ST.equations[i].toString()
+            eq = equations[i].toString()
+            ogeq = equations[i].toString()
             #eq = eq.replace("=",'-')
             splitEquation = eq.split('=')
             eq = splitEquation[0] + '- (' + splitEquation[1] + ')'
             #print(scores[i], eq)
             try:
                 guess = solve(eq,'x')[0]
-            except: guess = -1
+            except: continue 
 
             # This is the non-negative constraint
             # wrapped in a "check for complex number" try statement :/
@@ -283,34 +126,62 @@ def infer(q,a,VERBOSE):
             except:
                 continue
 
-            #this is a constraint agianst fractional answers when the problem is integers
             if not guess.is_integer:
-                if integerproblem:
-                    continue
+                try:
+                    int(guess)
+                except:
+                    if integerproblem:
+                        print("Integer problem")
+                        continue
+
+
+            #this is a constraint agianst fractional answers when the problem is integers
 
             if guess not in seen:
                 seen.append(guess)
             else: 
                 continue
-            answ = float(answs[k])
-            ops = [x for x in ST.equations[i].toString() if x in ['+','-','*','/']]
-            if guess == answ: 
-                print("\nCORRECT")
-                tright=1
-                ar[0] += ops.count('+')
-                sr[0] += ops.count('-')
-                mr[0] += ops.count('*')
-                dr[0] += ops.count('/')
-            else:
-                print("\nINCORRECT")
-            ar[1] += ops.count('+')
-            sr[1] += ops.count('-')
-            mr[1] += ops.count('*')
-            dr[1] += ops.count('/')
-            print("Guessed Equation : ",ST.equations[i].toString() )
+            ops = [x for x in equations[i].toString() if x in ['+','-','*','/']]
+            vec = []
+            if equalsmatch[i]=='x':
+                equalsmatch[i]= 0 #continue
+                contmatch[i]=0
 
-            print("Guess : ",guess,"\nTrue Answer :", answ, '\n\n')
-        guesses += len(seen)
+            #build training vector
+
+            vec = vectorize_eqn.vec(scores[i],guess,ogeq.strip().split(" "),integerproblem,equalsmatch[i],contmatch[i],problem)
+            #print(vec)
+
+
+            op_label, op_acc, op_val = svm_predict([-1], [vec], globalm,'-q -b 1')
+            op_val = op_val[0][0]
+
+            globallyadjusted.append((scores[i],i,guess))
+            #globallyadjusted.append(((0.5*op_val)+scores[i],i,guess))
+        
+        srt = sorted(globallyadjusted,reverse=True)
+        print("top 3 globally adjusted:")
+        for s,i,guess in srt[:3]:
+            print("score : ",s)
+            print("eq : ",equations[i].toString())
+            print("guess : ",guess)
+
+        if len(srt)==0:
+            guess = -1
+            score = 0
+            i = 0
+        else:
+            score,i, guess = srt[0]
+        if guess == answ or guess/100 == answ or answ/100 == guess:
+            print("\nCORRECT")
+            tright=1
+        else:
+
+            print("\nINCORRECT")
+        print("Guessed Equation : ",equations[i].toString() )
+
+        print("Guess : ",guess,"\nTrue Answer :", answ, '\n\n')
+        guesses += 1
         if tright==1:
             if multi:
                 multiopsright += 1
@@ -322,16 +193,36 @@ def infer(q,a,VERBOSE):
         if VERBOSE: input()
         continue
     print(right,guesses)
-    print(multiops,multiopsright)
-    print(ar,sr,mr,dr)
+    #print(multiops,multiopsright)
+
+
+def parse_inp(inp):
+    q=[]
+    a=[]
+    e=[]
+    with open(inp) as f:
+        f = f.readlines()
+        i=0
+        while i<len(f):
+            q.append(f[i])
+            i+=1
+            e.append(f[i])
+            i+=1
+            a.append(f[i])
+            i+=1
+    return (q,a,e)
+
 
 
 if __name__=="__main__":
-    q, a = sys.argv[1:3]
+    inp, mfile, gfile = sys.argv[1:4]
+    q,a,e = parse_inp(inp)
+    local_score.multi = svm_load_model(mfile)
+    globalm = svm_load_model(gfile)
     VERBOSE=False
     TRAIN=False
-    if len(sys.argv)>3:
-        if sys.argv[3]=='v':
+    if len(sys.argv)>4:
+        if sys.argv[4]=='v':
             VERBOSE=True
     infer(q,a,VERBOSE)
 

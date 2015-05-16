@@ -121,7 +121,9 @@ class StringTemplate:
         for eq in self.equations:
             a = eq.solve()
             if len(a) > 0:
-                if a[0] == val:
+                guess = a[0]
+                answ = val
+                if guess == answ or guess/100 == answ or answ/100 == guess:
                     answers += [eq.toString()]
         return answers
 

@@ -13,9 +13,11 @@ from StringTemplate import StringTemplate
 from svmutil import *
 import makesets
 from sympy.solvers.solvers import solve
+import vectorize_eqn
+import local_score
 
 multi = None
-globalm = svm_load_model("data/single.global.m")
+globalm = None
 
 class StanfordNLP:
     def __init__(self, port_number=8080):
@@ -83,6 +85,8 @@ def infer(q,a,VERBOSE):
             k = int(input())
         print(k)
         problem = wps[k].lower()
+        
+        '''
         #First preprocessing, tokenize slightly
         problem = problem.strip().split(" ")
         for i,x in enumerate(problem):
@@ -250,15 +254,27 @@ def infer(q,a,VERBOSE):
             else: contmatch.append(0)
             #print("WAT",thisscore,c.ent,c.num)
             
+            if len(thisscore)==0:
+                scores.append(0)
+            else:
+                scores.append(sum(thisscore)/float(len(thisscore)))
             scores.append(sum(thisscore))
 
             #print(compound)
+        '''
+            
+        ret = local_score.score(problem)
+        if ret == -1:
+            wrong.append(k)
+            continue
+
+        equations, scores, equalsmatch, contmatch, integerproblem = ret
         m = np.argmax(scores)
         #print(scores[m],ST.equations[m].toString())
         srt = sorted([(x,i) for i,x in enumerate(scores)],reverse=True)
         print('\n Top scoring 3 equations: ')
         for x,i in srt[:3]:
-            print(x,ST.equations[i].toString())
+            print(x,equations[i].toString())
 
         '''
         try:
@@ -276,14 +292,15 @@ def infer(q,a,VERBOSE):
         globallyadjusted = []
         answ = float(answs[k])
         for i in eqidxs:
-            eq = ST.equations[i].toString()
-            ogeq = ST.equations[i].toString()
+            eq = equations[i].toString()
+            ogeq = equations[i].toString()
             #eq = eq.replace("=",'-')
             splitEquation = eq.split('=')
             eq = splitEquation[0] + '- (' + splitEquation[1] + ')'
             #print(scores[i], eq)
             try:
                 guess = solve(eq,'x')[0]
+                #print(guess)
             except: continue 
 
             # This is the non-negative constraint
@@ -295,8 +312,12 @@ def infer(q,a,VERBOSE):
                 continue
 
             if not guess.is_integer:
-                if integerproblem:
-                    continue
+                try:
+                    int(guess)
+                except:
+                    if integerproblem:
+                        print("Integer problem")
+                        continue
 
 
             #this is a constraint agianst fractional answers when the problem is integers
@@ -305,11 +326,14 @@ def infer(q,a,VERBOSE):
                 seen.append(guess)
             else: 
                 continue
-            ops = [x for x in ST.equations[i].toString() if x in ['+','-','*','/']]
+            ops = [x for x in equations[i].toString() if x in ['+','-','*','/']]
             vec = []
-            if equalsmatch[i]=='x':continue
+            if equalsmatch[i]=='x':
+                equalsmatch[i]= 0 #continue
+                contmatch[i]=0
 
             #build training vector
+            '''
             if guess == answ: vec.append(1)
             else: vec.append(0)
 
@@ -327,17 +351,21 @@ def infer(q,a,VERBOSE):
             vec.append(int(" total " in problem))
             vec.append(int(" equally " in problem))
             vec.append(int(" equal " in problem))
+            '''
+            vec = vectorize_eqn.vec(scores[i],guess,ogeq.strip().split(" "),integerproblem,equalsmatch[i],contmatch[i],problem)
+
 
             op_label, op_acc, op_val = svm_predict([-1], [vec], globalm,'-q -b 1')
-            op_val = op_val[0][0]
+            op_val = op_val[0][1]
 
-            globallyadjusted.append((scores[i]*op_val,i,guess))
+            #globallyadjusted.append((scores[i] + op_val,i,guess))
+            globallyadjusted.append((op_val,i,guess))
         
         srt = sorted(globallyadjusted,reverse=True)
         print("top 3 globally adjusted:")
         for s,i,guess in srt[:3]:
             print("score : ",s)
-            print("eq : ",ST.equations[i].toString())
+            print("eq : ",equations[i].toString())
             print("guess : ",guess)
 
         if len(srt)==0:
@@ -346,12 +374,13 @@ def infer(q,a,VERBOSE):
             i = 0
         else:
             score,i, guess = srt[0]
-        if guess == answ: 
+        if guess == answ or guess/100 == answ or answ/100 == guess:
             print("\nCORRECT")
             tright=1
         else:
+
             print("\nINCORRECT")
-        print("Guessed Equation : ",ST.equations[i].toString() )
+        print("Guessed Equation : ",equations[i].toString() )
 
         print("Guess : ",guess,"\nTrue Answer :", answ, '\n\n')
         guesses += 1
@@ -370,12 +399,13 @@ def infer(q,a,VERBOSE):
 
 
 if __name__=="__main__":
-    q, a, mfile = sys.argv[1:4]
-    multi = svm_load_model(mfile)
+    q, a, mfile, gfile = sys.argv[1:5]
+    local_score.multi = svm_load_model(mfile)
+    globalm = svm_load_model(gfile)
     VERBOSE=False
     TRAIN=False
-    if len(sys.argv)>4:
-        if sys.argv[4]=='v':
+    if len(sys.argv)>5:
+        if sys.argv[5]=='v':
             VERBOSE=True
     infer(q,a,VERBOSE)
 

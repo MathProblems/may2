@@ -8,13 +8,15 @@ import numpy as np
 #sys.path.insert(0, '/Users/rikka/liblinear-1.94/python')
 #from liblinearutil import *
 sys.path.insert(0, '/Users/rikka/libsvm-3.18/python')
-sys.path.insert(0, '../treebuilder')
-from StringTemplate import StringTemplate
+#sys.path.insert(0, '../treebuilder')
+#from StringTemplate import StringTemplate
 from svmutil import *
 import makesets
 from sympy.solvers.solvers import solve
+import vectorize_eqn
+import local_score
 
-multi = svm_load_model("data/5.7.single.auto.rand.m")
+multi = None
 
 class StanfordNLP:
     def __init__(self, port_number=8080):
@@ -59,8 +61,8 @@ def cleannum(n):
 
 def infer(q,a,cutoff,VERBOSE):
     training = []
-    wps = open(q).readlines()
-    answs = open(a).readlines()
+    wps = q #open(q).readlines()
+    answs = a #open(a).readlines()
     problematic = open('somethingWrongProblems','a')
 
     ar = [0,0]
@@ -84,6 +86,7 @@ def infer(q,a,cutoff,VERBOSE):
             k = int(input())
         print(k)
         problem = wps[k].lower()
+        '''
         #First preprocessing, tokenize slightly
         problem = problem.strip().split(" ")
         for i,x in enumerate(problem):
@@ -152,6 +155,7 @@ def infer(q,a,cutoff,VERBOSE):
             continue
         
 
+
         integerproblem = all([float(x[0]).is_integer() for x in numlist if x[0]!='x'])
         multi = False
         if len(objs)>3:
@@ -177,7 +181,7 @@ def infer(q,a,cutoff,VERBOSE):
         for j,eq in enumerate(ST.equations):
             #print(j,eq.toString())
             good = False
-            '''
+            
             if len(constraints)==0:
                 good = True
             else:
@@ -187,7 +191,7 @@ def infer(q,a,cutoff,VERBOSE):
             if not good:
                 scores.append(-0.2)
                 continue
-            '''
+            
             
                     
             thisscore = []
@@ -252,15 +256,26 @@ def infer(q,a,cutoff,VERBOSE):
                 contmatch.append(1)
             else: contmatch.append(0)
 
-            scores.append(sum(thisscore))
+            if len(thisscore)==0:
+                scores.append(0)
+            else:
+                scores.append(sum(thisscore)/float(len(thisscore)))
 
             #print(compound)
+        '''
+
+        ret = local_score.score(problem)
+        if ret == -1:
+            wrong.append(k)
+            continue
+
+        equations, scores, equalsmatch, contmatch, integerproblem = ret
         m = np.argmax(scores)
         #print(scores[m],ST.equations[m].toString())
         srt = sorted([(x,i) for i,x in enumerate(scores)],reverse=True)
         print('\n Top scoring 3 equations: ')
         for x,i in srt[:3]:
-            print(x,ST.equations[i].toString())
+            print(x,equations[i].toString())
 
         '''
         try:
@@ -272,11 +287,21 @@ def infer(q,a,cutoff,VERBOSE):
                 print(numlist[0].num+"="+target.num)
         '''
         eqidxs = [y[0] for y in sorted(enumerate(scores),key=lambda x:x[1],reverse=True)]
-        seen = []
         tright = 0
-        for i in eqidxs[:cutoff]:
-            eq = ST.equations[i].toString()
-            ogeq = ST.equations[i].toString()
+        j=0
+        for i in eqidxs:
+            if j>=cutoff:
+                break
+            '''
+            if len(eqidxs)<8:
+                goodbadeqs = eqidxs
+            else:
+                goodbadeqs = eqidxs[:4]+eqidxs[-4:]
+            for i in goodbadeqs:
+            '''
+            
+            eq = equations[i].toString()
+            ogeq = equations[i].toString()
             if equalsmatch[i]=='x':
                 continue
             #eq = eq.replace("=",'-')
@@ -287,10 +312,12 @@ def infer(q,a,cutoff,VERBOSE):
                 guess = solve(eq,'x')[0]
             except: continue
             
+            '''
             if guess not in seen:
                 seen.append(guess)
             else: 
                 continue
+            '''
 
             # in a "check for complex number" try statement :/
             try:
@@ -301,16 +328,25 @@ def infer(q,a,cutoff,VERBOSE):
 
 
             answ = float(answs[k])
+
+            vec = []
+            if guess == answ: vec.append(1)
+            else: vec.append(-1)
+            vec.extend(vectorize_eqn.vec(scores[i],guess,ogeq.strip().split(" "),integerproblem,equalsmatch[i],contmatch[i],problem))
+            print(eq,vec)
+            '''
             vec = []
 
             #build training vector
             if guess == answ: vec.append(1)
             else: vec.append(0)
 
+
             vec.append(int(float(guess)<0))
             vec.append(int(integerproblem))
-            vec.append(int(ogeq.index("=")==1))
-            vec.append(int(eq.split(" ")[-1]==x))
+            vec.append(int(ogeq.split(" ").index("=")==1))
+            vec.append(int(ogeq.split(" ").index("=")==len(ogeq.strip().split(" "))-2))
+            vec.append(int(ogeq.split(" ")[-1]=='x'))
             vec.append(equalsmatch[i])
             vec.append(contmatch[i])
             vec.append(int(guess.is_integer))
@@ -321,9 +357,11 @@ def infer(q,a,cutoff,VERBOSE):
             vec.append(int(" total " in problem))
             vec.append(int(" equally " in problem))
             vec.append(int(" equal " in problem))
+            '''
             training.append(vec)
+            j+=1
 
-    f = open("data/single.global.data",'w') 
+    f = open("data/"+OUT+".global.data",'w') 
     for v in training:
         f.write(str(v[0])+" ")
         for i,j in enumerate(v[1:]):
@@ -331,9 +369,29 @@ def infer(q,a,cutoff,VERBOSE):
         f.write("\n")
 
 
+def parse_inp(inp):
+    q=[]
+    a=[]
+    e=[]
+    with open(inp) as f:
+        f = f.readlines()
+        i=0
+        while i<len(f):
+            q.append(f[i])
+            i+=1
+            e.append(f[i])
+            i+=1
+            a.append(f[i])
+            i+=1
+    return (q,a,e)
+
+
 
 if __name__=="__main__":
-    q, a ,cutoff = sys.argv[1:4]
+    inp ,mfile ,cutoff,OUT = sys.argv[1:5]
+
+    q,a,e = parse_inp(inp)
+    local_score.multi = svm_load_model(mfile)
     VERBOSE=False
     TRAIN=False
     infer(q,a,int(cutoff),VERBOSE)

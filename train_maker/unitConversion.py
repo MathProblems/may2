@@ -7,7 +7,8 @@ def numclean(num):
         try:
             return float(''.join([x for x in num if x.isdigit() or x=='.']))
         except:
-            print(num)
+            pass
+        #print(num)
 def main(sets):
     conversions = createConversions()
 
@@ -25,8 +26,8 @@ def main(sets):
             if entity.entity == targ.entity: continue
             convertedVal = findConversion([numclean(entity.num), entity.entity], targ.entity, conversions)
             if convertedVal is not None:
-                print("CONVERTING")
-                print(entity.entity,targ.entity)
+                #print("CONVERTING")
+                #print(entity.entity,targ.entity)
                 entity.entity = targ.entity
                 entity.num = str(convertedVal)
 
@@ -67,8 +68,8 @@ def createConversions():
     '''
 
     # money
-    money = ('money','cent','penny', 'nickel', 'dime', 'quarter', 'half-dollar', 'dollar', 'five-dollar bills')
-    m = [100,1,1, 5, 10, 25, 50, 100, 500]
+    money = ('$','money','cent','penny', 'nickel', 'dime', 'quarter', 'half-dollar', 'dollar', 'five-dollar bills')
+    m = [100,100,1,1, 5, 10, 25, 50, 100, 500]
     conversions[money] = m
 
     # distance

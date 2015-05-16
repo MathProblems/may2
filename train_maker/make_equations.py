@@ -103,20 +103,25 @@ def make_eq(q,a,VERBOSE,TRAIN):
             i+=1
 
 
-        xidx = [x for x in sets if x[1].num=='x']
+        xidx = [i for i,x in enumerate(sets) if x[1].num=='x']
         if not xidx:
             problematic.write('no x :'+problem); continue
 
         #TODO look for 2 xes
-        '''
-        xidx = xidx[0][0]
-        postx = [x for x in numbs if x[0]>=xidx]
-        if len(postx)>1:
-            # 2 vals to right
-            twoToRight = True
-        else:
-            twoToRight = False
-        '''
+        xidx = xidx[0]
+        twoToRight = False
+        if xidx>0:
+            print(len(sets),xidx)
+            if sets[xidx-1][1].entity == 'dozen': 
+                # 2 vals to right
+                twoToRight = True
+        if len(sets)-xidx>1:    
+            if sets[xidx+1][1].entity == 'dozen':
+                twoToRight=True
+        if len(sets)-xidx<3:
+            if sets[xidx][1].entity=='dozen':
+                twoToRight=True
+
 
         
 
@@ -145,6 +150,7 @@ def make_eq(q,a,VERBOSE,TRAIN):
 
         answers = []
         answers = ST.solveEquations(float(answs[k]))
+        print(answs[k])
         if not answers:
             problematic.write("No answers : " + problem + "\n")
             problematic.write(str([x[0] for x in numlist])+'\n')
@@ -153,26 +159,26 @@ def make_eq(q,a,VERBOSE,TRAIN):
         print('done solving')
 
         # if target has 2 entities, try eqs with = x op y format
-        '''
         simpleranswers = None
         if twoToRight:
             try:
-                simpleranswers = [x for x in answers if x.split(" ")[-4]=="=" and x.split(" ")[-3]=='x']
+                simpleranswers = [x for x in answers if x.split(" ")[-4]=="=" and (x.split(" ")[-3]=='x' or x.split(' ')[-1]=='x')]
             except:
                 pass
         if not simpleranswers:
             simpleranswers = [x for x in answers if x.split(" ")[1] == '=' or x.split(" ")[-2]=="="]
-        '''
-        simpleranswers = [x for x in answers if x.split(" ")[1] == '=' or x.split(" ")[-2]=="="]
+        #simpleranswers = [x for x in answers if x.split(" ")[1] == '=' or x.split(" ")[-2]=="="]
 
         #filter out where = in middle if simpler eq exists
         if simpleranswers:
+            print(answers)
             answers = simpleranswers[:]
         else:
             problematic.write("not simple : "+problem+"\n");continue
 
         values = [x[0] for x in numlist]
         xidx = values.index('x')
+        print(simpleranswers)
         print(xidx)
         for a in simpleranswers:
             aspl = [x for x in a.split(" ") if x not in ["/","-",'+','*','=','(',')']]
@@ -203,6 +209,9 @@ def make_eq(q,a,VERBOSE,TRAIN):
             input()
         if not TRAIN:
             continue
+
+        if len([x for x in answers if x.split(" ")[-2]=="="])>0:
+            answers = [x for x in answers if x.split(" ")[-2]=="="]
 
         c = randint(0,len(answers)-1)
         answers = [answers[c]]
