@@ -1,0 +1,1016 @@
+0
+ jason joined his school's band . he bought a flute for $142.46 , a music stand for $8.89 , and a song book for $7 . how much did jason spend at the music store ? 
+flute a
+$ 142.46
+music a
+$ 8.89
+book a
+$ 7
+store the
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : store
+idx : 2008
+location : None
+num : the
+subtypes : []
+surface : store
+type_failure : 0
+verbs : None
+widx : 9
+_____________
+
+['the-7', 'music-8', 'spend-5']
+[] 2006
+4 3
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : music
+contains : None
+entity : dollar
+idx : 1006
+location : None
+num : 142.46
+subtypes : []
+surface : $
+type_failure : 0
+verbs : None
+widx : 6
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : book
+contains : None
+entity : dollar
+idx : 1013
+location : None
+num : 8.89
+subtypes : []
+surface : $
+type_failure : 0
+verbs : None
+widx : 13
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 1021
+location : None
+num : 7
+subtypes : []
+surface : $
+type_failure : 0
+verbs : bought stand
+widx : 21
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : store
+contains : None
+entity : dollar
+idx : 2009
+location : None
+num : x
+subtypes : []
+surface : dollar
+type_failure : 0
+verbs : None
+widx : 10
+_____________
+
+
+ Top scoring 3 equations: 
+0.7956867588498726 142.46 + 8.89 = 7 + x
+0.5649108380449658 142.46 - 8.89 = 7 + x
+0.554490027936037 142.46 = 8.89 + ( 7 + x )
+top 3 globally adjusted:
+score :  0.17356753296885502
+eq :  ( 142.46 - 8.89 ) - 7 = x
+guess :  126.570000000000
+score :  0.16775793411999057
+eq :  ( 142.46 - 8.89 ) * 7 = x
+guess :  934.990000000000
+score :  0.1618242985558167
+eq :  ( 142.46 * 8.89 ) * 7 = x
+guess :  8865.28580000000
+
+INCORRECT
+Guessed Equation :  142.46 + 8.89 = 7 + x
+Guess :  144.350000000000 
+True Answer : 158.35 
+
+
+1
+ on saturday , sara spent $10.62 each on 2 tickets to a movie theater . sara also rented a movie for $1.59 , and bought a movie for $13.95 . how much money in total did sara spend on movies ? 
+$ 10.62
+tickets 2
+theater a
+movie a
+$ 1.59
+movie a
+$ 13.95
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : ticket
+idx : 8
+location : None
+num : each
+subtypes : []
+surface : tickets
+type_failure : 0
+verbs : None
+widx : 9
+_____________
+
+['2-10', 'spent-5']
+[] 7
+5 4
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : sara
+contains : None
+entity : dollar
+idx : 6
+location : None
+num : 10.62
+subtypes : []
+surface : $
+type_failure : 0
+verbs : spent
+widx : 6
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : ticket
+idx : 7
+location : None
+num : 2
+subtypes : []
+surface : tickets
+type_failure : 0
+verbs : spent
+widx : 9
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : movie
+contains : None
+entity : dollar
+idx : 1007
+location : None
+num : 1.59
+subtypes : []
+surface : $
+type_failure : 0
+verbs : None
+widx : 7
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 1015
+location : None
+num : 13.95
+subtypes : []
+surface : $
+type_failure : 0
+verbs : rented bought
+widx : 15
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 2010
+location : None
+num : x
+subtypes : []
+surface : dollar
+type_failure : 0
+verbs : did spend
+widx : 11
+_____________
+
+
+ Top scoring 3 equations: 
+0.8086708066921524 10.62 * 2 = ( 1.59 + 13.95 ) + x
+0.7723939578017801 ( 10.62 * 2 ) + 1.59 = 13.95 + x
+0.7685452994538843 10.62 + ( 2 * 1.59 ) = 13.95 + x
+top 3 globally adjusted:
+score :  0.3930146504067901
+eq :  10.62 * ( 2 + 1.59 ) = 13.95 + x
+guess :  24.1758000000000
+score :  0.39114781634309137
+eq :  ( 10.62 * 2 ) + 1.59 = 13.95 + x
+guess :  8.88000000000000
+score :  0.39025032342516697
+eq :  ( 10.62 * 2 ) + 1.59 = 13.95 * x
+guess :  1.63655913978495
+
+INCORRECT
+Guessed Equation :  ( 10.62 * 2 ) + 1.59 = 13.95 + x
+Guess :  8.88000000000000 
+True Answer : 36.78 
+
+
+2
+ a group of science students went on a field trip . they took 6 vans and 8 buses . there were 6 people in each van and 18 people in each bus . how many people went on the field trip ? 
+group a
+trip a
+vans 6
+buses 8
+people 6
+van each
+people 18
+bus each
+trip the
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : van
+idx : 2006
+location : None
+num : each
+subtypes : []
+surface : van
+type_failure : 0
+verbs : None
+widx : 7
+_____________
+
+['each-6', 'people-4']
+[(2002, <makesets.aset object at 0x1124c6b00>)] 2005
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : bus
+idx : 2012
+location : None
+num : each
+subtypes : []
+surface : bus
+type_failure : 0
+verbs : None
+widx : 13
+_____________
+
+['each-12', 'people-10']
+[(2008, <makesets.aset object at 0x1124c6c18>)] 2011
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : trip
+idx : 3007
+location : None
+num : the
+subtypes : []
+surface : trip
+type_failure : 0
+verbs : None
+widx : 8
+_____________
+
+['the-6', 'field-7', 'went-4']
+[] 3005
+5 4
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : they
+contains : people
+entity : van
+idx : 1002
+location : None
+num : 6
+subtypes : []
+surface : vans
+type_failure : 0
+verbs : took
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : van
+contains : None
+entity : people
+idx : 1003
+location : van
+num : 6
+subtypes : []
+surface : people
+type_failure : 0
+verbs : None
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : people
+entity : bus
+idx : 1005
+location : None
+num : 8
+subtypes : []
+surface : buses
+type_failure : 0
+verbs : took
+widx : 7
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : bus
+contains : None
+entity : people
+idx : 1006
+location : bus
+num : 18
+subtypes : []
+surface : people
+type_failure : 0
+verbs : None
+widx : 10
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : trip
+contains : None
+entity : people
+idx : 2003
+location : None
+num : x
+subtypes : []
+surface : people
+type_failure : 0
+verbs : None
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.7712713281619255 6 + 6 = 8 * ( 18 + x )
+0.7384755980701315 6 + 6 = 8 * ( 18 - x )
+0.6638841520098095 ( 6 + 6 ) * 8 = 18 + x
+top 3 globally adjusted:
+score :  0.5
+eq :  6 * ( ( 6 * 8 ) * 18 ) = x
+guess :  5184
+score :  0.4907137168067239
+eq :  6 * ( 6 * ( 8 * 18 ) ) = x
+guess :  5184
+score :  0.48389632340399497
+eq :  ( 6 * 6 ) * ( 8 * 18 ) = x
+guess :  5184
+
+INCORRECT
+Guessed Equation :  6 = 6 + ( ( 8 * 18 ) - x )
+Guess :  144 
+True Answer : 180.0 
+
+
+3
+ maria needs 21 cartons of berries to make a berry cobbler . she already has 4 cartons of strawberries and 8 cartons of blueberries . how many more cartons of berries should maria buy ? 
+cartons 21
+cobbler a
+cartons 4
+cartons 8
+4 3
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : carton
+idx : 2
+location : None
+num : 21
+subtypes : []
+surface : cartons
+type_failure : 0
+verbs : needs make
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : she
+contains : None
+entity : carton
+idx : 1003
+location : None
+num : 4
+subtypes : []
+surface : cartons
+type_failure : 0
+verbs : has
+widx : 5
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : carton
+idx : 1008
+location : None
+num : 8
+subtypes : []
+surface : cartons
+type_failure : 0
+verbs : has
+widx : 10
+_____________
+
+_____________
+adjs : many more
+compound : 0
+container : None
+contains : None
+entity : carton
+idx : 2003
+location : None
+num : x
+subtypes : []
+surface : cartons
+type_failure : 0
+verbs : maria buy
+widx : 4
+_____________
+
+
+ Top scoring 3 equations: 
+0.6653994049515445 21 + 4 = 8 + x
+0.49186836823129565 21 + 4 = 8 - x
+0.47354272348147647 21 = ( 4 + 8 ) - x
+top 3 globally adjusted:
+score :  0.3685415402431442
+eq :  ( 21 - 4 ) - 8 = x
+guess :  9
+score :  0.36113140728319054
+eq :  ( 21 - 4 ) * 8 = x
+guess :  136
+score :  0.3539618902257105
+eq :  ( 21 * 4 ) * 8 = x
+guess :  672
+
+INCORRECT
+Guessed Equation :  21 + 4 = 8 + x
+Guess :  17 
+True Answer : 9.0 
+
+
+4
+ tim got 3 nickels and 13 dimes for shining shoes , and in his tip jar found 7 dimes and 9 half-dollars . how much money did tim get ? 
+nickels 3
+dimes 13
+dimes 7
+half-dollars 9
+5 4
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : tim
+contains : None
+entity : dollar
+idx : 2
+location : None
+num : 0.15
+subtypes : []
+surface : nickels
+type_failure : 0
+verbs : got
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 5
+location : None
+num : 1.3
+subtypes : []
+surface : dimes
+type_failure : 0
+verbs : got shining found
+widx : 7
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : jar
+contains : None
+entity : dollar
+idx : 17
+location : None
+num : 0.7
+subtypes : []
+surface : dimes
+type_failure : 0
+verbs : found
+widx : 19
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 20
+location : None
+num : 4.5
+subtypes : []
+surface : half-dollars
+type_failure : 0
+verbs : got shining found
+widx : 22
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 1006
+location : None
+num : x
+subtypes : []
+surface : dollar
+type_failure : 0
+verbs : did get
+widx : 7
+_____________
+
+
+ Top scoring 3 equations: 
+0.8628323296184971 ( 0.15 + 1.3 ) + 0.7 = 4.5 + x
+0.8615423797117788 0.15 + ( 1.3 + 0.7 ) = 4.5 + x
+0.8529209341473551 0.15 + 1.3 = ( 0.7 + 4.5 ) + x
+top 3 globally adjusted:
+score :  0.4816260722928898
+eq :  ( 0.15 / 1.3 ) / 0.7 = 4.5 / x
+guess :  27.3000000000000
+score :  0.48158558198539353
+eq :  0.15 / ( 1.3 / 0.7 ) = 4.5 / x
+guess :  55.7142857142857
+score :  0.461765154129361
+eq :  ( ( 0.15 / 1.3 ) / 0.7 ) / 4.5 = x
+guess :  0.0366300366300366
+
+INCORRECT
+Guessed Equation :  0.15 - 1.3 = ( 0.7 - 4.5 ) + x
+Guess :  2.65000000000000 
+True Answer : 6.65 
+
+
+5
+ maggie bought 4 packs of red bouncy balls , 8 packs of yellow bouncy balls , and 4 packs of green bouncy balls . there were 10 bouncy balls in each package . how many bouncy balls did maggie buy in all ? 
+packs 4
+packs 8
+packs 4
+balls 10
+package each
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : package
+idx : 1007
+location : None
+num : each
+subtypes : []
+surface : package
+type_failure : 0
+verbs : None
+widx : 8
+_____________
+
+['each-7', 'balls-5']
+[(1002, <makesets.aset object at 0x112692828>)] 1006
+5 1
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : maggie
+contains : None
+entity : pack
+idx : 2
+location : None
+num : 4
+subtypes : []
+surface : packs
+type_failure : 0
+verbs : bought
+widx : 4
+_____________
+
+_____________
+adjs : many bouncy
+compound : 0
+container : maggie
+contains : None
+entity : ball
+idx : 7
+location : None
+num : x
+subtypes : []
+surface : balls
+type_failure : 0
+verbs : buy
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : pack
+idx : 9
+location : None
+num : 8
+subtypes : []
+surface : packs
+type_failure : 0
+verbs : bought
+widx : 11
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : pack
+idx : 17
+location : None
+num : 4
+subtypes : []
+surface : packs
+type_failure : 0
+verbs : bought
+widx : 19
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : package
+contains : None
+entity : ball
+idx : 1002
+location : package
+num : 10
+subtypes : []
+surface : balls
+type_failure : 0
+verbs : None
+widx : 5
+_____________
+
+
+ Top scoring 3 equations: 
+0.6329106443013839 4 * x = 8 * ( 4 * 10 )
+0.6132735312302524 4 - x = 8 * ( 4 * 10 )
+0.5469364071769143 4 + x = 8 * ( 4 * 10 )
+top 3 globally adjusted:
+score :  0.3880832950974197
+eq :  4 = ( x + 8 ) + ( 4 - 10 )
+guess :  2
+score :  0.3880832950974197
+eq :  4 = ( x + 8 ) + ( 4 - 10 )
+guess :  2
+score :  0.3731432380432547
+eq :  4 = ( x + 8 ) - ( 4 + 10 )
+guess :  10
+
+INCORRECT
+Guessed Equation :  4 * x = 8 * ( 4 * 10 )
+Guess :  80 
+True Answer : 160.0 
+
+
+6
+ your class is having a pizza party . you buy 5 pizzas . each pizza has 4 slices . how many slices is that altogether ? 
+party a
+pizzas 5
+pizza each
+slices 4
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : pizza
+idx : 2001
+location : None
+num : each
+subtypes : []
+surface : pizza
+type_failure : 0
+verbs : None
+widx : 2
+_____________
+
+['each-1', 'has-3']
+[] 2000
+3 2
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : you
+contains : slice
+entity : pizza
+idx : 1002
+location : None
+num : 5
+subtypes : []
+surface : pizzas
+type_failure : 0
+verbs : buy
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : pizza
+contains : None
+entity : slice
+idx : 1003
+location : None
+num : 4
+subtypes : []
+surface : slices
+type_failure : 0
+verbs : has
+widx : 5
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : slice
+idx : 2004
+location : None
+num : x
+subtypes : []
+surface : slices
+type_failure : 0
+verbs : is
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.4159188112963978 5 = 4 + x
+0.2627789688078932 5 * 4 = x
+0.16485281134555027 5 = 4 - x
+top 3 globally adjusted:
+score :  0.42608384918042264
+eq :  5 * 4 = x
+guess :  20
+score :  0.2463015699879577
+eq :  5 - 4 = x
+guess :  1
+score :  0.2168210532166467
+eq :  5 = 4 + x
+guess :  1
+
+CORRECT
+Guessed Equation :  5 * 4 = x
+Guess :  20 
+True Answer : 20.0 
+
+
+7
+ my car gets 20 miles per gallon . how many miles can i drive on 5 gallons of gas ? 
+miles 20
+gallons 5
+3 1
+Sets detected: 
+_____________
+adjs : gallon
+compound : 0
+container : car
+contains : None
+entity : mile
+idx : 3
+location : None
+num : 20
+subtypes : []
+surface : miles
+type_failure : 0
+verbs : gets
+widx : 5
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : mile
+idx : 1002
+location : None
+num : x
+subtypes : []
+surface : miles
+type_failure : 0
+verbs : 
+widx : 3
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : gallon
+idx : 1007
+location : None
+num : 5
+subtypes : []
+surface : gallons
+type_failure : 0
+verbs : 
+widx : 9
+_____________
+
+
+ Top scoring 3 equations: 
+0.2732243248136666 20 = x * 5
+0.23070949242187713 20 = x - 5
+0.18752744786831907 20 + x = 5
+top 3 globally adjusted:
+score :  0.29426751543992097
+eq :  20 = x - 5
+guess :  25
+score :  0.27483346124477964
+eq :  20 = x * 5
+guess :  4
+score :  0.23479162582970203
+eq :  20 - x = 5
+guess :  15
+
+INCORRECT
+Guessed Equation :  20 = x * 5
+Guess :  4 
+True Answer : 100.0 
+
+
+8
+ marlee has 12 guests coming to her halloween party . each table will hold 3 guests . how many tables will marlee need ? 
+guests 12
+table each
+guests 3
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : table
+idx : 1001
+location : None
+num : each
+subtypes : []
+surface : table
+type_failure : 0
+verbs : None
+widx : 2
+_____________
+
+['each-1', 'hold-4']
+[] 1000
+3 1
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : marlee
+contains : None
+entity : guest
+idx : 2
+location : None
+num : 12
+subtypes : []
+surface : guests
+type_failure : 0
+verbs : has
+widx : 4
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : table
+idx : 1000
+location : None
+num : x
+subtypes : []
+surface : tables
+type_failure : 0
+verbs : marlee need
+widx : 3
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : table
+contains : None
+entity : guest
+idx : 1004
+location : None
+num : 3
+subtypes : []
+surface : guests
+type_failure : 0
+verbs : hold
+widx : 6
+_____________
+
+
+ Top scoring 3 equations: 
+0.3825680717471554 12 = x - 3
+0.14808408783642002 12 * x = 3
+0.11077679943866103 12 - x = 3
+top 3 globally adjusted:
+score :  0.47342556594777363
+eq :  12 = x * 3
+guess :  4
+score :  0.4133380087575919
+eq :  12 - x = 3
+guess :  9
+score :  0.4089073247195333
+eq :  12 = x + 3
+guess :  9
+
+INCORRECT
+Guessed Equation :  12 = x - 3
+Guess :  15 
+True Answer : 4.0 
+
+
+1 9

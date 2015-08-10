@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 22 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 98 | 98 | x=(41+57) | x 41 57 + = | x:tree 41:tree 57:tree +:tree =:tree
+EXPR: 1 | POS | INT | 1 | 98 | 98 | x=(41+57) | x 41 57 + = | x:tree 41:tree 57:tree +:tree =:tree
+EXPR: 0 | POS | INT | 2 | 98 | 16 | (41+x)=57 | 41 x + 57 = | 41:tree x:tree +:tree 57:tree =:tree
+EXPR: 1 | POS | INT | 2 | 98 | 98 | (x-41)=57 | x 41 - 57 = | x:tree 41:tree -:tree 57:tree =:tree
+EXPR: 0 | POS | INT | 2 | 98 | 16 | (x+41)=57 | x 41 + 57 = | x:tree 41:tree +:tree 57:tree =:tree
+EXPR: 0 | POS | INT | 2 | 98 | 16 | 41=(57-x) | 41 57 x - = | 41:tree 57:tree x:tree -:tree =:tree
+EXPR: 1 | POS | INT | 2 | 98 | 98 | 41=(x-57) | 41 x 57 - = | 41:tree x:tree 57:tree -:tree =:tree
+EXPR: 0 | POS | INT | 10 | 98 | 16 | x=(57-41) | x 57 41 - = | x:tree 57:tree 41:tree -:tree =:tree
+EXPR: 0 | POS | INT | 11 | 98 | 16 | x=(57-41) | x 57 41 - = | x:tree 57:tree 41:tree -:tree =:tree
+EXPR: 0 | POS | INT | 12 | 98 | 16 | 57=(x+41) | 57 x 41 + = | 57:tree x:tree 41:tree +:tree =:tree
+EXPR: 1 | POS | INT | 12 | 98 | 98 | 57=(x-41) | 57 x 41 - = | 57:tree x:tree 41:tree -:tree =:tree
+EXPR: 0 | POS | INT | 12 | 98 | 16 | (57-x)=41 | 57 x - 41 = | 57:tree x:tree -:tree 41:tree =:tree
+EXPR: 1 | POS | INT | 12 | 98 | 98 | (x-57)=41 | x 57 - 41 = | x:tree 57:tree -:tree 41:tree =:tree
+EXPR: 0 | POS | INT | 12 | 98 | 16 | 57=(41+x) | 57 41 x + = | 57:tree 41:tree x:tree +:tree =:tree
+NET 14 non-negative, integer-valued solutions found out of 22 total solutions

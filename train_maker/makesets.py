@@ -23,6 +23,7 @@ class aset:
         self.contains = None
         self.compound = 0
         self.subtypes = []
+        self.type_failure = 0
 
     def details(self,sf=True):
 
@@ -37,7 +38,7 @@ class aset:
             return string
 
 
-def vector(a,b,problem,target,feats=False):
+def vector(a,b,problem,story,target,feats=False):
     a = a[1]
     b = b[1]
 
@@ -111,6 +112,11 @@ def vector(a,b,problem,target,feats=False):
     except: distance = 1
     vec.append(distance)
 
+    asidx = a.idx//1000
+    bsent = b.idx//1000
+
+
+
 
     features.append('a is target')
     if a.num == 'x': vec.append(1)
@@ -127,13 +133,25 @@ def vector(a,b,problem,target,feats=False):
     else: vec.append(0)
 
 
-    #target features
-    problem = problem.lower()
     asidx = a.idx//1000
     bsidx = b.idx//1000
-    problem = problem.split(" . ")
-    asent = problem[asidx].split(" ")
-    bsent = problem[bsidx].split(" ")
+    story = story['sentences']
+    asent = [x[0] for x in story[asidx]['words']]
+    bsent = [x[0] for x in story[bsidx]['words']]
+    #words inbetween features
+    awidx = a.idx%1000
+    bwidx = b.idx%1000
+    allwords = []
+    for j in range(len(story)):
+        for i,x in enumerate(story[j]['words']):
+            allwords.append((j*1000+i,x[0]))
+    wordseg = [x[1] for x in allwords if x[0]>a.idx and b.idx>x[0]]
+    for item in [',','and','but']:
+        features.append(item)
+        if item in wordseg:
+            vec.append(1)
+        else:
+            vec.append(0)
 
     features.extend(["a times",'b times',"a total",'b total',"a together",'b together',"a more", 'b more' ,"a less",'b less',"a add",'b add',"a divide",'b divide',"a split",'b split',"a equal",'b equal',"a equally",'b equally'])
     for li in ["times","total","together","more","less","add","divide","split","equal","equally"]:
@@ -144,7 +162,8 @@ def vector(a,b,problem,target,feats=False):
         if li in bsent: vec.append(1)
         else: vec.append(0)
 
-    problem = problem[-1]
+    #target features
+    problem = story[-1]['text']
     if " how " in problem:
         problem = problem.split(" how ")[-1]
     elif " what " in problem:
@@ -242,6 +261,9 @@ def combine(a,b,op):
         else:
             c.__dict__[k]= b.__dict__[k]
     #print(c.__dict__)
+    if op == '*':
+        if a.entity == b.entity:
+            c.type_failure = 1
     c.compound = 1
     c.subtypes = [a.entity,b.entity]
     return c
@@ -263,9 +285,13 @@ def entityextract(story):
             nidx = int(nidx)-1
             w,widx = w.rsplit("-",maxsplit=1)
             widx = int(widx)-1
+            print(w,n)
             if w == "$":
                 lemma = 'dollar'
                 sets.append(((j*1000)+nidx,aset(n,lemma,w,j*1000+widx)))
+
+
+
             elif words[widx][1]["PartOfSpeech"] in ["NN","NNS"]:
                 if n=='each' and w=='cost':
                     #let this slip through
@@ -279,21 +305,26 @@ def entityextract(story):
             if (j*1000)+eachi in [x[0] for x in sets]:
                 continue
             setmatch = [x for x in words[eachi:eachi+4] if x[1]['Lemma'] in [y[1].entity for y in sets]]
-            if setmatch:
+            if setmatch and len([x for x in words[eachi:eachi+4] if x[0] in [',','and','but']])==0:
                 nextword = setmatch[0]
             else:
-                nns = [x for x in words if x[1]["PartOfSpeech"]=="NNS"]
-                if nns:
-                    nextword = nns[-1]
+                setmatch = [x for x in words if x[1]['Lemma'] in [y[1].entity for y in sets]]
+                if setmatch:
+                    nextword = setmatch[0]
+                else:
+                    nns = [x for x in words if x[1]["PartOfSpeech"]=="NNS"]
+                    if nns:
+                        nextword = nns[-1]
             lemma = nextword[1]["Lemma"]
             sets.append(((j*1000)+eachi,aset('each',lemma,nextword[0],j*1000+eachi+1)))
 
-    ents = [x[1].entity for x in sets]
     #get question entity
+    ents = [x[1].entity for x in sets]
     q = story[-1]
     j = len(story)-1
     words = q["words"]
     deps = q['indexeddependencies']
+    good = 0
     if "what" in [x[0] for x in words]:
         targets = [x[2] for x in deps if 'what' in x[1] and x[0]=='nsubj']
         if len(targets)==1:
@@ -303,6 +334,15 @@ def entityextract(story):
             sets.append((j*1000+tidx,aset('x',lemma,t,j*1000+tidx)))
     if "how" in [x[0] for x in words]:
         targets = [x[1] for x in deps if x[2].rsplit("-",maxsplit=1)[0] in ['many','much']]
+        wzeros = [x[0] for x in words]
+        if 'much' in wzeros:
+            if 'cost' in wzeros or 'spend':
+                tidx = len(words)-1
+                sets.append((j*1000+tidx,aset('x','dollar',"dollar",j*1000+tidx)))
+                good = 1
+                targets = []
+
+
         if len(targets)==1:
             t,tidx = targets[0].rsplit("-",maxsplit=1)
             tidx = int(tidx)-1
@@ -314,6 +354,7 @@ def entityextract(story):
                     sets.append((j*1000+tidx,aset('dozen',lemma,t,j*1000+tidx)))
                 else:
                     sets.append((j*1000+tidx,aset('x',lemma,t,j*1000+tidx)))
+                good = 1
             else:
                 good = 0
                 if t == "more":
@@ -325,26 +366,28 @@ def entityextract(story):
                             lemma = words[tidx][1]["Lemma"]
                             sets.append((j*1000+tidx,aset('x',lemma,t,j*1000+tidx)))
                             good = 1
+                elif t == 'did':
+                    targets = [x[2] for x in deps if x[1].rsplit("-",maxsplit=1)[0] in ['did'] and x[0]=='nsubj']
+                    if targets:
+                        t,tidx = targets[0].rsplit("-",maxsplit=1)
+                        tidx = int(tidx)-1
+                        if words[tidx][1]["PartOfSpeech"] in ["NN","NNS"]:
+                            lemma = words[tidx][1]["Lemma"]
+                            sets.append((j*1000+tidx,aset('x',lemma,t,j*1000+tidx)))
+                            good = 1
+    
                 if good == 0:
                     sets.append((j*1000+tidx,aset('x','NONE','NONE',None)))
+                    good = 1
         else:
-            '''
-            targets = [x[1] for x in deps if x[2].rsplit("-",maxsplit=1)[0]=='how']
-            if targets:
-                t,tidx = targets[0].rsplit('-',maxsplit=1)
-                tidx = int(tidx)-1
-                if t == 'far':
-                    sets.append((j*1000+tidx,aset('x','DISTANCE','DISTANCE')))
-                if t == 'long':
-                    sets.append((j*1000+tidx,aset('x','LENGTH','LENGTH')))
-            '''
             howidx = [i for i,x in enumerate(words) if x[0]=='how'][0]
             nextword = words[howidx+1]
             if nextword[0] == 'far':
                 sets.append((j*1000+howidx+1,aset('x','DISTANCE','DISTANCE',None)))
-            if nextword[0] == 'long':
+                good = 1
+            elif nextword[0] == 'long':
                 sets.append((j*1000+howidx+1,aset('x','LENGTH','LENGTH',None)))
-
+                good = 1
 
 
 
@@ -368,7 +411,12 @@ def entityextract(story):
                 if prev==1:
                     prevjawn = [x for x in sets if x[0]<idx]
                     if prevjawn:
-                        prevjawn = prevjawn[-1][1]
+                        #prev quantified jawns:
+                        pqjawns = [x for x in prevjawn if floatcheck(x[1].num)]
+                        if pqjawns:
+                            prevjawn = pqjawns[-1][1]
+                        else:
+                            prevjawn = prevjawn[-1][1]
                         sets.append((idx,aset(n,prevjawn.entity,prevjawn.surface,None)))
                     else:
                         #find the NNSess
@@ -389,7 +437,7 @@ def entityextract(story):
 
     
     xset = [x for x in sets if x[1].num=='x']
-    if xset:
+    if xset and good == 0:
         xset = xset[0]
         if xset[1].entity=="NONE":
             #is there a NNS near to the question?
@@ -419,42 +467,6 @@ def entityextract(story):
                 if xset[1].entity not in ['dozen','money','$','money','cent','penny', 'nickel', 'dime', 'quarter', 'half-dollar', 'dollar', 'five-dollar bills','second', 'minute', 'hour', 'day', 'week', 'month', 'year','inches', 'feet', 'yards']:
                     xset[1].entity = quantifiedents[-1]
 
-
-    #REMOVE DUPS THIS IS BAD:
-    '''
-    i = 0
-    #print(sets)
-    while i < len(sets):
-        dups = [y for y in sets if y[1].idx != None]
-        dups = [y for y in dups if y[1].idx == sets[i][1].idx]
-        if len(dups)>1:
-            good = [y for y in dups if len([x for x in y[1].num if x.isdigit()])>0]
-            if good:
-                others = [x for x in dups if x!=good[0]]
-                for x in others:
-                    sets.remove(x)
-            else:
-                # just pick 1
-                for x in dups[1:]:
-                    sets.remove(x)
-        else:
-        i+=1
-    #print(sets)
-    '''
-    '''
-    seen = []
-    for i,x in enumerate(sets):
-        if x[0] in seen:
-            with open("data/"+str(x[0])+'dups.txt','w') as f:
-                dups = [y for y in sets if y[0] == x[0]]
-                string = ''
-                for x in dups:
-                    string += x[1].details(False)
-                f.write(string)
-            del(sets[i])
-        else:
-            seen.append(x[0])
-    '''
     sets = sorted(sets)
     return sets
     
@@ -517,16 +529,29 @@ def containers(sets,story):
                             target[1].container = e.entity
                             e.contains = target[1].entity
                     else:
-                        prev = [x for x in thisothers if x[0]<eidx]
-                        nexxt = [x for x in thisothers if x[0]>eidx]
-                        if not nexxt:
-                            target = prev[-1]
+                        eachdeps = [x[2] for x in deps if e.surface in x[1]]
+                        eachdeps += [x[1] for x in deps if e.surface in x[2]]
+                        meachdeps = [s['words'][int(x.split('-')[-1])-1][1]['Lemma'] for x in eachdeps]
+                        e.details()
+                        print(eachdeps)
+                        eachdeps = [y for y in sets if floatcheck(y[1].num) and y[1].entity in meachdeps and y[1].surface + "-"+str(y[1].widx) in eachdeps]
+                        print(eachdeps,eidx)
+                        if eachdeps:
+                            each0 = sorted([(abs(y[0]-eidx),y[1]) for y in eachdeps],reverse=True)[0]
+                            each0[1].container = e.entity
+                            e.contains = each0[1].entity
                         else:
-                            #really should check distances, but for now lets not
-                            target = nexxt[0]
-                        target[1].container = e.entity
-                        e.contains = target[1].entity
-                    
+                            #if True:
+                            prev = [x for x in thisothers if x[0]<eidx]
+                            nexxt = [x for x in thisothers if x[0]>eidx]
+                            if not nexxt:
+                                target = prev[-1]
+                            else:
+                                #really should check distances, but for now lets not
+                                target = nexxt[0]
+                            target[1].container = e.entity
+                            e.contains = target[1].entity
+                        
 
         for e in thissentsets:
 
@@ -558,6 +583,9 @@ def containers(sets,story):
                     vsubj = [x for x in deps if x[1]==verb and x[0] in ['nsubj','nsubjpass']]
                     if vsubj:
                         e[1].container = ' '.join([x[2].split('-')[0] for x in vsubj])
+            if not e[1].verbs:
+                vbs = [x[0] for x in s['words'] if 'VB' in x[1]['PartOfSpeech']]
+                e[1].verbs = ' '.join(vbs)
 
     return sets
 
@@ -656,6 +684,14 @@ def add_bare_sets(sets,story):
 
     return sets
 
+def fix_times(sets):
+    times = [x for x in sets if x[1].entity == 'time']
+    if times:
+        for x in times:
+            pcontainer = [y[1].container for y in sets if y[0] < x[0] and y[1].container != None]
+            if pcontainer:
+                x[1].entity = pcontainer[-1]
+    return sets
 
 def move_x(sets,story):
     targets = [(i,x) for i,x in enumerate(sets) if x[1].num == 'x']
@@ -667,7 +703,7 @@ def move_x(sets,story):
     q = story[-1]
     j = len(story)-1
     startwords = ['begin','start']
-    endwords = ['leave','remain']
+    endwords = ['leave','remain','finish']
     qlem = [x[1]['Lemma'] for x in q['words']]
     if len([x for x in startwords if x in qlem])>0:
         #move x to beginning
@@ -686,7 +722,10 @@ def move_x(sets,story):
                 smatch = [x for x in smatch if x[1].num != 'x' and not floatcheck(x[1].num)]
                 spots.extend([(x[0],x[1].num) for x in smatch])
             else:
-                spots.append((j*1000+i,'BARE'))
+                #assure this is the only set ref in the vicinity
+                closesets = [x for x in sets if abs(x[0]-(j*1000+i))<10]
+                if len(closesets)==0:
+                    spots.append((j*1000+i,'BARE'))
                 
 
     if spots:
@@ -710,22 +749,23 @@ def move_x(sets,story):
 
 def makesets(story):
     sets = entityextract(story)
-    #print("ee")
-    #print([(x[0],x[1].entity,x[1].num) for x in sets])
+    print("ee")
+    print([(x[0],x[1].entity,x[1].num) for x in sets])
     sets = containers(sets,story)
-    #print("c")
-    #print([(x[0],x[1].entity,x[1].num) for x in sets])
+    print("c")
+    print([(x[0],x[1].entity,x[1].num) for x in sets])
     #sets = circumscription(sets,story)
     sets = uc.main(sets)
     sets = add_bare_sets(sets,story)
-    #print("units and bare sets")
-    #print([(x[0],x[1].entity,x[1].num) for x in sets])
+    print("units and bare sets")
+    print([(x[0],x[1].entity,x[1].num) for x in sets])
     sets = fix_each(sets)
-    #print('eac')
-    #print([(x[0],x[1].entity,x[1].num) for x in sets])
+    sets = fix_times(sets)
+    print('eac')
+    print([(x[0],x[1].entity,x[1].num) for x in sets])
     sets = move_x(sets,story)
-    #print('mov x')
-    #print([(x[0],x[1].entity,x[1].num) for x in sets])
+    print('mov x')
+    print([(x[0],x[1].entity,x[1].num) for x in sets])
     #print([(x[0],x[1].entity,x[1].num) for x in sets])
     #rewrite(sets,story)
     

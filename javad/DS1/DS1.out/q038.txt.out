@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 89 | 89 | x=(42+47) | x 42 47 + = | x:turnip 42:turnip 47:turnip +:turnip =:turnip
+EXPR: 1 | POS | INT | 0 | 89 | 89 | (42+47)=x | 42 47 + x = | 42:turnip 47:turnip +:turnip x:turnip =:turnip
+EXPR: 0 | POS | INT | 2 | 89 | 5 | (x+42)=47 | x 42 + 47 = | x:turnip 42:turnip +:turnip 47:turnip =:turnip
+EXPR: 0 | POS | INT | 2 | 89 | 5 | 42=(47-x) | 42 47 x - = | 42:turnip 47:turnip x:turnip -:turnip =:turnip
+EXPR: 0 | POS | INT | 2 | 89 | 5 | x=(47-42) | x 47 42 - = | x:turnip 47:turnip 42:turnip -:turnip =:turnip
+EXPR: 0 | POS | INT | 2 | 89 | 5 | (47-42)=x | 47 42 - x = | 47:turnip 42:turnip -:turnip x:turnip =:turnip
+EXPR: 1 | POS | INT | 2 | 89 | 89 | 42=(x-47) | 42 x 47 - = | 42:turnip x:turnip 47:turnip -:turnip =:turnip
+EXPR: 0 | POS | INT | 2 | 89 | 5 | (42+x)=47 | 42 x + 47 = | 42:turnip x:turnip +:turnip 47:turnip =:turnip
+EXPR: 1 | POS | INT | 2 | 89 | 89 | (x-42)=47 | x 42 - 47 = | x:turnip 42:turnip -:turnip 47:turnip =:turnip
+EXPR: 1 | POS | INT | 4 | 89 | 89 | 47=(x-42) | 47 x 42 - = | 47:turnip x:turnip 42:turnip -:turnip =:turnip
+EXPR: 0 | POS | INT | 4 | 89 | 5 | (47-x)=42 | 47 x - 42 = | 47:turnip x:turnip -:turnip 42:turnip =:turnip
+EXPR: 1 | POS | INT | 4 | 89 | 89 | (x-47)=42 | x 47 - 42 = | x:turnip 47:turnip -:turnip 42:turnip =:turnip
+EXPR: 0 | POS | INT | 4 | 89 | 5 | 47=(42+x) | 47 42 x + = | 47:turnip 42:turnip x:turnip +:turnip =:turnip
+EXPR: 0 | POS | INT | 4 | 89 | 5 | 47=(x+42) | 47 x 42 + = | 47:turnip x:turnip 42:turnip +:turnip =:turnip
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

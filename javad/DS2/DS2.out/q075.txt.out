@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 0 | 0.4 | 1.4 | x=(0.5+0.9) | x 0.5 0.9 + = | x:cat 0.5:cat 0.9:cat +:cat =:cat
+EXPR: 0 | POS | FRA | 0 | 0.4 | 1.4 | (0.5+0.9)=x | 0.5 0.9 + x = | 0.5:cat 0.9:cat +:cat x:cat =:cat
+EXPR: 1 | POS | FRA | 2 | 0.4 | 0.4 | (x+0.5)=0.9 | x 0.5 + 0.9 = | x:cat 0.5:cat +:cat 0.9:cat =:cat
+EXPR: 1 | POS | FRA | 2 | 0.4 | 0.4 | 0.5=(0.9-x) | 0.5 0.9 x - = | 0.5:cat 0.9:cat x:cat -:cat =:cat
+EXPR: 1 | POS | FRA | 2 | 0.4 | 0.4 | x=(0.9-0.5) | x 0.9 0.5 - = | x:cat 0.9:cat 0.5:cat -:cat =:cat
+EXPR: 1 | POS | FRA | 2 | 0.4 | 0.4 | (0.9-0.5)=x | 0.9 0.5 - x = | 0.9:cat 0.5:cat -:cat x:cat =:cat
+EXPR: 0 | POS | FRA | 2 | 0.4 | 1.4 | 0.5=(x-0.9) | 0.5 x 0.9 - = | 0.5:cat x:cat 0.9:cat -:cat =:cat
+EXPR: 1 | POS | FRA | 2 | 0.4 | 0.4 | (0.5+x)=0.9 | 0.5 x + 0.9 = | 0.5:cat x:cat +:cat 0.9:cat =:cat
+EXPR: 0 | POS | FRA | 2 | 0.4 | 1.4 | (x-0.5)=0.9 | x 0.5 - 0.9 = | x:cat 0.5:cat -:cat 0.9:cat =:cat
+EXPR: 0 | POS | FRA | 4 | 0.4 | 1.4 | 0.9=(x-0.5) | 0.9 x 0.5 - = | 0.9:cat x:cat 0.5:cat -:cat =:cat
+EXPR: 1 | POS | FRA | 4 | 0.4 | 0.4 | (0.9-x)=0.5 | 0.9 x - 0.5 = | 0.9:cat x:cat -:cat 0.5:cat =:cat
+EXPR: 0 | POS | FRA | 4 | 0.4 | 1.4 | (x-0.9)=0.5 | x 0.9 - 0.5 = | x:cat 0.9:cat -:cat 0.5:cat =:cat
+EXPR: 1 | POS | FRA | 4 | 0.4 | 0.4 | 0.9=(0.5+x) | 0.9 0.5 x + = | 0.9:cat 0.5:cat x:cat +:cat =:cat
+EXPR: 1 | POS | FRA | 4 | 0.4 | 0.4 | 0.9=(x+0.5) | 0.9 x 0.5 + = | 0.9:cat x:cat 0.5:cat +:cat =:cat
+NET 14 unique, non-negative solutions found out of 28 total solutions

@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 50 | 24 | (37-13)=x | 37 13 - x = | 37:seashell 13:seashell -:seashell x:seashell =:seashell
+EXPR: 1 | POS | INT | 0 | 50 | 50 | x=(37+13) | x 37 13 + = | x:seashell 37:seashell 13:seashell +:seashell =:seashell
+EXPR: 0 | POS | INT | 0 | 50 | 24 | x=(37-13) | x 37 13 - = | x:seashell 37:seashell 13:seashell -:seashell =:seashell
+EXPR: 1 | POS | INT | 0 | 50 | 50 | (37+13)=x | 37 13 + x = | 37:seashell 13:seashell +:seashell x:seashell =:seashell
+EXPR: 0 | POS | INT | 2 | 50 | 24 | 37=(13+x) | 37 13 x + = | 37:seashell 13:seashell x:seashell +:seashell =:seashell
+EXPR: 0 | POS | INT | 2 | 50 | 24 | 37=(x+13) | 37 x 13 + = | 37:seashell x:seashell 13:seashell +:seashell =:seashell
+EXPR: 1 | POS | INT | 2 | 50 | 50 | 37=(x-13) | 37 x 13 - = | 37:seashell x:seashell 13:seashell -:seashell =:seashell
+EXPR: 0 | POS | INT | 2 | 50 | 24 | (37-x)=13 | 37 x - 13 = | 37:seashell x:seashell -:seashell 13:seashell =:seashell
+EXPR: 1 | POS | INT | 2 | 50 | 50 | (x-37)=13 | x 37 - 13 = | x:seashell 37:seashell -:seashell 13:seashell =:seashell
+EXPR: 1 | POS | INT | 4 | 50 | 50 | 13=(x-37) | 13 x 37 - = | 13:seashell x:seashell 37:seashell -:seashell =:seashell
+EXPR: 0 | POS | INT | 4 | 50 | 24 | (13+x)=37 | 13 x + 37 = | 13:seashell x:seashell +:seashell 37:seashell =:seashell
+EXPR: 1 | POS | INT | 4 | 50 | 50 | (x-13)=37 | x 13 - 37 = | x:seashell 13:seashell -:seashell 37:seashell =:seashell
+EXPR: 0 | POS | INT | 4 | 50 | 24 | (x+13)=37 | x 13 + 37 = | x:seashell 13:seashell +:seashell 37:seashell =:seashell
+EXPR: 0 | POS | INT | 4 | 50 | 24 | 13=(37-x) | 13 37 x - = | 13:seashell 37:seashell x:seashell -:seashell =:seashell
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

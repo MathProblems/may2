@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 56 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 77 | 77 | (33+44)=x | 33 44 + x = | 33:tree 44:tree +:tree x:tree =:tree
+EXPR: 0 | POS | INT | 0 | 77 | 1452 | (33*44)=x | 33 44 * x = | 33:tree 44:tree *:tree x:tree =:tree
+EXPR: 1 | POS | INT | 0 | 77 | 77 | x=(33+44) | x 33 44 + = | x:tree 33:tree 44:tree +:tree =:tree
+EXPR: 0 | POS | INT | 0 | 77 | 1452 | x=(33*44) | x 33 44 * = | x:tree 33:tree 44:tree *:tree =:tree
+EXPR: 1 | POS | INT | 2 | 77 | 77 | 33=(x-44) | 33 x 44 - = | 33:tree x:tree 44:tree -:tree =:tree
+EXPR: 0 | POS | INT | 2 | 77 | 1452 | 33=(x/44) | 33 x 44 / = | 33:tree x:tree 44:tree /:tree =:tree
+EXPR: 0 | POS | INT | 2 | 77 | 11 | (x+33)=44 | x 33 + 44 = | x:tree 33:tree +:tree 44:tree =:tree
+EXPR: 0 | POS | INT | 2 | 77 | 11 | x=(44-33) | x 44 33 - = | x:tree 44:tree 33:tree -:tree =:tree
+EXPR: 0 | POS | INT | 2 | 77 | 11 | (33+x)=44 | 33 x + 44 = | 33:tree x:tree +:tree 44:tree =:tree
+EXPR: 0 | POS | INT | 2 | 77 | 11 | (44-33)=x | 44 33 - x = | 44:tree 33:tree -:tree x:tree =:tree
+EXPR: 1 | POS | INT | 2 | 77 | 77 | (x-33)=44 | x 33 - 44 = | x:tree 33:tree -:tree 44:tree =:tree
+EXPR: 0 | POS | INT | 2 | 77 | 1452 | (x/33)=44 | x 33 / 44 = | x:tree 33:tree /:tree 44:tree =:tree
+EXPR: 0 | POS | INT | 2 | 77 | 11 | 33=(44-x) | 33 44 x - = | 33:tree 44:tree x:tree -:tree =:tree
+EXPR: 1 | POS | INT | 4 | 77 | 77 | 44=(x-33) | 44 x 33 - = | 44:tree x:tree 33:tree -:tree =:tree
+EXPR: 0 | POS | INT | 4 | 77 | 11 | 44=(x+33) | 44 x 33 + = | 44:tree x:tree 33:tree +:tree =:tree
+EXPR: 0 | POS | INT | 4 | 77 | 1452 | 44=(x/33) | 44 x 33 / = | 44:tree x:tree 33:tree /:tree =:tree
+EXPR: 0 | POS | INT | 4 | 77 | 11 | (44-x)=33 | 44 x - 33 = | 44:tree x:tree -:tree 33:tree =:tree
+EXPR: 0 | POS | INT | 4 | 77 | 11 | 44=(33+x) | 44 33 x + = | 44:tree 33:tree x:tree +:tree =:tree
+EXPR: 0 | POS | INT | 4 | 77 | 1452 | (x/44)=33 | x 44 / 33 = | x:tree 44:tree /:tree 33:tree =:tree
+EXPR: 1 | POS | INT | 4 | 77 | 77 | (x-44)=33 | x 44 - 33 = | x:tree 44:tree -:tree 33:tree =:tree
+NET 20 unique, non-negative, integer-valued solutions found out of 56 total solutions

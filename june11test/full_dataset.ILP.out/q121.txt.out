@@ -1,0 +1,56 @@
+parameters: n=7 l=3 k=1 p=5 q=3 m=9
+TOTAL 100 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 2 | 32 | 2 | (x*(48/8))=12 | x 48 8 / * 12 = | x:dozen 48:book 8:Mike /:book *:book 12:book =:book
+EXPR: 0 | POS | INT | 2 | 32 | 2 | 48=((8*12)/x) | 48 8 12 * x / = | 48:book 8:Mike 12:book *:book x:dozen /:book =:book
+EXPR: 1 | POS | INT | 2 | 32 | 32 | 48=((x/8)*12) | 48 x 8 / 12 * = | 48:book x:dozen 8:Mike /:dozen 12:book *:book =:book
+EXPR: 0 | POS | INT | 2 | 32 | 2 | 48=(8*(12/x)) | 48 8 12 x / * = | 48:book 8:Mike 12:book x:dozen /:book *:book =:book
+EXPR: 0 | POS | INT | 2 | 32 | 2 | (48*(x/8))=12 | 48 x 8 / * 12 = | 48:book x:dozen 8:Mike /:dozen *:book 12:book =:book
+EXPR: 0 | POS | INT | 2 | 32 | 2 | ((x*48)/8)=12 | x 48 * 8 / 12 = | x:dozen 48:book *:book 8:Mike /:book 12:book =:book
+EXPR: 1 | POS | INT | 2 | 32 | 32 | (48*(8/x))=12 | 48 8 x / * 12 = | 48:book 8:Mike x:dozen /:Mike *:book 12:book =:book
+EXPR: 0 | POS | INT | 2 | 32 | 2 | ((48*x)/8)=12 | 48 x * 8 / 12 = | 48:book x:dozen *:book 8:Mike /:book 12:book =:book
+EXPR: 0 | POS | INT | 2 | 32 | 2 | 48=((8/x)*12) | 48 8 x / 12 * = | 48:book 8:Mike x:dozen /:Mike 12:book *:book =:book
+EXPR: 1 | POS | INT | 2 | 32 | 32 | ((48/x)*8)=12 | 48 x / 8 * 12 = | 48:book x:dozen /:book 8:Mike *:book 12:book =:book
+EXPR: 1 | POS | INT | 2 | 32 | 32 | ((48*8)/x)=12 | 48 8 * x / 12 = | 48:book 8:Mike *:book x:dozen /:book 12:book =:book
+EXPR: 0 | POS | INT | 2 | 32 | 2 | ((48/8)*x)=12 | 48 8 / x * 12 = | 48:book 8:Mike /:book x:dozen *:book 12:book =:book
+EXPR: 0 | POS | INT | 10 | 32 | 4608 | x=((48*8)*12) | x 48 8 * 12 * = | x:dozen 48:book 8:Mike *:Mike 12:dozen *:dozen =:dozen
+EXPR: 0 | POS | INT | 10 | 32 | 4608 | x=(48*(8*12)) | x 48 8 12 * * = | x:dozen 48:dozen 8:Mike 12:book *:Mike *:dozen =:dozen
+EXPR: 0 | POS | INT | 10 | 32 | 4608 | x=((48*8)*12) | x 48 8 * 12 * = | x:dozen 48:book 8:Mike *:book 12:dozen *:dozen =:dozen
+EXPR: 0 | POS | INT | 10 | 32 | 72 | x=((48/8)*12) | x 48 8 / 12 * = | x:dozen 48:book 8:Mike /:book 12:dozen *:dozen =:dozen
+EXPR: 0 | POS | INT | 10 | 32 | 4608 | x=((48*8)*12) | x 48 8 * 12 * = | x:book 48:book 8:Mike *:Mike 12:book *:book =:book
+EXPR: 0 | POS | INT | 10 | 32 | 4608 | x=(48*(8*12)) | x 48 8 12 * * = | x:dozen 48:book 8:Mike 12:dozen *:dozen *:dozen =:dozen
+EXPR: 1 | POS | INT | 10 | 32 | 32 | x=((48*8)/12) | x 48 8 * 12 / = | x:Mike 48:book 8:Mike *:Mike 12:book /:Mike =:Mike
+EXPR: 0 | POS | INT | 10 | 32 | 4608 | x=((48*8)*12) | x 48 8 * 12 * = | x:dozen 48:dozen 8:Mike *:dozen 12:book *:dozen =:dozen
+EXPR: 0 | POS | INT | 10 | 32 | 4608 | x=((48*8)*12) | x 48 8 * 12 * = | x:Mike 48:book 8:Mike *:Mike 12:book *:Mike =:Mike
+EXPR: 1 | POS | INT | 10 | 32 | 32 | x=((48*8)/12) | x 48 8 * 12 / = | x:dozen 48:dozen 8:Mike *:dozen 12:book /:dozen =:dozen
+EXPR: 0 | POS | INT | 10 | 32 | 72 | x=((48/8)*12) | x 48 8 / 12 * = | x:dozen 48:dozen 8:Mike /:dozen 12:book *:dozen =:dozen
+EXPR: 0 | POS | INT | 10 | 32 | 4608 | x=(48*(8*12)) | x 48 8 12 * * = | x:Mike 48:book 8:Mike 12:book *:Mike *:Mike =:Mike
+EXPR: 1 | POS | INT | 10 | 32 | 32 | x=(48*(8/12)) | x 48 8 12 / * = | x:Mike 48:book 8:Mike 12:book /:Mike *:Mike =:Mike
+EXPR: 1 | POS | INT | 10 | 32 | 32 | x=((48*8)/12) | x 48 8 * 12 / = | x:dozen 48:book 8:dozen *:dozen 12:book /:dozen =:dozen
+EXPR: 0 | POS | INT | 11 | 32 | 4608 | x=((48*8)*12) | x 48 8 * 12 * = | x:dozen 48:book 8:Mike *:Mike 12:dozen *:dozen =:dozen
+EXPR: 0 | POS | INT | 11 | 32 | 4608 | x=(48*(8*12)) | x 48 8 12 * * = | x:dozen 48:book 8:Mike 12:dozen *:dozen *:dozen =:dozen
+EXPR: 0 | POS | INT | 11 | 32 | 4608 | x=((48*8)*12) | x 48 8 * 12 * = | x:dozen 48:book 8:Mike *:book 12:dozen *:dozen =:dozen
+EXPR: 0 | POS | INT | 11 | 32 | 72 | x=((48/8)*12) | x 48 8 / 12 * = | x:dozen 48:book 8:Mike /:book 12:dozen *:dozen =:dozen
+EXPR: 1 | POS | INT | 11 | 32 | 32 | x=((48*8)/12) | x 48 8 * 12 / = | x:Mike 48:book 8:Mike *:Mike 12:book /:Mike =:Mike
+EXPR: 0 | POS | INT | 11 | 32 | 4608 | x=((48*8)*12) | x 48 8 * 12 * = | x:Mike 48:book 8:Mike *:Mike 12:book *:Mike =:Mike
+EXPR: 1 | POS | INT | 11 | 32 | 32 | x=((48*8)/12) | x 48 8 * 12 / = | x:dozen 48:dozen 8:Mike *:dozen 12:book /:dozen =:dozen
+EXPR: 1 | POS | INT | 11 | 32 | 32 | x=(48*(8/12)) | x 48 8 12 / * = | x:Mike 48:book 8:Mike 12:book /:Mike *:Mike =:Mike
+EXPR: 0 | POS | INT | 11 | 32 | 4608 | x=((48*8)*12) | x 48 8 * 12 * = | x:dozen 48:dozen 8:Mike *:dozen 12:book *:dozen =:dozen
+EXPR: 0 | POS | INT | 11 | 32 | 4608 | x=(48*(8*12)) | x 48 8 12 * * = | x:Mike 48:book 8:Mike 12:book *:Mike *:Mike =:Mike
+EXPR: 0 | POS | INT | 12 | 32 | 2 | 48=((12/x)*8) | 48 12 x / 8 * = | 48:book 12:book x:dozen /:book 8:Mike *:book =:book
+EXPR: 1 | POS | INT | 12 | 32 | 32 | (8*(48/x))=12 | 8 48 x / * 12 = | 8:Mike 48:book x:dozen /:book *:book 12:book =:book
+EXPR: 0 | POS | INT | 12 | 32 | 144 | 48=(x-(8*12)) | 48 x 8 12 * - = | 48:book x:book 8:Mike 12:book *:book -:book =:book
+EXPR: 0 | POS | INT | 12 | 32 | 72 | ((x/48)*8)=12 | x 48 / 8 * 12 = | x:dozen 48:book /:dozen 8:Mike *:dozen 12:dozen =:dozen
+EXPR: 0 | POS | INT | 12 | 32 | 72 | 48=((8/12)*x) | 48 8 12 / x * = | 48:Mike 8:Mike 12:book /:Mike x:dozen *:Mike =:Mike
+EXPR: 0 | POS | INT | 12 | 32 | 72 | ((x/48)*8)=12 | x 48 / 8 * 12 = | x:dozen 48:book /:dozen 8:book *:book 12:book =:book
+EXPR: 0 | POS | INT | 12 | 32 | 2 | ((x*48)/8)=12 | x 48 * 8 / 12 = | x:dozen 48:book *:book 8:dozen /:book 12:book =:book
+EXPR: 0 | POS | INT | 12 | 32 | 372 | ((48*8)-x)=12 | 48 8 * x - 12 = | 48:book 8:Mike *:book x:book -:book 12:book =:book
+EXPR: 0 | POS | INT | 12 | 32 | 6 | ((48/8)+x)=12 | 48 8 / x + 12 = | 48:book 8:Mike /:book x:book +:book 12:book =:book
+EXPR: 0 | POS | INT | 12 | 32 | 2 | ((48*x)/8)=12 | 48 x * 8 / 12 = | 48:book x:Mike *:book 8:Mike /:book 12:book =:book
+EXPR: 0 | POS | INT | 12 | 32 | 2 | (48*(x/8))=12 | 48 x 8 / * 12 = | 48:book x:dozen 8:book /:dozen *:book 12:book =:book
+EXPR: 1 | POS | INT | 12 | 32 | 32 | ((48/x)*8)=12 | 48 x / 8 * 12 = | 48:book x:dozen /:book 8:dozen *:book 12:book =:book
+EXPR: 1 | POS | INT | 12 | 32 | 32 | ((48/x)*8)=12 | 48 x / 8 * 12 = | 48:book x:Mike /:book 8:Mike *:book 12:book =:book
+EXPR: 0 | POS | INT | 12 | 32 | 2 | ((x/8)*48)=12 | x 8 / 48 * 12 = | x:dozen 8:Mike /:dozen 48:book *:book 12:book =:book
+EXPR: 1 | POS | INT | 12 | 32 | 32 | ((48*8)/x)=12 | 48 8 * x / 12 = | 48:book 8:Mike *:book x:Mike /:book 12:book =:book
+EXPR: 0 | POS | INT | 12 | 32 | 2 | ((48*x)/8)=12 | 48 x * 8 / 12 = | 48:book x:dozen *:book 8:dozen /:book 12:book =:book
+NET 52 non-negative, integer-valued solutions found out of 100 total solutions

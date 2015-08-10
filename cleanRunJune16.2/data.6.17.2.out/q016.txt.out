@@ -1,0 +1,28 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 124 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 21 | 69 | (1*69)=x | 1 69 * x = | 1:people 69:number *:number x:number =:number
+EXPR: 0 | POS | INT | 0 | 21 | 69 | x=(1*69) | x 1 69 * = | x:number 1:people 69:number *:number =:number
+EXPR: 0 | POS | INT | 2 | 21 | 69 | (1*x)=69 | 1 x * 69 = | 1:people x:number *:number 69:number =:number
+EXPR: 0 | POS | INT | 2 | 21 | 69 | (x*1)=69 | x 1 * 69 = | x:number 1:people *:number 69:number =:number
+EXPR: 0 | POS | INT | 4 | 21 | 69 | 69=(x*1) | 69 x 1 * = | 69:number x:number 1:people *:number =:number
+EXPR: 0 | POS | INT | 4 | 21 | 69 | 69=(1*x) | 69 1 x * = | 69:number 1:people x:number *:number =:number
+EXPR: 0 | POS | INT | 10 | 21 | 70 | (1+69)=x | 1 69 + x = | 1:number 69:number +:number x:number =:number
+EXPR: 0 | POS | INT | 10 | 21 | 70 | x=(1+69) | x 1 69 + = | x:number 1:number 69:number +:number =:number
+EXPR: 0 | POS | INT | 12 | 21 | 68 | x=(69-1) | x 69 1 - = | x:number 69:number 1:number -:number =:number
+EXPR: 0 | POS | INT | 12 | 21 | 69 | 1=(x/69) | 1 x 69 / = | 1:people x:people 69:number /:people =:people
+EXPR: 0 | POS | INT | 12 | 21 | 69 | 1=(69/x) | 1 69 x / = | 1:people 69:people x:number /:people =:people
+EXPR: 0 | POS | INT | 12 | 21 | 70 | 1=(x-69) | 1 x 69 - = | 1:number x:number 69:number -:number =:number
+EXPR: 0 | POS | INT | 12 | 21 | 68 | 1=(69-x) | 1 69 x - = | 1:number 69:number x:number -:number =:number
+EXPR: 0 | POS | INT | 12 | 21 | 68 | (1+x)=69 | 1 x + 69 = | 1:number x:number +:number 69:number =:number
+EXPR: 0 | POS | INT | 12 | 21 | 68 | (x+1)=69 | x 1 + 69 = | x:number 1:number +:number 69:number =:number
+EXPR: 0 | POS | INT | 12 | 21 | 68 | (69-1)=x | 69 1 - x = | 69:number 1:number -:number x:number =:number
+EXPR: 0 | POS | INT | 12 | 21 | 70 | (x-1)=69 | x 1 - 69 = | x:number 1:number -:number 69:number =:number
+EXPR: 0 | POS | INT | 14 | 21 | 68 | (69-x)=1 | 69 x - 1 = | 69:number x:number -:number 1:number =:number
+EXPR: 0 | POS | INT | 14 | 21 | 68 | 69=(1+x) | 69 1 x + = | 69:number 1:number x:number +:number =:number
+EXPR: 0 | POS | INT | 14 | 21 | 68 | 69=(x+1) | 69 x 1 + = | 69:number x:number 1:number +:number =:number
+EXPR: 0 | POS | INT | 14 | 21 | 70 | 69=(x-1) | 69 x 1 - = | 69:number x:number 1:number -:number =:number
+EXPR: 0 | POS | INT | 14 | 21 | 69 | (69/x)=1 | 69 x / 1 = | 69:people x:number /:people 1:people =:people
+EXPR: 0 | POS | INT | 14 | 21 | 69 | (x/69)=1 | x 69 / 1 = | x:people 69:number /:people 1:people =:people
+EXPR: 0 | POS | INT | 14 | 21 | 70 | (x-69)=1 | x 69 - 1 = | x:number 69:number -:number 1:number =:number
+NET 24 unique, non-negative, integer-valued solutions found out of 124 total solutions

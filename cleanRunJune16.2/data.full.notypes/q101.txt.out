@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 56 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 9 | 70 | (7+63)=x | 7 63 + x = | 7:day 63:day +:day x:day =:day
+EXPR: 0 | POS | INT | 0 | 9 | 441 | (7*63)=x | 7 63 * x = | 7:day 63:day *:day x:day =:day
+EXPR: 0 | POS | INT | 0 | 9 | 70 | x=(7+63) | x 7 63 + = | x:day 7:day 63:day +:day =:day
+EXPR: 0 | POS | INT | 0 | 9 | 441 | x=(7*63) | x 7 63 * = | x:day 7:day 63:day *:day =:day
+EXPR: 1 | POS | INT | 2 | 9 | 9 | 7=(63/x) | 7 63 x / = | 7:day 63:day x:day /:day =:day
+EXPR: 0 | POS | INT | 2 | 9 | 70 | 7=(x-63) | 7 x 63 - = | 7:day x:day 63:day -:day =:day
+EXPR: 0 | POS | INT | 2 | 9 | 441 | 7=(x/63) | 7 x 63 / = | 7:day x:day 63:day /:day =:day
+EXPR: 1 | POS | INT | 2 | 9 | 9 | (7*x)=63 | 7 x * 63 = | 7:day x:day *:day 63:day =:day
+EXPR: 0 | POS | INT | 2 | 9 | 56 | (x+7)=63 | x 7 + 63 = | x:day 7:day +:day 63:day =:day
+EXPR: 0 | POS | INT | 2 | 9 | 56 | x=(63-7) | x 63 7 - = | x:day 63:day 7:day -:day =:day
+EXPR: 0 | POS | INT | 2 | 9 | 56 | (7+x)=63 | 7 x + 63 = | 7:day x:day +:day 63:day =:day
+EXPR: 1 | POS | INT | 2 | 9 | 9 | x=(63/7) | x 63 7 / = | x:day 63:day 7:day /:day =:day
+EXPR: 0 | POS | INT | 2 | 9 | 56 | (63-7)=x | 63 7 - x = | 63:day 7:day -:day x:day =:day
+EXPR: 1 | POS | INT | 2 | 9 | 9 | (63/7)=x | 63 7 / x = | 63:day 7:day /:day x:day =:day
+EXPR: 0 | POS | INT | 2 | 9 | 70 | (x-7)=63 | x 7 - 63 = | x:day 7:day -:day 63:day =:day
+EXPR: 0 | POS | INT | 2 | 9 | 441 | (x/7)=63 | x 7 / 63 = | x:day 7:day /:day 63:day =:day
+EXPR: 1 | POS | INT | 2 | 9 | 9 | (x*7)=63 | x 7 * 63 = | x:day 7:day *:day 63:day =:day
+EXPR: 0 | POS | INT | 2 | 9 | 56 | 7=(63-x) | 7 63 x - = | 7:day 63:day x:day -:day =:day
+EXPR: 0 | POS | INT | 4 | 9 | 70 | 63=(x-7) | 63 x 7 - = | 63:day x:day 7:day -:day =:day
+EXPR: 0 | POS | INT | 4 | 9 | 56 | 63=(x+7) | 63 x 7 + = | 63:day x:day 7:day +:day =:day
+EXPR: 1 | POS | INT | 4 | 9 | 9 | (63/x)=7 | 63 x / 7 = | 63:day x:day /:day 7:day =:day
+EXPR: 1 | POS | INT | 4 | 9 | 9 | 63=(x*7) | 63 x 7 * = | 63:day x:day 7:day *:day =:day
+EXPR: 0 | POS | INT | 4 | 9 | 441 | 63=(x/7) | 63 x 7 / = | 63:day x:day 7:day /:day =:day
+EXPR: 0 | POS | INT | 4 | 9 | 56 | (63-x)=7 | 63 x - 7 = | 63:day x:day -:day 7:day =:day
+EXPR: 1 | POS | INT | 4 | 9 | 9 | 63=(7*x) | 63 7 x * = | 63:day 7:day x:day *:day =:day
+EXPR: 0 | POS | INT | 4 | 9 | 56 | 63=(7+x) | 63 7 x + = | 63:day 7:day x:day +:day =:day
+EXPR: 0 | POS | INT | 4 | 9 | 441 | (x/63)=7 | x 63 / 7 = | x:day 63:day /:day 7:day =:day
+EXPR: 0 | POS | INT | 4 | 9 | 70 | (x-63)=7 | x 63 - 7 = | x:day 63:day -:day 7:day =:day
+NET 28 unique, non-negative, integer-valued solutions found out of 56 total solutions

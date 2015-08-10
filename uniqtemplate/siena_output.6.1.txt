@@ -1,0 +1,3251 @@
+Index: 0
+Problem:  joan found 70 seashells on the beach . she gave sam some of her seashells . she has 27 seashell left . how many seashells did she give to sam  ? 
+Answer: 43
+--- SETS ---
+_____________
+adjs : None
+compound : 0
+container : beach
+contains : None
+entity : seashell
+idx : 2
+location : None
+num : 70
+subtypes : []
+surface : seashells
+type_failure : 0
+verbs : found
+widx : 4
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : seashell
+idx : 1006
+location : None
+num : x
+subtypes : []
+surface : seashells
+type_failure : 0
+verbs : give sam
+widx : 3
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : she
+contains : None
+entity : seashell
+idx : 2002
+location : None
+num : 27
+subtypes : []
+surface : seashell
+type_failure : 0
+verbs : has
+widx : 4
+_____________
+
+Index: 1
+Problem:  there were 28 bales of hay in the barn . tim stacked more bales in the barn today . there are now 54 bales of hay in the barn . how many bales did he store in the barn  ? 
+Answer: 26
+--- SETS ---
+_____________
+adjs : None
+compound : 0
+container : barn
+contains : None
+entity : bale
+idx : 2
+location : None
+num : 28
+subtypes : []
+surface : bales
+type_failure : 0
+verbs : None
+widx : 4
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : barn
+contains : None
+entity : bale
+idx : 1003
+location : None
+num : x
+subtypes : []
+surface : bales
+type_failure : 0
+verbs : store
+widx : 3
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : barn
+contains : None
+entity : bale
+idx : 2003
+location : None
+num : 54
+subtypes : []
+surface : bales
+type_failure : 0
+verbs : None
+widx : 5
+_____________
+
+Index: 2
+Problem:  after eating at the restaurant , sally , sam , and alyssa decided to divide the bill evenly . if each person paid 45 dollars , what was the total of the bill  ? 
+Answer: 135
+--- SETS ---
+_____________
+adjs : None
+compound : 0
+container : person
+contains : None
+entity : dollar
+idx : 1004
+location : None
+num : 45
+subtypes : []
+surface : dollars
+type_failure : 0
+verbs : paid
+widx : 6
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : bill
+contains : None
+entity : dollar
+idx : 1010
+location : None
+num : x
+subtypes : []
+surface : total
+type_failure : 0
+verbs : None
+widx : 11
+_____________
+
+Index: 3
+Problem:  mary is baking a cake . the recipe wants 8 cups of flour . she already put in 2 cups . how many more cups does she need to add  ? 
+Answer: 6
+--- SETS ---
+_____________
+adjs : None
+compound : 0
+container : recipe
+contains : None
+entity : cup
+idx : 1003
+location : None
+num : 8
+subtypes : []
+surface : cups
+type_failure : 0
+verbs : wants
+widx : 5
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : cup
+idx : 2004
+location : None
+num : 2
+subtypes : []
+surface : cups
+type_failure : 0
+verbs : put
+widx : 6
+_____________
+
+_____________
+adjs : more
+compound : 0
+container : None
+contains : None
+entity : cup
+idx : 3003
+location : None
+num : x
+subtypes : []
+surface : cups
+type_failure : 0
+verbs : add
+widx : 4
+_____________
+
+Index: 4
+Problem:  sara's high school played 12 basketball games this year . the team won most of their games . they were defeated during 4 games . how many games did they win  ? 
+Answer: 8
+--- SETS ---
+_____________
+adjs : None
+compound : 0
+container : school
+contains : None
+entity : game
+idx : 5
+location : None
+num : 12
+subtypes : []
+surface : games
+type_failure : 0
+verbs : played
+widx : 8
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : they
+contains : None
+entity : game
+idx : 1006
+location : None
+num : x
+subtypes : []
+surface : games
+type_failure : 0
+verbs : win
+widx : 3
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : game
+idx : 2004
+location : None
+num : 4
+subtypes : []
+surface : games
+type_failure : 0
+verbs : defeat
+widx : 6
+_____________
+
+Index: 5
+Problem:  there are 22 walnut trees currently in the park . park workers will plant more walnut trees today . when the workers are finished there will be 55 walnut trees in the park . how many walnut trees did the workers plant today  ? 
+Answer: 33
+--- SETS ---
+_____________
+adjs : None
+compound : 0
+container : park
+contains : None
+entity : tree
+idx : 2
+location : None
+num : 22
+subtypes : []
+surface : trees
+type_failure : 0
+verbs : None
+widx : 5
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : plant
+contains : None
+entity : tree
+idx : 1006
+location : None
+num : x
+subtypes : []
+surface : trees
+type_failure : 0
+verbs : None
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : park
+contains : None
+entity : tree
+idx : 2008
+location : park
+num : 55
+subtypes : []
+surface : trees
+type_failure : 0
+verbs : None
+widx : 11
+_____________
+
+Index: 6
+Problem:  mike had 34 peaches left at his roadside fruit stand . he went to the orchard and picked more peaches to stock up the stand . there are now 86 peaches at the stand , how many did he pick  ? 
+Answer: 52
+--- SETS ---
+_____________
+adjs : None
+compound : 0
+container : mike
+contains : None
+entity : peach
+idx : 2
+location : None
+num : 34
+subtypes : []
+surface : peaches
+type_failure : 0
+verbs : had
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : stand
+contains : None
+entity : peach
+idx : 2003
+location : stand
+num : 86
+subtypes : []
+surface : peaches
+type_failure : 0
+verbs : None
+widx : 5
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : NONE
+idx : 2011
+location : None
+num : x
+subtypes : []
+surface : NONE
+type_failure : 0
+verbs : pick
+widx : None
+_____________
+
+Index: 7
+Problem:  there were 6 roses in the vase . mary cut some more roses from her flower garden . there are now 16 roses in the vase . how many roses did she cut  ? 
+Answer: 10
+--- SETS ---
+_____________
+adjs : None
+compound : 0
+container : vase
+contains : None
+entity : rose
+idx : 2
+location : vase
+num : 6
+subtypes : []
+surface : roses
+type_failure : 0
+verbs : None
+widx : 4
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : she
+contains : None
+entity : rose
+idx : 1002
+location : None
+num : x
+subtypes : []
+surface : roses
+type_failure : 0
+verbs : cut
+widx : 3
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : vase
+contains : None
+entity : rose
+idx : 2003
+location : vase
+num : 16
+subtypes : []
+surface : roses
+type_failure : 0
+verbs : None
+widx : 5
+_____________
+
+Index: 8
+Problem:  benny bought a soft drink for 2 dollars and 5 candy bars . he spent a total of 27 dollars . how much did each candy bar cost  ? 
+Answer: 5
+--- SETS ---
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 6
+location : None
+num : 2
+subtypes : []
+surface : dollars
+type_failure : 0
+verbs : buy
+widx : 8
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : dollar
+entity : bar
+idx : 9
+location : None
+num : 5
+subtypes : []
+surface : bars
+type_failure : 0
+verbs : buy
+widx : 12
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : bar
+contains : None
+entity : dollar
+idx : 10
+location : None
+num : x
+subtypes : []
+surface : dollar
+type_failure : 0
+verbs : None
+widx : 8
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 1005
+location : None
+num : 27
+subtypes : []
+surface : dollars
+type_failure : 0
+verbs : spend
+widx : 7
+_____________
+
+Index: 9
+Problem:  benny bought 4 new baseball trading cards to add to his collection . the next day his dog ate 0.5 of his collection . there are now only 34 cards left . how many cards did benny start with  ? 
+Answer: 64
+--- SETS ---
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : card
+idx : 0
+location : None
+num : x
+subtypes : []
+surface : cards
+type_failure : 0
+verbs : do
+widx : 3
+_____________
+
+_____________
+adjs : new
+compound : 0
+container : None
+contains : None
+entity : card
+idx : 2
+location : None
+num : 4
+subtypes : []
+surface : cards
+type_failure : 0
+verbs : buy add
+widx : 7
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : day
+contains : None
+entity : card
+idx : 1006
+location : None
+num : 0.5
+subtypes : []
+surface : cards
+type_failure : 0
+verbs : None
+widx : None
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : card
+idx : 2004
+location : None
+num : 34
+subtypes : []
+surface : cards
+type_failure : 0
+verbs : leave
+widx : 6
+_____________
+
+Index: 10
+Problem:  alyssa spent half of her allowance going to the movies . she washed the family car and earned 8 dollars . what is her weekly allowance if she ended with 12 dollars  ? 
+Answer: 8
+--- SETS ---
+_____________
+adjs : None
+compound : 0
+container : car
+contains : None
+entity : dollar
+idx : 1007
+location : None
+num : 8
+subtypes : []
+surface : dollars
+type_failure : 0
+verbs : earned
+widx : 9
+_____________
+
+_____________
+adjs : weekly
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 2004
+location : None
+num : x
+subtypes : []
+surface : allowance
+type_failure : 0
+verbs : end
+widx : 5
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 2009
+location : None
+num : 12
+subtypes : []
+surface : dollars
+type_failure : 0
+verbs : end
+widx : 11
+_____________
+
+Index: 11
+Problem:  the sum of three consecutive even numbers is 162 . what is the smallest of the three numbers  ? 
+Answer: 52
+--- SETS ---
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : number
+idx : 3
+location : None
+num : x
+subtypes : []
+surface : smallest
+type_failure : 0
+verbs : be
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : number
+idx : 8
+location : None
+num : 162
+subtypes : []
+surface : numbers
+type_failure : 0
+verbs : be
+widx : None
+_____________
+
+Index: 12
+Problem:  sam had 79 dollars to spend on 9 books . after buying them he had 16 dollars . how much did each book cost  ? 
+Answer: 7
+--- SETS ---
+_____________
+adjs : None
+compound : 0
+container : sam
+contains : None
+entity : dollar
+idx : 2
+location : None
+num : 79
+subtypes : []
+surface : dollars
+type_failure : 0
+verbs : had
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : dollar
+entity : book
+idx : 7
+location : None
+num : 9
+subtypes : []
+surface : books
+type_failure : 0
+verbs : spend
+widx : 9
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : book
+contains : None
+entity : dollar
+idx : 8
+location : None
+num : x
+subtypes : []
+surface : dollar
+type_failure : 0
+verbs : None
+widx : 7
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : he
+contains : None
+entity : dollar
+idx : 1005
+location : None
+num : 16
+subtypes : []
+surface : dollars
+type_failure : 0
+verbs : had
+widx : 7
+_____________
+
+Index: 13
+Problem:  oceanside bike rental shop charges 17 dollars plus 7 dollars an hour for renting a bike . tom paid 80 dollars to rent a bike . how many hours did he pay to have the bike checked out  ? 
+Answer: 9
+--- SETS ---
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 5
+location : None
+num : 17
+subtypes : []
+surface : dollars
+type_failure : 0
+verbs : rent
+widx : 7
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : hour
+contains : None
+entity : dollar
+idx : 8
+location : None
+num : 7
+subtypes : []
+surface : dollars
+type_failure : 0
+verbs : None
+widx : 10
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : bike
+contains : None
+entity : hour
+idx : 10
+location : None
+num : x
+subtypes : []
+surface : hours
+type_failure : 0
+verbs : None
+widx : 3
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : bike
+contains : None
+entity : dollar
+idx : 1002
+location : None
+num : 80
+subtypes : []
+surface : dollars
+type_failure : 0
+verbs : paid
+widx : 4
+_____________
+
+Index: 14
+Problem:  on monday , 375 students went on a trip to the zoo . all 7 buses were filled and 4 students had to travel in cars . how many students were in each bus  ? 
+Answer: 53
+--- SETS ---
+_____________
+adjs : None
+compound : 0
+container : zoo
+contains : None
+entity : student
+idx : 3
+location : None
+num : 375
+subtypes : []
+surface : students
+type_failure : 0
+verbs : None
+widx : 5
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : student
+entity : bus
+idx : 1001
+location : None
+num : 7
+subtypes : []
+surface : buses
+type_failure : 0
+verbs : fill travel
+widx : 3
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : student
+idx : 1006
+location : None
+num : 4
+subtypes : []
+surface : students
+type_failure : 0
+verbs : fill travel
+widx : 8
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : bus
+contains : None
+entity : student
+idx : 2002
+location : None
+num : x
+subtypes : []
+surface : students
+type_failure : 0
+verbs : None
+widx : 3
+_____________
+
+Index: 15
+Problem:  sandy sold half of her comic books and then bought 6 more . she now has 13 . how many did she begin with  ? 
+Answer: 14
+--- SETS ---
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : NONE
+idx : 0
+location : None
+num : x
+subtypes : []
+surface : NONE
+type_failure : 0
+verbs : begin
+widx : None
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : book
+idx : 10
+location : None
+num : 6
+subtypes : []
+surface : books
+type_failure : 0
+verbs : sell buy
+widx : None
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : book
+idx : 1003
+location : None
+num : 13
+subtypes : []
+surface : books
+type_failure : 0
+verbs : have
+widx : None
+_____________
+
+Index: 16
+Problem:  the sum of three consecutive odd numbers is 69 . what is the smallest of the three numbers  ? 
+Answer: 21
+--- SETS ---
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : number
+idx : 3
+location : None
+num : x
+subtypes : []
+surface : smallest
+type_failure : 0
+verbs : be
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : number
+idx : 8
+location : None
+num : 69
+subtypes : []
+surface : numbers
+type_failure : 0
+verbs : be
+widx : None
+_____________
+
+Index: 17
+Problem:  joan went to 4 football games this year . she went to 9 games last year . how many football games did joan go to in all  ? 
+Answer: 13
+--- SETS ---
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : game
+idx : 3
+location : None
+num : 4
+subtypes : []
+surface : games
+type_failure : 0
+verbs : go
+widx : 6
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : game
+idx : 1003
+location : None
+num : 9
+subtypes : []
+surface : games
+type_failure : 0
+verbs : go
+widx : 5
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : game
+idx : 2003
+location : None
+num : x
+subtypes : []
+surface : games
+type_failure : 0
+verbs : go
+widx : 4
+_____________
+
+Index: 18
+Problem:  tom has 9 yellow balloons sara has 8 yellow balloons . how many yellow balloons do they have in total  ? 
+Answer: 17
+--- SETS ---
+_____________
+adjs : yellow
+compound : 0
+container : tom
+contains : None
+entity : balloon
+idx : 2
+location : None
+num : 9
+subtypes : []
+surface : balloons
+type_failure : 0
+verbs : has
+widx : 5
+_____________
+
+_____________
+adjs : yellow
+compound : 0
+container : sara
+contains : None
+entity : balloon
+idx : 7
+location : None
+num : 8
+subtypes : []
+surface : balloons
+type_failure : 0
+verbs : has
+widx : 10
+_____________
+
+_____________
+adjs : many yellow
+compound : 0
+container : they
+contains : None
+entity : balloon
+idx : 1003
+location : None
+num : x
+subtypes : []
+surface : balloons
+type_failure : 0
+verbs : have
+widx : 4
+_____________
+
+Index: 19
+Problem:  there are 4 walnut trees currently in the park . park workers will plant 6 more walnut trees today . how many walnut trees will the park have when the workers are finished  ? 
+Answer: 10
+--- SETS ---
+_____________
+adjs : None
+compound : 0
+container : park
+contains : None
+entity : tree
+idx : 2
+location : None
+num : 4
+subtypes : []
+surface : trees
+type_failure : 0
+verbs : None
+widx : 5
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : workers
+contains : None
+entity : tree
+idx : 1004
+location : None
+num : 6
+subtypes : []
+surface : trees
+type_failure : 0
+verbs : plant
+widx : 8
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : worker
+contains : None
+entity : walnut
+idx : 2002
+location : None
+num : x
+subtypes : []
+surface : walnut
+type_failure : 0
+verbs : have
+widx : 3
+_____________
+
+Index: 20
+Problem:  sam had 9 dimes in his bank . his dad gave him 7 more dimes . how many dimes does sam have now  ? 
+Answer: 16
+--- SETS ---
+_____________
+adjs : None
+compound : 0
+container : sam
+contains : None
+entity : dime
+idx : 2
+location : bank
+num : 9
+subtypes : []
+surface : dimes
+type_failure : 0
+verbs : had
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : dad
+contains : None
+entity : dime
+idx : 1004
+location : None
+num : 7
+subtypes : []
+surface : dimes
+type_failure : 0
+verbs : gave
+widx : 7
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : dime
+idx : 2002
+location : None
+num : x
+subtypes : []
+surface : dimes
+type_failure : 0
+verbs : do have
+widx : 3
+_____________
+
+Index: 21
+Problem:  alyssa's dog had puppies . she gave 7 to her friends .  she now has 5 puppies left . how many puppies did she have to start with  ? 
+Answer: 12
+--- SETS ---
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : puppy
+idx : 0
+location : None
+num : x
+subtypes : []
+surface : puppies
+type_failure : 0
+verbs : start
+widx : 3
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : puppy
+idx : 1002
+location : None
+num : 7
+subtypes : []
+surface : puppies
+type_failure : 0
+verbs : give
+widx : None
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : she
+contains : None
+entity : puppy
+idx : 2003
+location : None
+num : 5
+subtypes : []
+surface : puppies
+type_failure : 0
+verbs : has
+widx : 5
+_____________
+
+Index: 22
+Problem:  a restaurant served 9 pizzas during lunch and 6 during dinner today . how many pizzas were served today  ? 
+Answer: 15
+--- SETS ---
+_____________
+adjs : None
+compound : 0
+container : restaurant
+contains : None
+entity : pizza
+idx : 3
+location : None
+num : 9
+subtypes : []
+surface : pizzas
+type_failure : 0
+verbs : served
+widx : 5
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : pizza
+idx : 8
+location : None
+num : 6
+subtypes : []
+surface : pizzas
+type_failure : 0
+verbs : serve
+widx : None
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : NONE
+idx : 1004
+location : None
+num : x
+subtypes : []
+surface : NONE
+type_failure : 0
+verbs : serve
+widx : None
+_____________
+
+Index: 23
+Problem:  there are 2 pencils in the drawer . tim placed 3 more pencils in the drawer . how many pencils are now there in total  ? 
+Answer: 5
+--- SETS ---
+_____________
+adjs : None
+compound : 0
+container : drawer
+contains : None
+entity : pencil
+idx : 2
+location : drawer
+num : 2
+subtypes : []
+surface : pencils
+type_failure : 0
+verbs : None
+widx : 4
+_____________
+
+_____________
+adjs : more
+compound : 0
+container : drawer
+contains : None
+entity : pencil
+idx : 1002
+location : None
+num : 3
+subtypes : []
+surface : pencils
+type_failure : 0
+verbs : placed
+widx : 5
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : pencil
+idx : 2002
+location : None
+num : x
+subtypes : []
+surface : pencils
+type_failure : 0
+verbs : be
+widx : 3
+_____________
+
+Index: 24
+Problem:  joan found 6 seashells and jessica found 8 seashells on the beach . how many seashells did they find together  ? 
+Answer: 14
+--- SETS ---
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : seashell
+idx : 2
+location : None
+num : 6
+subtypes : []
+surface : seashells
+type_failure : 0
+verbs : find find
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : beach
+contains : None
+entity : seashell
+idx : 7
+location : None
+num : 8
+subtypes : []
+surface : seashells
+type_failure : 0
+verbs : found
+widx : 9
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : seashell
+idx : 1002
+location : None
+num : x
+subtypes : []
+surface : seashells
+type_failure : 0
+verbs : find
+widx : 3
+_____________
+
+Index: 25
+Problem:  sandy grew 6 carrots . sam grew 3 carrots . how many carrots did they grow in total  ? 
+Answer: 9
+--- SETS ---
+_____________
+adjs : None
+compound : 0
+container : sandy
+contains : None
+entity : carrot
+idx : 2
+location : None
+num : 6
+subtypes : []
+surface : carrots
+type_failure : 0
+verbs : grew
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : sam
+contains : None
+entity : carrot
+idx : 1002
+location : None
+num : 3
+subtypes : []
+surface : carrots
+type_failure : 0
+verbs : grew
+widx : 4
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : carrot
+idx : 2002
+location : None
+num : x
+subtypes : []
+surface : carrots
+type_failure : 0
+verbs : grow
+widx : 3
+_____________
+
+Index: 26
+Problem:  benny picked 2 apples and dan picked 9 apples from the apple tree . how many apples were picked in total  ? 
+Answer: 11
+--- SETS ---
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : apple
+idx : 2
+location : None
+num : 2
+subtypes : []
+surface : apples
+type_failure : 0
+verbs : pick pick
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : tree
+contains : None
+entity : apple
+idx : 7
+location : None
+num : 9
+subtypes : []
+surface : apples
+type_failure : 0
+verbs : picked
+widx : 9
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : apple
+idx : 11
+location : None
+num : x
+subtypes : []
+surface : apples
+type_failure : 0
+verbs : pick
+widx : 3
+_____________
+
+Index: 27
+Problem:  sally found 9 seashells , tom found 7 seashells , and jessica found 5 seashells on the beach . how many seashells did they find together  ? 
+Answer: 21
+--- SETS ---
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : seashell
+idx : 2
+location : None
+num : 9
+subtypes : []
+surface : seashells
+type_failure : 0
+verbs : found
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : tom
+contains : None
+entity : seashell
+idx : 7
+location : None
+num : 7
+subtypes : []
+surface : seashells
+type_failure : 0
+verbs : found
+widx : 9
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : beach
+contains : None
+entity : seashell
+idx : 13
+location : None
+num : 5
+subtypes : []
+surface : seashells
+type_failure : 0
+verbs : found
+widx : 15
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : seashell
+idx : 1002
+location : None
+num : x
+subtypes : []
+surface : seashells
+type_failure : 0
+verbs : find
+widx : 3
+_____________
+
+Index: 28
+Problem:  tim's cat had kittens . he gave 3 to jessica and 6 to sara . he now has 9 kittens left . how many kittens did he have to start with  ? 
+Answer: 18
+--- SETS ---
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : kitten
+idx : 0
+location : None
+num : x
+subtypes : []
+surface : kittens
+type_failure : 0
+verbs : start
+widx : 3
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : kitten
+idx : 1002
+location : None
+num : 3
+subtypes : []
+surface : kittens
+type_failure : 0
+verbs : give
+widx : None
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : kitten
+idx : 1006
+location : None
+num : 6
+subtypes : []
+surface : kittens
+type_failure : 0
+verbs : give
+widx : None
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : he
+contains : None
+entity : kitten
+idx : 2003
+location : None
+num : 9
+subtypes : []
+surface : kittens
+type_failure : 0
+verbs : has
+widx : 5
+_____________
+
+Index: 29
+Problem:  joan has 9 blue balloons , sally has 5 blue balloons , and jessica has  2 blue balloons . how many blue balloons do they have in total  ? 
+Answer: 16
+--- SETS ---
+_____________
+adjs : blue
+compound : 0
+container : joan
+contains : None
+entity : balloon
+idx : 2
+location : None
+num : 9
+subtypes : []
+surface : balloons
+type_failure : 0
+verbs : has
+widx : 5
+_____________
+
+_____________
+adjs : blue
+compound : 0
+container : None
+contains : None
+entity : balloon
+idx : 8
+location : None
+num : 5
+subtypes : []
+surface : balloons
+type_failure : 0
+verbs : has
+widx : 11
+_____________
+
+_____________
+adjs : blue
+compound : 0
+container : jessica
+contains : None
+entity : balloon
+idx : 15
+location : None
+num : 2
+subtypes : []
+surface : balloons
+type_failure : 0
+verbs : has
+widx : 18
+_____________
+
+_____________
+adjs : many blue
+compound : 0
+container : they
+contains : None
+entity : balloon
+idx : 1003
+location : None
+num : x
+subtypes : []
+surface : balloons
+type_failure : 0
+verbs : have
+widx : 4
+_____________
+
+Index: 30
+Problem:  melanie had 7 dimes in her bank . her dad gave her 8 dimes and her mother gave her 4 dimes . how many dimes does melanie have now  ? 
+Answer: 19
+--- SETS ---
+_____________
+adjs : None
+compound : 0
+container : melanie
+contains : None
+entity : dime
+idx : 2
+location : bank
+num : 7
+subtypes : []
+surface : dimes
+type_failure : 0
+verbs : had
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dime
+idx : 1004
+location : None
+num : 8
+subtypes : []
+surface : dimes
+type_failure : 0
+verbs : give give
+widx : 6
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : dimes
+contains : None
+entity : dime
+idx : 1011
+location : None
+num : 4
+subtypes : []
+surface : dimes
+type_failure : 0
+verbs : gave
+widx : 13
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : dime
+idx : 2002
+location : None
+num : x
+subtypes : []
+surface : dimes
+type_failure : 0
+verbs : do have
+widx : 3
+_____________
+
+Index: 31
+Problem:  a restaurant served 5 cakes during lunch and 6 during dinner today . the restaurant served 3 cakes yesterday . how many cakes were served in total  ? 
+Answer: 14
+--- SETS ---
+_____________
+adjs : None
+compound : 0
+container : restaurant
+contains : None
+entity : cake
+idx : 3
+location : None
+num : 5
+subtypes : []
+surface : cakes
+type_failure : 0
+verbs : served
+widx : 5
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : cake
+idx : 8
+location : None
+num : 6
+subtypes : []
+surface : cakes
+type_failure : 0
+verbs : serve
+widx : None
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : restaurant
+contains : None
+entity : cake
+idx : 1003
+location : None
+num : 3
+subtypes : []
+surface : cakes
+type_failure : 0
+verbs : served
+widx : 5
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : NONE
+idx : 2004
+location : None
+num : x
+subtypes : []
+surface : NONE
+type_failure : 0
+verbs : serve
+widx : None
+_____________
+
+Index: 32
+Problem:  melanie picked 4 plums , dan picked 9 plums , and sally picked 3 plums from the plum tree . how many plums were picked in total  ? 
+Answer: 16
+--- SETS ---
+_____________
+adjs : None
+compound : 0
+container : melanie
+contains : None
+entity : plum
+idx : 2
+location : None
+num : 4
+subtypes : []
+surface : plums
+type_failure : 0
+verbs : picked
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : dan
+contains : None
+entity : plum
+idx : 7
+location : None
+num : 9
+subtypes : []
+surface : plums
+type_failure : 0
+verbs : picked
+widx : 9
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : tree
+contains : None
+entity : plum
+idx : 13
+location : None
+num : 3
+subtypes : []
+surface : plums
+type_failure : 0
+verbs : picked
+widx : 15
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : NONE
+idx : 1004
+location : None
+num : x
+subtypes : []
+surface : NONE
+type_failure : 0
+verbs : pick
+widx : None
+_____________
+
+Index: 33
+Problem:  there are 7 dogwood trees currently in the park . park workers will plant 3 more dogwood trees today and 2 more dogwood trees tomorrow . how many dogwood trees will the park have when the workers are finished  ? 
+Answer: 12
+--- SETS ---
+_____________
+adjs : None
+compound : 0
+container : park
+contains : None
+entity : tree
+idx : 2
+location : None
+num : 7
+subtypes : []
+surface : trees
+type_failure : 0
+verbs : None
+widx : 5
+_____________
+
+_____________
+adjs : more
+compound : 0
+container : None
+contains : None
+entity : tree
+idx : 1004
+location : None
+num : 3
+subtypes : []
+surface : trees
+type_failure : 0
+verbs : plant
+widx : 8
+_____________
+
+_____________
+adjs : more
+compound : 0
+container : None
+contains : None
+entity : tree
+idx : 1010
+location : None
+num : 2
+subtypes : []
+surface : trees
+type_failure : 0
+verbs : plant
+widx : 14
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : worker
+contains : None
+entity : dogwood
+idx : 2002
+location : None
+num : x
+subtypes : []
+surface : dogwood
+type_failure : 0
+verbs : have
+widx : 3
+_____________
+
+Index: 34
+Problem:  sara grew 4 onions , sally grew 5 onions , and fred grew  9 onions . how many onions did they grow in all  ? 
+Answer: 18
+--- SETS ---
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : onion
+idx : 2
+location : None
+num : 4
+subtypes : []
+surface : onions
+type_failure : 0
+verbs : grew
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : onion
+idx : 7
+location : None
+num : 5
+subtypes : []
+surface : onions
+type_failure : 0
+verbs : grew
+widx : 9
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : sara
+contains : None
+entity : onion
+idx : 13
+location : None
+num : 9
+subtypes : []
+surface : onions
+type_failure : 0
+verbs : grew
+widx : 15
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : onion
+idx : 1002
+location : None
+num : x
+subtypes : []
+surface : onions
+type_failure : 0
+verbs : grow
+widx : 3
+_____________
+
+Index: 35
+Problem:  jason has 43 blue and 16 red marbles . tom has  24 blue marbles . how many blue marbles do they have in all  ? 
+Answer: 67
+--- SETS ---
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : marble
+idx : 2
+location : None
+num : 43
+subtypes : []
+surface : marbles
+type_failure : 0
+verbs : have
+widx : None
+_____________
+
+_____________
+adjs : red
+compound : 0
+container : None
+contains : None
+entity : marble
+idx : 5
+location : None
+num : 16
+subtypes : []
+surface : marbles
+type_failure : 0
+verbs : have
+widx : 8
+_____________
+
+_____________
+adjs : blue
+compound : 0
+container : tom
+contains : None
+entity : marble
+idx : 1002
+location : None
+num : 24
+subtypes : []
+surface : marbles
+type_failure : 0
+verbs : has
+widx : 5
+_____________
+
+_____________
+adjs : many blue
+compound : 0
+container : they
+contains : None
+entity : marble
+idx : 2003
+location : None
+num : x
+subtypes : []
+surface : marbles
+type_failure : 0
+verbs : have
+widx : 4
+_____________
+
+Index: 36
+Problem:  sam found 18 seashells and mary found 47 seashells on the beach . how many seashells did they find together  ? 
+Answer: 65
+--- SETS ---
+_____________
+adjs : None
+compound : 0
+container : sam
+contains : None
+entity : seashell
+idx : 2
+location : None
+num : 18
+subtypes : []
+surface : seashells
+type_failure : 0
+verbs : found
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : beach
+contains : None
+entity : seashell
+idx : 7
+location : beach
+num : 47
+subtypes : []
+surface : seashells
+type_failure : 0
+verbs : found
+widx : 9
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : seashell
+idx : 1002
+location : None
+num : x
+subtypes : []
+surface : seashells
+type_failure : 0
+verbs : find
+widx : 3
+_____________
+
+Index: 37
+Problem:  jason grew 23 watermelons and 18 turnips . nancy grew  28 watermelons . how many watermelons did they grow in total  ? 
+Answer: 51
+--- SETS ---
+_____________
+adjs : None
+compound : 0
+container : jason
+contains : None
+entity : watermelon
+idx : 2
+location : None
+num : 23
+subtypes : []
+surface : watermelons
+type_failure : 0
+verbs : grew
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : turnip
+idx : 5
+location : None
+num : 18
+subtypes : []
+surface : turnips
+type_failure : 0
+verbs : grow
+widx : 7
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : nancy
+contains : None
+entity : watermelon
+idx : 1002
+location : None
+num : 28
+subtypes : []
+surface : watermelons
+type_failure : 0
+verbs : grew
+widx : 4
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : watermelon
+idx : 2002
+location : None
+num : x
+subtypes : []
+surface : watermelons
+type_failure : 0
+verbs : grow
+widx : 3
+_____________
+
+Index: 38
+Problem:  there are 11 rulers and 34 crayons in the drawer . tim placed  14 more rulers in the drawer . how many rulers are now there in all  ? 
+Answer: 25
+--- SETS ---
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : ruler
+idx : 2
+location : None
+num : 11
+subtypes : []
+surface : rulers
+type_failure : 0
+verbs : be
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : drawer
+contains : None
+entity : crayon
+idx : 5
+location : drawer
+num : 34
+subtypes : []
+surface : crayons
+type_failure : 0
+verbs : None
+widx : 7
+_____________
+
+_____________
+adjs : more
+compound : 0
+container : drawer
+contains : None
+entity : ruler
+idx : 1002
+location : None
+num : 14
+subtypes : []
+surface : rulers
+type_failure : 0
+verbs : placed
+widx : 5
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : ruler
+idx : 2002
+location : None
+num : x
+subtypes : []
+surface : rulers
+type_failure : 0
+verbs : be
+widx : 3
+_____________
+
+Index: 39
+Problem:  sara picked 45 pears and sally picked 11 pears from the pear tree . how many pears were picked in total  ? 
+Answer: 56
+--- SETS ---
+_____________
+adjs : None
+compound : 0
+container : sara
+contains : None
+entity : pear
+idx : 2
+location : None
+num : 45
+subtypes : []
+surface : pears
+type_failure : 0
+verbs : picked
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : tree
+contains : None
+entity : pear
+idx : 7
+location : None
+num : 11
+subtypes : []
+surface : pears
+type_failure : 0
+verbs : picked
+widx : 9
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : pear
+idx : 11
+location : None
+num : x
+subtypes : []
+surface : pears
+type_failure : 0
+verbs : pick
+widx : 3
+_____________
+
+Index: 40
+Problem:  keith has 20 books . jason has 21 books .  how many books do they have together  ? 
+Answer: 41
+--- SETS ---
+_____________
+adjs : None
+compound : 0
+container : keith
+contains : None
+entity : book
+idx : 2
+location : None
+num : 20
+subtypes : []
+surface : books
+type_failure : 0
+verbs : has
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : jason
+contains : None
+entity : book
+idx : 1002
+location : None
+num : 21
+subtypes : []
+surface : books
+type_failure : 0
+verbs : has
+widx : 4
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : they
+contains : None
+entity : book
+idx : 2002
+location : None
+num : x
+subtypes : []
+surface : books
+type_failure : 0
+verbs : have
+widx : 3
+_____________
+
+Index: 41
+Problem:  jason had 49 quarters in his bank . his dad gave him 25 more quarters . how many quarters does he have now  ? 
+Answer: 74
+--- SETS ---
+_____________
+adjs : None
+compound : 0
+container : jason
+contains : None
+entity : quarter
+idx : 2
+location : bank
+num : 49
+subtypes : []
+surface : quarters
+type_failure : 0
+verbs : had
+widx : 4
+_____________
+
+_____________
+adjs : more
+compound : 0
+container : dad
+contains : None
+entity : quarter
+idx : 1004
+location : None
+num : 25
+subtypes : []
+surface : quarters
+type_failure : 0
+verbs : gave
+widx : 7
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : quarter
+idx : 2002
+location : None
+num : x
+subtypes : []
+surface : quarters
+type_failure : 0
+verbs : do have
+widx : 3
+_____________
+
+Index: 42
+Problem:  tom found 15 seashells and fred found 43 seashells on the beach . when they cleaned them , they discovered that 29 were cracked . how many seashells did they find together  ? 
+Answer: 58
+--- SETS ---
+_____________
+adjs : None
+compound : 0
+container : tom
+contains : None
+entity : seashell
+idx : 2
+location : None
+num : 15
+subtypes : []
+surface : seashells
+type_failure : 0
+verbs : found
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : beach
+contains : None
+entity : seashell
+idx : 7
+location : beach
+num : 43
+subtypes : []
+surface : seashells
+type_failure : 0
+verbs : found
+widx : 9
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : seashell
+idx : 1008
+location : None
+num : 29
+subtypes : []
+surface : seashells
+type_failure : 0
+verbs : clean discover crack
+widx : None
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : seashell
+idx : 2002
+location : None
+num : x
+subtypes : []
+surface : seashells
+type_failure : 0
+verbs : find
+widx : 3
+_____________
+
+Index: 43
+Problem:  sara has 31 red and 15 green balloons . sandy has  24 red balloons . how many red balloons do they have in total  ? 
+Answer: 55
+--- SETS ---
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : balloon
+idx : 2
+location : None
+num : 31
+subtypes : []
+surface : balloons
+type_failure : 0
+verbs : have
+widx : None
+_____________
+
+_____________
+adjs : green
+compound : 0
+container : None
+contains : None
+entity : balloon
+idx : 5
+location : None
+num : 15
+subtypes : []
+surface : balloons
+type_failure : 0
+verbs : have
+widx : 8
+_____________
+
+_____________
+adjs : red
+compound : 0
+container : sandy
+contains : None
+entity : balloon
+idx : 1002
+location : None
+num : 24
+subtypes : []
+surface : balloons
+type_failure : 0
+verbs : has
+widx : 5
+_____________
+
+_____________
+adjs : many red
+compound : 0
+container : they
+contains : None
+entity : balloon
+idx : 2003
+location : None
+num : x
+subtypes : []
+surface : balloons
+type_failure : 0
+verbs : have
+widx : 4
+_____________
+
+Index: 44
+Problem:  joan picked 37 oranges and sara picked 10 oranges . alyssa picked  30 pears . how many oranges were picked in total  ? 
+Answer: 47
+--- SETS ---
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : orange
+idx : 2
+location : None
+num : 37
+subtypes : []
+surface : oranges
+type_failure : 0
+verbs : pick pick
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : oranges
+contains : None
+entity : orange
+idx : 7
+location : None
+num : 10
+subtypes : []
+surface : oranges
+type_failure : 0
+verbs : picked
+widx : 9
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : alyssa
+contains : None
+entity : pear
+idx : 1002
+location : None
+num : 30
+subtypes : []
+surface : pears
+type_failure : 0
+verbs : picked
+widx : 4
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : orange
+idx : 2002
+location : None
+num : x
+subtypes : []
+surface : oranges
+type_failure : 0
+verbs : pick
+widx : 3
+_____________
+
+Index: 45
+Problem:  fred went to 36 basketball games this year , but missed 35 . he went to  11 games last year . how many basketball games did fred go to in total  ? 
+Answer: 47
+--- SETS ---
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : game
+idx : 3
+location : None
+num : 36
+subtypes : []
+surface : games
+type_failure : 0
+verbs : fred go miss
+widx : 6
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : game
+idx : 11
+location : None
+num : 35
+subtypes : []
+surface : games
+type_failure : 0
+verbs : fred go miss
+widx : None
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : game
+idx : 1003
+location : None
+num : 11
+subtypes : []
+surface : games
+type_failure : 0
+verbs : go
+widx : 5
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : game
+idx : 2003
+location : None
+num : x
+subtypes : []
+surface : games
+type_failure : 0
+verbs : fred go
+widx : 4
+_____________
+
+Index: 46
+Problem:  there are 33 pencils and 44 crayons in the drawer . joan placed  27 more pencils in the drawer . how many pencils are now there in total  ? 
+Answer: 60
+--- SETS ---
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : pencil
+idx : 2
+location : None
+num : 33
+subtypes : []
+surface : pencils
+type_failure : 0
+verbs : be
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : drawer
+contains : None
+entity : crayon
+idx : 5
+location : drawer
+num : 44
+subtypes : []
+surface : crayons
+type_failure : 0
+verbs : None
+widx : 7
+_____________
+
+_____________
+adjs : more
+compound : 0
+container : drawer
+contains : None
+entity : pencil
+idx : 1002
+location : None
+num : 27
+subtypes : []
+surface : pencils
+type_failure : 0
+verbs : placed
+widx : 5
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : pencil
+idx : 2002
+location : None
+num : x
+subtypes : []
+surface : pencils
+type_failure : 0
+verbs : be
+widx : 3
+_____________
+
+Index: 47
+Problem:  sam had 49 pennies and 24 nickels in his bank . his dad gave him 39 nickels and 31 quarters . how many nickels does he have now  ? 
+Answer: 63
+--- SETS ---
+_____________
+adjs : None
+compound : 0
+container : sam
+contains : None
+entity : nickel
+idx : 2
+location : None
+num : 9.8
+subtypes : []
+surface : pennies
+type_failure : 0
+verbs : had
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : nickel
+idx : 5
+location : None
+num : 24
+subtypes : []
+surface : nickels
+type_failure : 0
+verbs : have
+widx : 7
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : dad
+contains : None
+entity : nickel
+idx : 1004
+location : None
+num : 39
+subtypes : []
+surface : nickels
+type_failure : 0
+verbs : gave
+widx : 6
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : nickel
+idx : 1007
+location : None
+num : 155.0
+subtypes : []
+surface : quarters
+type_failure : 0
+verbs : give
+widx : 9
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : nickel
+idx : 2002
+location : None
+num : x
+subtypes : []
+surface : nickels
+type_failure : 0
+verbs : do have
+widx : 3
+_____________
+
+Index: 48
+Problem:  dan grew 42 turnips and 38 cantelopes . jessica grew  47 turnips . how many turnips did they grow in total  ? 
+Answer: 89
+--- SETS ---
+_____________
+adjs : None
+compound : 0
+container : dan
+contains : None
+entity : turnip
+idx : 2
+location : None
+num : 42
+subtypes : []
+surface : turnips
+type_failure : 0
+verbs : grew
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : cantelope
+idx : 5
+location : None
+num : 38
+subtypes : []
+surface : cantelopes
+type_failure : 0
+verbs : grow
+widx : 7
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : jessica
+contains : None
+entity : turnip
+idx : 1002
+location : None
+num : 47
+subtypes : []
+surface : turnips
+type_failure : 0
+verbs : grew
+widx : 4
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : turnip
+idx : 2002
+location : None
+num : x
+subtypes : []
+surface : turnips
+type_failure : 0
+verbs : grow
+widx : 3
+_____________
+
+Index: 49
+Problem:  there are 33 walnut trees currently in the park . park workers will plant  44 more walnut trees today . how many walnut trees will the park have when the workers are finished  ? 
+Answer: 77
+--- SETS ---
+_____________
+adjs : None
+compound : 0
+container : park
+contains : None
+entity : tree
+idx : 2
+location : None
+num : 33
+subtypes : []
+surface : trees
+type_failure : 0
+verbs : None
+widx : 5
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : workers
+contains : None
+entity : tree
+idx : 1004
+location : None
+num : 44
+subtypes : []
+surface : trees
+type_failure : 0
+verbs : plant
+widx : 8
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : worker
+contains : None
+entity : walnut
+idx : 2002
+location : None
+num : x
+subtypes : []
+surface : walnut
+type_failure : 0
+verbs : have
+widx : 3
+_____________
+
+Index: 50
+Problem:  sara had 21 quarters in her bank . her dad gave her 49 more quarters . how many quarters does she have now  ? 
+Answer: 70
+--- SETS ---
+_____________
+adjs : None
+compound : 0
+container : sara
+contains : None
+entity : quarter
+idx : 2
+location : bank
+num : 21
+subtypes : []
+surface : quarters
+type_failure : 0
+verbs : had
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : quarter
+idx : 1004
+location : None
+num : 49
+subtypes : []
+surface : quarters
+type_failure : 0
+verbs : give
+widx : None
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : quarter
+idx : 1006
+location : None
+num : x
+subtypes : []
+surface : quarters
+type_failure : 0
+verbs : do have
+widx : 3
+_____________
+
+Index: 51
+Problem:  there are 41 pencils in the drawer . mike placed 30 more  pencils in the drawer . how many pencils are now there in total  ? 
+Answer: 71
+--- SETS ---
+_____________
+adjs : None
+compound : 0
+container : drawer
+contains : None
+entity : pencil
+idx : 2
+location : drawer
+num : 41
+subtypes : []
+surface : pencils
+type_failure : 0
+verbs : None
+widx : 4
+_____________
+
+_____________
+adjs : more
+compound : 0
+container : drawer
+contains : None
+entity : pencil
+idx : 1002
+location : None
+num : 30
+subtypes : []
+surface : pencils
+type_failure : 0
+verbs : placed
+widx : 5
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : pencil
+idx : 2002
+location : None
+num : x
+subtypes : []
+surface : pencils
+type_failure : 0
+verbs : be
+widx : 3
+_____________
+
+Index: 52
+Problem:  joan has 10 books . tom has 38 books .  how many books do they have together  ? 
+Answer: 48
+--- SETS ---
+_____________
+adjs : None
+compound : 0
+container : joan
+contains : None
+entity : book
+idx : 2
+location : None
+num : 10
+subtypes : []
+surface : books
+type_failure : 0
+verbs : has
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : tom
+contains : None
+entity : book
+idx : 1002
+location : None
+num : 38
+subtypes : []
+surface : books
+type_failure : 0
+verbs : has
+widx : 4
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : they
+contains : None
+entity : book
+idx : 2002
+location : None
+num : x
+subtypes : []
+surface : books
+type_failure : 0
+verbs : have
+widx : 3
+_____________
+
+Index: 53
+Problem:  joan has 40 blue balloons melanie has 41 blue balloons . how many blue balloons do they have in total  ? 
+Answer: 81
+--- SETS ---
+_____________
+adjs : blue
+compound : 0
+container : joan
+contains : None
+entity : balloon
+idx : 2
+location : None
+num : 40
+subtypes : []
+surface : balloons
+type_failure : 0
+verbs : has
+widx : 5
+_____________
+
+_____________
+adjs : blue
+compound : 0
+container : melanie
+contains : None
+entity : balloon
+idx : 7
+location : None
+num : 41
+subtypes : []
+surface : balloons
+type_failure : 0
+verbs : has
+widx : 10
+_____________
+
+_____________
+adjs : many blue
+compound : 0
+container : they
+contains : None
+entity : balloon
+idx : 1003
+location : None
+num : x
+subtypes : []
+surface : balloons
+type_failure : 0
+verbs : have
+widx : 4
+_____________
+
+Index: 54
+Problem:  fred grew 38 cantelopes . tim grew 44 cantelopes . how many cantelopes did they grow in total  ? 
+Answer: 82
+--- SETS ---
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : cantelope
+idx : 2
+location : None
+num : 38
+subtypes : []
+surface : cantelopes
+type_failure : 0
+verbs : grew
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : tim
+contains : None
+entity : cantelope
+idx : 1002
+location : None
+num : 44
+subtypes : []
+surface : cantelopes
+type_failure : 0
+verbs : grew
+widx : 4
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : cantelope
+idx : 2002
+location : None
+num : x
+subtypes : []
+surface : cantelopes
+type_failure : 0
+verbs : grow
+widx : 3
+_____________
+
+Index: 55
+Problem:  sam went to 14 football games this year . he went to 29 games  last year . how many football games did sam go to in all  ? 
+Answer: 43
+--- SETS ---
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : game
+idx : 3
+location : None
+num : 14
+subtypes : []
+surface : games
+type_failure : 0
+verbs : go
+widx : 6
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : game
+idx : 1003
+location : None
+num : 29
+subtypes : []
+surface : games
+type_failure : 0
+verbs : go
+widx : 5
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : game
+idx : 2003
+location : None
+num : x
+subtypes : []
+surface : games
+type_failure : 0
+verbs : go
+widx : 4
+_____________
+
+Index: 56
+Problem:  mary found 18 seashells and jessica found 41 seashells on the beach . how many seashells did they find together  ? 
+Answer: 59

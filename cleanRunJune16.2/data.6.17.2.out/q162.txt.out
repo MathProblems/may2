@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 24 | 32 | x=(4*8) | x 4 8 * = | x:pencil 4:people 8:pencil *:pencil =:pencil
+EXPR: 0 | POS | INT | 0 | 24 | 32 | (4*8)=x | 4 8 * x = | 4:people 8:pencil *:pencil x:pencil =:pencil
+EXPR: 0 | POS | INT | 2 | 24 | 2 | (8/4)=x | 8 4 / x = | 8:pencil 4:people /:pencil x:pencil =:pencil
+EXPR: 0 | POS | INT | 2 | 24 | 32 | (x/4)=8 | x 4 / 8 = | x:pencil 4:people /:pencil 8:pencil =:pencil
+EXPR: 0 | POS | INT | 2 | 24 | 2 | x=(8/4) | x 8 4 / = | x:pencil 8:pencil 4:people /:pencil =:pencil
+EXPR: 0 | POS | INT | 2 | 24 | 2 | (x*4)=8 | x 4 * 8 = | x:pencil 4:people *:pencil 8:pencil =:pencil
+EXPR: 0 | POS | INT | 2 | 24 | 2 | (4*x)=8 | 4 x * 8 = | 4:people x:pencil *:pencil 8:pencil =:pencil
+EXPR: 0 | POS | INT | 4 | 24 | 2 | 8=(x*4) | 8 x 4 * = | 8:pencil x:pencil 4:people *:pencil =:pencil
+EXPR: 0 | POS | INT | 4 | 24 | 32 | 8=(x/4) | 8 x 4 / = | 8:pencil x:pencil 4:people /:pencil =:pencil
+EXPR: 0 | POS | INT | 4 | 24 | 2 | 8=(4*x) | 8 4 x * = | 8:pencil 4:people x:pencil *:pencil =:pencil
+EXPR: 0 | POS | INT | 10 | 24 | 12 | (4+8)=x | 4 8 + x = | 4:pencil 8:pencil +:pencil x:pencil =:pencil
+EXPR: 0 | POS | INT | 10 | 24 | 12 | x=(4+8) | x 4 8 + = | x:pencil 4:pencil 8:pencil +:pencil =:pencil
+EXPR: 0 | POS | INT | 12 | 24 | 12 | 4=(x-8) | 4 x 8 - = | 4:pencil x:pencil 8:pencil -:pencil =:pencil
+EXPR: 0 | POS | INT | 12 | 24 | 4 | (8-4)=x | 8 4 - x = | 8:pencil 4:pencil -:pencil x:pencil =:pencil
+EXPR: 0 | POS | INT | 12 | 24 | 12 | (x-4)=8 | x 4 - 8 = | x:pencil 4:pencil -:pencil 8:pencil =:pencil
+EXPR: 0 | POS | INT | 12 | 24 | 4 | x=(8-4) | x 8 4 - = | x:pencil 8:pencil 4:pencil -:pencil =:pencil
+EXPR: 0 | POS | INT | 12 | 24 | 32 | 4=(x/8) | 4 x 8 / = | 4:people x:people 8:pencil /:people =:people
+EXPR: 0 | POS | INT | 12 | 24 | 4 | (x+4)=8 | x 4 + 8 = | x:pencil 4:pencil +:pencil 8:pencil =:pencil
+EXPR: 0 | POS | INT | 12 | 24 | 4 | 4=(8-x) | 4 8 x - = | 4:pencil 8:pencil x:pencil -:pencil =:pencil
+EXPR: 0 | POS | INT | 12 | 24 | 2 | 4=(8/x) | 4 8 x / = | 4:people 8:people x:pencil /:people =:people
+EXPR: 0 | POS | INT | 12 | 24 | 4 | (4+x)=8 | 4 x + 8 = | 4:pencil x:pencil +:pencil 8:pencil =:pencil
+EXPR: 0 | POS | INT | 14 | 24 | 32 | (x/8)=4 | x 8 / 4 = | x:people 8:pencil /:people 4:people =:people
+EXPR: 0 | POS | INT | 14 | 24 | 12 | (x-8)=4 | x 8 - 4 = | x:pencil 8:pencil -:pencil 4:pencil =:pencil
+EXPR: 0 | POS | INT | 14 | 24 | 4 | (8-x)=4 | 8 x - 4 = | 8:pencil x:pencil -:pencil 4:pencil =:pencil
+EXPR: 0 | POS | INT | 14 | 24 | 4 | 8=(x+4) | 8 x 4 + = | 8:pencil x:pencil 4:pencil +:pencil =:pencil
+EXPR: 0 | POS | INT | 14 | 24 | 12 | 8=(x-4) | 8 x 4 - = | 8:pencil x:pencil 4:pencil -:pencil =:pencil
+EXPR: 0 | POS | INT | 14 | 24 | 2 | (8/x)=4 | 8 x / 4 = | 8:people x:pencil /:people 4:people =:people
+EXPR: 0 | POS | INT | 14 | 24 | 4 | 8=(4+x) | 8 4 x + = | 8:pencil 4:pencil x:pencil +:pencil =:pencil
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

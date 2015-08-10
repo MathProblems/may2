@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 22 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | FRA | 0 | 15.1 | 15.1 | x=(10+5.1) | x 10 5.1 + = | x:ton 10:ton 5.1:ton +:ton =:ton
+EXPR: 0 | POS | FRA | 0 | 15.1 | 4.9 | x=(10-5.1) | x 10 5.1 - = | x:ton 10:ton 5.1:ton -:ton =:ton
+EXPR: 0 | POS | FRA | 1 | 15.1 | 4.9 | x=(10-5.1) | x 10 5.1 - = | x:ton 10:ton 5.1:ton -:ton =:ton
+EXPR: 1 | POS | FRA | 1 | 15.1 | 15.1 | x=(10+5.1) | x 10 5.1 + = | x:ton 10:ton 5.1:ton +:ton =:ton
+EXPR: 0 | POS | FRA | 2 | 15.1 | 4.9 | (10-x)=5.1 | 10 x - 5.1 = | 10:ton x:ton -:ton 5.1:ton =:ton
+EXPR: 1 | POS | FRA | 2 | 15.1 | 15.1 | (x-10)=5.1 | x 10 - 5.1 = | x:ton 10:ton -:ton 5.1:ton =:ton
+EXPR: 0 | POS | FRA | 2 | 15.1 | 4.9 | 10=(5.1+x) | 10 5.1 x + = | 10:ton 5.1:ton x:ton +:ton =:ton
+EXPR: 1 | POS | FRA | 2 | 15.1 | 15.1 | 10=(x-5.1) | 10 x 5.1 - = | 10:ton x:ton 5.1:ton -:ton =:ton
+EXPR: 0 | POS | FRA | 2 | 15.1 | 4.9 | 10=(x+5.1) | 10 x 5.1 + = | 10:ton x:ton 5.1:ton +:ton =:ton
+EXPR: 1 | POS | FRA | 12 | 15.1 | 15.1 | 5.1=(x-10) | 5.1 x 10 - = | 5.1:ton x:ton 10:ton -:ton =:ton
+EXPR: 0 | POS | FRA | 12 | 15.1 | 4.9 | (5.1+x)=10 | 5.1 x + 10 = | 5.1:ton x:ton +:ton 10:ton =:ton
+EXPR: 0 | POS | FRA | 12 | 15.1 | 4.9 | (x+5.1)=10 | x 5.1 + 10 = | x:ton 5.1:ton +:ton 10:ton =:ton
+EXPR: 1 | POS | FRA | 12 | 15.1 | 15.1 | (x-5.1)=10 | x 5.1 - 10 = | x:ton 5.1:ton -:ton 10:ton =:ton
+EXPR: 0 | POS | FRA | 12 | 15.1 | 4.9 | 5.1=(10-x) | 5.1 10 x - = | 5.1:ton 10:ton x:ton -:ton =:ton
+NET 14 non-negative solutions found out of 22 total solutions

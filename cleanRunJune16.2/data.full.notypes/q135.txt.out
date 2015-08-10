@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 56 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 12 | 2 | x=(5-3) | x 5 3 - = | x:people 5:people 3:people -:people =:people
+EXPR: 0 | POS | INT | 0 | 12 | 8 | (5+3)=x | 5 3 + x = | 5:people 3:people +:people x:people =:people
+EXPR: 0 | POS | INT | 0 | 12 | 15 | (5*3)=x | 5 3 * x = | 5:people 3:people *:people x:people =:people
+EXPR: 0 | POS | INT | 0 | 12 | 2 | (5-3)=x | 5 3 - x = | 5:people 3:people -:people x:people =:people
+EXPR: 0 | POS | INT | 0 | 12 | 8 | x=(5+3) | x 5 3 + = | x:people 5:people 3:people +:people =:people
+EXPR: 0 | POS | INT | 0 | 12 | 15 | x=(5*3) | x 5 3 * = | x:people 5:people 3:people *:people =:people
+EXPR: 0 | POS | INT | 2 | 12 | 8 | 5=(x-3) | 5 x 3 - = | 5:people x:people 3:people -:people =:people
+EXPR: 0 | POS | INT | 2 | 12 | 15 | 5=(x/3) | 5 x 3 / = | 5:people x:people 3:people /:people =:people
+EXPR: 0 | POS | INT | 2 | 12 | 2 | 5=(x+3) | 5 x 3 + = | 5:people x:people 3:people +:people =:people
+EXPR: 0 | POS | INT | 2 | 12 | 2 | 5=(3+x) | 5 3 x + = | 5:people 3:people x:people +:people =:people
+EXPR: 0 | POS | INT | 2 | 12 | 2 | (5-x)=3 | 5 x - 3 = | 5:people x:people -:people 3:people =:people
+EXPR: 0 | POS | INT | 2 | 12 | 8 | (x-5)=3 | x 5 - 3 = | x:people 5:people -:people 3:people =:people
+EXPR: 0 | POS | INT | 2 | 12 | 15 | (x/5)=3 | x 5 / 3 = | x:people 5:people /:people 3:people =:people
+EXPR: 0 | POS | INT | 4 | 12 | 8 | 3=(x-5) | 3 x 5 - = | 3:people x:people 5:people -:people =:people
+EXPR: 0 | POS | INT | 4 | 12 | 2 | (x+3)=5 | x 3 + 5 = | x:people 3:people +:people 5:people =:people
+EXPR: 0 | POS | INT | 4 | 12 | 2 | 3=(5-x) | 3 5 x - = | 3:people 5:people x:people -:people =:people
+EXPR: 0 | POS | INT | 4 | 12 | 15 | 3=(x/5) | 3 x 5 / = | 3:people x:people 5:people /:people =:people
+EXPR: 0 | POS | INT | 4 | 12 | 2 | (3+x)=5 | 3 x + 5 = | 3:people x:people +:people 5:people =:people
+EXPR: 0 | POS | INT | 4 | 12 | 15 | (x/3)=5 | x 3 / 5 = | x:people 3:people /:people 5:people =:people
+EXPR: 0 | POS | INT | 4 | 12 | 8 | (x-3)=5 | x 3 - 5 = | x:people 3:people -:people 5:people =:people
+NET 20 unique, non-negative, integer-valued solutions found out of 56 total solutions

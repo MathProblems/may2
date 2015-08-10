@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 56 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 24 | 11 | (5+6)=x | 5 6 + x = | 5:people 6:people +:people x:people =:people
+EXPR: 0 | POS | INT | 0 | 24 | 30 | (5*6)=x | 5 6 * x = | 5:people 6:people *:people x:people =:people
+EXPR: 0 | POS | INT | 0 | 24 | 11 | x=(5+6) | x 5 6 + = | x:people 5:people 6:people +:people =:people
+EXPR: 0 | POS | INT | 0 | 24 | 30 | x=(5*6) | x 5 6 * = | x:people 5:people 6:people *:people =:people
+EXPR: 0 | POS | INT | 2 | 24 | 11 | 5=(x-6) | 5 x 6 - = | 5:people x:people 6:people -:people =:people
+EXPR: 0 | POS | INT | 2 | 24 | 30 | 5=(x/6) | 5 x 6 / = | 5:people x:people 6:people /:people =:people
+EXPR: 0 | POS | INT | 2 | 24 | 1 | (x+5)=6 | x 5 + 6 = | x:people 5:people +:people 6:people =:people
+EXPR: 0 | POS | INT | 2 | 24 | 1 | x=(6-5) | x 6 5 - = | x:people 6:people 5:people -:people =:people
+EXPR: 0 | POS | INT | 2 | 24 | 1 | (5+x)=6 | 5 x + 6 = | 5:people x:people +:people 6:people =:people
+EXPR: 0 | POS | INT | 2 | 24 | 1 | (6-5)=x | 6 5 - x = | 6:people 5:people -:people x:people =:people
+EXPR: 0 | POS | INT | 2 | 24 | 11 | (x-5)=6 | x 5 - 6 = | x:people 5:people -:people 6:people =:people
+EXPR: 0 | POS | INT | 2 | 24 | 30 | (x/5)=6 | x 5 / 6 = | x:people 5:people /:people 6:people =:people
+EXPR: 0 | POS | INT | 2 | 24 | 1 | 5=(6-x) | 5 6 x - = | 5:people 6:people x:people -:people =:people
+EXPR: 0 | POS | INT | 4 | 24 | 11 | 6=(x-5) | 6 x 5 - = | 6:people x:people 5:people -:people =:people
+EXPR: 0 | POS | INT | 4 | 24 | 1 | 6=(x+5) | 6 x 5 + = | 6:people x:people 5:people +:people =:people
+EXPR: 0 | POS | INT | 4 | 24 | 30 | 6=(x/5) | 6 x 5 / = | 6:people x:people 5:people /:people =:people
+EXPR: 0 | POS | INT | 4 | 24 | 1 | (6-x)=5 | 6 x - 5 = | 6:people x:people -:people 5:people =:people
+EXPR: 0 | POS | INT | 4 | 24 | 1 | 6=(5+x) | 6 5 x + = | 6:people 5:people x:people +:people =:people
+EXPR: 0 | POS | INT | 4 | 24 | 30 | (x/6)=5 | x 6 / 5 = | x:people 6:people /:people 5:people =:people
+EXPR: 0 | POS | INT | 4 | 24 | 11 | (x-6)=5 | x 6 - 5 = | x:people 6:people -:people 5:people =:people
+NET 20 unique, non-negative, integer-valued solutions found out of 56 total solutions

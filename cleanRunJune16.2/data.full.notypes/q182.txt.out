@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 56 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 7 | 56 | (7+49)=x | 7 49 + x = | 7:day 49:day +:day x:day =:day
+EXPR: 0 | POS | INT | 0 | 7 | 343 | (7*49)=x | 7 49 * x = | 7:day 49:day *:day x:day =:day
+EXPR: 0 | POS | INT | 0 | 7 | 56 | x=(7+49) | x 7 49 + = | x:day 7:day 49:day +:day =:day
+EXPR: 0 | POS | INT | 0 | 7 | 343 | x=(7*49) | x 7 49 * = | x:day 7:day 49:day *:day =:day
+EXPR: 1 | POS | INT | 2 | 7 | 7 | 7=(49/x) | 7 49 x / = | 7:day 49:day x:day /:day =:day
+EXPR: 0 | POS | INT | 2 | 7 | 56 | 7=(x-49) | 7 x 49 - = | 7:day x:day 49:day -:day =:day
+EXPR: 0 | POS | INT | 2 | 7 | 343 | 7=(x/49) | 7 x 49 / = | 7:day x:day 49:day /:day =:day
+EXPR: 1 | POS | INT | 2 | 7 | 7 | (7*x)=49 | 7 x * 49 = | 7:day x:day *:day 49:day =:day
+EXPR: 0 | POS | INT | 2 | 7 | 42 | (x+7)=49 | x 7 + 49 = | x:day 7:day +:day 49:day =:day
+EXPR: 0 | POS | INT | 2 | 7 | 42 | x=(49-7) | x 49 7 - = | x:day 49:day 7:day -:day =:day
+EXPR: 0 | POS | INT | 2 | 7 | 42 | (7+x)=49 | 7 x + 49 = | 7:day x:day +:day 49:day =:day
+EXPR: 1 | POS | INT | 2 | 7 | 7 | x=(49/7) | x 49 7 / = | x:day 49:day 7:day /:day =:day
+EXPR: 0 | POS | INT | 2 | 7 | 42 | (49-7)=x | 49 7 - x = | 49:day 7:day -:day x:day =:day
+EXPR: 1 | POS | INT | 2 | 7 | 7 | (49/7)=x | 49 7 / x = | 49:day 7:day /:day x:day =:day
+EXPR: 0 | POS | INT | 2 | 7 | 56 | (x-7)=49 | x 7 - 49 = | x:day 7:day -:day 49:day =:day
+EXPR: 0 | POS | INT | 2 | 7 | 343 | (x/7)=49 | x 7 / 49 = | x:day 7:day /:day 49:day =:day
+EXPR: 1 | POS | INT | 2 | 7 | 7 | (x*7)=49 | x 7 * 49 = | x:day 7:day *:day 49:day =:day
+EXPR: 0 | POS | INT | 2 | 7 | 42 | 7=(49-x) | 7 49 x - = | 7:day 49:day x:day -:day =:day
+EXPR: 0 | POS | INT | 4 | 7 | 56 | 49=(x-7) | 49 x 7 - = | 49:day x:day 7:day -:day =:day
+EXPR: 0 | POS | INT | 4 | 7 | 42 | 49=(x+7) | 49 x 7 + = | 49:day x:day 7:day +:day =:day
+EXPR: 1 | POS | INT | 4 | 7 | 7 | (49/x)=7 | 49 x / 7 = | 49:day x:day /:day 7:day =:day
+EXPR: 1 | POS | INT | 4 | 7 | 7 | 49=(x*7) | 49 x 7 * = | 49:day x:day 7:day *:day =:day
+EXPR: 0 | POS | INT | 4 | 7 | 343 | 49=(x/7) | 49 x 7 / = | 49:day x:day 7:day /:day =:day
+EXPR: 0 | POS | INT | 4 | 7 | 42 | (49-x)=7 | 49 x - 7 = | 49:day x:day -:day 7:day =:day
+EXPR: 1 | POS | INT | 4 | 7 | 7 | 49=(7*x) | 49 7 x * = | 49:day 7:day x:day *:day =:day
+EXPR: 0 | POS | INT | 4 | 7 | 42 | 49=(7+x) | 49 7 x + = | 49:day 7:day x:day +:day =:day
+EXPR: 0 | POS | INT | 4 | 7 | 343 | (x/49)=7 | x 49 / 7 = | x:day 49:day /:day 7:day =:day
+EXPR: 0 | POS | INT | 4 | 7 | 56 | (x-49)=7 | x 49 - 7 = | x:day 49:day -:day 7:day =:day
+NET 28 unique, non-negative, integer-valued solutions found out of 56 total solutions

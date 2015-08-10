@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 22 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 5935 | 11229 | x=(2647+8582) | x 2647 8582 + = | x:book 2647:book 8582:book +:book =:book
+EXPR: 0 | POS | INT | 1 | 5935 | 11229 | x=(2647+8582) | x 2647 8582 + = | x:book 2647:book 8582:book +:book =:book
+EXPR: 1 | POS | INT | 2 | 5935 | 5935 | (2647+x)=8582 | 2647 x + 8582 = | 2647:book x:book +:book 8582:book =:book
+EXPR: 0 | POS | INT | 2 | 5935 | 11229 | (x-2647)=8582 | x 2647 - 8582 = | x:book 2647:book -:book 8582:book =:book
+EXPR: 1 | POS | INT | 2 | 5935 | 5935 | (x+2647)=8582 | x 2647 + 8582 = | x:book 2647:book +:book 8582:book =:book
+EXPR: 1 | POS | INT | 2 | 5935 | 5935 | 2647=(8582-x) | 2647 8582 x - = | 2647:book 8582:book x:book -:book =:book
+EXPR: 0 | POS | INT | 2 | 5935 | 11229 | 2647=(x-8582) | 2647 x 8582 - = | 2647:book x:book 8582:book -:book =:book
+EXPR: 1 | POS | INT | 10 | 5935 | 5935 | x=(8582-2647) | x 8582 2647 - = | x:book 8582:book 2647:book -:book =:book
+EXPR: 1 | POS | INT | 11 | 5935 | 5935 | x=(8582-2647) | x 8582 2647 - = | x:book 8582:book 2647:book -:book =:book
+EXPR: 1 | POS | INT | 12 | 5935 | 5935 | 8582=(x+2647) | 8582 x 2647 + = | 8582:book x:book 2647:book +:book =:book
+EXPR: 0 | POS | INT | 12 | 5935 | 11229 | 8582=(x-2647) | 8582 x 2647 - = | 8582:book x:book 2647:book -:book =:book
+EXPR: 1 | POS | INT | 12 | 5935 | 5935 | (8582-x)=2647 | 8582 x - 2647 = | 8582:book x:book -:book 2647:book =:book
+EXPR: 0 | POS | INT | 12 | 5935 | 11229 | (x-8582)=2647 | x 8582 - 2647 = | x:book 8582:book -:book 2647:book =:book
+EXPR: 1 | POS | INT | 12 | 5935 | 5935 | 8582=(2647+x) | 8582 2647 x + = | 8582:book 2647:book x:book +:book =:book
+NET 14 non-negative, integer-valued solutions found out of 22 total solutions

@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 2454 | 4072 | (809+3263)=x | 809 3263 + x = | 809:plant 3263:plant +:plant x:plant =:plant
+EXPR: 0 | POS | INT | 10 | 2454 | 2639767 | x=(809*3263) | x 809 3263 * = | x:alga 809:plant 3263:alga *:alga =:alga
+EXPR: 0 | POS | INT | 10 | 2454 | 2639767 | (809*3263)=x | 809 3263 * x = | 809:plant 3263:alga *:alga x:alga =:alga
+EXPR: 0 | POS | INT | 10 | 2454 | 4072 | x=(809+3263) | x 809 3263 + = | x:plant 809:plant 3263:plant +:plant =:plant
+EXPR: 0 | POS | INT | 12 | 2454 | 4072 | (x-809)=3263 | x 809 - 3263 = | x:plant 809:plant -:plant 3263:plant =:plant
+EXPR: 0 | POS | INT | 12 | 2454 | 2639767 | (x/809)=3263 | x 809 / 3263 = | x:alga 809:plant /:alga 3263:alga =:alga
+EXPR: 0 | POS | INT | 12 | 2454 | 4072 | 809=(x-3263) | 809 x 3263 - = | 809:plant x:plant 3263:plant -:plant =:plant
+EXPR: 1 | POS | INT | 12 | 2454 | 2454 | (x+809)=3263 | x 809 + 3263 = | x:plant 809:plant +:plant 3263:plant =:plant
+EXPR: 1 | POS | INT | 12 | 2454 | 2454 | (809+x)=3263 | 809 x + 3263 = | 809:plant x:plant +:plant 3263:plant =:plant
+EXPR: 0 | POS | INT | 12 | 2454 | 2639767 | 809=(x/3263) | 809 x 3263 / = | 809:alga x:alga 3263:plant /:alga =:alga
+EXPR: 1 | POS | INT | 12 | 2454 | 2454 | x=(3263-809) | x 3263 809 - = | x:plant 3263:plant 809:plant -:plant =:plant
+EXPR: 1 | POS | INT | 12 | 2454 | 2454 | 809=(3263-x) | 809 3263 x - = | 809:plant 3263:plant x:plant -:plant =:plant
+EXPR: 1 | POS | INT | 12 | 2454 | 2454 | (3263-809)=x | 3263 809 - x = | 3263:plant 809:plant -:plant x:plant =:plant
+EXPR: 0 | POS | INT | 14 | 2454 | 2639767 | (x/3263)=809 | x 3263 / 809 = | x:alga 3263:plant /:alga 809:alga =:alga
+EXPR: 1 | POS | INT | 14 | 2454 | 2454 | (3263-x)=809 | 3263 x - 809 = | 3263:plant x:plant -:plant 809:plant =:plant
+EXPR: 0 | POS | INT | 14 | 2454 | 4072 | (x-3263)=809 | x 3263 - 809 = | x:plant 3263:plant -:plant 809:plant =:plant
+EXPR: 0 | POS | INT | 14 | 2454 | 2639767 | 3263=(x/809) | 3263 x 809 / = | 3263:alga x:alga 809:plant /:alga =:alga
+EXPR: 0 | POS | INT | 14 | 2454 | 4072 | 3263=(x-809) | 3263 x 809 - = | 3263:plant x:plant 809:plant -:plant =:plant
+EXPR: 1 | POS | INT | 14 | 2454 | 2454 | 3263=(x+809) | 3263 x 809 + = | 3263:plant x:plant 809:plant +:plant =:plant
+EXPR: 1 | POS | INT | 14 | 2454 | 2454 | 3263=(809+x) | 3263 809 x + = | 3263:plant 809:plant x:plant +:plant =:plant
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

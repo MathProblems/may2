@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 49 | 98 | x=(2*49.0) | x 2 49.0 * = | x:dollar 2:people 49.0:dollar *:dollar =:dollar
+EXPR: 0 | POS | INT | 0 | 49 | 98 | (2*49.0)=x | 2 49.0 * x = | 2:people 49.0:dollar *:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 2 | 49 | 98 | (x/2)=49.0 | x 2 / 49.0 = | x:dollar 2:people /:dollar 49.0:dollar =:dollar
+EXPR: 0 | POS | INT | 4 | 49 | 98 | 49.0=(x/2) | 49.0 x 2 / = | 49.0:dollar x:dollar 2:people /:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 49 | 51 | (2+49.0)=x | 2 49.0 + x = | 2:dollar 49.0:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 49 | 51 | x=(2+49.0) | x 2 49.0 + = | x:dollar 2:dollar 49.0:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 49 | 51 | 2=(x-49.0) | 2 x 49.0 - = | 2:dollar x:dollar 49.0:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 49 | 47 | (49.0-2)=x | 49.0 2 - x = | 49.0:dollar 2:dollar -:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 49 | 51 | (x-2)=49.0 | x 2 - 49.0 = | x:dollar 2:dollar -:dollar 49.0:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 49 | 47 | x=(49.0-2) | x 49.0 2 - = | x:dollar 49.0:dollar 2:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 49 | 98 | 2=(x/49.0) | 2 x 49.0 / = | 2:people x:people 49.0:dollar /:people =:people
+EXPR: 0 | POS | INT | 12 | 49 | 47 | (x+2)=49.0 | x 2 + 49.0 = | x:dollar 2:dollar +:dollar 49.0:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 49 | 47 | 2=(49.0-x) | 2 49.0 x - = | 2:dollar 49.0:dollar x:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 49 | 47 | (2+x)=49.0 | 2 x + 49.0 = | 2:dollar x:dollar +:dollar 49.0:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 49 | 98 | (x/49.0)=2 | x 49.0 / 2 = | x:people 49.0:dollar /:people 2:people =:people
+EXPR: 0 | POS | INT | 14 | 49 | 51 | (x-49.0)=2 | x 49.0 - 2 = | x:dollar 49.0:dollar -:dollar 2:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 49 | 47 | (49.0-x)=2 | 49.0 x - 2 = | 49.0:dollar x:dollar -:dollar 2:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 49 | 47 | 49.0=(x+2) | 49.0 x 2 + = | 49.0:dollar x:dollar 2:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 49 | 51 | 49.0=(x-2) | 49.0 x 2 - = | 49.0:dollar x:dollar 2:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 49 | 47 | 49.0=(2+x) | 49.0 2 x + = | 49.0:dollar 2:dollar x:dollar +:dollar =:dollar
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

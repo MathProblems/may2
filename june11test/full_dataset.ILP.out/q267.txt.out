@@ -1,0 +1,8 @@
+parameters: n=9 l=4 k=1 p=5 q=2 m=10
+TOTAL 100 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 67 | 1914 | x=((30+(49-46))*58) | x 30 49 46 - + 58 * = | x:money 30:dollar 49:dollar 46:dollar -:dollar +:dollar 58:money *:money =:money
+EXPR: 0 | POS | INT | 22 | 67 | 80089.0000000002 | 30=((x-49)/(46*58)) | 30 x 49 - 46 58 * / = | 30:dollar x:dollar 49:dollar -:dollar 46:dollar 58:money *:money /:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 67 | 79991 | 30=((x+49)/(46*58)) | 30 x 49 + 46 58 * / = | 30:dollar x:dollar 49:dollar +:dollar 46:dollar 58:money *:money /:dollar =:dollar
+EXPR: 0 | POS | INT | 32 | 67 | 85 | 49=(30+(58-(x-46))) | 49 30 58 x 46 - - + = | 49:dollar 30:dollar 58:dollar x:dollar 46:dollar -:dollar -:dollar +:dollar =:dollar
+NET 4 non-negative, integer-valued solutions found out of 100 total solutions

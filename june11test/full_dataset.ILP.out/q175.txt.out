@@ -1,0 +1,46 @@
+parameters: n=7 l=3 k=1 p=5 q=2 m=9
+TOTAL 100 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 480 | 480 | x=((8*12)*5) | x 8 12 * 5 * = | x:book 8:dozen 12:book *:book 5:dozen *:book =:book
+EXPR: 1 | POS | INT | 0 | 480 | 480 | x=(8*(12*5)) | x 8 12 5 * * = | x:book 8:dozen 12:book 5:dozen *:book *:book =:book
+EXPR: 1 | POS | INT | 1 | 480 | 480 | x=(8*(12*5)) | x 8 12 5 * * = | x:book 8:dozen 12:book 5:dozen *:book *:book =:book
+EXPR: 1 | POS | INT | 1 | 480 | 480 | x=((8*12)*5) | x 8 12 * 5 * = | x:book 8:dozen 12:book *:book 5:dozen *:book =:book
+EXPR: 0 | POS | INT | 10 | 480 | 91 | x=((8*12)-5) | x 8 12 * 5 - = | x:book 8:dozen 12:book *:book 5:book -:book =:book
+EXPR: 1 | POS | INT | 10 | 480 | 480 | x=((8*12)*5) | x 8 12 * 5 * = | x:dozen 8:dozen 12:book *:book 5:dozen *:dozen =:dozen
+EXPR: 0 | POS | INT | 10 | 480 | 136 | x=(8*(12+5)) | x 8 12 5 + * = | x:book 8:dozen 12:book 5:book +:book *:book =:book
+EXPR: 0 | POS | INT | 10 | 480 | 101 | x=((8*12)+5) | x 8 12 * 5 + = | x:book 8:dozen 12:book *:book 5:book +:book =:book
+EXPR: 0 | POS | INT | 10 | 480 | 101 | x=((8*12)+5) | x 8 12 * 5 + = | x:dozen 8:dozen 12:book *:dozen 5:dozen +:dozen =:dozen
+EXPR: 0 | POS | INT | 10 | 480 | 91 | x=((8*12)-5) | x 8 12 * 5 - = | x:dozen 8:dozen 12:book *:dozen 5:dozen -:dozen =:dozen
+EXPR: 1 | POS | INT | 10 | 480 | 480 | x=((8*12)*5) | x 8 12 * 5 * = | x:book 8:dozen 12:book *:dozen 5:book *:book =:book
+EXPR: 1 | POS | INT | 10 | 480 | 480 | x=(8*(12*5)) | x 8 12 5 * * = | x:book 8:book 12:book 5:dozen *:dozen *:book =:book
+EXPR: 0 | POS | INT | 10 | 480 | 68 | x=(8+(12*5)) | x 8 12 5 * + = | x:dozen 8:dozen 12:book 5:dozen *:dozen +:dozen =:dozen
+EXPR: 0 | POS | INT | 10 | 480 | 100 | x=((8+12)*5) | x 8 12 + 5 * = | x:book 8:book 12:book +:book 5:dozen *:book =:book
+EXPR: 1 | POS | INT | 10 | 480 | 480 | x=(8*(12*5)) | x 8 12 5 * * = | x:dozen 8:dozen 12:book 5:dozen *:book *:dozen =:dozen
+EXPR: 0 | POS | INT | 10 | 480 | 4 | x=((8+12)/5) | x 8 12 + 5 / = | x:book 8:book 12:book +:book 5:dozen /:book =:book
+EXPR: 0 | POS | INT | 10 | 480 | 68 | x=(8+(12*5)) | x 8 12 5 * + = | x:book 8:book 12:book 5:dozen *:book +:book =:book
+EXPR: 0 | POS | INT | 10 | 480 | 36 | x=(12*(8-5)) | x 12 8 5 - * = | x:book 12:book 8:dozen 5:dozen -:dozen *:book =:book
+EXPR: 0 | POS | INT | 10 | 480 | 4 | x=(12/(8-5)) | x 12 8 5 - / = | x:book 12:book 8:dozen 5:dozen -:dozen /:book =:book
+EXPR: 0 | POS | INT | 10 | 480 | 36 | x=((8-5)*12) | x 8 5 - 12 * = | x:book 8:dozen 5:dozen -:dozen 12:book *:book =:book
+EXPR: 0 | POS | INT | 10 | 480 | 156 | x=((8+5)*12) | x 8 5 + 12 * = | x:book 8:dozen 5:dozen +:dozen 12:book *:book =:book
+EXPR: 0 | POS | INT | 10 | 480 | 156 | x=(12*(8+5)) | x 12 8 5 + * = | x:book 12:book 8:dozen 5:dozen +:dozen *:book =:book
+EXPR: 0 | POS | INT | 10 | 480 | 56 | x=(8*(12-5)) | x 8 12 5 - * = | x:book 8:dozen 12:book 5:book -:book *:book =:book
+EXPR: 0 | POS | INT | 11 | 480 | 56 | x=(8*(12-5)) | x 8 12 5 - * = | x:book 8:dozen 12:book 5:book -:book *:book =:book
+EXPR: 1 | POS | INT | 11 | 480 | 480 | x=((8*12)*5) | x 8 12 * 5 * = | x:dozen 8:dozen 12:book *:book 5:dozen *:dozen =:dozen
+EXPR: 0 | POS | INT | 11 | 480 | 91 | x=((8*12)-5) | x 8 12 * 5 - = | x:book 8:dozen 12:book *:book 5:book -:book =:book
+EXPR: 0 | POS | INT | 11 | 480 | 136 | x=(8*(12+5)) | x 8 12 5 + * = | x:book 8:dozen 12:book 5:book +:book *:book =:book
+EXPR: 0 | POS | INT | 11 | 480 | 101 | x=((8*12)+5) | x 8 12 * 5 + = | x:dozen 8:dozen 12:book *:dozen 5:dozen +:dozen =:dozen
+EXPR: 0 | POS | INT | 11 | 480 | 101 | x=((8*12)+5) | x 8 12 * 5 + = | x:book 8:dozen 12:book *:book 5:book +:book =:book
+EXPR: 0 | POS | INT | 11 | 480 | 91 | x=((8*12)-5) | x 8 12 * 5 - = | x:dozen 8:dozen 12:book *:dozen 5:dozen -:dozen =:dozen
+EXPR: 1 | POS | INT | 11 | 480 | 480 | x=((8*12)*5) | x 8 12 * 5 * = | x:book 8:dozen 12:book *:dozen 5:book *:book =:book
+EXPR: 1 | POS | INT | 11 | 480 | 480 | x=(8*(12*5)) | x 8 12 5 * * = | x:dozen 8:dozen 12:book 5:dozen *:book *:dozen =:dozen
+EXPR: 0 | POS | INT | 11 | 480 | 4 | x=((8+12)/5) | x 8 12 + 5 / = | x:book 8:book 12:book +:book 5:dozen /:book =:book
+EXPR: 1 | POS | INT | 11 | 480 | 480 | x=(8*(12*5)) | x 8 12 5 * * = | x:book 8:book 12:book 5:dozen *:dozen *:book =:book
+EXPR: 0 | POS | INT | 11 | 480 | 100 | x=((8+12)*5) | x 8 12 + 5 * = | x:book 8:book 12:book +:book 5:dozen *:book =:book
+EXPR: 0 | POS | INT | 11 | 480 | 68 | x=(8+(12*5)) | x 8 12 5 * + = | x:dozen 8:dozen 12:book 5:dozen *:dozen +:dozen =:dozen
+EXPR: 0 | POS | INT | 11 | 480 | 4 | x=(12/(8-5)) | x 12 8 5 - / = | x:book 12:book 8:dozen 5:dozen -:dozen /:book =:book
+EXPR: 0 | POS | INT | 11 | 480 | 68 | x=(8+(12*5)) | x 8 12 5 * + = | x:book 8:book 12:book 5:dozen *:book +:book =:book
+EXPR: 0 | POS | INT | 11 | 480 | 36 | x=((8-5)*12) | x 8 5 - 12 * = | x:book 8:dozen 5:dozen -:dozen 12:book *:book =:book
+EXPR: 0 | POS | INT | 11 | 480 | 36 | x=(12*(8-5)) | x 12 8 5 - * = | x:book 12:book 8:dozen 5:dozen -:dozen *:book =:book
+EXPR: 0 | POS | INT | 11 | 480 | 156 | x=((8+5)*12) | x 8 5 + 12 * = | x:book 8:dozen 5:dozen +:dozen 12:book *:book =:book
+EXPR: 0 | POS | INT | 11 | 480 | 156 | x=(12*(8+5)) | x 12 8 5 + * = | x:book 12:book 8:dozen 5:dozen +:dozen *:book =:book
+NET 42 non-negative, integer-valued solutions found out of 100 total solutions

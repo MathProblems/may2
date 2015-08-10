@@ -1,0 +1,1492 @@
+ Jason joined his school's band . He bought a flute for $142.46 , a music stand for $8.89 , and a song book for $7 . How much did Jason spend at the music store ? 
+ee
+[(1002, 'flute', 'a'), (1006, 'dollar', '142.46'), (1008, 'music', 'a'), (1013, 'dollar', '8.89'), (1016, 'book', 'a'), (1021, 'dollar', '7'), (2006, 'store', 'the'), (2009, 'dollar', 'x')]
+[(1002, 'flute', 'a'), (1006, 'dollar', '142.46'), (1008, 'music', 'a'), (1013, 'dollar', '8.89'), (1016, 'book', 'a'), (1021, 'dollar', '7'), (2006, 'store', 'the'), (2009, 'dollar', 'x')]
+c
+[(1002, 'flute', 'a'), (1006, 'dollar', '142.46'), (1008, 'music', 'a'), (1013, 'dollar', '8.89'), (1016, 'book', 'a'), (1021, 'dollar', '7'), (2006, 'store', 'the'), (2009, 'dollar', 'x')]
+units and bare sets
+[(1002, 'flute', 'a'), (1006, 'dollar', '142.46'), (1008, 'music', 'a'), (1013, 'dollar', '8.89'), (1016, 'book', 'a'), (1021, 'dollar', '7'), (2006, 'store', 'the'), (2009, 'dollar', 'x')]
+eac
+[(1002, 'flute', 'a'), (1006, 'dollar', '142.46'), (1008, 'music', 'a'), (1013, 'dollar', '8.89'), (1016, 'book', 'a'), (1021, 'dollar', '7'), (2006, 'store', 'the'), (2009, 'dollar', 'x')]
+mov x
+[(1002, 'flute', 'a'), (1006, 'dollar', '142.46'), (1008, 'music', 'a'), (1013, 'dollar', '8.89'), (1016, 'book', 'a'), (1021, 'dollar', '7'), (2006, 'store', 'the'), (2009, 'dollar', 'x')]
+target entity fix
+_____________
+adjs : None
+compound : 0
+container : music
+contains : None
+entity : dollar
+idx : 1006
+location : None
+num : 142.46
+origs : 1
+role : other
+subset : 0
+subtypes : []
+surface : $
+type_failure : 0
+verbs : None
+widx : 6
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : book
+contains : None
+entity : dollar
+idx : 1013
+location : None
+num : 8.89
+origs : 1
+role : other
+subset : 0
+subtypes : []
+surface : $
+type_failure : 0
+verbs : None
+widx : 13
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 1021
+location : None
+num : 7
+origs : 1
+role : other
+subset : 0
+subtypes : []
+surface : $
+type_failure : 0
+verbs : buy stand
+widx : 21
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : store
+contains : None
+entity : dollar
+idx : 2009
+location : None
+num : x
+origs : 2
+role : other
+subset : 0
+subtypes : []
+surface : dollar
+type_failure : 0
+verbs : None
+widx : 10
+_____________
+
+dict_items([('7', (0, <makesets.aset object at 0x10a3bb160>)), ('8.89', (0, <makesets.aset object at 0x10a3bb0b8>)), ('x', (0, <makesets.aset object at 0x10a3b9e80>)), ('142.46', (0, <makesets.aset object at 0x10a3b9f98>))])
+[(0.8835520067670561, 1, '( ( 142.46 + 8.89 ) + 7 ) = x', '158.35'), (0.814995455608077, 1, '( 142.46 + ( 8.89 + 7 ) ) = x', '158.35'), (0.09813915876994167, 0, '142.46 = ( 8.89 + ( 7 + x ) )', '126.57')]
+CORRECT
+ Mary loves eating fruits . Mary paid $7.19 for berries , and $6.83 for peaches with a $20 bill . How much change did Mary receive ? 
+ee
+[(1003, 'dollar', '7.19'), (1009, 'dollar', '6.83'), (1013, 'bill', 'a'), (1015, 'dollar', '20'), (2005, 'dollar', 'x')]
+[(1003, 'dollar', '7.19'), (1009, 'dollar', '6.83'), (1013, 'bill', 'a'), (1015, 'dollar', '20'), (2005, 'dollar', 'x')]
+c
+[(1003, 'dollar', '7.19'), (1009, 'dollar', '6.83'), (1013, 'bill', 'a'), (1015, 'dollar', '20'), (2005, 'dollar', 'x')]
+units and bare sets
+[(1003, 'dollar', '7.19'), (1009, 'dollar', '6.83'), (1013, 'bill', 'a'), (1015, 'dollar', '20'), (2005, 'dollar', 'x')]
+eac
+[(1003, 'dollar', '7.19'), (1009, 'dollar', '6.83'), (1013, 'bill', 'a'), (1015, 'dollar', '20'), (2005, 'dollar', 'x')]
+mov x
+[(1003, 'dollar', '7.19'), (1009, 'dollar', '6.83'), (1013, 'bill', 'a'), (1015, 'dollar', '20'), (2005, 'dollar', 'x')]
+target entity fix
+_____________
+adjs : None
+compound : 0
+container : Mary
+contains : None
+entity : dollar
+idx : 1003
+location : None
+num : 7.19
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : $
+type_failure : 0
+verbs : paid
+widx : 3
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : bill
+contains : None
+entity : dollar
+idx : 1009
+location : None
+num : 6.83
+origs : 1
+role : other
+subset : 0
+subtypes : []
+surface : $
+type_failure : 0
+verbs : None
+widx : 9
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 1015
+location : None
+num : 20
+origs : 1
+role : other
+subset : 0
+subtypes : []
+surface : $
+type_failure : 0
+verbs : pay
+widx : 15
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 2005
+location : None
+num : x
+origs : 2
+role : other
+subset : 0
+subtypes : []
+surface : $
+type_failure : 0
+verbs : receive
+widx : 6
+_____________
+
+dict_items([('x', (0, <makesets.aset object at 0x10a3a6828>)), ('20', (0, <makesets.aset object at 0x10a3a6f28>)), ('7.19', (0, <makesets.aset object at 0x10a3a6dd8>)), ('6.83', (0, <makesets.aset object at 0x10a3a6e48>))])
+[(0.6426254062400208, 0, '( ( 7.19 + 6.83 ) + 20 ) = x', '34.02'), (0.45336149751178095, 0, '( 7.19 + ( 6.83 + 20 ) ) = x', '34.02'), (0.0490400279040918, 0, '7.19 = ( ( 6.83 - 20 ) + x )', '20.36')]
+TOP SCORING NO CORRECT SOLUTION 
+INCORRECT
+ Justin needs 61 paper plates for a birthday party . He already has 26 blue plates and 7 red plates . How many more plates should Justin buy ? 
+ee
+[(2, 'plate', '61'), (6, 'party', 'a'), (1003, 'plate', '26'), (1007, 'plate', '7'), (2006, 'plate', 'x')]
+[(2, 'plate', '61'), (6, 'party', 'a'), (1003, 'plate', '26'), (1007, 'plate', '7'), (2006, 'plate', 'x')]
+c
+[(2, 'plate', '61'), (6, 'party', 'a'), (1003, 'plate', '26'), (1007, 'plate', '7'), (2006, 'plate', 'x')]
+units and bare sets
+[(2, 'plate', '61'), (6, 'party', 'a'), (1003, 'plate', '26'), (1007, 'plate', '7'), (2006, 'plate', 'x'), (2003, 'plate', 'BARE')]
+eac
+[(2, 'plate', '61'), (6, 'party', 'a'), (1003, 'plate', '26'), (1007, 'plate', '7'), (2006, 'plate', 'x'), (2003, 'plate', 'BARE')]
+mov x
+[(2, 'plate', '61'), (6, 'party', 'a'), (1003, 'plate', '26'), (1007, 'plate', '7'), (2003, 'plate', 'x'), (2003, 'plate', 'BARE')]
+target entity fix
+_____________
+adjs : None
+compound : 0
+container : party
+contains : None
+entity : plate
+idx : 2
+location : None
+num : 61
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : plates
+type_failure : 0
+verbs : needs
+widx : 5
+_____________
+
+_____________
+adjs : blue
+compound : 0
+container : He
+contains : None
+entity : plate
+idx : 1003
+location : None
+num : 26
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : plates
+type_failure : 0
+verbs : has
+widx : 6
+_____________
+
+_____________
+adjs : red
+compound : 0
+container : None
+contains : None
+entity : plate
+idx : 1007
+location : None
+num : 7
+origs : 1
+role : other
+subset : 0
+subtypes : []
+surface : plates
+type_failure : 0
+verbs : have
+widx : 10
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : plate
+idx : 2003
+location : None
+num : x
+origs : 2
+role : other
+subset : 0
+subtypes : []
+surface : plates
+type_failure : 0
+verbs : buy
+widx : 7
+_____________
+
+dict_items([('7', (0, <makesets.aset object at 0x109c6cc18>)), ('61', (0, <makesets.aset object at 0x109c6c978>)), ('x', (0, <makesets.aset object at 0x109c6cbe0>)), ('26', (0, <makesets.aset object at 0x109c6cb38>))])
+[(0.8412003444467044, 1, '61 = ( ( 26 + 7 ) + x )', '28'), (0.7908338542052786, 0, '( 61 + ( 26 + 7 ) ) = x', '94'), (0.6991803149479616, 1, '61 = ( 26 + ( 7 + x ) )', '28')]
+CORRECT
+ Mark's father gave him $85 . Mark bought 10 books , each of which cost $5 . How much money does Mark have left ? 
+ee
+[(6, 'dollar', '85'), (1002, 'book', '10'), (1005, 'cost', 'each'), (1007, 'cost', 'which'), (1010, 'dollar', '5'), (2002, 'money', 'x')]
+[(6, 'dollar', '85'), (1002, 'book', '10'), (1005, 'cost', 'each'), (1007, 'cost', 'which'), (1010, 'dollar', '5'), (2002, 'money', 'x')]
+c
+[(6, 'dollar', '85'), (1002, 'book', '10'), (1005, 'cost', 'each'), (1007, 'cost', 'which'), (1010, 'dollar', '5'), (2002, 'money', 'x')]
+units and bare sets
+[(6, 'money', '85.0'), (1002, 'book', '10'), (1005, 'cost', 'each'), (1007, 'cost', 'which'), (1010, 'money', '5.0'), (2002, 'money', 'x')]
+eac
+[(6, 'money', '85.0'), (1002, 'book', '10'), (1005, 'cost', 'each'), (1007, 'cost', 'which'), (1010, 'money', '5.0'), (2002, 'money', 'x')]
+mov x
+[(6, 'money', '85.0'), (1002, 'book', '10'), (1005, 'cost', 'each'), (1007, 'cost', 'which'), (1010, 'money', '5.0'), (2002, 'money', 'x')]
+target entity fix
+_____________
+adjs : None
+compound : 0
+container : father
+contains : None
+entity : money
+idx : 6
+location : None
+num : 85.0
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : $
+type_failure : 0
+verbs : gave
+widx : 6
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : Mark
+contains : None
+entity : book
+idx : 1002
+location : None
+num : 10
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : books
+type_failure : 0
+verbs : bought
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : money
+idx : 1010
+location : None
+num : 5.0
+origs : 1
+role : other
+subset : 0
+subtypes : []
+surface : $
+type_failure : 0
+verbs : buy
+widx : 10
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : Mark
+contains : None
+entity : money
+idx : 2002
+location : None
+num : x
+origs : 2
+role : do
+subset : 0
+subtypes : []
+surface : money
+type_failure : 0
+verbs : left
+widx : 3
+_____________
+
+dict_items([('85.0', (0, <makesets.aset object at 0x10a3b97b8>)), ('10', (0, <makesets.aset object at 0x10a3a6b70>)), ('5.0', (0, <makesets.aset object at 0x10d48b8d0>)), ('x', (0, <makesets.aset object at 0x10d48bb38>))])
+[(0.8373887636471041, 1, '( 85.0 - ( 10 * 5.0 ) ) = x', '35'), (0.004940597836944447, 0, '( 85.0 + ( 10 * 5.0 ) ) = x', '135'), (0.0009247275676034564, 0, '( ( 85.0 * 10 ) - 5.0 ) = x', '845')]
+CORRECT
+ Elise had $8 . Then she saved $13 from her allowance and spent $2 on a comic book and $18 on a puzzle . How much money does Elise have left ? 
+ee
+[(3, 'dollar', '8'), (1004, 'dollar', '13'), (1011, 'dollar', '2'), (1013, 'book', 'a'), (1018, 'dollar', '18'), (1020, 'puzzle', 'a'), (2002, 'money', 'x')]
+[(3, 'dollar', '8'), (1004, 'dollar', '13'), (1011, 'dollar', '2'), (1013, 'book', 'a'), (1018, 'dollar', '18'), (1020, 'puzzle', 'a'), (2002, 'money', 'x')]
+c
+[(3, 'dollar', '8'), (1004, 'dollar', '13'), (1011, 'dollar', '2'), (1013, 'book', 'a'), (1018, 'dollar', '18'), (1020, 'puzzle', 'a'), (2002, 'money', 'x')]
+units and bare sets
+[(3, 'money', '8.0'), (1004, 'money', '13.0'), (1011, 'money', '2.0'), (1013, 'book', 'a'), (1018, 'money', '18.0'), (1020, 'puzzle', 'a'), (2002, 'money', 'x')]
+eac
+[(3, 'money', '8.0'), (1004, 'money', '13.0'), (1011, 'money', '2.0'), (1013, 'book', 'a'), (1018, 'money', '18.0'), (1020, 'puzzle', 'a'), (2002, 'money', 'x')]
+mov x
+[(3, 'money', '8.0'), (1004, 'money', '13.0'), (1011, 'money', '2.0'), (1013, 'book', 'a'), (1018, 'money', '18.0'), (1020, 'puzzle', 'a'), (2002, 'money', 'x')]
+target entity fix
+_____________
+adjs : None
+compound : 0
+container : Elise
+contains : None
+entity : money
+idx : 3
+location : None
+num : 8.0
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : $
+type_failure : 0
+verbs : had
+widx : 3
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : Elise
+contains : None
+entity : money
+idx : 1004
+location : None
+num : 13.0
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : $
+type_failure : 0
+verbs : saved
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : book
+contains : None
+entity : money
+idx : 1011
+location : None
+num : 2.0
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : $
+type_failure : 0
+verbs : spent
+widx : 11
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : puzzle
+contains : None
+entity : money
+idx : 1018
+location : None
+num : 18.0
+origs : 1
+role : other
+subset : 0
+subtypes : []
+surface : $
+type_failure : 0
+verbs : None
+widx : 18
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : Elise
+contains : None
+entity : money
+idx : 2002
+location : None
+num : x
+origs : 2
+role : do
+subset : 0
+subtypes : []
+surface : money
+type_failure : 0
+verbs : left
+widx : 3
+_____________
+
+dict_items([('2.0', (0, <makesets.aset object at 0x10d46aa58>)), ('x', (0, <makesets.aset object at 0x10a3b9c18>)), ('13.0', (0, <makesets.aset object at 0x10d46a240>)), ('8.0', (0, <makesets.aset object at 0x10d46ae80>)), ('18.0', (0, <makesets.aset object at 0x10a3b9898>))])
+[(0.5231312201323359, 1, '( 8.0 + ( ( 13.0 - 2.0 ) - 18.0 ) ) = x', '1'), (0.5231312201323359, 1, '( ( 8.0 + ( 13.0 - 2.0 ) ) - 18.0 ) = x', '1'), (0.5202167453017461, 0, '( 8.0 + ( 13.0 - ( 2.0 - 18.0 ) ) ) = x', '37')]
+CORRECT
+ Tim got 3 nickels and 13 dimes for shining shoes , and in his tip jar found 7 dimes and 9 half-dollars . How much money did Tim get ? 
+ee
+[(2, 'nickel', '3'), (5, 'dime', '13'), (17, 'dime', '7'), (20, 'half-dollar', '9'), (1002, 'money', 'x')]
+[(2, 'nickel', '3'), (5, 'dime', '13'), (17, 'dime', '7'), (20, 'half-dollar', '9'), (1002, 'money', 'x')]
+c
+[(2, 'nickel', '3'), (5, 'dime', '13'), (17, 'dime', '7'), (20, 'half-dollar', '9'), (1002, 'money', 'x')]
+units and bare sets
+[(2, 'money', '0.15'), (5, 'money', '1.3'), (17, 'money', '0.7'), (20, 'money', '4.5'), (1002, 'money', 'x')]
+eac
+[(2, 'money', '0.15'), (5, 'money', '1.3'), (17, 'money', '0.7'), (20, 'money', '4.5'), (1002, 'money', 'x')]
+mov x
+[(2, 'money', '0.15'), (5, 'money', '1.3'), (17, 'money', '0.7'), (20, 'money', '4.5'), (1002, 'money', 'x')]
+target entity fix
+_____________
+adjs : None
+compound : 0
+container : Tim
+contains : None
+entity : money
+idx : 2
+location : None
+num : 0.15
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : nickels
+type_failure : 0
+verbs : got
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : money
+idx : 5
+location : None
+num : 1.3
+origs : 0
+role : other
+subset : 0
+subtypes : []
+surface : dimes
+type_failure : 0
+verbs : get shine find
+widx : 7
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : jar
+contains : None
+entity : money
+idx : 17
+location : None
+num : 0.7
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : dimes
+type_failure : 0
+verbs : found
+widx : 19
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : money
+idx : 20
+location : None
+num : 4.5
+origs : 0
+role : other
+subset : 0
+subtypes : []
+surface : half-dollars
+type_failure : 0
+verbs : get shine find
+widx : 22
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : Tim
+contains : None
+entity : money
+idx : 1002
+location : None
+num : x
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : money
+type_failure : 0
+verbs : get
+widx : 3
+_____________
+
+dict_items([('x', (0, <makesets.aset object at 0x10d48be48>)), ('4.5', (0, <makesets.aset object at 0x10a3b9e48>)), ('0.15', (0, <makesets.aset object at 0x10a3bb358>)), ('1.3', (0, <makesets.aset object at 0x10a3a6748>)), ('0.7', (0, <makesets.aset object at 0x10a3a6f28>))])
+[(0.5740474290467654, 1, '( ( 0.15 + ( 1.3 + 0.7 ) ) + 4.5 ) = x', '6.65'), (0.4946279186749725, 1, '( 0.15 + ( ( 1.3 + 0.7 ) + 4.5 ) ) = x', '6.65'), (0.47132331469615624, 1, '( 0.15 + ( 1.3 + ( 0.7 + 4.5 ) ) ) = x', '6.65')]
+CORRECT
+ Zach wants to ride the Ferris wheel , the roller coaster , and the log ride . The Ferris wheel costs 2 tickets , the roller coaster costs 7 tickets and the log ride costs 1 ticket . Zach has 1 ticket . How many more tickets should Zach buy ? 
+ee
+[(4, 'wheel', 'the'), (8, 'coaster', 'the'), (13, 'ride', 'the'), (1000, 'cost', 'The'), (1004, 'ticket', '2'), (1007, 'cost', 'the'), (1011, 'ticket', '7'), (1014, 'log', 'the'), (1018, 'ticket', '1'), (2002, 'ticket', '1'), (3003, 'ticket', 'x')]
+[(4, 'wheel', 'the'), (8, 'coaster', 'the'), (13, 'ride', 'the'), (1000, 'cost', 'The'), (1004, 'ticket', '2'), (1007, 'cost', 'the'), (1011, 'ticket', '7'), (1014, 'log', 'the'), (1018, 'ticket', '1'), (2002, 'ticket', '1'), (3003, 'ticket', 'x')]
+c
+[(4, 'wheel', 'the'), (8, 'coaster', 'the'), (13, 'ride', 'the'), (1000, 'cost', 'The'), (1004, 'ticket', '2'), (1007, 'cost', 'the'), (1011, 'ticket', '7'), (1014, 'log', 'the'), (1018, 'ticket', '1'), (2002, 'ticket', '1'), (3003, 'ticket', 'x')]
+units and bare sets
+[(4, 'wheel', 'the'), (8, 'coaster', 'the'), (13, 'ride', 'the'), (1000, 'cost', 'The'), (1004, 'ticket', '2'), (1007, 'cost', 'the'), (1011, 'ticket', '7'), (1014, 'log', 'the'), (1018, 'ticket', '1'), (2002, 'ticket', '1'), (3003, 'ticket', 'x')]
+eac
+[(4, 'wheel', 'the'), (8, 'coaster', 'the'), (13, 'ride', 'the'), (1000, 'cost', 'The'), (1004, 'ticket', '2'), (1007, 'cost', 'the'), (1019, 'ticket', '7'), (1014, 'log', 'the'), (1018, 'ticket', '1'), (2002, 'ticket', '1'), (3003, 'ticket', 'x')]
+mov x
+[(4, 'wheel', 'the'), (8, 'coaster', 'the'), (13, 'ride', 'the'), (1000, 'cost', 'The'), (1004, 'ticket', '2'), (1007, 'cost', 'the'), (1019, 'ticket', '7'), (1014, 'log', 'the'), (1018, 'ticket', '1'), (2002, 'ticket', '1'), (3003, 'ticket', 'x')]
+target entity fix
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : ticket
+idx : 1004
+location : None
+num : 2
+origs : 1
+role : other
+subset : 0
+subtypes : []
+surface : tickets
+type_failure : 0
+verbs : 
+widx : 6
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : cost
+contains : ticket
+entity : ticket
+idx : 1018
+location : None
+num : 1
+origs : 1
+role : other
+subset : 0
+subtypes : []
+surface : ticket
+type_failure : 0
+verbs : None
+widx : 20
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : ticket
+contains : None
+entity : ticket
+idx : 1019
+location : None
+num : 7
+origs : 1
+role : other
+subset : 0
+subtypes : []
+surface : tickets
+type_failure : 0
+verbs : None
+widx : 13
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : Zach
+contains : None
+entity : ticket
+idx : 2002
+location : None
+num : 1
+origs : 2
+role : do
+subset : 0
+subtypes : []
+surface : ticket
+type_failure : 0
+verbs : has
+widx : 4
+_____________
+
+_____________
+adjs : more
+compound : 0
+container : Zach
+contains : None
+entity : ticket
+idx : 3003
+location : None
+num : x
+origs : 3
+role : do
+subset : 0
+subtypes : []
+surface : tickets
+type_failure : 0
+verbs : buy
+widx : 4
+_____________
+
+dict_items([('7', (0, <makesets.aset object at 0x10a504518>)), ('1', (0, <makesets.aset object at 0x10a504860>)), ('2', (0, <makesets.aset object at 0x10a504588>)), ('x', (0, <makesets.aset object at 0x10a5047b8>))])
+[(0.7961100159147483, 0, '2 = ( ( 1 - ( 7 - 1 ) ) + x )', '7'), (0.7921301255971499, 0, '( ( ( 2 - 1 ) + 7 ) - 1 ) = x', '7'), (0.6957544419726069, 0, '( 2 - ( 1 - ( 7 - 1 ) ) ) = x', '7')]
+TOP SCORING NO CORRECT SOLUTION 
+INCORRECT
+ Maggie bought 4 packs of red bouncy balls , 8 packs of yellow bouncy balls , and 4 packs of green bouncy balls . There were 10 bouncy balls in each package . How many bouncy balls did Maggie buy in all ? 
+ee
+[(2, 'pack', '4'), (9, 'pack', '8'), (17, 'pack', '4'), (1002, 'ball', '10'), (1006, 'package', 'each'), (2003, 'ball', 'x')]
+[(2, 'pack', '4'), (9, 'pack', '8'), (17, 'pack', '4'), (1002, 'ball', '10'), (1006, 'package', 'each'), (2003, 'ball', 'x')]
+c
+[(2, 'pack', '4'), (9, 'pack', '8'), (17, 'pack', '4'), (1002, 'ball', '10'), (1006, 'package', 'each'), (2003, 'ball', 'x')]
+units and bare sets
+[(2, 'pack', '4'), (9, 'pack', '8'), (17, 'pack', '4'), (1002, 'ball', '10'), (1006, 'package', 'each'), (2003, 'ball', 'x'), (7, 'ball', 'BARE'), (14, 'ball', 'BARE'), (22, 'ball', 'BARE')]
+eac
+[(2, 'pack', '4'), (9, 'pack', '8'), (17, 'pack', '4'), (1002, 'ball', '10'), (1006, 'package', 'each'), (2003, 'ball', 'x'), (7, 'ball', 'BARE'), (14, 'ball', 'BARE'), (22, 'ball', 'BARE')]
+mov x
+[(2, 'pack', '4'), (9, 'pack', '8'), (17, 'pack', '4'), (1002, 'ball', '10'), (1006, 'package', 'each'), (7, 'ball', 'x'), (7, 'ball', 'BARE'), (14, 'ball', 'BARE'), (22, 'ball', 'BARE')]
+target entity fix
+_____________
+adjs : None
+compound : 0
+container : Maggie
+contains : None
+entity : pack
+idx : 2
+location : None
+num : 4
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : packs
+type_failure : 0
+verbs : bought
+widx : 4
+_____________
+
+_____________
+adjs : bouncy
+compound : 0
+container : Maggie
+contains : None
+entity : ball
+idx : 7
+location : None
+num : x
+origs : 2
+role : do
+subset : 0
+subtypes : []
+surface : balls
+type_failure : 0
+verbs : buy
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : pack
+idx : 9
+location : None
+num : 8
+origs : 0
+role : other
+subset : 0
+subtypes : []
+surface : packs
+type_failure : 0
+verbs : buy
+widx : 11
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : pack
+idx : 17
+location : None
+num : 4
+origs : 0
+role : other
+subset : 0
+subtypes : []
+surface : packs
+type_failure : 0
+verbs : buy
+widx : 19
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : package
+contains : None
+entity : ball
+idx : 1002
+location : package
+num : 10
+origs : 1
+role : subj
+subset : 0
+subtypes : []
+surface : balls
+type_failure : 0
+verbs : None
+widx : 5
+_____________
+
+dict_items([('10', (0, <makesets.aset object at 0x10a3a4128>)), ('x', (0, <makesets.aset object at 0x10a520da0>)), ('4', (0, <makesets.aset object at 0x10a3a42e8>)), ('8', (0, <makesets.aset object at 0x10a3a42b0>))])
+[]
+TOP SCORING NO CORRECT SOLUTION 
+INCORRECT
+ There were 28 bales of hay in the barn . Tim stacked more bales in the barn today . There are now 54 bales of hay in the barn . How many bales did he store in the barn  ? 
+ee
+[(2, 'bale', '28'), (7, 'barn', 'the'), (1005, 'barn', 'the'), (2003, 'bale', '54'), (2008, 'barn', 'the'), (3002, 'bale', 'x'), (3007, 'barn', 'the')]
+[(2, 'bale', '28'), (7, 'barn', 'the'), (1005, 'barn', 'the'), (2003, 'bale', '54'), (2008, 'barn', 'the'), (3002, 'bale', 'x'), (3007, 'barn', 'the')]
+c
+[(2, 'bale', '28'), (7, 'barn', 'the'), (1005, 'barn', 'the'), (2003, 'bale', '54'), (2008, 'barn', 'the'), (3002, 'bale', 'x'), (3007, 'barn', 'the')]
+units and bare sets
+[(2, 'bale', '28'), (7, 'barn', 'the'), (1005, 'barn', 'the'), (2003, 'bale', '54'), (2008, 'barn', 'the'), (3002, 'bale', 'x'), (3007, 'barn', 'the'), (1003, 'bale', 'BARE')]
+eac
+[(2, 'bale', '28'), (7, 'barn', 'the'), (1005, 'barn', 'the'), (2003, 'bale', '54'), (2008, 'barn', 'the'), (3002, 'bale', 'x'), (3007, 'barn', 'the'), (1003, 'bale', 'BARE')]
+mov x
+[(2, 'bale', '28'), (7, 'barn', 'the'), (1005, 'barn', 'the'), (2003, 'bale', '54'), (2008, 'barn', 'the'), (1003, 'bale', 'x'), (3007, 'barn', 'the'), (1003, 'bale', 'BARE')]
+target entity fix
+_____________
+adjs : None
+compound : 0
+container : barn
+contains : None
+entity : bale
+idx : 2
+location : None
+num : 28
+origs : 0
+role : subj
+subset : 0
+subtypes : []
+surface : bales
+type_failure : 0
+verbs : None
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : barn
+contains : None
+entity : bale
+idx : 1003
+location : None
+num : x
+origs : 3
+role : do
+subset : 0
+subtypes : []
+surface : bales
+type_failure : 0
+verbs : store
+widx : 3
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : barn
+contains : None
+entity : bale
+idx : 2003
+location : None
+num : 54
+origs : 2
+role : subj
+subset : 0
+subtypes : []
+surface : bales
+type_failure : 0
+verbs : None
+widx : 5
+_____________
+
+dict_items([('54', (0, <makesets.aset object at 0x10d48b9b0>)), ('x', (0, <makesets.aset object at 0x10a567a90>)), ('28', (0, <makesets.aset object at 0x10d48beb8>))])
+[(0.8619156249753457, 1, '( 28 + x ) = 54', '26'), (3.751316783409387e-05, 0, '28 = ( x - 54 )', '82')]
+CORRECT
+ Ellen went to a garage sale to buy chairs . Each chair is 15 dollars . How much did Ellen spend for the 12 chairs she bought ? 
+ee
+[(3, 'sale', 'a'), (1000, 'chair', 'Each'), (1003, 'dollar', '15'), (2006, 'chair', 'the'), (2007, 'chair', '12'), (2011, 'dollar', 'x')]
+[(3, 'sale', 'a'), (1000, 'chair', 'Each'), (1003, 'dollar', '15'), (2006, 'chair', 'the'), (2007, 'chair', '12'), (2011, 'dollar', 'x')]
+c
+[(3, 'sale', 'a'), (1000, 'chair', 'Each'), (1003, 'dollar', '15'), (2006, 'chair', 'the'), (2007, 'chair', '12'), (2011, 'dollar', 'x')]
+units and bare sets
+[(3, 'sale', 'a'), (1000, 'chair', 'Each'), (1003, 'dollar', '15'), (2006, 'chair', 'the'), (2007, 'chair', '12'), (2011, 'dollar', 'x'), (8, 'chair', 'BARE')]
+eac
+[(3, 'sale', 'a'), (1000, 'chair', 'Each'), (1003, 'dollar', '15'), (2006, 'chair', 'the'), (2007, 'chair', '12'), (2011, 'dollar', 'x'), (8, 'chair', 'BARE')]
+mov x
+[(3, 'sale', 'a'), (1000, 'chair', 'Each'), (1003, 'dollar', '15'), (2006, 'chair', 'the'), (2007, 'chair', '12'), (2011, 'dollar', 'x'), (8, 'chair', 'BARE')]
+target entity fix
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 1003
+location : None
+num : 15
+origs : 1
+role : other
+subset : 0
+subtypes : []
+surface : dollars
+type_failure : 0
+verbs : be
+widx : 5
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : chair
+contains : None
+entity : chair
+idx : 2007
+location : None
+num : 12
+origs : 2
+role : other
+subset : 0
+subtypes : []
+surface : chairs
+type_failure : 0
+verbs : None
+widx : 9
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 2011
+location : None
+num : x
+origs : 2
+role : other
+subset : 0
+subtypes : []
+surface : dollar
+type_failure : 0
+verbs : spend buy
+widx : 12
+_____________
+
+dict_items([('12', (0, <makesets.aset object at 0x10a520940>)), ('x', (0, <makesets.aset object at 0x10a520a20>)), ('15', (0, <makesets.aset object at 0x10a520fd0>))])
+[(0.029555186623911, 1, '( 15 * 12 ) = x', '180'), (0.00048617656317741237, 0, '( 15 - 12 ) = x', '3'), (0.0003184110830291753, 0, '( 15 + 12 ) = x', '27')]
+CORRECT
+ There are 7 crayons in the drawer . Mary took 3 crayons out of the drawer . How many crayons are there now  ? 
+ee
+[(2, 'crayon', '7'), (5, 'drawer', 'the'), (1002, 'crayon', '3'), (1006, 'drawer', 'the'), (2004, 'crayon', 'x')]
+[(2, 'crayon', '7'), (5, 'drawer', 'the'), (1002, 'crayon', '3'), (1006, 'drawer', 'the'), (2004, 'crayon', 'x')]
+c
+[(2, 'crayon', '7'), (5, 'drawer', 'the'), (1002, 'crayon', '3'), (1006, 'drawer', 'the'), (2004, 'crayon', 'x')]
+units and bare sets
+[(2, 'crayon', '7'), (5, 'drawer', 'the'), (1002, 'crayon', '3'), (1006, 'drawer', 'the'), (2004, 'crayon', 'x'), (2002, 'crayon', 'BARE')]
+eac
+[(2, 'crayon', '7'), (5, 'drawer', 'the'), (1002, 'crayon', '3'), (1006, 'drawer', 'the'), (2004, 'crayon', 'x'), (2002, 'crayon', 'BARE')]
+mov x
+[(2, 'crayon', '7'), (5, 'drawer', 'the'), (1002, 'crayon', '3'), (1006, 'drawer', 'the'), (2002, 'crayon', 'x'), (2002, 'crayon', 'BARE')]
+target entity fix
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : crayon
+idx : 2
+location : drawer
+num : 7
+origs : 0
+role : subj
+subset : 0
+subtypes : []
+surface : crayons
+type_failure : 0
+verbs : be
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : drawer
+contains : None
+entity : crayon
+idx : 1002
+location : None
+num : 3
+origs : 1
+role : other
+subset : 0
+subtypes : []
+surface : crayons
+type_failure : 0
+verbs : None
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : crayon
+idx : 2002
+location : None
+num : x
+origs : 2
+role : other
+subset : 0
+subtypes : []
+surface : crayons
+type_failure : 0
+verbs : be
+widx : 5
+_____________
+
+dict_items([('7', (0, <makesets.aset object at 0x109c63b38>)), ('3', (0, <makesets.aset object at 0x109c639e8>)), ('x', (0, <makesets.aset object at 0x10a520c18>))])
+[(0.2008909456409973, 1, '( 7 - 3 ) = x', '4'), (0.00047909334648077657, 0, '( 7 + 3 ) = x', '10'), (4.4742643175995316e-08, 1, '7 = ( 3 + x )', '4')]
+CORRECT
+ Fred's high school played 616 baseball games this year . He attended  147 games . How many baseball games did Fred miss  ? 
+ee
+[(5, 'game', '616'), (8, 'year', 'this'), (1002, 'game', '147'), (2003, 'game', 'x')]
+[(5, 'game', '616'), (8, 'year', 'this'), (1002, 'game', '147'), (2003, 'game', 'x')]
+c
+[(5, 'game', '616'), (8, 'year', 'this'), (1002, 'game', '147'), (2003, 'game', 'x')]
+units and bare sets
+[(5, 'game', '616'), (8, 'year', 'this'), (1002, 'game', '147'), (2003, 'game', 'x')]
+eac
+[(5, 'game', '616'), (8, 'year', 'this'), (1002, 'game', '147'), (2003, 'game', 'x')]
+mov x
+[(5, 'game', '616'), (8, 'year', 'this'), (1002, 'game', '147'), (2003, 'game', 'x')]
+target entity fix
+_____________
+adjs : None
+compound : 0
+container : school
+contains : None
+entity : game
+idx : 5
+location : None
+num : 616
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : games
+type_failure : 0
+verbs : played
+widx : 8
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : He
+contains : None
+entity : game
+idx : 1002
+location : None
+num : 147
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : games
+type_failure : 0
+verbs : attended
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : Fred
+contains : None
+entity : game
+idx : 2003
+location : None
+num : x
+origs : 2
+role : do
+subset : 0
+subtypes : []
+surface : games
+type_failure : 0
+verbs : miss
+widx : 4
+_____________
+
+dict_items([('147', (0, <makesets.aset object at 0x10a4defd0>)), ('x', (0, <makesets.aset object at 0x10a4dee80>)), ('616', (0, <makesets.aset object at 0x10a3a6eb8>))])
+[(0.16074984480371982, 1, '( 616 - 147 ) = x', '469'), (0.06627011598654903, 0, '( 616 + 147 ) = x', '763'), (0.00010067347906866332, 1, '616 = ( 147 + x )', '469')]
+CORRECT
+ Dan picked 9 limes and gave Sara 4 of the limes .  How many limes does Dan have now  ? 
+ee
+[(2, 'lime', '9'), (7, 'lime', '4'), (9, 'lime', 'the'), (1002, 'lime', 'x')]
+[(2, 'lime', '9'), (7, 'lime', '4'), (9, 'lime', 'the'), (1002, 'lime', 'x')]
+c
+[(2, 'lime', '9'), (7, 'lime', '4'), (9, 'lime', 'the'), (1002, 'lime', 'x')]
+units and bare sets
+[(2, 'lime', '9'), (7, 'lime', '4'), (9, 'lime', 'the'), (1002, 'lime', 'x')]
+eac
+[(2, 'lime', '9'), (7, 'lime', '4'), (9, 'lime', 'the'), (1002, 'lime', 'x')]
+mov x
+[(2, 'lime', '9'), (7, 'lime', '4'), (9, 'lime', 'the'), (9, 'lime', 'x')]
+target entity fix
+_____________
+adjs : None
+compound : 0
+container : Dan
+contains : None
+entity : lime
+idx : 2
+location : None
+num : 9
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : limes
+type_failure : 0
+verbs : picked
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : lime
+contains : None
+entity : lime
+idx : 7
+location : None
+num : 4
+origs : 0
+role : other
+subset : 0
+subtypes : []
+surface : limes
+type_failure : 0
+verbs : None
+widx : 8
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : lime
+idx : 9
+location : None
+num : x
+origs : 1
+role : other
+subset : 0
+subtypes : []
+surface : limes
+type_failure : 0
+verbs : do have
+widx : 3
+_____________
+
+dict_items([('x', (0, <makesets.aset object at 0x10a567f60>)), ('4', (0, <makesets.aset object at 0x10a567ba8>)), ('9', (0, <makesets.aset object at 0x10d48b198>))])
+[(0.8278104307937489, 1, '9 = ( 4 + x )', '5'), (0.40309550051465665, 1, '( 9 - 4 ) = x', '5'), (0.06921316504981696, 0, '( 9 + 4 ) = x', '13')]
+CORRECT
+ Sam had 79 dollars to spend on 9 books . After buying them he had 16 dollars . How much did each book cost  ? 
+ee
+[(2, 'dollar', '79'), (7, 'book', '9'), (1005, 'dollar', '16'), (2003, 'book', 'each'), (2006, 'dollar', 'x')]
+[(2, 'dollar', '79'), (7, 'book', '9'), (1005, 'dollar', '16'), (2003, 'book', 'each'), (2006, 'dollar', 'x')]
+c
+[(2, 'dollar', '79'), (7, 'book', '9'), (1005, 'dollar', '16'), (2003, 'book', 'each'), (2006, 'dollar', 'x')]
+units and bare sets
+[(2, 'dollar', '79'), (7, 'book', '9'), (1005, 'dollar', '16'), (2003, 'book', 'each'), (2006, 'dollar', 'x')]
+eac
+[(2, 'dollar', '79'), (7, 'book', '9'), (1005, 'dollar', '16'), (8, 'dollar', 'x')]
+mov x
+[(2, 'dollar', '79'), (7, 'book', '9'), (1005, 'dollar', '16'), (8, 'dollar', 'x')]
+target entity fix
+_____________
+adjs : None
+compound : 0
+container : Sam
+contains : None
+entity : dollar
+idx : 2
+location : None
+num : 79
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : dollars
+type_failure : 0
+verbs : had
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : dollar
+entity : book
+idx : 7
+location : None
+num : 9
+origs : 0
+role : other
+subset : 0
+subtypes : []
+surface : books
+type_failure : 0
+verbs : spend
+widx : 9
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : book
+contains : None
+entity : dollar
+idx : 8
+location : None
+num : x
+origs : 2
+role : other
+subset : 0
+subtypes : []
+surface : dollar
+type_failure : 0
+verbs : None
+widx : 7
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : Sam
+contains : None
+entity : dollar
+idx : 1005
+location : None
+num : 16
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : dollars
+type_failure : 0
+verbs : had
+widx : 7
+_____________
+
+dict_items([('x', (0, <makesets.aset object at 0x10a5659e8>)), ('16', (0, <makesets.aset object at 0x10a565e80>)), ('9', (0, <makesets.aset object at 0x10a565d30>)), ('79', (0, <makesets.aset object at 0x10a565b00>))])
+[(0.7843256664101796, 1, '( 79 - ( 9 * x ) ) = 16', '7'), (0.024523479105655853, 0, '( ( 79 * 9 ) - x ) = 16', '695'), (0.013742597678042433, 1, '79 = ( ( 9 * x ) + 16 )', '7')]
+CORRECT
+ Sara saw 96 birds in a tree . How many dozen birds did Sara see ? 
+ee
+[(2, 'bird', '96'), (5, 'tree', 'a'), (1002, 'dozen', 'x')]
+[(2, 'bird', '96'), (5, 'tree', 'a'), (1002, 'dozen', 'x')]
+c
+[(2, 'bird', '96'), (5, 'tree', 'a'), (1002, 'dozen', 'x'), (1003, 'bird', '12')]
+units and bare sets
+[(2, 'bird', '96'), (5, 'tree', 'a'), (1002, 'dozen', 'x'), (1003, 'bird', '12')]
+eac
+[(2, 'bird', '96'), (5, 'tree', 'a'), (1002, 'dozen', 'x'), (1003, 'bird', '12')]
+mov x
+[(2, 'bird', '96'), (5, 'tree', 'a'), (1002, 'dozen', 'x'), (1003, 'bird', '12')]
+target entity fix
+_____________
+adjs : None
+compound : 0
+container : tree
+contains : None
+entity : bird
+idx : 2
+location : None
+num : 96
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : birds
+type_failure : 0
+verbs : saw
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : Sara
+contains : bird
+entity : dozen
+idx : 1002
+location : None
+num : x
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : dozen
+type_failure : 0
+verbs : see
+widx : 3
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : dozen
+contains : None
+entity : bird
+idx : 1003
+location : None
+num : 12
+origs : 2
+role : other
+subset : 0
+subtypes : []
+surface : birds
+type_failure : 0
+verbs : None
+widx : 4
+_____________
+
+dict_items([('96', (0, <makesets.aset object at 0x10a5048d0>)), ('12', (0, <makesets.aset object at 0x10a504cc0>)), ('x', (0, <makesets.aset object at 0x10a504828>))])
+[(0.9879343773075391, 1, '96 = ( x * 12 )', '8'), (0.21185492384913968, 1, '( 96 / x ) = 12', '8'), (0.0011702958954974655, 0, '( 96 - x ) = 12', '84')]
+CORRECT
+ Abe's family moved from the Bahamas to Japan , so they had convert their money into Japanese yen . Their checking account now has 6,359 yen and their savings account now has 3,485 yen . How many yen do they have ? 
+ee
+[(1005, 'yen', '6,359'), (1013, 'yen', '3,485'), (2002, 'yen', 'x')]
+[(1005, 'yen', '6,359'), (1013, 'yen', '3,485'), (2002, 'yen', 'x')]
+c
+[(1005, 'yen', '6,359'), (1013, 'yen', '3,485'), (2002, 'yen', 'x')]
+units and bare sets
+[(1005, 'yen', '6,359'), (1013, 'yen', '3,485'), (2002, 'yen', 'x'), (18, 'yen', 'BARE')]
+eac
+[(1005, 'yen', '6,359'), (1013, 'yen', '3,485'), (2002, 'yen', 'x'), (18, 'yen', 'BARE')]
+mov x
+[(1005, 'yen', '6,359'), (1013, 'yen', '3,485'), (18, 'yen', 'x'), (18, 'yen', 'BARE')]
+target entity fix
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : yen
+idx : 18
+location : None
+num : x
+origs : 2
+role : other
+subset : 0
+subtypes : []
+surface : yen
+type_failure : 0
+verbs : do have
+widx : 3
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : account
+contains : None
+entity : yen
+idx : 1005
+location : None
+num : 6,359
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : yen
+type_failure : 0
+verbs : has
+widx : 7
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : now
+contains : None
+entity : yen
+idx : 1013
+location : None
+num : 3,485
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : yen
+type_failure : 0
+verbs : has
+widx : 15
+_____________
+
+dict_items([('x', (0, <makesets.aset object at 0x10d4982e8>)), ('3485', (0, <makesets.aset object at 0x10d498160>)), ('6359', (0, <makesets.aset object at 0x10a4dee80>))])
+[(0.6915011412504579, 1, 'x = ( 6359 + 3485 )', '9844'), (0.04793997734593105, 1, '( x - 6359 ) = 3485', '9844'), (1.4721187550851893e-07, 0, 'x = ( 6359 - 3485 )', '2874')]
+CORRECT
+ Joan decided to sell all of her old books . She gathered up 33 books to sell . She sold 26 books in a yard sale . How many books does Joan now have  ? 
+ee
+[(1003, 'book', '33'), (2002, 'book', '26'), (2005, 'sale', 'a'), (3002, 'book', 'x')]
+[(1003, 'book', '33'), (2002, 'book', '26'), (2005, 'sale', 'a'), (3002, 'book', 'x')]
+c
+[(1003, 'book', '33'), (2002, 'book', '26'), (2005, 'sale', 'a'), (3002, 'book', 'x')]
+units and bare sets
+[(1003, 'book', '33'), (2002, 'book', '26'), (2005, 'sale', 'a'), (3002, 'book', 'x'), (8, 'book', 'BARE')]
+eac
+[(1003, 'book', '33'), (2002, 'book', '26'), (2005, 'sale', 'a'), (3002, 'book', 'x'), (8, 'book', 'BARE')]
+mov x
+[(1003, 'book', '33'), (2002, 'book', '26'), (2005, 'sale', 'a'), (8, 'book', 'x'), (8, 'book', 'BARE')]
+target entity fix
+_____________
+adjs : None
+compound : 0
+container : Joan
+contains : None
+entity : book
+idx : 8
+location : None
+num : x
+origs : 3
+role : do
+subset : 0
+subtypes : []
+surface : books
+type_failure : 0
+verbs : have
+widx : 3
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : Joan
+contains : None
+entity : book
+idx : 1003
+location : None
+num : 33
+origs : 1
+role : do
+subset : 0
+subtypes : []
+surface : books
+type_failure : 0
+verbs : gathered
+widx : 5
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : sale
+contains : None
+entity : book
+idx : 2002
+location : None
+num : 26
+origs : 2
+role : do
+subset : 0
+subtypes : []
+surface : books
+type_failure : 0
+verbs : sold
+widx : 4
+_____________
+
+dict_items([('x', (0, <makesets.aset object at 0x10a5b1b38>)), ('26', (0, <makesets.aset object at 0x109c63b00>)), ('33', (0, <makesets.aset object at 0x109c63ba8>))])
+[(0.07936771944386885, 1, 'x = ( 33 - 26 )', '7'), (0.031527067021233014, 0, '( x - 33 ) = 26', '59'), (6.408176821494043e-07, 0, 'x = ( 33 + 26 )', '59')]
+CORRECT
+14 3 0.8235294117647058

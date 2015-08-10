@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 1460 | 1484 | x=(12+1472) | x 12 1472 + = | x:dollar 12:dollar 1472:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 0 | 1460 | 1484 | (12+1472)=x | 12 1472 + x = | 12:dollar 1472:dollar +:dollar x:dollar =:dollar
+EXPR: 1 | POS | INT | 2 | 1460 | 1460 | (x+12)=1472 | x 12 + 1472 = | x:dollar 12:dollar +:dollar 1472:dollar =:dollar
+EXPR: 1 | POS | INT | 2 | 1460 | 1460 | 12=(1472-x) | 12 1472 x - = | 12:dollar 1472:dollar x:dollar -:dollar =:dollar
+EXPR: 1 | POS | INT | 2 | 1460 | 1460 | x=(1472-12) | x 1472 12 - = | x:dollar 1472:dollar 12:dollar -:dollar =:dollar
+EXPR: 1 | POS | INT | 2 | 1460 | 1460 | (1472-12)=x | 1472 12 - x = | 1472:dollar 12:dollar -:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 2 | 1460 | 1484 | 12=(x-1472) | 12 x 1472 - = | 12:dollar x:dollar 1472:dollar -:dollar =:dollar
+EXPR: 1 | POS | INT | 2 | 1460 | 1460 | (12+x)=1472 | 12 x + 1472 = | 12:dollar x:dollar +:dollar 1472:dollar =:dollar
+EXPR: 0 | POS | INT | 2 | 1460 | 1484 | (x-12)=1472 | x 12 - 1472 = | x:dollar 12:dollar -:dollar 1472:dollar =:dollar
+EXPR: 0 | POS | INT | 4 | 1460 | 1484 | 1472=(x-12) | 1472 x 12 - = | 1472:dollar x:dollar 12:dollar -:dollar =:dollar
+EXPR: 1 | POS | INT | 4 | 1460 | 1460 | (1472-x)=12 | 1472 x - 12 = | 1472:dollar x:dollar -:dollar 12:dollar =:dollar
+EXPR: 0 | POS | INT | 4 | 1460 | 1484 | (x-1472)=12 | x 1472 - 12 = | x:dollar 1472:dollar -:dollar 12:dollar =:dollar
+EXPR: 1 | POS | INT | 4 | 1460 | 1460 | 1472=(12+x) | 1472 12 x + = | 1472:dollar 12:dollar x:dollar +:dollar =:dollar
+EXPR: 1 | POS | INT | 4 | 1460 | 1460 | 1472=(x+12) | 1472 x 12 + = | 1472:dollar x:dollar 12:dollar +:dollar =:dollar
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

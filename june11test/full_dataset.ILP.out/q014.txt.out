@@ -1,0 +1,57 @@
+parameters: n=7 l=3 k=1 p=5 q=2 m=9
+TOTAL 100 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 53 | 403 | x=(375+(7*4)) | x 375 7 4 * + = | x:student 375:student 7:bus 4:student *:student +:student =:student
+EXPR: 0 | POS | INT | 0 | 53 | 2621 | x=((375*7)-4) | x 375 7 * 4 - = | x:student 375:student 7:bus *:student 4:student -:student =:student
+EXPR: 0 | POS | INT | 0 | 53 | 347 | x=(375-(7*4)) | x 375 7 4 * - = | x:student 375:student 7:bus 4:student *:student -:student =:student
+EXPR: 0 | POS | INT | 0 | 53 | 2629 | x=((375*7)+4) | x 375 7 * 4 + = | x:student 375:student 7:bus *:student 4:student +:student =:student
+EXPR: 0 | POS | INT | 1 | 53 | 2629 | x=((375*7)+4) | x 375 7 * 4 + = | x:student 375:student 7:bus *:student 4:student +:student =:student
+EXPR: 0 | POS | INT | 1 | 53 | 403 | x=(375+(7*4)) | x 375 7 4 * + = | x:student 375:student 7:bus 4:student *:student +:student =:student
+EXPR: 0 | POS | INT | 1 | 53 | 347 | x=(375-(7*4)) | x 375 7 4 * - = | x:student 375:student 7:bus 4:student *:student -:student =:student
+EXPR: 0 | POS | INT | 1 | 53 | 2621 | x=((375*7)-4) | x 375 7 * 4 - = | x:student 375:student 7:bus *:student 4:student -:student =:student
+EXPR: 0 | POS | INT | 2 | 53 | 403 | 375=(x-(7*4)) | 375 x 7 4 * - = | 375:student x:student 7:bus 4:student *:student -:student =:student
+EXPR: 0 | POS | INT | 2 | 53 | 347 | 375=(x+(7*4)) | 375 x 7 4 * + = | 375:student x:student 7:bus 4:student *:student +:student =:student
+EXPR: 0 | POS | INT | 2 | 53 | 10500 | 375=(x/(7*4)) | 375 x 7 4 * / = | 375:student x:student 7:bus 4:student *:bus /:student =:student
+EXPR: 0 | POS | INT | 2 | 53 | 10500 | (x/(375*7))=4 | x 375 7 * / 4 = | x:student 375:student 7:bus *:bus /:student 4:student =:student
+EXPR: 0 | POS | INT | 2 | 53 | 2653 | 375=((x/7)-4) | 375 x 7 / 4 - = | 375:student x:student 7:bus /:student 4:student -:student =:student
+EXPR: 0 | POS | INT | 2 | 53 | 2597 | 375=((x/7)+4) | 375 x 7 / 4 + = | 375:student x:student 7:bus /:student 4:student +:student =:student
+EXPR: 1 | POS | INT | 2 | 53 | 53 | 375=((x*7)+4) | 375 x 7 * 4 + = | 375:student x:student 7:bus *:student 4:student +:student =:student
+EXPR: 1 | POS | INT | 2 | 53 | 53 | (375-(x*7))=4 | 375 x 7 * - 4 = | 375:student x:student 7:bus *:student -:student 4:student =:student
+EXPR: 1 | POS | INT | 2 | 53 | 53 | 375=((7*x)+4) | 375 7 x * 4 + = | 375:student 7:bus x:student *:student 4:student +:student =:student
+EXPR: 0 | POS | INT | 2 | 53 | 403 | ((x-375)/7)=4 | x 375 - 7 / 4 = | x:student 375:student -:student 7:bus /:student 4:student =:student
+EXPR: 0 | POS | INT | 2 | 53 | 347 | 375=((7*4)+x) | 375 7 4 * x + = | 375:student 7:bus 4:student *:student x:student +:student =:student
+EXPR: 0 | POS | INT | 2 | 53 | 2629 | (x-(375*7))=4 | x 375 7 * - 4 = | x:student 375:student 7:bus *:student -:student 4:student =:student
+EXPR: 0 | POS | INT | 2 | 53 | 2597 | (375-(x/7))=4 | 375 x 7 / - 4 = | 375:student x:student 7:bus /:student -:student 4:student =:student
+EXPR: 0 | POS | INT | 2 | 53 | 2621 | ((375*7)-x)=4 | 375 7 * x - 4 = | 375:student 7:bus *:student x:student -:student 4:student =:student
+EXPR: 0 | POS | INT | 2 | 53 | 347 | ((375-x)/7)=4 | 375 x - 7 / 4 = | 375:student x:student -:student 7:bus /:student 4:student =:student
+EXPR: 1 | POS | INT | 2 | 53 | 53 | (375-(7*x))=4 | 375 7 x * - 4 = | 375:student 7:bus x:student *:student -:student 4:student =:student
+EXPR: 0 | POS | INT | 10 | 53 | 2597 | x=((375-4)*7) | x 375 4 - 7 * = | x:student 375:student 4:student -:student 7:bus *:student =:student
+EXPR: 0 | POS | INT | 10 | 53 | 2653 | x=((375+4)*7) | x 375 4 + 7 * = | x:student 375:student 4:student +:student 7:bus *:student =:student
+EXPR: 1 | POS | INT | 10 | 53 | 53 | x=((375-4)/7) | x 375 4 - 7 / = | x:student 375:student 4:student -:student 7:bus /:student =:student
+EXPR: 0 | POS | INT | 10 | 53 | 2597 | x=(7*(375-4)) | x 7 375 4 - * = | x:student 7:bus 375:student 4:student -:student *:student =:student
+EXPR: 0 | POS | INT | 10 | 53 | 2653 | x=(7*(375+4)) | x 7 375 4 + * = | x:student 7:bus 375:student 4:student +:student *:student =:student
+EXPR: 0 | POS | INT | 10 | 53 | 364 | x=(375-(7+4)) | x 375 7 4 + - = | x:student 375:student 7:student 4:student +:student -:student =:student
+EXPR: 0 | POS | INT | 10 | 53 | 125 | x=(375/(7-4)) | x 375 7 4 - / = | x:student 375:student 7:bus 4:bus -:bus /:student =:student
+EXPR: 0 | POS | INT | 10 | 53 | 372 | x=(375-(7-4)) | x 375 7 4 - - = | x:student 375:student 7:student 4:student -:student -:student =:student
+EXPR: 0 | POS | INT | 10 | 53 | 386 | x=(375+(7+4)) | x 375 7 4 + + = | x:student 375:student 7:student 4:student +:student +:student =:student
+EXPR: 0 | POS | INT | 10 | 53 | 378 | x=((375+7)-4) | x 375 7 + 4 - = | x:student 375:student 7:student +:student 4:student -:student =:student
+EXPR: 0 | POS | INT | 10 | 53 | 372 | x=((375-7)+4) | x 375 7 - 4 + = | x:student 375:student 7:student -:student 4:student +:student =:student
+EXPR: 0 | POS | INT | 10 | 53 | 364 | x=((375-7)-4) | x 375 7 - 4 - = | x:student 375:student 7:student -:student 4:student -:student =:student
+EXPR: 0 | POS | INT | 10 | 53 | 386 | x=((375+7)+4) | x 375 7 + 4 + = | x:student 375:student 7:student +:student 4:student +:student =:student
+EXPR: 0 | POS | INT | 10 | 53 | 4125 | x=(375*(7+4)) | x 375 7 4 + * = | x:student 375:student 7:bus 4:bus +:bus *:student =:student
+EXPR: 0 | POS | INT | 10 | 53 | 1125 | x=(375*(7-4)) | x 375 7 4 - * = | x:student 375:student 7:bus 4:bus -:bus *:student =:student
+EXPR: 0 | POS | INT | 10 | 53 | 1472 | x=((375-7)*4) | x 375 7 - 4 * = | x:student 375:bus 7:bus -:bus 4:student *:student =:student
+EXPR: 0 | POS | INT | 10 | 53 | 1528 | x=((375+7)*4) | x 375 7 + 4 * = | x:student 375:bus 7:bus +:bus 4:student *:student =:student
+EXPR: 0 | POS | INT | 10 | 53 | 378 | x=(375+(7-4)) | x 375 7 4 - + = | x:student 375:student 7:student 4:student -:student +:student =:student
+EXPR: 0 | POS | INT | 11 | 53 | 2653 | x=((375+4)*7) | x 375 4 + 7 * = | x:student 375:student 4:student +:student 7:bus *:student =:student
+EXPR: 0 | POS | INT | 11 | 53 | 2597 | x=((375-4)*7) | x 375 4 - 7 * = | x:student 375:student 4:student -:student 7:bus *:student =:student
+EXPR: 0 | POS | INT | 11 | 53 | 364 | x=(375-(7+4)) | x 375 7 4 + - = | x:student 375:student 7:student 4:student +:student -:student =:student
+EXPR: 1 | POS | INT | 11 | 53 | 53 | x=((375-4)/7) | x 375 4 - 7 / = | x:student 375:student 4:student -:student 7:bus /:student =:student
+EXPR: 0 | POS | INT | 11 | 53 | 2597 | x=(7*(375-4)) | x 7 375 4 - * = | x:student 7:bus 375:student 4:student -:student *:student =:student
+EXPR: 0 | POS | INT | 11 | 53 | 125 | x=(375/(7-4)) | x 375 7 4 - / = | x:student 375:student 7:bus 4:bus -:bus /:student =:student
+EXPR: 0 | POS | INT | 11 | 53 | 386 | x=(375+(7+4)) | x 375 7 4 + + = | x:student 375:student 7:student 4:student +:student +:student =:student
+EXPR: 0 | POS | INT | 11 | 53 | 378 | x=(375+(7-4)) | x 375 7 4 - + = | x:student 375:student 7:student 4:student -:student +:student =:student
+EXPR: 0 | POS | INT | 11 | 53 | 378 | x=((375+7)-4) | x 375 7 + 4 - = | x:student 375:student 7:student +:student 4:student -:student =:student
+EXPR: 0 | POS | INT | 11 | 53 | 372 | x=((375-7)+4) | x 375 7 - 4 + = | x:student 375:student 7:student -:student 4:student +:student =:student
+EXPR: 0 | POS | INT | 11 | 53 | 1472 | x=((375-7)*4) | x 375 7 - 4 * = | x:student 375:bus 7:bus -:bus 4:student *:student =:student
+NET 53 non-negative, integer-valued solutions found out of 100 total solutions

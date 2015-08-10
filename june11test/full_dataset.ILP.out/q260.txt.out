@@ -1,0 +1,46 @@
+parameters: n=9 l=4 k=1 p=5 q=3 m=10
+TOTAL 100 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 180 | 16 | x=((6*6)*(8/18)) | x 6 6 * 8 18 / * = | x:people 6:van 6:people *:people 8:bus 18:people /:bus *:people =:people
+EXPR: 0 | POS | INT | 0 | 180 | 396 | x=(6*((6*8)+18)) | x 6 6 8 * 18 + * = | x:people 6:van 6:people 8:bus *:people 18:people +:people *:people =:people
+EXPR: 1 | POS | INT | 0 | 180 | 180 | x=((6*6)+(8*18)) | x 6 6 * 8 18 * + = | x:people 6:van 6:people *:people 8:bus 18:people *:people +:people =:people
+EXPR: 0 | POS | INT | 0 | 180 | 81 | x=(((6*6)/8)*18) | x 6 6 * 8 / 18 * = | x:people 6:van 6:people *:van 8:bus /:van 18:people *:people =:people
+EXPR: 1 | POS | INT | 0 | 180 | 180 | x=(6*((6*8)-18)) | x 6 6 8 * 18 - * = | x:people 6:van 6:people 8:bus *:people 18:people -:people *:people =:people
+EXPR: 1 | POS | INT | 1 | 180 | 180 | x=((6*6)+(8*18)) | x 6 6 * 8 18 * + = | x:people 6:van 6:people *:people 8:bus 18:people *:people +:people =:people
+EXPR: 0 | POS | INT | 1 | 180 | 396 | x=(6*((6*8)+18)) | x 6 6 8 * 18 + * = | x:people 6:van 6:people 8:bus *:people 18:people +:people *:people =:people
+EXPR: 0 | POS | INT | 1 | 180 | 81 | x=(((6*6)/8)*18) | x 6 6 * 8 / 18 * = | x:people 6:van 6:people *:van 8:bus /:van 18:people *:people =:people
+EXPR: 0 | POS | INT | 1 | 180 | 16 | x=((6*6)*(8/18)) | x 6 6 * 8 18 / * = | x:people 6:van 6:people *:people 8:bus 18:people /:bus *:people =:people
+EXPR: 1 | POS | INT | 1 | 180 | 180 | x=(6*((6*8)-18)) | x 6 6 8 * 18 - * = | x:people 6:van 6:people 8:bus *:people 18:people -:people *:people =:people
+EXPR: 0 | POS | INT | 10 | 180 | 16 | x=(6*((6*8)/18)) | x 6 6 8 * 18 / * = | x:people 6:van 6:people 8:bus *:people 18:bus /:people *:people =:people
+EXPR: 0 | POS | INT | 10 | 180 | 192 | x=(6*((6+8)+18)) | x 6 6 8 + 18 + * = | x:people 6:van 6:people 8:people +:people 18:people +:people *:people =:people
+EXPR: 0 | POS | INT | 10 | 180 | 62 | x=((6*6)+(8+18)) | x 6 6 * 8 18 + + = | x:people 6:van 6:people *:people 8:people 18:people +:people +:people =:people
+EXPR: 0 | POS | INT | 10 | 180 | 10 | x=((6*6)-(8+18)) | x 6 6 * 8 18 + - = | x:people 6:van 6:people *:people 8:people 18:people +:people -:people =:people
+EXPR: 1 | POS | INT | 10 | 180 | 180 | x=((6*6)+(8*18)) | x 6 6 * 8 18 * + = | x:people 6:bus 6:people *:people 8:bus 18:people *:people +:people =:people
+EXPR: 0 | POS | INT | 10 | 180 | 432 | x=(((6*6)+18)*8) | x 6 6 * 18 + 8 * = | x:people 6:van 6:people *:people 18:people +:people 8:bus *:people =:people
+EXPR: 0 | POS | INT | 10 | 180 | 26 | x=(((6/6)*8)+18) | x 6 6 / 8 * 18 + = | x:people 6:van 6:people /:van 8:people *:people 18:people +:people =:people
+EXPR: 0 | POS | INT | 11 | 180 | 192 | x=(6*((6+8)+18)) | x 6 6 8 + 18 + * = | x:people 6:van 6:people 8:people +:people 18:people +:people *:people =:people
+EXPR: 0 | POS | INT | 11 | 180 | 62 | x=((6*6)+(8+18)) | x 6 6 * 8 18 + + = | x:people 6:van 6:people *:people 8:people 18:people +:people +:people =:people
+EXPR: 1 | POS | INT | 11 | 180 | 180 | x=((6*6)+(8*18)) | x 6 6 * 8 18 * + = | x:people 6:bus 6:people *:people 8:bus 18:people *:people +:people =:people
+EXPR: 0 | POS | INT | 11 | 180 | 26 | x=(((6/6)*8)+18) | x 6 6 / 8 * 18 + = | x:people 6:van 6:people /:van 8:people *:people 18:people +:people =:people
+EXPR: 0 | POS | INT | 20 | 180 | 51 | x=((18/6)+(6*8)) | x 18 6 / 6 8 * + = | x:people 18:people 6:van /:people 6:people 8:bus *:people +:people =:people
+EXPR: 1 | POS | INT | 20 | 180 | 180 | x=((6*6)+(8*18)) | x 6 6 * 8 18 * + = | x:people 6:van 6:people *:people 8:people 18:bus *:people +:people =:people
+EXPR: 0 | POS | INT | 20 | 180 | 16 | x=(6*((6*8)/18)) | x 6 6 8 * 18 / * = | x:people 6:van 6:people 8:van *:people 18:bus /:people *:people =:people
+EXPR: 0 | POS | INT | 20 | 180 | 46 | x=((6*6)+(18-8)) | x 6 6 * 18 8 - + = | x:people 6:van 6:people *:people 18:people 8:people -:people +:people =:people
+EXPR: 0 | POS | INT | 20 | 180 | 144 | x=(((6*8)/6)*18) | x 6 8 * 6 / 18 * = | x:people 6:van 8:bus *:van 6:bus /:van 18:people *:people =:people
+EXPR: 0 | POS | INT | 20 | 180 | 10 | x=((6/6)*(18-8)) | x 6 6 / 18 8 - * = | x:people 6:van 6:people /:van 18:people 8:people -:people *:people =:people
+EXPR: 0 | POS | INT | 20 | 180 | 360 | x=((6*6)*(18-8)) | x 6 6 * 18 8 - * = | x:people 6:van 6:people *:van 18:people 8:people -:people *:people =:people
+EXPR: 0 | POS | INT | 21 | 180 | 16 | x=(6*((6*8)/18)) | x 6 6 8 * 18 / * = | x:people 6:van 6:people 8:van *:people 18:bus /:people *:people =:people
+EXPR: 0 | POS | INT | 21 | 180 | 46 | x=((6*6)+(18-8)) | x 6 6 * 18 8 - + = | x:people 6:van 6:people *:people 18:people 8:people -:people +:people =:people
+EXPR: 0 | POS | INT | 21 | 180 | 10 | x=((6/6)*(18-8)) | x 6 6 / 18 8 - * = | x:people 6:van 6:people /:van 18:people 8:people -:people *:people =:people
+EXPR: 0 | POS | INT | 21 | 180 | 360 | x=((6*6)*(18-8)) | x 6 6 * 18 8 - * = | x:people 6:van 6:people *:van 18:people 8:people -:people *:people =:people
+EXPR: 0 | POS | INT | 22 | 180 | 4 | 18=(((6*6)/8)*x) | 18 6 6 * 8 / x * = | 18:people 6:van 6:people *:van 8:bus /:van x:people *:people =:people
+EXPR: 0 | POS | INT | 22 | 180 | 108 | 18=(((6*6)+x)/8) | 18 6 6 * x + 8 / = | 18:people 6:van 6:people *:people x:people +:people 8:bus /:people =:people
+EXPR: 0 | POS | INT | 22 | 180 | 10 | (x+((6/6)*8))=18 | x 6 6 / 8 * + 18 = | x:people 6:van 6:bus /:van 8:people *:people +:people 18:people =:people
+EXPR: 0 | POS | INT | 27 | 180 | 46 | 8=(((6*6)+18)-x) | 8 6 6 * 18 + x - = | 8:people 6:van 6:people *:people 18:people +:people x:people -:people =:people
+EXPR: 0 | POS | INT | 27 | 180 | 10 | 8=(((6*6)-18)-x) | 8 6 6 * 18 - x - = | 8:people 6:van 6:people *:people 18:people -:people x:people -:people =:people
+EXPR: 0 | POS | INT | 27 | 180 | 26 | 8=(((6/6)*x)-18) | 8 6 6 / x * 18 - = | 8:people 6:van 6:people /:van x:people *:people 18:people -:people =:people
+EXPR: 0 | POS | INT | 30 | 180 | 10 | x=((6*(6/18))+8) | x 6 6 18 / * 8 + = | x:people 6:van 6:people 18:bus /:people *:people 8:people +:people =:people
+EXPR: 0 | POS | INT | 30 | 180 | 26 | x=((6/6)*(8+18)) | x 6 6 / 8 18 + * = | x:people 6:bus 6:van /:bus 8:people 18:people +:people *:people =:people
+EXPR: 0 | POS | INT | 30 | 180 | 30 | x=(6+((8/6)*18)) | x 6 8 6 / 18 * + = | x:people 6:people 8:bus 6:van /:bus 18:people *:people +:people =:people
+EXPR: 0 | POS | INT | 30 | 180 | 396 | x=(6*((6*8)+18)) | x 6 6 8 * 18 + * = | x:people 6:van 6:people 8:bus *:people 18:people +:people *:people =:people
+NET 42 non-negative, integer-valued solutions found out of 100 total solutions

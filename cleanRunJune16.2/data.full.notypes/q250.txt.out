@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 56 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 971639 | 452883 | x=(712261-259378) | x 712261 259378 - = | x:male 712261:male 259378:male -:male =:male
+EXPR: 1 | POS | INT | 0 | 971639 | 971639 | (712261+259378)=x | 712261 259378 + x = | 712261:male 259378:male +:male x:male =:male
+EXPR: 0 | POS | INT | 0 | 971639 | 184744833658 | (712261*259378)=x | 712261 259378 * x = | 712261:male 259378:male *:male x:male =:male
+EXPR: 0 | POS | INT | 0 | 971639 | 452883 | (712261-259378)=x | 712261 259378 - x = | 712261:male 259378:male -:male x:male =:male
+EXPR: 1 | POS | INT | 0 | 971639 | 971639 | x=(712261+259378) | x 712261 259378 + = | x:male 712261:male 259378:male +:male =:male
+EXPR: 0 | POS | INT | 0 | 971639 | 184744833658 | x=(712261*259378) | x 712261 259378 * = | x:male 712261:male 259378:male *:male =:male
+EXPR: 1 | POS | INT | 2 | 971639 | 971639 | 712261=(x-259378) | 712261 x 259378 - = | 712261:male x:male 259378:male -:male =:male
+EXPR: 0 | POS | INT | 2 | 971639 | 184744833658 | 712261=(x/259378) | 712261 x 259378 / = | 712261:male x:male 259378:male /:male =:male
+EXPR: 0 | POS | INT | 2 | 971639 | 452883 | 712261=(x+259378) | 712261 x 259378 + = | 712261:male x:male 259378:male +:male =:male
+EXPR: 0 | POS | INT | 2 | 971639 | 452883 | 712261=(259378+x) | 712261 259378 x + = | 712261:male 259378:male x:male +:male =:male
+EXPR: 0 | POS | INT | 2 | 971639 | 452883 | (712261-x)=259378 | 712261 x - 259378 = | 712261:male x:male -:male 259378:male =:male
+EXPR: 1 | POS | INT | 2 | 971639 | 971639 | (x-712261)=259378 | x 712261 - 259378 = | x:male 712261:male -:male 259378:male =:male
+EXPR: 0 | POS | INT | 2 | 971639 | 184744833658 | (x/712261)=259378 | x 712261 / 259378 = | x:male 712261:male /:male 259378:male =:male
+EXPR: 1 | POS | INT | 4 | 971639 | 971639 | 259378=(x-712261) | 259378 x 712261 - = | 259378:male x:male 712261:male -:male =:male
+EXPR: 0 | POS | INT | 4 | 971639 | 452883 | (x+259378)=712261 | x 259378 + 712261 = | x:male 259378:male +:male 712261:male =:male
+EXPR: 0 | POS | INT | 4 | 971639 | 452883 | 259378=(712261-x) | 259378 712261 x - = | 259378:male 712261:male x:male -:male =:male
+EXPR: 0 | POS | INT | 4 | 971639 | 184744833658 | 259378=(x/712261) | 259378 x 712261 / = | 259378:male x:male 712261:male /:male =:male
+EXPR: 0 | POS | INT | 4 | 971639 | 452883 | (259378+x)=712261 | 259378 x + 712261 = | 259378:male x:male +:male 712261:male =:male
+EXPR: 0 | POS | INT | 4 | 971639 | 184744833658 | (x/259378)=712261 | x 259378 / 712261 = | x:male 259378:male /:male 712261:male =:male
+EXPR: 1 | POS | INT | 4 | 971639 | 971639 | (x-259378)=712261 | x 259378 - 712261 = | x:male 259378:male -:male 712261:male =:male
+NET 20 unique, non-negative, integer-valued solutions found out of 56 total solutions

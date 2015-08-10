@@ -1,0 +1,16 @@
+parameters: n=9 l=4 k=1 p=5 q=3 m=10
+TOTAL 85 solutions found
+EXPR: 0 | POS | INT | 12 | 74 | 72 | 109=((x+(2*13))+11) | 109 x 2 13 * + 11 + = | 109:dollar x:dollar 2:shirt 13:dollar *:dollar +:dollar 11:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 20 | 74 | 222 | x=(2*((109+13)-11)) | x 2 109 13 + 11 - * = | x:money 2:money 109:dollar 13:dollar +:dollar 11:dollar -:dollar *:money =:money
+EXPR: 0 | POS | INT | 22 | 74 | 72 | 109=((x+(2*13))+11) | 109 x 2 13 * + 11 + = | 109:dollar x:dollar 2:money 13:dollar *:dollar +:dollar 11:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 37 | 74 | 109 | ((13*(109/x))-2)=11 | 13 109 x / * 2 - 11 = | 13:money 109:dollar x:money /:dollar *:dollar 2:dollar -:dollar 11:dollar =:dollar
+EXPR: 0 | POS | INT | 50 | 74 | 124 | x=(109+((2*13)-11)) | x 109 2 13 * 11 - + = | x:shirt 109:shirt 2:dollar 13:shirt *:shirt 11:shirt -:shirt +:shirt =:shirt
+EXPR: 0 | POS | INT | 51 | 74 | 124 | x=(109+((2*13)-11)) | x 109 2 13 * 11 - + = | x:shirt 109:shirt 2:dollar 13:shirt *:shirt 11:shirt -:shirt +:shirt =:shirt
+EXPR: 0 | POS | INT | 52 | 74 | 131 | 2=((109+(13-x))+11) | 2 109 13 x - + 11 + = | 2:shirt 109:shirt 13:shirt x:shirt -:shirt +:shirt 11:shirt +:shirt =:shirt
+EXPR: 0 | POS | INT | 57 | 74 | 109 | 13=(((109/x)*2)+11) | 13 109 x / 2 * 11 + = | 13:money 109:shirt x:money /:shirt 2:money *:money 11:money +:money =:money
+EXPR: 0 | POS | INT | 57 | 74 | 109 | (13-(109+(2-x)))=11 | 13 109 2 x - + - 11 = | 13:money 109:money 2:money x:money -:money +:money -:money 11:money =:money
+EXPR: 0 | POS | INT | 60 | 74 | 118 | x=(109+((2*11)-13)) | x 109 2 11 * 13 - + = | x:shirt 109:shirt 2:dollar 11:shirt *:shirt 13:shirt -:shirt +:shirt =:shirt
+EXPR: 0 | POS | INT | 67 | 74 | 671 | 13=(((x*2)/11)-109) | 13 x 2 * 11 / 109 - = | 13:shirt x:money 2:shirt *:shirt 11:dollar /:shirt 109:shirt -:shirt =:shirt
+EXPR: 0 | POS | INT | 72 | 74 | 220 | 11=(((109*2)-x)+13) | 11 109 2 * x - 13 + = | 11:shirt 109:shirt 2:money *:shirt x:shirt -:shirt 13:shirt +:shirt =:shirt
+EXPR: 0 | POS | INT | 75 | 74 | 110 | x=((11/(13-2))+109) | x 11 13 2 - / 109 + = | x:money 11:money 13:dollar 2:dollar -:dollar /:money 109:money +:money =:money
+NET 13 non-negative, integer-valued solutions found out of 85 total solutions

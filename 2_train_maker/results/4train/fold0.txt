@@ -1,0 +1,4344 @@
+0
+ mike had 34 peaches left at his roadside fruit stand . he went to the orchard and picked more peaches to stock up the stand . there are now 86 peaches at the stand , how many did he pick  ? 
+ee
+[(2, 'peach', '34'), (1003, 'orchard', 'the'), (1012, 'stand', 'the'), (2003, 'peach', '86'), (2006, 'stand', 'the'), (2011, 'peach', 'x')]
+c
+[(2, 'peach', '34'), (1003, 'orchard', 'the'), (1012, 'stand', 'the'), (2003, 'peach', '86'), (2006, 'stand', 'the'), (2011, 'peach', 'x')]
+the
+the
+the
+['peach', 'peach']
+units and bare sets
+[(2, 'peach', '34'), (1003, 'orchard', 'the'), (1012, 'stand', 'the'), (2003, 'peach', '86'), (2006, 'stand', 'the'), (2011, 'peach', 'x'), (1008, 'peach', 'BARE')]
+eac
+[(2, 'peach', '34'), (1003, 'orchard', 'the'), (1012, 'stand', 'the'), (2003, 'peach', '86'), (2006, 'stand', 'the'), (2011, 'peach', 'x'), (1008, 'peach', 'BARE')]
+moving x
+[(5, (2011, <makesets.aset object at 0x10b315908>))] [(1008, 'BARE')] 1008
+mov x
+[(2, 'peach', '34'), (1003, 'orchard', 'the'), (1012, 'stand', 'the'), (2003, 'peach', '86'), (2006, 'stand', 'the'), (1008, 'peach', 'x'), (1008, 'peach', 'BARE')]
+[(2, <makesets.aset object at 0x10b3159e8>), (1003, <makesets.aset object at 0x10b315a90>), (1012, <makesets.aset object at 0x10b315b00>), (2003, <makesets.aset object at 0x10b315be0>), (2006, <makesets.aset object at 0x10b315c88>), (1008, <makesets.aset object at 0x10b315908>), (1008, <makesets.aset object at 0x10b315e48>)]
+[(2, <makesets.aset object at 0x10b3159e8>), (2003, <makesets.aset object at 0x10b315be0>), (1008, <makesets.aset object at 0x10b315908>)]
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : mike
+contains : None
+entity : peach
+idx : 2
+location : None
+num : 34
+subtypes : []
+surface : peaches
+verbs : had
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : stand
+contains : None
+entity : peach
+idx : 1008
+location : None
+num : x
+subtypes : []
+surface : stand
+verbs : None
+widx : None
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : peach
+idx : 2003
+location : stand
+num : 86
+subtypes : []
+surface : peaches
+verbs : None
+widx : 5
+_____________
+
+
+ Top scoring 3 equations: 
+0.8817603168529522 34 + x = 86
+0.6673161298808302 34 = x - 86
+0.27779292784399096 34 = x + 86
+top 3 globally adjusted:
+score :  0.9251041235130986
+eq :  34 + x = 86
+guess :  52
+score :  0.27094375236062235
+eq :  34 = x / 86
+guess :  2924
+score :  0.18504194723488376
+eq :  34 = x - 86
+guess :  120
+
+CORRECT
+Guessed Equation :  34 + x = 86
+Guess :  52 
+True Answer : 52.0 
+
+
+1
+ benny bought 4 new baseball trading cards to add to his collection . the next day his dog ate half of his collection . there are now only 34 cards left . how many cards did benny start with  ? 
+ee
+[(2, 'card', '4'), (1000, 'day', 'the'), (1006, 'collection', 'half'), (2004, 'card', '34'), (3002, 'card', 'x')]
+c
+[(2, 'card', '4'), (1000, 'day', 'the'), (1006, 'collection', 'half'), (2004, 'card', '34'), (3002, 'card', 'x')]
+the
+half
+['card', 'collection', 'card']
+units and bare sets
+[(2, 'card', '4'), (1000, 'day', 'the'), (1006, 'collection', 'half'), (2004, 'card', '34'), (3002, 'card', 'x'), (11, 'collection', 'BARE')]
+eac
+[(2, 'card', '4'), (1000, 'day', 'the'), (1006, 'collection', 'half'), (2004, 'card', '34'), (3002, 'card', 'x'), (11, 'collection', 'BARE')]
+mov x
+[(2, 'card', '4'), (1000, 'day', 'the'), (1006, 'collection', 'half'), (2004, 'card', '34'), (0, 'card', 'x'), (11, 'collection', 'BARE')]
+[(2, <makesets.aset object at 0x10e50a588>), (1000, <makesets.aset object at 0x10e50a630>), (1006, <makesets.aset object at 0x10e50a6a0>), (2004, <makesets.aset object at 0x10e50a748>), (0, <makesets.aset object at 0x10e50a518>), (11, <makesets.aset object at 0x10e50a7b8>)]
+[(2, <makesets.aset object at 0x10e50a588>), (2004, <makesets.aset object at 0x10e50a748>), (0, <makesets.aset object at 0x10e50a518>)]
+Sets detected: 
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : card
+idx : 0
+location : None
+num : x
+subtypes : []
+surface : cards
+verbs : None
+widx : 3
+_____________
+
+_____________
+adjs : new
+compound : 0
+container : None
+contains : None
+entity : card
+idx : 2
+location : None
+num : 4
+subtypes : []
+surface : cards
+verbs : None
+widx : 7
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : card
+idx : 2004
+location : None
+num : 34
+subtypes : []
+surface : cards
+verbs : None
+widx : 6
+_____________
+
+
+ Top scoring 3 equations: 
+0.9368678515266629 x - 4 = 34
+0.6820394290221875 x = 4 - 34
+0.293353964204168 x = 4 + 34
+top 3 globally adjusted:
+score :  0.9231324872909634
+eq :  x - 4 = 34
+guess :  38
+score :  0.1988024848907725
+eq :  x + 4 = 34
+guess :  30
+score :  0.15918009529328828
+eq :  x = 4 * 34
+guess :  136
+
+INCORRECT
+Guessed Equation :  x - 4 = 34
+Guess :  38 
+True Answer : 64.0 
+
+
+2
+ alyssa's dog had puppies . she gave 7 to her friends .  she now has 5 puppies left . how many puppies did she have to start with  ? 
+ee
+[(1002, 'puppy', '7'), (2003, 'puppy', '5'), (3002, 'puppy', 'x')]
+c
+[(1002, 'puppy', '7'), (2003, 'puppy', '5'), (3002, 'puppy', 'x')]
+['puppy', 'puppy']
+units and bare sets
+[(1002, 'puppy', '7'), (2003, 'puppy', '5'), (3002, 'puppy', 'x'), (4, 'puppy', 'BARE')]
+eac
+[(1002, 'puppy', '7'), (2003, 'puppy', '5'), (3002, 'puppy', 'x'), (4, 'puppy', 'BARE')]
+mov x
+[(1002, 'puppy', '7'), (2003, 'puppy', '5'), (0, 'puppy', 'x'), (4, 'puppy', 'BARE')]
+[(1002, <makesets.aset object at 0x10e51acf8>), (2003, <makesets.aset object at 0x10e51ac50>), (0, <makesets.aset object at 0x10e51abe0>), (4, <makesets.aset object at 0x10e51ae10>)]
+[(1002, <makesets.aset object at 0x10e51acf8>), (2003, <makesets.aset object at 0x10e51ac50>), (0, <makesets.aset object at 0x10e51abe0>)]
+Sets detected: 
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : puppy
+idx : 0
+location : None
+num : x
+subtypes : []
+surface : puppies
+verbs : None
+widx : 3
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : puppy
+idx : 1002
+location : None
+num : 7
+subtypes : []
+surface : puppies
+verbs : None
+widx : None
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : she
+contains : None
+entity : puppy
+idx : 2003
+location : None
+num : 5
+subtypes : []
+surface : puppies
+verbs : has
+widx : 5
+_____________
+
+
+ Top scoring 3 equations: 
+0.939073883695329 x - 7 = 5
+0.6141618106170942 x = 7 + 5
+0.31253469478345514 x = 7 - 5
+top 3 globally adjusted:
+score :  0.9384099400955187
+eq :  x - 7 = 5
+guess :  12
+score :  0.16248762762207086
+eq :  x = 7 * 5
+guess :  35
+score :  0.08033784558643368
+eq :  x = 7 - 5
+guess :  2
+
+CORRECT
+Guessed Equation :  x - 7 = 5
+Guess :  12 
+True Answer : 12.0 
+
+
+3
+ a restaurant served 9 pizzas during lunch and 6 during dinner today . how many pizzas were served today  ? 
+ee
+[(0, 'restaurant', 'a'), (3, 'pizza', '9'), (8, 'pizza', '6'), (1004, 'pizza', 'x')]
+c
+[(0, 'restaurant', 'a'), (3, 'pizza', '9'), (8, 'pizza', '6'), (1004, 'pizza', 'x')]
+['pizza', 'pizza']
+units and bare sets
+[(0, 'restaurant', 'a'), (3, 'pizza', '9'), (8, 'pizza', '6'), (1004, 'pizza', 'x'), (1002, 'pizza', 'BARE')]
+eac
+[(0, 'restaurant', 'a'), (3, 'pizza', '9'), (8, 'pizza', '6'), (1004, 'pizza', 'x'), (1002, 'pizza', 'BARE')]
+moving x
+[(3, (1004, <makesets.aset object at 0x10e69eb70>))] [(1002, 'BARE')] 1002
+mov x
+[(0, 'restaurant', 'a'), (3, 'pizza', '9'), (8, 'pizza', '6'), (1002, 'pizza', 'x'), (1002, 'pizza', 'BARE')]
+[(0, <makesets.aset object at 0x10e69eba8>), (3, <makesets.aset object at 0x10e69ec18>), (8, <makesets.aset object at 0x10e69ecc0>), (1002, <makesets.aset object at 0x10e69eb70>), (1002, <makesets.aset object at 0x10e69ed30>)]
+[(3, <makesets.aset object at 0x10e69ec18>), (8, <makesets.aset object at 0x10e69ecc0>), (1002, <makesets.aset object at 0x10e69eb70>)]
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : restaurant
+contains : None
+entity : pizza
+idx : 3
+location : None
+num : 9
+subtypes : []
+surface : pizzas
+verbs : served
+widx : 5
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : pizza
+idx : 8
+location : None
+num : 6
+subtypes : []
+surface : pizzas
+verbs : None
+widx : None
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : pizza
+idx : 1002
+location : None
+num : x
+subtypes : []
+surface : pizzas
+verbs : None
+widx : None
+_____________
+
+
+ Top scoring 3 equations: 
+0.6937542837755891 9 + 6 = x
+0.5556413682844843 9 = 6 + x
+0.38391083498152023 9 = 6 - x
+top 3 globally adjusted:
+score :  0.7008891835153164
+eq :  9 + 6 = x
+guess :  15
+score :  0.4424870448803934
+eq :  9 = 6 + x
+guess :  3
+score :  0.07769691708966074
+eq :  9 * 6 = x
+guess :  54
+
+CORRECT
+Guessed Equation :  9 + 6 = x
+Guess :  15 
+True Answer : 15.0 
+
+
+4
+ there are 7 dogwood trees currently in the park . park workers will plant 3 more dogwood trees today and 2 more dogwood trees tomorrow . how many dogwood trees will the park have when the workers are finished  ? 
+ee
+[(2, 'tree', '7'), (7, 'park', 'the'), (1004, 'tree', '3'), (1010, 'tree', '2'), (2002, 'tree', 'x'), (2005, 'park', 'the'), (2009, 'worker', 'the')]
+c
+[(2, 'tree', '7'), (7, 'park', 'the'), (1004, 'tree', '3'), (1010, 'tree', '2'), (2002, 'tree', 'x'), (2005, 'park', 'the'), (2009, 'worker', 'the')]
+the
+the
+the
+the
+the
+the
+['tree', 'tree', 'tree']
+units and bare sets
+[(2, 'tree', '7'), (7, 'park', 'the'), (1004, 'tree', '3'), (1010, 'tree', '2'), (2002, 'tree', 'x'), (2005, 'park', 'the'), (2009, 'worker', 'the'), (2003, 'tree', 'BARE')]
+eac
+[(2, 'tree', '7'), (7, 'park', 'the'), (1004, 'tree', '3'), (1010, 'tree', '2'), (2002, 'tree', 'x'), (2005, 'park', 'the'), (2009, 'worker', 'the'), (2003, 'tree', 'BARE')]
+moving x
+[(4, (2002, <makesets.aset object at 0x10e6af7b8>))] [(2003, 'BARE')] 2003
+mov x
+[(2, 'tree', '7'), (7, 'park', 'the'), (1004, 'tree', '3'), (1010, 'tree', '2'), (2003, 'tree', 'x'), (2005, 'park', 'the'), (2009, 'worker', 'the'), (2003, 'tree', 'BARE')]
+[(2, <makesets.aset object at 0x10e6af4a8>), (7, <makesets.aset object at 0x10e6af550>), (1004, <makesets.aset object at 0x10e6af5c0>), (1010, <makesets.aset object at 0x10e6af5f8>), (2003, <makesets.aset object at 0x10e6af7b8>), (2005, <makesets.aset object at 0x10e6af6d8>), (2009, <makesets.aset object at 0x10e6af748>), (2003, <makesets.aset object at 0x10e6af828>)]
+[(2, <makesets.aset object at 0x10e6af4a8>), (1004, <makesets.aset object at 0x10e6af5c0>), (1010, <makesets.aset object at 0x10e6af5f8>), (2003, <makesets.aset object at 0x10e6af7b8>)]
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : park
+contains : None
+entity : tree
+idx : 2
+location : None
+num : 7
+subtypes : []
+surface : trees
+verbs : None
+widx : 5
+_____________
+
+_____________
+adjs : more
+compound : 0
+container : None
+contains : None
+entity : tree
+idx : 1004
+location : None
+num : 3
+subtypes : []
+surface : trees
+verbs : None
+widx : 8
+_____________
+
+_____________
+adjs : more
+compound : 0
+container : None
+contains : None
+entity : tree
+idx : 1010
+location : None
+num : 2
+subtypes : []
+surface : trees
+verbs : None
+widx : 14
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : worker
+contains : None
+entity : tree
+idx : 2003
+location : None
+num : x
+subtypes : []
+surface : dogwood
+verbs : have
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.9532933380683136 7 + ( 3 + 2 ) = x
+0.9303788613297339 ( 7 + 3 ) + 2 = x
+0.8640138861183249 7 = ( 3 + 2 ) + x
+top 3 globally adjusted:
+score :  0.9084773985701591
+eq :  7 + ( 3 + 2 ) = x
+guess :  12
+score :  0.7290293883811026
+eq :  7 = ( 3 + 2 ) + x
+guess :  2
+score :  0.2726082627957966
+eq :  ( 7 + 3 ) / 2 = x
+guess :  5
+
+CORRECT
+Guessed Equation :  7 + ( 3 + 2 ) = x
+Guess :  12 
+True Answer : 12.0 
+
+
+5
+ jason had 49 quarters in his bank . his dad gave him 25 more quarters . how many quarters does he have now  ? 
+ee
+[(2, 'quarter', '49'), (1004, 'quarter', '25'), (2002, 'quarter', 'x')]
+c
+[(2, 'quarter', '49'), (1004, 'quarter', '25'), (2002, 'quarter', 'x')]
+['quarter', 'quarter']
+units and bare sets
+[(2, 'quarter', '49'), (1004, 'quarter', '25'), (2002, 'quarter', 'x')]
+eac
+[(2, 'quarter', '49'), (1004, 'quarter', '25'), (2002, 'quarter', 'x')]
+mov x
+[(2, 'quarter', '49'), (1004, 'quarter', '25'), (2002, 'quarter', 'x')]
+[(2, <makesets.aset object at 0x10e73e1d0>), (1004, <makesets.aset object at 0x10e73e240>), (2002, <makesets.aset object at 0x10e73e128>)]
+[(2, <makesets.aset object at 0x10e73e1d0>), (1004, <makesets.aset object at 0x10e73e240>), (2002, <makesets.aset object at 0x10e73e128>)]
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : jason
+contains : None
+entity : quarter
+idx : 2
+location : bank
+num : 49
+subtypes : []
+surface : quarters
+verbs : had
+widx : 4
+_____________
+
+_____________
+adjs : more
+compound : 0
+container : dad
+contains : None
+entity : quarter
+idx : 1004
+location : None
+num : 25
+subtypes : []
+surface : quarters
+verbs : gave
+widx : 7
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : quarter
+idx : 2002
+location : None
+num : x
+subtypes : []
+surface : quarters
+verbs : None
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.926818379121064 49 = 25 - x
+0.7093580300623065 49 + 25 = x
+0.17291320060926516 49 - 25 = x
+top 3 globally adjusted:
+score :  0.7083564435159228
+eq :  49 + 25 = x
+guess :  74
+score :  0.20474440264052549
+eq :  49 - 25 = x
+guess :  24
+score :  0.10552935910419912
+eq :  49 / 25 = x
+guess :  49/25
+
+CORRECT
+Guessed Equation :  49 + 25 = x
+Guess :  74 
+True Answer : 74.0 
+
+
+6
+ sam went to 14 football games this year . he went to 29 games  last year . how many football games did sam go to in all  ? 
+ee
+[(3, 'game', '14'), (6, 'year', 'this'), (1003, 'game', '29'), (2003, 'game', 'x')]
+c
+[(3, 'game', '14'), (6, 'year', 'this'), (1003, 'game', '29'), (2003, 'game', 'x')]
+this
+['game', 'game']
+units and bare sets
+[(3, 'game', '14'), (6, 'year', 'this'), (1003, 'game', '29'), (2003, 'game', 'x')]
+eac
+[(3, 'game', '14'), (6, 'year', 'this'), (1003, 'game', '29'), (2003, 'game', 'x')]
+mov x
+[(3, 'game', '14'), (6, 'year', 'this'), (1003, 'game', '29'), (2003, 'game', 'x')]
+[(3, <makesets.aset object at 0x10e748400>), (6, <makesets.aset object at 0x10e7484a8>), (1003, <makesets.aset object at 0x10e748550>), (2003, <makesets.aset object at 0x10e748588>)]
+[(3, <makesets.aset object at 0x10e748400>), (1003, <makesets.aset object at 0x10e748550>), (2003, <makesets.aset object at 0x10e748588>)]
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : game
+idx : 3
+location : None
+num : 14
+subtypes : []
+surface : games
+verbs : None
+widx : 6
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : game
+idx : 1003
+location : None
+num : 29
+subtypes : []
+surface : games
+verbs : None
+widx : 5
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : game
+idx : 2003
+location : None
+num : x
+subtypes : []
+surface : games
+verbs : None
+widx : 4
+_____________
+
+
+ Top scoring 3 equations: 
+0.8290768148379956 14 + 29 = x
+0.6213365224322306 14 = 29 - x
+0.33001239828345447 14 = 29 + x
+top 3 globally adjusted:
+score :  0.8403645848727942
+eq :  14 + 29 = x
+guess :  43
+score :  0.11565809156479451
+eq :  14 = 29 - x
+guess :  15
+score :  0.0769072456278779
+eq :  14 * 29 = x
+guess :  406
+
+CORRECT
+Guessed Equation :  14 + 29 = x
+Guess :  43 
+True Answer : 43.0 
+
+
+7
+ jason picked 46 pears , keith picked 47 pears , and mike picked  12 pears from the pear tree . how many pears were picked in total  ? 
+ee
+[(2, 'pear', '46'), (7, 'pear', '47'), (13, 'pear', '12'), (16, 'tree', 'the'), (1002, 'pear', 'x')]
+c
+[(2, 'pear', '46'), (7, 'pear', '47'), (13, 'pear', '12'), (16, 'tree', 'the'), (1002, 'pear', 'x')]
+the
+['pear', 'pear', 'pear']
+units and bare sets
+[(2, 'pear', '46'), (7, 'pear', '47'), (13, 'pear', '12'), (16, 'tree', 'the'), (1002, 'pear', 'x'), (17, 'pear', 'BARE')]
+eac
+[(2, 'pear', '46'), (7, 'pear', '47'), (13, 'pear', '12'), (16, 'tree', 'the'), (1002, 'pear', 'x'), (17, 'pear', 'BARE')]
+moving x
+[(4, (1002, <makesets.aset object at 0x10e7514e0>))] [(17, 'BARE')] 17
+mov x
+[(2, 'pear', '46'), (7, 'pear', '47'), (13, 'pear', '12'), (16, 'tree', 'the'), (17, 'pear', 'x'), (17, 'pear', 'BARE')]
+[(2, <makesets.aset object at 0x10e751588>), (7, <makesets.aset object at 0x10e751630>), (13, <makesets.aset object at 0x10e7516a0>), (16, <makesets.aset object at 0x10e751748>), (17, <makesets.aset object at 0x10e7514e0>), (17, <makesets.aset object at 0x10e7517f0>)]
+[(2, <makesets.aset object at 0x10e751588>), (7, <makesets.aset object at 0x10e751630>), (13, <makesets.aset object at 0x10e7516a0>), (17, <makesets.aset object at 0x10e7514e0>)]
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : jason
+contains : None
+entity : pear
+idx : 2
+location : None
+num : 46
+subtypes : []
+surface : pears
+verbs : picked
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : keith
+contains : None
+entity : pear
+idx : 7
+location : None
+num : 47
+subtypes : []
+surface : pears
+verbs : picked
+widx : 9
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : tree
+contains : None
+entity : pear
+idx : 13
+location : None
+num : 12
+subtypes : []
+surface : pears
+verbs : picked
+widx : 15
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : pear
+idx : 17
+location : None
+num : x
+subtypes : []
+surface : pears
+verbs : None
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.9547565889704628 ( 46 + 47 ) + 12 = x
+0.9366942074341369 46 + ( 47 + 12 ) = x
+0.903411103767044 46 = ( 47 + 12 ) + x
+top 3 globally adjusted:
+score :  0.8957178074453586
+eq :  ( 46 + 47 ) + 12 = x
+guess :  105
+score :  0.10015138865583388
+eq :  46 * ( 47 * 12 ) = x
+guess :  25944
+score :  0.09066102316317011
+eq :  ( 46 * 47 ) + 12 = x
+guess :  2174
+
+CORRECT
+Guessed Equation :  ( 46 + 47 ) + 12 = x
+Guess :  105 
+True Answer : 105.0 
+
+
+8
+ mike has 35 books in his library . he bought several books at a yard sale over the weekend . he now has 56 books in his library . how many books did he buy at the yard sale  ? 
+ee
+[(2, 'book', '35'), (1005, 'sale', 'a'), (1009, 'weekend', 'the'), (2003, 'book', '56'), (3002, 'book', 'x'), (3007, 'sale', 'the')]
+c
+[(2, 'book', '35'), (1005, 'sale', 'a'), (1009, 'weekend', 'the'), (2003, 'book', '56'), (3002, 'book', 'x'), (3007, 'sale', 'the')]
+the
+the
+the
+['book', 'book']
+units and bare sets
+[(2, 'book', '35'), (1005, 'sale', 'a'), (1009, 'weekend', 'the'), (2003, 'book', '56'), (3002, 'book', 'x'), (3007, 'sale', 'the'), (1003, 'book', 'BARE')]
+eac
+[(2, 'book', '35'), (1005, 'sale', 'a'), (1009, 'weekend', 'the'), (2003, 'book', '56'), (3002, 'book', 'x'), (3007, 'sale', 'the'), (1003, 'book', 'BARE')]
+moving x
+[(4, (3002, <makesets.aset object at 0x10e7a28d0>))] [(1003, 'BARE')] 1003
+mov x
+[(2, 'book', '35'), (1005, 'sale', 'a'), (1009, 'weekend', 'the'), (2003, 'book', '56'), (1003, 'book', 'x'), (3007, 'sale', 'the'), (1003, 'book', 'BARE')]
+[(2, <makesets.aset object at 0x10e7a2630>), (1005, <makesets.aset object at 0x10e7a26a0>), (1009, <makesets.aset object at 0x10e7a2710>), (2003, <makesets.aset object at 0x10e7a27f0>), (1003, <makesets.aset object at 0x10e7a28d0>), (3007, <makesets.aset object at 0x10e7a2860>), (1003, <makesets.aset object at 0x10e7a2940>)]
+[(2, <makesets.aset object at 0x10e7a2630>), (2003, <makesets.aset object at 0x10e7a27f0>), (1003, <makesets.aset object at 0x10e7a28d0>)]
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : mike
+contains : None
+entity : book
+idx : 2
+location : library
+num : 35
+subtypes : []
+surface : books
+verbs : has
+widx : 4
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : sale
+contains : None
+entity : book
+idx : 1003
+location : None
+num : x
+subtypes : []
+surface : books
+verbs : buy
+widx : 3
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : he
+contains : None
+entity : book
+idx : 2003
+location : library
+num : 56
+subtypes : []
+surface : books
+verbs : has
+widx : 5
+_____________
+
+
+ Top scoring 3 equations: 
+0.6728825014251298 35 = x - 56
+0.4597862517429596 35 - x = 56
+0.3550138192758642 35 + x = 56
+top 3 globally adjusted:
+score :  0.5
+eq :  35 + x = 56
+guess :  21
+score :  0.22428853674822388
+eq :  35 = x / 56
+guess :  1960
+score :  0.1609854842514231
+eq :  35 / x = 56
+guess :  5/8
+
+CORRECT
+Guessed Equation :  35 + x = 56
+Guess :  21 
+True Answer : 21.0 
+
+
+9
+ dan found 56 seashells on the beach , he gave jessica some of his seashells . he has 22 seashell left . how many seashells did he give to jessica  ? 
+ee
+[(2, 'seashell', '56'), (5, 'beach', 'the'), (1002, 'seashell', '22'), (2002, 'seashell', 'x')]
+c
+[(2, 'seashell', '56'), (5, 'beach', 'the'), (1002, 'seashell', '22'), (2002, 'seashell', 'x')]
+the
+['seashell', 'seashell']
+units and bare sets
+[(2, 'seashell', '56'), (5, 'beach', 'the'), (1002, 'seashell', '22'), (2002, 'seashell', 'x'), (14, 'seashell', 'BARE')]
+eac
+[(2, 'seashell', '56'), (5, 'beach', 'the'), (1002, 'seashell', '22'), (2002, 'seashell', 'x'), (14, 'seashell', 'BARE')]
+moving x
+[(3, (2002, <makesets.aset object at 0x10e78e860>))] [(14, 'BARE')] 14
+mov x
+[(2, 'seashell', '56'), (5, 'beach', 'the'), (1002, 'seashell', '22'), (14, 'seashell', 'x'), (14, 'seashell', 'BARE')]
+[(2, <makesets.aset object at 0x10e78ec88>), (5, <makesets.aset object at 0x10e78e6d8>), (1002, <makesets.aset object at 0x10e78e6a0>), (14, <makesets.aset object at 0x10e78e860>), (14, <makesets.aset object at 0x10e78ed30>)]
+[(2, <makesets.aset object at 0x10e78ec88>), (1002, <makesets.aset object at 0x10e78e6a0>), (14, <makesets.aset object at 0x10e78e860>)]
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : beach
+contains : None
+entity : seashell
+idx : 2
+location : None
+num : 56
+subtypes : []
+surface : seashells
+verbs : found
+widx : 4
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : seashell
+idx : 14
+location : None
+num : x
+subtypes : []
+surface : seashells
+verbs : None
+widx : 3
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : he
+contains : None
+entity : seashell
+idx : 1002
+location : None
+num : 22
+subtypes : []
+surface : seashell
+verbs : has
+widx : 4
+_____________
+
+
+ Top scoring 3 equations: 
+0.8541968677365346 56 = x - 22
+0.7767994255931254 56 - x = 22
+0.17453501989424564 56 + x = 22
+top 3 globally adjusted:
+score :  0.7963145201407822
+eq :  56 - x = 22
+guess :  34
+score :  0.14637306200579248
+eq :  56 = x - 22
+guess :  78
+score :  0.10122792890924498
+eq :  56 = x / 22
+guess :  1232
+
+CORRECT
+Guessed Equation :  56 - x = 22
+Guess :  34 
+True Answer : 34.0 
+
+
+10
+ nancy grew 6 potatoes . sandy grew 7 potatoes . how many potatoes did they grow in total  ? 
+ee
+[(2, 'potato', '6'), (1002, 'potato', '7'), (2002, 'potato', 'x')]
+c
+[(2, 'potato', '6'), (1002, 'potato', '7'), (2002, 'potato', 'x')]
+['potato', 'potato']
+units and bare sets
+[(2, 'potato', '6'), (1002, 'potato', '7'), (2002, 'potato', 'x')]
+eac
+[(2, 'potato', '6'), (1002, 'potato', '7'), (2002, 'potato', 'x')]
+mov x
+[(2, 'potato', '6'), (1002, 'potato', '7'), (2002, 'potato', 'x')]
+[(2, <makesets.aset object at 0x10e789d68>), (1002, <makesets.aset object at 0x10e789ef0>), (2002, <makesets.aset object at 0x10e789f28>)]
+[(2, <makesets.aset object at 0x10e789d68>), (1002, <makesets.aset object at 0x10e789ef0>), (2002, <makesets.aset object at 0x10e789f28>)]
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : nancy
+contains : None
+entity : potato
+idx : 2
+location : None
+num : 6
+subtypes : []
+surface : potatoes
+verbs : grew
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : sandy
+contains : None
+entity : potato
+idx : 1002
+location : None
+num : 7
+subtypes : []
+surface : potatoes
+verbs : grew
+widx : 4
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : they
+contains : None
+entity : potato
+idx : 2002
+location : None
+num : x
+subtypes : []
+surface : potatoes
+verbs : grow
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.8832800879509318 6 + 7 = x
+0.5119480849410335 6 = 7 - x
+0.4297792651500283 6 = 7 + x
+top 3 globally adjusted:
+score :  0.8002367261288533
+eq :  6 + 7 = x
+guess :  13
+score :  0.060660471290331495
+eq :  6 * 7 = x
+guess :  42
+score :  0.03433567008249194
+eq :  6 = 7 - x
+guess :  1
+
+CORRECT
+Guessed Equation :  6 + 7 = x
+Guess :  13 
+True Answer : 13.0 
+
+
+11
+ joan has 8 orange balloons  but lost 2 of them . how many orange balloons does joan have now  ? 
+ee
+[(2, 'balloon', '8'), (7, 'balloon', '2'), (1003, 'balloon', 'x')]
+c
+[(2, 'balloon', '8'), (7, 'balloon', '2'), (1003, 'balloon', 'x')]
+['balloon', 'balloon']
+units and bare sets
+[(2, 'balloon', '8'), (7, 'balloon', '2'), (1003, 'balloon', 'x')]
+eac
+[(2, 'balloon', '8'), (7, 'balloon', '2'), (1003, 'balloon', 'x')]
+mov x
+[(2, 'balloon', '8'), (7, 'balloon', '2'), (1003, 'balloon', 'x')]
+[(2, <makesets.aset object at 0x10e791470>), (7, <makesets.aset object at 0x10e791d30>), (1003, <makesets.aset object at 0x10e791d68>)]
+[(2, <makesets.aset object at 0x10e791470>), (7, <makesets.aset object at 0x10e791d30>), (1003, <makesets.aset object at 0x10e791d68>)]
+Sets detected: 
+_____________
+adjs : orange
+compound : 0
+container : joan
+contains : None
+entity : balloon
+idx : 2
+location : None
+num : 8
+subtypes : []
+surface : balloons
+verbs : has
+widx : 5
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : balloon
+idx : 7
+location : None
+num : 2
+subtypes : []
+surface : balloons
+verbs : None
+widx : None
+_____________
+
+_____________
+adjs : many orange
+compound : 0
+container : None
+contains : None
+entity : balloon
+idx : 1003
+location : None
+num : x
+subtypes : []
+surface : balloons
+verbs : None
+widx : 4
+_____________
+
+
+ Top scoring 3 equations: 
+0.9199886447337734 8 = 2 - x
+0.918894547708127 8 - 2 = x
+0.05453560712677468 8 + 2 = x
+top 3 globally adjusted:
+score :  0.9168373885887556
+eq :  8 - 2 = x
+guess :  6
+score :  0.11074310763125854
+eq :  8 = 2 * x
+guess :  4
+score :  0.07345272735058869
+eq :  8 * 2 = x
+guess :  16
+
+CORRECT
+Guessed Equation :  8 - 2 = x
+Guess :  6 
+True Answer : 6.0 
+
+
+12
+ joan's cat had 8 kittens . she gave 2 to her friends .  how many kittens does she have now  ? 
+ee
+[(4, 'kitten', '8'), (1002, 'kitten', '2'), (2002, 'kitten', 'x')]
+c
+[(4, 'kitten', '8'), (1002, 'kitten', '2'), (2002, 'kitten', 'x')]
+['kitten', 'kitten']
+units and bare sets
+[(4, 'kitten', '8'), (1002, 'kitten', '2'), (2002, 'kitten', 'x')]
+eac
+[(4, 'kitten', '8'), (1002, 'kitten', '2'), (2002, 'kitten', 'x')]
+mov x
+[(4, 'kitten', '8'), (1002, 'kitten', '2'), (2002, 'kitten', 'x')]
+[(4, <makesets.aset object at 0x10e7a2c18>), (1002, <makesets.aset object at 0x10e7a2748>), (2002, <makesets.aset object at 0x10e7a2da0>)]
+[(4, <makesets.aset object at 0x10e7a2c18>), (1002, <makesets.aset object at 0x10e7a2748>), (2002, <makesets.aset object at 0x10e7a2da0>)]
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : cat
+contains : None
+entity : kitten
+idx : 4
+location : None
+num : 8
+subtypes : []
+surface : kittens
+verbs : had
+widx : 6
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : kitten
+idx : 1002
+location : None
+num : 2
+subtypes : []
+surface : kittens
+verbs : None
+widx : None
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : kitten
+idx : 2002
+location : None
+num : x
+subtypes : []
+surface : kittens
+verbs : None
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.9199886447338858 8 = 2 - x
+0.7831314937143001 8 - 2 = x
+0.17343307163467583 8 + 2 = x
+top 3 globally adjusted:
+score :  0.8498731929665864
+eq :  8 - 2 = x
+guess :  6
+score :  0.11074310763119176
+eq :  8 = 2 * x
+guess :  4
+score :  0.1043253185434871
+eq :  8 + 2 = x
+guess :  10
+
+CORRECT
+Guessed Equation :  8 - 2 = x
+Guess :  6 
+True Answer : 6.0 
+
+
+13
+ tim has 22 books . mike has 20 books .  how many books do they have together  ? 
+ee
+[(2, 'book', '22'), (1002, 'book', '20'), (2002, 'book', 'x')]
+c
+[(2, 'book', '22'), (1002, 'book', '20'), (2002, 'book', 'x')]
+['book', 'book']
+units and bare sets
+[(2, 'book', '22'), (1002, 'book', '20'), (2002, 'book', 'x')]
+eac
+[(2, 'book', '22'), (1002, 'book', '20'), (2002, 'book', 'x')]
+mov x
+[(2, 'book', '22'), (1002, 'book', '20'), (2002, 'book', 'x')]
+[(2, <makesets.aset object at 0x10e7c8a20>), (1002, <makesets.aset object at 0x10e7c8ac8>), (2002, <makesets.aset object at 0x10e7c8978>)]
+[(2, <makesets.aset object at 0x10e7c8a20>), (1002, <makesets.aset object at 0x10e7c8ac8>), (2002, <makesets.aset object at 0x10e7c8978>)]
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : tim
+contains : None
+entity : book
+idx : 2
+location : None
+num : 22
+subtypes : []
+surface : books
+verbs : has
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : mike
+contains : None
+entity : book
+idx : 1002
+location : None
+num : 20
+subtypes : []
+surface : books
+verbs : has
+widx : 4
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : they
+contains : None
+entity : book
+idx : 2002
+location : None
+num : x
+subtypes : []
+surface : books
+verbs : have
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.8535717122921225 22 + 20 = x
+0.5538289233292304 22 = 20 - x
+0.37424273916191875 22 = 20 + x
+top 3 globally adjusted:
+score :  0.8499670942534058
+eq :  22 + 20 = x
+guess :  42
+score :  0.2768935454232164
+eq :  22 = 20 + x
+guess :  2
+score :  0.05442309153505924
+eq :  22 * 20 = x
+guess :  440
+
+CORRECT
+Guessed Equation :  22 + 20 = x
+Guess :  42 
+True Answer : 42.0 
+
+
+14
+ alyssa picked 42 pears and nancy picked 17 pears from the pear tree . how many pears were picked in all  ? 
+ee
+[(2, 'pear', '42'), (7, 'pear', '17'), (10, 'tree', 'the'), (1002, 'pear', 'x')]
+c
+[(2, 'pear', '42'), (7, 'pear', '17'), (10, 'tree', 'the'), (1002, 'pear', 'x')]
+the
+['pear', 'pear']
+units and bare sets
+[(2, 'pear', '42'), (7, 'pear', '17'), (10, 'tree', 'the'), (1002, 'pear', 'x'), (11, 'pear', 'BARE')]
+eac
+[(2, 'pear', '42'), (7, 'pear', '17'), (10, 'tree', 'the'), (1002, 'pear', 'x'), (11, 'pear', 'BARE')]
+moving x
+[(3, (1002, <makesets.aset object at 0x10e79d828>))] [(11, 'BARE')] 11
+mov x
+[(2, 'pear', '42'), (7, 'pear', '17'), (10, 'tree', 'the'), (11, 'pear', 'x'), (11, 'pear', 'BARE')]
+[(2, <makesets.aset object at 0x10e79d908>), (7, <makesets.aset object at 0x10e79d978>), (10, <makesets.aset object at 0x10e748198>), (11, <makesets.aset object at 0x10e79d828>), (11, <makesets.aset object at 0x10e748b70>)]
+[(2, <makesets.aset object at 0x10e79d908>), (7, <makesets.aset object at 0x10e79d978>), (11, <makesets.aset object at 0x10e79d828>)]
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : pear
+idx : 2
+location : None
+num : 42
+subtypes : []
+surface : pears
+verbs : None
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : tree
+contains : None
+entity : pear
+idx : 7
+location : None
+num : 17
+subtypes : []
+surface : pears
+verbs : picked
+widx : 9
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : pear
+idx : 11
+location : None
+num : x
+subtypes : []
+surface : pears
+verbs : None
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.8382807490284024 42 + 17 = x
+0.7120561967392269 42 = 17 - x
+0.2368644377799888 42 = 17 + x
+top 3 globally adjusted:
+score :  0.8475585889172262
+eq :  42 + 17 = x
+guess :  59
+score :  0.20309098268296066
+eq :  42 = 17 + x
+guess :  25
+score :  0.07662227202583442
+eq :  42 * 17 = x
+guess :  714
+
+CORRECT
+Guessed Equation :  42 + 17 = x
+Guess :  59 
+True Answer : 59.0 
+
+
+15
+ sam has 110 books . joan has 102 books .  how many books do they have together  ? 
+ee
+[(2, 'book', '110'), (1002, 'book', '102'), (2002, 'book', 'x')]
+c
+[(2, 'book', '110'), (1002, 'book', '102'), (2002, 'book', 'x')]
+['book', 'book']
+units and bare sets
+[(2, 'book', '110'), (1002, 'book', '102'), (2002, 'book', 'x')]
+eac
+[(2, 'book', '110'), (1002, 'book', '102'), (2002, 'book', 'x')]
+mov x
+[(2, 'book', '110'), (1002, 'book', '102'), (2002, 'book', 'x')]
+[(2, <makesets.aset object at 0x10e7c82b0>), (1002, <makesets.aset object at 0x10e7c8ba8>), (2002, <makesets.aset object at 0x10e7c8320>)]
+[(2, <makesets.aset object at 0x10e7c82b0>), (1002, <makesets.aset object at 0x10e7c8ba8>), (2002, <makesets.aset object at 0x10e7c8320>)]
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : sam
+contains : None
+entity : book
+idx : 2
+location : None
+num : 110
+subtypes : []
+surface : books
+verbs : has
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : joan
+contains : None
+entity : book
+idx : 1002
+location : None
+num : 102
+subtypes : []
+surface : books
+verbs : has
+widx : 4
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : they
+contains : None
+entity : book
+idx : 2002
+location : None
+num : x
+subtypes : []
+surface : books
+verbs : have
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.8535717122921225 110 + 102 = x
+0.5538289233292304 110 = 102 - x
+0.37424273916191875 110 = 102 + x
+top 3 globally adjusted:
+score :  0.8499670942534058
+eq :  110 + 102 = x
+guess :  212
+score :  0.2768935454232164
+eq :  110 = 102 + x
+guess :  8
+score :  0.05442309153505924
+eq :  110 * 102 = x
+guess :  11220
+
+CORRECT
+Guessed Equation :  110 + 102 = x
+Guess :  212 
+True Answer : 212.0 
+
+
+16
+ melanie grew 139 turnips . benny grew 113 turnips . how many turnips did they grow in all  ? 
+ee
+[(2, 'turnip', '139'), (1002, 'turnip', '113'), (2002, 'turnip', 'x')]
+c
+[(2, 'turnip', '139'), (1002, 'turnip', '113'), (2002, 'turnip', 'x')]
+['turnip', 'turnip']
+units and bare sets
+[(2, 'turnip', '139'), (1002, 'turnip', '113'), (2002, 'turnip', 'x')]
+eac
+[(2, 'turnip', '139'), (1002, 'turnip', '113'), (2002, 'turnip', 'x')]
+mov x
+[(2, 'turnip', '139'), (1002, 'turnip', '113'), (2002, 'turnip', 'x')]
+[(2, <makesets.aset object at 0x10e78ed68>), (1002, <makesets.aset object at 0x10e78e6d8>), (2002, <makesets.aset object at 0x10e783b38>)]
+[(2, <makesets.aset object at 0x10e78ed68>), (1002, <makesets.aset object at 0x10e78e6d8>), (2002, <makesets.aset object at 0x10e783b38>)]
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : melanie
+contains : None
+entity : turnip
+idx : 2
+location : None
+num : 139
+subtypes : []
+surface : turnips
+verbs : grew
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : benny
+contains : None
+entity : turnip
+idx : 1002
+location : None
+num : 113
+subtypes : []
+surface : turnips
+verbs : grew
+widx : 4
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : turnip
+idx : 2002
+location : None
+num : x
+subtypes : []
+surface : turnips
+verbs : None
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.7953744110401669 139 + 113 = x
+0.7120561968965055 139 = 113 - x
+0.23686443762501386 139 = 113 + x
+top 3 globally adjusted:
+score :  0.8115920645230119
+eq :  139 + 113 = x
+guess :  252
+score :  0.18046684564737678
+eq :  139 = 113 + x
+guess :  26
+score :  0.07586897333903188
+eq :  139 * 113 = x
+guess :  15707
+
+CORRECT
+Guessed Equation :  139 + 113 = x
+Guess :  252 
+True Answer : 252.0 
+
+
+17
+ a restaurant sold 63 hamburgers last week . how many hamburgers on average were sold each day  ? 
+ee
+[(0, 'restaurant', 'a'), (3, 'hamburger', '63'), (1002, 'hamburger', 'x'), (1007, 'day', 'each')]
+c
+[(0, 'restaurant', 'a'), (3, 'hamburger', '63'), (1002, 'hamburger', 'x'), (1007, 'day', 'each')]
+['hamburger']
+units and bare sets
+[(0, 'restaurant', 'a'), (3, 'hamburger', '63'), (1002, 'hamburger', 'x'), (1007, 'day', 'each')]
+eac
+[(0, 'restaurant', 'a'), (3, 'hamburger', '63'), (1002, 'hamburger', 'x'), (1007, 'day', 'each')]
+mov x
+[(0, 'restaurant', 'a'), (3, 'hamburger', '63'), (1002, 'hamburger', 'x'), (1007, 'day', 'each')]
+[(0, <makesets.aset object at 0x10e7c9198>), (3, <makesets.aset object at 0x10e7c9160>), (1002, <makesets.aset object at 0x10e7c9748>), (1007, <makesets.aset object at 0x10e7c9390>)]
+[(3, <makesets.aset object at 0x10e7c9160>), (1002, <makesets.aset object at 0x10e7c9748>)]
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : restaurant
+contains : None
+entity : hamburger
+idx : 3
+location : None
+num : 63
+subtypes : []
+surface : hamburgers
+verbs : sold
+widx : 5
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : day
+contains : None
+entity : hamburger
+idx : 1002
+location : average
+num : x
+subtypes : []
+surface : hamburgers
+verbs : None
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.0 63 = x
+top 3 globally adjusted:
+score :  0.1665181045992195
+eq :  63 = x
+guess :  63
+
+INCORRECT
+Guessed Equation :  63 = x
+Guess :  63 
+True Answer : 9.0 
+
+
+18
+ nancy bought 615 crayons that came in packs of 15 .  how many packs of crayons did nancy buy ? 
+ee
+[(2, 'crayon', '615'), (9, 'crayon', '15'), (1002, 'crayon', 'x')]
+c
+[(2, 'crayon', '615'), (9, 'crayon', '15'), (1002, 'crayon', 'x')]
+['crayon', 'crayon']
+units and bare sets
+[(2, 'crayon', '615'), (9, 'crayon', '15'), (1002, 'crayon', 'x'), (1004, 'crayon', 'BARE')]
+eac
+[(2, 'crayon', '615'), (9, 'crayon', '15'), (1002, 'crayon', 'x'), (1004, 'crayon', 'BARE')]
+moving x
+[(2, (1002, <makesets.aset object at 0x10e748630>))] [(1004, 'BARE')] 1004
+mov x
+[(2, 'crayon', '615'), (9, 'crayon', '15'), (1004, 'crayon', 'x'), (1004, 'crayon', 'BARE')]
+[(2, <makesets.aset object at 0x10e748eb8>), (9, <makesets.aset object at 0x10e748978>), (1004, <makesets.aset object at 0x10e748630>), (1004, <makesets.aset object at 0x10e748160>)]
+[(2, <makesets.aset object at 0x10e748eb8>), (9, <makesets.aset object at 0x10e748978>), (1004, <makesets.aset object at 0x10e748630>)]
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : nancy
+contains : None
+entity : crayon
+idx : 2
+location : None
+num : 615
+subtypes : []
+surface : crayons
+verbs : bought
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : crayon
+idx : 9
+location : None
+num : 15
+subtypes : []
+surface : crayons
+verbs : None
+widx : None
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : nancy
+contains : None
+entity : crayon
+idx : 1004
+location : None
+num : x
+subtypes : []
+surface : packs
+verbs : buy
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.6937542837752478 615 + 15 = x
+0.6435737659919855 615 = 15 - x
+0.2862327669534243 615 = 15 + x
+top 3 globally adjusted:
+score :  0.6945317352759415
+eq :  615 + 15 = x
+guess :  630
+score :  0.21175291813792665
+eq :  615 = 15 + x
+guess :  600
+score :  0.07894123227137954
+eq :  615 = 15 * x
+guess :  41
+
+INCORRECT
+Guessed Equation :  615 + 15 = x
+Guess :  630 
+True Answer : 41.0 
+
+
+19
+ there were a total of 323 football games in the season . the season is played for 17 months . how many football games were played each month , if each month has the same number of games ? 
+ee
+[(2, 'total', 'a'), (5, 'game', '323'), (9, 'season', 'the'), (1000, 'season', 'the'), (1005, 'month', '17'), (2003, 'game', 'x'), (2006, 'month', 'each'), (2010, 'month', 'each'), (2013, 'number', 'the')]
+c
+[(2, 'total', 'a'), (5, 'game', '323'), (9, 'season', 'the'), (1000, 'season', 'the'), (1005, 'month', '17'), (2003, 'game', 'x'), (2006, 'month', 'each'), (2010, 'month', 'each'), (2013, 'number', 'the')]
+the
+the
+the
+the
+the
+the
+the
+the
+the
+the
+the
+['game', 'month']
+units and bare sets
+[(2, 'total', 'a'), (5, 'game', '323'), (9, 'season', 'the'), (1000, 'season', 'the'), (1005, 'month', '17'), (2003, 'game', 'x'), (2006, 'month', 'each'), (2010, 'month', 'each'), (2013, 'number', 'the'), (2017, 'game', 'BARE')]
+eac
+[(2, 'total', 'a'), (5, 'game', '323'), (9, 'season', 'the'), (1000, 'season', 'the'), (1005, 'month', '17'), (2003, 'game', 'x'), (2013, 'number', 'the'), (2017, 'game', 'BARE')]
+moving x
+[(5, (2003, <makesets.aset object at 0x10e794cc0>))] [(2017, 'BARE')] 2017
+mov x
+[(2, 'total', 'a'), (5, 'game', '323'), (9, 'season', 'the'), (1000, 'season', 'the'), (1005, 'month', '17'), (2017, 'game', 'x'), (2013, 'number', 'the'), (2017, 'game', 'BARE')]
+[(2, <makesets.aset object at 0x10e794d68>), (5, <makesets.aset object at 0x10e794da0>), (9, <makesets.aset object at 0x10e794e48>), (1000, <makesets.aset object at 0x10e794240>), (1005, <makesets.aset object at 0x10e794080>), (2017, <makesets.aset object at 0x10e794cc0>), (2013, <makesets.aset object at 0x10e7944a8>), (2017, <makesets.aset object at 0x10e794d30>)]
+[(5, <makesets.aset object at 0x10e794da0>), (1005, <makesets.aset object at 0x10e794080>), (2017, <makesets.aset object at 0x10e794cc0>)]
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : season
+contains : None
+entity : game
+idx : 5
+location : season
+num : 323
+subtypes : []
+surface : games
+verbs : None
+widx : 8
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : season
+contains : game
+entity : month
+idx : 1005
+location : None
+num : 17
+subtypes : []
+surface : months
+verbs : None
+widx : 7
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : number
+contains : None
+entity : game
+idx : 2017
+location : None
+num : x
+subtypes : []
+surface : games
+verbs : None
+widx : 4
+_____________
+
+
+ Top scoring 3 equations: 
+0.9409363998969259 323 = 17 * x
+0.8853512490018662 323 / 17 = x
+0.10136288450679147 323 * 17 = x
+top 3 globally adjusted:
+score :  0.7115713933651828
+eq :  323 = 17 * x
+guess :  19
+score :  0.10435638723833918
+eq :  323 * 17 = x
+guess :  5491
+score :  0.07233127565817535
+eq :  323 - 17 = x
+guess :  306
+
+CORRECT
+Guessed Equation :  323 = 17 * x
+Guess :  19 
+True Answer : 19.0 
+
+
+20
+ melanie has 84 blue marbles . sandy has 8 times more blue marbles than melanie . how many dozen blue marbles does sandy have ? 
+ee
+[(2, 'marble', '84'), (1002, 'time', '8'), (1003, 'marble', 'times'), (2002, 'dozen', 'x')]
+[['many', '2'], ['marbles', '5']]
+c
+[(2, 'marble', '84'), (1002, 'time', '8'), (1003, 'marble', 'times'), (2002, 'dozen', 'x'), (2003, 'marble', '12')]
+times
+['marble', 'time', 'marble']
+units and bare sets
+[(2, 'marble', '84'), (1002, 'time', '8'), (1003, 'marble', 'times'), (2002, 'dozen', 'x'), (2003, 'marble', '12'), (2004, 'marble', 'BARE')]
+eac
+[(2, 'marble', '84'), (1002, 'time', '8'), (1003, 'marble', 'times'), (2002, 'dozen', 'x'), (2003, 'marble', '12'), (2004, 'marble', 'BARE')]
+mov x
+[(2, 'marble', '84'), (1002, 'time', '8'), (1003, 'marble', 'times'), (2002, 'dozen', 'x'), (2003, 'marble', '12'), (2004, 'marble', 'BARE')]
+[(2, <makesets.aset object at 0x10e748c18>), (1002, <makesets.aset object at 0x10e79d080>), (1003, <makesets.aset object at 0x10e79dbe0>), (2002, <makesets.aset object at 0x10e748668>), (2003, <makesets.aset object at 0x10e79deb8>), (2004, <makesets.aset object at 0x10e79d8d0>)]
+[(2, <makesets.aset object at 0x10e748c18>), (1002, <makesets.aset object at 0x10e79d080>), (2002, <makesets.aset object at 0x10e748668>), (2003, <makesets.aset object at 0x10e79deb8>)]
+Sets detected: 
+_____________
+adjs : blue
+compound : 0
+container : melanie
+contains : None
+entity : marble
+idx : 2
+location : None
+num : 84
+subtypes : []
+surface : marbles
+verbs : has
+widx : 5
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : time
+idx : 1002
+location : None
+num : 8
+subtypes : []
+surface : times
+verbs : None
+widx : 4
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : sandy
+contains : marble
+entity : dozen
+idx : 2002
+location : None
+num : x
+subtypes : []
+surface : dozen
+verbs : have
+widx : 3
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : dozen
+contains : None
+entity : marble
+idx : 2003
+location : None
+num : 12
+subtypes : []
+surface : marbles
+verbs : None
+widx : None
+_____________
+
+
+ Top scoring 3 equations: 
+0.8522986589446796 84 = 8 * ( x * 12 )
+0.6389508130279362 ( 84 * 8 ) * x = 12
+0.5872286590100037 ( 84 * 8 ) / x = 12
+top 3 globally adjusted:
+score :  0.7206114772505765
+eq :  ( 84 * 8 ) / x = 12
+guess :  56
+score :  0.18722367989651917
+eq :  84 = 8 * ( x / 12 )
+guess :  126
+score :  0.1784450885559149
+eq :  ( 84 * 8 ) * x = 12
+guess :  1/56
+
+CORRECT
+Guessed Equation :  ( 84 * 8 ) / x = 12
+Guess :  56 
+True Answer : 56.0 
+
+
+21
+ mike has 8 orange marbles , he gave sam 4 of the marbles . how many orange marbles does he now have  ? 
+ee
+[(2, 'marble', '8'), (9, 'marble', '4'), (11, 'marble', 'the'), (1003, 'marble', 'x')]
+c
+[(2, 'marble', '8'), (9, 'marble', '4'), (11, 'marble', 'the'), (1003, 'marble', 'x')]
+['marble', 'marble']
+units and bare sets
+[(2, 'marble', '8'), (9, 'marble', '4'), (11, 'marble', 'the'), (1003, 'marble', 'x')]
+eac
+[(2, 'marble', '8'), (9, 'marble', '4'), (11, 'marble', 'the'), (1003, 'marble', 'x')]
+moving x
+[(3, (1003, <makesets.aset object at 0x10e7947b8>))] [(11, 'the')] 11
+mov x
+[(2, 'marble', '8'), (9, 'marble', '4'), (11, 'marble', 'the'), (11, 'marble', 'x')]
+[(2, <makesets.aset object at 0x10e794588>), (9, <makesets.aset object at 0x10e794c88>), (11, <makesets.aset object at 0x10e794320>), (11, <makesets.aset object at 0x10e7947b8>)]
+[(2, <makesets.aset object at 0x10e794588>), (9, <makesets.aset object at 0x10e794c88>), (11, <makesets.aset object at 0x10e7947b8>)]
+Sets detected: 
+_____________
+adjs : orange
+compound : 0
+container : mike
+contains : None
+entity : marble
+idx : 2
+location : None
+num : 8
+subtypes : []
+surface : marbles
+verbs : has
+widx : 5
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : marble
+contains : None
+entity : marble
+idx : 9
+location : None
+num : 4
+subtypes : []
+surface : marbles
+verbs : None
+widx : 13
+_____________
+
+_____________
+adjs : many orange
+compound : 0
+container : None
+contains : None
+entity : marble
+idx : 11
+location : None
+num : x
+subtypes : []
+surface : marbles
+verbs : None
+widx : 4
+_____________
+
+
+ Top scoring 3 equations: 
+0.9575879652356949 8 - 4 = x
+0.6217805741552294 8 = 4 - x
+0.2284315523319929 8 = 4 * x
+top 3 globally adjusted:
+score :  0.930052933358217
+eq :  8 - 4 = x
+guess :  4
+score :  0.19155195421709356
+eq :  8 = 4 * x
+guess :  2
+score :  0.07396931502447186
+eq :  8 * 4 = x
+guess :  32
+
+CORRECT
+Guessed Equation :  8 - 4 = x
+Guess :  4 
+True Answer : 4.0 
+
+
+22
+ sara has 9 dozen golf balls . how many golf balls does she have  ? 
+ee
+[(2, 'dozen', '9'), (3, 'ball', 'dozen'), (1002, 'ball', 'x')]
+c
+[(2, 'dozen', '9'), (3, 'ball', '12'), (1002, 'ball', 'x')]
+['dozen', 'ball']
+units and bare sets
+[(2, 'dozen', '9'), (3, 'ball', '12'), (1002, 'ball', 'x'), (1003, 'ball', 'BARE')]
+eac
+[(2, 'dozen', '9'), (3, 'ball', '12'), (1002, 'ball', 'x'), (1003, 'ball', 'BARE')]
+moving x
+[(2, (1002, <makesets.aset object at 0x10e7d7cf8>))] [(1003, 'BARE')] 1003
+mov x
+[(2, 'dozen', '9'), (3, 'ball', '12'), (1003, 'ball', 'x'), (1003, 'ball', 'BARE')]
+[(2, <makesets.aset object at 0x10e7d7e48>), (3, <makesets.aset object at 0x10e7d7278>), (1003, <makesets.aset object at 0x10e7d7cf8>), (1003, <makesets.aset object at 0x10e7d7c50>)]
+[(2, <makesets.aset object at 0x10e7d7e48>), (3, <makesets.aset object at 0x10e7d7278>), (1003, <makesets.aset object at 0x10e7d7cf8>)]
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : None
+contains : ball
+entity : dozen
+idx : 2
+location : None
+num : 9
+subtypes : []
+surface : dozen
+verbs : None
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : dozen
+contains : None
+entity : ball
+idx : 3
+location : None
+num : 12
+subtypes : []
+surface : balls
+verbs : has
+widx : 6
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : she
+contains : None
+entity : ball
+idx : 1003
+location : None
+num : x
+subtypes : []
+surface : golf
+verbs : have
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.8845040522085307 9 * 12 = x
+0.6759196084926044 9 = 12 - x
+0.24562389656116485 9 = 12 + x
+top 3 globally adjusted:
+score :  0.8683236979573334
+eq :  9 * 12 = x
+guess :  108
+score :  0.10928291848017524
+eq :  9 / 12 = x
+guess :  3/4
+score :  0.10590345299294264
+eq :  9 = 12 - x
+guess :  3
+
+CORRECT
+Guessed Equation :  9 * 12 = x
+Guess :  108 
+True Answer : 108.0 
+
+
+23
+ melanie , benny , sally , and jessica each have 3 baseball cards .  how many baseball cards do they have in all  ? 
+ee
+[(8, 'card', 'each'), (10, 'card', '3'), (1003, 'card', 'x')]
+c
+[(8, 'card', 'each'), (10, 'card', '3'), (1003, 'card', 'x')]
+['card']
+units and bare sets
+[(8, 'card', 'each'), (10, 'card', '3'), (1003, 'card', 'x')]
+eac
+[(8, 'card', '3'), (1003, 'card', 'x')]
+moving x
+[(1, (1003, <makesets.aset object at 0x10e7c9e48>))] [(12, 'BARE')] 12
+mov x
+[(8, 'card', '3'), (12, 'card', 'x')]
+[(8, <makesets.aset object at 0x10e7c9588>), (12, <makesets.aset object at 0x10e7c9e48>)]
+[(8, <makesets.aset object at 0x10e7c9588>), (12, <makesets.aset object at 0x10e7c9e48>)]
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : card
+idx : 8
+location : None
+num : 3
+subtypes : []
+surface : cards
+verbs : None
+widx : 10
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : they
+contains : None
+entity : card
+idx : 12
+location : None
+num : x
+subtypes : []
+surface : cards
+verbs : have
+widx : 4
+_____________
+
+
+ Top scoring 3 equations: 
+0.0 3 = x
+top 3 globally adjusted:
+score :  0.1665181045992195
+eq :  3 = x
+guess :  3
+
+INCORRECT
+Guessed Equation :  3 = x
+Guess :  3 
+True Answer : 12.0 
+
+
+24
+ there are 4 children in the classroom , each student will get 2 pencils . how many pencils will the teacher have to give out  ? 
+ee
+[(2, 'child', '4'), (5, 'classroom', 'the'), (8, 'student', 'each'), (12, 'pencil', '2'), (1002, 'pencil', 'x'), (1004, 'teacher', 'the')]
+c
+[(2, 'child', '4'), (5, 'classroom', 'the'), (8, 'student', 'each'), (12, 'pencil', '2'), (1002, 'pencil', 'x'), (1004, 'teacher', 'the')]
+the
+the
+the
+['child', 'pencil']
+units and bare sets
+[(2, 'child', '4'), (5, 'classroom', 'the'), (8, 'student', 'each'), (12, 'pencil', '2'), (1002, 'pencil', 'x'), (1004, 'teacher', 'the')]
+eac
+[(2, 'child', '4'), (5, 'classroom', 'the'), (8, 'student', 'each'), (12, 'pencil', '2'), (1002, 'pencil', 'x'), (1004, 'teacher', 'the')]
+mov x
+[(2, 'child', '4'), (5, 'classroom', 'the'), (8, 'student', 'each'), (12, 'pencil', '2'), (1002, 'pencil', 'x'), (1004, 'teacher', 'the')]
+[(2, <makesets.aset object at 0x10e789cc0>), (5, <makesets.aset object at 0x10e789d30>), (8, <makesets.aset object at 0x10e789390>), (12, <makesets.aset object at 0x10e789748>), (1002, <makesets.aset object at 0x10e789f28>), (1004, <makesets.aset object at 0x10e77d390>)]
+[(2, <makesets.aset object at 0x10e789cc0>), (12, <makesets.aset object at 0x10e789748>), (1002, <makesets.aset object at 0x10e789f28>)]
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : child
+idx : 2
+location : classroom
+num : 4
+subtypes : []
+surface : children
+verbs : None
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : student
+contains : None
+entity : pencil
+idx : 12
+location : None
+num : 2
+subtypes : []
+surface : pencils
+verbs : get
+widx : 14
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : teacher
+contains : None
+entity : pencil
+idx : 1002
+location : None
+num : x
+subtypes : []
+surface : pencils
+verbs : None
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.7767994257161663 4 = 2 - x
+0.6686170871015975 4 / 2 = x
+0.2928701535515623 4 * 2 = x
+top 3 globally adjusted:
+score :  0.9256837115776272
+eq :  4 / 2 = x
+guess :  2
+score :  0.2043181472927917
+eq :  4 * 2 = x
+guess :  8
+score :  0.04344186935565119
+eq :  4 + 2 = x
+guess :  6
+
+INCORRECT
+Guessed Equation :  4 / 2 = x
+Guess :  2 
+True Answer : 8.0 
+
+
+25
+ there are 8 calories in a candy bar . how many calories are there in 3 candy bars  ? 
+ee
+[(2, 'calorie', '8'), (5, 'bar', 'a'), (1002, 'calorie', 'x'), (1006, 'bar', '3')]
+c
+[(2, 'calorie', '8'), (5, 'bar', 'a'), (1002, 'calorie', 'x'), (1006, 'bar', '3')]
+['calorie', 'bar']
+units and bare sets
+[(2, 'calorie', '8'), (5, 'bar', 'a'), (1002, 'calorie', 'x'), (1006, 'bar', '3')]
+eac
+[(2, 'calorie', '8'), (5, 'bar', '3'), (1002, 'calorie', 'x')]
+mov x
+[(2, 'calorie', '8'), (5, 'bar', '3'), (1002, 'calorie', 'x')]
+[(2, <makesets.aset object at 0x10b35dcc0>), (5, <makesets.aset object at 0x10b35dd30>), (1002, <makesets.aset object at 0x10b35dc50>)]
+[(2, <makesets.aset object at 0x10b35dcc0>), (5, <makesets.aset object at 0x10b35dd30>), (1002, <makesets.aset object at 0x10b35dc50>)]
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : bar
+contains : None
+entity : calorie
+idx : 2
+location : bar
+num : 8
+subtypes : []
+surface : calories
+verbs : None
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : bar
+idx : 5
+location : None
+num : 3
+subtypes : []
+surface : bar
+verbs : None
+widx : 8
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : calorie
+idx : 1002
+location : None
+num : x
+subtypes : []
+surface : calories
+verbs : None
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.8202314886917214 8 * 3 = x
+0.7946274852241699 8 = 3 * x
+0.10754539101800623 8 = 3 - x
+top 3 globally adjusted:
+score :  0.8885599091551273
+eq :  8 * 3 = x
+guess :  24
+score :  0.12199363298147071
+eq :  8 = 3 * x
+guess :  8/3
+score :  0.08938977081280748
+eq :  8 = 3 + x
+guess :  5
+
+CORRECT
+Guessed Equation :  8 * 3 = x
+Guess :  24 
+True Answer : 24.0 
+
+
+26
+ sally earns $12.50 an hour cleaning houses . if she works for 12 hours , how much money will she make  ? 
+ee
+[(3, 'dollar', '12.50'), (4, 'hour', 'an'), (1004, 'hour', '12'), (1009, 'money', 'x')]
+c
+[(3, 'dollar', '12.50'), (4, 'hour', 'an'), (1004, 'hour', '12'), (1009, 'money', 'x')]
+CONVERTING
+dollar money
+['money', 'hour']
+units and bare sets
+[(3, 'money', '12.5'), (4, 'hour', 'an'), (1004, 'hour', '12'), (1009, 'money', 'x')]
+eac
+[(3, 'money', '12.5'), (4, 'hour', '12'), (1009, 'money', 'x')]
+mov x
+[(3, 'money', '12.5'), (4, 'hour', '12'), (1009, 'money', 'x')]
+[(3, <makesets.aset object at 0x10e7a4b38>), (4, <makesets.aset object at 0x10e748a90>), (1009, <makesets.aset object at 0x10e7a4b70>)]
+[(3, <makesets.aset object at 0x10e7a4b38>), (4, <makesets.aset object at 0x10e748a90>), (1009, <makesets.aset object at 0x10e7a4b70>)]
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : hour
+contains : None
+entity : money
+idx : 3
+location : None
+num : 12.5
+subtypes : []
+surface : $
+verbs : earns
+widx : 3
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : hour
+idx : 4
+location : None
+num : 12
+subtypes : []
+surface : hour
+verbs : None
+widx : 6
+_____________
+
+_____________
+adjs : much
+compound : 0
+container : she
+contains : None
+entity : money
+idx : 1009
+location : None
+num : x
+subtypes : []
+surface : money
+verbs : make
+widx : 10
+_____________
+
+
+ Top scoring 3 equations: 
+0.8664007515937294 12.5 * 12 = x
+0.43677382369593104 12.5 = 12 * x
+0.43358837839010483 12.5 = 12 / x
+top 3 globally adjusted:
+score :  0.4467218057114655
+eq :  12.5 * 12 = x
+guess :  150.000000000000
+score :  0.08214871549367041
+eq :  12.5 = 12 / x
+guess :  0.960000000000000
+score :  0.08175771211597976
+eq :  12.5 = 12 * x
+guess :  1.04166666666667
+
+CORRECT
+Guessed Equation :  12.5 * 12 = x
+Guess :  150.000000000000 
+True Answer : 150.0 
+
+
+27
+ fred earns $12.50 an hour cleaning houses . if he works for 8 hours , how much money will he make  ? 
+ee
+[(3, 'dollar', '12.50'), (4, 'house', 'an'), (1004, 'hour', '8'), (1009, 'money', 'x')]
+c
+[(3, 'dollar', '12.50'), (4, 'house', 'an'), (1004, 'hour', '8'), (1009, 'money', 'x')]
+CONVERTING
+dollar money
+['money', 'hour']
+units and bare sets
+[(3, 'money', '12.5'), (4, 'house', 'an'), (1004, 'hour', '8'), (1009, 'money', 'x'), (5, 'hour', 'BARE')]
+eac
+[(3, 'money', '12.5'), (4, 'house', 'an'), (1004, 'hour', '8'), (1009, 'money', 'x'), (5, 'hour', 'BARE')]
+mov x
+[(3, 'money', '12.5'), (4, 'house', 'an'), (1004, 'hour', '8'), (1009, 'money', 'x'), (5, 'hour', 'BARE')]
+[(3, <makesets.aset object at 0x10b35dcf8>), (4, <makesets.aset object at 0x10b35d0b8>), (1004, <makesets.aset object at 0x10b35d358>), (1009, <makesets.aset object at 0x10b35d7f0>), (5, <makesets.aset object at 0x10b35d128>)]
+[(3, <makesets.aset object at 0x10b35dcf8>), (1004, <makesets.aset object at 0x10b35d358>), (1009, <makesets.aset object at 0x10b35d7f0>)]
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : house
+contains : None
+entity : money
+idx : 3
+location : None
+num : 12.5
+subtypes : []
+surface : $
+verbs : None
+widx : 3
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : hour
+idx : 1004
+location : None
+num : 8
+subtypes : []
+surface : hours
+verbs : None
+widx : 6
+_____________
+
+_____________
+adjs : much
+compound : 0
+container : he
+contains : None
+entity : money
+idx : 1009
+location : None
+num : x
+subtypes : []
+surface : money
+verbs : make
+widx : 10
+_____________
+
+
+ Top scoring 3 equations: 
+0.7914230050732725 12.5 * 8 = x
+0.4367738237210306 12.5 = 8 * x
+0.4335883783738984 12.5 = 8 / x
+top 3 globally adjusted:
+score :  0.3523594646280304
+eq :  12.5 * 8 = x
+guess :  100.000000000000
+score :  0.0821487154894783
+eq :  12.5 = 8 / x
+guess :  0.640000000000000
+score :  0.06620130633152427
+eq :  12.5 + 8 = x
+guess :  20.5000000000000
+
+CORRECT
+Guessed Equation :  12.5 * 8 = x
+Guess :  100.000000000000 
+True Answer : 100.0 
+
+
+28
+ jessica , sandy , and jason each have 8 pencils . how many pencils do they have have in all  ? 
+ee
+[(6, 'pencil', 'each'), (8, 'pencil', '8'), (1002, 'pencil', 'x')]
+c
+[(6, 'pencil', 'each'), (8, 'pencil', '8'), (1002, 'pencil', 'x')]
+['pencil']
+units and bare sets
+[(6, 'pencil', 'each'), (8, 'pencil', '8'), (1002, 'pencil', 'x')]
+eac
+[(6, 'pencil', '8'), (1002, 'pencil', 'x')]
+moving x
+[(1, (1002, <makesets.aset object at 0x10b35d2b0>))] [(9, 'BARE')] 9
+mov x
+[(6, 'pencil', '8'), (9, 'pencil', 'x')]
+[(6, <makesets.aset object at 0x10b35d780>), (9, <makesets.aset object at 0x10b35d2b0>)]
+[(6, <makesets.aset object at 0x10b35d780>), (9, <makesets.aset object at 0x10b35d2b0>)]
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : pencil
+idx : 6
+location : None
+num : 8
+subtypes : []
+surface : pencils
+verbs : None
+widx : 8
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : pencil
+idx : 9
+location : None
+num : x
+subtypes : []
+surface : pencils
+verbs : None
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.0 8 = x
+top 3 globally adjusted:
+score :  0.28217219809007077
+eq :  8 = x
+guess :  8
+
+INCORRECT
+Guessed Equation :  8 = x
+Guess :  8 
+True Answer : 24.0 
+
+
+29
+ alyssa has 36 books . nancy has 7 times more books than  alyssa . how many books does nancy have  ? 
+ee
+[(2, 'book', '36'), (1002, 'time', '7'), (1003, 'book', 'times'), (2002, 'book', 'x')]
+c
+[(2, 'book', '36'), (1002, 'time', '7'), (1003, 'book', 'times'), (2002, 'book', 'x')]
+['book', 'time']
+units and bare sets
+[(2, 'book', '36'), (1002, 'time', '7'), (1003, 'book', 'times'), (2002, 'book', 'x')]
+eac
+[(2, 'book', '36'), (1002, 'time', '7'), (1003, 'book', 'times'), (2002, 'book', 'x')]
+moving x
+[(3, (2002, <makesets.aset object at 0x10e791e48>))] [(1003, 'times')] 1003
+mov x
+[(2, 'book', '36'), (1002, 'time', '7'), (1003, 'book', 'times'), (1003, 'book', 'x')]
+[(2, <makesets.aset object at 0x10e791be0>), (1002, <makesets.aset object at 0x10e791080>), (1003, <makesets.aset object at 0x10e791d68>), (1003, <makesets.aset object at 0x10e791e48>)]
+[(2, <makesets.aset object at 0x10e791be0>), (1002, <makesets.aset object at 0x10e791080>), (1003, <makesets.aset object at 0x10e791e48>)]
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : alyssa
+contains : None
+entity : book
+idx : 2
+location : None
+num : 36
+subtypes : []
+surface : books
+verbs : has
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : time
+idx : 1002
+location : None
+num : 7
+subtypes : []
+surface : times
+verbs : None
+widx : 4
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : nancy
+contains : None
+entity : book
+idx : 1003
+location : None
+num : x
+subtypes : []
+surface : books
+verbs : have
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.8447206686888568 36 * 7 = x
+0.5477693104974474 36 = 7 * x
+0.3959213862340612 36 = 7 / x
+top 3 globally adjusted:
+score :  0.8499240193441284
+eq :  36 * 7 = x
+guess :  252
+score :  0.08783502729503188
+eq :  36 = 7 + x
+guess :  29
+score :  0.0827334636440332
+eq :  36 = 7 / x
+guess :  7/36
+
+CORRECT
+Guessed Equation :  36 * 7 = x
+Guess :  252 
+True Answer : 252.0 
+
+
+30
+ there were a total of 13 hockey games a month . the season is played for  14 months . how many hockey games are in the seasons  ? 
+ee
+[(2, 'total', 'a'), (5, 'game', '13'), (8, 'month', 'a'), (1000, 'season', 'the'), (1005, 'month', '14'), (2003, 'game', 'x'), (2006, 'season', 'the')]
+c
+[(2, 'total', 'a'), (5, 'game', '13'), (8, 'month', 'a'), (1000, 'season', 'the'), (1005, 'month', '14'), (2003, 'game', 'x'), (2006, 'season', 'the')]
+the
+the
+['game', 'month']
+units and bare sets
+[(2, 'total', 'a'), (5, 'game', '13'), (8, 'month', 'a'), (1000, 'season', 'the'), (1005, 'month', '14'), (2003, 'game', 'x'), (2006, 'season', 'the')]
+eac
+[(2, 'total', 'a'), (5, 'game', '13'), (8, 'month', '14'), (1000, 'season', 'the'), (2003, 'game', 'x'), (2006, 'season', 'the')]
+mov x
+[(2, 'total', 'a'), (5, 'game', '13'), (8, 'month', '14'), (1000, 'season', 'the'), (2003, 'game', 'x'), (2006, 'season', 'the')]
+[(2, <makesets.aset object at 0x10e7c9588>), (5, <makesets.aset object at 0x10e7c97b8>), (8, <makesets.aset object at 0x10e7c92e8>), (1000, <makesets.aset object at 0x10e7c91d0>), (2003, <makesets.aset object at 0x10e7c9da0>), (2006, <makesets.aset object at 0x10e7c9898>)]
+[(5, <makesets.aset object at 0x10e7c97b8>), (8, <makesets.aset object at 0x10e7c92e8>), (2003, <makesets.aset object at 0x10e7c9da0>)]
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : month
+contains : None
+entity : game
+idx : 5
+location : None
+num : 13
+subtypes : []
+surface : games
+verbs : None
+widx : 8
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : month
+idx : 8
+location : None
+num : 14
+subtypes : []
+surface : month
+verbs : None
+widx : 10
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : season
+contains : None
+entity : game
+idx : 2003
+location : None
+num : x
+subtypes : []
+surface : games
+verbs : None
+widx : 4
+_____________
+
+
+ Top scoring 3 equations: 
+0.8350733266454697 13 * 14 = x
+0.7506539388347879 13 = 14 * x
+0.1213225159816832 13 = 14 - x
+top 3 globally adjusted:
+score :  0.8498754612739859
+eq :  13 * 14 = x
+guess :  182
+score :  0.08541756705685415
+eq :  13 = 14 * x
+guess :  13/14
+score :  0.032520425852992876
+eq :  13 + 14 = x
+guess :  27
+
+CORRECT
+Guessed Equation :  13 * 14 = x
+Guess :  182 
+True Answer : 182.0 
+
+
+31
+ benny bought 7 dozen eggs from the grocery store to bake some cakes .  how many eggs did benny buy  ? 
+ee
+[(2, 'dozen', '7'), (3, 'egg', 'dozen'), (6, 'store', 'the'), (11, 'cake', 'some'), (1002, 'egg', 'x')]
+c
+[(2, 'dozen', '7'), (3, 'egg', '12'), (6, 'store', 'the'), (11, 'cake', 'some'), (1002, 'egg', 'x')]
+the
+some
+['dozen', 'egg']
+units and bare sets
+[(2, 'dozen', '7'), (3, 'egg', '12'), (6, 'store', 'the'), (11, 'cake', 'some'), (1002, 'egg', 'x')]
+eac
+[(2, 'dozen', '7'), (3, 'egg', '12'), (6, 'store', 'the'), (11, 'cake', 'some'), (1002, 'egg', 'x')]
+mov x
+[(2, 'dozen', '7'), (3, 'egg', '12'), (6, 'store', 'the'), (11, 'cake', 'some'), (1002, 'egg', 'x')]
+[(2, <makesets.aset object at 0x10e7a45f8>), (3, <makesets.aset object at 0x10e7a47b8>), (6, <makesets.aset object at 0x10e7a45c0>), (11, <makesets.aset object at 0x10e7a4470>), (1002, <makesets.aset object at 0x10e7a44a8>)]
+[(2, <makesets.aset object at 0x10e7a45f8>), (3, <makesets.aset object at 0x10e7a47b8>), (1002, <makesets.aset object at 0x10e7a44a8>)]
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : None
+contains : egg
+entity : dozen
+idx : 2
+location : None
+num : 7
+subtypes : []
+surface : dozen
+verbs : None
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : dozen
+contains : None
+entity : egg
+idx : 3
+location : None
+num : 12
+subtypes : []
+surface : eggs
+verbs : bought
+widx : 5
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : benny
+contains : None
+entity : egg
+idx : 1002
+location : None
+num : x
+subtypes : []
+surface : eggs
+verbs : buy
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.9187485042396801 7 * 12 = x
+0.6414126137887237 7 = 12 - x
+0.2928806733971542 7 = 12 + x
+top 3 globally adjusted:
+score :  0.8878523593359966
+eq :  7 * 12 = x
+guess :  84
+score :  0.09488379082849627
+eq :  7 / 12 = x
+guess :  7/12
+score :  0.09463049243140813
+eq :  7 = 12 - x
+guess :  5
+
+CORRECT
+Guessed Equation :  7 * 12 = x
+Guess :  84 
+True Answer : 84.0 
+
+
+32
+ there are 31 calories in a candy bar . how many calories are there in 11 candy bars  ? 
+ee
+[(2, 'calorie', '31'), (5, 'bar', 'a'), (1002, 'calorie', 'x'), (1006, 'bar', '11')]
+c
+[(2, 'calorie', '31'), (5, 'bar', 'a'), (1002, 'calorie', 'x'), (1006, 'bar', '11')]
+['calorie', 'bar']
+units and bare sets
+[(2, 'calorie', '31'), (5, 'bar', 'a'), (1002, 'calorie', 'x'), (1006, 'bar', '11')]
+eac
+[(2, 'calorie', '31'), (5, 'bar', '11'), (1002, 'calorie', 'x')]
+mov x
+[(2, 'calorie', '31'), (5, 'bar', '11'), (1002, 'calorie', 'x')]
+[(2, <makesets.aset object at 0x10b37b710>), (5, <makesets.aset object at 0x10b37b780>), (1002, <makesets.aset object at 0x10b37b668>)]
+[(2, <makesets.aset object at 0x10b37b710>), (5, <makesets.aset object at 0x10b37b780>), (1002, <makesets.aset object at 0x10b37b668>)]
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : bar
+contains : None
+entity : calorie
+idx : 2
+location : bar
+num : 31
+subtypes : []
+surface : calories
+verbs : None
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : bar
+idx : 5
+location : None
+num : 11
+subtypes : []
+surface : bar
+verbs : None
+widx : 8
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : calorie
+idx : 1002
+location : None
+num : x
+subtypes : []
+surface : calories
+verbs : None
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.8202314886917214 31 * 11 = x
+0.7946274852241699 31 = 11 * x
+0.10754539101800623 31 = 11 - x
+top 3 globally adjusted:
+score :  0.8885599091551273
+eq :  31 * 11 = x
+guess :  341
+score :  0.12199363298147071
+eq :  31 = 11 * x
+guess :  31/11
+score :  0.08938977081280748
+eq :  31 = 11 + x
+guess :  20
+
+CORRECT
+Guessed Equation :  31 * 11 = x
+Guess :  341 
+True Answer : 341.0 
+
+
+33
+ sara has saved 11 quarters from washing cars .  how many cents does sara have  ? 
+ee
+[(3, 'quarter', '11'), (1002, 'cent', 'x')]
+c
+[(3, 'quarter', '11'), (1002, 'cent', 'x')]
+CONVERTING
+quarter cent
+['cent']
+units and bare sets
+[(3, 'cent', '275.0'), (1002, 'cent', 'x')]
+eac
+[(3, 'cent', '275.0'), (1002, 'cent', 'x')]
+mov x
+[(3, 'cent', '275.0'), (1002, 'cent', 'x')]
+[(3, <makesets.aset object at 0x10e7d7208>), (1002, <makesets.aset object at 0x10e7d7278>)]
+[(3, <makesets.aset object at 0x10e7d7208>), (1002, <makesets.aset object at 0x10e7d7278>)]
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : sara
+contains : None
+entity : cent
+idx : 3
+location : None
+num : 275.0
+subtypes : []
+surface : quarters
+verbs : saved
+widx : 5
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : cent
+idx : 1002
+location : None
+num : x
+subtypes : []
+surface : cents
+verbs : None
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.0 275.0 = x
+top 3 globally adjusted:
+score :  0.08459464372453299
+eq :  275.0 = x
+guess :  275.000000000000
+
+CORRECT
+Guessed Equation :  275.0 = x
+Guess :  275.000000000000 
+True Answer : 275.0 
+
+
+34
+ sara goes fishing with melanie . sara catches 5 trout . melanie catches twice as many trout as sara . how many trout did melanie catch  ? 
+ee
+[(1002, 'trout', '5'), (2002, 'trout', '2'), (3002, 'trout', 'x')]
+c
+[(1002, 'trout', '5'), (2002, 'trout', '2'), (3002, 'trout', 'x')]
+['trout', 'trout']
+units and bare sets
+[(1002, 'trout', '5'), (2002, 'trout', '2'), (3002, 'trout', 'x'), (2005, 'trout', 'BARE')]
+eac
+[(1002, 'trout', '5'), (2002, 'trout', '2'), (3002, 'trout', 'x'), (2005, 'trout', 'BARE')]
+moving x
+[(2, (3002, <makesets.aset object at 0x10e73ecf8>))] [(2005, 'BARE')] 2005
+mov x
+[(1002, 'trout', '5'), (2002, 'trout', '2'), (2005, 'trout', 'x'), (2005, 'trout', 'BARE')]
+[(1002, <makesets.aset object at 0x10e73e0f0>), (2002, <makesets.aset object at 0x10e73ec50>), (2005, <makesets.aset object at 0x10e73ecf8>), (2005, <makesets.aset object at 0x10e73e710>)]
+[(1002, <makesets.aset object at 0x10e73e0f0>), (2002, <makesets.aset object at 0x10e73ec50>), (2005, <makesets.aset object at 0x10e73ecf8>)]
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : sara
+contains : None
+entity : trout
+idx : 1002
+location : None
+num : 5
+subtypes : []
+surface : trout
+verbs : catches
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : trout
+idx : 2002
+location : None
+num : 2
+subtypes : []
+surface : trout
+verbs : None
+widx : None
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : trout
+idx : 2005
+location : None
+num : x
+subtypes : []
+surface : trout
+verbs : None
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.7060000262542283 5 = 2 - x
+0.6937542835981445 5 + 2 = x
+0.2667585014353092 5 - 2 = x
+top 3 globally adjusted:
+score :  0.7008891832911976
+eq :  5 + 2 = x
+guess :  7
+score :  0.32266729324677546
+eq :  5 - 2 = x
+guess :  3
+score :  0.07769691708972236
+eq :  5 * 2 = x
+guess :  10
+
+INCORRECT
+Guessed Equation :  5 + 2 = x
+Guess :  7 
+True Answer : 10.0 
+
+
+35
+ a restaurant sold 49 hamburgers last week . how many hamburgers on average were sold each day  ? 
+ee
+[(0, 'restaurant', 'a'), (3, 'hamburger', '49'), (1002, 'hamburger', 'x'), (1007, 'day', 'each')]
+c
+[(0, 'restaurant', 'a'), (3, 'hamburger', '49'), (1002, 'hamburger', 'x'), (1007, 'day', 'each')]
+['hamburger']
+units and bare sets
+[(0, 'restaurant', 'a'), (3, 'hamburger', '49'), (1002, 'hamburger', 'x'), (1007, 'day', 'each')]
+eac
+[(0, 'restaurant', 'a'), (3, 'hamburger', '49'), (1002, 'hamburger', 'x'), (1007, 'day', 'each')]
+mov x
+[(0, 'restaurant', 'a'), (3, 'hamburger', '49'), (1002, 'hamburger', 'x'), (1007, 'day', 'each')]
+[(0, <makesets.aset object at 0x10e79dcc0>), (3, <makesets.aset object at 0x10e79d2b0>), (1002, <makesets.aset object at 0x10e79d518>), (1007, <makesets.aset object at 0x10e79d9b0>)]
+[(3, <makesets.aset object at 0x10e79d2b0>), (1002, <makesets.aset object at 0x10e79d518>)]
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : restaurant
+contains : None
+entity : hamburger
+idx : 3
+location : None
+num : 49
+subtypes : []
+surface : hamburgers
+verbs : sold
+widx : 5
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : day
+contains : None
+entity : hamburger
+idx : 1002
+location : average
+num : x
+subtypes : []
+surface : hamburgers
+verbs : None
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.0 49 = x
+top 3 globally adjusted:
+score :  0.1665181045992195
+eq :  49 = x
+guess :  49
+
+INCORRECT
+Guessed Equation :  49 = x
+Guess :  49 
+True Answer : 7.0 
+
+
+36
+ jessica had 8 quarters in her bank . her sister borrowed 3 of her quarters . how many quarters does jessica have now  ? 
+ee
+[(2, 'quarter', '8'), (1003, 'quarter', '3'), (2002, 'quarter', 'x')]
+c
+[(2, 'quarter', '8'), (1003, 'quarter', '3'), (2002, 'quarter', 'x')]
+['quarter', 'quarter']
+units and bare sets
+[(2, 'quarter', '8'), (1003, 'quarter', '3'), (2002, 'quarter', 'x')]
+eac
+[(2, 'quarter', '8'), (1003, 'quarter', '3'), (2002, 'quarter', 'x')]
+mov x
+[(2, 'quarter', '8'), (1003, 'quarter', '3'), (2002, 'quarter', 'x')]
+[(2, <makesets.aset object at 0x10e794240>), (1003, <makesets.aset object at 0x10e794b70>), (2002, <makesets.aset object at 0x10e77d438>)]
+[(2, <makesets.aset object at 0x10e794240>), (1003, <makesets.aset object at 0x10e794b70>), (2002, <makesets.aset object at 0x10e77d438>)]
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : jessica
+contains : None
+entity : quarter
+idx : 2
+location : bank
+num : 8
+subtypes : []
+surface : quarters
+verbs : had
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : quarter
+idx : 1003
+location : None
+num : 3
+subtypes : []
+surface : quarters
+verbs : None
+widx : 7
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : quarter
+idx : 2002
+location : None
+num : x
+subtypes : []
+surface : quarters
+verbs : None
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.9199886447338678 8 = 3 - x
+0.7217625844705184 8 - 3 = x
+0.2055950774176561 8 + 3 = x
+top 3 globally adjusted:
+score :  0.8066363214322168
+eq :  8 - 3 = x
+guess :  5
+score :  0.12259991698750404
+eq :  8 + 3 = x
+guess :  11
+score :  0.07950026992618181
+eq :  8 * 3 = x
+guess :  24
+
+CORRECT
+Guessed Equation :  8 - 3 = x
+Guess :  5 
+True Answer : 5.0 
+
+
+37
+ there are 7 crayons in the drawer . mary took 3 crayons out of the drawer . how many crayons are there now  ? 
+ee
+[(2, 'crayon', '7'), (5, 'drawer', 'the'), (1002, 'crayon', '3'), (1006, 'drawer', 'the'), (2002, 'crayon', 'x')]
+c
+[(2, 'crayon', '7'), (5, 'drawer', 'the'), (1002, 'crayon', '3'), (1006, 'drawer', 'the'), (2002, 'crayon', 'x')]
+the
+the
+['crayon', 'crayon']
+units and bare sets
+[(2, 'crayon', '7'), (5, 'drawer', 'the'), (1002, 'crayon', '3'), (1006, 'drawer', 'the'), (2002, 'crayon', 'x')]
+eac
+[(2, 'crayon', '7'), (5, 'drawer', 'the'), (1002, 'crayon', '3'), (1006, 'drawer', 'the'), (2002, 'crayon', 'x')]
+mov x
+[(2, 'crayon', '7'), (5, 'drawer', 'the'), (1002, 'crayon', '3'), (1006, 'drawer', 'the'), (2002, 'crayon', 'x')]
+[(2, <makesets.aset object at 0x10e7a4ba8>), (5, <makesets.aset object at 0x10e7a4e10>), (1002, <makesets.aset object at 0x10e7a4c88>), (1006, <makesets.aset object at 0x10e7a4d68>), (2002, <makesets.aset object at 0x10e7a4940>)]
+[(2, <makesets.aset object at 0x10e7a4ba8>), (1002, <makesets.aset object at 0x10e7a4c88>), (2002, <makesets.aset object at 0x10e7a4940>)]
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : drawer
+contains : None
+entity : crayon
+idx : 2
+location : drawer
+num : 7
+subtypes : []
+surface : crayons
+verbs : None
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : drawer
+contains : None
+entity : crayon
+idx : 1002
+location : None
+num : 3
+subtypes : []
+surface : crayons
+verbs : None
+widx : 4
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : crayon
+idx : 2002
+location : None
+num : x
+subtypes : []
+surface : crayons
+verbs : None
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.9299286490369673 7 = 3 - x
+0.574972105372035 7 - 3 = x
+0.36098525023509964 7 + 3 = x
+top 3 globally adjusted:
+score :  0.662895832958174
+eq :  7 - 3 = x
+guess :  4
+score :  0.25254617110845573
+eq :  7 + 3 = x
+guess :  10
+score :  0.07937334544324098
+eq :  7 * 3 = x
+guess :  21
+
+CORRECT
+Guessed Equation :  7 - 3 = x
+Guess :  4 
+True Answer : 4.0 
+
+
+38
+ fred found 47 seashells on the beach , he gave jessica 25 of the seashells . how many seashells does he now have  ? 
+ee
+[(2, 'seashell', '47'), (5, 'beach', 'the'), (11, 'seashell', '25'), (13, 'seashell', 'the'), (1003, 'seashell', 'x')]
+c
+[(2, 'seashell', '47'), (5, 'beach', 'the'), (11, 'seashell', '25'), (13, 'seashell', 'the'), (1003, 'seashell', 'x')]
+the
+['seashell', 'seashell']
+units and bare sets
+[(2, 'seashell', '47'), (5, 'beach', 'the'), (11, 'seashell', '25'), (13, 'seashell', 'the'), (1003, 'seashell', 'x'), (1002, 'seashell', 'BARE')]
+eac
+[(2, 'seashell', '47'), (5, 'beach', 'the'), (11, 'seashell', '25'), (13, 'seashell', 'the'), (1003, 'seashell', 'x'), (1002, 'seashell', 'BARE')]
+moving x
+[(4, (1003, <makesets.aset object at 0x10b37b6a0>))] [(13, 'the'), (1002, 'BARE')] 13
+mov x
+[(2, 'seashell', '47'), (5, 'beach', 'the'), (11, 'seashell', '25'), (13, 'seashell', 'the'), (13, 'seashell', 'x'), (1002, 'seashell', 'BARE')]
+[(2, <makesets.aset object at 0x10b37b710>), (5, <makesets.aset object at 0x10b37b7b8>), (11, <makesets.aset object at 0x10b37b898>), (13, <makesets.aset object at 0x10b37b828>), (13, <makesets.aset object at 0x10b37b6a0>), (1002, <makesets.aset object at 0x10b37b908>)]
+[(2, <makesets.aset object at 0x10b37b710>), (11, <makesets.aset object at 0x10b37b898>), (13, <makesets.aset object at 0x10b37b6a0>)]
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : seashell
+idx : 2
+location : beach
+num : 47
+subtypes : []
+surface : seashells
+verbs : found
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : seashell
+contains : None
+entity : seashell
+idx : 11
+location : None
+num : 25
+subtypes : []
+surface : seashells
+verbs : None
+widx : 15
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : seashell
+idx : 13
+location : None
+num : x
+subtypes : []
+surface : seashells
+verbs : None
+widx : None
+_____________
+
+
+ Top scoring 3 equations: 
+0.8669084161146616 47 - 25 = x
+0.4898332036233579 47 = 25 - x
+0.26185258243517956 47 = 25 * x
+top 3 globally adjusted:
+score :  0.8953407506591247
+eq :  47 - 25 = x
+guess :  22
+score :  0.08137006662635857
+eq :  47 * 25 = x
+guess :  1175
+score :  0.05775947424596227
+eq :  47 + 25 = x
+guess :  72
+
+CORRECT
+Guessed Equation :  47 - 25 = x
+Guess :  22 
+True Answer : 22.0 
+
+
+39
+ there are 46 rulers in the drawer . tim took 25  rulers from the drawer . how many rulers are now in the drawer  ? 
+ee
+[(2, 'ruler', '46'), (5, 'drawer', 'the'), (1002, 'ruler', '25'), (1005, 'drawer', 'the'), (2002, 'ruler', 'x'), (2006, 'drawer', 'the')]
+c
+[(2, 'ruler', '46'), (5, 'drawer', 'the'), (1002, 'ruler', '25'), (1005, 'drawer', 'the'), (2002, 'ruler', 'x'), (2006, 'drawer', 'the')]
+the
+the
+the
+['ruler', 'ruler']
+units and bare sets
+[(2, 'ruler', '46'), (5, 'drawer', 'the'), (1002, 'ruler', '25'), (1005, 'drawer', 'the'), (2002, 'ruler', 'x'), (2006, 'drawer', 'the')]
+eac
+[(2, 'ruler', '46'), (5, 'drawer', 'the'), (1002, 'ruler', '25'), (1005, 'drawer', 'the'), (2002, 'ruler', 'x'), (2006, 'drawer', 'the')]
+mov x
+[(2, 'ruler', '46'), (5, 'drawer', 'the'), (1002, 'ruler', '25'), (1005, 'drawer', 'the'), (2002, 'ruler', 'x'), (2006, 'drawer', 'the')]
+[(2, <makesets.aset object at 0x10e7d7940>), (5, <makesets.aset object at 0x10e7d79b0>), (1002, <makesets.aset object at 0x10e7d71d0>), (1005, <makesets.aset object at 0x10e7d7208>), (2002, <makesets.aset object at 0x10e7d7438>), (2006, <makesets.aset object at 0x10e7d7e10>)]
+[(2, <makesets.aset object at 0x10e7d7940>), (1002, <makesets.aset object at 0x10e7d71d0>), (2002, <makesets.aset object at 0x10e7d7438>)]
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : drawer
+contains : None
+entity : ruler
+idx : 2
+location : drawer
+num : 46
+subtypes : []
+surface : rulers
+verbs : None
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : drawer
+contains : None
+entity : ruler
+idx : 1002
+location : None
+num : 25
+subtypes : []
+surface : rulers
+verbs : took
+widx : 4
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : drawer
+contains : None
+entity : ruler
+idx : 2002
+location : None
+num : x
+subtypes : []
+surface : rulers
+verbs : None
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.8981690674741203 46 = 25 - x
+0.592777957971702 46 + 25 = x
+0.2769818019275232 46 - 25 = x
+top 3 globally adjusted:
+score :  0.6421987851305733
+eq :  46 + 25 = x
+guess :  71
+score :  0.33083153630870715
+eq :  46 - 25 = x
+guess :  21
+score :  0.13414641186159723
+eq :  46 / 25 = x
+guess :  46/25
+
+INCORRECT
+Guessed Equation :  46 + 25 = x
+Guess :  71 
+True Answer : 21.0 
+
+
+40
+ when joan was visited by the toothfairy , she received 14 each of quarters , half-dollars , and dimes . how much money did the toothfairy leave joan ? 
+ee
+[(5, 'toothfairy', 'the'), (10, 'toothfairy', '14'), (11, 'dime', 'each'), (1002, 'money', 'x'), (1004, 'joan', 'the')]
+c
+[(5, 'toothfairy', 'the'), (10, 'toothfairy', '14'), (11, 'dime', 'each'), (1002, 'money', 'x'), (1004, 'joan', 'the')]
+the
+CONVERTING
+dime money
+the
+the
+['toothfairy']
+units and bare sets
+[(5, 'toothfairy', 'the'), (10, 'toothfairy', '14'), (11, 'money', 'each 0.1'), (1002, 'money', 'x'), (1004, 'joan', 'the'), (1005, 'toothfairy', 'BARE')]
+eac
+[(5, 'toothfairy', 'the'), (10, 'toothfairy', '14'), (11, 'money', 'each 0.1'), (1002, 'money', 'x'), (1004, 'joan', 'the'), (1005, 'toothfairy', 'BARE')]
+mov x
+[(5, 'toothfairy', 'the'), (10, 'toothfairy', '14'), (11, 'money', 'each 0.1'), (1002, 'money', 'x'), (1004, 'joan', 'the'), (1005, 'toothfairy', 'BARE')]
+[(5, <makesets.aset object at 0x10e79d0b8>), (10, <makesets.aset object at 0x10e79d358>), (11, <makesets.aset object at 0x10e79dfd0>), (1002, <makesets.aset object at 0x10e79d7b8>), (1004, <makesets.aset object at 0x10e79d0f0>), (1005, <makesets.aset object at 0x10e79d7f0>)]
+[(10, <makesets.aset object at 0x10e79d358>), (1002, <makesets.aset object at 0x10e79d7b8>)]
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : dime
+contains : None
+entity : toothfairy
+idx : 10
+location : None
+num : 14
+subtypes : []
+surface : toothfairy
+verbs : None
+widx : None
+_____________
+
+_____________
+adjs : much
+compound : 0
+container : joan
+contains : None
+entity : money
+idx : 1002
+location : None
+num : x
+subtypes : []
+surface : money
+verbs : None
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.0 14 = x
+top 3 globally adjusted:
+score :  0.16348662332914993
+eq :  14 = x
+guess :  14
+
+INCORRECT
+Guessed Equation :  14 = x
+Guess :  14 
+True Answer : 11.9 
+
+
+41
+ while digging through her clothes for ice cream money , joan found 15 dimes in her jacket , and 4 dimes in her shorts . how much money did joan find ? 
+ee
+[(12, 'dime', '15'), (19, 'dime', '4'), (1002, 'money', 'x')]
+c
+[(12, 'dime', '15'), (19, 'dime', '4'), (1002, 'money', 'x')]
+CONVERTING
+dime money
+CONVERTING
+dime money
+['money', 'money']
+units and bare sets
+[(12, 'money', '1.5'), (19, 'money', '0.4'), (1002, 'money', 'x'), (8, 'money', 'BARE')]
+eac
+[(12, 'money', '1.5'), (19, 'money', '0.4'), (1002, 'money', 'x'), (8, 'money', 'BARE')]
+moving x
+[(2, (1002, <makesets.aset object at 0x10b383390>))] [(8, 'BARE')] 8
+mov x
+[(12, 'money', '1.5'), (19, 'money', '0.4'), (8, 'money', 'x'), (8, 'money', 'BARE')]
+[(12, <makesets.aset object at 0x10b383128>), (19, <makesets.aset object at 0x10b383048>), (8, <makesets.aset object at 0x10b383390>), (8, <makesets.aset object at 0x10b383518>)]
+[(12, <makesets.aset object at 0x10b383128>), (19, <makesets.aset object at 0x10b383048>), (8, <makesets.aset object at 0x10b383390>)]
+Sets detected: 
+_____________
+adjs : much
+compound : 0
+container : joan
+contains : None
+entity : money
+idx : 8
+location : None
+num : x
+subtypes : []
+surface : money
+verbs : find
+widx : 3
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : joan
+contains : None
+entity : money
+idx : 12
+location : jacket
+num : 1.5
+subtypes : []
+surface : dimes
+verbs : found
+widx : 14
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : money
+idx : 19
+location : shorts
+num : 0.4
+subtypes : []
+surface : dimes
+verbs : None
+widx : 21
+_____________
+
+
+ Top scoring 3 equations: 
+0.6918250884561055 x = 1.5 + 0.4
+0.5545076796370987 x - 1.5 = 0.4
+0.3477450332692384 x + 1.5 = 0.4
+top 3 globally adjusted:
+score :  0.28978711477822533
+eq :  x = 1.5 + 0.4
+guess :  1.90000000000000
+score :  0.10515270481442397
+eq :  x / 1.5 = 0.4
+guess :  0.600000000000000
+score :  0.02487426298445122
+eq :  x = 1.5 / 0.4
+guess :  3.75000000000000
+
+CORRECT
+Guessed Equation :  x = 1.5 + 0.4
+Guess :  1.90000000000000 
+True Answer : 1.9 
+
+
+42
+ mike joined his school's band . he bought a trumpet for $145.16 , and a song book which was $5.84 . how much did mike spend at the music store ? 
+ee
+[(1002, 'trumpet', 'a'), (1006, 'dollar', '145.16'), (1009, 'book', 'a'), (1015, 'dollar', '5.84'), (2004, 'dollar', 'x'), (2006, 'store', 'the')]
+c
+[(1002, 'trumpet', 'a'), (1006, 'dollar', '145.16'), (1009, 'book', 'a'), (1015, 'dollar', '5.84'), (2004, 'dollar', 'x'), (2006, 'store', 'the')]
+the
+['dollar', 'dollar']
+units and bare sets
+[(1002, 'trumpet', 'a'), (1006, 'dollar', '145.16'), (1009, 'book', 'a'), (1015, 'dollar', '5.84'), (2004, 'dollar', 'x'), (2006, 'store', 'the')]
+eac
+[(1002, 'trumpet', 'a'), (1006, 'dollar', '145.16'), (1009, 'book', 'a'), (1015, 'dollar', '5.84'), (2004, 'dollar', 'x'), (2006, 'store', 'the')]
+mov x
+[(1002, 'trumpet', 'a'), (1006, 'dollar', '145.16'), (1009, 'book', 'a'), (1015, 'dollar', '5.84'), (2004, 'dollar', 'x'), (2006, 'store', 'the')]
+[(1002, <makesets.aset object at 0x10e7c9f98>), (1006, <makesets.aset object at 0x10e7c9278>), (1009, <makesets.aset object at 0x10e7c93c8>), (1015, <makesets.aset object at 0x10e7c9198>), (2004, <makesets.aset object at 0x10e7c9be0>), (2006, <makesets.aset object at 0x10e7c9cc0>)]
+[(1006, <makesets.aset object at 0x10e7c9278>), (1015, <makesets.aset object at 0x10e7c9198>), (2004, <makesets.aset object at 0x10e7c9be0>)]
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : book
+contains : None
+entity : dollar
+idx : 1006
+location : None
+num : 145.16
+subtypes : []
+surface : $
+verbs : None
+widx : 6
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 1015
+location : None
+num : 5.84
+subtypes : []
+surface : $
+verbs : None
+widx : 15
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : store
+contains : None
+entity : dollar
+idx : 2004
+location : None
+num : x
+subtypes : []
+surface : $
+verbs : None
+widx : None
+_____________
+
+
+ Top scoring 3 equations: 
+0.6937542837748434 145.16 + 5.84 = x
+0.4839086069644122 145.16 = 5.84 - x
+0.4496446316973725 145.16 = 5.84 + x
+top 3 globally adjusted:
+score :  0.6835024708095743
+eq :  145.16 + 5.84 = x
+guess :  151.000000000000
+score :  0.1458302024199783
+eq :  145.16 = 5.84 + x
+guess :  139.320000000000
+score :  0.12887382400341213
+eq :  145.16 / 5.84 = x
+guess :  24.8561643835616
+
+CORRECT
+Guessed Equation :  145.16 + 5.84 = x
+Guess :  151.000000000000 
+True Answer : 151.0 
+
+
+43
+ keith loves trading cards . she bought 4 packs of digimon cards for $4.45 each , and a deck of baseball cards for $6.06 . how much did keith spend on cards ? 
+ee
+[(1002, 'pack', '4'), (1009, 'dollar', '4.45'), (1010, 'card', 'each'), (1013, 'deck', 'a'), (1020, 'dollar', '6.06'), (2004, 'dollar', 'x')]
+c
+[(1002, 'pack', '4'), (1009, 'dollar', '4.45'), (1010, 'card', 'each'), (1013, 'deck', 'a'), (1020, 'dollar', '6.06'), (2004, 'dollar', 'x')]
+['pack', 'dollar', 'dollar']
+units and bare sets
+[(1002, 'pack', '4'), (1009, 'dollar', '4.45'), (1010, 'card', 'each'), (1013, 'deck', 'a'), (1020, 'dollar', '6.06'), (2004, 'dollar', 'x')]
+eac
+[(1002, 'pack', '4'), (1009, 'dollar', '4.45'), (1010, 'card', 'each'), (1013, 'deck', 'a'), (1020, 'dollar', '6.06'), (2004, 'dollar', 'x')]
+mov x
+[(1002, 'pack', '4'), (1009, 'dollar', '4.45'), (1010, 'card', 'each'), (1013, 'deck', 'a'), (1020, 'dollar', '6.06'), (2004, 'dollar', 'x')]
+[(1002, <makesets.aset object at 0x10e7947b8>), (1009, <makesets.aset object at 0x10e794d68>), (1010, <makesets.aset object at 0x10e794f98>), (1013, <makesets.aset object at 0x10e794860>), (1020, <makesets.aset object at 0x10e794400>), (2004, <makesets.aset object at 0x10e794240>)]
+[(1002, <makesets.aset object at 0x10e7947b8>), (1009, <makesets.aset object at 0x10e794d68>), (1020, <makesets.aset object at 0x10e794400>), (2004, <makesets.aset object at 0x10e794240>)]
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : she
+contains : None
+entity : pack
+idx : 1002
+location : None
+num : 4
+subtypes : []
+surface : packs
+verbs : bought
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : deck
+contains : None
+entity : dollar
+idx : 1009
+location : None
+num : 4.45
+subtypes : []
+surface : $
+verbs : None
+widx : 9
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : card
+contains : None
+entity : dollar
+idx : 1020
+location : None
+num : 6.06
+subtypes : []
+surface : $
+verbs : None
+widx : 20
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 2004
+location : None
+num : x
+subtypes : []
+surface : cards
+verbs : None
+widx : None
+_____________
+
+
+ Top scoring 3 equations: 
+0.8727683787368776 ( 4 * 4.45 ) + 6.06 = x
+0.8047010208976445 4 = ( 4.45 + 6.06 ) + x
+0.755965421054261 4 * ( 4.45 + 6.06 ) = x
+top 3 globally adjusted:
+score :  0.40346322825255254
+eq :  ( 4 + 4.45 ) + 6.06 = x
+guess :  14.5100000000000
+score :  0.24070557588885214
+eq :  ( 4 / 4.45 ) + 6.06 = x
+guess :  6.95887640449438
+score :  0.1646960014912596
+eq :  ( 4 * 4.45 ) + 6.06 = x
+guess :  23.8600000000000
+
+INCORRECT
+Guessed Equation :  ( 4 + 4.45 ) + 6.06 = x
+Guess :  14.5100000000000 
+True Answer : 23.86 
+
+
+44
+ sandy went to the mall to buy clothes . she spent $13.99 on shorts , $12.14 on a shirt , and $7.43 on a jacket . how much money did sandy spend on clothes ? 
+ee
+[(3, 'mall', 'the'), (1003, 'dollar', '13.99'), (1008, 'dollar', '12.14'), (1010, 'shirt', 'a'), (1015, 'dollar', '7.43'), (1017, 'jacket', 'a'), (2002, 'money', 'x')]
+c
+[(3, 'mall', 'the'), (1003, 'dollar', '13.99'), (1008, 'dollar', '12.14'), (1010, 'shirt', 'a'), (1015, 'dollar', '7.43'), (1017, 'jacket', 'a'), (2002, 'money', 'x')]
+the
+CONVERTING
+dollar money
+CONVERTING
+dollar money
+CONVERTING
+dollar money
+['money', 'money', 'money']
+units and bare sets
+[(3, 'mall', 'the'), (1003, 'money', '13.99'), (1008, 'money', '12.14'), (1010, 'shirt', 'a'), (1015, 'money', '7.43'), (1017, 'jacket', 'a'), (2002, 'money', 'x')]
+eac
+[(3, 'mall', 'the'), (1003, 'money', '13.99'), (1008, 'money', '12.14'), (1010, 'shirt', 'a'), (1015, 'money', '7.43'), (1017, 'jacket', 'a'), (2002, 'money', 'x')]
+mov x
+[(3, 'mall', 'the'), (1003, 'money', '13.99'), (1008, 'money', '12.14'), (1010, 'shirt', 'a'), (1015, 'money', '7.43'), (1017, 'jacket', 'a'), (2002, 'money', 'x')]
+[(3, <makesets.aset object at 0x10e8109b0>), (1003, <makesets.aset object at 0x10e810a20>), (1008, <makesets.aset object at 0x10e810a90>), (1010, <makesets.aset object at 0x10e810ac8>), (1015, <makesets.aset object at 0x10e810b70>), (1017, <makesets.aset object at 0x10e810ba8>), (2002, <makesets.aset object at 0x10e810908>)]
+[(1003, <makesets.aset object at 0x10e810a20>), (1008, <makesets.aset object at 0x10e810a90>), (1015, <makesets.aset object at 0x10e810b70>), (2002, <makesets.aset object at 0x10e810908>)]
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : she
+contains : None
+entity : money
+idx : 1003
+location : shorts
+num : 13.99
+subtypes : []
+surface : $
+verbs : spent
+widx : 3
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : shirt
+contains : None
+entity : money
+idx : 1008
+location : shirt
+num : 12.14
+subtypes : []
+surface : $
+verbs : None
+widx : 8
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : jacket
+contains : None
+entity : money
+idx : 1015
+location : jacket
+num : 7.43
+subtypes : []
+surface : $
+verbs : None
+widx : 15
+_____________
+
+_____________
+adjs : much
+compound : 0
+container : sandy
+contains : None
+entity : money
+idx : 2002
+location : None
+num : x
+subtypes : []
+surface : money
+verbs : spend
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.8251293564592315 ( 13.99 + 12.14 ) + 7.43 = x
+0.7866652914390857 13.99 = ( 12.14 + 7.43 ) + x
+0.7690110511855358 13.99 + ( 12.14 + 7.43 ) = x
+top 3 globally adjusted:
+score :  0.8105361952734981
+eq :  ( 13.99 + 12.14 ) + 7.43 = x
+guess :  33.5600000000000
+score :  0.31298416229715215
+eq :  ( 13.99 / 12.14 ) + 7.43 = x
+guess :  8.58238879736409
+score :  0.25434312110131213
+eq :  13.99 + ( 12.14 / 7.43 ) = x
+guess :  15.6239165545087
+
+CORRECT
+Guessed Equation :  ( 13.99 + 12.14 ) + 7.43 = x
+Guess :  33.5600000000000 
+True Answer : 33.56 
+
+
+45
+ fred loves trading cards . he bought 2 packs of football cards for $2.73 each , a pack of pokemon cards for $4.01 , and a deck of baseball cards for $8.95 . how much did fred spend on cards ? 
+ee
+[(1002, 'pack', '2'), (1009, 'dollar', '2.73'), (1010, 'pack', 'each'), (1012, 'pack', 'a'), (1019, 'dollar', '4.01'), (1022, 'deck', 'a'), (1029, 'dollar', '8.95'), (2004, 'pack', 'x')]
+c
+[(1002, 'pack', '2'), (1009, 'dollar', '2.73'), (1010, 'pack', 'each'), (1012, 'pack', 'a'), (1019, 'dollar', '4.01'), (1022, 'deck', 'a'), (1029, 'dollar', '8.95'), (2004, 'pack', 'x')]
+['pack', 'dollar', 'dollar', 'dollar']
+units and bare sets
+[(1002, 'pack', '2'), (1009, 'dollar', '2.73'), (1010, 'pack', 'each'), (1012, 'pack', 'a'), (1019, 'dollar', '4.01'), (1022, 'deck', 'a'), (1029, 'dollar', '8.95'), (2004, 'pack', 'x')]
+eac
+[(1002, 'pack', '2'), (1003, 'dollar', '2.73'), (1019, 'dollar', '4.01'), (1022, 'deck', 'a'), (1029, 'dollar', '8.95'), (2004, 'pack', 'x')]
+moving x
+[(5, (2004, <makesets.aset object at 0x10b37bf60>))] [(1013, 'BARE')] 1013
+mov x
+[(1002, 'pack', '2'), (1003, 'dollar', '2.73'), (1019, 'dollar', '4.01'), (1022, 'deck', 'a'), (1029, 'dollar', '8.95'), (1013, 'pack', 'x')]
+[(1002, <makesets.aset object at 0x10b37bbe0>), (1003, <makesets.aset object at 0x10b37bc50>), (1019, <makesets.aset object at 0x10b37bb00>), (1022, <makesets.aset object at 0x10b37bcf8>), (1029, <makesets.aset object at 0x10b37bb38>), (1013, <makesets.aset object at 0x10b37bf60>)]
+[(1002, <makesets.aset object at 0x10b37bbe0>), (1003, <makesets.aset object at 0x10b37bc50>), (1019, <makesets.aset object at 0x10b37bb00>), (1029, <makesets.aset object at 0x10b37bb38>), (1013, <makesets.aset object at 0x10b37bf60>)]
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : he
+contains : dollar
+entity : pack
+idx : 1002
+location : None
+num : 2
+subtypes : []
+surface : packs
+verbs : bought
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : pack
+contains : None
+entity : dollar
+idx : 1003
+location : None
+num : 2.73
+subtypes : []
+surface : $
+verbs : None
+widx : 9
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : pack
+idx : 1013
+location : None
+num : x
+subtypes : []
+surface : pack
+verbs : None
+widx : None
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : deck
+contains : None
+entity : dollar
+idx : 1019
+location : None
+num : 4.01
+subtypes : []
+surface : $
+verbs : None
+widx : 19
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 1029
+location : None
+num : 8.95
+subtypes : []
+surface : $
+verbs : None
+widx : 29
+_____________
+
+
+ Top scoring 3 equations: 
+0.9486480103424895 2 = ( ( 2.73 * x ) + 4.01 ) + 8.95
+0.9412432875025276 2 * ( ( 2.73 * x ) + 4.01 ) = 8.95
+0.9402066466707454 ( 2 * ( 2.73 * x ) ) + 4.01 = 8.95
+top 3 globally adjusted:
+score :  0.23029533696383467
+eq :  2 * ( ( 2.73 * x ) + 4.01 ) = 8.95
+guess :  0.170329670329670
+score :  0.22943701597549634
+eq :  2 * ( ( 2.73 * x ) * 4.01 ) = 8.95
+guess :  0.408776593315247
+score :  0.22941049268522629
+eq :  ( 2 * ( 2.73 * x ) ) + 4.01 = 8.95
+guess :  0.904761904761905
+
+INCORRECT
+Guessed Equation :  2 * ( ( 2.73 * x ) + 4.01 ) = 8.95
+Guess :  0.170329670329670 
+True Answer : 18.42 
+
+
+46
+ mary loves eating fruits . mary paid $7.19 for berries , and $6.83 for peaches with a $20 bill . how much change did mary receive ? 
+ee
+[(1003, 'dollar', '7.19'), (1009, 'dollar', '6.83'), (1013, 'bill', 'a'), (1015, 'dollar', '20'), (2005, 'dollar', 'x')]
+c
+[(1003, 'dollar', '7.19'), (1009, 'dollar', '6.83'), (1013, 'bill', 'a'), (1015, 'dollar', '20'), (2005, 'dollar', 'x')]
+['dollar', 'dollar', 'dollar']
+units and bare sets
+[(1003, 'dollar', '7.19'), (1009, 'dollar', '6.83'), (1013, 'bill', 'a'), (1015, 'dollar', '20'), (2005, 'dollar', 'x')]
+eac
+[(1003, 'dollar', '7.19'), (1009, 'dollar', '6.83'), (1013, 'bill', 'a'), (1015, 'dollar', '20'), (2005, 'dollar', 'x')]
+mov x
+[(1003, 'dollar', '7.19'), (1009, 'dollar', '6.83'), (1013, 'bill', 'a'), (1015, 'dollar', '20'), (2005, 'dollar', 'x')]
+[(1003, <makesets.aset object at 0x10e9db0b8>), (1009, <makesets.aset object at 0x10e9db128>), (1013, <makesets.aset object at 0x10e9db160>), (1015, <makesets.aset object at 0x10e9db208>), (2005, <makesets.aset object at 0x10e9db048>)]
+[(1003, <makesets.aset object at 0x10e9db0b8>), (1009, <makesets.aset object at 0x10e9db128>), (1015, <makesets.aset object at 0x10e9db208>), (2005, <makesets.aset object at 0x10e9db048>)]
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : mary
+contains : None
+entity : dollar
+idx : 1003
+location : None
+num : 7.19
+subtypes : []
+surface : $
+verbs : paid
+widx : 3
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : bill
+contains : None
+entity : dollar
+idx : 1009
+location : None
+num : 6.83
+subtypes : []
+surface : $
+verbs : None
+widx : 9
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 1015
+location : None
+num : 20
+subtypes : []
+surface : $
+verbs : None
+widx : 15
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 2005
+location : None
+num : x
+subtypes : []
+surface : $
+verbs : None
+widx : None
+_____________
+
+
+ Top scoring 3 equations: 
+0.8305313143545977 ( 7.19 + 6.83 ) + 20 = x
+0.8047010208980028 7.19 = ( 6.83 + 20 ) + x
+0.7771894484217753 7.19 + ( 6.83 + 20 ) = x
+top 3 globally adjusted:
+score :  0.8025011093834562
+eq :  ( 7.19 + 6.83 ) + 20 = x
+guess :  34.0200000000000
+score :  0.20979083468588564
+eq :  ( 7.19 / 6.83 ) + 20 = x
+guess :  21.0527086383602
+score :  0.16615382876254411
+eq :  7.19 + ( 6.83 / 20 ) = x
+guess :  7.53150000000000
+
+INCORRECT
+Guessed Equation :  ( 7.19 + 6.83 ) + 20 = x
+Guess :  34.0200000000000 
+True Answer : 5.98 
+
+
+47
+ there were originally 20,817 houses in lincoln county . during a housing boom , developers built 97,741 more . how many houses are there now in lincoln county ? 
+ee
+[(3, 'house', '20,817'), (1001, 'boom', 'a'), (1007, 'boom', '97,741'), (2002, 'house', 'x')]
+c
+[(3, 'house', '20,817'), (1001, 'boom', 'a'), (1007, 'boom', '97,741'), (2002, 'house', 'x')]
+['house', 'boom']
+units and bare sets
+[(3, 'house', '20,817'), (1001, 'boom', 'a'), (1007, 'boom', '97,741'), (2002, 'house', 'x')]
+eac
+[(3, 'house', '20,817'), (1001, 'boom', '97,741'), (2002, 'house', 'x')]
+mov x
+[(3, 'house', '20,817'), (1001, 'boom', '97,741'), (2002, 'house', 'x')]
+[(3, <makesets.aset object at 0x10e81db70>), (1001, <makesets.aset object at 0x10e81dd68>), (2002, <makesets.aset object at 0x10e81d860>)]
+[(3, <makesets.aset object at 0x10e81db70>), (1001, <makesets.aset object at 0x10e81dd68>), (2002, <makesets.aset object at 0x10e81d860>)]
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : house
+idx : 3
+location : county
+num : 20,817
+subtypes : []
+surface : houses
+verbs : None
+widx : 5
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : boom
+idx : 1001
+location : None
+num : 97,741
+subtypes : []
+surface : boom
+verbs : None
+widx : 4
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : house
+idx : 2002
+location : None
+num : x
+subtypes : []
+surface : houses
+verbs : None
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.8040306519198256 20817 = 97741 * x
+0.6714271485325713 20817 * 97741 = x
+0.19589810591490647 20817 / 97741 = x
+top 3 globally adjusted:
+score :  0.7473946548362317
+eq :  20817 * 97741 = x
+guess :  2034674397
+score :  0.1938079664736444
+eq :  20817 = 97741 * x
+guess :  20817/97741
+score :  0.07823632174496005
+eq :  20817 + 97741 = x
+guess :  118558
+
+INCORRECT
+Guessed Equation :  20817 * 97741 = x
+Guess :  2034674397 
+True Answer : 118558.0 
+
+
+48
+ some insects called aphids attack a large farm . in response , the farmer releases ladybugs onto the fields . there are 12,170 ladybugs with spots and 54,912 ladybugs without spots . how many ladybugs are there in all ? 
+ee
+[(0, 'insect', 'some'), (5, 'farm', 'a'), (1003, 'farmer', 'the'), (1008, 'field', 'the'), (2002, 'ladybug', '12,170'), (2007, 'ladybug', '54,912'), (3002, 'ladybug', 'x')]
+c
+[(0, 'insect', 'some'), (5, 'farm', 'a'), (1003, 'farmer', 'the'), (1008, 'field', 'the'), (2002, 'ladybug', '12,170'), (2007, 'ladybug', '54,912'), (3002, 'ladybug', 'x')]
+some
+the
+the
+['ladybug', 'ladybug']
+units and bare sets
+[(0, 'insect', 'some'), (5, 'farm', 'a'), (1003, 'farmer', 'the'), (1008, 'field', 'the'), (2002, 'ladybug', '12,170'), (2007, 'ladybug', '54,912'), (3002, 'ladybug', 'x'), (1006, 'ladybug', 'BARE')]
+eac
+[(0, 'insect', 'some'), (5, 'farm', 'a'), (1003, 'farmer', 'the'), (1008, 'field', 'the'), (2002, 'ladybug', '12,170'), (2007, 'ladybug', '54,912'), (3002, 'ladybug', 'x'), (1006, 'ladybug', 'BARE')]
+moving x
+[(6, (3002, <makesets.aset object at 0x10e9dfcc0>))] [(1006, 'BARE')] 1006
+mov x
+[(0, 'insect', 'some'), (5, 'farm', 'a'), (1003, 'farmer', 'the'), (1008, 'field', 'the'), (2002, 'ladybug', '12,170'), (2007, 'ladybug', '54,912'), (1006, 'ladybug', 'x'), (1006, 'ladybug', 'BARE')]
+[(0, <makesets.aset object at 0x10e9dff28>), (5, <makesets.aset object at 0x10e9dfe80>), (1003, <makesets.aset object at 0x10e9df208>), (1008, <makesets.aset object at 0x10e9dd748>), (2002, <makesets.aset object at 0x10e9dd198>), (2007, <makesets.aset object at 0x10e9dd668>), (1006, <makesets.aset object at 0x10e9dfcc0>), (1006, <makesets.aset object at 0x10e9ddcf8>)]
+[(2002, <makesets.aset object at 0x10e9dd198>), (2007, <makesets.aset object at 0x10e9dd668>), (1006, <makesets.aset object at 0x10e9dfcc0>)]
+Sets detected: 
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : ladybug
+idx : 1006
+location : None
+num : x
+subtypes : []
+surface : ladybugs
+verbs : None
+widx : 3
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : ladybug
+idx : 2002
+location : None
+num : 12,170
+subtypes : []
+surface : ladybugs
+verbs : None
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : ladybug
+idx : 2007
+location : None
+num : 54,912
+subtypes : []
+surface : ladybugs
+verbs : None
+widx : 9
+_____________
+
+
+ Top scoring 3 equations: 
+0.831982206199781 x - 12170 = 54912
+0.829076814941476 x = 12170 + 54912
+0.1532648612164635 x + 12170 = 54912
+top 3 globally adjusted:
+score :  0.8453588276416025
+eq :  x - 12170 = 54912
+guess :  67082
+score :  0.12690635106120426
+eq :  x + 12170 = 54912
+guess :  42742
+score :  0.11253009978092093
+eq :  x = 12170 * 54912
+guess :  668279040
+
+CORRECT
+Guessed Equation :  x - 12170 = 54912
+Guess :  67082 
+True Answer : 67082.0 
+
+
+49
+ to fill an order , the factory dyed 61,921 yards of silk green and 49,500 yards pink . how many yards of silk did it dye for that order ? 
+ee
+[(2, 'order', 'an'), (5, 'factory', 'the'), (8, 'yard', '61,921'), (14, 'yard', '49,500'), (1002, 'yard', 'x'), (1009, 'order', 'that')]
+c
+[(2, 'order', 'an'), (5, 'factory', 'the'), (8, 'yard', '61,921'), (14, 'yard', '49,500'), (1002, 'yard', 'x'), (1009, 'order', 'that')]
+the
+that
+the
+['yard', 'yard']
+units and bare sets
+[(2, 'order', 'an'), (5, 'factory', 'the'), (8, 'yard', '61,921'), (14, 'yard', '49,500'), (1002, 'yard', 'x'), (1009, 'order', 'that')]
+eac
+[(2, 'order', 'an'), (5, 'factory', 'the'), (8, 'yard', '61,921'), (14, 'yard', '49,500'), (1002, 'yard', 'x'), (1009, 'order', 'that')]
+mov x
+[(2, 'order', 'an'), (5, 'factory', 'the'), (8, 'yard', '61,921'), (14, 'yard', '49,500'), (1002, 'yard', 'x'), (1009, 'order', 'that')]
+[(2, <makesets.aset object at 0x10e880208>), (5, <makesets.aset object at 0x10e8802b0>), (8, <makesets.aset object at 0x10e880320>), (14, <makesets.aset object at 0x10e8803c8>), (1002, <makesets.aset object at 0x10e880160>), (1009, <makesets.aset object at 0x10e880470>)]
+[(8, <makesets.aset object at 0x10e880320>), (14, <makesets.aset object at 0x10e8803c8>), (1002, <makesets.aset object at 0x10e880160>)]
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : factory
+contains : None
+entity : yard
+idx : 8
+location : None
+num : 61,921
+subtypes : []
+surface : yards
+verbs : None
+widx : 10
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : yard
+idx : 14
+location : None
+num : 49,500
+subtypes : []
+surface : yards
+verbs : None
+widx : 16
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : it
+contains : None
+entity : yard
+idx : 1002
+location : None
+num : x
+subtypes : []
+surface : yards
+verbs : dye
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.80167926661975 61921 = 49500 - x
+0.6937542837755056 61921 + 49500 = x
+0.2667585012586159 61921 - 49500 = x
+top 3 globally adjusted:
+score :  0.6945317352760747
+eq :  61921 + 49500 = x
+guess :  111421
+score :  0.2825140978256163
+eq :  61921 - 49500 = x
+guess :  12421
+score :  0.056693932241569316
+eq :  61921 * 49500 = x
+guess :  3065089500
+
+CORRECT
+Guessed Equation :  61921 + 49500 = x
+Guess :  111421 
+True Answer : 111421.0 
+
+
+50
+ a worker at a medical lab is studying blood samples . two samples contained a total of 7,341 blood cells . the first sample contained 4,221 blood cells . how many blood cells were in the second sample ? 
+ee
+[(0, 'worker', 'a'), (3, 'lab', 'a'), (1000, 'sample', '2'), (1003, 'total', 'a'), (1006, 'cell', '7,341'), (2000, 'sample', 'the'), (2004, 'cell', '4,221'), (3003, 'cell', 'x'), (3006, 'sample', 'the')]
+c
+[(0, 'worker', 'a'), (3, 'lab', 'a'), (1000, 'sample', '2'), (1003, 'total', 'a'), (1006, 'cell', '7,341'), (2000, 'sample', 'the'), (2004, 'cell', '4,221'), (3003, 'cell', 'x'), (3006, 'sample', 'the')]
+the
+the
+['sample', 'cell', 'cell']
+units and bare sets
+[(0, 'worker', 'a'), (3, 'lab', 'a'), (1000, 'sample', '2'), (1003, 'total', 'a'), (1006, 'cell', '7,341'), (2000, 'sample', 'the'), (2004, 'cell', '4,221'), (3003, 'cell', 'x'), (3006, 'sample', 'the'), (9, 'sample', 'BARE')]
+eac
+[(0, 'worker', 'a'), (3, 'lab', 'a'), (1000, 'sample', '2'), (1003, 'total', 'a'), (1006, 'cell', '7,341'), (2000, 'sample', 'the'), (2004, 'cell', '4,221'), (3003, 'cell', 'x'), (3006, 'sample', 'the'), (9, 'sample', 'BARE')]
+mov x
+[(0, 'worker', 'a'), (3, 'lab', 'a'), (1000, 'sample', '2'), (1003, 'total', 'a'), (1006, 'cell', '7,341'), (2000, 'sample', 'the'), (2004, 'cell', '4,221'), (3003, 'cell', 'x'), (3006, 'sample', 'the'), (9, 'sample', 'BARE')]
+[(0, <makesets.aset object at 0x10e9dfba8>), (3, <makesets.aset object at 0x10e9dfcf8>), (1000, <makesets.aset object at 0x10e9df7b8>), (1003, <makesets.aset object at 0x10e9df1d0>), (1006, <makesets.aset object at 0x10e9df4e0>), (2000, <makesets.aset object at 0x10e9df9b0>), (2004, <makesets.aset object at 0x10e9df828>), (3003, <makesets.aset object at 0x10e9df908>), (3006, <makesets.aset object at 0x10e9df438>), (9, <makesets.aset object at 0x10e9df198>)]
+[(1000, <makesets.aset object at 0x10e9df7b8>), (1006, <makesets.aset object at 0x10e9df4e0>), (2004, <makesets.aset object at 0x10e9df828>), (3003, <makesets.aset object at 0x10e9df908>)]
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : total
+contains : None
+entity : sample
+idx : 1000
+location : None
+num : 2
+subtypes : []
+surface : samples
+verbs : None
+widx : 2
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : cell
+idx : 1006
+location : None
+num : 7,341
+subtypes : []
+surface : cells
+verbs : None
+widx : 9
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : sample
+contains : None
+entity : cell
+idx : 2004
+location : None
+num : 4,221
+subtypes : []
+surface : cells
+verbs : contained
+widx : 7
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : sample
+contains : None
+entity : cell
+idx : 3003
+location : None
+num : x
+subtypes : []
+surface : cells
+verbs : None
+widx : 4
+_____________
+
+
+ Top scoring 3 equations: 
+0.7411651780379687 ( 2 * 7341 ) + 4221 = x
+0.6887767783471267 2 * ( 7341 - 4221 ) = x
+0.6704058454234473 2 = ( 7341 - 4221 ) - x
+top 3 globally adjusted:
+score :  0.3198168225122467
+eq :  2 * ( 7341 - 4221 ) = x
+guess :  6240
+score :  0.3073918238993524
+eq :  2 * ( 7341 * 4221 ) = x
+guess :  61972722
+score :  0.21423232182201352
+eq :  ( 2 + 7341 ) + 4221 = x
+guess :  11564
+
+INCORRECT
+Guessed Equation :  2 * ( 7341 - 4221 ) = x
+Guess :  6240 
+True Answer : 3120.0 
+
+
+36 51

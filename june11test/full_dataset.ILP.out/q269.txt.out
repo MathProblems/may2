@@ -1,0 +1,5 @@
+parameters: n=11 l=5 k=1 p=5 q=2 m=11
+TOTAL 5 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 30 | 4 | 158 | x=((7*12)-(4-(6*13))) | x 7 12 * 4 6 13 * - - = | x:money 7:dollar 12:money *:money 4:money 6:dollar 13:money *:money -:money -:money =:money
+NET 1 non-negative, integer-valued solutions found out of 5 total solutions

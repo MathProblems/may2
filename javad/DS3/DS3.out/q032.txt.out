@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 12 | 12 | (30-18)=x | 30 18 - x = | 30:card 18:card -:card x:card =:card
+EXPR: 0 | POS | INT | 0 | 12 | 48 | x=(30+18) | x 30 18 + = | x:card 30:card 18:card +:card =:card
+EXPR: 1 | POS | INT | 0 | 12 | 12 | x=(30-18) | x 30 18 - = | x:card 30:card 18:card -:card =:card
+EXPR: 0 | POS | INT | 0 | 12 | 48 | (30+18)=x | 30 18 + x = | 30:card 18:card +:card x:card =:card
+EXPR: 1 | POS | INT | 2 | 12 | 12 | 30=(18+x) | 30 18 x + = | 30:card 18:card x:card +:card =:card
+EXPR: 1 | POS | INT | 2 | 12 | 12 | 30=(x+18) | 30 x 18 + = | 30:card x:card 18:card +:card =:card
+EXPR: 0 | POS | INT | 2 | 12 | 48 | 30=(x-18) | 30 x 18 - = | 30:card x:card 18:card -:card =:card
+EXPR: 1 | POS | INT | 2 | 12 | 12 | (30-x)=18 | 30 x - 18 = | 30:card x:card -:card 18:card =:card
+EXPR: 0 | POS | INT | 2 | 12 | 48 | (x-30)=18 | x 30 - 18 = | x:card 30:card -:card 18:card =:card
+EXPR: 0 | POS | INT | 4 | 12 | 48 | 18=(x-30) | 18 x 30 - = | 18:card x:card 30:card -:card =:card
+EXPR: 1 | POS | INT | 4 | 12 | 12 | (18+x)=30 | 18 x + 30 = | 18:card x:card +:card 30:card =:card
+EXPR: 0 | POS | INT | 4 | 12 | 48 | (x-18)=30 | x 18 - 30 = | x:card 18:card -:card 30:card =:card
+EXPR: 1 | POS | INT | 4 | 12 | 12 | (x+18)=30 | x 18 + 30 = | x:card 18:card +:card 30:card =:card
+EXPR: 1 | POS | INT | 4 | 12 | 12 | 18=(30-x) | 18 30 x - = | 18:card 30:card x:card -:card =:card
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

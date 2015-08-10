@@ -1,0 +1,15 @@
+parameters: n=9 l=4 k=1 p=5 q=2 m=10
+TOTAL 100 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 2 | 50 | 4 | 91=(((x*24)+6)-11) | 91 x 24 * 6 + 11 - = | 91:dollar x:money 24:dollar *:dollar 6:dollar +:dollar 11:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 2 | 50 | 13 | 91=(x*(24-(6+11))) | 91 x 24 6 11 + - * = | 91:dollar x:money 24:dollar 6:dollar 11:dollar +:dollar -:dollar *:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 50 | 1199 | x=((91+(24-6))*11) | x 91 24 6 - + 11 * = | x:money 91:dollar 24:dollar 6:dollar -:dollar +:dollar 11:money *:money =:money
+EXPR: 0 | POS | INT | 12 | 50 | 62 | 91=(((24-6)+11)+x) | 91 24 6 - 11 + x + = | 91:dollar 24:dollar 6:dollar -:dollar 11:dollar +:dollar x:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 50 | 4 | 91=(((x*24)-11)+6) | 91 x 24 * 11 - 6 + = | 91:dollar x:money 24:dollar *:dollar 11:dollar -:dollar 6:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 17 | 50 | 21 | ((6*x)-(91+24))=11 | 6 x * 91 24 + - 11 = | 6:dollar x:money *:dollar 91:dollar 24:dollar +:dollar -:dollar 11:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 50 | 98 | 91=(x+(6-(24-11))) | 91 x 6 24 11 - - + = | 91:dollar x:dollar 6:dollar 24:dollar 11:dollar -:dollar -:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 50 | 98 | 91=(((6-24)+11)+x) | 91 6 24 - 11 + x + = | 91:dollar 6:dollar 24:dollar -:dollar 11:dollar +:dollar x:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 50 | 64 | 91=(((24*6)+11)-x) | 91 24 6 * 11 + x - = | 91:dollar 24:money 6:dollar *:dollar 11:dollar +:dollar x:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 50 | 42 | 24=(((91*6)/x)+11) | 24 91 6 * x / 11 + = | 24:dollar 91:money 6:dollar *:dollar x:money /:dollar 11:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 27 | 50 | 408 | 24=(6*(x/(91+11))) | 24 6 x 91 11 + / * = | 24:dollar 6:dollar x:money 91:dollar 11:dollar +:dollar /:money *:dollar =:dollar
+NET 11 non-negative, integer-valued solutions found out of 100 total solutions

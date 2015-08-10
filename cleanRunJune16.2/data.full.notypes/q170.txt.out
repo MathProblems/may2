@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 56 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 275 | 277 | (2+275.0)=x | 2 275.0 + x = | 2:people 275.0:people +:people x:people =:people
+EXPR: 0 | POS | INT | 0 | 275 | 550 | (2*275.0)=x | 2 275.0 * x = | 2:people 275.0:people *:people x:people =:people
+EXPR: 0 | POS | INT | 0 | 275 | 277 | x=(2+275.0) | x 2 275.0 + = | x:people 2:people 275.0:people +:people =:people
+EXPR: 0 | POS | INT | 0 | 275 | 550 | x=(2*275.0) | x 2 275.0 * = | x:people 2:people 275.0:people *:people =:people
+EXPR: 0 | POS | INT | 2 | 275 | 277 | 2=(x-275.0) | 2 x 275.0 - = | 2:people x:people 275.0:people -:people =:people
+EXPR: 0 | POS | INT | 2 | 275 | 550 | 2=(x/275.0) | 2 x 275.0 / = | 2:people x:people 275.0:people /:people =:people
+EXPR: 0 | POS | INT | 2 | 275 | 273 | (x+2)=275.0 | x 2 + 275.0 = | x:people 2:people +:people 275.0:people =:people
+EXPR: 0 | POS | INT | 2 | 275 | 273 | x=(275.0-2) | x 275.0 2 - = | x:people 275.0:people 2:people -:people =:people
+EXPR: 0 | POS | INT | 2 | 275 | 273 | (2+x)=275.0 | 2 x + 275.0 = | 2:people x:people +:people 275.0:people =:people
+EXPR: 0 | POS | INT | 2 | 275 | 273 | (275.0-2)=x | 275.0 2 - x = | 275.0:people 2:people -:people x:people =:people
+EXPR: 0 | POS | INT | 2 | 275 | 277 | (x-2)=275.0 | x 2 - 275.0 = | x:people 2:people -:people 275.0:people =:people
+EXPR: 0 | POS | INT | 2 | 275 | 550 | (x/2)=275.0 | x 2 / 275.0 = | x:people 2:people /:people 275.0:people =:people
+EXPR: 0 | POS | INT | 2 | 275 | 273 | 2=(275.0-x) | 2 275.0 x - = | 2:people 275.0:people x:people -:people =:people
+EXPR: 0 | POS | INT | 4 | 275 | 277 | 275.0=(x-2) | 275.0 x 2 - = | 275.0:people x:people 2:people -:people =:people
+EXPR: 0 | POS | INT | 4 | 275 | 273 | 275.0=(x+2) | 275.0 x 2 + = | 275.0:people x:people 2:people +:people =:people
+EXPR: 0 | POS | INT | 4 | 275 | 550 | 275.0=(x/2) | 275.0 x 2 / = | 275.0:people x:people 2:people /:people =:people
+EXPR: 0 | POS | INT | 4 | 275 | 273 | (275.0-x)=2 | 275.0 x - 2 = | 275.0:people x:people -:people 2:people =:people
+EXPR: 0 | POS | INT | 4 | 275 | 273 | 275.0=(2+x) | 275.0 2 x + = | 275.0:people 2:people x:people +:people =:people
+EXPR: 0 | POS | INT | 4 | 275 | 550 | (x/275.0)=2 | x 275.0 / 2 = | x:people 275.0:people /:people 2:people =:people
+EXPR: 0 | POS | INT | 4 | 275 | 277 | (x-275.0)=2 | x 275.0 - 2 = | x:people 275.0:people -:people 2:people =:people
+NET 20 unique, non-negative, integer-valued solutions found out of 56 total solutions

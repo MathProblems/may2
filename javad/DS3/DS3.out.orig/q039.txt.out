@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 12 | 12 | (34-22)=x | 34 22 - x = | 34:pencil 22:pencil -:pencil x:pencil =:pencil
+EXPR: 0 | POS | INT | 0 | 12 | 56 | x=(34+22) | x 34 22 + = | x:pencil 34:pencil 22:pencil +:pencil =:pencil
+EXPR: 1 | POS | INT | 0 | 12 | 12 | x=(34-22) | x 34 22 - = | x:pencil 34:pencil 22:pencil -:pencil =:pencil
+EXPR: 0 | POS | INT | 0 | 12 | 56 | (34+22)=x | 34 22 + x = | 34:pencil 22:pencil +:pencil x:pencil =:pencil
+EXPR: 1 | POS | INT | 2 | 12 | 12 | 34=(22+x) | 34 22 x + = | 34:pencil 22:pencil x:pencil +:pencil =:pencil
+EXPR: 1 | POS | INT | 2 | 12 | 12 | 34=(x+22) | 34 x 22 + = | 34:pencil x:pencil 22:pencil +:pencil =:pencil
+EXPR: 0 | POS | INT | 2 | 12 | 56 | 34=(x-22) | 34 x 22 - = | 34:pencil x:pencil 22:pencil -:pencil =:pencil
+EXPR: 1 | POS | INT | 2 | 12 | 12 | (34-x)=22 | 34 x - 22 = | 34:pencil x:pencil -:pencil 22:pencil =:pencil
+EXPR: 0 | POS | INT | 2 | 12 | 56 | (x-34)=22 | x 34 - 22 = | x:pencil 34:pencil -:pencil 22:pencil =:pencil
+EXPR: 0 | POS | INT | 4 | 12 | 56 | 22=(x-34) | 22 x 34 - = | 22:pencil x:pencil 34:pencil -:pencil =:pencil
+EXPR: 1 | POS | INT | 4 | 12 | 12 | (22+x)=34 | 22 x + 34 = | 22:pencil x:pencil +:pencil 34:pencil =:pencil
+EXPR: 0 | POS | INT | 4 | 12 | 56 | (x-22)=34 | x 22 - 34 = | x:pencil 22:pencil -:pencil 34:pencil =:pencil
+EXPR: 1 | POS | INT | 4 | 12 | 12 | (x+22)=34 | x 22 + 34 = | x:pencil 22:pencil +:pencil 34:pencil =:pencil
+EXPR: 1 | POS | INT | 4 | 12 | 12 | 22=(34-x) | 22 34 x - = | 22:pencil 34:pencil x:pencil -:pencil =:pencil
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

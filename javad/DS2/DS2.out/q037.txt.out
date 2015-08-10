@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 4133 | 4133 | (4938-805)=x | 4938 805 - x = | 4938:inch 805:inch -:inch x:inch =:inch
+EXPR: 0 | POS | INT | 0 | 4133 | 5743 | x=(4938+805) | x 4938 805 + = | x:inch 4938:inch 805:inch +:inch =:inch
+EXPR: 1 | POS | INT | 0 | 4133 | 4133 | x=(4938-805) | x 4938 805 - = | x:inch 4938:inch 805:inch -:inch =:inch
+EXPR: 0 | POS | INT | 0 | 4133 | 5743 | (4938+805)=x | 4938 805 + x = | 4938:inch 805:inch +:inch x:inch =:inch
+EXPR: 1 | POS | INT | 2 | 4133 | 4133 | 4938=(805+x) | 4938 805 x + = | 4938:inch 805:inch x:inch +:inch =:inch
+EXPR: 1 | POS | INT | 2 | 4133 | 4133 | 4938=(x+805) | 4938 x 805 + = | 4938:inch x:inch 805:inch +:inch =:inch
+EXPR: 0 | POS | INT | 2 | 4133 | 5743 | 4938=(x-805) | 4938 x 805 - = | 4938:inch x:inch 805:inch -:inch =:inch
+EXPR: 1 | POS | INT | 2 | 4133 | 4133 | (4938-x)=805 | 4938 x - 805 = | 4938:inch x:inch -:inch 805:inch =:inch
+EXPR: 0 | POS | INT | 2 | 4133 | 5743 | (x-4938)=805 | x 4938 - 805 = | x:inch 4938:inch -:inch 805:inch =:inch
+EXPR: 0 | POS | INT | 4 | 4133 | 5743 | 805=(x-4938) | 805 x 4938 - = | 805:inch x:inch 4938:inch -:inch =:inch
+EXPR: 1 | POS | INT | 4 | 4133 | 4133 | (805+x)=4938 | 805 x + 4938 = | 805:inch x:inch +:inch 4938:inch =:inch
+EXPR: 0 | POS | INT | 4 | 4133 | 5743 | (x-805)=4938 | x 805 - 4938 = | x:inch 805:inch -:inch 4938:inch =:inch
+EXPR: 1 | POS | INT | 4 | 4133 | 4133 | (x+805)=4938 | x 805 + 4938 = | x:inch 805:inch +:inch 4938:inch =:inch
+EXPR: 1 | POS | INT | 4 | 4133 | 4133 | 805=(4938-x) | 805 4938 x - = | 805:inch 4938:inch x:inch -:inch =:inch
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

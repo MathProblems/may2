@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 56 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 5 | 19 | (4+15)=x | 4 15 + x = | 4:people 15:people +:people x:people =:people
+EXPR: 0 | POS | INT | 0 | 5 | 60 | (4*15)=x | 4 15 * x = | 4:people 15:people *:people x:people =:people
+EXPR: 0 | POS | INT | 0 | 5 | 19 | x=(4+15) | x 4 15 + = | x:people 4:people 15:people +:people =:people
+EXPR: 0 | POS | INT | 0 | 5 | 60 | x=(4*15) | x 4 15 * = | x:people 4:people 15:people *:people =:people
+EXPR: 0 | POS | INT | 2 | 5 | 19 | 4=(x-15) | 4 x 15 - = | 4:people x:people 15:people -:people =:people
+EXPR: 0 | POS | INT | 2 | 5 | 60 | 4=(x/15) | 4 x 15 / = | 4:people x:people 15:people /:people =:people
+EXPR: 0 | POS | INT | 2 | 5 | 11 | (x+4)=15 | x 4 + 15 = | x:people 4:people +:people 15:people =:people
+EXPR: 0 | POS | INT | 2 | 5 | 11 | x=(15-4) | x 15 4 - = | x:people 15:people 4:people -:people =:people
+EXPR: 0 | POS | INT | 2 | 5 | 11 | (4+x)=15 | 4 x + 15 = | 4:people x:people +:people 15:people =:people
+EXPR: 0 | POS | INT | 2 | 5 | 11 | (15-4)=x | 15 4 - x = | 15:people 4:people -:people x:people =:people
+EXPR: 0 | POS | INT | 2 | 5 | 19 | (x-4)=15 | x 4 - 15 = | x:people 4:people -:people 15:people =:people
+EXPR: 0 | POS | INT | 2 | 5 | 60 | (x/4)=15 | x 4 / 15 = | x:people 4:people /:people 15:people =:people
+EXPR: 0 | POS | INT | 2 | 5 | 11 | 4=(15-x) | 4 15 x - = | 4:people 15:people x:people -:people =:people
+EXPR: 0 | POS | INT | 4 | 5 | 19 | 15=(x-4) | 15 x 4 - = | 15:people x:people 4:people -:people =:people
+EXPR: 0 | POS | INT | 4 | 5 | 11 | 15=(x+4) | 15 x 4 + = | 15:people x:people 4:people +:people =:people
+EXPR: 0 | POS | INT | 4 | 5 | 60 | 15=(x/4) | 15 x 4 / = | 15:people x:people 4:people /:people =:people
+EXPR: 0 | POS | INT | 4 | 5 | 11 | (15-x)=4 | 15 x - 4 = | 15:people x:people -:people 4:people =:people
+EXPR: 0 | POS | INT | 4 | 5 | 11 | 15=(4+x) | 15 4 x + = | 15:people 4:people x:people +:people =:people
+EXPR: 0 | POS | INT | 4 | 5 | 60 | (x/15)=4 | x 15 / 4 = | x:people 15:people /:people 4:people =:people
+EXPR: 0 | POS | INT | 4 | 5 | 19 | (x-15)=4 | x 15 - 4 = | x:people 15:people -:people 4:people =:people
+NET 20 unique, non-negative, integer-valued solutions found out of 56 total solutions

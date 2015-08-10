@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 82 | 82 | (97-15)=x | 97 15 - x = | 97:card 15:card -:card x:card =:card
+EXPR: 0 | POS | INT | 0 | 82 | 112 | x=(97+15) | x 97 15 + = | x:card 97:card 15:card +:card =:card
+EXPR: 1 | POS | INT | 0 | 82 | 82 | x=(97-15) | x 97 15 - = | x:card 97:card 15:card -:card =:card
+EXPR: 0 | POS | INT | 0 | 82 | 112 | (97+15)=x | 97 15 + x = | 97:card 15:card +:card x:card =:card
+EXPR: 1 | POS | INT | 2 | 82 | 82 | 97=(15+x) | 97 15 x + = | 97:card 15:card x:card +:card =:card
+EXPR: 1 | POS | INT | 2 | 82 | 82 | 97=(x+15) | 97 x 15 + = | 97:card x:card 15:card +:card =:card
+EXPR: 0 | POS | INT | 2 | 82 | 112 | 97=(x-15) | 97 x 15 - = | 97:card x:card 15:card -:card =:card
+EXPR: 1 | POS | INT | 2 | 82 | 82 | (97-x)=15 | 97 x - 15 = | 97:card x:card -:card 15:card =:card
+EXPR: 0 | POS | INT | 2 | 82 | 112 | (x-97)=15 | x 97 - 15 = | x:card 97:card -:card 15:card =:card
+EXPR: 0 | POS | INT | 4 | 82 | 112 | 15=(x-97) | 15 x 97 - = | 15:card x:card 97:card -:card =:card
+EXPR: 1 | POS | INT | 4 | 82 | 82 | (15+x)=97 | 15 x + 97 = | 15:card x:card +:card 97:card =:card
+EXPR: 0 | POS | INT | 4 | 82 | 112 | (x-15)=97 | x 15 - 97 = | x:card 15:card -:card 97:card =:card
+EXPR: 1 | POS | INT | 4 | 82 | 82 | (x+15)=97 | x 15 + 97 = | x:card 15:card +:card 97:card =:card
+EXPR: 1 | POS | INT | 4 | 82 | 82 | 15=(97-x) | 15 97 x - = | 15:card 97:card x:card -:card =:card
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

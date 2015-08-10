@@ -1,0 +1,43 @@
+parameters: n=7 l=3 k=1 p=5 q=2 m=9
+TOTAL 100 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 32 | 186 | x=(53+(7*19)) | x 53 7 19 * + = | x:cupcake 53:cupcake 7:cupcake 19:vanilla *:cupcake +:cupcake =:cupcake
+EXPR: 0 | POS | INT | 0 | 32 | 874 | x=((53-7)*19) | x 53 7 - 19 * = | x:cupcake 53:cupcake 7:cupcake -:cupcake 19:vanilla *:cupcake =:cupcake
+EXPR: 0 | POS | INT | 0 | 32 | 1140 | x=((53+7)*19) | x 53 7 + 19 * = | x:cupcake 53:cupcake 7:cupcake +:cupcake 19:vanilla *:cupcake =:cupcake
+EXPR: 0 | POS | INT | 1 | 32 | 186 | x=(53+(7*19)) | x 53 7 19 * + = | x:cupcake 53:cupcake 7:cupcake 19:vanilla *:cupcake +:cupcake =:cupcake
+EXPR: 0 | POS | INT | 1 | 32 | 1140 | x=((53+7)*19) | x 53 7 + 19 * = | x:cupcake 53:cupcake 7:cupcake +:cupcake 19:vanilla *:cupcake =:cupcake
+EXPR: 0 | POS | INT | 1 | 32 | 874 | x=((53-7)*19) | x 53 7 - 19 * = | x:cupcake 53:cupcake 7:cupcake -:cupcake 19:vanilla *:cupcake =:cupcake
+EXPR: 0 | POS | INT | 2 | 32 | 7049 | 53=(x/(7*19)) | 53 x 7 19 * / = | 53:cupcake x:cupcake 7:cupcake 19:vanilla *:vanilla /:cupcake =:cupcake
+EXPR: 0 | POS | INT | 2 | 32 | 1000 | 53=((7+x)/19) | 53 7 x + 19 / = | 53:cupcake 7:cupcake x:cupcake +:cupcake 19:vanilla /:cupcake =:cupcake
+EXPR: 0 | POS | INT | 2 | 32 | 874 | 53=(7+(x/19)) | 53 7 x 19 / + = | 53:cupcake 7:cupcake x:cupcake 19:vanilla /:cupcake +:cupcake =:cupcake
+EXPR: 0 | POS | INT | 2 | 32 | 186 | 53=(x-(7*19)) | 53 x 7 19 * - = | 53:cupcake x:cupcake 7:cupcake 19:vanilla *:cupcake -:cupcake =:cupcake
+EXPR: 0 | POS | INT | 2 | 32 | 80 | 53=((7*19)-x) | 53 7 19 * x - = | 53:cupcake 7:cupcake 19:vanilla *:cupcake x:cupcake -:cupcake =:cupcake
+EXPR: 0 | POS | INT | 2 | 32 | 1000 | 53=((x+7)/19) | 53 x 7 + 19 / = | 53:cupcake x:cupcake 7:cupcake +:cupcake 19:vanilla /:cupcake =:cupcake
+EXPR: 0 | POS | INT | 2 | 32 | 1014 | 53=((x-7)/19) | 53 x 7 - 19 / = | 53:cupcake x:cupcake 7:cupcake -:cupcake 19:vanilla /:cupcake =:cupcake
+EXPR: 0 | POS | INT | 10 | 32 | 1014 | x=(7+(53*19)) | x 7 53 19 * + = | x:cupcake 7:cupcake 53:cupcake 19:vanilla *:cupcake +:cupcake =:cupcake
+EXPR: 0 | POS | INT | 10 | 32 | 41 | x=((53+7)-19) | x 53 7 + 19 - = | x:cupcake 53:cupcake 7:cupcake +:cupcake 19:cupcake -:cupcake =:cupcake
+EXPR: 0 | POS | INT | 10 | 32 | 27 | x=((53-7)-19) | x 53 7 - 19 - = | x:cupcake 53:cupcake 7:cupcake -:cupcake 19:cupcake -:cupcake =:cupcake
+EXPR: 0 | POS | INT | 10 | 32 | 27 | x=(53-(7+19)) | x 53 7 19 + - = | x:cupcake 53:cupcake 7:cupcake 19:cupcake +:cupcake -:cupcake =:cupcake
+EXPR: 0 | POS | INT | 10 | 32 | 79 | x=((53+7)+19) | x 53 7 + 19 + = | x:cupcake 53:cupcake 7:cupcake +:cupcake 19:cupcake +:cupcake =:cupcake
+EXPR: 0 | POS | INT | 10 | 32 | 41 | x=(53+(7-19)) | x 53 7 19 - + = | x:cupcake 53:cupcake 7:cupcake 19:cupcake -:cupcake +:cupcake =:cupcake
+EXPR: 0 | POS | INT | 10 | 32 | 79 | x=(53+(7+19)) | x 53 7 19 + + = | x:cupcake 53:cupcake 7:cupcake 19:cupcake +:cupcake +:cupcake =:cupcake
+EXPR: 0 | POS | INT | 10 | 32 | 1378 | x=(53*(7+19)) | x 53 7 19 + * = | x:cupcake 53:cupcake 7:vanilla 19:vanilla +:vanilla *:cupcake =:cupcake
+EXPR: 0 | POS | INT | 10 | 32 | 874 | x=((53-7)*19) | x 53 7 - 19 * = | x:vanilla 53:cupcake 7:cupcake -:cupcake 19:vanilla *:vanilla =:vanilla
+EXPR: 0 | POS | INT | 10 | 32 | 65 | x=(53-(7-19)) | x 53 7 19 - - = | x:cupcake 53:cupcake 7:cupcake 19:cupcake -:cupcake -:cupcake =:cupcake
+EXPR: 0 | POS | INT | 10 | 32 | 65 | x=((53-7)+19) | x 53 7 - 19 + = | x:cupcake 53:cupcake 7:cupcake -:cupcake 19:cupcake +:cupcake =:cupcake
+EXPR: 0 | POS | INT | 10 | 32 | 1000 | x=((53*19)-7) | x 53 19 * 7 - = | x:cupcake 53:cupcake 19:vanilla *:cupcake 7:cupcake -:cupcake =:cupcake
+EXPR: 0 | POS | INT | 10 | 32 | 1014 | x=((53*19)+7) | x 53 19 * 7 + = | x:cupcake 53:cupcake 19:vanilla *:cupcake 7:cupcake +:cupcake =:cupcake
+EXPR: 0 | POS | INT | 10 | 32 | 1140 | x=((53+7)*19) | x 53 7 + 19 * = | x:vanilla 53:cupcake 7:cupcake +:cupcake 19:vanilla *:vanilla =:vanilla
+EXPR: 0 | POS | INT | 11 | 32 | 1140 | x=((53+7)*19) | x 53 7 + 19 * = | x:vanilla 53:cupcake 7:cupcake +:cupcake 19:vanilla *:vanilla =:vanilla
+EXPR: 0 | POS | INT | 11 | 32 | 1014 | x=(7+(53*19)) | x 7 53 19 * + = | x:cupcake 7:cupcake 53:cupcake 19:vanilla *:cupcake +:cupcake =:cupcake
+EXPR: 0 | POS | INT | 11 | 32 | 41 | x=((53+7)-19) | x 53 7 + 19 - = | x:cupcake 53:cupcake 7:cupcake +:cupcake 19:cupcake -:cupcake =:cupcake
+EXPR: 0 | POS | INT | 11 | 32 | 27 | x=(53-(7+19)) | x 53 7 19 + - = | x:cupcake 53:cupcake 7:cupcake 19:cupcake +:cupcake -:cupcake =:cupcake
+EXPR: 0 | POS | INT | 11 | 32 | 27 | x=((53-7)-19) | x 53 7 - 19 - = | x:cupcake 53:cupcake 7:cupcake -:cupcake 19:cupcake -:cupcake =:cupcake
+EXPR: 0 | POS | INT | 11 | 32 | 79 | x=((53+7)+19) | x 53 7 + 19 + = | x:cupcake 53:cupcake 7:cupcake +:cupcake 19:cupcake +:cupcake =:cupcake
+EXPR: 0 | POS | INT | 11 | 32 | 41 | x=(53+(7-19)) | x 53 7 19 - + = | x:cupcake 53:cupcake 7:cupcake 19:cupcake -:cupcake +:cupcake =:cupcake
+EXPR: 0 | POS | INT | 11 | 32 | 79 | x=(53+(7+19)) | x 53 7 19 + + = | x:cupcake 53:cupcake 7:cupcake 19:cupcake +:cupcake +:cupcake =:cupcake
+EXPR: 0 | POS | INT | 11 | 32 | 874 | x=((53-7)*19) | x 53 7 - 19 * = | x:vanilla 53:cupcake 7:cupcake -:cupcake 19:vanilla *:vanilla =:vanilla
+EXPR: 0 | POS | INT | 11 | 32 | 65 | x=(53-(7-19)) | x 53 7 19 - - = | x:cupcake 53:cupcake 7:cupcake 19:cupcake -:cupcake -:cupcake =:cupcake
+EXPR: 0 | POS | INT | 11 | 32 | 1378 | x=(53*(7+19)) | x 53 7 19 + * = | x:cupcake 53:cupcake 7:vanilla 19:vanilla +:vanilla *:cupcake =:cupcake
+EXPR: 0 | POS | INT | 11 | 32 | 65 | x=((53-7)+19) | x 53 7 - 19 + = | x:cupcake 53:cupcake 7:cupcake -:cupcake 19:cupcake +:cupcake =:cupcake
+NET 39 non-negative, integer-valued solutions found out of 100 total solutions

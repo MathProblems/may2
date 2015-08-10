@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 57 | 17 | (37-20)=x | 37 20 - x = | 37:bush 20:bush -:bush x:bush =:bush
+EXPR: 1 | POS | INT | 0 | 57 | 57 | x=(37+20) | x 37 20 + = | x:bush 37:bush 20:bush +:bush =:bush
+EXPR: 0 | POS | INT | 0 | 57 | 17 | x=(37-20) | x 37 20 - = | x:bush 37:bush 20:bush -:bush =:bush
+EXPR: 1 | POS | INT | 0 | 57 | 57 | (37+20)=x | 37 20 + x = | 37:bush 20:bush +:bush x:bush =:bush
+EXPR: 0 | POS | INT | 2 | 57 | 17 | 37=(20+x) | 37 20 x + = | 37:bush 20:bush x:bush +:bush =:bush
+EXPR: 0 | POS | INT | 2 | 57 | 17 | 37=(x+20) | 37 x 20 + = | 37:bush x:bush 20:bush +:bush =:bush
+EXPR: 1 | POS | INT | 2 | 57 | 57 | 37=(x-20) | 37 x 20 - = | 37:bush x:bush 20:bush -:bush =:bush
+EXPR: 0 | POS | INT | 2 | 57 | 17 | (37-x)=20 | 37 x - 20 = | 37:bush x:bush -:bush 20:bush =:bush
+EXPR: 1 | POS | INT | 2 | 57 | 57 | (x-37)=20 | x 37 - 20 = | x:bush 37:bush -:bush 20:bush =:bush
+EXPR: 1 | POS | INT | 4 | 57 | 57 | 20=(x-37) | 20 x 37 - = | 20:bush x:bush 37:bush -:bush =:bush
+EXPR: 0 | POS | INT | 4 | 57 | 17 | (20+x)=37 | 20 x + 37 = | 20:bush x:bush +:bush 37:bush =:bush
+EXPR: 1 | POS | INT | 4 | 57 | 57 | (x-20)=37 | x 20 - 37 = | x:bush 20:bush -:bush 37:bush =:bush
+EXPR: 0 | POS | INT | 4 | 57 | 17 | (x+20)=37 | x 20 + 37 = | x:bush 20:bush +:bush 37:bush =:bush
+EXPR: 0 | POS | INT | 4 | 57 | 17 | 20=(37-x) | 20 37 x - = | 20:bush 37:bush x:bush -:bush =:bush
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

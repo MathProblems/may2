@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 61 | 61 | (86-25)=x | 86 25 - x = | 86:marble 25:marble -:marble x:marble =:marble
+EXPR: 0 | POS | INT | 0 | 61 | 111 | x=(86+25) | x 86 25 + = | x:marble 86:marble 25:marble +:marble =:marble
+EXPR: 1 | POS | INT | 0 | 61 | 61 | x=(86-25) | x 86 25 - = | x:marble 86:marble 25:marble -:marble =:marble
+EXPR: 0 | POS | INT | 0 | 61 | 111 | (86+25)=x | 86 25 + x = | 86:marble 25:marble +:marble x:marble =:marble
+EXPR: 1 | POS | INT | 2 | 61 | 61 | 86=(25+x) | 86 25 x + = | 86:marble 25:marble x:marble +:marble =:marble
+EXPR: 1 | POS | INT | 2 | 61 | 61 | 86=(x+25) | 86 x 25 + = | 86:marble x:marble 25:marble +:marble =:marble
+EXPR: 0 | POS | INT | 2 | 61 | 111 | 86=(x-25) | 86 x 25 - = | 86:marble x:marble 25:marble -:marble =:marble
+EXPR: 1 | POS | INT | 2 | 61 | 61 | (86-x)=25 | 86 x - 25 = | 86:marble x:marble -:marble 25:marble =:marble
+EXPR: 0 | POS | INT | 2 | 61 | 111 | (x-86)=25 | x 86 - 25 = | x:marble 86:marble -:marble 25:marble =:marble
+EXPR: 0 | POS | INT | 4 | 61 | 111 | 25=(x-86) | 25 x 86 - = | 25:marble x:marble 86:marble -:marble =:marble
+EXPR: 1 | POS | INT | 4 | 61 | 61 | (25+x)=86 | 25 x + 86 = | 25:marble x:marble +:marble 86:marble =:marble
+EXPR: 0 | POS | INT | 4 | 61 | 111 | (x-25)=86 | x 25 - 86 = | x:marble 25:marble -:marble 86:marble =:marble
+EXPR: 1 | POS | INT | 4 | 61 | 61 | (x+25)=86 | x 25 + 86 = | x:marble 25:marble +:marble 86:marble =:marble
+EXPR: 1 | POS | INT | 4 | 61 | 61 | 25=(86-x) | 25 86 x - = | 25:marble 86:marble x:marble -:marble =:marble
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

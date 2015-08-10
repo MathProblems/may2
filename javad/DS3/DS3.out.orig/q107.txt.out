@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 66 | 130 | x=(32+98) | x 32 98 + = | x:bale 32:bale 98:bale +:bale =:bale
+EXPR: 0 | POS | INT | 0 | 66 | 130 | (32+98)=x | 32 98 + x = | 32:bale 98:bale +:bale x:bale =:bale
+EXPR: 1 | POS | INT | 2 | 66 | 66 | (x+32)=98 | x 32 + 98 = | x:bale 32:bale +:bale 98:bale =:bale
+EXPR: 1 | POS | INT | 2 | 66 | 66 | 32=(98-x) | 32 98 x - = | 32:bale 98:bale x:bale -:bale =:bale
+EXPR: 1 | POS | INT | 2 | 66 | 66 | x=(98-32) | x 98 32 - = | x:bale 98:bale 32:bale -:bale =:bale
+EXPR: 1 | POS | INT | 2 | 66 | 66 | (98-32)=x | 98 32 - x = | 98:bale 32:bale -:bale x:bale =:bale
+EXPR: 0 | POS | INT | 2 | 66 | 130 | 32=(x-98) | 32 x 98 - = | 32:bale x:bale 98:bale -:bale =:bale
+EXPR: 1 | POS | INT | 2 | 66 | 66 | (32+x)=98 | 32 x + 98 = | 32:bale x:bale +:bale 98:bale =:bale
+EXPR: 0 | POS | INT | 2 | 66 | 130 | (x-32)=98 | x 32 - 98 = | x:bale 32:bale -:bale 98:bale =:bale
+EXPR: 0 | POS | INT | 4 | 66 | 130 | 98=(x-32) | 98 x 32 - = | 98:bale x:bale 32:bale -:bale =:bale
+EXPR: 1 | POS | INT | 4 | 66 | 66 | (98-x)=32 | 98 x - 32 = | 98:bale x:bale -:bale 32:bale =:bale
+EXPR: 0 | POS | INT | 4 | 66 | 130 | (x-98)=32 | x 98 - 32 = | x:bale 98:bale -:bale 32:bale =:bale
+EXPR: 1 | POS | INT | 4 | 66 | 66 | 98=(32+x) | 98 32 x + = | 98:bale 32:bale x:bale +:bale =:bale
+EXPR: 1 | POS | INT | 4 | 66 | 66 | 98=(x+32) | 98 x 32 + = | 98:bale x:bale 32:bale +:bale =:bale
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

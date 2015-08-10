@@ -1,0 +1,33 @@
+parameters: n=9 l=4 k=1 p=5 q=3 m=10
+TOTAL 231 solutions found
+EXPR: 0 | POS | INT | 22 | 286 | 390 | 13=((x/(9*10))*3) | 13 x 9 10 * / 3 * = | 13:dollar x:money 9:dollar 10:hour *:dollar /:money 3:dollar *:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 286 | - | 9=((13-(10+3))*x) | 9 13 10 3 + - x * = | 9:hour 13:hour 10:hour 3:hour +:hour -:hour x:money *:hour =:hour
+EXPR: 0 | POS | INT | 22 | 286 | 390 | 13=((x/(9*10))*3) | 13 x 9 10 * / 3 * = | 13:dollar x:dollar 9:money 10:hour *:hour /:dollar 3:hour *:dollar =:dollar
+EXPR: 0 | POS | INT | 32 | 286 | 361 | (13*9)=((x-10)/3) | 13 9 * x 10 - 3 / = | 13:dollar 9:hour *:hour x:hour 10:hour -:hour 3:money /:hour =:hour
+EXPR: 0 | POS | INT | 32 | 286 | 39 | 13=(((10-9)/3)*x) | 13 10 9 - 3 / x * = | 13:dollar 10:dollar 9:dollar -:dollar 3:hour /:dollar x:money *:dollar =:dollar
+EXPR: 0 | POS | INT | 37 | 286 | 390 | 13=(3/((9/x)*10)) | 13 3 9 x / 10 * / = | 13:dollar 3:dollar 9:dollar x:money /:dollar 10:hour *:hour /:dollar =:dollar
+EXPR: 0 | POS | INT | 37 | 286 | 87 | 10=(((13*9)-x)/3) | 10 13 9 * x - 3 / = | 10:hour 13:dollar 9:hour *:hour x:hour -:hour 3:dollar /:hour =:hour
+EXPR: 0 | POS | INT | 42 | 286 | 29 | (13*(9/3))=(10+x) | 13 9 3 / * 10 x + = | 13:dollar 9:hour 3:money /:hour *:hour 10:hour x:hour +:hour =:hour
+EXPR: 0 | POS | INT | 42 | 286 | 9 | (13*9)=((10+3)*x) | 13 9 * 10 3 + x * = | 13:dollar 9:hour *:hour 10:money 3:money +:money x:hour *:hour =:hour
+EXPR: 0 | POS | INT | 42 | 286 | 39 | 13=(((10-9)/3)*x) | 13 10 9 - 3 / x * = | 13:dollar 10:dollar 9:dollar -:dollar 3:money /:dollar x:money *:dollar =:dollar
+EXPR: 0 | POS | INT | 42 | 286 | 39 | 13=(((10-9)/3)*x) | 13 10 9 - 3 / x * = | 13:dollar 10:dollar 9:dollar -:dollar 3:hour /:dollar x:hour *:dollar =:dollar
+EXPR: 0 | POS | INT | 42 | 286 | 1 | (13-10)=((9/3)*x) | 13 10 - 9 3 / x * = | 13:dollar 10:dollar -:dollar 9:dollar 3:hour /:dollar x:money *:dollar =:dollar
+EXPR: 0 | POS | INT | 42 | 286 | 9 | ((13+x)-(9+10))=3 | 13 x + 9 10 + - 3 = | 13:dollar x:dollar +:dollar 9:dollar 10:dollar +:dollar -:dollar 3:dollar =:dollar
+EXPR: 0 | POS | INT | 42 | 286 | 38 | 10=((13*3)-(x-9)) | 10 13 3 * x 9 - - = | 10:hour 13:dollar 3:hour *:hour x:hour 9:hour -:hour -:hour =:hour
+EXPR: 0 | POS | INT | 47 | 286 | 0 | 10=((13-(9/3))-x) | 10 13 9 3 / - x - = | 10:dollar 13:dollar 9:dollar 3:hour /:dollar -:dollar x:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 52 | 286 | 223 | 3=(x-((13+9)*10)) | 3 x 13 9 + 10 * - = | 3:hour x:hour 13:money 9:money +:money 10:hour *:hour -:hour =:hour
+EXPR: 0 | POS | INT | 52 | 286 | 390 | (3/((13/x)*10))=9 | 3 13 x / 10 * / 9 = | 3:hour 13:money x:hour /:money 10:hour *:money /:hour 9:hour =:hour
+EXPR: 0 | POS | INT | 52 | 286 | 9 | (13-(10*(x/9)))=3 | 13 10 x 9 / * - 3 = | 13:hour 10:money x:hour 9:money /:hour *:hour -:hour 3:hour =:hour
+EXPR: 0 | POS | INT | 52 | 286 | 1 | (13-10)=((9/3)*x) | 13 10 - 9 3 / x * = | 13:dollar 10:dollar -:dollar 9:dollar 3:money /:dollar x:money *:dollar =:dollar
+EXPR: 0 | POS | INT | 57 | 286 | 900 | (9*10)=(x/(13-3)) | 9 10 * x 13 3 - / = | 9:hour 10:money *:money x:money 13:hour 3:hour -:hour /:money =:money
+EXPR: 0 | POS | INT | 57 | 286 | 10 | 13=(((10/x)+3)+9) | 13 10 x / 3 + 9 + = | 13:dollar 10:dollar x:money /:dollar 3:dollar +:dollar 9:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 62 | 286 | 9 | 9=(((13-3)*x)/10) | 9 13 3 - x * 10 / = | 9:hour 13:money 3:money -:money x:hour *:hour 10:dollar /:hour =:hour
+EXPR: 0 | POS | INT | 67 | 286 | 3 | (x*13)=((10*3)+9) | x 13 * 10 3 * 9 + = | x:dollar 13:hour *:hour 10:dollar 3:hour *:hour 9:hour +:hour =:hour
+EXPR: 0 | POS | INT | 67 | 286 | 1521 | 10=((x/(13*9))-3) | 10 x 13 9 * / 3 - = | 10:dollar x:dollar 13:hour 9:money *:hour /:dollar 3:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 67 | 286 | 819 | 10=((x/(13*9))+3) | 10 x 13 9 * / 3 + = | 10:dollar x:dollar 13:hour 9:money *:hour /:dollar 3:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 72 | 286 | 9 | 10=(((13-3)*x)/9) | 10 13 3 - x * 9 / = | 10:hour 13:money 3:money -:money x:hour *:hour 9:dollar /:hour =:hour
+EXPR: 0 | POS | INT | 72 | 286 | 69 | ((3*x)/(13+10))=9 | 3 x * 13 10 + / 9 = | 3:dollar x:hour *:hour 13:money 10:money +:money /:hour 9:hour =:hour
+EXPR: 0 | POS | INT | 77 | 286 | 39 | 3=(x/((10-9)*13)) | 3 x 10 9 - 13 * / = | 3:hour x:hour 10:money 9:money -:money 13:dollar *:dollar /:hour =:hour
+EXPR: 0 | POS | INT | 77 | 286 | 49 | ((3/9)*(x-10))=13 | 3 9 / x 10 - * 13 = | 3:hour 9:dollar /:hour x:dollar 10:dollar -:dollar *:dollar 13:dollar =:dollar
+EXPR: 0 | POS | INT | 87 | 286 | 110 | 10=((3+(13*9))-x) | 10 3 13 9 * + x - = | 10:dollar 3:dollar 13:money 9:dollar *:dollar +:dollar x:dollar -:dollar =:dollar
+NET 30 non-negative, integer-valued solutions found out of 231 total solutions

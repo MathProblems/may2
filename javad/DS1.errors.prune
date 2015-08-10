@@ -1,0 +1,71 @@
+ Jason found 49 seashells and 48 starfish on the beach  . He gave 13 of the seashells to Tim  . How many seashells does Jason now have  ? 
+ee
+[(2, 'seashell', '49'), (5, 'starfish', '48'), (8, 'beach', 'the'), (1002, 'seashell', '13'), (1004, 'seashell', 'the'), (2002, 'seashell', 'x')]
+[(2, 'seashell', '49'), (5, 'starfish', '48'), (8, 'beach', 'the'), (1002, 'seashell', '13'), (1004, 'seashell', 'the'), (2002, 'seashell', 'x')]
+c
+[(2, 'seashell', '49'), (5, 'starfish', '48'), (8, 'beach', 'the'), (1002, 'seashell', '13'), (1004, 'seashell', 'the'), (2002, 'seashell', 'x')]
+units and bare sets
+[(2, 'seashell', '49'), (5, 'starfish', '48'), (8, 'beach', 'the'), (1002, 'seashell', '13'), (1004, 'seashell', 'the'), (2002, 'seashell', 'x')]
+eac
+[(2, 'seashell', '49'), (5, 'starfish', '48'), (8, 'beach', 'the'), (1002, 'seashell', '13'), (1004, 'seashell', 'the'), (2002, 'seashell', 'x')]
+mov x
+[(2, 'seashell', '49'), (5, 'starfish', '48'), (8, 'beach', 'the'), (1002, 'seashell', '13'), (1004, 'seashell', 'the'), (1004, 'seashell', 'x')]
+target entity fix
+_____________
+adjs : None
+compound : 0
+container : Jason
+contains : None
+entity : seashell
+idx : 2
+location : None
+num : 49
+origs : 0
+role : do
+subset : 0
+subtypes : []
+surface : seashells
+type_failure : 0
+verbs : found
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : seashell
+contains : None
+entity : seashell
+idx : 1002
+location : None
+num : 13
+origs : 1
+role : other
+subset : 0
+subtypes : []
+surface : seashells
+type_failure : 0
+verbs : give
+widx : 6
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : seashell
+idx : 1004
+location : None
+num : x
+origs : 2
+role : other
+subset : 0
+subtypes : []
+surface : seashells
+type_failure : 0
+verbs : do have
+widx : 3
+_____________
+
+dict_items([('49', (0, <makesets.aset object at 0x1099330f0>)), ('x', (0, <makesets.aset object at 0x109933320>)), ('13', (0, <makesets.aset object at 0x1099332e8>))])

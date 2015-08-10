@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 64 | 126 | x=(31+95) | x 31 95 + = | x:tree 31:tree 95:tree +:tree =:tree
+EXPR: 0 | POS | INT | 0 | 64 | 126 | (31+95)=x | 31 95 + x = | 31:tree 95:tree +:tree x:tree =:tree
+EXPR: 1 | POS | INT | 2 | 64 | 64 | (x+31)=95 | x 31 + 95 = | x:tree 31:tree +:tree 95:tree =:tree
+EXPR: 1 | POS | INT | 2 | 64 | 64 | 31=(95-x) | 31 95 x - = | 31:tree 95:tree x:tree -:tree =:tree
+EXPR: 1 | POS | INT | 2 | 64 | 64 | x=(95-31) | x 95 31 - = | x:tree 95:tree 31:tree -:tree =:tree
+EXPR: 1 | POS | INT | 2 | 64 | 64 | (95-31)=x | 95 31 - x = | 95:tree 31:tree -:tree x:tree =:tree
+EXPR: 0 | POS | INT | 2 | 64 | 126 | 31=(x-95) | 31 x 95 - = | 31:tree x:tree 95:tree -:tree =:tree
+EXPR: 1 | POS | INT | 2 | 64 | 64 | (31+x)=95 | 31 x + 95 = | 31:tree x:tree +:tree 95:tree =:tree
+EXPR: 0 | POS | INT | 2 | 64 | 126 | (x-31)=95 | x 31 - 95 = | x:tree 31:tree -:tree 95:tree =:tree
+EXPR: 0 | POS | INT | 4 | 64 | 126 | 95=(x-31) | 95 x 31 - = | 95:tree x:tree 31:tree -:tree =:tree
+EXPR: 1 | POS | INT | 4 | 64 | 64 | (95-x)=31 | 95 x - 31 = | 95:tree x:tree -:tree 31:tree =:tree
+EXPR: 0 | POS | INT | 4 | 64 | 126 | (x-95)=31 | x 95 - 31 = | x:tree 95:tree -:tree 31:tree =:tree
+EXPR: 1 | POS | INT | 4 | 64 | 64 | 95=(31+x) | 95 31 x + = | 95:tree 31:tree x:tree +:tree =:tree
+EXPR: 1 | POS | INT | 4 | 64 | 64 | 95=(x+31) | 95 x 31 + = | 95:tree x:tree 31:tree +:tree =:tree
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

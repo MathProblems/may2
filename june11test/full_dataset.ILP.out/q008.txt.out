@@ -1,0 +1,33 @@
+parameters: n=7 l=3 k=1 p=5 q=2 m=9
+TOTAL 100 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 5 | 137 | x=(2+(5*27)) | x 2 5 27 * + = | x:dollar 2:dollar 5:bar 27:dollar *:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 0 | 5 | 37 | x=((2*5)+27) | x 2 5 * 27 + = | x:dollar 2:dollar 5:bar *:dollar 27:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 1 | 5 | 37 | x=((2*5)+27) | x 2 5 * 27 + = | x:dollar 2:dollar 5:bar *:dollar 27:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 1 | 5 | 137 | x=(2+(5*27)) | x 2 5 27 * + = | x:dollar 2:dollar 5:bar 27:dollar *:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 2 | 5 | 137 | 2=(x-(5*27)) | 2 x 5 27 * - = | 2:dollar x:dollar 5:bar 27:dollar *:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 2 | 5 | 270 | 2=(x/(5*27)) | 2 x 5 27 * / = | 2:dollar x:dollar 5:bar 27:dollar *:bar /:dollar =:dollar
+EXPR: 0 | POS | INT | 2 | 5 | 270 | (x/(2*5))=27 | x 2 5 * / 27 = | x:dollar 2:dollar 5:bar *:bar /:dollar 27:dollar =:dollar
+EXPR: 0 | POS | INT | 2 | 5 | 145 | 2=((x/5)-27) | 2 x 5 / 27 - = | 2:dollar x:dollar 5:bar /:dollar 27:dollar -:dollar =:dollar
+EXPR: 1 | POS | INT | 2 | 5 | 5 | (2+(x*5))=27 | 2 x 5 * + 27 = | 2:dollar x:dollar 5:bar *:dollar +:dollar 27:dollar =:dollar
+EXPR: 0 | POS | INT | 2 | 5 | 133 | ((x+2)/5)=27 | x 2 + 5 / 27 = | x:dollar 2:dollar +:dollar 5:bar /:dollar 27:dollar =:dollar
+EXPR: 0 | POS | INT | 2 | 5 | 137 | ((x-2)/5)=27 | x 2 - 5 / 27 = | x:dollar 2:dollar -:dollar 5:bar /:dollar 27:dollar =:dollar
+EXPR: 0 | POS | INT | 2 | 5 | 133 | 2=((5*27)-x) | 2 5 27 * x - = | 2:dollar 5:bar 27:dollar *:dollar x:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 2 | 5 | 133 | ((2+x)/5)=27 | 2 x + 5 / 27 = | 2:dollar x:dollar +:dollar 5:bar /:dollar 27:dollar =:dollar
+EXPR: 0 | POS | INT | 2 | 5 | 37 | (x-(2*5))=27 | x 2 5 * - 27 = | x:dollar 2:dollar 5:bar *:dollar -:dollar 27:dollar =:dollar
+EXPR: 0 | POS | INT | 2 | 5 | 17 | (x+(2*5))=27 | x 2 5 * + 27 = | x:dollar 2:dollar 5:bar *:dollar +:dollar 27:dollar =:dollar
+EXPR: 0 | POS | INT | 2 | 5 | 125 | (2+(x/5))=27 | 2 x 5 / + 27 = | 2:dollar x:dollar 5:bar /:dollar +:dollar 27:dollar =:dollar
+EXPR: 0 | POS | INT | 2 | 5 | 17 | ((2*5)+x)=27 | 2 5 * x + 27 = | 2:dollar 5:bar *:dollar x:dollar +:dollar 27:dollar =:dollar
+EXPR: 1 | POS | INT | 2 | 5 | 5 | (2+(5*x))=27 | 2 5 x * + 27 = | 2:dollar 5:bar x:dollar *:dollar +:dollar 27:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 5 | 145 | x=((2+27)*5) | x 2 27 + 5 * = | x:dollar 2:dollar 27:dollar +:dollar 5:bar *:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 5 | 145 | x=(5*(2+27)) | x 5 2 27 + * = | x:dollar 5:bar 2:dollar 27:dollar +:dollar *:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 5 | 24 | x=(2-(5-27)) | x 2 5 27 - - = | x:dollar 2:dollar 5:dollar 27:dollar -:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 5 | 34 | x=(2+(5+27)) | x 2 5 27 + + = | x:dollar 2:dollar 5:dollar 27:dollar +:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 5 | 24 | x=((2-5)+27) | x 2 5 - 27 + = | x:dollar 2:dollar 5:dollar -:dollar 27:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 5 | 34 | x=((2+5)+27) | x 2 5 + 27 + = | x:dollar 2:dollar 5:dollar +:dollar 27:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 5 | 64 | x=(2*(5+27)) | x 2 5 27 + * = | x:dollar 2:dollar 5:bar 27:bar +:bar *:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 5 | 189 | x=((2+5)*27) | x 2 5 + 27 * = | x:dollar 2:bar 5:bar +:bar 27:dollar *:dollar =:dollar
+EXPR: 0 | POS | INT | 11 | 5 | 145 | x=((2+27)*5) | x 2 27 + 5 * = | x:dollar 2:dollar 27:dollar +:dollar 5:bar *:dollar =:dollar
+EXPR: 0 | POS | INT | 11 | 5 | 34 | x=(2+(5+27)) | x 2 5 27 + + = | x:dollar 2:dollar 5:dollar 27:dollar +:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 11 | 5 | 24 | x=((2-5)+27) | x 2 5 - 27 + = | x:dollar 2:dollar 5:dollar -:dollar 27:dollar +:dollar =:dollar
+NET 29 non-negative, integer-valued solutions found out of 100 total solutions

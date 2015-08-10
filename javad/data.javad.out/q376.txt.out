@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 22 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 71 | 99 | x=(14+85) | x 14 85 + = | x:peach 14:peach 85:peach +:peach =:peach
+EXPR: 0 | POS | INT | 1 | 71 | 99 | x=(14+85) | x 14 85 + = | x:peach 14:peach 85:peach +:peach =:peach
+EXPR: 1 | POS | INT | 2 | 71 | 71 | (14+x)=85 | 14 x + 85 = | 14:peach x:peach +:peach 85:peach =:peach
+EXPR: 0 | POS | INT | 2 | 71 | 99 | (x-14)=85 | x 14 - 85 = | x:peach 14:peach -:peach 85:peach =:peach
+EXPR: 1 | POS | INT | 2 | 71 | 71 | (x+14)=85 | x 14 + 85 = | x:peach 14:peach +:peach 85:peach =:peach
+EXPR: 1 | POS | INT | 2 | 71 | 71 | 14=(85-x) | 14 85 x - = | 14:peach 85:peach x:peach -:peach =:peach
+EXPR: 0 | POS | INT | 2 | 71 | 99 | 14=(x-85) | 14 x 85 - = | 14:peach x:peach 85:peach -:peach =:peach
+EXPR: 1 | POS | INT | 10 | 71 | 71 | x=(85-14) | x 85 14 - = | x:peach 85:peach 14:peach -:peach =:peach
+EXPR: 1 | POS | INT | 11 | 71 | 71 | x=(85-14) | x 85 14 - = | x:peach 85:peach 14:peach -:peach =:peach
+EXPR: 1 | POS | INT | 12 | 71 | 71 | 85=(x+14) | 85 x 14 + = | 85:peach x:peach 14:peach +:peach =:peach
+EXPR: 0 | POS | INT | 12 | 71 | 99 | 85=(x-14) | 85 x 14 - = | 85:peach x:peach 14:peach -:peach =:peach
+EXPR: 1 | POS | INT | 12 | 71 | 71 | (85-x)=14 | 85 x - 14 = | 85:peach x:peach -:peach 14:peach =:peach
+EXPR: 0 | POS | INT | 12 | 71 | 99 | (x-85)=14 | x 85 - 14 = | x:peach 85:peach -:peach 14:peach =:peach
+EXPR: 1 | POS | INT | 12 | 71 | 71 | 85=(14+x) | 85 14 x + = | 85:peach 14:peach x:peach +:peach =:peach
+NET 14 non-negative, integer-valued solutions found out of 22 total solutions

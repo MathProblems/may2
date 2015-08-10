@@ -1,0 +1,11 @@
+parameters: n=3 l=1 k=1 p=5 q=2 m=7
+TOTAL 8 solutions found
+EXPR: 0 | POS | INT | 0 | 8 | 24 | x=24 | x 24 = | x:crayon 24:crayon =:crayon
+EXPR: 0 | POS | INT | 0 | 8 | 24 | 24=x | 24 x = | 24:crayon x:crayon =:crayon
+EXPR: 0 | POS | INT | 1 | 8 | 24 | x=24 | x 24 = | x:crayon 24:crayon =:crayon
+EXPR: 0 | POS | INT | 1 | 8 | 24 | 24=x | 24 x = | 24:crayon x:crayon =:crayon
+EXPR: 0 | POS | INT | 10 | 8 | 24 | 24=x | 24 x = | 24:NONE x:NONE =:NONE
+EXPR: 0 | POS | INT | 10 | 8 | 24 | x=24 | x 24 = | x:NONE 24:NONE =:NONE
+EXPR: 0 | POS | INT | 11 | 8 | 24 | 24=x | 24 x = | 24:NONE x:NONE =:NONE
+EXPR: 0 | POS | INT | 11 | 8 | 24 | x=24 | x 24 = | x:NONE 24:NONE =:NONE
+NET 8 non-negative, integer-valued solutions found out of 8 total solutions

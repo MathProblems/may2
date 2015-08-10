@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 56 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 8 | 2 | x=(4-2) | x 4 2 - = | x:child 4:child 2:child -:child =:child
+EXPR: 0 | POS | INT | 0 | 8 | 6 | (4+2)=x | 4 2 + x = | 4:child 2:child +:child x:child =:child
+EXPR: 0 | POS | INT | 0 | 8 | 2 | x=(4/2) | x 4 2 / = | x:child 4:child 2:child /:child =:child
+EXPR: 0 | POS | INT | 0 | 8 | 2 | (4/2)=x | 4 2 / x = | 4:child 2:child /:child x:child =:child
+EXPR: 1 | POS | INT | 0 | 8 | 8 | (4*2)=x | 4 2 * x = | 4:child 2:child *:child x:child =:child
+EXPR: 0 | POS | INT | 0 | 8 | 2 | (4-2)=x | 4 2 - x = | 4:child 2:child -:child x:child =:child
+EXPR: 0 | POS | INT | 0 | 8 | 6 | x=(4+2) | x 4 2 + = | x:child 4:child 2:child +:child =:child
+EXPR: 1 | POS | INT | 0 | 8 | 8 | x=(4*2) | x 4 2 * = | x:child 4:child 2:child *:child =:child
+EXPR: 0 | POS | INT | 2 | 8 | 6 | 4=(x-2) | 4 x 2 - = | 4:child x:child 2:child -:child =:child
+EXPR: 1 | POS | INT | 2 | 8 | 8 | 4=(x/2) | 4 x 2 / = | 4:child x:child 2:child /:child =:child
+EXPR: 0 | POS | INT | 2 | 8 | 2 | 4=(2*x) | 4 2 x * = | 4:child 2:child x:child *:child =:child
+EXPR: 0 | POS | INT | 2 | 8 | 2 | 4=(x+2) | 4 x 2 + = | 4:child x:child 2:child +:child =:child
+EXPR: 0 | POS | INT | 2 | 8 | 2 | (4/x)=2 | 4 x / 2 = | 4:child x:child /:child 2:child =:child
+EXPR: 0 | POS | INT | 2 | 8 | 2 | 4=(2+x) | 4 2 x + = | 4:child 2:child x:child +:child =:child
+EXPR: 0 | POS | INT | 2 | 8 | 2 | (4-x)=2 | 4 x - 2 = | 4:child x:child -:child 2:child =:child
+EXPR: 0 | POS | INT | 2 | 8 | 2 | 4=(x*2) | 4 x 2 * = | 4:child x:child 2:child *:child =:child
+EXPR: 0 | POS | INT | 2 | 8 | 6 | (x-4)=2 | x 4 - 2 = | x:child 4:child -:child 2:child =:child
+EXPR: 1 | POS | INT | 2 | 8 | 8 | (x/4)=2 | x 4 / 2 = | x:child 4:child /:child 2:child =:child
+EXPR: 0 | POS | INT | 4 | 8 | 6 | 2=(x-4) | 2 x 4 - = | 2:child x:child 4:child -:child =:child
+EXPR: 0 | POS | INT | 4 | 8 | 2 | (2*x)=4 | 2 x * 4 = | 2:child x:child *:child 4:child =:child
+EXPR: 0 | POS | INT | 4 | 8 | 2 | (x+2)=4 | x 2 + 4 = | x:child 2:child +:child 4:child =:child
+EXPR: 0 | POS | INT | 4 | 8 | 2 | 2=(4-x) | 2 4 x - = | 2:child 4:child x:child -:child =:child
+EXPR: 0 | POS | INT | 4 | 8 | 2 | 2=(4/x) | 2 4 x / = | 2:child 4:child x:child /:child =:child
+EXPR: 1 | POS | INT | 4 | 8 | 8 | 2=(x/4) | 2 x 4 / = | 2:child x:child 4:child /:child =:child
+EXPR: 0 | POS | INT | 4 | 8 | 2 | (2+x)=4 | 2 x + 4 = | 2:child x:child +:child 4:child =:child
+EXPR: 0 | POS | INT | 4 | 8 | 2 | (x*2)=4 | x 2 * 4 = | x:child 2:child *:child 4:child =:child
+EXPR: 1 | POS | INT | 4 | 8 | 8 | (x/2)=4 | x 2 / 4 = | x:child 2:child /:child 4:child =:child
+EXPR: 0 | POS | INT | 4 | 8 | 6 | (x-2)=4 | x 2 - 4 = | x:child 2:child -:child 4:child =:child
+NET 28 unique, non-negative, integer-valued solutions found out of 56 total solutions

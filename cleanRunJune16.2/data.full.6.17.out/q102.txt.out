@@ -1,0 +1,28 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 288 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 9 | 45 | (1*45)=x | 1 45 * x = | 1:people 45:LENGTH *:LENGTH x:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 10 | 9 | 45 | x=(1*45) | x 1 45 * = | x:LENGTH 1:LENGTH 45:hour *:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 12 | 9 | 45 | (1*x)=45 | 1 x * 45 = | 1:people x:LENGTH *:people 45:people =:people
+EXPR: 0 | POS | INT | 12 | 9 | 45 | 1=(45/x) | 1 45 x / = | 1:hour 45:hour x:LENGTH /:hour =:hour
+EXPR: 0 | POS | INT | 12 | 9 | 45 | 1=(x/45) | 1 x 45 / = | 1:LENGTH x:LENGTH 45:hour /:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 12 | 9 | 45 | (x*1)=45 | x 1 * 45 = | x:LENGTH 1:people *:people 45:people =:people
+EXPR: 0 | POS | INT | 14 | 9 | 45 | 45=(x*1) | 45 x 1 * = | 45:LENGTH x:LENGTH 1:people *:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 14 | 9 | 45 | 45=(1*x) | 45 1 x * = | 45:hour 1:people x:hour *:hour =:hour
+EXPR: 0 | POS | INT | 14 | 9 | 45 | (x/45)=1 | x 45 / 1 = | x:LENGTH 45:hour /:LENGTH 1:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 14 | 9 | 45 | (45/x)=1 | 45 x / 1 = | 45:people x:LENGTH /:people 1:people =:people
+EXPR: 0 | POS | INT | 20 | 9 | 46 | x=(1+45) | x 1 45 + = | x:hour 1:hour 45:hour +:hour =:hour
+EXPR: 0 | POS | INT | 20 | 9 | 46 | (1+45)=x | 1 45 + x = | 1:hour 45:hour +:hour x:hour =:hour
+EXPR: 0 | POS | INT | 22 | 9 | 44 | (x+1)=45 | x 1 + 45 = | x:hour 1:hour +:hour 45:hour =:hour
+EXPR: 0 | POS | INT | 22 | 9 | 44 | (45-1)=x | 45 1 - x = | 45:hour 1:hour -:hour x:hour =:hour
+EXPR: 0 | POS | INT | 22 | 9 | 44 | x=(45-1) | x 45 1 - = | x:people 45:people 1:people -:people =:people
+EXPR: 0 | POS | INT | 22 | 9 | 44 | (1+x)=45 | 1 x + 45 = | 1:people x:people +:people 45:people =:people
+EXPR: 0 | POS | INT | 22 | 9 | 44 | 1=(45-x) | 1 45 x - = | 1:hour 45:hour x:hour -:hour =:hour
+EXPR: 0 | POS | INT | 22 | 9 | 46 | 1=(x-45) | 1 x 45 - = | 1:people x:people 45:people -:people =:people
+EXPR: 0 | POS | INT | 22 | 9 | 46 | (x-1)=45 | x 1 - 45 = | x:hour 1:hour -:hour 45:hour =:hour
+EXPR: 0 | POS | INT | 24 | 9 | 44 | 45=(x+1) | 45 x 1 + = | 45:LENGTH x:LENGTH 1:LENGTH +:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 24 | 9 | 46 | (x-45)=1 | x 45 - 1 = | x:hour 45:hour -:hour 1:hour =:hour
+EXPR: 0 | POS | INT | 24 | 9 | 44 | (45-x)=1 | 45 x - 1 = | 45:people x:people -:people 1:people =:people
+EXPR: 0 | POS | INT | 24 | 9 | 46 | 45=(x-1) | 45 x 1 - = | 45:LENGTH x:LENGTH 1:LENGTH -:LENGTH =:LENGTH
+EXPR: 0 | POS | INT | 24 | 9 | 44 | 45=(1+x) | 45 1 x + = | 45:hour 1:hour x:hour +:hour =:hour
+NET 24 unique, non-negative, integer-valued solutions found out of 288 total solutions

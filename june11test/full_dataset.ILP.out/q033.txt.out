@@ -1,0 +1,43 @@
+parameters: n=7 l=3 k=1 p=5 q=2 m=9
+TOTAL 100 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 2 | 12 | 7 | 7=((3-2)*x) | 7 3 2 - x * = | 7:tree 3:tree 2:tree -:tree x:dogwood *:tree =:tree
+EXPR: 0 | POS | INT | 2 | 12 | 3 | 7=((3*x)-2) | 7 3 x * 2 - = | 7:tree 3:tree x:dogwood *:tree 2:tree -:tree =:tree
+EXPR: 0 | POS | INT | 2 | 12 | 2 | 7=(3+(2*x)) | 7 3 2 x * + = | 7:tree 3:tree 2:tree x:dogwood *:tree +:tree =:tree
+EXPR: 0 | POS | INT | 2 | 12 | 2 | 7=(3+(x*2)) | 7 3 x 2 * + = | 7:tree 3:tree x:dogwood 2:tree *:tree +:tree =:tree
+EXPR: 0 | POS | INT | 2 | 12 | 7 | 7=(x*(3-2)) | 7 x 3 2 - * = | 7:tree x:dogwood 3:tree 2:tree -:tree *:tree =:tree
+EXPR: 0 | POS | INT | 2 | 12 | 3 | 7=((x*3)-2) | 7 x 3 * 2 - = | 7:tree x:dogwood 3:tree *:tree 2:tree -:tree =:tree
+EXPR: 0 | POS | INT | 2 | 12 | 5 | ((7+3)/x)=2 | 7 3 + x / 2 = | 7:tree 3:tree +:tree x:dogwood /:tree 2:tree =:tree
+EXPR: 0 | POS | INT | 2 | 12 | 2 | ((7-3)/x)=2 | 7 3 - x / 2 = | 7:tree 3:tree -:tree x:dogwood /:tree 2:tree =:tree
+EXPR: 0 | POS | INT | 10 | 12 | 6 | x=((7-3)+2) | x 7 3 - 2 + = | x:tree 7:tree 3:tree -:tree 2:tree +:tree =:tree
+EXPR: 0 | POS | INT | 10 | 12 | 8 | x=((7+3)-2) | x 7 3 + 2 - = | x:tree 7:tree 3:tree +:tree 2:tree -:tree =:tree
+EXPR: 0 | POS | INT | 10 | 12 | 6 | x=(7-(3-2)) | x 7 3 2 - - = | x:tree 7:tree 3:tree 2:tree -:tree -:tree =:tree
+EXPR: 0 | POS | INT | 10 | 12 | 8 | x=(7+(3-2)) | x 7 3 2 - + = | x:tree 7:tree 3:tree 2:tree -:tree +:tree =:tree
+EXPR: 1 | POS | INT | 10 | 12 | 12 | x=(7+(3+2)) | x 7 3 2 + + = | x:tree 7:tree 3:tree 2:tree +:tree +:tree =:tree
+EXPR: 0 | POS | INT | 10 | 12 | 2 | x=(7-(3+2)) | x 7 3 2 + - = | x:tree 7:tree 3:tree 2:tree +:tree -:tree =:tree
+EXPR: 0 | POS | INT | 10 | 12 | 7 | x=(7*(3-2)) | x 7 3 2 - * = | x:dogwood 7:dogwood 3:tree 2:tree -:tree *:dogwood =:dogwood
+EXPR: 0 | POS | INT | 10 | 12 | 7 | x=(7/(3-2)) | x 7 3 2 - / = | x:dogwood 7:dogwood 3:tree 2:tree -:tree /:dogwood =:dogwood
+EXPR: 0 | POS | INT | 10 | 12 | 20 | x=((7+3)*2) | x 7 3 + 2 * = | x:dogwood 7:tree 3:tree +:tree 2:dogwood *:dogwood =:dogwood
+EXPR: 0 | POS | INT | 10 | 12 | 35 | x=(7*(3+2)) | x 7 3 2 + * = | x:dogwood 7:dogwood 3:tree 2:tree +:tree *:dogwood =:dogwood
+EXPR: 1 | POS | INT | 10 | 12 | 12 | x=((7+3)+2) | x 7 3 + 2 + = | x:tree 7:tree 3:tree +:tree 2:tree +:tree =:tree
+EXPR: 0 | POS | INT | 10 | 12 | 2 | x=((7-3)-2) | x 7 3 - 2 - = | x:tree 7:tree 3:tree -:tree 2:tree -:tree =:tree
+EXPR: 0 | POS | INT | 10 | 12 | 8 | x=((7-3)*2) | x 7 3 - 2 * = | x:dogwood 7:tree 3:tree -:tree 2:dogwood *:dogwood =:dogwood
+EXPR: 0 | POS | INT | 11 | 12 | 6 | x=((7-3)+2) | x 7 3 - 2 + = | x:tree 7:tree 3:tree -:tree 2:tree +:tree =:tree
+EXPR: 0 | POS | INT | 11 | 12 | 8 | x=(7+(3-2)) | x 7 3 2 - + = | x:tree 7:tree 3:tree 2:tree -:tree +:tree =:tree
+EXPR: 0 | POS | INT | 11 | 12 | 2 | x=(7-(3+2)) | x 7 3 2 + - = | x:tree 7:tree 3:tree 2:tree +:tree -:tree =:tree
+EXPR: 0 | POS | INT | 11 | 12 | 8 | x=((7+3)-2) | x 7 3 + 2 - = | x:tree 7:tree 3:tree +:tree 2:tree -:tree =:tree
+EXPR: 1 | POS | INT | 11 | 12 | 12 | x=(7+(3+2)) | x 7 3 2 + + = | x:tree 7:tree 3:tree 2:tree +:tree +:tree =:tree
+EXPR: 0 | POS | INT | 11 | 12 | 20 | x=((7+3)*2) | x 7 3 + 2 * = | x:dogwood 7:tree 3:tree +:tree 2:dogwood *:dogwood =:dogwood
+EXPR: 0 | POS | INT | 11 | 12 | 7 | x=(7*(3-2)) | x 7 3 2 - * = | x:dogwood 7:dogwood 3:tree 2:tree -:tree *:dogwood =:dogwood
+EXPR: 0 | POS | INT | 11 | 12 | 35 | x=(7*(3+2)) | x 7 3 2 + * = | x:dogwood 7:dogwood 3:tree 2:tree +:tree *:dogwood =:dogwood
+EXPR: 1 | POS | INT | 11 | 12 | 12 | x=((7+3)+2) | x 7 3 + 2 + = | x:tree 7:tree 3:tree +:tree 2:tree +:tree =:tree
+EXPR: 0 | POS | INT | 11 | 12 | 6 | x=(7-(3-2)) | x 7 3 2 - - = | x:tree 7:tree 3:tree 2:tree -:tree -:tree =:tree
+EXPR: 0 | POS | INT | 11 | 12 | 2 | x=((7-3)-2) | x 7 3 - 2 - = | x:tree 7:tree 3:tree -:tree 2:tree -:tree =:tree
+EXPR: 0 | POS | INT | 11 | 12 | 8 | x=((7-3)*2) | x 7 3 - 2 * = | x:dogwood 7:tree 3:tree -:tree 2:dogwood *:dogwood =:dogwood
+EXPR: 0 | POS | INT | 11 | 12 | 7 | x=(7/(3-2)) | x 7 3 2 - / = | x:dogwood 7:dogwood 3:tree 2:tree -:tree /:dogwood =:dogwood
+EXPR: 0 | POS | INT | 12 | 12 | 7 | 7=(x*(3-2)) | 7 x 3 2 - * = | 7:dogwood x:dogwood 3:tree 2:tree -:tree *:dogwood =:dogwood
+EXPR: 0 | POS | INT | 12 | 12 | 5 | 7=((2*x)-3) | 7 2 x * 3 - = | 7:tree 2:tree x:dogwood *:tree 3:tree -:tree =:tree
+EXPR: 0 | POS | INT | 12 | 12 | 3 | ((x*3)-7)=2 | x 3 * 7 - 2 = | x:dogwood 3:tree *:tree 7:tree -:tree 2:tree =:tree
+EXPR: 0 | POS | INT | 12 | 12 | 3 | ((3*x)-7)=2 | 3 x * 7 - 2 = | 3:tree x:dogwood *:tree 7:tree -:tree 2:tree =:tree
+EXPR: 0 | POS | INT | 12 | 12 | 6 | 7=(3+(x-2)) | 7 3 x 2 - + = | 7:tree 3:tree x:tree 2:tree -:tree +:tree =:tree
+NET 39 non-negative, integer-valued solutions found out of 100 total solutions

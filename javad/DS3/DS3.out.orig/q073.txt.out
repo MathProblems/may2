@@ -1,0 +1,7 @@
+parameters: n=9 l=4 k=1 p=5 q=3 m=10
+TOTAL 6 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 16 | 48 | (((7-5)+4)*8)=x | 7 5 - 4 + 8 * x = | 7:tree 5:tree -:tree 4:tree +:tree 8:dogwood *:dogwood x:dogwood =:dogwood
+EXPR: 0 | POS | INT | 10 | 16 | 128 | (((7+5)+4)*8)=x | 7 5 + 4 + 8 * x = | 7:tree 5:tree +:tree 4:tree +:tree 8:dogwood *:dogwood x:dogwood =:dogwood
+EXPR: 0 | POS | INT | 22 | 16 | 40 | (((7-5)+8)*4)=x | 7 5 - 8 + 4 * x = | 7:tree 5:tree -:tree 8:tree +:tree 4:dogwood *:dogwood x:dogwood =:dogwood
+NET 3 unique, non-negative, integer-valued solutions found out of 6 total solutions

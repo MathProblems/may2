@@ -1,0 +1,7 @@
+parameters: n=3 l=1 k=1 p=5 q=2 m=7
+TOTAL 4 solutions found
+EXPR: 0 | POS | INT | 10 | 56 | 14 | x=14 | x 14 = | x:pokemon 14:pokemon =:pokemon
+EXPR: 0 | POS | INT | 10 | 56 | 14 | x=14 | x 14 = | x:card 14:card =:card
+EXPR: 0 | POS | INT | 11 | 56 | 14 | x=14 | x 14 = | x:pokemon 14:pokemon =:pokemon
+EXPR: 0 | POS | INT | 11 | 56 | 14 | x=14 | x 14 = | x:card 14:card =:card
+NET 4 non-negative, integer-valued solutions found out of 4 total solutions

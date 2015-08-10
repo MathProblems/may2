@@ -1,0 +1,538 @@
+ joan found 70 seashells on the beach . she gave sam some of her seashells . she has 27 seashell left . how many seashells did she give to sam  ? 
+43
+
+['70', 'x', '27']
+70 - x = 27
+70 = x + 27
+___
+ there were 28 bales of hay in the barn . tim stacked more bales in the barn today . there are now 54 bales of hay in the barn . how many bales did he store in the barn  ? 
+26
+
+['28', 'x', '54']
+28 + x = 54
+___
+ mary is baking a cake . the recipe wants 8 cups of flour . she already put in 2 cups . how many more cups does she need to add  ? 
+6
+
+['8', '2', 'x']
+8 - 2 = x
+8 = 2 + x
+___
+ sara's high school played 12 basketball games this year . the team won most of their games . they were defeated during 4 games . how many games did they win  ? 
+8
+
+['12', 'x', '4']
+12 - x = 4
+12 = x + 4
+___
+ there are 22 walnut trees currently in the park . park workers will plant more walnut trees today . when the workers are finished there will be 55 walnut trees in the park . how many walnut trees did the workers plant today  ? 
+33
+
+['22', 'x', '55']
+22 + x = 55
+___
+ mike had 34 peaches left at his roadside fruit stand . he went to the orchard and picked more peaches to stock up the stand . there are now 86 peaches at the stand , how many did he pick  ? 
+52
+
+['34', '86', 'x']
+34 = 86 - x
+___
+ there were 6 roses in the vase . mary cut some more roses from her flower garden . there are now 16 roses in the vase . how many roses did she cut  ? 
+10
+
+['6', 'x', '16']
+6 + x = 16
+___
+ benny bought a soft drink for 2 dollars and 5 candy bars . he spent a total of 27 dollars . how much did each candy bar cost  ? 
+5
+
+['2', '5', 'x', '27']
+2 + ( 5 * x ) = 27
+___
+ alyssa spent half of her allowance going to the movies . she washed the family car and earned 8 dollars . what is her weekly allowance if she ended with 12 dollars  ? 
+8
+
+['8', 'x', '12']
+8 = x
+___
+ sam had 79 dollars to spend on 9 books . after buying them he had 16 dollars . how much did each book cost  ? 
+7
+
+['79', '9', 'x', '16']
+79 - ( 9 * x ) = 16
+79 = ( 9 * x ) + 16
+___
+ oceanside bike rental shop charges 17 dollars plus 7 dollars an hour for renting a bike . tom paid 80 dollars to rent a bike . how many hours did he pay to have the bike checked out  ? 
+9
+
+['17', '7', 'x', '80']
+17 + ( 7 * x ) = 80
+___
+ on monday , 375 students went on a trip to the zoo . all 7 buses were filled and 4 students had to travel in cars . how many students were in each bus  ? 
+53
+
+['375', '7', '4', 'x']
+375 - ( x * 7 ) = 4
+375 = ( x * 7 ) + 4
+375 - ( 7 * x ) = 4
+375 = ( 7 * x ) + 4
+___
+ tom has 9 yellow balloons sara has 8 yellow balloons . how many yellow balloons do they have in total  ? 
+17
+
+['9', '8', 'x']
+9 + 8 = x
+___
+ sam had 9 dimes in his bank . his dad gave him 7 more dimes . how many dimes does sam have now  ? 
+16
+
+['9', '7', 'x']
+9 + 7 = x
+___
+ a restaurant served 9 pizzas during lunch and 6 during dinner today . how many pizzas were served today  ? 
+15
+
+['9', '6', 'x']
+9 + 6 = x
+___
+ joan found 6 seashells and jessica found 8 seashells on the beach . how many seashells did they find together  ? 
+14
+
+['6', '8', 'x']
+6 + 8 = x
+___
+ joan went to 4 football games this year . she went to 9 games last year . how many football games did joan go to in all  ? 
+13
+
+['4', '9', 'x']
+4 + 9 = x
+___
+ sally found 9 seashells , tom found 7 seashells , and jessica found 5 seashells on the beach . how many seashells did they find together  ? 
+21
+
+['9', '7', '5', 'x']
+( 9 + 7 ) + 5 = x
+9 + ( 7 + 5 ) = x
+___
+ tim's cat had kittens . he gave 3 to jessica and 6 to sara . he now has 9 kittens left . how many kittens did he have to start with  ? 
+18
+
+['x', '3', '6', '9']
+x - ( 3 + 6 ) = 9
+( x - 3 ) - 6 = 9
+( x * 3 ) / 6 = 9
+x * ( 3 / 6 ) = 9
+x = ( 3 + 6 ) + 9
+x = 3 + ( 6 + 9 )
+___
+ joan has 9 blue balloons , sally has 5 blue balloons , and jessica has  2 blue balloons . how many blue balloons do they have in total  ? 
+16
+
+['9', '5', '2', 'x']
+( 9 + 5 ) + 2 = x
+9 + ( 5 + 2 ) = x
+___
+ a restaurant served 5 cakes during lunch and 6 during dinner today . the restaurant served 3 cakes yesterday . how many cakes were served in total  ? 
+14
+
+['5', '6', '3', 'x']
+( 5 + 6 ) + 3 = x
+5 + ( 6 + 3 ) = x
+___
+ melanie picked 4 plums , dan picked 9 plums , and sally picked 3 plums from the plum tree . how many plums were picked in total  ? 
+16
+
+['4', '9', '3', 'x']
+( 4 + 9 ) + 3 = x
+4 + ( 9 + 3 ) = x
+___
+ sandy has 10 books , benny has 24 books , and tim has  33 books . how many books do they have together  ? 
+67
+
+['10', '24', '33', 'x']
+( 10 + 24 ) + 33 = x
+10 + ( 24 + 33 ) = x
+___
+ there are 39 dogwood trees currently in the park . park workers will plant  41 more dogwood trees today and 20 more dogwood trees tomorrow . how many dogwood trees will the park have when the workers are finished  ? 
+100
+
+['39', '41', '20', 'x']
+( 39 + 41 ) + 20 = x
+39 + ( 41 + 20 ) = x
+___
+ melanie had 19 dimes in her bank . her dad gave her 39 dimes and her mother gave her 25 dimes . how many dimes does melanie have now  ? 
+83
+
+['19', '39', '25', 'x']
+( 19 + 39 ) + 25 = x
+19 + ( 39 + 25 ) = x
+___
+ alyssa has 37 blue balloons , sandy has 28 blue balloons , and sally  has 39 blue balloons . how many blue balloons do they have in all  ? 
+104
+
+['37', '28', '39', 'x']
+( 37 + 28 ) + 39 = x
+37 + ( 28 + 39 ) = x
+___
+ mike has 35 books in his library . he bought several books at a yard sale over the weekend . he now has 56 books in his library . how many books did he buy at the yard sale  ? 
+21
+
+['35', 'x', '56']
+35 + x = 56
+___
+ sally had 13 peaches left at her roadside fruit stand . she went to the orchard and picked more peaches to stock up the stand . there are now 55 peaches at the stand , how many did she pick  ? 
+42
+
+['13', '55', 'x']
+13 = 55 - x
+___
+ there were a total of 7 football games this year . melanie missed 4 of the games . how many football games did melanie go to in all  ? 
+3
+
+['7', '4', 'x']
+7 - 4 = x
+7 = 4 + x
+___
+ joan has 8 orange balloons  but lost 2 of them . how many orange balloons does joan have now  ? 
+6
+
+['8', '2', 'x']
+8 - 2 = x
+8 = 2 + x
+___
+ fred had 7 dimes in his bank . his sister borrowed 3 of his dimes . how many dimes does fred have now  ? 
+4
+
+['7', '3', 'x']
+7 - 3 = x
+7 = 3 + x
+___
+ mike has 87 baseball cards . sam bought 13 of mike's  baseball cards . how many baseball cards does mike have now  ? 
+74
+
+['87', '13', 'x']
+87 - 13 = x
+87 = 13 + x
+___
+ fred's high school played 616 baseball games this year . he attended  147 games . how many baseball games did fred miss  ? 
+469
+
+['616', '147', 'x']
+616 - 147 = x
+616 = 147 + x
+___
+ there were a total of 27 soccer games during the 3 month season .  if the games are equally divided , how many soccer games are played a month  ? 
+9
+
+['27', '3', 'x']
+27 / 3 = x
+27 = 3 * x
+___
+ fred has 90 cents in his bank .  how many dimes does fred have  ? 
+9
+
+['9.0', 'x']
+9.0 = x
+___
+ fred has 110 blue marbles . fred has 22 times more blue marbles than tim . how many blue marbles does tim have ? 
+5
+
+['110', '22', 'x']
+110 / 22 = x
+110 = 22 * x
+___
+ there are 390 students at a school . if each classroom holds 30 students , how many classrooms are needed at the school ? 
+13
+
+['390', 'x', '30']
+390 / x = 30
+390 = x * 30
+___
+ tim has saved 2000 cents from selling lemonade .  how many dollars does tim have ? 
+20
+
+['20.0', 'x']
+20.0 = x
+___
+ nancy bought 615 crayons that came in packs of 15 .  how many packs of crayons did nancy buy ? 
+41
+
+['615', '15', 'x']
+615 / 15 = x
+615 = 15 * x
+___
+ mary earns $46 cleaning a home . how many homes did she clean , if she made 276 dollars ? 
+6
+
+['46', 'x', '276']
+46 * x = 276
+___
+ nancy , melanie , mary , and alyssa each bought 540 baseball cards ,  which come in packs of 20 . how many packs of baseball cards do they have in all ? 
+108
+
+['540', '20', 'x']
+540 * 20 = x
+___
+ a teacher has 344 pieces of candy . if there are 43 students , and the candy is divided evenly , how many pieces will each student get ? 
+8
+
+['344', '43', 'x']
+344 / 43 = x
+344 = 43 * x
+___
+ there are 60 calories in a candy bar . how many dozen calories are there in 45 candy bars ? 
+225
+
+['60', '45', 'x', '12']
+60 * 45 = x * 12
+___
+ sara saw 96 birds in a tree . how many dozen birds did sara see ? 
+8
+
+['96', 'x', '12']
+96 = x * 12
+___
+ sally earns $25.00 for each house she cleans . if she cleans 96 houses , how many dozens of dollars will she make ? 
+200
+
+['25.00', '96', 'x', '12']
+25.00 * 96 = x * 12
+___
+ sara has 192 golf balls . how many dozen golf balls does she have ? 
+16
+
+['192', 'x', '12']
+192 = x * 12
+___
+ keith bought 72 eggs from the store to bake some cakes .  how many dozen eggs did keith buy ? 
+6
+
+['72', 'x', '12']
+72 = x * 12
+___
+ sara has saved 9 dollars from washing cars .  how many dozen quarters does sara have ? 
+3
+
+['36.0', 'x', '12']
+36.0 = x * 12
+___
+ jason's shelves hold 45 books each . how many shelves will jason need if jason has 315 books ? 
+7
+
+['45', 'x', '315']
+45 * x = 315
+___
+ mike has 8 orange marbles , he gave sam 4 of the marbles . how many orange marbles does he now have  ? 
+4
+
+['8', '4', 'x']
+8 - 4 = x
+8 = 4 + x
+___
+ sara has 9 dozen golf balls . how many golf balls does she have  ? 
+108
+
+['9', '12', 'x']
+9 * 12 = x
+___
+ jason had pokemon cards . he gave 9 to his friends . he now has 4 pokemon cards left . how many pokemon cards did he have to start with  ? 
+13
+
+['x', '9', '4']
+x - 9 = 4
+x = 9 + 4
+___
+ there are 4 children in the classroom , each student will get 2 pencils . how many pencils will the teacher have to give out  ? 
+8
+
+['4', '2', 'x']
+4 * 2 = x
+___
+ joan bought 6 dozen eggs from the grocery store to bake some cakes .  how many eggs did joan buy  ? 
+72
+
+['6', '12', 'x']
+6 * 12 = x
+___
+ nancy has saved 4900 cents from selling lemonade .  how many dollars does nancy have ? 
+49
+
+['49.0', 'x']
+49.0 = x
+___
+ melanie goes fishing with tom . melanie catches 8 trout . tom catches 2 as many trout as melanie . how many trout did tom catch  ? 
+16
+
+['8', '2', 'x']
+8 * 2 = x
+___
+ sara has saved 11 quarters from washing cars .  how many cents does sara have  ? 
+275
+
+['275.0', 'x']
+275.0 = x
+___
+ sandy has 8 dozen books . fred has 5 times more books than  sandy . how many books does fred have  ? 
+480
+
+['8', '12', '5', 'x']
+8 * 12 = x / 5
+___
+ sally saw 1 dozen birds in a tree . how many birds did sally see  ? 
+12
+
+['12', 'x']
+12 = x
+___
+ sally has 6 blue balloons . fred has 3 times more  blue balloons than sally . how many blue balloons does fred have now  ? 
+18
+
+['6', '3', 'x']
+6 * 3 = x
+___
+ a restaurant made 9 hamburgers to serve during lunch . only 3 were  actually served . how many hamburgers were left over from lunch  ? 
+6
+
+['9', '3', 'x']
+9 - 3 = x
+9 = 3 + x
+___
+ dan picked 9 limes and gave sara 4 of the limes .  how many limes does dan have now  ? 
+5
+
+['9', '4', 'x']
+9 - 4 = x
+9 = 4 + x
+___
+ joan decided to sell all of her old books . she gathered up 33 books to sell . she sold 26 books in a yard sale . how many books does joan now have  ? 
+7
+
+['x', '33', '26']
+x = 33 - 26
+___
+ sam got 9 pennies for washing clothes , and 7 quarters for mowing lawns . how much money does sam have ? 
+1.84
+
+['0.09', '1.75', 'x']
+0.09 + 1.75 = x
+___
+ on friday , sam spent 2 pennies on ice cream . the next day , sam spent 12 dimes on baseball cards . all in all , how much money did sam spend ? 
+1.22
+
+['0.02', '1.2', 'x']
+0.02 + 1.2 = x
+___
+ joan purchased a basketball game for $5.20 , and a racing game for $4.23 . how much did joan spend on video games ? 
+9.43
+
+['5.20', '4.23', 'x']
+5.20 + 4.23 = x
+___
+ alyssa bought some toys . she bought a football for $5.71 , and spent $6.59 on marbles . in total , how much did alyssa spend on toys ? 
+12.3
+
+['5.71', '6.59', 'x']
+5.71 + 6.59 = x
+___
+ mary loves eating fruits . mary paid $11.08 for berries , $14.33 for apples , and $9.31 for peaches . in total , how much money did she spend ? 
+34.72
+
+['11.08', '14.33', '9.31', 'x']
+( 11.08 + 14.33 ) + 9.31 = x
+11.08 + ( 14.33 + 9.31 ) = x
+___
+ sandy went to the mall to buy clothes . she spent $13.99 on shorts , $12.14 on a shirt , and $7.43 on a jacket . how much money did sandy spend on clothes ? 
+33.56
+
+['13.99', '12.14', '7.43', 'x']
+( 13.99 + 12.14 ) + 7.43 = x
+13.99 + ( 12.14 + 7.43 ) = x
+___
+ fred loves trading cards . he bought 2 packs of football cards for $2.73 each , a pack of pokemon cards for $4.01 , and a deck of baseball cards for $8.95 . how much did fred spend on cards ? 
+18.42
+
+['2', '2.73', '4.01', '8.95', 'x']
+( ( 2 * 2.73 ) + 4.01 ) + 8.95 = x
+( 2 * 2.73 ) + ( 4.01 + 8.95 ) = x
+( 2 * 2.73 ) + ( 4.01 + 8.95 ) = x
+___
+ on saturday , sara spent $10.62 each on 2 tickets to a movie theater . she also rented a movie for $1.59 , and bought a movie for $13.95 . how much money in total did sara spend on movies ? 
+36.78
+
+['10.62', '2', '1.59', '13.95', 'x']
+( ( 10.62 * 2 ) + 1.59 ) + 13.95 = x
+( 10.62 * 2 ) + ( 1.59 + 13.95 ) = x
+( 10.62 * 2 ) + ( 1.59 + 13.95 ) = x
+___
+ mary loves eating fruits . mary paid $7.19 for berries , and $6.83 for peaches with a $20 bill . how much change did mary receive ? 
+5.98
+
+['7.19', '6.83', '20', 'x']
+( x + 7.19 ) + 6.83 = 20
+x + ( 7.19 + 6.83 ) = 20
+( 7.19 + x ) + 6.83 = 20
+7.19 + ( x + 6.83 ) = 20
+( 7.19 + 6.83 ) + x = 20
+7.19 + ( 6.83 + x ) = 20
+___
+ a ship is filled with 5,973 tons of cargo . it stops in the bahamas , where sailors load 8,723 more tons of cargo onboard . how many tons of cargo does the ship hold now ? 
+14696
+
+['5973', '8723', 'x']
+5973 + 8723 = x
+___
+ an oil pipe in the sea broke . before engineers started to fix the pipe , 6,522 liters of oil leaked into the water . while the engineers worked , the pipe leaked 5,165 more liters of oil . in all , how many liters of oil leaked into the water ? 
+11687
+
+['6522', '5165', 'x']
+6522 + 5165 = x
+___
+ a car company produced 3,884 cars in north america and 2,871 cars in europe . how many cars is that in all ? 
+6755
+
+['x', '3884', '2871']
+x - 3884 = 2871
+x = 3884 + 2871
+___
+ abe's family moved from the bahamas to japan , so they had convert their money into japanese yen . their checking account now has 6,359 yen and their savings account now has 3,485 yen . how many yen do they have ? 
+9844
+
+['x', '6359', '3485']
+x - 6359 = 3485
+x = 6359 + 3485
+___
+ christina just transferred $69 out of her bank account . as a result , the account now has $26,935 left in it . how much money was in the account before the transfer ? 
+27004
+
+['69', '26935', 'x']
+69 + 26935 = x
+___
+ a ship full of grain crashes into a coral reef . by the time the ship is fixed , 49,952 tons of grain have spilled into the water . only 918 tons of grain remain onboard . how many tons of grain did the ship originally contain ? 
+50870
+
+['49952', '918', 'x']
+49952 + 918 = x
+___
+ a multi-national corporation has 2,041 part-time employees and 63,093 full-time employees . how many employees work for the corporation ? 
+65134
+
+['2041', '63093', 'x']
+2041 + 63093 = x
+___
+ each year , salmon travel upstream , going from the ocean to the rivers where they were born . this year , 712,261 male and 259,378 female salmon returned to their rivers . how many salmon made the trip ? 
+971639
+
+['x', '712261', '259378']
+x - 712261 = 259378
+x = 712261 + 259378
+___
+ a worker at a medical lab is studying blood samples . 2 samples contained a total of 7,341 blood cells . the first sample contained 4,221 blood cells . how many blood cells were in the second sample ? 
+3120
+
+['2', '7341', '4221', 'x']
+x = 7341 - 4221
+7341 - x = 4221
+7341 = x + 4221
+7341 - 4221 = x
+7341 = 4221 + x
+___

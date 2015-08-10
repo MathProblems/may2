@@ -1,0 +1,10 @@
+parameters: n=9 l=4 k=1 p=5 q=2 m=10
+TOTAL 100 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 41 | 1960 | x=((17+(48-25))*49) | x 17 48 25 - + 49 * = | x:money 17:dollar 48:dollar 25:dollar -:dollar +:dollar 49:money *:money =:money
+EXPR: 0 | POS | INT | 12 | 41 | 56 | ((17+25)*(x/48))=49 | 17 25 + x 48 / * 49 = | 17:dollar 25:dollar +:dollar x:money 48:dollar /:money *:dollar 49:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 41 | 20873 | 17=((x-48)/(25*49)) | 17 x 48 - 25 49 * / = | 17:dollar x:dollar 48:dollar -:dollar 25:dollar 49:money *:money /:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 41 | 20777 | 17=((x+48)/(25*49)) | 17 x 48 + 25 49 * / = | 17:dollar x:dollar 48:dollar +:dollar 25:dollar 49:money *:money /:dollar =:dollar
+EXPR: 0 | POS | INT | 32 | 41 | 43 | 48=(17+(49-(x-25))) | 48 17 49 x 25 - - + = | 48:dollar 17:dollar 49:dollar x:dollar 25:dollar -:dollar -:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 32 | 41 | 456 | 48=(x+(17*(25-49))) | 48 x 17 25 49 - * + = | 48:dollar x:dollar 17:money 25:dollar 49:dollar -:dollar *:dollar +:dollar =:dollar
+NET 6 non-negative, integer-valued solutions found out of 100 total solutions

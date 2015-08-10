@@ -26,12 +26,12 @@ def cleannum(n):
 def kill(signum, frame):
     raise Exception("end of time")
 
-def training(trips,problem,target):
+def training(trips,problem,story,target):
     #this function take the trips and creates positive and negative training instances from them
     
     texamples = {x:([],[]) for x in ["+","*",'/','-','=']}
     for op,a,b in trips:
-        vec = makesets.vector(a,b,problem,target)
+        vec = makesets.vector(a,b,problem,story,target)
         texamples[op][0].append(vec)
 
     return texamples
@@ -112,7 +112,7 @@ def make_eq(q,a,VERBOSE,TRAIN):
         twoToRight = False
         if xidx>0:
             print(len(sets),xidx)
-            if sets[xidx-1][1].entity == 'dozen': 
+            if sets[xidx-1][1].entity in ['dozen','bill']: 
                 # 2 vals to right
                 twoToRight = True
         if len(sets)-xidx>1:    
@@ -220,43 +220,41 @@ def make_eq(q,a,VERBOSE,TRAIN):
             print(j,eq)
             l,r = [x.strip().split(' ') for x in eq.split('=')]
             
-            compound = r if len(l)==1 else l
-            simplex = l if len(l)==1 else r
-            target = simplex[0]
+            #compound = r if len(l)==1 else l
+            #simplex = l if len(l)==1 else r
+            target = 'x'
             target = (target,objs[target])
 
             #find innermost parens?
-            while len(compound)>1:
-                if "(" in compound:
-                    rpidx = (len(compound) - 1) - compound[::-1].index('(')
-                    lpidx = rpidx+compound[rpidx:].index(")")
-                    subeq = compound[rpidx+1:lpidx]
-                    substr = "("+''.join(subeq)+")"
-                    compound = compound[:rpidx]+[substr]+compound[lpidx+1:]
-                else:
-                    subeq = compound[0:3]
-                    substr = "("+''.join(subeq)+")"
-                    compound = [substr]+compound[3:]
-                if True:
-                    p,op,e = subeq
-                    #print(p,op,e)
-                    p = objs[p]
-                    e = objs[e]
-                    op = op.strip()
-                    trips.append((op,p,e))
-                    pute = (0,makesets.combine(p[1],e[1],op))
-                    #print("OPERATION SELECTED: ",op)
-                    #p.details()
-                    #e.details()
-                    #print(substr,pute[1].num)
-                    objs[substr]=pute
-                if pute == -1:
-                    exit()
-            if simplex == l:
-                trips.append(("=",objs[simplex[0]],objs[compound[0]]))
-            else:
-                trips.append(("=",objs[compound[0]],objs[simplex[0]]))
-            t = training(trips,problem,target)
+            sides = []
+            for i,compound in enumerate([l,r]):
+                while len(compound)>1:
+                    if "(" in compound:
+                        rpidx = (len(compound) - 1) - compound[::-1].index('(')
+                        lpidx = rpidx+compound[rpidx:].index(")")
+                        subeq = compound[rpidx+1:lpidx]
+                        substr = "("+''.join(subeq)+")"
+                        compound = compound[:rpidx]+[substr]+compound[lpidx+1:]
+                    else:
+                        subeq = compound[0:3]
+                        substr = "("+''.join(subeq)+")"
+                        compound = [substr]+compound[3:]
+                    if True:
+                        p,op,e = subeq
+                        #print(p,op,e)
+                        p = objs[p]
+                        e = objs[e]
+                        op = op.strip()
+                        trips.append((op,p,e))
+                        pute = (0,makesets.combine(p[1],e[1],op))
+                        #print("OPERATION SELECTED: ",op)
+                        #p.details()
+                        #e.details()
+                        #print(substr,pute[1].num)
+                        objs[substr]=pute
+                    if pute == -1:
+                        exit()
+            t = training(trips,problem,story,target)
             for op in t:
                 bigtexamples[op][0].extend(t[op][0])
                 bigtexamples[op][1].extend(t[op][1])

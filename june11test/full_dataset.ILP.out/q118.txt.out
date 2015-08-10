@@ -1,0 +1,40 @@
+parameters: n=7 l=3 k=1 p=5 q=3 m=9
+TOTAL 100 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 2 | 56 | 56 | 84=((x/8)*12) | 84 x 8 / 12 * = | 84:marble x:dozen 8:Melanie /:dozen 12:marble *:marble =:marble
+EXPR: 1 | POS | INT | 2 | 56 | 56 | (84*(8/x))=12 | 84 8 x / * 12 = | 84:marble 8:Melanie x:dozen /:Melanie *:marble 12:marble =:marble
+EXPR: 1 | POS | INT | 2 | 56 | 56 | ((84/x)*8)=12 | 84 x / 8 * 12 = | 84:marble x:dozen /:marble 8:Melanie *:marble 12:marble =:marble
+EXPR: 1 | POS | INT | 2 | 56 | 56 | ((84*8)/x)=12 | 84 8 * x / 12 = | 84:marble 8:Melanie *:marble x:dozen /:marble 12:marble =:marble
+EXPR: 0 | POS | INT | 10 | 56 | 8064 | x=((84*8)*12) | x 84 8 * 12 * = | x:dozen 84:marble 8:Melanie *:Melanie 12:dozen *:dozen =:dozen
+EXPR: 0 | POS | INT | 10 | 56 | 8064 | x=(84*(8*12)) | x 84 8 12 * * = | x:dozen 84:dozen 8:Melanie 12:marble *:Melanie *:dozen =:dozen
+EXPR: 0 | POS | INT | 10 | 56 | 8064 | x=((84*8)*12) | x 84 8 * 12 * = | x:dozen 84:marble 8:Melanie *:marble 12:dozen *:dozen =:dozen
+EXPR: 0 | POS | INT | 10 | 56 | 126 | x=((84/8)*12) | x 84 8 / 12 * = | x:dozen 84:marble 8:Melanie /:marble 12:dozen *:dozen =:dozen
+EXPR: 0 | POS | INT | 10 | 56 | 8064 | x=((84*8)*12) | x 84 8 * 12 * = | x:marble 84:marble 8:Melanie *:Melanie 12:marble *:marble =:marble
+EXPR: 0 | POS | INT | 10 | 56 | 8064 | x=(84*(8*12)) | x 84 8 12 * * = | x:dozen 84:marble 8:Melanie 12:dozen *:dozen *:dozen =:dozen
+EXPR: 1 | POS | INT | 10 | 56 | 56 | x=((84*8)/12) | x 84 8 * 12 / = | x:Melanie 84:marble 8:Melanie *:Melanie 12:marble /:Melanie =:Melanie
+EXPR: 0 | POS | INT | 10 | 56 | 8064 | x=((84*8)*12) | x 84 8 * 12 * = | x:dozen 84:dozen 8:Melanie *:dozen 12:marble *:dozen =:dozen
+EXPR: 0 | POS | INT | 10 | 56 | 8064 | x=((84*8)*12) | x 84 8 * 12 * = | x:Melanie 84:marble 8:Melanie *:Melanie 12:marble *:Melanie =:Melanie
+EXPR: 1 | POS | INT | 10 | 56 | 56 | x=((84*8)/12) | x 84 8 * 12 / = | x:dozen 84:dozen 8:Melanie *:dozen 12:marble /:dozen =:dozen
+EXPR: 0 | POS | INT | 10 | 56 | 126 | x=((84/8)*12) | x 84 8 / 12 * = | x:dozen 84:dozen 8:Melanie /:dozen 12:marble *:dozen =:dozen
+EXPR: 1 | POS | INT | 10 | 56 | 56 | x=((84*8)/12) | x 84 8 * 12 / = | x:dozen 84:marble 8:dozen *:dozen 12:marble /:dozen =:dozen
+EXPR: 0 | POS | INT | 11 | 56 | 8064 | x=((84*8)*12) | x 84 8 * 12 * = | x:dozen 84:marble 8:Melanie *:Melanie 12:dozen *:dozen =:dozen
+EXPR: 0 | POS | INT | 11 | 56 | 8064 | x=(84*(8*12)) | x 84 8 12 * * = | x:dozen 84:marble 8:Melanie 12:dozen *:dozen *:dozen =:dozen
+EXPR: 0 | POS | INT | 11 | 56 | 8064 | x=((84*8)*12) | x 84 8 * 12 * = | x:dozen 84:marble 8:Melanie *:marble 12:dozen *:dozen =:dozen
+EXPR: 0 | POS | INT | 11 | 56 | 126 | x=((84/8)*12) | x 84 8 / 12 * = | x:dozen 84:marble 8:Melanie /:marble 12:dozen *:dozen =:dozen
+EXPR: 1 | POS | INT | 11 | 56 | 56 | x=((84*8)/12) | x 84 8 * 12 / = | x:Melanie 84:marble 8:Melanie *:Melanie 12:marble /:Melanie =:Melanie
+EXPR: 0 | POS | INT | 11 | 56 | 8064 | x=((84*8)*12) | x 84 8 * 12 * = | x:Melanie 84:marble 8:Melanie *:Melanie 12:marble *:Melanie =:Melanie
+EXPR: 1 | POS | INT | 11 | 56 | 56 | x=((84*8)/12) | x 84 8 * 12 / = | x:dozen 84:dozen 8:Melanie *:dozen 12:marble /:dozen =:dozen
+EXPR: 1 | POS | INT | 12 | 56 | 56 | (8*(84/x))=12 | 8 84 x / * 12 = | 8:Melanie 84:marble x:dozen /:marble *:marble 12:marble =:marble
+EXPR: 0 | POS | INT | 12 | 56 | 180 | 84=(x-(8*12)) | 84 x 8 12 * - = | 84:marble x:marble 8:Melanie 12:marble *:marble -:marble =:marble
+EXPR: 0 | POS | INT | 12 | 56 | 12 | 84=((x*8)-12) | 84 x 8 * 12 - = | 84:marble x:dozen 8:marble *:marble 12:marble -:marble =:marble
+EXPR: 0 | POS | INT | 12 | 56 | 9 | 84=((x*8)+12) | 84 x 8 * 12 + = | 84:marble x:dozen 8:marble *:marble 12:marble +:marble =:marble
+EXPR: 0 | POS | INT | 12 | 56 | 126 | ((x/84)*8)=12 | x 84 / 8 * 12 = | x:dozen 84:marble /:dozen 8:Melanie *:dozen 12:dozen =:dozen
+EXPR: 0 | POS | INT | 12 | 56 | 126 | 84=((8/12)*x) | 84 8 12 / x * = | 84:Melanie 8:Melanie 12:marble /:Melanie x:dozen *:Melanie =:Melanie
+EXPR: 0 | POS | INT | 12 | 56 | 126 | ((x/84)*8)=12 | x 84 / 8 * 12 = | x:dozen 84:marble /:dozen 8:marble *:marble 12:marble =:marble
+EXPR: 0 | POS | INT | 12 | 56 | 660 | ((84*8)-x)=12 | 84 8 * x - 12 = | 84:marble 8:Melanie *:marble x:marble -:marble 12:marble =:marble
+EXPR: 1 | POS | INT | 12 | 56 | 56 | ((84/x)*8)=12 | 84 x / 8 * 12 = | 84:marble x:dozen /:marble 8:dozen *:marble 12:marble =:marble
+EXPR: 1 | POS | INT | 12 | 56 | 56 | ((84/x)*8)=12 | 84 x / 8 * 12 = | 84:marble x:Melanie /:marble 8:Melanie *:marble 12:marble =:marble
+EXPR: 1 | POS | INT | 12 | 56 | 56 | ((84*8)/x)=12 | 84 8 * x / 12 = | 84:marble 8:Melanie *:marble x:Melanie /:marble 12:marble =:marble
+EXPR: 0 | POS | INT | 12 | 56 | 126 | 84=(x*(8/12)) | 84 x 8 12 / * = | 84:marble x:marble 8:Melanie 12:marble /:Melanie *:marble =:marble
+EXPR: 0 | POS | INT | 12 | 56 | 8064 | 84=(x/(8*12)) | 84 x 8 12 * / = | 84:marble x:marble 8:Melanie 12:marble *:Melanie /:marble =:marble
+NET 36 non-negative, integer-valued solutions found out of 100 total solutions

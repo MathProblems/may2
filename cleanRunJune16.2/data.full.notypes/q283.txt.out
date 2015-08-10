@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 56 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 29 | 56 | x=(58-2) | x 58 2 - = | x:child 58:child 2:child -:child =:child
+EXPR: 0 | POS | INT | 0 | 29 | 60 | (58+2)=x | 58 2 + x = | 58:child 2:child +:child x:child =:child
+EXPR: 1 | POS | INT | 0 | 29 | 29 | x=(58/2) | x 58 2 / = | x:child 58:child 2:child /:child =:child
+EXPR: 1 | POS | INT | 0 | 29 | 29 | (58/2)=x | 58 2 / x = | 58:child 2:child /:child x:child =:child
+EXPR: 0 | POS | INT | 0 | 29 | 116 | (58*2)=x | 58 2 * x = | 58:child 2:child *:child x:child =:child
+EXPR: 0 | POS | INT | 0 | 29 | 56 | (58-2)=x | 58 2 - x = | 58:child 2:child -:child x:child =:child
+EXPR: 0 | POS | INT | 0 | 29 | 60 | x=(58+2) | x 58 2 + = | x:child 58:child 2:child +:child =:child
+EXPR: 0 | POS | INT | 0 | 29 | 116 | x=(58*2) | x 58 2 * = | x:child 58:child 2:child *:child =:child
+EXPR: 0 | POS | INT | 2 | 29 | 60 | 58=(x-2) | 58 x 2 - = | 58:child x:child 2:child -:child =:child
+EXPR: 0 | POS | INT | 2 | 29 | 116 | 58=(x/2) | 58 x 2 / = | 58:child x:child 2:child /:child =:child
+EXPR: 1 | POS | INT | 2 | 29 | 29 | 58=(2*x) | 58 2 x * = | 58:child 2:child x:child *:child =:child
+EXPR: 0 | POS | INT | 2 | 29 | 56 | 58=(x+2) | 58 x 2 + = | 58:child x:child 2:child +:child =:child
+EXPR: 1 | POS | INT | 2 | 29 | 29 | (58/x)=2 | 58 x / 2 = | 58:child x:child /:child 2:child =:child
+EXPR: 0 | POS | INT | 2 | 29 | 56 | 58=(2+x) | 58 2 x + = | 58:child 2:child x:child +:child =:child
+EXPR: 0 | POS | INT | 2 | 29 | 56 | (58-x)=2 | 58 x - 2 = | 58:child x:child -:child 2:child =:child
+EXPR: 1 | POS | INT | 2 | 29 | 29 | 58=(x*2) | 58 x 2 * = | 58:child x:child 2:child *:child =:child
+EXPR: 0 | POS | INT | 2 | 29 | 60 | (x-58)=2 | x 58 - 2 = | x:child 58:child -:child 2:child =:child
+EXPR: 0 | POS | INT | 2 | 29 | 116 | (x/58)=2 | x 58 / 2 = | x:child 58:child /:child 2:child =:child
+EXPR: 0 | POS | INT | 4 | 29 | 60 | 2=(x-58) | 2 x 58 - = | 2:child x:child 58:child -:child =:child
+EXPR: 1 | POS | INT | 4 | 29 | 29 | (2*x)=58 | 2 x * 58 = | 2:child x:child *:child 58:child =:child
+EXPR: 0 | POS | INT | 4 | 29 | 56 | (x+2)=58 | x 2 + 58 = | x:child 2:child +:child 58:child =:child
+EXPR: 0 | POS | INT | 4 | 29 | 56 | 2=(58-x) | 2 58 x - = | 2:child 58:child x:child -:child =:child
+EXPR: 1 | POS | INT | 4 | 29 | 29 | 2=(58/x) | 2 58 x / = | 2:child 58:child x:child /:child =:child
+EXPR: 0 | POS | INT | 4 | 29 | 116 | 2=(x/58) | 2 x 58 / = | 2:child x:child 58:child /:child =:child
+EXPR: 0 | POS | INT | 4 | 29 | 56 | (2+x)=58 | 2 x + 58 = | 2:child x:child +:child 58:child =:child
+EXPR: 1 | POS | INT | 4 | 29 | 29 | (x*2)=58 | x 2 * 58 = | x:child 2:child *:child 58:child =:child
+EXPR: 0 | POS | INT | 4 | 29 | 116 | (x/2)=58 | x 2 / 58 = | x:child 2:child /:child 58:child =:child
+EXPR: 0 | POS | INT | 4 | 29 | 60 | (x-2)=58 | x 2 - 58 = | x:child 2:child -:child 58:child =:child
+NET 28 unique, non-negative, integer-valued solutions found out of 56 total solutions

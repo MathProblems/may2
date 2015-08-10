@@ -1,0 +1,8 @@
+parameters: n=3 l=1 k=1 p=5 q=2 m=7
+TOTAL 4 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 32 | 4 | x=4 | x 4 = | x:money 4:money =:money
+EXPR: 0 | POS | INT | 10 | 32 | 4 | x=4 | x 4 = | x:gumball 4:gumball =:gumball
+EXPR: 0 | POS | INT | 11 | 32 | 4 | x=4 | x 4 = | x:money 4:money =:money
+EXPR: 0 | POS | INT | 11 | 32 | 4 | x=4 | x 4 = | x:gumball 4:gumball =:gumball
+NET 4 non-negative, integer-valued solutions found out of 4 total solutions

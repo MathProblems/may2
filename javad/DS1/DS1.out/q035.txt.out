@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 47 | 25 | (36-11)=x | 36 11 - x = | 36:game 11:game -:game x:game =:game
+EXPR: 1 | POS | INT | 0 | 47 | 47 | x=(36+11) | x 36 11 + = | x:game 36:game 11:game +:game =:game
+EXPR: 0 | POS | INT | 0 | 47 | 25 | x=(36-11) | x 36 11 - = | x:game 36:game 11:game -:game =:game
+EXPR: 1 | POS | INT | 0 | 47 | 47 | (36+11)=x | 36 11 + x = | 36:game 11:game +:game x:game =:game
+EXPR: 0 | POS | INT | 2 | 47 | 25 | 36=(11+x) | 36 11 x + = | 36:game 11:game x:game +:game =:game
+EXPR: 0 | POS | INT | 2 | 47 | 25 | 36=(x+11) | 36 x 11 + = | 36:game x:game 11:game +:game =:game
+EXPR: 1 | POS | INT | 2 | 47 | 47 | 36=(x-11) | 36 x 11 - = | 36:game x:game 11:game -:game =:game
+EXPR: 0 | POS | INT | 2 | 47 | 25 | (36-x)=11 | 36 x - 11 = | 36:game x:game -:game 11:game =:game
+EXPR: 1 | POS | INT | 2 | 47 | 47 | (x-36)=11 | x 36 - 11 = | x:game 36:game -:game 11:game =:game
+EXPR: 1 | POS | INT | 4 | 47 | 47 | 11=(x-36) | 11 x 36 - = | 11:game x:game 36:game -:game =:game
+EXPR: 0 | POS | INT | 4 | 47 | 25 | (11+x)=36 | 11 x + 36 = | 11:game x:game +:game 36:game =:game
+EXPR: 1 | POS | INT | 4 | 47 | 47 | (x-11)=36 | x 11 - 36 = | x:game 11:game -:game 36:game =:game
+EXPR: 0 | POS | INT | 4 | 47 | 25 | (x+11)=36 | x 11 + 36 = | x:game 11:game +:game 36:game =:game
+EXPR: 0 | POS | INT | 4 | 47 | 25 | 11=(36-x) | 11 36 x - = | 11:game 36:game x:game -:game =:game
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

@@ -1,0 +1,21 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+EXPR: 1 | POS | FRA | 0 | 1.9 | 1.9 | (1.5+0.4)=x | 1.5 0.4 + x = | 1.5:dollar 0.4:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | FRA | 0 | 1.9 | 1.1 | x=(1.5-0.4) | x 1.5 0.4 - = | x:dollar 1.5:dollar 0.4:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 0 | 1.9 | 1.1 | (1.5-0.4)=x | 1.5 0.4 - x = | 1.5:dollar 0.4:dollar -:dollar x:dollar =:dollar
+EXPR: 1 | POS | FRA | 0 | 1.9 | 1.9 | x=(1.5+0.4) | x 1.5 0.4 + = | x:dollar 1.5:dollar 0.4:dollar +:dollar =:dollar
+EXPR: 0 | POS | FRA | 1 | 1.9 | 1.1 | x=(1.5-0.4) | x 1.5 0.4 - = | x:dollar 1.5:dollar 0.4:dollar -:dollar =:dollar
+EXPR: 1 | POS | FRA | 1 | 1.9 | 1.9 | x=(1.5+0.4) | x 1.5 0.4 + = | x:dollar 1.5:dollar 0.4:dollar +:dollar =:dollar
+EXPR: 1 | POS | FRA | 1 | 1.9 | 1.9 | (1.5+0.4)=x | 1.5 0.4 + x = | 1.5:dollar 0.4:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | FRA | 1 | 1.9 | 1.1 | (1.5-0.4)=x | 1.5 0.4 - x = | 1.5:dollar 0.4:dollar -:dollar x:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 1.9 | 1.1 | 1.5=(0.4+x) | 1.5 0.4 x + = | 1.5:dollar 0.4:dollar x:dollar +:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 1.9 | 1.1 | 1.5=(x+0.4) | 1.5 x 0.4 + = | 1.5:dollar x:dollar 0.4:dollar +:dollar =:dollar
+EXPR: 1 | POS | FRA | 2 | 1.9 | 1.9 | (x-1.5)=0.4 | x 1.5 - 0.4 = | x:dollar 1.5:dollar -:dollar 0.4:dollar =:dollar
+EXPR: 1 | POS | FRA | 2 | 1.9 | 1.9 | 1.5=(x-0.4) | 1.5 x 0.4 - = | 1.5:dollar x:dollar 0.4:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 1.9 | 1.1 | (1.5-x)=0.4 | 1.5 x - 0.4 = | 1.5:dollar x:dollar -:dollar 0.4:dollar =:dollar
+EXPR: 1 | POS | FRA | 4 | 1.9 | 1.9 | (x-0.4)=1.5 | x 0.4 - 1.5 = | x:dollar 0.4:dollar -:dollar 1.5:dollar =:dollar
+EXPR: 0 | POS | FRA | 4 | 1.9 | 1.1 | (x+0.4)=1.5 | x 0.4 + 1.5 = | x:dollar 0.4:dollar +:dollar 1.5:dollar =:dollar
+EXPR: 1 | POS | FRA | 4 | 1.9 | 1.9 | 0.4=(x-1.5) | 0.4 x 1.5 - = | 0.4:dollar x:dollar 1.5:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 4 | 1.9 | 1.1 | 0.4=(1.5-x) | 0.4 1.5 x - = | 0.4:dollar 1.5:dollar x:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 4 | 1.9 | 1.1 | (0.4+x)=1.5 | 0.4 x + 1.5 = | 0.4:dollar x:dollar +:dollar 1.5:dollar =:dollar
+NET 18 non-negative solutions found out of 28 total solutions

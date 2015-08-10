@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 22 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | FRA | 0 | 1.84 | 1.84 | x=(0.09+1.75) | x 0.09 1.75 + = | x:dollar 0.09:dollar 1.75:dollar +:dollar =:dollar
+EXPR: 1 | POS | FRA | 1 | 1.84 | 1.84 | x=(0.09+1.75) | x 0.09 1.75 + = | x:dollar 0.09:dollar 1.75:dollar +:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 1.84 | 1.66 | (0.09+x)=1.75 | 0.09 x + 1.75 = | 0.09:dollar x:dollar +:dollar 1.75:dollar =:dollar
+EXPR: 1 | POS | FRA | 2 | 1.84 | 1.84 | (x-0.09)=1.75 | x 0.09 - 1.75 = | x:dollar 0.09:dollar -:dollar 1.75:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 1.84 | 1.66 | (x+0.09)=1.75 | x 0.09 + 1.75 = | x:dollar 0.09:dollar +:dollar 1.75:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 1.84 | 1.66 | 0.09=(1.75-x) | 0.09 1.75 x - = | 0.09:dollar 1.75:dollar x:dollar -:dollar =:dollar
+EXPR: 1 | POS | FRA | 2 | 1.84 | 1.84 | 0.09=(x-1.75) | 0.09 x 1.75 - = | 0.09:dollar x:dollar 1.75:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 1.84 | 1.66 | x=(1.75-0.09) | x 1.75 0.09 - = | x:dollar 1.75:dollar 0.09:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 11 | 1.84 | 1.66 | x=(1.75-0.09) | x 1.75 0.09 - = | x:dollar 1.75:dollar 0.09:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 1.84 | 1.66 | 1.75=(x+0.09) | 1.75 x 0.09 + = | 1.75:dollar x:dollar 0.09:dollar +:dollar =:dollar
+EXPR: 1 | POS | FRA | 12 | 1.84 | 1.84 | 1.75=(x-0.09) | 1.75 x 0.09 - = | 1.75:dollar x:dollar 0.09:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 1.84 | 1.66 | (1.75-x)=0.09 | 1.75 x - 0.09 = | 1.75:dollar x:dollar -:dollar 0.09:dollar =:dollar
+EXPR: 1 | POS | FRA | 12 | 1.84 | 1.84 | (x-1.75)=0.09 | x 1.75 - 0.09 = | x:dollar 1.75:dollar -:dollar 0.09:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 1.84 | 1.66 | 1.75=(0.09+x) | 1.75 0.09 x + = | 1.75:dollar 0.09:dollar x:dollar +:dollar =:dollar
+NET 14 non-negative solutions found out of 22 total solutions

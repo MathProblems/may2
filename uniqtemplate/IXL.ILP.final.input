@@ -1,0 +1,368 @@
+
+0
+entities : 13.99 12.14 7.43 x
+operators : + - * / =
+objtypes : dollar
+entityType : 0 0 0 0
+n : 7
+answer : 33.56
+
+1
+entities : 142.46 8.89 7 x
+operators : + - * / =
+objtypes : dollar
+entityType : 0 0 0 0
+n : 7
+answer : 158.35
+
+2
+entities : 10.62 2 1.59 13.95 x
+operators : + - * / =
+objtypes : dollar ticket
+entityType : 0 1 0 0 0
+n : 9
+answer : 36.78
+
+3
+entities : 7.19 6.83 20 x
+operators : + - * / =
+objtypes : dollar
+entityType : 0 0 0 0
+n : 7
+answer : 5.98
+
+4
+entities : 11 3 19 7 8 x
+operators : + - * / =
+objtypes : dollar book
+entityType : 0 1 0 0 0 0
+n : 11
+answer : 29
+
+5
+entities : 13 9 10 3 x
+operators : + - * / =
+objtypes : dollar hour
+entityType : 0 1 1 1 0
+n : 9
+answer : 286
+
+6
+entities : 17 48 25 49 x
+operators : + - * / =
+objtypes : dollar
+entityType : 0 0 0 0 0
+n : 9
+answer : 41
+
+7
+entities : 20 26 20 6 58 x
+operators : + - * / =
+objtypes : sticker
+entityType : 0 0 0 0 0 0
+n : 11
+answer : 2
+
+8
+entities : 6 6 8 18 x
+operators : + - * / =
+objtypes : van people bus
+entityType : 0 1 2 1 1
+n : 9
+answer : 180
+
+9
+entities : 91 24 6 11 x
+operators : + - * / =
+objtypes : dollar
+entityType : 0 0 0 0 0
+n : 9
+answer : 50
+
+10
+entities : 15 13 8 21 x
+operators : + - * / =
+objtypes : coin
+entityType : 0 0 0 0 0
+n : 9
+answer : 15
+
+11
+entities : 61 26 7 x
+operators : + - * / =
+objtypes : plate NONE
+entityType : 0 0 0 1
+n : 7
+answer : 28
+
+12
+entities : 85 10 5 x
+operators : + - * / =
+objtypes : dollar book
+entityType : 0 1 0 0
+n : 7
+answer : 35
+
+13
+entities : 8 13 2 18 x
+operators : + - * / =
+objtypes : dollar
+entityType : 0 0 0 0 0
+n : 9
+answer : 1
+
+14
+entities : 20 12 20 5 8 x
+operators : + - * / =
+objtypes : sticker
+entityType : 0 0 0 0 0 0
+n : 11
+answer : 39
+
+15
+entities : 30 49 46 58 x
+operators : + - * / =
+objtypes : dollar
+entityType : 0 0 0 0 0
+n : 9
+answer : 67
+
+16
+entities : 20 2 1 6 x
+operators : + - * / =
+objtypes : carton dollar
+entityType : 0 0 1 1 1
+n : 9
+answer : 118
+
+17
+entities : 7 12 4 6 13 x
+operators : + - * / =
+objtypes : dollar
+entityType : 0 0 0 0 0 0
+n : 11
+answer : 4
+
+18
+entities : 10 1 3 16 x
+operators : + - * / =
+objtypes : book dollar
+entityType : 0 0 0 1 1
+n : 9
+answer : 224
+
+19
+entities : 54 15 25 x
+operators : + - * / =
+objtypes : cupcake vanilla NONE
+entityType : 0 0 1 2
+n : 7
+answer : 14
+
+20
+entities : 21 4 8 x
+operators : + - * / =
+objtypes : carton
+entityType : 0 0 0 0
+n : 7
+answer : 9
+
+21
+entities : 24 2 14 3 x
+operators : + - * / =
+objtypes : bicycle wheel tricycle
+entityType : 0 1 2 1 1
+n : 9
+answer : 90
+
+22
+entities : 109 2 13 11 x
+operators : + - * / =
+objtypes : dollar shirt
+entityType : 0 1 0 0 0
+n : 9
+answer : 74
+
+23
+entities : 0.15 1.3 0.7 4.5 x
+operators : + - * / =
+objtypes : dollar
+entityType : 0 0 0 0 0
+n : 9
+answer : 6.65
+
+24
+entities : 9 3 x
+operators : + - * / =
+objtypes : marble
+entityType : 0 0 0
+n : 5
+answer : 12
+
+25
+entities : 8 3 x
+operators : + - * / =
+objtypes : calorie bar
+entityType : 0 1 0
+n : 5
+answer : 24
+
+26
+entities : 9 3 x
+operators : + - * / =
+objtypes : hamburger
+entityType : 0 0 0
+n : 5
+answer : 6
+
+27
+entities : 9 4 x
+operators : + - * / =
+objtypes : card pokemon
+entityType : 0 1 1
+n : 5
+answer : 13
+
+28
+entities : 2 5 27 x
+operators : + - * / =
+objtypes : dollar bar
+entityType : 0 1 0 0
+n : 7
+answer : 5
+
+29
+entities : 4 34 x
+operators : + - * / =
+objtypes : card
+entityType : 0 0 0
+n : 5
+answer : 64
+
+30
+entities : 17 7 80 x
+operators : + - * / =
+objtypes : dollar hour
+entityType : 0 0 0 1
+n : 7
+answer : 9
+
+31
+entities : 375 7 4 x
+operators : + - * / =
+objtypes : student bus
+entityType : 0 1 0 0
+n : 7
+answer : 53
+
+32
+entities : 6 13 x
+operators : + - * / =
+objtypes : book NONE
+entityType : 0 0 1
+n : 5
+answer : 14
+
+33
+entities : 9 7 10 5 x
+operators : + - * / =
+objtypes : package can
+entityType : 0 0 1 1 1
+n : 9
+answer : 55
+
+34
+entities : 2 1 7 1 x
+operators : + - * / =
+objtypes : ticket
+entityType : 0 0 0 0 0
+n : 9
+answer : 9
+
+35
+entities : 53 7 19 x
+operators : + - * / =
+objtypes : cupcake vanilla NONE
+entityType : 0 0 1 2
+n : 7
+answer : 32
+
+36
+entities : 4 8 4 10 x
+operators : + - * / =
+objtypes : pack ball
+entityType : 0 0 0 1 1
+n : 9
+answer : 160
+
+37
+entities : 28 54 x
+operators : + - * / =
+objtypes : bale
+entityType : 0 0 0
+n : 5
+answer : 26
+
+38
+entities : 9 4 x
+operators : + - * / =
+objtypes : lime
+entityType : 0 0 0
+n : 5
+answer : 5
+
+39
+entities : 5 4 x
+operators : + - * / =
+objtypes : pizza slice
+entityType : 0 1 1
+n : 5
+answer : 20
+
+40
+entities : 20 5 x
+operators : + - * / =
+objtypes : mile gallon
+entityType : 0 1 0
+n : 5
+answer : 100
+
+41
+entities : 58 2 x
+operators : + - * / =
+objtypes : child seat
+entityType : 0 0 1
+n : 5
+answer : 29
+
+42
+entities : 12 3 x
+operators : + - * / =
+objtypes : guest table
+entityType : 0 0 1
+n : 5
+answer : 4
+
+43
+entities : 12 15 x
+operators : + - * / =
+objtypes : chair dollar
+entityType : 0 1 1
+n : 5
+answer : 180
+
+44
+entities : 7 3 x
+operators : + - * / =
+objtypes : crayon
+entityType : 0 0 0
+n : 5
+answer : 4
+
+45
+entities : 616 147 x
+operators : + - * / =
+objtypes : game
+entityType : 0 0 0
+n : 5
+answer : 469

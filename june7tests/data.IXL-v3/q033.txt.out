@@ -1,0 +1,47 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 108 solutions found
+EXPR: 0 | POS | INT | 10 | 26 | 82 | x=(28+54) | x 28 54 + = | x:hay 28:hay 54:hay +:hay =:hay
+EXPR: 0 | POS | INT | 10 | 26 | 1512 | x=(28*54) | x 28 54 * = | x:bale 28:bale 54:hay *:bale =:bale
+EXPR: 0 | POS | INT | 10 | 26 | 1512 | x=(28*54) | x 28 54 * = | x:bale 28:hay 54:bale *:bale =:bale
+EXPR: 0 | POS | INT | 11 | 26 | 1512 | x=(28*54) | x 28 54 * = | x:bale 28:hay 54:bale *:bale =:bale
+EXPR: 0 | POS | INT | 11 | 26 | 82 | x=(28+54) | x 28 54 + = | x:hay 28:hay 54:hay +:hay =:hay
+EXPR: 0 | POS | INT | 11 | 26 | 1512 | x=(28*54) | x 28 54 * = | x:bale 28:bale 54:hay *:bale =:bale
+EXPR: 1 | POS | INT | 12 | 26 | 26 | (28+x)=54 | 28 x + 54 = | 28:hay x:hay +:hay 54:hay =:hay
+EXPR: 1 | POS | INT | 12 | 26 | 26 | 28=(54-x) | 28 54 x - = | 28:hay 54:hay x:hay -:hay =:hay
+EXPR: 0 | POS | INT | 12 | 26 | 82 | 28=(x-54) | 28 x 54 - = | 28:hay x:hay 54:hay -:hay =:hay
+EXPR: 0 | POS | INT | 12 | 26 | 82 | (x-28)=54 | x 28 - 54 = | x:hay 28:hay -:hay 54:hay =:hay
+EXPR: 0 | POS | INT | 12 | 26 | 1512 | 28=(x/54) | 28 x 54 / = | 28:bale x:bale 54:hay /:bale =:bale
+EXPR: 1 | POS | INT | 12 | 26 | 26 | (x+28)=54 | x 28 + 54 = | x:hay 28:hay +:hay 54:hay =:hay
+EXPR: 0 | POS | INT | 12 | 26 | 1512 | (x/28)=54 | x 28 / 54 = | x:bale 28:hay /:bale 54:bale =:bale
+EXPR: 0 | POS | INT | 20 | 26 | 82 | x=(28+54) | x 28 54 + = | x:bale 28:bale 54:bale +:bale =:bale
+EXPR: 0 | POS | INT | 20 | 26 | 1512 | x=(28*54) | x 28 54 * = | x:hay 28:bale 54:hay *:hay =:hay
+EXPR: 1 | POS | INT | 20 | 26 | 26 | x=(54-28) | x 54 28 - = | x:hay 54:hay 28:hay -:hay =:hay
+EXPR: 0 | POS | INT | 20 | 26 | 1512 | x=(28*54) | x 28 54 * = | x:hay 28:hay 54:bale *:hay =:hay
+EXPR: 0 | POS | INT | 21 | 26 | 82 | x=(28+54) | x 28 54 + = | x:bale 28:bale 54:bale +:bale =:bale
+EXPR: 0 | POS | INT | 21 | 26 | 1512 | x=(28*54) | x 28 54 * = | x:hay 28:bale 54:hay *:hay =:hay
+EXPR: 1 | POS | INT | 21 | 26 | 26 | x=(54-28) | x 54 28 - = | x:hay 54:hay 28:hay -:hay =:hay
+EXPR: 0 | POS | INT | 21 | 26 | 1512 | x=(28*54) | x 28 54 * = | x:hay 28:hay 54:bale *:hay =:hay
+EXPR: 1 | POS | INT | 22 | 26 | 26 | (x+28)=54 | x 28 + 54 = | x:bale 28:bale +:bale 54:bale =:bale
+EXPR: 1 | POS | INT | 22 | 26 | 26 | 54=(28+x) | 54 28 x + = | 54:hay 28:hay x:hay +:hay =:hay
+EXPR: 0 | POS | INT | 22 | 26 | 82 | 28=(x-54) | 28 x 54 - = | 28:bale x:bale 54:bale -:bale =:bale
+EXPR: 0 | POS | INT | 22 | 26 | 82 | (x-54)=28 | x 54 - 28 = | x:hay 54:hay -:hay 28:hay =:hay
+EXPR: 1 | POS | INT | 22 | 26 | 26 | (54-x)=28 | 54 x - 28 = | 54:hay x:hay -:hay 28:hay =:hay
+EXPR: 0 | POS | INT | 22 | 26 | 82 | 54=(x-28) | 54 x 28 - = | 54:hay x:hay 28:hay -:hay =:hay
+EXPR: 1 | POS | INT | 22 | 26 | 26 | 54=(x+28) | 54 x 28 + = | 54:hay x:hay 28:hay +:hay =:hay
+EXPR: 0 | POS | INT | 22 | 26 | 1512 | 54=(x/28) | 54 x 28 / = | 54:bale x:bale 28:hay /:bale =:bale
+EXPR: 1 | POS | INT | 22 | 26 | 26 | (28+x)=54 | 28 x + 54 = | 28:bale x:bale +:bale 54:bale =:bale
+EXPR: 1 | POS | INT | 22 | 26 | 26 | 28=(54-x) | 28 54 x - = | 28:bale 54:bale x:bale -:bale =:bale
+EXPR: 0 | POS | INT | 22 | 26 | 1512 | (x/28)=54 | x 28 / 54 = | x:hay 28:bale /:hay 54:hay =:hay
+EXPR: 0 | POS | INT | 22 | 26 | 82 | (x-28)=54 | x 28 - 54 = | x:bale 28:bale -:bale 54:bale =:bale
+EXPR: 0 | POS | INT | 22 | 26 | 1512 | 28=(x/54) | 28 x 54 / = | 28:hay x:hay 54:bale /:hay =:hay
+EXPR: 0 | POS | INT | 22 | 26 | 1512 | (x/54)=28 | x 54 / 28 = | x:bale 54:hay /:bale 28:bale =:bale
+EXPR: 1 | POS | INT | 30 | 26 | 26 | x=(54-28) | x 54 28 - = | x:bale 54:bale 28:bale -:bale =:bale
+EXPR: 1 | POS | INT | 31 | 26 | 26 | x=(54-28) | x 54 28 - = | x:bale 54:bale 28:bale -:bale =:bale
+EXPR: 0 | POS | INT | 32 | 26 | 82 | 54=(x-28) | 54 x 28 - = | 54:bale x:bale 28:bale -:bale =:bale
+EXPR: 0 | POS | INT | 32 | 26 | 1512 | (x/54)=28 | x 54 / 28 = | x:hay 54:bale /:hay 28:hay =:hay
+EXPR: 1 | POS | INT | 32 | 26 | 26 | 54=(28+x) | 54 28 x + = | 54:bale 28:bale x:bale +:bale =:bale
+EXPR: 0 | POS | INT | 32 | 26 | 1512 | 54=(x/28) | 54 x 28 / = | 54:hay x:hay 28:bale /:hay =:hay
+EXPR: 1 | POS | INT | 32 | 26 | 26 | 54=(x+28) | 54 x 28 + = | 54:bale x:bale 28:bale +:bale =:bale
+EXPR: 0 | POS | INT | 32 | 26 | 82 | (x-54)=28 | x 54 - 28 = | x:bale 54:bale -:bale 28:bale =:bale
+EXPR: 1 | POS | INT | 32 | 26 | 26 | (54-x)=28 | 54 x - 28 = | 54:bale x:bale -:bale 28:bale =:bale
+NET 44 non-negative, integer-valued solutions found out of 108 total solutions

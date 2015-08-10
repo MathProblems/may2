@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 0 | 18.66 | 8.54 | (13.60-5.06)=x | 13.60 5.06 - x = | 13.60:dollar 5.06:dollar -:dollar x:dollar =:dollar
+EXPR: 1 | POS | FRA | 0 | 18.66 | 18.66 | x=(13.60+5.06) | x 13.60 5.06 + = | x:dollar 13.60:dollar 5.06:dollar +:dollar =:dollar
+EXPR: 0 | POS | FRA | 0 | 18.66 | 8.54 | x=(13.60-5.06) | x 13.60 5.06 - = | x:dollar 13.60:dollar 5.06:dollar -:dollar =:dollar
+EXPR: 1 | POS | FRA | 0 | 18.66 | 18.66 | (13.60+5.06)=x | 13.60 5.06 + x = | 13.60:dollar 5.06:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 18.66 | 8.54 | 13.60=(5.06+x) | 13.60 5.06 x + = | 13.60:dollar 5.06:dollar x:dollar +:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 18.66 | 8.54 | 13.60=(x+5.06) | 13.60 x 5.06 + = | 13.60:dollar x:dollar 5.06:dollar +:dollar =:dollar
+EXPR: 1 | POS | FRA | 2 | 18.66 | 18.66 | 13.60=(x-5.06) | 13.60 x 5.06 - = | 13.60:dollar x:dollar 5.06:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 18.66 | 8.54 | (13.60-x)=5.06 | 13.60 x - 5.06 = | 13.60:dollar x:dollar -:dollar 5.06:dollar =:dollar
+EXPR: 1 | POS | FRA | 2 | 18.66 | 18.66 | (x-13.60)=5.06 | x 13.60 - 5.06 = | x:dollar 13.60:dollar -:dollar 5.06:dollar =:dollar
+EXPR: 1 | POS | FRA | 4 | 18.66 | 18.66 | 5.06=(x-13.60) | 5.06 x 13.60 - = | 5.06:dollar x:dollar 13.60:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 4 | 18.66 | 8.54 | (5.06+x)=13.60 | 5.06 x + 13.60 = | 5.06:dollar x:dollar +:dollar 13.60:dollar =:dollar
+EXPR: 1 | POS | FRA | 4 | 18.66 | 18.66 | (x-5.06)=13.60 | x 5.06 - 13.60 = | x:dollar 5.06:dollar -:dollar 13.60:dollar =:dollar
+EXPR: 0 | POS | FRA | 4 | 18.66 | 8.54 | (x+5.06)=13.60 | x 5.06 + 13.60 = | x:dollar 5.06:dollar +:dollar 13.60:dollar =:dollar
+EXPR: 0 | POS | FRA | 4 | 18.66 | 8.54 | 5.06=(13.60-x) | 5.06 13.60 x - = | 5.06:dollar 13.60:dollar x:dollar -:dollar =:dollar
+NET 14 unique, non-negative solutions found out of 28 total solutions

@@ -1,0 +1,690 @@
+
+0
+constants : 13.99 12.14 7.43
+unknowns : x
+operators : + - * / =
+objtypes : dollar
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 33.56
+
+
+1
+constants : 142.46 8.89 7
+unknowns : x
+operators : + - * / =
+objtypes : dollar
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 158.35
+
+
+2
+constants : 10.62 2 1.59 13.95
+unknowns : x
+operators : + - * / =
+objtypes : dollar ticket
+constantOrUnknownType : 0 1 0 0 0
+n : 9
+answer : 36.78
+
+
+3
+constants : 7.19 6.83 20
+unknowns : x
+operators : + - * / =
+objtypes : dollar
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 5.98
+
+
+4
+constants : 11 19 7 8
+unknowns : x
+operators : + - * / =
+objtypes : dollar money
+constantOrUnknownType : 0 0 0 0 1
+n : 9
+answer : 29
+
+
+5
+constants : 13 9 10 3
+unknowns : x
+operators : + - * / =
+objtypes : dollar hour money
+constantOrUnknownType : 0 1 1 1 2
+n : 9
+answer : 286
+
+
+6
+constants : 17 48 25 49
+unknowns : x
+operators : + - * / =
+objtypes : dollar money
+constantOrUnknownType : 0 0 0 0 1
+n : 9
+answer : 41
+
+
+7
+constants : 20 26 20 6 58
+unknowns : x
+operators : + - * / =
+objtypes : sticker
+constantOrUnknownType : 0 0 0 0 0 0
+n : 11
+answer : 2
+
+
+8
+constants : 6 6 8 18
+unknowns : x
+operators : + - * / =
+objtypes : van people bus
+constantOrUnknownType : 0 1 2 1 1
+n : 9
+answer : 180
+
+
+9
+constants : 91 24 6 11
+unknowns : x
+operators : + - * / =
+objtypes : dollar money
+constantOrUnknownType : 0 0 0 0 1
+n : 9
+answer : 50
+
+
+10
+constants : 15 13 8 21
+unknowns : x
+operators : + - * / =
+objtypes : coin
+constantOrUnknownType : 0 0 0 0 0
+n : 9
+answer : 15
+
+
+11
+constants : 61 26 7
+unknowns : x
+operators : + - * / =
+objtypes : plate
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 28
+
+
+12
+constants : 85 10 5
+unknowns : x
+operators : + - * / =
+objtypes : dollar book money
+constantOrUnknownType : 0 1 0 2
+n : 7
+answer : 35
+
+
+13
+constants : 8 13 2 18
+unknowns : x
+operators : + - * / =
+objtypes : dollar money
+constantOrUnknownType : 0 0 0 0 1
+n : 9
+answer : 1
+
+
+14
+constants : 20 12 20 5 8
+unknowns : x
+operators : + - * / =
+objtypes : sticker
+constantOrUnknownType : 0 0 0 0 0 0
+n : 11
+answer : 39
+
+
+15
+constants : 30 49 46 58
+unknowns : x
+operators : + - * / =
+objtypes : dollar money
+constantOrUnknownType : 0 0 0 0 1
+n : 9
+answer : 67
+
+
+16
+constants : 7 12 4 6 13
+unknowns : x
+operators : + - * / =
+objtypes : dollar money
+constantOrUnknownType : 0 0 0 0 0 1
+n : 11
+answer : 4
+
+
+17
+constants : 10 1 3 16
+unknowns : x
+operators : + - * / =
+objtypes : book dollar
+constantOrUnknownType : 0 0 0 1 1
+n : 9
+answer : 224
+
+
+18
+constants : 54 15 25
+unknowns : x
+operators : + - * / =
+objtypes : cupcake vanilla
+constantOrUnknownType : 0 0 1 0
+n : 7
+answer : 14
+
+
+19
+constants : 21 4 8
+unknowns : x
+operators : + - * / =
+objtypes : berry strawberry blueberry
+constantOrUnknownType : 0 1 2 0
+n : 7
+answer : 9
+
+
+20
+constants : 24 14 3 2
+unknowns : x
+operators : + - * / =
+objtypes : bicycle tricycle wheel
+constantOrUnknownType : 0 1 2 2 2
+n : 9
+answer : 90
+
+
+21
+constants : 109 2 13 11
+unknowns : x
+operators : + - * / =
+objtypes : dollar shirt money
+constantOrUnknownType : 0 1 0 0 2
+n : 9
+answer : 74
+
+
+22
+constants : 3 13 7 9
+unknowns : x
+operators : + - * / =
+objtypes : nickel dime half-dollar money
+constantOrUnknownType : 0 1 1 2 3
+n : 9
+answer : 6.65
+
+
+23
+constants : 9 3
+unknowns : x
+operators : + - * / =
+objtypes : marble
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 12
+
+
+24
+constants : 8 3
+unknowns : x
+operators : + - * / =
+objtypes : calorie bar
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 24
+
+
+25
+constants : 9 3
+unknowns : x
+operators : + - * / =
+objtypes : hamburger
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 6
+
+
+26
+constants : 2 5 27
+unknowns : x
+operators : + - * / =
+objtypes : dollar bar
+constantOrUnknownType : 0 1 0 0
+n : 7
+answer : 5
+
+
+27
+constants : 4 0.5 34
+unknowns : x
+operators : + - * / =
+objtypes : card half
+constantOrUnknownType : 0 1 0 0
+n : 7
+answer : 64
+
+
+28
+constants : 17 7 80
+unknowns : x
+operators : + - * / =
+objtypes : dollar hour
+constantOrUnknownType : 0 0 0 1
+n : 7
+answer : 9
+
+
+29
+constants : 375 7 4
+unknowns : x
+operators : + - * / =
+objtypes : student bus
+constantOrUnknownType : 0 1 0 0
+n : 7
+answer : 53
+
+
+30
+constants : 0.5 6 13
+unknowns : x
+operators : + - * / =
+objtypes : half book
+constantOrUnknownType : 0 1 1 1
+n : 7
+answer : 14
+
+
+31
+constants : 2 1 7 1
+unknowns : x
+operators : + - * / =
+objtypes : ticket
+constantOrUnknownType : 0 0 0 0 0
+n : 9
+answer : 9
+
+
+32
+constants : 4 8 4 10
+unknowns : x
+operators : + - * / =
+objtypes : ball
+constantOrUnknownType : 0 0 0 0 0
+n : 9
+answer : 160
+
+
+33
+constants : 28 54
+unknowns : x
+operators : + - * / =
+objtypes : hay bale
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 26
+
+
+34
+constants : 9 4
+unknowns : x
+operators : + - * / =
+objtypes : lime
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 5
+
+
+35
+constants : 5 4
+unknowns : x
+operators : + - * / =
+objtypes : pizza slice
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 20
+
+
+36
+constants : 20 5
+unknowns : x
+operators : + - * / =
+objtypes : mile gas
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 100
+
+
+37
+constants : 58 2
+unknowns : x
+operators : + - * / =
+objtypes : child seat
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 29
+
+
+38
+constants : 12 3
+unknowns : x
+operators : + - * / =
+objtypes : guest table
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 4
+
+
+39
+constants : 15 12
+unknowns : x
+operators : + - * / =
+objtypes : dollar chair
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 180
+
+
+40
+constants : 7 3
+unknowns : x
+operators : + - * / =
+objtypes : crayon
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 4
+
+
+41
+constants : 616 147
+unknowns : x
+operators : + - * / =
+objtypes : game
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 469
+
+
+42
+constants : 11 17 16
+unknowns : x
+operators : + - * / =
+objtypes : game
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 44
+
+
+43
+constants : 3 14
+unknowns : x
+operators : + - * / =
+objtypes : rose
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 11
+
+
+44
+constants : 9 3
+unknowns : x
+operators : + - * / =
+objtypes : crayon
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 12
+
+
+45
+constants : 7 9
+unknowns : x
+operators : + - * / =
+objtypes : lemon
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 16
+
+
+46
+constants : 7 4
+unknowns : x
+operators : + - * / =
+objtypes : game
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 3
+
+
+47
+constants : 7 3
+unknowns : x
+operators : + - * / =
+objtypes : dime
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 4
+
+
+48
+constants : 344 43
+unknowns : x
+operators : + - * / =
+objtypes : candy student piece
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 8
+
+
+49
+constants : 28 54
+unknowns : x
+operators : + - * / =
+objtypes : hay bale
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 26
+
+
+50
+constants : 9 4
+unknowns : x
+operators : + - * / =
+objtypes : lime
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 5
+
+
+51
+constants : 9 7
+unknowns : x
+operators : + - * / =
+objtypes : penny quarter money
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 1.84
+
+
+52
+constants : 7,341 4,221
+unknowns : x
+operators : + - * / =
+objtypes : cell
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 3120
+
+
+53
+constants : 4 2
+unknowns : x
+operators : + - * / =
+objtypes : child pencil
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 8
+
+
+54
+constants : 344 43
+unknowns : x
+operators : + - * / =
+objtypes : candy student piece
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 8
+
+
+55
+constants : 63
+unknowns : x
+operators : + - * / =
+objtypes : hamburger
+constantOrUnknownType : 0 0
+n : 3
+answer : 9
+
+
+56
+constants : 79 9 16
+unknowns : x
+operators : + - * / =
+objtypes : dollar book
+constantOrUnknownType : 0 1 0 0
+n : 7
+answer : 7
+
+
+57
+constants : 3 6 9
+unknowns : x
+operators : + - * / =
+objtypes : kitten
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 18
+
+
+58
+constants : 60 45 12
+unknowns : x
+operators : + - * / =
+objtypes : calorie bar dozen
+constantOrUnknownType : 0 1 0 2
+n : 7
+answer : 225
+
+
+59
+constants : 96 12
+unknowns : x
+operators : + - * / =
+objtypes : bird dozen
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 8
+
+
+60
+constants : 22 55
+unknowns : x
+operators : + - * / =
+objtypes : tree
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 33
+
+
+61
+constants : 12 2
+unknowns : x
+operators : + - * / =
+objtypes : game month
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 6
+
+
+62
+constants : 45 5
+unknowns : x
+operators : + - * / =
+objtypes : hour day LENGTH
+constantOrUnknownType : 0 1 2
+n : 5
+answer : 9
+
+
+63
+constants : 11.08 14.33 9.31
+unknowns : x
+operators : + - * / =
+objtypes : dollar
+constantOrUnknownType : 0 0 0 0
+n : 7
+answer : 34.72
+
+
+64
+constants : 6,359 3,485
+unknowns : x
+operators : + - * / =
+objtypes : yen
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 9844
+
+
+65
+constants : 69 26,935
+unknowns : x
+operators : + - * / =
+objtypes : dollar money
+constantOrUnknownType : 0 0 1
+n : 5
+answer : 27004
+
+
+66
+constants : 33 26
+unknowns : x
+operators : + - * / =
+objtypes : book
+constantOrUnknownType : 0 0 0
+n : 5
+answer : 7
+
+
+67
+constants : 6 3
+unknowns : x
+operators : + - * / =
+objtypes : balloon Sally
+constantOrUnknownType : 0 1 0
+n : 5
+answer : 18
+
+
+68
+constants : 1 12
+unknowns : x
+operators : + - * / =
+objtypes : dozen bird
+constantOrUnknownType : 0 1 1
+n : 5
+answer : 12
+

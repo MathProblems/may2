@@ -1,0 +1,50 @@
+parameters: n=9 l=4 k=1 p=5 q=2 m=10
+TOTAL 100 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 160 |  | x=(((4-8)+4)*10) | x 4 8 - 4 + 10 * = | x:ball 4:pack 8:pack -:pack 4:pack +:pack 10:ball *:ball =:ball
+EXPR: 1 | POS | INT | 0 | 160 | 160 | x=((4+(8+4))*10) | x 4 8 4 + + 10 * = | x:ball 4:pack 8:pack 4:pack +:pack +:pack 10:ball *:ball =:ball
+EXPR: 0 | POS | INT | 0 | 160 | 80 | x=(((4+8)-4)*10) | x 4 8 + 4 - 10 * = | x:ball 4:pack 8:pack +:pack 4:pack -:pack 10:ball *:ball =:ball
+EXPR: 0 | POS | INT | 0 | 160 |  | x=((4-(8-4))*10) | x 4 8 4 - - 10 * = | x:ball 4:pack 8:pack 4:pack -:pack -:pack 10:ball *:ball =:ball
+EXPR: 1 | POS | INT | 0 | 160 | 160 | x=(((4+8)+4)*10) | x 4 8 + 4 + 10 * = | x:ball 4:pack 8:pack +:pack 4:pack +:pack 10:ball *:ball =:ball
+EXPR: 0 | POS | INT | 0 | 160 | 80 | x=((4+(8-4))*10) | x 4 8 4 - + 10 * = | x:ball 4:pack 8:pack 4:pack -:pack +:pack 10:ball *:ball =:ball
+EXPR: 0 | POS | INT | 1 | 160 |  | x=(((4-8)+4)*10) | x 4 8 - 4 + 10 * = | x:ball 4:pack 8:pack -:pack 4:pack +:pack 10:ball *:ball =:ball
+EXPR: 1 | POS | INT | 1 | 160 | 160 | x=((4+(8+4))*10) | x 4 8 4 + + 10 * = | x:ball 4:pack 8:pack 4:pack +:pack +:pack 10:ball *:ball =:ball
+EXPR: 0 | POS | INT | 1 | 160 |  | x=((4-(8-4))*10) | x 4 8 4 - - 10 * = | x:ball 4:pack 8:pack 4:pack -:pack -:pack 10:ball *:ball =:ball
+EXPR: 1 | POS | INT | 1 | 160 | 160 | x=(((4+8)+4)*10) | x 4 8 + 4 + 10 * = | x:ball 4:pack 8:pack +:pack 4:pack +:pack 10:ball *:ball =:ball
+EXPR: 0 | POS | INT | 1 | 160 | 80 | x=(((4+8)-4)*10) | x 4 8 + 4 - 10 * = | x:ball 4:pack 8:pack +:pack 4:pack -:pack 10:ball *:ball =:ball
+EXPR: 0 | POS | INT | 1 | 160 | 80 | x=((4+(8-4))*10) | x 4 8 4 - + 10 * = | x:ball 4:pack 8:pack 4:pack -:pack +:pack 10:ball *:ball =:ball
+EXPR: 0 | POS | INT | 10 | 160 | 30 | x=(((4+8)/4)*10) | x 4 8 + 4 / 10 * = | x:ball 4:pack 8:pack +:pack 4:ball /:pack 10:ball *:ball =:ball
+EXPR: 0 | POS | INT | 10 | 160 | 80 | x=(((8-4)+4)*10) | x 8 4 - 4 + 10 * = | x:ball 8:pack 4:pack -:pack 4:pack +:pack 10:ball *:ball =:ball
+EXPR: 0 | POS | INT | 10 | 160 | 80 | x=(((4+8)-4)*10) | x 4 8 + 4 - 10 * = | x:pack 4:pack 8:pack +:pack 4:pack -:pack 10:ball *:pack =:pack
+EXPR: 0 | POS | INT | 10 | 160 | 72 | x=((4*8)+(4*10)) | x 4 8 * 4 10 * + = | x:ball 4:pack 8:ball *:ball 4:pack 10:ball *:ball +:ball =:ball
+EXPR: 1 | POS | INT | 10 | 160 | 160 | x=(((4+8)+4)*10) | x 4 8 + 4 + 10 * = | x:pack 4:pack 8:pack +:pack 4:pack +:pack 10:ball *:pack =:pack
+EXPR: 0 | POS | INT | 10 | 160 |  | x=(((4+4)-8)*10) | x 4 4 + 8 - 10 * = | x:ball 4:pack 4:pack +:pack 8:pack -:pack 10:ball *:ball =:ball
+EXPR: 1 | POS | INT | 10 | 160 | 160 | x=(((4+4)+8)*10) | x 4 4 + 8 + 10 * = | x:ball 4:pack 4:pack +:pack 8:pack +:pack 10:ball *:ball =:ball
+EXPR: 0 | POS | INT | 11 | 160 | 30 | x=(((4+8)/4)*10) | x 4 8 + 4 / 10 * = | x:ball 4:pack 8:pack +:pack 4:ball /:pack 10:ball *:ball =:ball
+EXPR: 0 | POS | INT | 11 | 160 | 80 | x=(((4+8)-4)*10) | x 4 8 + 4 - 10 * = | x:pack 4:pack 8:pack +:pack 4:pack -:pack 10:ball *:pack =:pack
+EXPR: 1 | POS | INT | 11 | 160 | 160 | x=(((4+4)+8)*10) | x 4 4 + 8 + 10 * = | x:ball 4:pack 4:pack +:pack 8:pack +:pack 10:ball *:ball =:ball
+EXPR: 0 | POS | INT | 12 | 160 | - | 8=(((4-4)*x)/10) | 8 4 4 - x * 10 / = | 8:pack 4:pack 4:pack -:pack x:ball *:pack 10:ball /:pack =:pack
+EXPR: 0 | POS | INT | 20 | 160 | 7 | x=((4/8)*(4+10)) | x 4 8 / 4 10 + * = | x:ball 4:pack 8:ball /:pack 4:ball 10:ball +:ball *:ball =:ball
+EXPR: 0 | POS | INT | 20 | 160 | 36 | x=((4-8)+(4*10)) | x 4 8 - 4 10 * + = | x:ball 4:ball 8:ball -:ball 4:pack 10:ball *:ball +:ball =:ball
+EXPR: 0 | POS | INT | 20 | 160 | 10 | x=(((8-4)/4)*10) | x 8 4 - 4 / 10 * = | x:ball 8:pack 4:pack -:pack 4:ball /:pack 10:ball *:ball =:ball
+EXPR: 0 | POS | INT | 20 | 160 |  | x=(((4-4)/8)*10) | x 4 4 - 8 / 10 * = | x:ball 4:pack 4:pack -:pack 8:ball /:pack 10:ball *:ball =:ball
+EXPR: 0 | POS | INT | 20 | 160 | 10 | x=(((4-4)*8)+10) | x 4 4 - 8 * 10 + = | x:ball 4:pack 4:pack -:pack 8:ball *:ball 10:ball +:ball =:ball
+EXPR: 0 | POS | INT | 20 | 160 | 8 | x=(8-((4-4)/10)) | x 8 4 4 - 10 / - = | x:pack 8:pack 4:pack 4:pack -:pack 10:ball /:pack -:pack =:pack
+EXPR: 0 | POS | INT | 20 | 160 | 8 | x=(8+((4-4)/10)) | x 8 4 4 - 10 / + = | x:pack 8:pack 4:pack 4:pack -:pack 10:ball /:pack +:pack =:pack
+EXPR: 0 | POS | INT | 20 | 160 | 5 | x=(((10/4)*8)/4) | x 10 4 / 8 * 4 / = | x:ball 10:ball 4:pack /:ball 8:pack *:ball 4:pack /:ball =:ball
+EXPR: 0 | POS | INT | 21 | 160 | 7 | x=((4/8)*(4+10)) | x 4 8 / 4 10 + * = | x:ball 4:pack 8:ball /:pack 4:ball 10:ball +:ball *:ball =:ball
+EXPR: 0 | POS | INT | 21 | 160 | 36 | x=((4-8)+(4*10)) | x 4 8 - 4 10 * + = | x:ball 4:ball 8:ball -:ball 4:pack 10:ball *:ball +:ball =:ball
+EXPR: 0 | POS | INT | 21 | 160 | 10 | x=(((8-4)/4)*10) | x 8 4 - 4 / 10 * = | x:ball 8:pack 4:pack -:pack 4:ball /:pack 10:ball *:ball =:ball
+EXPR: 0 | POS | INT | 21 | 160 |  | x=(((4-4)/8)*10) | x 4 4 - 8 / 10 * = | x:ball 4:pack 4:pack -:pack 8:ball /:pack 10:ball *:ball =:ball
+EXPR: 0 | POS | INT | 21 | 160 | 10 | x=(((4-4)*8)+10) | x 4 4 - 8 * 10 + = | x:ball 4:pack 4:pack -:pack 8:ball *:ball 10:ball +:ball =:ball
+EXPR: 0 | POS | INT | 21 | 160 | 8 | x=(8+((4-4)/10)) | x 8 4 4 - 10 / + = | x:pack 8:pack 4:pack 4:pack -:pack 10:ball /:pack +:pack =:pack
+EXPR: 0 | POS | INT | 21 | 160 | 5 | x=(((10/4)*8)/4) | x 10 4 / 8 * 4 / = | x:ball 10:ball 4:pack /:ball 8:pack *:ball 4:pack /:ball =:ball
+EXPR: 0 | POS | INT | 22 | 160 | 6 | 4=(((x-8)-4)+10) | 4 x 8 - 4 - 10 + = | 4:pack x:pack 8:pack -:pack 4:pack -:pack 10:pack +:pack =:pack
+EXPR: 0 | POS | INT | 22 | 160 | 36 | 8=((4+(4*10))-x) | 8 4 4 10 * + x - = | 8:pack 4:pack 4:pack 10:ball *:pack +:pack x:pack -:pack =:pack
+EXPR: 0 | POS | INT | 25 | 160 | 360 | x=((4+(4*8))*10) | x 4 4 8 * + 10 * = | x:ball 4:pack 4:pack 8:ball *:pack +:pack 10:ball *:ball =:ball
+EXPR: 0 | POS | INT | 25 | 160 |  | x=(((4-4)/8)*10) | x 4 4 - 8 / 10 * = | x:ball 4:pack 4:pack -:pack 8:ball /:pack 10:ball *:ball =:ball
+EXPR: 0 | POS | INT | 26 | 160 | 360 | x=((4+(4*8))*10) | x 4 4 8 * + 10 * = | x:ball 4:pack 4:pack 8:ball *:pack +:pack 10:ball *:ball =:ball
+EXPR: 0 | POS | INT | 26 | 160 |  | x=(((4-4)/8)*10) | x 4 4 - 8 / 10 * = | x:ball 4:pack 4:pack -:pack 8:ball /:pack 10:ball *:ball =:ball
+EXPR: 0 | POS | INT | 27 | 160 | 30 | 4=(((4+8)/x)*10) | 4 4 8 + x / 10 * = | 4:ball 4:pack 8:pack +:pack x:ball /:pack 10:ball *:ball =:ball
+EXPR: 0 | POS | INT | 27 | 160 | 9 | 4=(((x-10)*4)+8) | 4 x 10 - 4 * 8 + = | 4:pack x:ball 10:ball -:ball 4:pack *:pack 8:pack +:pack =:pack
+NET 46 non-negative, integer-valued solutions found out of 100 total solutions

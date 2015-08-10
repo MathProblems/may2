@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 22 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 25 | 25 | x=(11+14) | x 11 14 + = | x:ruler 11:ruler 14:ruler +:ruler =:ruler
+EXPR: 1 | POS | INT | 1 | 25 | 25 | x=(11+14) | x 11 14 + = | x:ruler 11:ruler 14:ruler +:ruler =:ruler
+EXPR: 0 | POS | INT | 2 | 25 | 3 | (11+x)=14 | 11 x + 14 = | 11:ruler x:ruler +:ruler 14:ruler =:ruler
+EXPR: 1 | POS | INT | 2 | 25 | 25 | (x-11)=14 | x 11 - 14 = | x:ruler 11:ruler -:ruler 14:ruler =:ruler
+EXPR: 0 | POS | INT | 2 | 25 | 3 | (x+11)=14 | x 11 + 14 = | x:ruler 11:ruler +:ruler 14:ruler =:ruler
+EXPR: 0 | POS | INT | 2 | 25 | 3 | 11=(14-x) | 11 14 x - = | 11:ruler 14:ruler x:ruler -:ruler =:ruler
+EXPR: 1 | POS | INT | 2 | 25 | 25 | 11=(x-14) | 11 x 14 - = | 11:ruler x:ruler 14:ruler -:ruler =:ruler
+EXPR: 0 | POS | INT | 10 | 25 | 3 | x=(14-11) | x 14 11 - = | x:ruler 14:ruler 11:ruler -:ruler =:ruler
+EXPR: 0 | POS | INT | 11 | 25 | 3 | x=(14-11) | x 14 11 - = | x:ruler 14:ruler 11:ruler -:ruler =:ruler
+EXPR: 0 | POS | INT | 12 | 25 | 3 | 14=(x+11) | 14 x 11 + = | 14:ruler x:ruler 11:ruler +:ruler =:ruler
+EXPR: 1 | POS | INT | 12 | 25 | 25 | 14=(x-11) | 14 x 11 - = | 14:ruler x:ruler 11:ruler -:ruler =:ruler
+EXPR: 0 | POS | INT | 12 | 25 | 3 | (14-x)=11 | 14 x - 11 = | 14:ruler x:ruler -:ruler 11:ruler =:ruler
+EXPR: 1 | POS | INT | 12 | 25 | 25 | (x-14)=11 | x 14 - 11 = | x:ruler 14:ruler -:ruler 11:ruler =:ruler
+EXPR: 0 | POS | INT | 12 | 25 | 3 | 14=(11+x) | 14 11 x + = | 14:ruler 11:ruler x:ruler +:ruler =:ruler
+NET 14 non-negative, integer-valued solutions found out of 22 total solutions

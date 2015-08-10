@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 3 | 24 | (36.0-12)=x | 36.0 12 - x = | 36.0:quarter 12:quarter -:quarter x:quarter =:quarter
+EXPR: 0 | POS | INT | 0 | 3 | 48 | x=(36.0+12) | x 36.0 12 + = | x:quarter 36.0:quarter 12:quarter +:quarter =:quarter
+EXPR: 0 | POS | INT | 0 | 3 | 24 | x=(36.0-12) | x 36.0 12 - = | x:quarter 36.0:quarter 12:quarter -:quarter =:quarter
+EXPR: 0 | POS | INT | 0 | 3 | 48 | (36.0+12)=x | 36.0 12 + x = | 36.0:quarter 12:quarter +:quarter x:quarter =:quarter
+EXPR: 0 | POS | INT | 2 | 3 | 24 | 36.0=(12+x) | 36.0 12 x + = | 36.0:quarter 12:quarter x:quarter +:quarter =:quarter
+EXPR: 0 | POS | INT | 2 | 3 | 24 | 36.0=(x+12) | 36.0 x 12 + = | 36.0:quarter x:quarter 12:quarter +:quarter =:quarter
+EXPR: 0 | POS | INT | 2 | 3 | 48 | 36.0=(x-12) | 36.0 x 12 - = | 36.0:quarter x:quarter 12:quarter -:quarter =:quarter
+EXPR: 0 | POS | INT | 2 | 3 | 24 | (36.0-x)=12 | 36.0 x - 12 = | 36.0:quarter x:quarter -:quarter 12:quarter =:quarter
+EXPR: 0 | POS | INT | 2 | 3 | 48 | (x-36.0)=12 | x 36.0 - 12 = | x:quarter 36.0:quarter -:quarter 12:quarter =:quarter
+EXPR: 0 | POS | INT | 4 | 3 | 48 | 12=(x-36.0) | 12 x 36.0 - = | 12:quarter x:quarter 36.0:quarter -:quarter =:quarter
+EXPR: 0 | POS | INT | 4 | 3 | 24 | (12+x)=36.0 | 12 x + 36.0 = | 12:quarter x:quarter +:quarter 36.0:quarter =:quarter
+EXPR: 0 | POS | INT | 4 | 3 | 48 | (x-12)=36.0 | x 12 - 36.0 = | x:quarter 12:quarter -:quarter 36.0:quarter =:quarter
+EXPR: 0 | POS | INT | 4 | 3 | 24 | (x+12)=36.0 | x 12 + 36.0 = | x:quarter 12:quarter +:quarter 36.0:quarter =:quarter
+EXPR: 0 | POS | INT | 4 | 3 | 24 | 12=(36.0-x) | 12 36.0 x - = | 12:quarter 36.0:quarter x:quarter -:quarter =:quarter
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

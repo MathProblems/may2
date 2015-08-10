@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 27 | 7 | (17-10)=x | 17 10 - x = | 17:plum 10:plum -:plum x:plum =:plum
+EXPR: 1 | POS | INT | 0 | 27 | 27 | x=(17+10) | x 17 10 + = | x:plum 17:plum 10:plum +:plum =:plum
+EXPR: 0 | POS | INT | 0 | 27 | 7 | x=(17-10) | x 17 10 - = | x:plum 17:plum 10:plum -:plum =:plum
+EXPR: 1 | POS | INT | 0 | 27 | 27 | (17+10)=x | 17 10 + x = | 17:plum 10:plum +:plum x:plum =:plum
+EXPR: 0 | POS | INT | 2 | 27 | 7 | 17=(10+x) | 17 10 x + = | 17:plum 10:plum x:plum +:plum =:plum
+EXPR: 0 | POS | INT | 2 | 27 | 7 | 17=(x+10) | 17 x 10 + = | 17:plum x:plum 10:plum +:plum =:plum
+EXPR: 1 | POS | INT | 2 | 27 | 27 | 17=(x-10) | 17 x 10 - = | 17:plum x:plum 10:plum -:plum =:plum
+EXPR: 0 | POS | INT | 2 | 27 | 7 | (17-x)=10 | 17 x - 10 = | 17:plum x:plum -:plum 10:plum =:plum
+EXPR: 1 | POS | INT | 2 | 27 | 27 | (x-17)=10 | x 17 - 10 = | x:plum 17:plum -:plum 10:plum =:plum
+EXPR: 1 | POS | INT | 4 | 27 | 27 | 10=(x-17) | 10 x 17 - = | 10:plum x:plum 17:plum -:plum =:plum
+EXPR: 0 | POS | INT | 4 | 27 | 7 | (10+x)=17 | 10 x + 17 = | 10:plum x:plum +:plum 17:plum =:plum
+EXPR: 1 | POS | INT | 4 | 27 | 27 | (x-10)=17 | x 10 - 17 = | x:plum 10:plum -:plum 17:plum =:plum
+EXPR: 0 | POS | INT | 4 | 27 | 7 | (x+10)=17 | x 10 + 17 = | x:plum 10:plum +:plum 17:plum =:plum
+EXPR: 0 | POS | INT | 4 | 27 | 7 | 10=(17-x) | 10 17 x - = | 10:plum 17:plum x:plum -:plum =:plum
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

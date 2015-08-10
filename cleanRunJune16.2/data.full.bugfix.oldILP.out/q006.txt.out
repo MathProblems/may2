@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 52 | 120 | x=(34+86) | x 34 86 + = | x:peach 34:peach 86:peach +:peach =:peach
+EXPR: 0 | POS | INT | 0 | 52 | 120 | (34+86)=x | 34 86 + x = | 34:peach 86:peach +:peach x:peach =:peach
+EXPR: 1 | POS | INT | 2 | 52 | 52 | (x+34)=86 | x 34 + 86 = | x:peach 34:peach +:peach 86:peach =:peach
+EXPR: 1 | POS | INT | 2 | 52 | 52 | 34=(86-x) | 34 86 x - = | 34:peach 86:peach x:peach -:peach =:peach
+EXPR: 1 | POS | INT | 2 | 52 | 52 | x=(86-34) | x 86 34 - = | x:peach 86:peach 34:peach -:peach =:peach
+EXPR: 1 | POS | INT | 2 | 52 | 52 | (86-34)=x | 86 34 - x = | 86:peach 34:peach -:peach x:peach =:peach
+EXPR: 0 | POS | INT | 2 | 52 | 120 | 34=(x-86) | 34 x 86 - = | 34:peach x:peach 86:peach -:peach =:peach
+EXPR: 1 | POS | INT | 2 | 52 | 52 | (34+x)=86 | 34 x + 86 = | 34:peach x:peach +:peach 86:peach =:peach
+EXPR: 0 | POS | INT | 2 | 52 | 120 | (x-34)=86 | x 34 - 86 = | x:peach 34:peach -:peach 86:peach =:peach
+EXPR: 0 | POS | INT | 4 | 52 | 120 | 86=(x-34) | 86 x 34 - = | 86:peach x:peach 34:peach -:peach =:peach
+EXPR: 1 | POS | INT | 4 | 52 | 52 | (86-x)=34 | 86 x - 34 = | 86:peach x:peach -:peach 34:peach =:peach
+EXPR: 0 | POS | INT | 4 | 52 | 120 | (x-86)=34 | x 86 - 34 = | x:peach 86:peach -:peach 34:peach =:peach
+EXPR: 1 | POS | INT | 4 | 52 | 52 | 86=(34+x) | 86 34 x + = | 86:peach 34:peach x:peach +:peach =:peach
+EXPR: 1 | POS | INT | 4 | 52 | 52 | 86=(x+34) | 86 x 34 + = | 86:peach x:peach 34:peach +:peach =:peach
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

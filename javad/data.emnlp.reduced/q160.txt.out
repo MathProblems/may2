@@ -1,0 +1,11 @@
+parameters: n=3 l=1 k=1 p=5 q=2 m=7
+TOTAL 8 solutions found
+EXPR: 0 | POS | INT | 10 | 45 | 9 | x=9 | x 9 = | x:bill 9:bill =:bill
+EXPR: 0 | POS | INT | 10 | 45 | 9 | 9=x | 9 x = | 9:bill x:bill =:bill
+EXPR: 0 | POS | INT | 10 | 45 | 9 | 9=x | 9 x = | 9:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 45 | 9 | x=9 | x 9 = | x:dollar 9:dollar =:dollar
+EXPR: 0 | POS | INT | 11 | 45 | 9 | x=9 | x 9 = | x:dollar 9:dollar =:dollar
+EXPR: 0 | POS | INT | 11 | 45 | 9 | x=9 | x 9 = | x:bill 9:bill =:bill
+EXPR: 0 | POS | INT | 11 | 45 | 9 | 9=x | 9 x = | 9:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 11 | 45 | 9 | 9=x | 9 x = | 9:bill x:bill =:bill
+NET 8 non-negative, integer-valued solutions found out of 8 total solutions

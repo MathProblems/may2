@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 23 | 23 | (47-24)=x | 47 24 - x = | 47:marble 24:marble -:marble x:marble =:marble
+EXPR: 0 | POS | INT | 0 | 23 | 71 | x=(47+24) | x 47 24 + = | x:marble 47:marble 24:marble +:marble =:marble
+EXPR: 1 | POS | INT | 0 | 23 | 23 | x=(47-24) | x 47 24 - = | x:marble 47:marble 24:marble -:marble =:marble
+EXPR: 0 | POS | INT | 0 | 23 | 71 | (47+24)=x | 47 24 + x = | 47:marble 24:marble +:marble x:marble =:marble
+EXPR: 1 | POS | INT | 2 | 23 | 23 | 47=(24+x) | 47 24 x + = | 47:marble 24:marble x:marble +:marble =:marble
+EXPR: 1 | POS | INT | 2 | 23 | 23 | 47=(x+24) | 47 x 24 + = | 47:marble x:marble 24:marble +:marble =:marble
+EXPR: 0 | POS | INT | 2 | 23 | 71 | 47=(x-24) | 47 x 24 - = | 47:marble x:marble 24:marble -:marble =:marble
+EXPR: 1 | POS | INT | 2 | 23 | 23 | (47-x)=24 | 47 x - 24 = | 47:marble x:marble -:marble 24:marble =:marble
+EXPR: 0 | POS | INT | 2 | 23 | 71 | (x-47)=24 | x 47 - 24 = | x:marble 47:marble -:marble 24:marble =:marble
+EXPR: 0 | POS | INT | 4 | 23 | 71 | 24=(x-47) | 24 x 47 - = | 24:marble x:marble 47:marble -:marble =:marble
+EXPR: 1 | POS | INT | 4 | 23 | 23 | (24+x)=47 | 24 x + 47 = | 24:marble x:marble +:marble 47:marble =:marble
+EXPR: 0 | POS | INT | 4 | 23 | 71 | (x-24)=47 | x 24 - 47 = | x:marble 24:marble -:marble 47:marble =:marble
+EXPR: 1 | POS | INT | 4 | 23 | 23 | (x+24)=47 | x 24 + 47 = | x:marble 24:marble +:marble 47:marble =:marble
+EXPR: 1 | POS | INT | 4 | 23 | 23 | 24=(47-x) | 24 47 x - = | 24:marble 47:marble x:marble -:marble =:marble
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

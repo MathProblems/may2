@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 22 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 77 | 77 | x=(48+29) | x 48 29 + = | x:pencil 48:pencil 29:pencil +:pencil =:pencil
+EXPR: 0 | POS | INT | 0 | 77 | 19 | x=(48-29) | x 48 29 - = | x:pencil 48:pencil 29:pencil -:pencil =:pencil
+EXPR: 0 | POS | INT | 1 | 77 | 19 | x=(48-29) | x 48 29 - = | x:pencil 48:pencil 29:pencil -:pencil =:pencil
+EXPR: 1 | POS | INT | 1 | 77 | 77 | x=(48+29) | x 48 29 + = | x:pencil 48:pencil 29:pencil +:pencil =:pencil
+EXPR: 0 | POS | INT | 2 | 77 | 19 | (48-x)=29 | 48 x - 29 = | 48:pencil x:pencil -:pencil 29:pencil =:pencil
+EXPR: 1 | POS | INT | 2 | 77 | 77 | (x-48)=29 | x 48 - 29 = | x:pencil 48:pencil -:pencil 29:pencil =:pencil
+EXPR: 0 | POS | INT | 2 | 77 | 19 | 48=(29+x) | 48 29 x + = | 48:pencil 29:pencil x:pencil +:pencil =:pencil
+EXPR: 1 | POS | INT | 2 | 77 | 77 | 48=(x-29) | 48 x 29 - = | 48:pencil x:pencil 29:pencil -:pencil =:pencil
+EXPR: 0 | POS | INT | 2 | 77 | 19 | 48=(x+29) | 48 x 29 + = | 48:pencil x:pencil 29:pencil +:pencil =:pencil
+EXPR: 1 | POS | INT | 12 | 77 | 77 | 29=(x-48) | 29 x 48 - = | 29:pencil x:pencil 48:pencil -:pencil =:pencil
+EXPR: 0 | POS | INT | 12 | 77 | 19 | (29+x)=48 | 29 x + 48 = | 29:pencil x:pencil +:pencil 48:pencil =:pencil
+EXPR: 0 | POS | INT | 12 | 77 | 19 | (x+29)=48 | x 29 + 48 = | x:pencil 29:pencil +:pencil 48:pencil =:pencil
+EXPR: 1 | POS | INT | 12 | 77 | 77 | (x-29)=48 | x 29 - 48 = | x:pencil 29:pencil -:pencil 48:pencil =:pencil
+EXPR: 0 | POS | INT | 12 | 77 | 19 | 29=(48-x) | 29 48 x - = | 29:pencil 48:pencil x:pencil -:pencil =:pencil
+NET 14 non-negative, integer-valued solutions found out of 22 total solutions

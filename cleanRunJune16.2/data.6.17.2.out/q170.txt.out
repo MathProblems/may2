@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 275 | 550 | x=(2*275.0) | x 2 275.0 * = | x:cent 2:people 275.0:cent *:cent =:cent
+EXPR: 0 | POS | INT | 0 | 275 | 550 | (2*275.0)=x | 2 275.0 * x = | 2:people 275.0:cent *:cent x:cent =:cent
+EXPR: 0 | POS | INT | 2 | 275 | 550 | (x/2)=275.0 | x 2 / 275.0 = | x:cent 2:people /:cent 275.0:cent =:cent
+EXPR: 0 | POS | INT | 4 | 275 | 550 | 275.0=(x/2) | 275.0 x 2 / = | 275.0:cent x:cent 2:people /:cent =:cent
+EXPR: 0 | POS | INT | 10 | 275 | 277 | (2+275.0)=x | 2 275.0 + x = | 2:cent 275.0:cent +:cent x:cent =:cent
+EXPR: 0 | POS | INT | 10 | 275 | 277 | x=(2+275.0) | x 2 275.0 + = | x:cent 2:cent 275.0:cent +:cent =:cent
+EXPR: 0 | POS | INT | 12 | 275 | 277 | 2=(x-275.0) | 2 x 275.0 - = | 2:cent x:cent 275.0:cent -:cent =:cent
+EXPR: 0 | POS | INT | 12 | 275 | 273 | (275.0-2)=x | 275.0 2 - x = | 275.0:cent 2:cent -:cent x:cent =:cent
+EXPR: 0 | POS | INT | 12 | 275 | 277 | (x-2)=275.0 | x 2 - 275.0 = | x:cent 2:cent -:cent 275.0:cent =:cent
+EXPR: 0 | POS | INT | 12 | 275 | 273 | x=(275.0-2) | x 275.0 2 - = | x:cent 275.0:cent 2:cent -:cent =:cent
+EXPR: 0 | POS | INT | 12 | 275 | 550 | 2=(x/275.0) | 2 x 275.0 / = | 2:people x:people 275.0:cent /:people =:people
+EXPR: 0 | POS | INT | 12 | 275 | 273 | (x+2)=275.0 | x 2 + 275.0 = | x:cent 2:cent +:cent 275.0:cent =:cent
+EXPR: 0 | POS | INT | 12 | 275 | 273 | 2=(275.0-x) | 2 275.0 x - = | 2:cent 275.0:cent x:cent -:cent =:cent
+EXPR: 0 | POS | INT | 12 | 275 | 273 | (2+x)=275.0 | 2 x + 275.0 = | 2:cent x:cent +:cent 275.0:cent =:cent
+EXPR: 0 | POS | INT | 14 | 275 | 550 | (x/275.0)=2 | x 275.0 / 2 = | x:people 275.0:cent /:people 2:people =:people
+EXPR: 0 | POS | INT | 14 | 275 | 277 | (x-275.0)=2 | x 275.0 - 2 = | x:cent 275.0:cent -:cent 2:cent =:cent
+EXPR: 0 | POS | INT | 14 | 275 | 273 | (275.0-x)=2 | 275.0 x - 2 = | 275.0:cent x:cent -:cent 2:cent =:cent
+EXPR: 0 | POS | INT | 14 | 275 | 273 | 275.0=(x+2) | 275.0 x 2 + = | 275.0:cent x:cent 2:cent +:cent =:cent
+EXPR: 0 | POS | INT | 14 | 275 | 277 | 275.0=(x-2) | 275.0 x 2 - = | 275.0:cent x:cent 2:cent -:cent =:cent
+EXPR: 0 | POS | INT | 14 | 275 | 273 | 275.0=(2+x) | 275.0 2 x + = | 275.0:cent 2:cent x:cent +:cent =:cent
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

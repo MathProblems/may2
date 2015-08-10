@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 35 | 14 | x=(2*7) | x 2 7 * = | x:seashell 2:people 7:seashell *:seashell =:seashell
+EXPR: 0 | POS | INT | 0 | 35 | 14 | (2*7)=x | 2 7 * x = | 2:people 7:seashell *:seashell x:seashell =:seashell
+EXPR: 0 | POS | INT | 2 | 35 | 14 | (x/2)=7 | x 2 / 7 = | x:seashell 2:people /:seashell 7:seashell =:seashell
+EXPR: 0 | POS | INT | 4 | 35 | 14 | 7=(x/2) | 7 x 2 / = | 7:seashell x:seashell 2:people /:seashell =:seashell
+EXPR: 0 | POS | INT | 10 | 35 | 9 | (2+7)=x | 2 7 + x = | 2:seashell 7:seashell +:seashell x:seashell =:seashell
+EXPR: 0 | POS | INT | 10 | 35 | 9 | x=(2+7) | x 2 7 + = | x:seashell 2:seashell 7:seashell +:seashell =:seashell
+EXPR: 0 | POS | INT | 12 | 35 | 9 | 2=(x-7) | 2 x 7 - = | 2:seashell x:seashell 7:seashell -:seashell =:seashell
+EXPR: 0 | POS | INT | 12 | 35 | 5 | (7-2)=x | 7 2 - x = | 7:seashell 2:seashell -:seashell x:seashell =:seashell
+EXPR: 0 | POS | INT | 12 | 35 | 9 | (x-2)=7 | x 2 - 7 = | x:seashell 2:seashell -:seashell 7:seashell =:seashell
+EXPR: 0 | POS | INT | 12 | 35 | 5 | x=(7-2) | x 7 2 - = | x:seashell 7:seashell 2:seashell -:seashell =:seashell
+EXPR: 0 | POS | INT | 12 | 35 | 14 | 2=(x/7) | 2 x 7 / = | 2:people x:people 7:seashell /:people =:people
+EXPR: 0 | POS | INT | 12 | 35 | 5 | (x+2)=7 | x 2 + 7 = | x:seashell 2:seashell +:seashell 7:seashell =:seashell
+EXPR: 0 | POS | INT | 12 | 35 | 5 | 2=(7-x) | 2 7 x - = | 2:seashell 7:seashell x:seashell -:seashell =:seashell
+EXPR: 0 | POS | INT | 12 | 35 | 5 | (2+x)=7 | 2 x + 7 = | 2:seashell x:seashell +:seashell 7:seashell =:seashell
+EXPR: 0 | POS | INT | 14 | 35 | 14 | (x/7)=2 | x 7 / 2 = | x:people 7:seashell /:people 2:people =:people
+EXPR: 0 | POS | INT | 14 | 35 | 9 | (x-7)=2 | x 7 - 2 = | x:seashell 7:seashell -:seashell 2:seashell =:seashell
+EXPR: 0 | POS | INT | 14 | 35 | 5 | (7-x)=2 | 7 x - 2 = | 7:seashell x:seashell -:seashell 2:seashell =:seashell
+EXPR: 0 | POS | INT | 14 | 35 | 5 | 7=(x+2) | 7 x 2 + = | 7:seashell x:seashell 2:seashell +:seashell =:seashell
+EXPR: 0 | POS | INT | 14 | 35 | 9 | 7=(x-2) | 7 x 2 - = | 7:seashell x:seashell 2:seashell -:seashell =:seashell
+EXPR: 0 | POS | INT | 14 | 35 | 5 | 7=(2+x) | 7 2 x + = | 7:seashell 2:seashell x:seashell +:seashell =:seashell
+NET 20 unique, non-negative, integer-valued solutions found out of 136 total solutions

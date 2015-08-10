@@ -1,0 +1,1024 @@
+0
+ sandy went to the mall to buy clothes . she spent $13.99 on shorts , $12.14 on a shirt , and $7.43 on a jacket . how much money did sandy spend on clothes ? 
+mall the
+$ 13.99
+$ 12.14
+shirt a
+$ 7.43
+jacket a
+4 3
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : she
+contains : None
+entity : dollar
+idx : 1003
+location : shorts
+num : 13.99
+subtypes : []
+surface : $
+type_failure : 0
+verbs : spent
+widx : 3
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : shirt
+contains : None
+entity : dollar
+idx : 1008
+location : shirt
+num : 12.14
+subtypes : []
+surface : $
+type_failure : 0
+verbs : None
+widx : 8
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : jacket
+contains : None
+entity : dollar
+idx : 1015
+location : jacket
+num : 7.43
+subtypes : []
+surface : $
+type_failure : 0
+verbs : None
+widx : 15
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 2008
+location : None
+num : x
+subtypes : []
+surface : dollar
+type_failure : 0
+verbs : did spend
+widx : 9
+_____________
+
+
+ Top scoring 3 equations: 
+0.6699874808166278 13.99 + 12.14 = 7.43 + x
+0.4690085871493941 13.99 - 12.14 = 7.43 + x
+0.4651004703160366 13.99 + 12.14 = 7.43 - x
+top 3 globally adjusted:
+score :  0.5326534513119792
+eq :  ( 13.99 - 12.14 ) * 7.43 = x
+guess :  13.7455000000000
+score :  0.5
+eq :  13.99 * ( 12.14 - 7.43 ) = x
+guess :  65.8929000000000
+score :  0.5
+eq :  ( 13.99 * 12.14 ) - 7.43 = x
+guess :  162.408600000000
+
+INCORRECT
+Guessed Equation :  13.99 + 12.14 = 7.43 + x
+Guess :  18.7000000000000 
+True Answer : 33.56 
+
+
+1
+ mary loves eating fruits . mary paid $7.19 for berries , and $6.83 for peaches with a $20 bill . how much change did mary receive ? 
+$ 7.19
+$ 6.83
+bill a
+$ 20
+4 3
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : mary
+contains : None
+entity : dollar
+idx : 1003
+location : None
+num : 7.19
+subtypes : []
+surface : $
+type_failure : 0
+verbs : paid
+widx : 3
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : bill
+contains : None
+entity : dollar
+idx : 1009
+location : None
+num : 6.83
+subtypes : []
+surface : $
+type_failure : 0
+verbs : None
+widx : 9
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 1015
+location : None
+num : 20
+subtypes : []
+surface : $
+type_failure : 0
+verbs : paid
+widx : 15
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 2006
+location : None
+num : x
+subtypes : []
+surface : dollar
+type_failure : 0
+verbs : did receive
+widx : 7
+_____________
+
+
+ Top scoring 3 equations: 
+0.6756488962302409 7.19 + 6.83 = 20 + x
+0.47028078902168874 7.19 - 6.83 = 20 + x
+0.46339422756803567 7.19 + 6.83 = 20 - x
+top 3 globally adjusted:
+score :  0.515836587112342
+eq :  ( 7.19 - 6.83 ) * 20 = x
+guess :  7.20000000000000
+score :  0.4934382052653993
+eq :  ( 7.19 * 6.83 ) - 20 = x
+guess :  29.1077000000000
+score :  0.33982887427090724
+eq :  ( 7.19 / 6.83 ) * 20 = x
+guess :  21.0541727672035
+
+CORRECT
+Guessed Equation :  7.19 + 6.83 = 20 - x
+Guess :  5.98000000000000 
+True Answer : 5.98 
+
+
+2
+ dana earns $13 per hour . she worked 9 hours on friday , 10 hours on saturday , and 3 hours on sunday . how much money did dana earn in all ? 
+$ 13
+hours 9
+hours 10
+hours 3
+5 4
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : dana
+contains : None
+entity : dollar
+idx : 3
+location : None
+num : 13
+subtypes : []
+surface : $
+type_failure : 0
+verbs : earns
+widx : 3
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : she
+contains : None
+entity : hour
+idx : 1002
+location : friday
+num : 9
+subtypes : []
+surface : hours
+type_failure : 0
+verbs : worked
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : hour
+idx : 1007
+location : saturday
+num : 10
+subtypes : []
+surface : hours
+type_failure : 0
+verbs : worked
+widx : 9
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : hour
+idx : 1013
+location : sunday
+num : 3
+subtypes : []
+surface : hours
+type_failure : 0
+verbs : worked
+widx : 15
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 2008
+location : None
+num : x
+subtypes : []
+surface : dollar
+type_failure : 0
+verbs : did earn
+widx : 9
+_____________
+
+
+ Top scoring 3 equations: 
+0.5235184672802118 13 * ( 9 + 10 ) = 3 * x
+0.5163185326937773 13 * ( 9 + 10 ) = 3 + x
+0.5037630778665321 13 + 9 = ( 10 + 3 ) * x
+top 3 globally adjusted:
+score :  0.40874939275317124
+eq :  13 - ( ( 9 - 10 ) - 3 ) = x
+guess :  17
+score :  0.3897262335313225
+eq :  13 - ( ( 9 - 10 ) * 3 ) = x
+guess :  16
+score :  0.38188897996626076
+eq :  13 - ( 9 - ( 10 - 3 ) ) = x
+guess :  11
+
+INCORRECT
+Guessed Equation :  ( 13 + 9 ) - 10 = 3 * x
+Guess :  4 
+True Answer : 286.0 
+
+
+3
+ kylie was collecting coins . she got 15 coins from her piggy bank and 13 coins from her brother . her father gave kylie 8 coins . kylie gave 21 of the coins to her friend laura . how many coins did kylie have left ? 
+coins 15
+coins 13
+coins 8
+coins the
+coins 21
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : coin
+idx : 3005
+location : None
+num : the
+subtypes : []
+surface : coins
+type_failure : 0
+verbs : None
+widx : 6
+_____________
+
+['the-5', '21-3']
+[] 3004
+5 4
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : she
+contains : None
+entity : coin
+idx : 1002
+location : None
+num : 15
+subtypes : []
+surface : coins
+type_failure : 0
+verbs : got
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : coin
+idx : 1009
+location : None
+num : 13
+subtypes : []
+surface : coins
+type_failure : 0
+verbs : got
+widx : 11
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : father
+contains : None
+entity : coin
+idx : 2004
+location : None
+num : 8
+subtypes : []
+surface : coins
+type_failure : 0
+verbs : gave
+widx : 6
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : coin
+contains : None
+entity : coin
+idx : 3002
+location : None
+num : 21
+subtypes : []
+surface : coins
+type_failure : 0
+verbs : None
+widx : 6
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : kylie
+contains : None
+entity : coin
+idx : 4002
+location : None
+num : x
+subtypes : []
+surface : coins
+type_failure : 0
+verbs : left
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.5542194883821242 15 + 13 = ( 8 - 21 ) + x
+0.546558091612897 15 + 13 = 8 + ( 21 + x )
+0.5435189756969498 ( 15 + 13 ) + 8 = 21 + x
+top 3 globally adjusted:
+score :  0.6618218312783521
+eq :  ( ( 15 + 13 ) - 8 ) * 21 = x
+guess :  420
+score :  0.6423082191195201
+eq :  ( ( 15 + 13 ) + 8 ) * 21 = x
+guess :  756
+score :  0.5981810329841157
+eq :  ( ( 15 + 13 ) + 8 ) - 21 = x
+guess :  15
+
+INCORRECT
+Guessed Equation :  15 + 13 = ( 8 - 21 ) + x
+Guess :  41 
+True Answer : 15.0 
+
+
+4
+ elise had $8 . then she saved $13 from her allowance and spent $2 on a comic book and $18 on a puzzle . how much money does elise have left ? 
+$ 8
+$ 13
+$ 2
+book a
+$ 18
+puzzle a
+5 4
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : elise
+contains : None
+entity : dollar
+idx : 3
+location : None
+num : 8
+subtypes : []
+surface : $
+type_failure : 0
+verbs : had
+widx : 3
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : she
+contains : None
+entity : dollar
+idx : 1004
+location : None
+num : 13
+subtypes : []
+surface : $
+type_failure : 0
+verbs : saved
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : book
+contains : None
+entity : dollar
+idx : 1011
+location : None
+num : 2
+subtypes : []
+surface : $
+type_failure : 0
+verbs : spent
+widx : 11
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : puzzle
+contains : None
+entity : dollar
+idx : 1018
+location : None
+num : 18
+subtypes : []
+surface : $
+type_failure : 0
+verbs : None
+widx : 18
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 2007
+location : None
+num : x
+subtypes : []
+surface : dollar
+type_failure : 0
+verbs : does elise have left
+widx : 8
+_____________
+
+
+ Top scoring 3 equations: 
+0.5874830177709063 8 + 13 = 2 + ( 18 + x )
+0.5792529042387976 ( 8 + 13 ) + 2 = 18 + x
+0.5685292173082664 ( 8 + 13 ) - 2 = 18 + x
+top 3 globally adjusted:
+score :  0.6832064214021828
+eq :  ( ( 8 + 13 ) - 2 ) * 18 = x
+guess :  342
+score :  0.6653531772002779
+eq :  ( ( 8 + 13 ) + 2 ) * 18 = x
+guess :  414
+score :  0.6274308862202872
+eq :  ( 8 + ( 13 - 2 ) ) * 18 = x
+guess :  342
+
+INCORRECT
+Guessed Equation :  ( 8 + 13 ) + 2 = 18 + x
+Guess :  5 
+True Answer : 1.0 
+
+
+5
+ seth bought 20 cartons of ice cream and 2 cartons of yogurt . each carton of ice cream cost $6 and each carton of yogurt cost $1 . how much more did seth spend on ice cream than on yogurt ? 
+cartons 20
+cartons 2
+carton each
+$ 6
+carton each
+$ 1
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : carton
+idx : 1001
+location : None
+num : each
+subtypes : []
+surface : carton
+type_failure : 0
+verbs : None
+widx : 2
+_____________
+
+['each-1', 'cream-5', 'each-10', 'cost-14', 'cost-6', '$-7']
+[] 1000
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : carton
+idx : 1010
+location : None
+num : each
+subtypes : []
+surface : carton
+type_failure : 0
+verbs : None
+widx : 11
+_____________
+
+['each-1', 'cream-5', 'each-10', 'cost-14', 'cost-6', '$-7']
+[] 1009
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 1014
+location : None
+num : 1
+subtypes : []
+surface : $
+type_failure : 0
+verbs : None
+widx : 15
+_____________
+
+['6-8', 'carton-11', '1-16', 'cost-6', 'cost-14']
+[] 1015
+5 4
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : seth
+contains : dollar
+entity : carton
+idx : 2
+location : None
+num : 20
+subtypes : []
+surface : cartons
+type_failure : 0
+verbs : bought
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : carton
+idx : 8
+location : None
+num : 2
+subtypes : []
+surface : cartons
+type_failure : 0
+verbs : bought
+widx : 10
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : dollar
+entity : dollar
+idx : 1015
+location : None
+num : 1
+subtypes : []
+surface : $
+type_failure : 0
+verbs : cost
+widx : 15
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : dollar
+contains : None
+entity : dollar
+idx : 1016
+location : None
+num : 6
+subtypes : []
+surface : $
+type_failure : 0
+verbs : cost
+widx : 7
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 2012
+location : None
+num : x
+subtypes : []
+surface : dollar
+type_failure : 0
+verbs : did spend
+widx : 13
+_____________
+
+
+ Top scoring 3 equations: 
+0.5736986263133482 ( 20 + 2 ) * 1 = 6 + x
+0.5598099520068757 20 + 2 = ( 1 + 6 ) - x
+0.5492132264164443 20 - ( 2 * 1 ) = 6 + x
+top 3 globally adjusted:
+score :  0.48013985664131187
+eq :  ( 20 + 2 ) + ( 1 * 6 ) = x
+guess :  28
+score :  0.4719920981657583
+eq :  ( 20 + ( 2 - 1 ) ) * 6 = x
+guess :  126
+score :  0.44361160043318615
+eq :  ( 20 - 2 ) * ( 1 / 6 ) = x
+guess :  3
+
+INCORRECT
+Guessed Equation :  20 = 2 * ( 1 + ( 6 + x ) )
+Guess :  3 
+True Answer : 118.0 
+
+
+6
+ vincent bought 10 books about animals , 1 book about outer space , and 3 books about trains . each book cost $16 . how much did vincent spend on the books ? 
+books 10
+book 1
+books 3
+cost each
+$ 16
+books the
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : book
+idx : 8
+location : None
+num : 1
+subtypes : []
+surface : book
+type_failure : 0
+verbs : None
+widx : 9
+_____________
+
+['10-3', 'animals-6', '1-8', 'book-9', 'space-12', '3-15', 'books-16', 'trains-18', 'bought-2', 'books-4', 'books-4']
+[(2, <makesets.aset object at 0x107609128>), (7, <makesets.aset object at 0x1076090b8>), (14, <makesets.aset object at 0x107609a90>)] 7
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : book
+idx : 1001
+location : None
+num : each
+subtypes : []
+surface : book
+type_failure : 0
+verbs : None
+widx : 2
+_____________
+
+['cost-3']
+[] 1000
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : book
+idx : 2007
+location : None
+num : the
+subtypes : []
+surface : books
+type_failure : 0
+verbs : None
+widx : 8
+_____________
+
+['the-7', 'spend-5']
+[] 2006
+5 4
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : vincent
+contains : dollar
+entity : book
+idx : 2
+location : None
+num : 10
+subtypes : []
+surface : books
+type_failure : 0
+verbs : bought
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : book
+entity : book
+idx : 7
+location : None
+num : 1
+subtypes : []
+surface : book
+type_failure : 0
+verbs : bought
+widx : 9
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : book
+contains : None
+entity : book
+idx : 8
+location : None
+num : 3
+subtypes : []
+surface : books
+type_failure : 0
+verbs : None
+widx : 16
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : book
+contains : None
+entity : dollar
+idx : 3
+location : None
+num : 16
+subtypes : []
+surface : $
+type_failure : 0
+verbs : None
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : book
+contains : None
+entity : dollar
+idx : 3
+location : None
+num : x
+subtypes : []
+surface : dollar
+type_failure : 0
+verbs : None
+widx : 9
+_____________
+
+
+ Top scoring 3 equations: 
+0.6540040521475481 10 + 1 = ( 3 * 16 ) + x
+0.6538557906944333 10 + 1 = 3 * ( 16 + x )
+0.6243877522174879 10 + ( 1 + 3 ) = 16 + x
+top 3 globally adjusted:
+score :  0.8296214140996803
+eq :  ( ( 10 - 1 ) - 3 ) * 16 = x
+guess :  96
+score :  0.8076500453429465
+eq :  ( 10 - ( 1 - 3 ) ) * 16 = x
+guess :  192
+score :  0.7995845589083989
+eq :  ( ( 10 - 1 ) / 3 ) * 16 = x
+guess :  48
+
+CORRECT
+Guessed Equation :  ( 10 + ( 1 + 3 ) ) * 16 = x
+Guess :  224 
+True Answer : 224.0 
+
+
+7
+ a restaurant made 9 hamburgers to serve during lunch . only 3 were  actually served . how many hamburgers were left over from lunch  ? 
+restaurant a
+hamburgers 9
+3 2
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : restaurant
+contains : None
+entity : hamburger
+idx : 3
+location : None
+num : 9
+subtypes : []
+surface : hamburgers
+type_failure : 0
+verbs : made
+widx : 5
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : hamburger
+idx : 1001
+location : None
+num : 3
+subtypes : []
+surface : hamburgers
+type_failure : 0
+verbs : were served
+widx : None
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : hamburger
+idx : 2002
+location : None
+num : x
+subtypes : []
+surface : hamburgers
+type_failure : 0
+verbs : were left
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.34712868271770175 9 = 3 + x
+0.2740531698664495 9 = 3 - x
+0.1962320278917483 9 + 3 = x
+top 3 globally adjusted:
+score :  0.6583654171124058
+eq :  9 * 3 = x
+guess :  27
+score :  0.603072168192506
+eq :  9 = 3 * x
+guess :  3
+score :  0.5531484788823768
+eq :  9 - 3 = x
+guess :  6
+
+CORRECT
+Guessed Equation :  9 = 3 + x
+Guess :  6 
+True Answer : 6.0 
+
+
+8
+ jason had pokemon cards . jason gave 9 to his friends . jason now has 4 pokemon cards left . how many pokemon cards did jason have to start with  ? 
+pokemon 4
+Sets detected: 
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : pokemon
+idx : 0
+location : None
+num : x
+subtypes : []
+surface : pokemon
+type_failure : 0
+verbs : did have start
+widx : 3
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : card
+idx : 1002
+location : None
+num : 9
+subtypes : []
+surface : cards
+type_failure : 0
+verbs : gave
+widx : None
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : jason
+contains : None
+entity : pokemon
+idx : 2003
+location : None
+num : 4
+subtypes : []
+surface : pokemon
+type_failure : 0
+verbs : has
+widx : 5
+_____________
+
+
+ Top scoring 3 equations: 
+0.3563131802588775 x = 9 + 4
+0.16228923049885455 x = 9 - 4
+0.16194763624459035 x - 9 = 4
+top 3 globally adjusted:
+score :  0.3814751247331275
+eq :  x = 9 * 4
+guess :  36
+score :  0.14719003851031393
+eq :  x = 9 + 4
+guess :  13
+score :  0.03619050212723176
+eq :  x - 9 = 4
+guess :  13
+
+CORRECT
+Guessed Equation :  x = 9 + 4
+Guess :  13 
+True Answer : 13.0 
+
+
+4 9

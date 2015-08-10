@@ -1,0 +1,36 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 50 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 0 | 9 | 2.875 | (1+1.875)=x | 1 1.875 + x = | 1:people 1.875:people +:people x:people =:people
+EXPR: 0 | POS | FRA | 0 | 9 | 0.533333333333333 | (1/1.875)=x | 1 1.875 / x = | 1:people 1.875:people /:people x:people =:people
+EXPR: 0 | POS | FRA | 0 | 9 | 1.875 | (1*1.875)=x | 1 1.875 * x = | 1:people 1.875:people *:people x:people =:people
+EXPR: 0 | POS | FRA | 0 | 9 | 1.875 | x=(1*1.875) | x 1 1.875 * = | x:people 1:people 1.875:people *:people =:people
+EXPR: 0 | POS | FRA | 0 | 9 | 0.533333333333333 | x=(1/1.875) | x 1 1.875 / = | x:people 1:people 1.875:people /:people =:people
+EXPR: 0 | POS | FRA | 0 | 9 | 2.875 | x=(1+1.875) | x 1 1.875 + = | x:people 1:people 1.875:people +:people =:people
+EXPR: 0 | POS | FRA | 2 | 9 | 0.875 | (x+1)=1.875 | x 1 + 1.875 = | x:people 1:people +:people 1.875:people =:people
+EXPR: 0 | POS | FRA | 2 | 9 | 0.875 | x=(1.875-1) | x 1.875 1 - = | x:people 1.875:people 1:people -:people =:people
+EXPR: 0 | POS | FRA | 2 | 9 | 0.533333333333333 | 1=(1.875*x) | 1 1.875 x * = | 1:people 1.875:people x:people *:people =:people
+EXPR: 0 | POS | FRA | 2 | 9 | 1.875 | 1=(1.875/x) | 1 1.875 x / = | 1:people 1.875:people x:people /:people =:people
+EXPR: 0 | POS | FRA | 2 | 9 | 0.875 | (1+x)=1.875 | 1 x + 1.875 = | 1:people x:people +:people 1.875:people =:people
+EXPR: 0 | POS | FRA | 2 | 9 | 0.875 | (1.875-1)=x | 1.875 1 - x = | 1.875:people 1:people -:people x:people =:people
+EXPR: 0 | POS | FRA | 2 | 9 | 2.875 | 1=(x-1.875) | 1 x 1.875 - = | 1:people x:people 1.875:people -:people =:people
+EXPR: 0 | POS | FRA | 2 | 9 | 0.533333333333333 | 1=(x*1.875) | 1 x 1.875 * = | 1:people x:people 1.875:people *:people =:people
+EXPR: 0 | POS | FRA | 2 | 9 | 1.875 | 1=(x/1.875) | 1 x 1.875 / = | 1:people x:people 1.875:people /:people =:people
+EXPR: 0 | POS | FRA | 2 | 9 | 0.533333333333333 | (1/x)=1.875 | 1 x / 1.875 = | 1:people x:people /:people 1.875:people =:people
+EXPR: 0 | POS | FRA | 2 | 9 | 2.875 | (x-1)=1.875 | x 1 - 1.875 = | x:people 1:people -:people 1.875:people =:people
+EXPR: 0 | POS | FRA | 2 | 9 | 1.875 | (x*1)=1.875 | x 1 * 1.875 = | x:people 1:people *:people 1.875:people =:people
+EXPR: 0 | POS | FRA | 2 | 9 | 1.875 | (1*x)=1.875 | 1 x * 1.875 = | 1:people x:people *:people 1.875:people =:people
+EXPR: 0 | POS | FRA | 2 | 9 | 0.875 | 1=(1.875-x) | 1 1.875 x - = | 1:people 1.875:people x:people -:people =:people
+EXPR: 0 | POS | FRA | 4 | 9 | 0.875 | 1.875=(x+1) | 1.875 x 1 + = | 1.875:people x:people 1:people +:people =:people
+EXPR: 0 | POS | FRA | 4 | 9 | 1.875 | 1.875=(1*x) | 1.875 1 x * = | 1.875:people 1:people x:people *:people =:people
+EXPR: 0 | POS | FRA | 4 | 9 | 0.875 | 1.875=(1+x) | 1.875 1 x + = | 1.875:people 1:people x:people +:people =:people
+EXPR: 0 | POS | FRA | 4 | 9 | 0.533333333333333 | 1.875=(1/x) | 1.875 1 x / = | 1.875:people 1:people x:people /:people =:people
+EXPR: 0 | POS | FRA | 4 | 9 | 2.875 | 1.875=(x-1) | 1.875 x 1 - = | 1.875:people x:people 1:people -:people =:people
+EXPR: 0 | POS | FRA | 4 | 9 | 1.875 | 1.875=(x*1) | 1.875 x 1 * = | 1.875:people x:people 1:people *:people =:people
+EXPR: 0 | POS | FRA | 4 | 9 | 1.875 | (x/1.875)=1 | x 1.875 / 1 = | x:people 1.875:people /:people 1:people =:people
+EXPR: 0 | POS | FRA | 4 | 9 | 0.875 | (1.875-x)=1 | 1.875 x - 1 = | 1.875:people x:people -:people 1:people =:people
+EXPR: 0 | POS | FRA | 4 | 9 | 2.875 | (x-1.875)=1 | x 1.875 - 1 = | x:people 1.875:people -:people 1:people =:people
+EXPR: 0 | POS | FRA | 4 | 9 | 1.875 | (1.875/x)=1 | 1.875 x / 1 = | 1.875:people x:people /:people 1:people =:people
+EXPR: 0 | POS | FRA | 4 | 9 | 0.533333333333333 | (1.875*x)=1 | 1.875 x * 1 = | 1.875:people x:people *:people 1:people =:people
+EXPR: 0 | POS | FRA | 4 | 9 | 0.533333333333333 | (x*1.875)=1 | x 1.875 * 1 = | x:people 1.875:people *:people 1:people =:people
+NET 32 unique, non-negative solutions found out of 50 total solutions

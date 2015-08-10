@@ -1,0 +1,380 @@
+parameters: n=7 l=3 k=1 p=5 q=1 m=9
+TOTAL 1000 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 18 | 18 | x=((4+5)+9) | x 4 5 + 9 + = | x:onion 4:onion 5:onion +:onion 9:onion +:onion =:onion
+EXPR: 1 | POS | INT | 0 | 18 | 18 | (4+(5+9))=x | 4 5 9 + + x = | 4:onion 5:onion 9:onion +:onion +:onion x:onion =:onion
+EXPR: 0 | POS | INT | 0 | 18 | 0 | ((4+5)-9)=x | 4 5 + 9 - x = | 4:onion 5:onion +:onion 9:onion -:onion x:onion =:onion
+EXPR: 0 | POS | INT | 0 | 18 | 8 | (4-(5-9))=x | 4 5 9 - - x = | 4:onion 5:onion 9:onion -:onion -:onion x:onion =:onion
+EXPR: 0 | POS | INT | 0 | 18 | 81 | ((4+5)*9)=x | 4 5 + 9 * x = | 4:onion 5:onion +:onion 9:onion *:onion x:onion =:onion
+EXPR: 1 | POS | INT | 0 | 18 | 18 | x=(4+(5+9)) | x 4 5 9 + + = | x:onion 4:onion 5:onion 9:onion +:onion +:onion =:onion
+EXPR: 0 | POS | INT | 0 | 18 |  | x=((4+5)-9) | x 4 5 + 9 - = | x:onion 4:onion 5:onion +:onion 9:onion -:onion =:onion
+EXPR: 0 | POS | INT | 0 | 18 | 81 | x=((4+5)*9) | x 4 5 + 9 * = | x:onion 4:onion 5:onion +:onion 9:onion *:onion =:onion
+EXPR: 0 | POS | INT | 0 | 18 |  | x=(4+(5-9)) | x 4 5 9 - + = | x:onion 4:onion 5:onion 9:onion -:onion +:onion =:onion
+EXPR: 0 | POS | INT | 0 | 18 | 1 | x=((4+5)/9) | x 4 5 + 9 / = | x:onion 4:onion 5:onion +:onion 9:onion /:onion =:onion
+EXPR: 0 | POS | INT | 0 | 18 | 0 | (4+(5-9))=x | 4 5 9 - + x = | 4:onion 5:onion 9:onion -:onion +:onion x:onion =:onion
+EXPR: 0 | POS | INT | 0 | 18 | 49 | (4+(5*9))=x | 4 5 9 * + x = | 4:onion 5:onion 9:onion *:onion +:onion x:onion =:onion
+EXPR: 0 | POS | INT | 0 | 18 | 8 | x=(4-(5-9)) | x 4 5 9 - - = | x:onion 4:onion 5:onion 9:onion -:onion -:onion =:onion
+EXPR: 0 | POS | INT | 0 | 18 | 1 | ((4+5)/9)=x | 4 5 + 9 / x = | 4:onion 5:onion +:onion 9:onion /:onion x:onion =:onion
+EXPR: 0 | POS | INT | 0 | 18 | 49 | x=(4+(5*9)) | x 4 5 9 * + = | x:onion 4:onion 5:onion 9:onion *:onion +:onion =:onion
+EXPR: 0 | POS | INT | 0 | 18 | 56 | (4*(5+9))=x | 4 5 9 + * x = | 4:onion 5:onion 9:onion +:onion *:onion x:onion =:onion
+EXPR: 0 | POS | INT | 0 | 18 | 56 | x=(4*(5+9)) | x 4 5 9 + * = | x:onion 4:onion 5:onion 9:onion +:onion *:onion =:onion
+EXPR: 0 | POS | INT | 0 | 18 | 8 | x=((4-5)+9) | x 4 5 - 9 + = | x:onion 4:onion 5:onion -:onion 9:onion +:onion =:onion
+EXPR: 0 | POS | INT | 0 | 18 | 29 | x=((4*5)+9) | x 4 5 * 9 + = | x:onion 4:onion 5:onion *:onion 9:onion +:onion =:onion
+EXPR: 0 | POS | INT | 0 | 18 | 8 | ((4-5)+9)=x | 4 5 - 9 + x = | 4:onion 5:onion -:onion 9:onion +:onion x:onion =:onion
+EXPR: 0 | POS | INT | 0 | 18 | 29 | ((4*5)+9)=x | 4 5 * 9 + x = | 4:onion 5:onion *:onion 9:onion +:onion x:onion =:onion
+EXPR: 0 | POS | INT | 0 | 18 | 11 | x=((4*5)-9) | x 4 5 * 9 - = | x:onion 4:onion 5:onion *:onion 9:onion -:onion =:onion
+EXPR: 0 | POS | INT | 0 | 18 | 11 | ((4*5)-9)=x | 4 5 * 9 - x = | 4:onion 5:onion *:onion 9:onion -:onion x:onion =:onion
+EXPR: 1 | POS | INT | 0 | 18 | 18 | ((4+5)+9)=x | 4 5 + 9 + x = | 4:onion 5:onion +:onion 9:onion +:onion x:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 10 | ((5-4)+9)=x | 5 4 - 9 + x = | 5:onion 4:onion -:onion 9:onion +:onion x:onion =:onion
+EXPR: 1 | POS | INT | 2 | 18 | 18 | (x-(4+5))=9 | x 4 5 + - 9 = | x:onion 4:onion 5:onion +:onion -:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 8 | ((4+9)-5)=x | 4 9 + 5 - x = | 4:onion 9:onion +:onion 5:onion -:onion x:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 1 | (x*(4+5))=9 | x 4 5 + * 9 = | x:onion 4:onion 5:onion +:onion *:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 8 | x=((4+9)-5) | x 4 9 + 5 - = | x:onion 4:onion 9:onion +:onion 5:onion -:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 10 | ((4+x)-5)=9 | 4 x + 5 - 9 = | 4:onion x:onion +:onion 5:onion -:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 10 | (x+(4-5))=9 | x 4 5 - + 9 = | x:onion 4:onion 5:onion -:onion +:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 8 | x=(4+(9-5)) | x 4 9 5 - + = | x:onion 4:onion 9:onion 5:onion -:onion +:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 65 | x=((4+9)*5) | x 4 9 + 5 * = | x:onion 4:onion 9:onion +:onion 5:onion *:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 16 | (4*(9-5))=x | 4 9 5 - * x = | 4:onion 9:onion 5:onion -:onion *:onion x:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 1 | (4/(9-5))=x | 4 9 5 - / x = | 4:onion 9:onion 5:onion -:onion /:onion x:onion =:onion
+EXPR: 1 | POS | INT | 2 | 18 | 18 | x=((4+9)+5) | x 4 9 + 5 + = | x:onion 4:onion 9:onion +:onion 5:onion +:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 |  | ((4+5)-x)=9 | 4 5 + x - 9 = | 4:onion 5:onion +:onion x:onion -:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 65 | ((4+9)*5)=x | 4 9 + 5 * x = | 4:onion 9:onion +:onion 5:onion *:onion x:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 10 | (4+(x-5))=9 | 4 x 5 - + 9 = | 4:onion x:onion 5:onion -:onion +:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 16 | x=(4*(9-5)) | x 4 9 5 - * = | x:onion 4:onion 9:onion 5:onion -:onion *:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 |  | ((4-x)+5)=9 | 4 x - 5 + 9 = | 4:onion x:onion -:onion 5:onion +:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 1 | ((4*x)+5)=9 | 4 x * 5 + 9 = | 4:onion x:onion *:onion 5:onion +:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 |  | x=((4-9)+5) | x 4 9 - 5 + = | x:onion 4:onion 9:onion -:onion 5:onion +:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 41 | x=((4*9)+5) | x 4 9 * 5 + = | x:onion 4:onion 9:onion *:onion 5:onion +:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 31 | x=((4*9)-5) | x 4 9 * 5 - = | x:onion 4:onion 9:onion *:onion 5:onion -:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 0 | ((4-9)+5)=x | 4 9 - 5 + x = | 4:onion 9:onion -:onion 5:onion +:onion x:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 10 | ((4-5)+x)=9 | 4 5 - x + 9 = | 4:onion 5:onion -:onion x:onion +:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 10 | x=((5-4)+9) | x 5 4 - 9 + = | x:onion 5:onion 4:onion -:onion 9:onion +:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 41 | ((4*9)+5)=x | 4 9 * 5 + x = | 4:onion 9:onion *:onion 5:onion +:onion x:onion =:onion
+EXPR: 1 | POS | INT | 2 | 18 | 18 | ((4+9)+5)=x | 4 9 + 5 + x = | 4:onion 9:onion +:onion 5:onion +:onion x:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 31 | ((4*9)-5)=x | 4 9 * 5 - x = | 4:onion 9:onion *:onion 5:onion -:onion x:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 0 | 4=((x-5)+9) | 4 x 5 - 9 + = | 4:onion x:onion 5:onion -:onion 9:onion +:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 |  | ((4+5)+x)=9 | 4 5 + x + 9 = | 4:onion 5:onion +:onion x:onion +:onion 9:onion =:onion
+EXPR: 1 | POS | INT | 2 | 18 | 18 | 4=((x-5)-9) | 4 x 5 - 9 - = | 4:onion x:onion 5:onion -:onion 9:onion -:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 56 | 4=(x/(5+9)) | 4 x 5 9 + / = | 4:onion x:onion 5:onion 9:onion +:onion /:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 49 | ((x-4)/5)=9 | x 4 - 5 / 9 = | x:onion 4:onion -:onion 5:onion /:onion 9:onion =:onion
+EXPR: 1 | POS | INT | 2 | 18 | 18 | x=(5+(4+9)) | x 5 4 9 + + = | x:onion 5:onion 4:onion 9:onion +:onion +:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 0 | (5+(4-9))=x | 5 4 9 - + x = | 5:onion 4:onion 9:onion -:onion +:onion x:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 41 | (5+(4*9))=x | 5 4 9 * + x = | 5:onion 4:onion 9:onion *:onion +:onion x:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 65 | 4=((x/5)-9) | 4 x 5 / 9 - = | 4:onion x:onion 5:onion /:onion 9:onion -:onion =:onion
+EXPR: 1 | POS | INT | 2 | 18 | 18 | 4=(x-(5+9)) | 4 x 5 9 + - = | 4:onion x:onion 5:onion 9:onion +:onion -:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 |  | x=(5+(4-9)) | x 5 4 9 - + = | x:onion 5:onion 4:onion 9:onion -:onion +:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 41 | x=(5+(4*9)) | x 5 4 9 * + = | x:onion 5:onion 4:onion 9:onion *:onion +:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 |  | (x+(4+5))=9 | x 4 5 + + 9 = | x:onion 4:onion 5:onion +:onion +:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 10 | x=(5-(4-9)) | x 5 4 9 - - = | x:onion 5:onion 4:onion 9:onion -:onion -:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 0 | 4=(x-(5-9)) | 4 x 5 9 - - = | 4:onion x:onion 5:onion 9:onion -:onion -:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 9 | x=((5-4)*9) | x 5 4 - 9 * = | x:onion 5:onion 4:onion -:onion 9:onion *:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 0 | (4-(9-5))=x | 4 9 5 - - x = | 4:onion 9:onion 5:onion -:onion -:onion x:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 |  | x=(4-(9-5)) | x 4 9 5 - - = | x:onion 4:onion 9:onion 5:onion -:onion -:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 10 | (5-(4-9))=x | 5 4 9 - - x = | 5:onion 4:onion 9:onion -:onion -:onion x:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 9 | ((5-4)*9)=x | 5 4 - 9 * x = | 5:onion 4:onion -:onion 9:onion *:onion x:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 10 | 4=((5-x)+9) | 4 5 x - 9 + = | 4:onion 5:onion x:onion -:onion 9:onion +:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 8 | (4+(9-5))=x | 4 9 5 - + x = | 4:onion 9:onion 5:onion -:onion +:onion x:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 11 | ((4*5)-x)=9 | 4 5 * x - 9 = | 4:onion 5:onion *:onion x:onion -:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 31 | 4=((x+5)/9) | 4 x 5 + 9 / = | 4:onion x:onion 5:onion +:onion 9:onion /:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 10 | 4=((5+9)-x) | 4 5 9 + x - = | 4:onion 5:onion 9:onion +:onion x:onion -:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 1 | (4+(x*5))=9 | 4 x 5 * + 9 = | 4:onion x:onion 5:onion *:onion +:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 25 | (4+(x/5))=9 | 4 x 5 / + 9 = | 4:onion x:onion 5:onion /:onion +:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 |  | (4+(5-x))=9 | 4 5 x - + 9 = | 4:onion 5:onion x:onion -:onion +:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 1 | (4+(5*x))=9 | 4 5 x * + 9 = | 4:onion 5:onion x:onion *:onion +:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 10 | 4=(5+(9-x)) | 4 5 9 x - + = | 4:onion 5:onion 9:onion x:onion -:onion +:onion =:onion
+EXPR: 1 | POS | INT | 2 | 18 | 18 | (5+(4+9))=x | 5 4 9 + + x = | 5:onion 4:onion 9:onion +:onion +:onion x:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 41 | 4=((x-5)/9) | 4 x 5 - 9 / = | 4:onion x:onion 5:onion -:onion 9:onion /:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 |  | (4+(5+x))=9 | 4 5 x + + 9 = | 4:onion 5:onion x:onion +:onion +:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 |  | ((4+x)+5)=9 | 4 x + 5 + 9 = | 4:onion x:onion +:onion 5:onion +:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 1 | ((4/x)+5)=9 | 4 x / 5 + 9 = | 4:onion x:onion /:onion 5:onion +:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 8 | (x-(4-5))=9 | x 4 5 - - 9 = | x:onion 4:onion 5:onion -:onion -:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 49 | 4=(x-(5*9)) | 4 x 5 9 * - = | 4:onion x:onion 5:onion 9:onion *:onion -:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 8 | 4=(5+(x-9)) | 4 5 x 9 - + = | 4:onion 5:onion x:onion 9:onion -:onion +:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 1 | (4+(5/x))=9 | 4 5 x / + 9 = | 4:onion 5:onion x:onion /:onion +:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 1 | x=(4/(9-5)) | x 4 9 5 - / = | x:onion 4:onion 9:onion 5:onion -:onion /:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 10 | (4-(5-x))=9 | 4 5 x - - 9 = | 4:onion 5:onion x:onion -:onion -:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 41 | ((4+x)/5)=9 | 4 x + 5 / 9 = | 4:onion x:onion +:onion 5:onion /:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 31 | 4=((5+x)/9) | 4 5 x + 9 / = | 4:onion 5:onion x:onion +:onion 9:onion /:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 41 | 4=((5*9)-x) | 4 5 9 * x - = | 4:onion 5:onion 9:onion *:onion x:onion -:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 1 | ((x*4)+5)=9 | x 4 * 5 + 9 = | x:onion 4:onion *:onion 5:onion +:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 65 | (5*(4+9))=x | 5 4 9 + * x = | 5:onion 4:onion 9:onion +:onion *:onion x:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 8 | ((x-4)+5)=9 | x 4 - 5 + 9 = | x:onion 4:onion -:onion 5:onion +:onion 9:onion =:onion
+EXPR: 1 | POS | INT | 2 | 18 | 18 | ((x-4)-5)=9 | x 4 - 5 - 9 = | x:onion 4:onion -:onion 5:onion -:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 8 | 4=((5+x)-9) | 4 5 x + 9 - = | 4:onion 5:onion x:onion +:onion 9:onion -:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 |  | ((x+4)+5)=9 | x 4 + 5 + 9 = | x:onion 4:onion +:onion 5:onion +:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 8 | 4=(5-(9-x)) | 4 5 9 x - - = | 4:onion 5:onion 9:onion x:onion -:onion -:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 8 | 4=((x+5)-9) | 4 x 5 + 9 - = | 4:onion x:onion 5:onion +:onion 9:onion -:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 16 | ((x/4)+5)=9 | x 4 / 5 + 9 = | x:onion 4:onion /:onion 5:onion +:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 10 | 4=(5-(x-9)) | 4 5 x 9 - - = | 4:onion 5:onion x:onion 9:onion -:onion -:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 8 | 4=((5-9)+x) | 4 5 9 - x + = | 4:onion 5:onion 9:onion -:onion x:onion +:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 29 | (x-(4*5))=9 | x 4 5 * - 9 = | x:onion 4:onion 5:onion *:onion -:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 |  | (4+(x+5))=9 | 4 x 5 + + 9 = | 4:onion x:onion 5:onion +:onion +:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 10 | ((x+4)-5)=9 | x 4 + 5 - 9 = | x:onion 4:onion +:onion 5:onion -:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 |  | (4-(x-5))=9 | 4 x 5 - - 9 = | 4:onion x:onion 5:onion -:onion -:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 56 | ((x/4)-5)=9 | x 4 / 5 - 9 = | x:onion 4:onion /:onion 5:onion -:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 81 | (x/(4+5))=9 | x 4 5 + / 9 = | x:onion 4:onion 5:onion +:onion /:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 41 | ((x+4)/5)=9 | x 4 + 5 / 9 = | x:onion 4:onion +:onion 5:onion /:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 9 | 4=(5-(9/x)) | 4 5 9 x / - = | 4:onion 5:onion 9:onion x:onion /:onion -:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 9 | 4=(5-(x/9)) | 4 5 x 9 / - = | 4:onion 5:onion x:onion 9:onion /:onion -:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 65 | x=(5*(4+9)) | x 5 4 9 + * = | x:onion 5:onion 4:onion 9:onion +:onion *:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 1 | ((4+5)*x)=9 | 4 5 + x * 9 = | 4:onion 5:onion +:onion x:onion *:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 1 | ((4+5)/x)=9 | 4 5 + x / 9 = | 4:onion 5:onion +:onion x:onion /:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 2 | 18 | 8 | 4=(x+(5-9)) | 4 x 5 9 - + = | 4:onion x:onion 5:onion 9:onion -:onion +:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 8 | ((5+x)-4)=9 | 5 x + 4 - 9 = | 5:onion x:onion +:onion 4:onion -:onion 9:onion =:onion
+EXPR: 1 | POS | INT | 4 | 18 | 18 | (x-(4+9))=5 | x 4 9 + - 5 = | x:onion 4:onion 9:onion +:onion -:onion 5:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 9 | ((5-4)*x)=9 | 5 4 - x * 9 = | 5:onion 4:onion -:onion x:onion *:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 10 | ((4-9)+x)=5 | 4 9 - x + 5 = | 4:onion 9:onion -:onion x:onion +:onion 5:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 8 | 5=((4-x)+9) | 5 4 x - 9 + = | 5:onion 4:onion x:onion -:onion 9:onion +:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 8 | 4=((x-9)+5) | 4 x 9 - 5 + = | 4:onion x:onion 9:onion -:onion 5:onion +:onion =:onion
+EXPR: 1 | POS | INT | 4 | 18 | 18 | 4=((x-9)-5) | 4 x 9 - 5 - = | 4:onion x:onion 9:onion -:onion 5:onion -:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 8 | (5+(x-4))=9 | 5 x 4 - + 9 = | 5:onion x:onion 4:onion -:onion +:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 1 | (5+(x*4))=9 | 5 x 4 * + 9 = | 5:onion x:onion 4:onion *:onion +:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 16 | 4=(x/(9-5)) | 4 x 9 5 - / = | 4:onion x:onion 9:onion 5:onion -:onion /:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 41 | ((x-5)/4)=9 | x 5 - 4 / 9 = | x:onion 5:onion -:onion 4:onion /:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 10 | 5=((x+4)-9) | 5 x 4 + 9 - = | 5:onion x:onion 4:onion +:onion 9:onion -:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 8 | ((4-x)+9)=5 | 4 x - 9 + 5 = | 4:onion x:onion -:onion 9:onion +:onion 5:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 1 | 4=((x*9)-5) | 4 x 9 * 5 - = | 4:onion x:onion 9:onion *:onion 5:onion -:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 10 | (4+(x-9))=5 | 4 x 9 - + 5 = | 4:onion x:onion 9:onion -:onion +:onion 5:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 8 | (x+(5-4))=9 | x 5 4 - + 9 = | x:onion 5:onion 4:onion -:onion +:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 |  | ((5-x)+4)=9 | 5 x - 4 + 9 = | 5:onion x:onion -:onion 4:onion +:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 0 | 5=((x-4)+9) | 5 x 4 - 9 + = | 5:onion x:onion 4:onion -:onion 9:onion +:onion =:onion
+EXPR: 1 | POS | INT | 4 | 18 | 18 | 5=((x-4)-9) | 5 x 4 - 9 - = | 5:onion x:onion 4:onion -:onion 9:onion -:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 |  | ((5+x)+4)=9 | 5 x + 4 + 9 = | 5:onion x:onion +:onion 4:onion +:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 8 | 5=(4+(9-x)) | 5 4 9 x - + = | 5:onion 4:onion 9:onion x:onion -:onion +:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 0 | 4=((9-x)-5) | 4 9 x - 5 - = | 4:onion 9:onion x:onion -:onion 5:onion -:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 10 | 4=((9-x)+5) | 4 9 x - 5 + = | 4:onion 9:onion x:onion -:onion 5:onion +:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 41 | 5=((4+x)/9) | 5 4 x + 9 / = | 5:onion 4:onion x:onion +:onion 9:onion /:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 10 | 4=(9+(5-x)) | 4 9 5 x - + = | 4:onion 9:onion 5:onion x:onion -:onion +:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 10 | (x+(4-9))=5 | x 4 9 - + 5 = | x:onion 4:onion 9:onion -:onion +:onion 5:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 |  | (5+(x+4))=9 | 5 x 4 + + 9 = | 5:onion x:onion 4:onion +:onion +:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 8 | (4+(9-x))=5 | 4 9 x - + 5 = | 4:onion 9:onion x:onion -:onion +:onion 5:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 |  | (5+(4-x))=9 | 5 4 x - + 9 = | 5:onion 4:onion x:onion -:onion +:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 1 | (5+(4*x))=9 | 5 4 x * + 9 = | 5:onion 4:onion x:onion *:onion +:onion 9:onion =:onion
+EXPR: 1 | POS | INT | 4 | 18 | 18 | 5=(x-(4+9)) | 5 x 4 9 + - = | 5:onion x:onion 4:onion 9:onion +:onion -:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 31 | ((4*9)-x)=5 | 4 9 * x - 5 = | 4:onion 9:onion *:onion x:onion -:onion 5:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 49 | ((x-4)/9)=5 | x 4 - 9 / 5 = | x:onion 4:onion -:onion 9:onion /:onion 5:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 10 | ((4+x)-9)=5 | 4 x + 9 - 5 = | 4:onion x:onion +:onion 9:onion -:onion 5:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 0 | 5=(x-(4-9)) | 5 x 4 9 - - = | 5:onion x:onion 4:onion 9:onion -:onion -:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 41 | 5=(x-(4*9)) | 5 x 4 9 * - = | 5:onion x:onion 4:onion 9:onion *:onion -:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 29 | 4=((x-9)/5) | 4 x 9 - 5 / = | 4:onion x:onion 9:onion -:onion 5:onion /:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 0 | 4=((9-5)+x) | 4 9 5 - x + = | 4:onion 9:onion 5:onion -:onion x:onion +:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 0 | 4=((9-5)-x) | 4 9 5 - x - = | 4:onion 9:onion 5:onion -:onion x:onion -:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 16 | (5+(x/4))=9 | 5 x 4 / + 9 = | 5:onion x:onion 4:onion /:onion +:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 |  | (5-(x-4))=9 | 5 x 4 - - 9 = | 5:onion x:onion 4:onion -:onion -:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 0 | 4=(9-(5-x)) | 4 9 5 x - - = | 4:onion 9:onion 5:onion x:onion -:onion -:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 |  | (5+(4+x))=9 | 5 4 x + + 9 = | 5:onion 4:onion x:onion +:onion +:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 1 | 4=(9-(5*x)) | 4 9 5 x * - = | 4:onion 9:onion 5:onion x:onion *:onion -:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 9 | 5=(4+(9/x)) | 5 4 9 x / + = | 5:onion 4:onion 9:onion x:onion /:onion +:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 10 | 5=(x+(4-9)) | 5 x 4 9 - + = | 5:onion x:onion 4:onion 9:onion -:onion +:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 9 | (4+(x/9))=5 | 4 x 9 / + 5 = | 4:onion x:onion 9:onion /:onion +:onion 5:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 10 | 5=((4-9)+x) | 5 4 9 - x + = | 5:onion 4:onion 9:onion -:onion x:onion +:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 0 | 4=(9+(x-5)) | 4 9 x 5 - + = | 4:onion 9:onion x:onion 5:onion -:onion +:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 1 | 4=(9-(5/x)) | 4 9 5 x / - = | 4:onion 9:onion 5:onion x:onion /:onion -:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 11 | 4=((x+9)/5) | 4 x 9 + 5 / = | 4:onion x:onion 9:onion +:onion 5:onion /:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 1 | (5+(4/x))=9 | 5 4 x / + 9 = | 5:onion 4:onion x:onion /:onion +:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 8 | ((5-4)+x)=9 | 5 4 - x + 9 = | 5:onion 4:onion -:onion x:onion +:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 8 | 5=(4-(x-9)) | 5 4 x 9 - - = | 5:onion 4:onion x:onion 9:onion -:onion -:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 41 | 5=((x+4)/9) | 5 x 4 + 9 / = | 5:onion x:onion 4:onion +:onion 9:onion /:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 31 | ((5+x)/4)=9 | 5 x + 4 / 9 = | 5:onion x:onion +:onion 4:onion /:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 0 | 4=(9-(5+x)) | 4 9 5 x + - = | 4:onion 9:onion 5:onion x:onion +:onion -:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 81 | 4=((x/9)-5) | 4 x 9 / 5 - = | 4:onion x:onion 9:onion /:onion 5:onion -:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 65 | 5=(x/(4+9)) | 5 x 4 9 + / = | 5:onion x:onion 4:onion 9:onion +:onion /:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 |  | (x-(4-9))=5 | x 4 9 - - 5 = | x:onion 4:onion 9:onion -:onion -:onion 5:onion =:onion
+EXPR: 1 | POS | INT | 4 | 18 | 18 | ((x-5)-4)=9 | x 5 - 4 - 9 = | x:onion 5:onion -:onion 4:onion -:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 |  | ((x+5)+4)=9 | x 5 + 4 + 9 = | x:onion 5:onion +:onion 4:onion +:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 1 | ((5*x)+4)=9 | 5 x * 4 + 9 = | 5:onion x:onion *:onion 4:onion +:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 1 | ((5/x)+4)=9 | 5 x / 4 + 9 = | 5:onion x:onion /:onion 4:onion +:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 9 | (4+(9/x))=5 | 4 9 x / + 5 = | 4:onion 9:onion x:onion /:onion +:onion 5:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 10 | (4-(9-x))=5 | 4 9 x - - 5 = | 4:onion 9:onion x:onion -:onion -:onion 5:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 0 | 4=((9+x)-5) | 4 9 x + 5 - = | 4:onion 9:onion x:onion +:onion 5:onion -:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 10 | ((x-5)+4)=9 | x 5 - 4 + 9 = | x:onion 5:onion -:onion 4:onion +:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 10 | 5=((4+x)-9) | 5 4 x + 9 - = | 5:onion 4:onion x:onion +:onion 9:onion -:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 0 | 4=((x+9)-5) | 4 x 9 + 5 - = | 4:onion x:onion 9:onion +:onion 5:onion -:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 25 | ((x/5)+4)=9 | x 5 / 4 + 9 = | x:onion 5:onion /:onion 4:onion +:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 9 | (x*(5-4))=9 | x 5 4 - * 9 = | x:onion 5:onion 4:onion -:onion *:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 9 | (x/(5-4))=9 | x 5 4 - / 9 = | x:onion 5:onion 4:onion -:onion /:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 31 | 5=((4*9)-x) | 5 4 9 * x - = | 5:onion 4:onion 9:onion *:onion x:onion -:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 1 | 4=(x*(9-5)) | 4 x 9 5 - * = | 4:onion x:onion 9:onion 5:onion -:onion *:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 11 | 4=((9+x)/5) | 4 9 x + 5 / = | 4:onion 9:onion x:onion +:onion 5:onion /:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 8 | (5-(4-x))=9 | 5 4 x - - 9 = | 5:onion 4:onion x:onion -:onion -:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 10 | (x-(5-4))=9 | x 5 4 - - 9 = | x:onion 5:onion 4:onion -:onion -:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 10 | 4=(9-(x-5)) | 4 9 x 5 - - = | 4:onion 9:onion x:onion 5:onion -:onion -:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 1 | ((x*5)+4)=9 | x 5 * 4 + 9 = | x:onion 5:onion *:onion 4:onion +:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 10 | 5=(4+(x-9)) | 5 4 x 9 - + = | 5:onion 4:onion x:onion 9:onion -:onion +:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 8 | ((4+9)-x)=5 | 4 9 + x - 5 = | 4:onion 9:onion +:onion x:onion -:onion 5:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 8 | ((x+5)-4)=9 | x 5 + 4 - 9 = | x:onion 5:onion +:onion 4:onion -:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 10 | ((x+4)-9)=5 | x 4 + 9 - 5 = | x:onion 4:onion +:onion 9:onion -:onion 5:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 1 | 4=((9*x)-5) | 4 9 x * 5 - = | 4:onion 9:onion x:onion *:onion 5:onion -:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 1 | 4=((9-5)*x) | 4 9 5 - x * = | 4:onion 9:onion 5:onion -:onion x:onion *:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 65 | ((x/5)-4)=9 | x 5 / 4 - 9 = | x:onion 5:onion /:onion 4:onion -:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 9 | 5=(4+(x/9)) | 5 4 x 9 / + = | 5:onion 4:onion x:onion 9:onion /:onion +:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 10 | 5=(4-(9-x)) | 5 4 9 x - - = | 5:onion 4:onion 9:onion x:onion -:onion -:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 41 | ((x+4)/9)=5 | x 4 + 9 / 5 = | x:onion 4:onion +:onion 9:onion /:onion 5:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 8 | 5=((4+9)-x) | 5 4 9 + x - = | 5:onion 4:onion 9:onion +:onion x:onion -:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 1 | 4=((9-5)/x) | 4 9 5 - x / = | 4:onion 9:onion 5:onion -:onion x:onion /:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 31 | ((x+5)/4)=9 | x 5 + 4 / 9 = | x:onion 5:onion +:onion 4:onion /:onion 9:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 1 | 4=(9-(x*5)) | 4 9 x 5 * - = | 4:onion 9:onion x:onion 5:onion *:onion -:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 1 | 4=((9/x)-5) | 4 9 x / 5 - = | 4:onion 9:onion x:onion /:onion 5:onion -:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 65 | (x/(4+9))=5 | x 4 9 + / 5 = | x:onion 4:onion 9:onion +:onion /:onion 5:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 49 | 5=((x-4)/9) | 5 x 4 - 9 / = | 5:onion x:onion 4:onion -:onion 9:onion /:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 8 | (4-(x-9))=5 | 4 x 9 - - 5 = | 4:onion x:onion 9:onion -:onion -:onion 5:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 0 | 4=(9-(x+5)) | 4 9 x 5 + - = | 4:onion 9:onion x:onion 5:onion +:onion -:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 25 | 4=(9-(x/5)) | 4 9 x 5 / - = | 4:onion 9:onion x:onion 5:onion /:onion -:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 |  | ((x-4)+9)=5 | x 4 - 9 + 5 = | x:onion 4:onion -:onion 9:onion +:onion 5:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 41 | ((4+x)/9)=5 | 4 x + 9 / 5 = | 4:onion x:onion +:onion 9:onion /:onion 5:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 56 | 5=((x/4)-9) | 5 x 4 / 9 - = | 5:onion x:onion 4:onion /:onion 9:onion -:onion =:onion
+EXPR: 1 | POS | INT | 4 | 18 | 18 | ((x-4)-9)=5 | x 4 - 9 - 5 = | x:onion 4:onion -:onion 9:onion -:onion 5:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 8 | 4=(x-(9-5)) | 4 x 9 5 - - = | 4:onion x:onion 9:onion 5:onion -:onion -:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 41 | (x-(4*9))=5 | x 4 9 * - 5 = | x:onion 4:onion 9:onion *:onion -:onion 5:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 56 | ((x/4)-9)=5 | x 4 / 9 - 5 = | x:onion 4:onion /:onion 9:onion -:onion 5:onion =:onion
+EXPR: 0 | POS | INT | 4 | 18 | 0 | 4=(x+(9-5)) | 4 x 9 5 - + = | 4:onion x:onion 9:onion 5:onion -:onion +:onion =:onion
+EXPR: 0 | POS | INT | 5 | 18 | 10 | x=((5+9)-4) | x 5 9 + 4 - = | x:onion 5:onion 9:onion +:onion 4:onion -:onion =:onion
+EXPR: 1 | POS | INT | 5 | 18 | 18 | x=((5+9)+4) | x 5 9 + 4 + = | x:onion 5:onion 9:onion +:onion 4:onion +:onion =:onion
+EXPR: 0 | POS | INT | 5 | 18 | 10 | x=(5+(9-4)) | x 5 9 4 - + = | x:onion 5:onion 9:onion 4:onion -:onion +:onion =:onion
+EXPR: 0 | POS | INT | 5 | 18 | 56 | x=((5+9)*4) | x 5 9 + 4 * = | x:onion 5:onion 9:onion +:onion 4:onion *:onion =:onion
+EXPR: 0 | POS | INT | 5 | 18 |  | x=((9-4)-5) | x 9 4 - 5 - = | x:onion 9:onion 4:onion -:onion 5:onion -:onion =:onion
+EXPR: 0 | POS | INT | 5 | 18 |  | x=((5-9)+4) | x 5 9 - 4 + = | x:onion 5:onion 9:onion -:onion 4:onion +:onion =:onion
+EXPR: 0 | POS | INT | 5 | 18 | 10 | ((5+9)-4)=x | 5 9 + 4 - x = | 5:onion 9:onion +:onion 4:onion -:onion x:onion =:onion
+EXPR: 0 | POS | INT | 5 | 18 | 25 | ((9-4)*5)=x | 9 4 - 5 * x = | 9:onion 4:onion -:onion 5:onion *:onion x:onion =:onion
+EXPR: 0 | POS | INT | 5 | 18 | 0 | ((5-9)+4)=x | 5 9 - 4 + x = | 5:onion 9:onion -:onion 4:onion +:onion x:onion =:onion
+EXPR: 0 | POS | INT | 5 | 18 | 8 | x=(9+(4-5)) | x 9 4 5 - + = | x:onion 9:onion 4:onion 5:onion -:onion +:onion =:onion
+EXPR: 0 | POS | INT | 5 | 18 | 8 | (9+(4-5))=x | 9 4 5 - + x = | 9:onion 4:onion 5:onion -:onion +:onion x:onion =:onion
+EXPR: 0 | POS | INT | 5 | 18 | 10 | x=(9-(4-5)) | x 9 4 5 - - = | x:onion 9:onion 4:onion 5:onion -:onion -:onion =:onion
+EXPR: 0 | POS | INT | 5 | 18 | 10 | x=((9-4)+5) | x 9 4 - 5 + = | x:onion 9:onion 4:onion -:onion 5:onion +:onion =:onion
+EXPR: 0 | POS | INT | 5 | 18 | 25 | (5*(9-4))=x | 5 9 4 - * x = | 5:onion 9:onion 4:onion -:onion *:onion x:onion =:onion
+EXPR: 0 | POS | INT | 5 | 18 | 1 | (5/(9-4))=x | 5 9 4 - / x = | 5:onion 9:onion 4:onion -:onion /:onion x:onion =:onion
+EXPR: 0 | POS | INT | 5 | 18 | 1 | x=((9-4)/5) | x 9 4 - 5 / = | x:onion 9:onion 4:onion -:onion 5:onion /:onion =:onion
+EXPR: 1 | POS | INT | 5 | 18 | 18 | (9+(4+5))=x | 9 4 5 + + x = | 9:onion 4:onion 5:onion +:onion +:onion x:onion =:onion
+EXPR: 0 | POS | INT | 5 | 18 |  | x=(5-(9-4)) | x 5 9 4 - - = | x:onion 5:onion 9:onion 4:onion -:onion -:onion =:onion
+EXPR: 0 | POS | INT | 5 | 18 | 49 | x=((5*9)+4) | x 5 9 * 4 + = | x:onion 5:onion 9:onion *:onion 4:onion +:onion =:onion
+EXPR: 0 | POS | INT | 5 | 18 | 41 | x=((5*9)-4) | x 5 9 * 4 - = | x:onion 5:onion 9:onion *:onion 4:onion -:onion =:onion
+EXPR: 0 | POS | INT | 5 | 18 | 10 | (9-(4-5))=x | 9 4 5 - - x = | 9:onion 4:onion 5:onion -:onion -:onion x:onion =:onion
+EXPR: 1 | POS | INT | 5 | 18 | 18 | x=(9+(4+5)) | x 9 4 5 + + = | x:onion 9:onion 4:onion 5:onion +:onion +:onion =:onion
+EXPR: 1 | POS | INT | 5 | 18 | 18 | ((5+9)+4)=x | 5 9 + 4 + x = | 5:onion 9:onion +:onion 4:onion +:onion x:onion =:onion
+EXPR: 0 | POS | INT | 5 | 18 | 29 | (9+(4*5))=x | 9 4 5 * + x = | 9:onion 4:onion 5:onion *:onion +:onion x:onion =:onion
+EXPR: 0 | POS | INT | 5 | 18 | 10 | ((9-4)+5)=x | 9 4 - 5 + x = | 9:onion 4:onion -:onion 5:onion +:onion x:onion =:onion
+EXPR: 0 | POS | INT | 5 | 18 | 10 | (5+(9-4))=x | 5 9 4 - + x = | 5:onion 9:onion 4:onion -:onion +:onion x:onion =:onion
+EXPR: 0 | POS | INT | 5 | 18 | 0 | (9-(4+5))=x | 9 4 5 + - x = | 9:onion 4:onion 5:onion +:onion -:onion x:onion =:onion
+EXPR: 0 | POS | INT | 5 | 18 | 0 | ((9-4)-5)=x | 9 4 - 5 - x = | 9:onion 4:onion -:onion 5:onion -:onion x:onion =:onion
+EXPR: 0 | POS | INT | 5 | 18 | 56 | ((5+9)*4)=x | 5 9 + 4 * x = | 5:onion 9:onion +:onion 4:onion *:onion x:onion =:onion
+EXPR: 0 | POS | INT | 5 | 18 | 81 | (9*(4+5))=x | 9 4 5 + * x = | 9:onion 4:onion 5:onion +:onion *:onion x:onion =:onion
+EXPR: 0 | POS | INT | 5 | 18 | 1 | (9/(4+5))=x | 9 4 5 + / x = | 9:onion 4:onion 5:onion +:onion /:onion x:onion =:onion
+EXPR: 0 | POS | INT | 5 | 18 | 0 | (5-(9-4))=x | 5 9 4 - - x = | 5:onion 9:onion 4:onion -:onion -:onion x:onion =:onion
+EXPR: 0 | POS | INT | 5 | 18 | 29 | x=(9+(4*5)) | x 9 4 5 * + = | x:onion 9:onion 4:onion 5:onion *:onion +:onion =:onion
+EXPR: 0 | POS | INT | 5 | 18 | 49 | ((5*9)+4)=x | 5 9 * 4 + x = | 5:onion 9:onion *:onion 4:onion +:onion x:onion =:onion
+EXPR: 0 | POS | INT | 5 | 18 | 41 | ((5*9)-4)=x | 5 9 * 4 - x = | 5:onion 9:onion *:onion 4:onion -:onion x:onion =:onion
+EXPR: 0 | POS | INT | 5 | 18 | 25 | x=((9-4)*5) | x 9 4 - 5 * = | x:onion 9:onion 4:onion -:onion 5:onion *:onion =:onion
+EXPR: 0 | POS | INT | 5 | 18 | 1 | ((9-4)/5)=x | 9 4 - 5 / x = | 9:onion 4:onion -:onion 5:onion /:onion x:onion =:onion
+EXPR: 0 | POS | INT | 5 | 18 | 1 | x=(9/(4+5)) | x 9 4 5 + / = | x:onion 9:onion 4:onion 5:onion +:onion /:onion =:onion
+EXPR: 0 | POS | INT | 5 | 18 |  | x=(9-(4+5)) | x 9 4 5 + - = | x:onion 9:onion 4:onion 5:onion +:onion -:onion =:onion
+EXPR: 0 | POS | INT | 5 | 18 | 81 | x=(9*(4+5)) | x 9 4 5 + * = | x:onion 9:onion 4:onion 5:onion +:onion *:onion =:onion
+EXPR: 0 | POS | INT | 5 | 18 | 25 | x=(5*(9-4)) | x 5 9 4 - * = | x:onion 5:onion 9:onion 4:onion -:onion *:onion =:onion
+EXPR: 0 | POS | INT | 5 | 18 | 1 | x=(5/(9-4)) | x 5 9 4 - / = | x:onion 5:onion 9:onion 4:onion -:onion /:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 8 | x=(9-(5-4)) | x 9 5 4 - - = | x:onion 9:onion 5:onion 4:onion -:onion -:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 |  | (9-(x+4))=5 | 9 x 4 + - 5 = | 9:onion x:onion 4:onion +:onion -:onion 5:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 8 | ((9-x)+4)=5 | 9 x - 4 + 5 = | 9:onion x:onion -:onion 4:onion +:onion 5:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 |  | ((9+x)-4)=5 | 9 x + 4 - 5 = | 9:onion x:onion +:onion 4:onion -:onion 5:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 |  | (9+(x-4))=5 | 9 x 4 - + 5 = | 9:onion x:onion 4:onion -:onion +:onion 5:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 0 | 9=(4+(x+5)) | 9 4 x 5 + + = | 9:onion 4:onion x:onion 5:onion +:onion +:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 0 | 9=((4-x)+5) | 9 4 x - 5 + = | 9:onion 4:onion x:onion -:onion 5:onion +:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 10 | 5=((x-9)+4) | 5 x 9 - 4 + = | 5:onion x:onion 9:onion -:onion 4:onion +:onion =:onion
+EXPR: 1 | POS | INT | 7 | 18 | 18 | 5=((x-9)-4) | 5 x 9 - 4 - = | 5:onion x:onion 9:onion -:onion 4:onion -:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 8 | (5+(x-9))=4 | 5 x 9 - + 4 = | 5:onion x:onion 9:onion -:onion +:onion 4:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 10 | ((5-x)+9)=4 | 5 x - 9 + 4 = | 5:onion x:onion -:onion 9:onion +:onion 4:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 10 | ((5+9)-x)=4 | 5 9 + x - 4 = | 5:onion 9:onion +:onion x:onion -:onion 4:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 0 | 9=((4+x)+5) | 9 4 x + 5 + = | 9:onion 4:onion x:onion +:onion 5:onion +:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 0 | 9=(4-(x-5)) | 9 4 x 5 - - = | 9:onion 4:onion x:onion 5:onion -:onion -:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 25 | 5=(x/(9-4)) | 5 x 9 4 - / = | 5:onion x:onion 9:onion 4:onion -:onion /:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 1 | ((9*x)-4)=5 | 9 x * 4 - 5 = | 9:onion x:onion *:onion 4:onion -:onion 5:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 9 | ((9/x)+4)=5 | 9 x / 4 + 5 = | 9:onion x:onion /:onion 4:onion +:onion 5:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 8 | 5=((9-x)+4) | 5 9 x - 4 + = | 5:onion 9:onion x:onion -:onion 4:onion +:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 8 | ((5-9)+x)=4 | 5 9 - x + 4 = | 5:onion 9:onion -:onion x:onion +:onion 4:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 16 | ((9-5)*4)=x | 9 5 - 4 * x = | 9:onion 5:onion -:onion 4:onion *:onion x:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 1 | ((9-5)/4)=x | 9 5 - 4 / x = | 9:onion 5:onion -:onion 4:onion /:onion x:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 1 | (9-(x*4))=5 | 9 x 4 * - 5 = | 9:onion x:onion 4:onion *:onion -:onion 5:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 29 | ((x-9)/4)=5 | x 9 - 4 / 5 = | x:onion 9:onion -:onion 4:onion /:onion 5:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 10 | 9=(4+(x-5)) | 9 4 x 5 - + = | 9:onion 4:onion x:onion 5:onion -:onion +:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 41 | 9=((4+x)/5) | 9 4 x + 5 / = | 9:onion 4:onion x:onion +:onion 5:onion /:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 0 | 5=(9-(4+x)) | 5 9 4 x + - = | 5:onion 9:onion 4:onion x:onion +:onion -:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 11 | ((9+x)/4)=5 | 9 x + 4 / 5 = | 9:onion x:onion +:onion 4:onion /:onion 5:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 1 | 9=(x*(4+5)) | 9 x 4 5 + * = | 9:onion x:onion 4:onion 5:onion +:onion *:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 0 | 5=(9+(x-4)) | 5 9 x 4 - + = | 5:onion 9:onion x:onion 4:onion -:onion +:onion =:onion
+EXPR: 1 | POS | INT | 7 | 18 | 18 | 9=(x-(4+5)) | 9 x 4 5 + - = | 9:onion x:onion 4:onion 5:onion +:onion -:onion =:onion
+EXPR: 1 | POS | INT | 7 | 18 | 18 | (x-(5+9))=4 | x 5 9 + - 4 = | x:onion 5:onion 9:onion +:onion -:onion 4:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 1 | ((9-4)*x)=5 | 9 4 - x * 5 = | 9:onion 4:onion -:onion x:onion *:onion 5:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 8 | ((9-5)+4)=x | 9 5 - 4 + x = | 9:onion 5:onion -:onion 4:onion +:onion x:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 0 | 9=(4+(5+x)) | 9 4 5 x + + = | 9:onion 4:onion 5:onion x:onion +:onion +:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 8 | x=((9-5)+4) | x 9 5 - 4 + = | x:onion 9:onion 5:onion -:onion 4:onion +:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 |  | x=((9-5)-4) | x 9 5 - 4 - = | x:onion 9:onion 5:onion -:onion 4:onion -:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 8 | (9-(x-4))=5 | 9 x 4 - - 5 = | 9:onion x:onion 4:onion -:onion -:onion 5:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 8 | 5=(9-(x-4)) | 5 9 x 4 - - = | 5:onion 9:onion x:onion 4:onion -:onion -:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 1 | 5=(9-(x*4)) | 5 9 x 4 * - = | 5:onion 9:onion x:onion 4:onion *:onion -:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 0 | 9=(x+(4+5)) | 9 x 4 5 + + = | 9:onion x:onion 4:onion 5:onion +:onion +:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 8 | 9=((x-4)+5) | 9 x 4 - 5 + = | 9:onion x:onion 4:onion -:onion 5:onion +:onion =:onion
+EXPR: 1 | POS | INT | 7 | 18 | 18 | 9=((x-4)-5) | 9 x 4 - 5 - = | 9:onion x:onion 4:onion -:onion 5:onion -:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 9 | (5-(x/9))=4 | 5 x 9 / - 4 = | 5:onion x:onion 9:onion /:onion -:onion 4:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 1 | 9=((4*x)+5) | 9 4 x * 5 + = | 9:onion 4:onion x:onion *:onion 5:onion +:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 16 | 5=(9-(x/4)) | 5 9 x 4 / - = | 5:onion 9:onion x:onion 4:onion /:onion -:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 8 | (x+(5-9))=4 | x 5 9 - + 4 = | x:onion 5:onion 9:onion -:onion +:onion 4:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 1 | 9=((4/x)+5) | 9 4 x / 5 + = | 9:onion 4:onion x:onion /:onion 5:onion +:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 56 | (x/(5+9))=4 | x 5 9 + / 4 = | x:onion 5:onion 9:onion +:onion /:onion 4:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 0 | 9=(4+(5-x)) | 9 4 5 x - + = | 9:onion 4:onion 5:onion x:onion -:onion +:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 1 | 9=(4+(5*x)) | 9 4 5 x * + = | 9:onion 4:onion 5:onion x:onion *:onion +:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 1 | 9=((x*4)+5) | 9 x 4 * 5 + = | 9:onion x:onion 4:onion *:onion 5:onion +:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 16 | 9=((x/4)+5) | 9 x 4 / 5 + = | 9:onion x:onion 4:onion /:onion 5:onion +:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 10 | 9=(x+(4-5)) | 9 x 4 5 - + = | 9:onion x:onion 4:onion 5:onion -:onion +:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 1 | 9=(4+(5/x)) | 9 4 5 x / + = | 9:onion 4:onion 5:onion x:onion /:onion +:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 0 | 9=((4+5)+x) | 9 4 5 + x + = | 9:onion 4:onion 5:onion +:onion x:onion +:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 1 | 9=(4+(x*5)) | 9 4 x 5 * + = | 9:onion 4:onion x:onion 5:onion *:onion +:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 1 | 9=((4+5)*x) | 9 4 5 + x * = | 9:onion 4:onion 5:onion +:onion x:onion *:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 8 | (9+(4-x))=5 | 9 4 x - + 5 = | 9:onion 4:onion x:onion -:onion +:onion 5:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 56 | 9=((x/4)-5) | 9 x 4 / 5 - = | 9:onion x:onion 4:onion /:onion 5:onion -:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 10 | 9=(4-(5-x)) | 9 4 5 x - - = | 9:onion 4:onion 5:onion x:onion -:onion -:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 25 | 9=(4+(x/5)) | 9 4 x 5 / + = | 9:onion 4:onion x:onion 5:onion /:onion +:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 |  | (x-(5-9))=4 | x 5 9 - - 4 = | x:onion 5:onion 9:onion -:onion -:onion 4:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 |  | ((9-x)-4)=5 | 9 x - 4 - 5 = | 9:onion x:onion -:onion 4:onion -:onion 5:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 29 | 5=((x-9)/4) | 5 x 9 - 4 / = | 5:onion x:onion 9:onion -:onion 4:onion /:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 8 | ((5+x)-9)=4 | 5 x + 9 - 4 = | 5:onion x:onion +:onion 9:onion -:onion 4:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 41 | ((5*9)-x)=4 | 5 9 * x - 4 = | 5:onion 9:onion *:onion x:onion -:onion 4:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 0 | 5=(9-(4-x)) | 5 9 4 x - - = | 5:onion 9:onion 4:onion x:onion -:onion -:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 8 | 5=(9+(4-x)) | 5 9 4 x - + = | 5:onion 9:onion 4:onion x:onion -:onion +:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 |  | ((9-4)+x)=5 | 9 4 - x + 5 = | 9:onion 4:onion -:onion x:onion +:onion 5:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 |  | ((9-4)-x)=5 | 9 4 - x - 5 = | 9:onion 4:onion -:onion x:onion -:onion 5:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 1 | ((9/x)-4)=5 | 9 x / 4 - 5 = | 9:onion x:onion /:onion 4:onion -:onion 5:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 81 | 9=(x/(4+5)) | 9 x 4 5 + / = | 9:onion x:onion 4:onion 5:onion +:onion /:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 1 | ((9-4)/x)=5 | 9 4 - x / 5 = | 9:onion 4:onion -:onion x:onion /:onion 5:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 0 | 5=((9+x)-4) | 5 9 x + 4 - = | 5:onion 9:onion x:onion +:onion 4:onion -:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 1 | 9=((4+5)/x) | 9 4 5 + x / = | 9:onion 4:onion 5:onion +:onion x:onion /:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 1 | 5=(x*(9-4)) | 5 x 9 4 - * = | 5:onion x:onion 9:onion 4:onion -:onion *:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 0 | 5=((x+9)-4) | 5 x 9 + 4 - = | 5:onion x:onion 9:onion +:onion 4:onion -:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 0 | ((9-5)-4)=x | 9 5 - 4 - x = | 9:onion 5:onion -:onion 4:onion -:onion x:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 11 | 5=((x+9)/4) | 5 x 9 + 4 / = | 5:onion x:onion 9:onion +:onion 4:onion /:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 9 | (9*(5-4))=x | 9 5 4 - * x = | 9:onion 5:onion 4:onion -:onion *:onion x:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 9 | (9/(5-4))=x | 9 5 4 - / x = | 9:onion 5:onion 4:onion -:onion /:onion x:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 0 | 5=((9-4)+x) | 5 9 4 - x + = | 5:onion 9:onion 4:onion -:onion x:onion +:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 0 | 5=((9-4)-x) | 5 9 4 - x - = | 5:onion 9:onion 4:onion -:onion x:onion -:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 0 | 9=((x+4)+5) | 9 x 4 + 5 + = | 9:onion x:onion 4:onion +:onion 5:onion +:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 1 | 5=((9-4)*x) | 5 9 4 - x * = | 5:onion 9:onion 4:onion -:onion x:onion *:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 10 | 9=((4+x)-5) | 9 4 x + 5 - = | 9:onion 4:onion x:onion +:onion 5:onion -:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 10 | ((x-9)+4)=5 | x 9 - 4 + 5 = | x:onion 9:onion -:onion 4:onion +:onion 5:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 41 | 9=((x+4)/5) | 9 x 4 + 5 / = | 9:onion x:onion 4:onion +:onion 5:onion /:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 10 | 9=((x+4)-5) | 9 x 4 + 5 - = | 9:onion x:onion 4:onion +:onion 5:onion -:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 10 | (5+(9-x))=4 | 5 9 x - + 4 = | 5:onion 9:onion x:onion -:onion +:onion 4:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 16 | x=((9-5)*4) | x 9 5 - 4 * = | x:onion 9:onion 5:onion -:onion 4:onion *:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 9 | (5-(9/x))=4 | 5 9 x / - 4 = | 5:onion 9:onion x:onion /:onion -:onion 4:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 10 | x=(9+(5-4)) | x 9 5 4 - + = | x:onion 9:onion 5:onion 4:onion -:onion +:onion =:onion
+EXPR: 1 | POS | INT | 7 | 18 | 18 | ((x-9)-4)=5 | x 9 - 4 - 5 = | x:onion 9:onion -:onion 4:onion -:onion 5:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 8 | (5-(9-x))=4 | 5 9 x - - 4 = | 5:onion 9:onion x:onion -:onion -:onion 4:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 1 | (x*(9-4))=5 | x 9 4 - * 5 = | x:onion 9:onion 4:onion -:onion *:onion 5:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 1 | x=((9-5)/4) | x 9 5 - 4 / = | x:onion 9:onion 5:onion -:onion 4:onion /:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 10 | (9+(5-4))=x | 9 5 4 - + x = | 9:onion 5:onion 4:onion -:onion +:onion x:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 10 | (x-(9-4))=5 | x 9 4 - - 5 = | x:onion 9:onion 4:onion -:onion -:onion 5:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 |  | (9-(4-x))=5 | 9 4 x - - 5 = | 9:onion 4:onion x:onion -:onion -:onion 5:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 1 | 5=((x*9)-4) | 5 x 9 * 4 - = | 5:onion x:onion 9:onion *:onion 4:onion -:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 9 | ((x/9)+4)=5 | x 9 / 4 + 5 = | x:onion 9:onion /:onion 4:onion +:onion 5:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 81 | 5=((x/9)-4) | 5 x 9 / 4 - = | 5:onion x:onion 9:onion /:onion 4:onion -:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 |  | ((x+9)-4)=5 | x 9 + 4 - 5 = | x:onion 9:onion +:onion 4:onion -:onion 5:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 |  | (x+(9-4))=5 | x 9 4 - + 5 = | x:onion 9:onion 4:onion -:onion +:onion 5:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 8 | ((x+5)-9)=4 | x 5 + 9 - 4 = | x:onion 5:onion +:onion 9:onion -:onion 4:onion =:onion
+EXPR: 0 | POS | INT | 7 | 18 | 8 | (9-(5-4))=x | 9 5 4 - - x = | 9:onion 5:onion 4:onion -:onion -:onion x:onion =:onion
+NET 376 unique, non-negative, integer-valued solutions found out of 1000 total solutions

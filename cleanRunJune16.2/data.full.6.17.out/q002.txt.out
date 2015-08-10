@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 135 | 135 | x=(3*45) | x 3 45 * = | x:dollar 3:people 45:dollar *:dollar =:dollar
+EXPR: 1 | POS | INT | 0 | 135 | 135 | (3*45)=x | 3 45 * x = | 3:people 45:dollar *:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 2 | 135 | 15 | (45/3)=x | 45 3 / x = | 45:dollar 3:people /:dollar x:dollar =:dollar
+EXPR: 1 | POS | INT | 2 | 135 | 135 | (x/3)=45 | x 3 / 45 = | x:dollar 3:people /:dollar 45:dollar =:dollar
+EXPR: 0 | POS | INT | 2 | 135 | 15 | x=(45/3) | x 45 3 / = | x:dollar 45:dollar 3:people /:dollar =:dollar
+EXPR: 0 | POS | INT | 2 | 135 | 15 | (x*3)=45 | x 3 * 45 = | x:dollar 3:people *:dollar 45:dollar =:dollar
+EXPR: 0 | POS | INT | 2 | 135 | 15 | (3*x)=45 | 3 x * 45 = | 3:people x:dollar *:dollar 45:dollar =:dollar
+EXPR: 0 | POS | INT | 4 | 135 | 15 | 45=(x*3) | 45 x 3 * = | 45:dollar x:dollar 3:people *:dollar =:dollar
+EXPR: 1 | POS | INT | 4 | 135 | 135 | 45=(x/3) | 45 x 3 / = | 45:dollar x:dollar 3:people /:dollar =:dollar
+EXPR: 0 | POS | INT | 4 | 135 | 15 | 45=(3*x) | 45 3 x * = | 45:dollar 3:people x:dollar *:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 135 | 48 | (3+45)=x | 3 45 + x = | 3:dollar 45:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 135 | 48 | x=(3+45) | x 3 45 + = | x:dollar 3:dollar 45:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 135 | 48 | 3=(x-45) | 3 x 45 - = | 3:dollar x:dollar 45:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 135 | 42 | (45-3)=x | 45 3 - x = | 45:dollar 3:dollar -:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 135 | 48 | (x-3)=45 | x 3 - 45 = | x:dollar 3:dollar -:dollar 45:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 135 | 42 | x=(45-3) | x 45 3 - = | x:dollar 45:dollar 3:dollar -:dollar =:dollar
+EXPR: 1 | POS | INT | 12 | 135 | 135 | 3=(x/45) | 3 x 45 / = | 3:people x:people 45:dollar /:people =:people
+EXPR: 0 | POS | INT | 12 | 135 | 42 | (x+3)=45 | x 3 + 45 = | x:dollar 3:dollar +:dollar 45:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 135 | 42 | 3=(45-x) | 3 45 x - = | 3:dollar 45:dollar x:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 135 | 15 | 3=(45/x) | 3 45 x / = | 3:people 45:people x:dollar /:people =:people
+EXPR: 0 | POS | INT | 12 | 135 | 42 | (3+x)=45 | 3 x + 45 = | 3:dollar x:dollar +:dollar 45:dollar =:dollar
+EXPR: 1 | POS | INT | 14 | 135 | 135 | (x/45)=3 | x 45 / 3 = | x:people 45:dollar /:people 3:people =:people
+EXPR: 0 | POS | INT | 14 | 135 | 48 | (x-45)=3 | x 45 - 3 = | x:dollar 45:dollar -:dollar 3:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 135 | 42 | (45-x)=3 | 45 x - 3 = | 45:dollar x:dollar -:dollar 3:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 135 | 42 | 45=(x+3) | 45 x 3 + = | 45:dollar x:dollar 3:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 135 | 48 | 45=(x-3) | 45 x 3 - = | 45:dollar x:dollar 3:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 14 | 135 | 15 | (45/x)=3 | 45 x / 3 = | 45:people x:dollar /:people 3:people =:people
+EXPR: 0 | POS | INT | 14 | 135 | 42 | 45=(3+x) | 45 3 x + = | 45:dollar 3:dollar x:dollar +:dollar =:dollar
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

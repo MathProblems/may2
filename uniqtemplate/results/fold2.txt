@@ -1,0 +1,1095 @@
+0
+ tanner saved $17 in september . he saved $48 in october and $25 in november . then tanner spent $49 on a video game . how much money does tanner have left ? 
+$ 17
+$ 48
+$ 25
+$ 49
+game a
+5 4
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : tanner
+contains : None
+entity : dollar
+idx : 3
+location : september
+num : 17
+subtypes : []
+surface : $
+type_failure : 0
+verbs : saved
+widx : 3
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : he
+contains : None
+entity : dollar
+idx : 1003
+location : None
+num : 48
+subtypes : []
+surface : $
+type_failure : 0
+verbs : saved
+widx : 3
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 1008
+location : None
+num : 25
+subtypes : []
+surface : $
+type_failure : 0
+verbs : saved
+widx : 8
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : game
+contains : None
+entity : dollar
+idx : 2004
+location : None
+num : 49
+subtypes : []
+surface : $
+type_failure : 0
+verbs : spent
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 3007
+location : None
+num : x
+subtypes : []
+surface : dollar
+type_failure : 0
+verbs : does have left
+widx : 8
+_____________
+
+
+ Top scoring 3 equations: 
+0.6829381280479169 17 + ( 48 + 25 ) = 49 + x
+0.673193538687435 ( 17 + 48 ) + 25 = 49 + x
+0.6263396109107553 ( 17 + 48 ) - 25 = 49 + x
+top 3 globally adjusted:
+score :  0.7922236360773082
+eq :  ( 17 + ( 48 - 25 ) ) * 49 = x
+guess :  1960
+score :  0.7877421322502968
+eq :  ( ( 17 + 48 ) - 25 ) * 49 = x
+guess :  1960
+score :  0.7725848873306523
+eq :  ( ( 17 + 48 ) * 25 ) - 49 = x
+guess :  1576
+
+INCORRECT
+Guessed Equation :  ( 17 + 48 ) * 25 = 49 + x
+Guess :  1576 
+True Answer : 41.0 
+
+
+1
+ there are 24 bicycles and 14 tricycles in the storage area at danny's apartment building . each bicycle has 2 wheels and each tricycle has 3 wheels . how many wheels are there in all ? 
+bicycles 24
+tricycles 14
+area the
+bicycle each
+wheels 2
+tricycle each
+wheels 3
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : area
+idx : 10
+location : None
+num : the
+subtypes : []
+surface : area
+type_failure : 0
+verbs : None
+widx : 11
+_____________
+
+['the-9', 'storage-10', 'building-16', 'tricycles-7']
+[(5, <makesets.aset object at 0x1135ee9b0>)] 8
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : bicycle
+idx : 1001
+location : None
+num : each
+subtypes : []
+surface : bicycle
+type_failure : 0
+verbs : None
+widx : 2
+_____________
+
+['each-1', 'has-3']
+[] 1000
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : tricycle
+idx : 1007
+location : None
+num : each
+subtypes : []
+surface : tricycle
+type_failure : 0
+verbs : None
+widx : 8
+_____________
+
+['each-7', 'has-9']
+[] 1006
+5 4
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : None
+contains : wheel
+entity : bicycle
+idx : 2
+location : None
+num : 24
+subtypes : []
+surface : bicycles
+type_failure : 0
+verbs : are
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : bicycle
+contains : None
+entity : wheel
+idx : 3
+location : None
+num : 2
+subtypes : []
+surface : wheels
+type_failure : 0
+verbs : has
+widx : 5
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : area
+contains : wheel
+entity : tricycle
+idx : 5
+location : area
+num : 14
+subtypes : []
+surface : tricycles
+type_failure : 0
+verbs : None
+widx : 7
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : tricycle
+contains : None
+entity : wheel
+idx : 6
+location : None
+num : 3
+subtypes : []
+surface : wheels
+type_failure : 0
+verbs : has
+widx : 11
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : wheel
+idx : 1004
+location : None
+num : x
+subtypes : []
+surface : wheels
+type_failure : 0
+verbs : are
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.6499115663858286 24 * 2 = 14 * ( 3 - x )
+0.6389469871900892 24 * 2 = 14 * ( 3 + x )
+0.5992358518914681 24 * ( 2 * 14 ) = 3 + x
+top 3 globally adjusted:
+score :  0.7292556235091807
+eq :  24 / ( 2 / ( 14 * 3 ) ) = x
+guess :  504
+score :  0.6822628297674064
+eq :  24 * ( 2 * ( 14 * 3 ) ) = x
+guess :  2016
+score :  0.6722368923003087
+eq :  24 * ( 2 * ( 14 / 3 ) ) = x
+guess :  224
+
+INCORRECT
+Guessed Equation :  24 * ( 2 + ( 14 * 3 ) ) = x
+Guess :  1056 
+True Answer : 90.0 
+
+
+2
+ paula's aunt gave her $109 to spend on clothes at the mall . she bought 2 shirts that cost $11 each and a pair of pants that cost $13 . how much money does paula have left to buy more clothes ? 
+$ 109
+mall the
+shirts 2
+$ 11
+pair a
+$ 13
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : mall
+idx : 13
+location : None
+num : the
+subtypes : []
+surface : mall
+type_failure : 0
+verbs : None
+widx : 14
+_____________
+
+['the-13', 'clothes-11']
+[] 12
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : shirt
+idx : 1009
+location : None
+num : each
+subtypes : []
+surface : shirts
+type_failure : 0
+verbs : None
+widx : 10
+_____________
+
+['2-3', 'cost-6', 'bought-2']
+[] 1008
+5 4
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : mall
+contains : None
+entity : dollar
+idx : 6
+location : None
+num : 109
+subtypes : []
+surface : $
+type_failure : 0
+verbs : gave
+widx : 6
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : she
+contains : dollar
+entity : shirt
+idx : 1002
+location : None
+num : 2
+subtypes : []
+surface : shirts
+type_failure : 0
+verbs : bought
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : shirt
+contains : None
+entity : dollar
+idx : 1003
+location : None
+num : 13
+subtypes : []
+surface : $
+type_failure : 0
+verbs : cost
+widx : 17
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : pair
+contains : None
+entity : dollar
+idx : 1007
+location : None
+num : 11
+subtypes : []
+surface : $
+type_failure : 0
+verbs : cost
+widx : 7
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 2011
+location : None
+num : x
+subtypes : []
+surface : dollar
+type_failure : 0
+verbs : does have left buy
+widx : 12
+_____________
+
+
+ Top scoring 3 equations: 
+0.6688924649258359 109 - ( 2 * 13 ) = 11 + x
+0.655994756148198 109 + ( 2 * 13 ) = 11 + x
+0.6489792366036986 ( 109 * 2 ) - 13 = 11 + x
+top 3 globally adjusted:
+score :  0.6411428401052145
+eq :  ( 109 + 2 ) * ( 13 - 11 ) = x
+guess :  222
+score :  0.6411428401052145
+eq :  ( 109 + 2 ) * ( 13 - 11 ) = x
+guess :  222
+score :  0.609915398422371
+eq :  ( ( 109 - 2 ) - 13 ) * 11 = x
+guess :  1034
+
+INCORRECT
+Guessed Equation :  109 + ( 2 * 13 ) = 11 + x
+Guess :  124 
+True Answer : 74.0 
+
+
+3
+ mary has 9 yellow marbles . joan has 3 yellow marbles . how many yellow marbles do they have in all  ? 
+marbles 9
+marbles 3
+3 2
+Sets detected: 
+_____________
+adjs : yellow
+compound : 0
+container : mary
+contains : None
+entity : marble
+idx : 2
+location : None
+num : 9
+subtypes : []
+surface : marbles
+type_failure : 0
+verbs : has
+widx : 5
+_____________
+
+_____________
+adjs : yellow
+compound : 0
+container : joan
+contains : None
+entity : marble
+idx : 1002
+location : None
+num : 3
+subtypes : []
+surface : marbles
+type_failure : 0
+verbs : has
+widx : 5
+_____________
+
+_____________
+adjs : many yellow
+compound : 0
+container : they
+contains : None
+entity : marble
+idx : 2003
+location : None
+num : x
+subtypes : []
+surface : marbles
+type_failure : 0
+verbs : have
+widx : 4
+_____________
+
+
+ Top scoring 3 equations: 
+0.36248681819145684 9 = 3 + x
+0.22473882820717547 9 + 3 = x
+0.17928003833586534 9 = 3 - x
+top 3 globally adjusted:
+score :  0.7781633569406207
+eq :  9 * 3 = x
+guess :  27
+score :  0.7124374661920037
+eq :  9 = 3 * x
+guess :  3
+score :  0.5331216837982046
+eq :  9 - 3 = x
+guess :  6
+
+INCORRECT
+Guessed Equation :  9 = 3 + x
+Guess :  6 
+True Answer : 12.0 
+
+
+4
+ benny bought 4 new baseball trading cards to add to his collection . the next day his dog ate half of his collection . there are now only 34 cards left . how many cards did benny start with  ? 
+cards 4
+day the
+collection half
+cards 34
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : day
+idx : 1002
+location : None
+num : the
+subtypes : []
+surface : day
+type_failure : 0
+verbs : None
+widx : 3
+_____________
+
+['the-1', 'next-2', 'ate-6']
+[] 1000
+Sets detected: 
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : card
+idx : 0
+location : None
+num : x
+subtypes : []
+surface : cards
+type_failure : 0
+verbs : did
+widx : 3
+_____________
+
+_____________
+adjs : new
+compound : 0
+container : None
+contains : None
+entity : card
+idx : 2
+location : None
+num : 4
+subtypes : []
+surface : cards
+type_failure : 0
+verbs : bought add
+widx : 7
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : card
+idx : 2004
+location : None
+num : 34
+subtypes : []
+surface : cards
+type_failure : 0
+verbs : are left
+widx : 6
+_____________
+
+
+ Top scoring 3 equations: 
+0.3585912855698803 x = 4 + 34
+0.2491304522312763 x = 4 - 34
+0.1740984295989563 x + 4 = 34
+top 3 globally adjusted:
+score :  0.6678771444831372
+eq :  x = 4 * 34
+guess :  136
+score :  0.5940427512088595
+eq :  x - 4 = 34
+guess :  38
+score :  0.5116849884054135
+eq :  x = 4 + 34
+guess :  38
+
+INCORRECT
+Guessed Equation :  x = 4 + 34
+Guess :  38 
+True Answer : 64.0 
+
+
+5
+ there were 28 bales of hay in the barn . tim stacked more bales in the barn today . there are now 54 bales of hay in the barn . how many bales did he store in the barn  ? 
+bales 28
+barn the
+barn the
+bales 54
+barn the
+barn the
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : barn
+idx : 8
+location : None
+num : the
+subtypes : []
+surface : barn
+type_failure : 0
+verbs : None
+widx : 9
+_____________
+
+['the-8', 'hay-6']
+[] 7
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : barn
+idx : 2009
+location : None
+num : the
+subtypes : []
+surface : barn
+type_failure : 0
+verbs : None
+widx : 10
+_____________
+
+['the-9', 'hay-7']
+[] 2008
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : barn
+idx : 3008
+location : None
+num : the
+subtypes : []
+surface : barn
+type_failure : 0
+verbs : None
+widx : 9
+_____________
+
+['the-8', 'store-6']
+[] 3007
+3 1
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : barn
+contains : None
+entity : bale
+idx : 2
+location : None
+num : 28
+subtypes : []
+surface : bales
+type_failure : 0
+verbs : None
+widx : 4
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : barn
+contains : None
+entity : bale
+idx : 1003
+location : None
+num : x
+subtypes : []
+surface : bales
+type_failure : 0
+verbs : store
+widx : 3
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : barn
+contains : None
+entity : bale
+idx : 2003
+location : None
+num : 54
+subtypes : []
+surface : bales
+type_failure : 0
+verbs : None
+widx : 5
+_____________
+
+
+ Top scoring 3 equations: 
+0.33623494257606096 28 = x + 54
+0.239111158941502 28 = x - 54
+0.2184421441745564 28 + x = 54
+top 3 globally adjusted:
+score :  0.5721971297767545
+eq :  28 = x - 54
+guess :  82
+score :  0.49070876035422456
+eq :  28 = x / 54
+guess :  1512
+score :  0.2882062342277071
+eq :  28 * x = 54
+guess :  27/14
+
+INCORRECT
+Guessed Equation :  28 = x - 54
+Guess :  82 
+True Answer : 26.0 
+
+
+6
+ 58 children are taking a bus to the zoo . they sit 2 children in every seat . how many seats will the children need in all ? 
+children 58
+bus a
+zoo the
+children 2
+seat every
+children the
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : zoo
+idx : 8
+location : None
+num : the
+subtypes : []
+surface : zoo
+type_failure : 0
+verbs : None
+widx : 9
+_____________
+
+['the-8', 'taking-4']
+[] 7
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : seat
+idx : 1006
+location : None
+num : every
+subtypes : []
+surface : seat
+type_failure : 0
+verbs : None
+widx : 7
+_____________
+
+['every-6', 'children-4']
+[(1002, <makesets.aset object at 0x110103630>)] 1005
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : child
+idx : 2005
+location : None
+num : the
+subtypes : []
+surface : children
+type_failure : 0
+verbs : None
+widx : 6
+_____________
+
+['the-5', 'need-7']
+[] 2004
+3 2
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : zoo
+contains : None
+entity : child
+idx : 0
+location : None
+num : 58
+subtypes : []
+surface : children
+type_failure : 0
+verbs : None
+widx : 2
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : seat
+contains : None
+entity : child
+idx : 1002
+location : seat
+num : 2
+subtypes : []
+surface : children
+type_failure : 0
+verbs : sit
+widx : 4
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : child
+contains : None
+entity : seat
+idx : 1005
+location : None
+num : x
+subtypes : []
+surface : seats
+type_failure : 0
+verbs : need
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.377975562902322 58 = 2 * x
+0.2069695416220714 58 + 2 = x
+0.16914542670849897 58 = 2 - x
+top 3 globally adjusted:
+score :  0.5
+eq :  58 * 2 = x
+guess :  116
+score :  0.43250031327010535
+eq :  58 = 2 * x
+guess :  29
+score :  0.2972467362653437
+eq :  58 - 2 = x
+guess :  56
+
+CORRECT
+Guessed Equation :  58 = 2 * x
+Guess :  29 
+True Answer : 29.0 
+
+
+7
+ ellen went to a garage sale to buy chairs . each chair is 15 dollars . how much did ellen spend for the 12 chairs she bought ? 
+sale a
+chair each
+dollars 15
+chairs the
+chairs 12
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : chair
+idx : 1001
+location : None
+num : each
+subtypes : []
+surface : chair
+type_failure : 0
+verbs : None
+widx : 2
+_____________
+
+['each-1', 'dollars-5']
+[(1003, <makesets.aset object at 0x113367470>)] 1000
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : chair
+idx : 2008
+location : None
+num : the
+subtypes : []
+surface : chairs
+type_failure : 0
+verbs : None
+widx : 9
+_____________
+
+['the-7', '12-8', 'bought-11', 'spend-5']
+[] 2006
+3 2
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : chair
+idx : 1000
+location : None
+num : 12
+subtypes : []
+surface : chair
+type_failure : 0
+verbs : is
+widx : 2
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : chair
+contains : None
+entity : dollar
+idx : 1003
+location : None
+num : 15
+subtypes : []
+surface : dollars
+type_failure : 0
+verbs : None
+widx : 5
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 2011
+location : None
+num : x
+subtypes : []
+surface : dollar
+type_failure : 0
+verbs : did spend bought
+widx : 12
+_____________
+
+
+ Top scoring 3 equations: 
+0.46096800971597696 12 = 15 + x
+0.17127248780682278 12 * 15 = x
+0.12009519321396583 12 = 15 - x
+top 3 globally adjusted:
+score :  0.6201559480662301
+eq :  12 * 15 = x
+guess :  180
+score :  0.18325538521295417
+eq :  12 = 15 - x
+guess :  3
+score :  0.06750285441021296
+eq :  12 = 15 * x
+guess :  4/5
+
+CORRECT
+Guessed Equation :  12 * 15 = x
+Guess :  180 
+True Answer : 180.0 
+
+
+8
+ there are 7 crayons in the drawer . mary took 3 crayons out of the drawer . how many crayons are there now  ? 
+crayons 7
+drawer the
+crayons 3
+drawer the
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : drawer
+idx : 6
+location : None
+num : the
+subtypes : []
+surface : drawer
+type_failure : 0
+verbs : None
+widx : 7
+_____________
+
+['the-6', 'crayons-4']
+[(2, <makesets.aset object at 0x11361a828>), (1002, <makesets.aset object at 0x11361a208>)] 5
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : drawer
+idx : 1007
+location : None
+num : the
+subtypes : []
+surface : drawer
+type_failure : 0
+verbs : None
+widx : 8
+_____________
+
+['the-7', 'took-2']
+[] 1006
+3 2
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : crayon
+idx : 2
+location : drawer
+num : 7
+subtypes : []
+surface : crayons
+type_failure : 0
+verbs : are
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : drawer
+contains : None
+entity : crayon
+idx : 1002
+location : None
+num : 3
+subtypes : []
+surface : crayons
+type_failure : 0
+verbs : None
+widx : 4
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : crayon
+idx : 2002
+location : None
+num : x
+subtypes : []
+surface : crayons
+type_failure : 0
+verbs : are
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.3371331558546358 7 = 3 - x
+0.25803879355314274 7 = 3 + x
+0.15885479089534346 7 + 3 = x
+top 3 globally adjusted:
+score :  0.7676102139730977
+eq :  7 * 3 = x
+guess :  21
+score :  0.5786700351599453
+eq :  7 - 3 = x
+guess :  4
+score :  0.3691194456380506
+eq :  7 = 3 + x
+guess :  4
+
+CORRECT
+Guessed Equation :  7 = 3 + x
+Guess :  4 
+True Answer : 4.0 
+
+
+3 9

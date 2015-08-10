@@ -1,0 +1,1223 @@
+0
+ jonathan wants to buy a dictionary that costs $11 , a dinosaur book that costs $19 , and a children's cookbook that costs $7 . he has saved $8 from his allowance . how much more money does jonathan need to buy all three books ? 
+dictionary a
+$ 11
+book a
+$ 19
+children a
+$ 7
+$ 8
+books 3
+6 5
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : book
+contains : None
+entity : dollar
+idx : 9
+location : None
+num : 11
+subtypes : []
+surface : $
+type_failure : 0
+verbs : costs
+widx : 9
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : book
+idx : 11
+location : None
+num : 3
+subtypes : []
+surface : book
+type_failure : 0
+verbs : wants buy costs costs
+widx : 14
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : child
+contains : None
+entity : dollar
+idx : 17
+location : None
+num : 19
+subtypes : []
+surface : $
+type_failure : 0
+verbs : costs
+widx : 17
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 27
+location : None
+num : 7
+subtypes : []
+surface : $
+type_failure : 0
+verbs : wants buy costs costs
+widx : 27
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : he
+contains : None
+entity : dollar
+idx : 1004
+location : None
+num : 8
+subtypes : []
+surface : $
+type_failure : 0
+verbs : saved
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 2012
+location : None
+num : x
+subtypes : []
+surface : dollar
+type_failure : 0
+verbs : does need buy
+widx : 13
+_____________
+
+
+ Top scoring 3 equations: 
+0.7025462438333141 11 * 3 = ( ( 19 + 7 ) + 8 ) + x
+0.7001327348837896 ( 11 * 3 ) + ( 19 + 7 ) = 8 + x
+0.7001327348837896 ( 11 * 3 ) + ( 19 + 7 ) = 8 + x
+top 3 globally adjusted:
+score :  0.44151658444799063
+eq :  11 + ( 3 + 19 ) = 7 + ( 8 + x )
+guess :  18
+score :  0.4401734710594272
+eq :  11 + ( 3 + 19 ) = ( 7 + 8 ) + x
+guess :  18
+score :  0.4278722816529903
+eq :  ( 11 + 3 ) + 19 = 7 + ( 8 + x )
+guess :  18
+
+INCORRECT
+Guessed Equation :  11 + ( 3 + 19 ) = ( 7 + 8 ) + x
+Guess :  18 
+True Answer : 29.0 
+
+
+1
+ mika had 20 stickers . she bought 26 stickers from a store in the mall and got 20 stickers for her birthday . then mika gave 6 of the stickers to her sister and used 58 to decorate a greeting card . how many stickers does mika have left ? 
+stickers 20
+stickers 26
+store a
+mall the
+stickers 20
+stickers the
+card a
+stickers 6
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : mall
+idx : 1009
+location : None
+num : the
+subtypes : []
+surface : mall
+type_failure : 0
+verbs : None
+widx : 10
+_____________
+
+['the-9', 'store-7']
+[] 1008
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : sticker
+idx : 2006
+location : None
+num : the
+subtypes : []
+surface : stickers
+type_failure : 0
+verbs : None
+widx : 7
+_____________
+
+['the-6', '6-4']
+[] 2005
+6 5
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : mika
+contains : None
+entity : sticker
+idx : 2
+location : None
+num : 20
+subtypes : []
+surface : stickers
+type_failure : 0
+verbs : had
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : store
+contains : None
+entity : sticker
+idx : 1002
+location : None
+num : 26
+subtypes : []
+surface : stickers
+type_failure : 0
+verbs : bought
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : mall
+contains : None
+entity : sticker
+idx : 1012
+location : None
+num : 20
+subtypes : []
+surface : stickers
+type_failure : 0
+verbs : got
+widx : 14
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : sticker
+idx : 2003
+location : None
+num : 6
+subtypes : []
+surface : stickers
+type_failure : 0
+verbs : gave used decorate greeting
+widx : 7
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : card
+contains : None
+entity : sticker
+idx : 2012
+location : None
+num : 58
+subtypes : []
+surface : stickers
+type_failure : 0
+verbs : None
+widx : None
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : mika
+contains : None
+entity : sticker
+idx : 3002
+location : None
+num : x
+subtypes : []
+surface : stickers
+type_failure : 0
+verbs : left
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.5579958002764916 ( ( 20 + 26 ) + 20 ) + 6 = 58 + x
+0.5511658920513689 ( 20 + ( 26 + 20 ) ) + 6 = 58 + x
+0.5483640898707716 ( 20 + 26 ) + 20 = ( 6 + 58 ) + x
+Integer problem
+Integer problem
+top 3 globally adjusted:
+score :  0.4532516695761584
+eq :  ( 20 + 26 ) + 20 = ( 6 + 58 ) + x
+guess :  2
+score :  0.45267107909842474
+eq :  ( 20 + 26 ) + 20 = 6 + ( 58 + x )
+guess :  2
+score :  0.4519875918851639
+eq :  ( 20 + 26 ) + 20 = 6 / ( 58 / x )
+guess :  638
+
+CORRECT
+Guessed Equation :  ( 20 + 26 ) + 20 = ( 6 + 58 ) + x
+Guess :  2 
+True Answer : 2.0 
+
+
+2
+ carrie's mom gave her $91 to go shopping . she bought a sweater for $24 , a t-shirt for $6 , and a pair of shoes for $11 . how much money does carrie have left ? 
+$ 91
+sweater a
+$ 24
+t-shirt a
+$ 6
+pair a
+$ 11
+5 4
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : mom
+contains : None
+entity : dollar
+idx : 6
+location : None
+num : 91
+subtypes : []
+surface : $
+type_failure : 0
+verbs : gave
+widx : 6
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : t-shirt
+contains : None
+entity : dollar
+idx : 1006
+location : None
+num : 24
+subtypes : []
+surface : $
+type_failure : 0
+verbs : None
+widx : 6
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : pair
+contains : None
+entity : dollar
+idx : 1012
+location : None
+num : 6
+subtypes : []
+surface : $
+type_failure : 0
+verbs : None
+widx : 12
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 1021
+location : None
+num : 11
+subtypes : []
+surface : $
+type_failure : 0
+verbs : bought
+widx : 21
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 2007
+location : None
+num : x
+subtypes : []
+surface : dollar
+type_failure : 0
+verbs : does have left
+widx : 8
+_____________
+
+
+ Top scoring 3 equations: 
+0.5874767634175457 91 + 24 = ( 6 + 11 ) + x
+0.568335710830114 ( 91 + 24 ) + 6 = 11 + x
+0.5565414579661098 91 + ( 24 + 6 ) = 11 + x
+top 3 globally adjusted:
+score :  0.6083485033986085
+eq :  ( 91 + 24 ) - ( 6 * 11 ) = x
+guess :  49
+score :  0.5863601718710333
+eq :  ( 91 + 24 ) - ( 6 * 11 ) = x
+guess :  49
+score :  0.5722229616653508
+eq :  ( ( 91 + 24 ) - 6 ) * 11 = x
+guess :  1199
+
+INCORRECT
+Guessed Equation :  91 + 24 = ( 6 + 11 ) + x
+Guess :  98 
+True Answer : 50.0 
+
+
+3
+ justin needs 61 paper plates for a birthday party . he already has 26 blue plates and 7 red plates . how many more plates should justin buy ? 
+plates 61
+party a
+plates 26
+plates 7
+4 3
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : party
+contains : None
+entity : plate
+idx : 2
+location : None
+num : 61
+subtypes : []
+surface : plates
+type_failure : 0
+verbs : needs
+widx : 5
+_____________
+
+_____________
+adjs : blue
+compound : 0
+container : he
+contains : None
+entity : plate
+idx : 1003
+location : None
+num : 26
+subtypes : []
+surface : plates
+type_failure : 0
+verbs : has
+widx : 6
+_____________
+
+_____________
+adjs : red
+compound : 0
+container : None
+contains : None
+entity : plate
+idx : 1007
+location : None
+num : 7
+subtypes : []
+surface : plates
+type_failure : 0
+verbs : has
+widx : 10
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : NONE
+idx : 2005
+location : None
+num : x
+subtypes : []
+surface : NONE
+type_failure : 0
+verbs : justin buy
+widx : None
+_____________
+
+
+ Top scoring 3 equations: 
+0.46221436429609514 61 + 26 = 7 + x
+0.39504730967939916 61 + 26 = 7 - x
+0.3885792155082638 61 = ( 26 + 7 ) + x
+top 3 globally adjusted:
+score :  0.5259389004299359
+eq :  61 = ( 26 * 7 ) - x
+guess :  121
+score :  0.42420299025807756
+eq :  ( 61 - 26 ) * 7 = x
+guess :  245
+score :  0.38062114617607673
+eq :  ( 61 * 26 ) - 7 = x
+guess :  1579
+
+INCORRECT
+Guessed Equation :  61 = 26 - ( 7 - x )
+Guess :  42 
+True Answer : 28.0 
+
+
+4
+ johnny saved $30 in september . he saved $49 in october and $46 in november . then johnny spent $58 on a video game . how much money does johnny have left ? 
+$ 30
+$ 49
+$ 46
+$ 58
+game a
+5 4
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : johnny
+contains : None
+entity : dollar
+idx : 3
+location : september
+num : 30
+subtypes : []
+surface : $
+type_failure : 0
+verbs : saved
+widx : 3
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : he
+contains : None
+entity : dollar
+idx : 1003
+location : None
+num : 49
+subtypes : []
+surface : $
+type_failure : 0
+verbs : saved
+widx : 3
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 1008
+location : None
+num : 46
+subtypes : []
+surface : $
+type_failure : 0
+verbs : saved
+widx : 8
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : game
+contains : None
+entity : dollar
+idx : 2004
+location : None
+num : 58
+subtypes : []
+surface : $
+type_failure : 0
+verbs : spent
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 3007
+location : None
+num : x
+subtypes : []
+surface : dollar
+type_failure : 0
+verbs : does have left
+widx : 8
+_____________
+
+
+ Top scoring 3 equations: 
+0.6488336445840193 ( 30 + 49 ) + 46 = 58 + x
+0.6399614196272622 30 + ( 49 + 46 ) = 58 + x
+0.5908261537954567 30 + 49 = ( 46 + 58 ) + x
+top 3 globally adjusted:
+score :  0.6283953256252303
+eq :  ( ( 30 + 49 ) - 46 ) * 58 = x
+guess :  1914
+score :  0.6099525582785377
+eq :  ( 30 + ( 49 - 46 ) ) * 58 = x
+guess :  1914
+score :  0.5737309189883465
+eq :  30 + ( ( 49 - 46 ) * 58 ) = x
+guess :  204
+
+CORRECT
+Guessed Equation :  ( 30 + 49 ) + 46 = 58 + x
+Guess :  67 
+True Answer : 67.0 
+
+
+5
+ there are 8 calories in a candy bar . how many calories are there in 3 candy bars  ? 
+calories 8
+bar a
+bars 3
+3 2
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : bar
+contains : None
+entity : calorie
+idx : 2
+location : bar
+num : 8
+subtypes : []
+surface : calories
+type_failure : 0
+verbs : None
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : bar
+idx : 5
+location : None
+num : 3
+subtypes : []
+surface : bar
+type_failure : 0
+verbs : are
+widx : 8
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : calorie
+idx : 1002
+location : None
+num : x
+subtypes : []
+surface : calories
+type_failure : 0
+verbs : are
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.27660494831302646 8 * 3 = x
+0.24939528793284435 8 = 3 * x
+0.19205250127316428 8 = 3 + x
+top 3 globally adjusted:
+score :  0.4474656287358932
+eq :  8 * 3 = x
+guess :  24
+score :  0.29800702097806636
+eq :  8 - 3 = x
+guess :  5
+score :  0.2968870198315007
+eq :  8 = 3 + x
+guess :  5
+
+CORRECT
+Guessed Equation :  8 * 3 = x
+Guess :  24 
+True Answer : 24.0 
+
+
+6
+ benny bought a soft drink for 2 dollars and 5 candy bars . he spent a total of 27 dollars . how much did each candy bar cost  ? 
+drink a
+dollars 2
+bars 5
+total a
+dollars 27
+cost each
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : bar
+idx : 2004
+location : None
+num : each
+subtypes : []
+surface : bar
+type_failure : 0
+verbs : None
+widx : 5
+_____________
+
+['candy-5', 'cost-7']
+[] 2003
+4 2
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 6
+location : None
+num : 2
+subtypes : []
+surface : dollars
+type_failure : 0
+verbs : bought
+widx : 8
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : dollar
+entity : bar
+idx : 9
+location : None
+num : 5
+subtypes : []
+surface : bars
+type_failure : 0
+verbs : bought
+widx : 12
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : bar
+contains : None
+entity : dollar
+idx : 10
+location : None
+num : x
+subtypes : []
+surface : dollar
+type_failure : 0
+verbs : None
+widx : 8
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 1005
+location : None
+num : 27
+subtypes : []
+surface : dollars
+type_failure : 0
+verbs : spent
+widx : 7
+_____________
+
+
+ Top scoring 3 equations: 
+0.6746245288364642 2 * 5 = x + 27
+0.5666018867879189 2 = 5 * ( x + 27 )
+0.5216367501063214 2 = ( 5 * x ) + 27
+top 3 globally adjusted:
+score :  0.4156682674499273
+eq :  2 + ( 5 * x ) = 27
+guess :  5
+score :  0.40851784804601393
+eq :  2 = 5 + ( x - 27 )
+guess :  24
+score :  0.3611973688604547
+eq :  ( 2 * 5 ) + x = 27
+guess :  17
+
+CORRECT
+Guessed Equation :  2 + ( 5 * x ) = 27
+Guess :  5 
+True Answer : 5.0 
+
+
+7
+ on monday , 375 students went on a trip to the zoo . all 7 buses were filled and 4 students had to travel in cars . how many students were in each bus  ? 
+students 375
+trip a
+zoo the
+buses all
+buses 7
+students 4
+bus each
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : zoo
+idx : 11
+location : None
+num : the
+subtypes : []
+surface : zoo
+type_failure : 0
+verbs : None
+widx : 12
+_____________
+
+['the-11', 'went-6']
+[] 10
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : bus
+idx : 2006
+location : None
+num : each
+subtypes : []
+surface : bus
+type_failure : 0
+verbs : None
+widx : 7
+_____________
+
+['each-6', 'were-4']
+[] 2005
+4 3
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : zoo
+contains : None
+entity : student
+idx : 3
+location : None
+num : 375
+subtypes : []
+surface : students
+type_failure : 0
+verbs : None
+widx : 5
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : student
+entity : bus
+idx : 1001
+location : None
+num : 7
+subtypes : []
+surface : buses
+type_failure : 0
+verbs : were filled had travel
+widx : 3
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : student
+idx : 1006
+location : None
+num : 4
+subtypes : []
+surface : students
+type_failure : 0
+verbs : were filled had travel
+widx : 8
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : bus
+contains : None
+entity : student
+idx : 2002
+location : None
+num : x
+subtypes : []
+surface : students
+type_failure : 0
+verbs : None
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.6843539940165071 375 * 7 = 4 + x
+0.5500756654067844 375 = 7 * ( 4 + x )
+0.4734605867197142 375 + 7 = 4 + x
+top 3 globally adjusted:
+score :  0.6587715934284105
+eq :  375 - ( 7 * 4 ) = x
+guess :  347
+score :  0.6407160286034341
+eq :  ( 375 - 7 ) * 4 = x
+guess :  1472
+score :  0.5564672147367284
+eq :  375 * ( 7 * 4 ) = x
+guess :  10500
+
+INCORRECT
+Guessed Equation :  375 = ( 7 * 4 ) + x
+Guess :  347 
+True Answer : 53.0 
+
+
+8
+ zach wants to ride the ferris wheel , the roller coaster , and the log ride . the ferris wheel costs 2 tickets , the roller coaster costs 7 tickets and the log ride costs 1 ticket . zach has 1 ticket . how many more tickets should zach buy ? 
+wheel the
+coaster the
+ride the
+costs the
+tickets 2
+costs the
+tickets 7
+log the
+ticket 1
+ticket 1
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : cost
+idx : 1003
+location : None
+num : the
+subtypes : []
+surface : costs
+type_failure : 0
+verbs : None
+widx : 4
+_____________
+
+['the-1', 'ferris-2', 'wheel-3', 'tickets-6', 'the-8', 'roller-9', 'coaster-10', 'tickets-13', 'ride-17', 'costs-18', 'ticket-20', 'ROOT-0', 'tickets-6', 'costs-4']
+[(1004, <makesets.aset object at 0x10e5955f8>), (1011, <makesets.aset object at 0x10e595c88>), (1018, <makesets.aset object at 0x10e595470>)] 1000
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : cost
+idx : 1010
+location : None
+num : the
+subtypes : []
+surface : costs
+type_failure : 0
+verbs : None
+widx : 11
+_____________
+
+['the-1', 'ferris-2', 'wheel-3', 'tickets-6', 'the-8', 'roller-9', 'coaster-10', 'tickets-13', 'ride-17', 'costs-18', 'ticket-20', 'ROOT-0', 'tickets-6', 'costs-4']
+[(1004, <makesets.aset object at 0x10e5955f8>), (1011, <makesets.aset object at 0x10e595c88>), (1018, <makesets.aset object at 0x10e595470>)] 1007
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : log
+idx : 1015
+location : None
+num : the
+subtypes : []
+surface : log
+type_failure : 0
+verbs : None
+widx : 16
+_____________
+
+['the-15', 'tickets-13']
+[(1011, <makesets.aset object at 0x10e595c88>)] 1014
+_____________
+adjs : None
+compound : 0
+container : cost
+contains : None
+entity : ticket
+idx : 1019
+location : None
+num : 1
+subtypes : []
+surface : ticket
+type_failure : 0
+verbs : None
+widx : 20
+_____________
+
+['2-5', 'costs-11', '7-12', 'log-16', '1-19', 'costs-4', 'costs-4', 'costs-18']
+[] 1018
+5 4
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : ticket
+idx : 1004
+location : None
+num : 2
+subtypes : []
+surface : tickets
+type_failure : 0
+verbs : 
+widx : 6
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : cost
+contains : ticket
+entity : ticket
+idx : 1018
+location : None
+num : 1
+subtypes : []
+surface : ticket
+type_failure : 0
+verbs : None
+widx : 20
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : ticket
+contains : None
+entity : ticket
+idx : 1019
+location : None
+num : 7
+subtypes : []
+surface : tickets
+type_failure : 0
+verbs : None
+widx : 13
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : zach
+contains : None
+entity : ticket
+idx : 2002
+location : None
+num : 1
+subtypes : []
+surface : ticket
+type_failure : 0
+verbs : has
+widx : 4
+_____________
+
+_____________
+adjs : more
+compound : 0
+container : None
+contains : None
+entity : ticket
+idx : 3003
+location : None
+num : x
+subtypes : []
+surface : tickets
+type_failure : 0
+verbs : zach buy
+widx : 4
+_____________
+
+
+ Top scoring 3 equations: 
+0.6329431266493463 ( 2 + 1 ) - 7 = 1 + x
+0.6224274317773516 2 + 1 = ( 7 + 1 ) + x
+0.6084911006712626 ( 2 + 1 ) + 7 = 1 + x
+top 3 globally adjusted:
+score :  0.548431729670031
+eq :  ( 2 + 1 ) + ( 7 * 1 ) = x
+guess :  10
+score :  0.533080688182371
+eq :  ( 2 + 1 ) + ( 7 * 1 ) = x
+guess :  10
+score :  0.5292828411135941
+eq :  ( 2 + 1 ) + ( 7 - 1 ) = x
+guess :  9
+
+INCORRECT
+Guessed Equation :  2 + 1 = 7 - ( 1 + x )
+Guess :  3 
+True Answer : 9.0 
+
+
+9
+ randy needs 53 cupcakes for a birthday party . he already has 7 chocolate cupcakes and 19 vanilla cupcakes . how many more cupcakes should randy buy ? 
+cupcakes 53
+party a
+cupcakes 7
+vanilla 19
+4 3
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : party
+contains : None
+entity : cupcake
+idx : 2
+location : None
+num : 53
+subtypes : []
+surface : cupcakes
+type_failure : 0
+verbs : needs
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : he
+contains : None
+entity : cupcake
+idx : 1003
+location : None
+num : 7
+subtypes : []
+surface : cupcakes
+type_failure : 0
+verbs : has
+widx : 6
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : vanilla
+idx : 1007
+location : None
+num : 19
+subtypes : []
+surface : vanilla
+type_failure : 0
+verbs : has
+widx : 9
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : NONE
+idx : 2005
+location : None
+num : x
+subtypes : []
+surface : NONE
+type_failure : 0
+verbs : randy buy
+widx : None
+_____________
+
+
+ Top scoring 3 equations: 
+0.5279036600235859 53 + 7 = 19 + x
+0.47429387531034073 53 + 7 = 19 * x
+0.4081966463413817 53 = ( 7 + 19 ) + x
+top 3 globally adjusted:
+score :  0.4792486386658403
+eq :  ( 53 - 7 ) * 19 = x
+guess :  874
+score :  0.46376397257297763
+eq :  ( 53 * 7 ) - 19 = x
+guess :  352
+score :  0.38640879678703066
+eq :  53 = 7 - ( 19 - x )
+guess :  65
+
+INCORRECT
+Guessed Equation :  53 = ( 7 + 19 ) + x
+Guess :  27 
+True Answer : 32.0 
+
+
+4 10

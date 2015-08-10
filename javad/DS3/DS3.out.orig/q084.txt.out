@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 52 | 26 | (39-13)=x | 39 13 - x = | 39:scissors 13:scissors -:scissors x:scissors =:scissors
+EXPR: 1 | POS | INT | 0 | 52 | 52 | x=(39+13) | x 39 13 + = | x:scissors 39:scissors 13:scissors +:scissors =:scissors
+EXPR: 0 | POS | INT | 0 | 52 | 26 | x=(39-13) | x 39 13 - = | x:scissors 39:scissors 13:scissors -:scissors =:scissors
+EXPR: 1 | POS | INT | 0 | 52 | 52 | (39+13)=x | 39 13 + x = | 39:scissors 13:scissors +:scissors x:scissors =:scissors
+EXPR: 0 | POS | INT | 2 | 52 | 26 | 39=(13+x) | 39 13 x + = | 39:scissors 13:scissors x:scissors +:scissors =:scissors
+EXPR: 0 | POS | INT | 2 | 52 | 26 | 39=(x+13) | 39 x 13 + = | 39:scissors x:scissors 13:scissors +:scissors =:scissors
+EXPR: 1 | POS | INT | 2 | 52 | 52 | 39=(x-13) | 39 x 13 - = | 39:scissors x:scissors 13:scissors -:scissors =:scissors
+EXPR: 0 | POS | INT | 2 | 52 | 26 | (39-x)=13 | 39 x - 13 = | 39:scissors x:scissors -:scissors 13:scissors =:scissors
+EXPR: 1 | POS | INT | 2 | 52 | 52 | (x-39)=13 | x 39 - 13 = | x:scissors 39:scissors -:scissors 13:scissors =:scissors
+EXPR: 1 | POS | INT | 4 | 52 | 52 | 13=(x-39) | 13 x 39 - = | 13:scissors x:scissors 39:scissors -:scissors =:scissors
+EXPR: 0 | POS | INT | 4 | 52 | 26 | (13+x)=39 | 13 x + 39 = | 13:scissors x:scissors +:scissors 39:scissors =:scissors
+EXPR: 1 | POS | INT | 4 | 52 | 52 | (x-13)=39 | x 13 - 39 = | x:scissors 13:scissors -:scissors 39:scissors =:scissors
+EXPR: 0 | POS | INT | 4 | 52 | 26 | (x+13)=39 | x 13 + 39 = | x:scissors 13:scissors +:scissors 39:scissors =:scissors
+EXPR: 0 | POS | INT | 4 | 52 | 26 | 13=(39-x) | 13 39 x - = | 13:scissors 39:scissors x:scissors -:scissors =:scissors
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

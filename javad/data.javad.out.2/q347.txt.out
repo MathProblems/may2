@@ -1,0 +1,6 @@
+parameters: n=9 l=4 k=1 p=5 q=3 m=10
+TOTAL 4 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 12 | 16 | 4 | ((x/(7-5))*4)=8 | x 7 5 - / 4 * 8 = | x:dogwood 7:tree 5:tree -:tree /:dogwood 4:tree *:dogwood 8:dogwood =:dogwood
+EXPR: 0 | POS | INT | 30 | 16 | 47 | x=(((7*5)+4)+8) | x 7 5 * 4 + 8 + = | x:worker 7:worker 5:tree *:worker 4:worker +:worker 8:worker +:worker =:worker
+NET 2 non-negative, integer-valued solutions found out of 4 total solutions

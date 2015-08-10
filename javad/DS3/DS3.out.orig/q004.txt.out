@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 60 | 60 | x=(18+42) | x 18 42 + = | x:book 18:book 42:book +:book =:book
+EXPR: 1 | POS | INT | 0 | 60 | 60 | (18+42)=x | 18 42 + x = | 18:book 42:book +:book x:book =:book
+EXPR: 0 | POS | INT | 2 | 60 | 24 | (x+18)=42 | x 18 + 42 = | x:book 18:book +:book 42:book =:book
+EXPR: 0 | POS | INT | 2 | 60 | 24 | 18=(42-x) | 18 42 x - = | 18:book 42:book x:book -:book =:book
+EXPR: 0 | POS | INT | 2 | 60 | 24 | x=(42-18) | x 42 18 - = | x:book 42:book 18:book -:book =:book
+EXPR: 0 | POS | INT | 2 | 60 | 24 | (42-18)=x | 42 18 - x = | 42:book 18:book -:book x:book =:book
+EXPR: 1 | POS | INT | 2 | 60 | 60 | 18=(x-42) | 18 x 42 - = | 18:book x:book 42:book -:book =:book
+EXPR: 0 | POS | INT | 2 | 60 | 24 | (18+x)=42 | 18 x + 42 = | 18:book x:book +:book 42:book =:book
+EXPR: 1 | POS | INT | 2 | 60 | 60 | (x-18)=42 | x 18 - 42 = | x:book 18:book -:book 42:book =:book
+EXPR: 1 | POS | INT | 4 | 60 | 60 | 42=(x-18) | 42 x 18 - = | 42:book x:book 18:book -:book =:book
+EXPR: 0 | POS | INT | 4 | 60 | 24 | (42-x)=18 | 42 x - 18 = | 42:book x:book -:book 18:book =:book
+EXPR: 1 | POS | INT | 4 | 60 | 60 | (x-42)=18 | x 42 - 18 = | x:book 42:book -:book 18:book =:book
+EXPR: 0 | POS | INT | 4 | 60 | 24 | 42=(18+x) | 42 18 x + = | 42:book 18:book x:book +:book =:book
+EXPR: 0 | POS | INT | 4 | 60 | 24 | 42=(x+18) | 42 x 18 + = | 42:book x:book 18:book +:book =:book
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

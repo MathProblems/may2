@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 56 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 37 | 1080 | x=(1110-30) | x 1110 30 - = | x:student 1110:student 30:student -:student =:student
+EXPR: 0 | POS | INT | 0 | 37 | 1140 | (1110+30)=x | 1110 30 + x = | 1110:student 30:student +:student x:student =:student
+EXPR: 1 | POS | INT | 0 | 37 | 37 | x=(1110/30) | x 1110 30 / = | x:student 1110:student 30:student /:student =:student
+EXPR: 1 | POS | INT | 0 | 37 | 37 | (1110/30)=x | 1110 30 / x = | 1110:student 30:student /:student x:student =:student
+EXPR: 0 | POS | INT | 0 | 37 | 33300 | (1110*30)=x | 1110 30 * x = | 1110:student 30:student *:student x:student =:student
+EXPR: 0 | POS | INT | 0 | 37 | 1080 | (1110-30)=x | 1110 30 - x = | 1110:student 30:student -:student x:student =:student
+EXPR: 0 | POS | INT | 0 | 37 | 1140 | x=(1110+30) | x 1110 30 + = | x:student 1110:student 30:student +:student =:student
+EXPR: 0 | POS | INT | 0 | 37 | 33300 | x=(1110*30) | x 1110 30 * = | x:student 1110:student 30:student *:student =:student
+EXPR: 0 | POS | INT | 2 | 37 | 1140 | 1110=(x-30) | 1110 x 30 - = | 1110:student x:student 30:student -:student =:student
+EXPR: 0 | POS | INT | 2 | 37 | 33300 | 1110=(x/30) | 1110 x 30 / = | 1110:student x:student 30:student /:student =:student
+EXPR: 1 | POS | INT | 2 | 37 | 37 | 1110=(30*x) | 1110 30 x * = | 1110:student 30:student x:student *:student =:student
+EXPR: 0 | POS | INT | 2 | 37 | 1080 | 1110=(x+30) | 1110 x 30 + = | 1110:student x:student 30:student +:student =:student
+EXPR: 1 | POS | INT | 2 | 37 | 37 | (1110/x)=30 | 1110 x / 30 = | 1110:student x:student /:student 30:student =:student
+EXPR: 0 | POS | INT | 2 | 37 | 1080 | 1110=(30+x) | 1110 30 x + = | 1110:student 30:student x:student +:student =:student
+EXPR: 0 | POS | INT | 2 | 37 | 1080 | (1110-x)=30 | 1110 x - 30 = | 1110:student x:student -:student 30:student =:student
+EXPR: 1 | POS | INT | 2 | 37 | 37 | 1110=(x*30) | 1110 x 30 * = | 1110:student x:student 30:student *:student =:student
+EXPR: 0 | POS | INT | 2 | 37 | 1140 | (x-1110)=30 | x 1110 - 30 = | x:student 1110:student -:student 30:student =:student
+EXPR: 0 | POS | INT | 2 | 37 | 33300 | (x/1110)=30 | x 1110 / 30 = | x:student 1110:student /:student 30:student =:student
+EXPR: 0 | POS | INT | 4 | 37 | 1140 | 30=(x-1110) | 30 x 1110 - = | 30:student x:student 1110:student -:student =:student
+EXPR: 1 | POS | INT | 4 | 37 | 37 | (30*x)=1110 | 30 x * 1110 = | 30:student x:student *:student 1110:student =:student
+EXPR: 0 | POS | INT | 4 | 37 | 1080 | (x+30)=1110 | x 30 + 1110 = | x:student 30:student +:student 1110:student =:student
+EXPR: 0 | POS | INT | 4 | 37 | 1080 | 30=(1110-x) | 30 1110 x - = | 30:student 1110:student x:student -:student =:student
+EXPR: 1 | POS | INT | 4 | 37 | 37 | 30=(1110/x) | 30 1110 x / = | 30:student 1110:student x:student /:student =:student
+EXPR: 0 | POS | INT | 4 | 37 | 33300 | 30=(x/1110) | 30 x 1110 / = | 30:student x:student 1110:student /:student =:student
+EXPR: 0 | POS | INT | 4 | 37 | 1080 | (30+x)=1110 | 30 x + 1110 = | 30:student x:student +:student 1110:student =:student
+EXPR: 1 | POS | INT | 4 | 37 | 37 | (x*30)=1110 | x 30 * 1110 = | x:student 30:student *:student 1110:student =:student
+EXPR: 0 | POS | INT | 4 | 37 | 33300 | (x/30)=1110 | x 30 / 1110 = | x:student 30:student /:student 1110:student =:student
+EXPR: 0 | POS | INT | 4 | 37 | 1140 | (x-30)=1110 | x 30 - 1110 = | x:student 30:student -:student 1110:student =:student
+NET 28 unique, non-negative, integer-valued solutions found out of 56 total solutions

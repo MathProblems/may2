@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 11 | 7 | (9-2)=x | 9 2 - x = | 9:dog 2:dog -:dog x:dog =:dog
+EXPR: 1 | POS | INT | 0 | 11 | 11 | x=(9+2) | x 9 2 + = | x:dog 9:dog 2:dog +:dog =:dog
+EXPR: 0 | POS | INT | 0 | 11 | 7 | x=(9-2) | x 9 2 - = | x:dog 9:dog 2:dog -:dog =:dog
+EXPR: 1 | POS | INT | 0 | 11 | 11 | (9+2)=x | 9 2 + x = | 9:dog 2:dog +:dog x:dog =:dog
+EXPR: 0 | POS | INT | 2 | 11 | 7 | 9=(2+x) | 9 2 x + = | 9:dog 2:dog x:dog +:dog =:dog
+EXPR: 0 | POS | INT | 2 | 11 | 7 | 9=(x+2) | 9 x 2 + = | 9:dog x:dog 2:dog +:dog =:dog
+EXPR: 1 | POS | INT | 2 | 11 | 11 | 9=(x-2) | 9 x 2 - = | 9:dog x:dog 2:dog -:dog =:dog
+EXPR: 0 | POS | INT | 2 | 11 | 7 | (9-x)=2 | 9 x - 2 = | 9:dog x:dog -:dog 2:dog =:dog
+EXPR: 1 | POS | INT | 2 | 11 | 11 | (x-9)=2 | x 9 - 2 = | x:dog 9:dog -:dog 2:dog =:dog
+EXPR: 1 | POS | INT | 4 | 11 | 11 | 2=(x-9) | 2 x 9 - = | 2:dog x:dog 9:dog -:dog =:dog
+EXPR: 0 | POS | INT | 4 | 11 | 7 | (2+x)=9 | 2 x + 9 = | 2:dog x:dog +:dog 9:dog =:dog
+EXPR: 1 | POS | INT | 4 | 11 | 11 | (x-2)=9 | x 2 - 9 = | x:dog 2:dog -:dog 9:dog =:dog
+EXPR: 0 | POS | INT | 4 | 11 | 7 | (x+2)=9 | x 2 + 9 = | x:dog 2:dog +:dog 9:dog =:dog
+EXPR: 0 | POS | INT | 4 | 11 | 7 | 2=(9-x) | 2 9 x - = | 2:dog 9:dog x:dog -:dog =:dog
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

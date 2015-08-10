@@ -1,0 +1,5 @@
+parameters: n=9 l=4 k=1 p=5 q=3 m=10
+TOTAL 2 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 20 | 74 | 222 | x=(2*((109+13)-11)) | x 2 109 13 + 11 - * = | x:money 2:money 109:dollar 13:dollar +:dollar 11:dollar -:dollar *:money =:money
+NET 1 non-negative, integer-valued solutions found out of 2 total solutions

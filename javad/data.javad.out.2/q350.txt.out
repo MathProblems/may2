@@ -1,0 +1,308 @@
+parameters: n=7 l=3 k=1 p=5 q=1 m=9
+TOTAL 408 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 18 | 14 | x=(7+(9-2)) | x 7 9 2 - + = | x:nickel 7:nickel 9:nickel 2:nickel -:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 0 | 18 |  | x=(7-(9-2)) | x 7 9 2 - - = | x:nickel 7:nickel 9:nickel 2:nickel -:nickel -:nickel =:nickel
+EXPR: 1 | POS | INT | 0 | 18 | 18 | x=(7+(9+2)) | x 7 9 2 + + = | x:nickel 7:nickel 9:nickel 2:nickel +:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 0 | 18 |  | x=((7-9)+2) | x 7 9 - 2 + = | x:nickel 7:nickel 9:nickel -:nickel 2:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 0 | 18 | 14 | x=((7+9)-2) | x 7 9 + 2 - = | x:nickel 7:nickel 9:nickel +:nickel 2:nickel -:nickel =:nickel
+EXPR: 1 | POS | INT | 0 | 18 | 18 | x=((7+9)+2) | x 7 9 + 2 + = | x:nickel 7:nickel 9:nickel +:nickel 2:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 1 | 18 | 14 | x=(7+(9-2)) | x 7 9 2 - + = | x:nickel 7:nickel 9:nickel 2:nickel -:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 1 | 18 |  | x=(7-(9-2)) | x 7 9 2 - - = | x:nickel 7:nickel 9:nickel 2:nickel -:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 1 | 18 |  | x=((7-9)+2) | x 7 9 - 2 + = | x:nickel 7:nickel 9:nickel -:nickel 2:nickel +:nickel =:nickel
+EXPR: 1 | POS | INT | 1 | 18 | 18 | x=(7+(9+2)) | x 7 9 2 + + = | x:nickel 7:nickel 9:nickel 2:nickel +:nickel +:nickel =:nickel
+EXPR: 1 | POS | INT | 1 | 18 | 18 | x=((7+9)+2) | x 7 9 + 2 + = | x:nickel 7:nickel 9:nickel +:nickel 2:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 1 | 18 | 14 | x=((7+9)-2) | x 7 9 + 2 - = | x:nickel 7:nickel 9:nickel +:nickel 2:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 2 | 18 |  | ((x-7)+9)=2 | x 7 - 9 + 2 = | x:nickel 7:nickel -:nickel 9:nickel +:nickel 2:nickel =:nickel
+EXPR: 0 | POS | INT | 2 | 18 | 4 | 7=(9-(x-2)) | 7 9 x 2 - - = | 7:nickel 9:nickel x:nickel 2:nickel -:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 2 | 18 |  | (x-(7-9))=2 | x 7 9 - - 2 = | x:nickel 7:nickel 9:nickel -:nickel -:nickel 2:nickel =:nickel
+EXPR: 1 | POS | INT | 2 | 18 | 18 | (x-(7+9))=2 | x 7 9 + - 2 = | x:nickel 7:nickel 9:nickel +:nickel -:nickel 2:nickel =:nickel
+EXPR: 0 | POS | INT | 2 | 18 | 4 | (x+(7-9))=2 | x 7 9 - + 2 = | x:nickel 7:nickel 9:nickel -:nickel +:nickel 2:nickel =:nickel
+EXPR: 0 | POS | INT | 2 | 18 | 4 | (7-(9-x))=2 | 7 9 x - - 2 = | 7:nickel 9:nickel x:nickel -:nickel -:nickel 2:nickel =:nickel
+EXPR: 0 | POS | INT | 2 | 18 | 14 | (7+(9-x))=2 | 7 9 x - + 2 = | 7:nickel 9:nickel x:nickel -:nickel +:nickel 2:nickel =:nickel
+EXPR: 0 | POS | INT | 2 | 18 | 4 | 7=(9+(2-x)) | 7 9 2 x - + = | 7:nickel 9:nickel 2:nickel x:nickel -:nickel +:nickel =:nickel
+EXPR: 1 | POS | INT | 2 | 18 | 18 | ((x-7)-9)=2 | x 7 - 9 - 2 = | x:nickel 7:nickel -:nickel 9:nickel -:nickel 2:nickel =:nickel
+EXPR: 0 | POS | INT | 2 | 18 | 14 | (7-(x-9))=2 | 7 x 9 - - 2 = | 7:nickel x:nickel 9:nickel -:nickel -:nickel 2:nickel =:nickel
+EXPR: 0 | POS | INT | 2 | 18 | 0 | 7=(9-(x+2)) | 7 9 x 2 + - = | 7:nickel 9:nickel x:nickel 2:nickel +:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 2 | 18 | 14 | ((7-x)+9)=2 | 7 x - 9 + 2 = | 7:nickel x:nickel -:nickel 9:nickel +:nickel 2:nickel =:nickel
+EXPR: 0 | POS | INT | 2 | 18 | 14 | 7=((x-9)+2) | 7 x 9 - 2 + = | 7:nickel x:nickel 9:nickel -:nickel 2:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 2 | 18 | 0 | 7=((x+9)-2) | 7 x 9 + 2 - = | 7:nickel x:nickel 9:nickel +:nickel 2:nickel -:nickel =:nickel
+EXPR: 1 | POS | INT | 2 | 18 | 18 | 7=((x-9)-2) | 7 x 9 - 2 - = | 7:nickel x:nickel 9:nickel -:nickel 2:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 2 | 18 | 0 | 7=(9-(2-x)) | 7 9 2 x - - = | 7:nickel 9:nickel 2:nickel x:nickel -:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 2 | 18 | 4 | ((7-9)+x)=2 | 7 9 - x + 2 = | 7:nickel 9:nickel -:nickel x:nickel +:nickel 2:nickel =:nickel
+EXPR: 0 | POS | INT | 2 | 18 | 0 | 7=(9-(2+x)) | 7 9 2 x + - = | 7:nickel 9:nickel 2:nickel x:nickel +:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 2 | 18 | 4 | ((7+x)-9)=2 | 7 x + 9 - 2 = | 7:nickel x:nickel +:nickel 9:nickel -:nickel 2:nickel =:nickel
+EXPR: 0 | POS | INT | 2 | 18 | 0 | 7=(x+(9-2)) | 7 x 9 2 - + = | 7:nickel x:nickel 9:nickel 2:nickel -:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 2 | 18 | 14 | 7=(x-(9-2)) | 7 x 9 2 - - = | 7:nickel x:nickel 9:nickel 2:nickel -:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 2 | 18 | 4 | (7+(x-9))=2 | 7 x 9 - + 2 = | 7:nickel x:nickel 9:nickel -:nickel +:nickel 2:nickel =:nickel
+EXPR: 1 | POS | INT | 2 | 18 | 18 | 7=(x-(9+2)) | 7 x 9 2 + - = | 7:nickel x:nickel 9:nickel 2:nickel +:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 2 | 18 | 4 | 7=((9-x)+2) | 7 9 x - 2 + = | 7:nickel 9:nickel x:nickel -:nickel 2:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 2 | 18 | 0 | 7=(9+(x-2)) | 7 9 x 2 - + = | 7:nickel 9:nickel x:nickel 2:nickel -:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 2 | 18 | 4 | ((x+7)-9)=2 | x 7 + 9 - 2 = | x:nickel 7:nickel +:nickel 9:nickel -:nickel 2:nickel =:nickel
+EXPR: 0 | POS | INT | 2 | 18 | 0 | 7=((9+x)-2) | 7 9 x + 2 - = | 7:nickel 9:nickel x:nickel +:nickel 2:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 2 | 18 | 0 | 7=((9-x)-2) | 7 9 x - 2 - = | 7:nickel 9:nickel x:nickel -:nickel 2:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 2 | 18 | 14 | ((7+9)-x)=2 | 7 9 + x - 2 = | 7:nickel 9:nickel +:nickel x:nickel -:nickel 2:nickel =:nickel
+EXPR: 0 | POS | INT | 2 | 18 | 0 | 7=((9-2)+x) | 7 9 2 - x + = | 7:nickel 9:nickel 2:nickel -:nickel x:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 2 | 18 | 4 | 7=((9+2)-x) | 7 9 2 + x - = | 7:nickel 9:nickel 2:nickel +:nickel x:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 2 | 18 | 0 | 7=((9-2)-x) | 7 9 2 - x - = | 7:nickel 9:nickel 2:nickel -:nickel x:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 10 | 18 | 14 | x=(9+(7-2)) | x 9 7 2 - + = | x:nickel 9:nickel 7:nickel 2:nickel -:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 10 | 18 |  | x=((7+2)-9) | x 7 2 + 9 - = | x:nickel 7:nickel 2:nickel +:nickel 9:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 10 | 18 | 4 | x=((9-7)+2) | x 9 7 - 2 + = | x:nickel 9:nickel 7:nickel -:nickel 2:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 10 | 18 |  | x=((9-7)-2) | x 9 7 - 2 - = | x:nickel 9:nickel 7:nickel -:nickel 2:nickel -:nickel =:nickel
+EXPR: 1 | POS | INT | 10 | 18 | 18 | x=((7+2)+9) | x 7 2 + 9 + = | x:nickel 7:nickel 2:nickel +:nickel 9:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 10 | 18 |  | x=(9-(7+2)) | x 9 7 2 + - = | x:nickel 9:nickel 7:nickel 2:nickel +:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 10 | 18 | 14 | x=(7-(2-9)) | x 7 2 9 - - = | x:nickel 7:nickel 2:nickel 9:nickel -:nickel -:nickel =:nickel
+EXPR: 1 | POS | INT | 10 | 18 | 18 | x=(9+(7+2)) | x 9 7 2 + + = | x:nickel 9:nickel 7:nickel 2:nickel +:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 10 | 18 |  | x=(7+(2-9)) | x 7 2 9 - + = | x:nickel 7:nickel 2:nickel 9:nickel -:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 10 | 18 | 14 | x=((7-2)+9) | x 7 2 - 9 + = | x:nickel 7:nickel 2:nickel -:nickel 9:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 10 | 18 | 4 | x=(9-(7-2)) | x 9 7 2 - - = | x:nickel 9:nickel 7:nickel 2:nickel -:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 11 | 18 | 4 | x=(9-(7-2)) | x 9 7 2 - - = | x:nickel 9:nickel 7:nickel 2:nickel -:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 11 | 18 | 14 | x=(9+(7-2)) | x 9 7 2 - + = | x:nickel 9:nickel 7:nickel 2:nickel -:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 11 | 18 |  | x=((7+2)-9) | x 7 2 + 9 - = | x:nickel 7:nickel 2:nickel +:nickel 9:nickel -:nickel =:nickel
+EXPR: 1 | POS | INT | 11 | 18 | 18 | x=((7+2)+9) | x 7 2 + 9 + = | x:nickel 7:nickel 2:nickel +:nickel 9:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 11 | 18 |  | x=((9-7)-2) | x 9 7 - 2 - = | x:nickel 9:nickel 7:nickel -:nickel 2:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 11 | 18 | 4 | x=((9-7)+2) | x 9 7 - 2 + = | x:nickel 9:nickel 7:nickel -:nickel 2:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 11 | 18 | 14 | x=(7-(2-9)) | x 7 2 9 - - = | x:nickel 7:nickel 2:nickel 9:nickel -:nickel -:nickel =:nickel
+EXPR: 1 | POS | INT | 11 | 18 | 18 | x=(9+(7+2)) | x 9 7 2 + + = | x:nickel 9:nickel 7:nickel 2:nickel +:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 11 | 18 |  | x=(7+(2-9)) | x 7 2 9 - + = | x:nickel 7:nickel 2:nickel 9:nickel -:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 11 | 18 | 14 | x=((7-2)+9) | x 7 2 - 9 + = | x:nickel 7:nickel 2:nickel -:nickel 9:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 11 | 18 |  | x=(9-(7+2)) | x 9 7 2 + - = | x:nickel 9:nickel 7:nickel 2:nickel +:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 | 0 | 9=((7-x)+2) | 9 7 x - 2 + = | 9:nickel 7:nickel x:nickel -:nickel 2:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 | 4 | 9=((7+x)-2) | 9 7 x + 2 - = | 9:nickel 7:nickel x:nickel +:nickel 2:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 | 4 | ((x-9)+7)=2 | x 9 - 7 + 2 = | x:nickel 9:nickel -:nickel 7:nickel +:nickel 2:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 |  | ((7-x)+2)=9 | 7 x - 2 + 9 = | 7:nickel x:nickel -:nickel 2:nickel +:nickel 9:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 | 4 | 7=(2-(x-9)) | 7 2 x 9 - - = | 7:nickel 2:nickel x:nickel 9:nickel -:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 | 0 | 9=((7+x)+2) | 9 7 x + 2 + = | 9:nickel 7:nickel x:nickel +:nickel 2:nickel +:nickel =:nickel
+EXPR: 1 | POS | INT | 12 | 18 | 18 | (x-7)=(9+2) | x 7 - 9 2 + = | x:nickel 7:nickel -:nickel 9:nickel 2:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 | 0 | 9=(7-(x-2)) | 9 7 x 2 - - = | 9:nickel 7:nickel x:nickel 2:nickel -:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 | 4 | (x-(9-7))=2 | x 9 7 - - 2 = | x:nickel 9:nickel 7:nickel -:nickel -:nickel 2:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 | 14 | (x-(7-2))=9 | x 7 2 - - 9 = | x:nickel 7:nickel 2:nickel -:nickel -:nickel 9:nickel =:nickel
+EXPR: 1 | POS | INT | 12 | 18 | 18 | ((x-9)-7)=2 | x 9 - 7 - 2 = | x:nickel 9:nickel -:nickel 7:nickel -:nickel 2:nickel =:nickel
+EXPR: 1 | POS | INT | 12 | 18 | 18 | (x-(7+2))=9 | x 7 2 + - 9 = | x:nickel 7:nickel 2:nickel +:nickel -:nickel 9:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 |  | (x+(9-7))=2 | x 9 7 - + 2 = | x:nickel 9:nickel 7:nickel -:nickel +:nickel 2:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 | 4 | (x+(7-2))=9 | x 7 2 - + 9 = | x:nickel 7:nickel 2:nickel -:nickel +:nickel 9:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 | 4 | (7-(2-x))=9 | 7 2 x - - 9 = | 7:nickel 2:nickel x:nickel -:nickel -:nickel 9:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 | 14 | ((x-7)+2)=9 | x 7 - 2 + 9 = | x:nickel 7:nickel -:nickel 2:nickel +:nickel 9:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 |  | ((9+x)-7)=2 | 9 x + 7 - 2 = | 9:nickel x:nickel +:nickel 7:nickel -:nickel 2:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 | 0 | 9=(7+(x+2)) | 9 7 x 2 + + = | 9:nickel 7:nickel x:nickel 2:nickel +:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 |  | (9-(7-x))=2 | 9 7 x - - 2 = | 9:nickel 7:nickel x:nickel -:nickel -:nickel 2:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 | 14 | (x-7)=(9-2) | x 7 - 9 2 - = | x:nickel 7:nickel -:nickel 9:nickel 2:nickel -:nickel =:nickel
+EXPR: 1 | POS | INT | 12 | 18 | 18 | ((x-7)-2)=9 | x 7 - 2 - 9 = | x:nickel 7:nickel -:nickel 2:nickel -:nickel 9:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 |  | (7-x)=(9-2) | 7 x - 9 2 - = | 7:nickel x:nickel -:nickel 9:nickel 2:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 | 4 | 9=((7-2)+x) | 9 7 2 - x + = | 9:nickel 7:nickel 2:nickel -:nickel x:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 |  | ((9-x)-7)=2 | 9 x - 7 - 2 = | 9:nickel x:nickel -:nickel 7:nickel -:nickel 2:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 | 14 | (9-(x-7))=2 | 9 x 7 - - 2 = | 9:nickel x:nickel 7:nickel -:nickel -:nickel 2:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 | 0 | 7=((x-2)+9) | 7 x 2 - 9 + = | 7:nickel x:nickel 2:nickel -:nickel 9:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 |  | (7+(2+x))=9 | 7 2 x + + 9 = | 7:nickel 2:nickel x:nickel +:nickel +:nickel 9:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 |  | (x+(7+2))=9 | x 7 2 + + 9 = | x:nickel 7:nickel 2:nickel +:nickel +:nickel 9:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 | 14 | 7=((x+2)-9) | 7 x 2 + 9 - = | 7:nickel x:nickel 2:nickel +:nickel 9:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 | 0 | 9=((7+2)-x) | 9 7 2 + x - = | 9:nickel 7:nickel 2:nickel +:nickel x:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 | 14 | 9=((x-7)+2) | 9 x 7 - 2 + = | 9:nickel x:nickel 7:nickel -:nickel 2:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 | 14 | (9+(7-x))=2 | 9 7 x - + 2 = | 9:nickel 7:nickel x:nickel -:nickel +:nickel 2:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 |  | (7-(x-2))=9 | 7 x 2 - - 9 = | 7:nickel x:nickel 2:nickel -:nickel -:nickel 9:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 | 4 | 7=(2+(9-x)) | 7 2 9 x - + = | 7:nickel 2:nickel 9:nickel x:nickel -:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 | 14 | 7=(2-(9-x)) | 7 2 9 x - - = | 7:nickel 2:nickel 9:nickel x:nickel -:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 | 4 | ((7-2)+x)=9 | 7 2 - x + 9 = | 7:nickel 2:nickel -:nickel x:nickel +:nickel 9:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 | 0 | (7-9)=(x-2) | 7 9 - x 2 - = | 7:nickel 9:nickel -:nickel x:nickel 2:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 | 0 | 9=(7+(2-x)) | 9 7 2 x - + = | 9:nickel 7:nickel 2:nickel x:nickel -:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 | 4 | 9=(7-(2-x)) | 9 7 2 x - - = | 9:nickel 7:nickel 2:nickel x:nickel -:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 | 14 | ((9-x)+7)=2 | 9 x - 7 + 2 = | 9:nickel x:nickel -:nickel 7:nickel +:nickel 2:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 | 0 | 9=(7+(2+x)) | 9 7 2 x + + = | 9:nickel 7:nickel 2:nickel x:nickel +:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 | 4 | 9=((x+7)-2) | 9 x 7 + 2 - = | 9:nickel x:nickel 7:nickel +:nickel 2:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 | 4 | (7-9)=(2-x) | 7 9 - 2 x - = | 7:nickel 9:nickel -:nickel 2:nickel x:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 | 0 | 9=((7+2)+x) | 9 7 2 + x + = | 9:nickel 7:nickel 2:nickel +:nickel x:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 |  | (9-(7+x))=2 | 9 7 x + - 2 = | 9:nickel 7:nickel x:nickel +:nickel -:nickel 2:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 |  | (x+7)=(9-2) | x 7 + 9 2 - = | x:nickel 7:nickel +:nickel 9:nickel 2:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 |  | ((x+9)-7)=2 | x 9 + 7 - 2 = | x:nickel 9:nickel +:nickel 7:nickel -:nickel 2:nickel =:nickel
+EXPR: 1 | POS | INT | 12 | 18 | 18 | 7=((x-2)-9) | 7 x 2 - 9 - = | 7:nickel x:nickel 2:nickel -:nickel 9:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 | 14 | 7=(x+(2-9)) | 7 x 2 9 - + = | 7:nickel x:nickel 2:nickel 9:nickel -:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 | 4 | (7+(x-2))=9 | 7 x 2 - + 9 = | 7:nickel x:nickel 2:nickel -:nickel +:nickel 9:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 |  | (7+(x+2))=9 | 7 x 2 + + 9 = | 7:nickel x:nickel 2:nickel +:nickel +:nickel 9:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 | 4 | 7=((2-x)+9) | 7 2 x - 9 + = | 7:nickel 2:nickel x:nickel -:nickel 9:nickel +:nickel =:nickel
+EXPR: 1 | POS | INT | 12 | 18 | 18 | 9=((x-7)-2) | 9 x 7 - 2 - = | 9:nickel x:nickel 7:nickel -:nickel 2:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 | 14 | 7=(2+(x-9)) | 7 2 x 9 - + = | 7:nickel 2:nickel x:nickel 9:nickel -:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 | 4 | 9=(x+(7-2)) | 9 x 7 2 - + = | 9:nickel x:nickel 7:nickel 2:nickel -:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 | 14 | 9=(x-(7-2)) | 9 x 7 2 - - = | 9:nickel x:nickel 7:nickel 2:nickel -:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 |  | ((9-7)+x)=2 | 9 7 - x + 2 = | 9:nickel 7:nickel -:nickel x:nickel +:nickel 2:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 | 0 | 7=(x-(2-9)) | 7 x 2 9 - - = | 7:nickel x:nickel 2:nickel 9:nickel -:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 | 4 | 9=(7+(x-2)) | 9 7 x 2 - + = | 9:nickel 7:nickel x:nickel 2:nickel -:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 |  | ((7+x)+2)=9 | 7 x + 2 + 9 = | 7:nickel x:nickel +:nickel 2:nickel +:nickel 9:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 | 4 | ((7+x)-2)=9 | 7 x + 2 - 9 = | 7:nickel x:nickel +:nickel 2:nickel -:nickel 9:nickel =:nickel
+EXPR: 1 | POS | INT | 12 | 18 | 18 | 9=(x-(7+2)) | 9 x 7 2 + - = | 9:nickel x:nickel 7:nickel 2:nickel +:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 |  | (9-(x+7))=2 | 9 x 7 + - 2 = | 9:nickel x:nickel 7:nickel +:nickel -:nickel 2:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 | 14 | 7=((2+x)-9) | 7 2 x + 9 - = | 7:nickel 2:nickel x:nickel +:nickel 9:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 |  | (9+(x-7))=2 | 9 x 7 - + 2 = | 9:nickel x:nickel 7:nickel -:nickel +:nickel 2:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 | 0 | 9=((x+7)+2) | 9 x 7 + 2 + = | 9:nickel x:nickel 7:nickel +:nickel 2:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 |  | (7+(2-x))=9 | 7 2 x - + 9 = | 7:nickel 2:nickel x:nickel -:nickel +:nickel 9:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 |  | ((9-7)-x)=2 | 9 7 - x - 2 = | 9:nickel 7:nickel -:nickel x:nickel -:nickel 2:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 |  | ((7+2)-x)=9 | 7 2 + x - 9 = | 7:nickel 2:nickel +:nickel x:nickel -:nickel 9:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 |  | ((7+2)+x)=9 | 7 2 + x + 9 = | 7:nickel 2:nickel +:nickel x:nickel +:nickel 9:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 | 4 | (7+x)=(9+2) | 7 x + 9 2 + = | 7:nickel x:nickel +:nickel 9:nickel 2:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 | 4 | ((x+7)-2)=9 | x 7 + 2 - 9 = | x:nickel 7:nickel +:nickel 2:nickel -:nickel 9:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 |  | ((x+7)+2)=9 | x 7 + 2 + 9 = | x:nickel 7:nickel +:nickel 2:nickel +:nickel 9:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 | 4 | (x+7)=(9+2) | x 7 + 9 2 + = | x:nickel 7:nickel +:nickel 9:nickel 2:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 | 14 | 7=((2-9)+x) | 7 2 9 - x + = | 7:nickel 2:nickel 9:nickel -:nickel x:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 |  | (7+x)=(9-2) | 7 x + 9 2 - = | 7:nickel x:nickel +:nickel 9:nickel 2:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 | 0 | 9=(x+(7+2)) | 9 x 7 2 + + = | 9:nickel x:nickel 7:nickel 2:nickel +:nickel +:nickel =:nickel
+EXPR: 1 | POS | INT | 12 | 18 | 18 | (7+9)=(x-2) | 7 9 + x 2 - = | 7:nickel 9:nickel +:nickel x:nickel 2:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 | 14 | (7+9)=(x+2) | 7 9 + x 2 + = | 7:nickel 9:nickel +:nickel x:nickel 2:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 12 | 18 | 14 | (7+9)=(2+x) | 7 9 + 2 x + = | 7:nickel 9:nickel +:nickel 2:nickel x:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 15 | 18 | 4 | x=((2-7)+9) | x 2 7 - 9 + = | x:nickel 2:nickel 7:nickel -:nickel 9:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 15 | 18 |  | x=(2+(7-9)) | x 2 7 9 - + = | x:nickel 2:nickel 7:nickel 9:nickel -:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 15 | 18 | 4 | x=(2-(7-9)) | x 2 7 9 - - = | x:nickel 2:nickel 7:nickel 9:nickel -:nickel -:nickel =:nickel
+EXPR: 1 | POS | INT | 15 | 18 | 18 | x=(2+(7+9)) | x 2 7 9 + + = | x:nickel 2:nickel 7:nickel 9:nickel +:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 16 | 18 | 4 | x=((2-7)+9) | x 2 7 - 9 + = | x:nickel 2:nickel 7:nickel -:nickel 9:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 16 | 18 |  | x=(2+(7-9)) | x 2 7 9 - + = | x:nickel 2:nickel 7:nickel 9:nickel -:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 16 | 18 | 4 | x=(2-(7-9)) | x 2 7 9 - - = | x:nickel 2:nickel 7:nickel 9:nickel -:nickel -:nickel =:nickel
+EXPR: 1 | POS | INT | 16 | 18 | 18 | x=(2+(7+9)) | x 2 7 9 + + = | x:nickel 2:nickel 7:nickel 9:nickel +:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 17 | 18 | 14 | 2=((7-x)+9) | 2 7 x - 9 + = | 2:nickel 7:nickel x:nickel -:nickel 9:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 17 | 18 |  | (2-(x-7))=9 | 2 x 7 - - 9 = | 2:nickel x:nickel 7:nickel -:nickel -:nickel 9:nickel =:nickel
+EXPR: 0 | POS | INT | 17 | 18 | 4 | ((x-2)+7)=9 | x 2 - 7 + 9 = | x:nickel 2:nickel -:nickel 7:nickel +:nickel 9:nickel =:nickel
+EXPR: 0 | POS | INT | 17 | 18 | 14 | 2=(7+(9-x)) | 2 7 9 x - + = | 2:nickel 7:nickel 9:nickel x:nickel -:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 17 | 18 | 14 | (2-(7-x))=9 | 2 7 x - - 9 = | 2:nickel 7:nickel x:nickel -:nickel -:nickel 9:nickel =:nickel
+EXPR: 0 | POS | INT | 17 | 18 | 4 | (x-(2-7))=9 | x 2 7 - - 9 = | x:nickel 2:nickel 7:nickel -:nickel -:nickel 9:nickel =:nickel
+EXPR: 0 | POS | INT | 17 | 18 |  | (2+(7-x))=9 | 2 7 x - + 9 = | 2:nickel 7:nickel x:nickel -:nickel +:nickel 9:nickel =:nickel
+EXPR: 0 | POS | INT | 17 | 18 | 4 | 2=(7-(9-x)) | 2 7 9 x - - = | 2:nickel 7:nickel 9:nickel x:nickel -:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 17 | 18 | 4 | 2=((7+x)-9) | 2 7 x + 9 - = | 2:nickel 7:nickel x:nickel +:nickel 9:nickel -:nickel =:nickel
+EXPR: 1 | POS | INT | 17 | 18 | 18 | ((x-2)-7)=9 | x 2 - 7 - 9 = | x:nickel 2:nickel -:nickel 7:nickel -:nickel 9:nickel =:nickel
+EXPR: 0 | POS | INT | 17 | 18 | 0 | 2=((x-7)+9) | 2 x 7 - 9 + = | 2:nickel x:nickel 7:nickel -:nickel 9:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 17 | 18 |  | (2+(x+7))=9 | 2 x 7 + + 9 = | 2:nickel x:nickel 7:nickel +:nickel +:nickel 9:nickel =:nickel
+EXPR: 0 | POS | INT | 17 | 18 | 14 | (2+(x-7))=9 | 2 x 7 - + 9 = | 2:nickel x:nickel 7:nickel -:nickel +:nickel 9:nickel =:nickel
+EXPR: 1 | POS | INT | 17 | 18 | 18 | 2=((x-7)-9) | 2 x 7 - 9 - = | 2:nickel x:nickel 7:nickel -:nickel 9:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 17 | 18 | 14 | ((2-7)+x)=9 | 2 7 - x + 9 = | 2:nickel 7:nickel -:nickel x:nickel +:nickel 9:nickel =:nickel
+EXPR: 0 | POS | INT | 17 | 18 | 14 | (x+(2-7))=9 | x 2 7 - + 9 = | x:nickel 2:nickel 7:nickel -:nickel +:nickel 9:nickel =:nickel
+EXPR: 0 | POS | INT | 17 | 18 |  | ((2-x)+7)=9 | 2 x - 7 + 9 = | 2:nickel x:nickel -:nickel 7:nickel +:nickel 9:nickel =:nickel
+EXPR: 0 | POS | INT | 17 | 18 | 14 | ((2+x)-7)=9 | 2 x + 7 - 9 = | 2:nickel x:nickel +:nickel 7:nickel -:nickel 9:nickel =:nickel
+EXPR: 0 | POS | INT | 17 | 18 |  | ((2+x)+7)=9 | 2 x + 7 + 9 = | 2:nickel x:nickel +:nickel 7:nickel +:nickel 9:nickel =:nickel
+EXPR: 0 | POS | INT | 17 | 18 | 4 | 2=((x+7)-9) | 2 x 7 + 9 - = | 2:nickel x:nickel 7:nickel +:nickel 9:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 17 | 18 | 4 | 2=(7+(x-9)) | 2 7 x 9 - + = | 2:nickel 7:nickel x:nickel 9:nickel -:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 17 | 18 |  | (2+(7+x))=9 | 2 7 x + + 9 = | 2:nickel 7:nickel x:nickel +:nickel +:nickel 9:nickel =:nickel
+EXPR: 0 | POS | INT | 17 | 18 | 14 | ((x+2)-7)=9 | x 2 + 7 - 9 = | x:nickel 2:nickel +:nickel 7:nickel -:nickel 9:nickel =:nickel
+EXPR: 0 | POS | INT | 17 | 18 | 14 | 2=(7-(x-9)) | 2 7 x 9 - - = | 2:nickel 7:nickel x:nickel 9:nickel -:nickel -:nickel =:nickel
+EXPR: 1 | POS | INT | 17 | 18 | 18 | 2=(x-(7+9)) | 2 x 7 9 + - = | 2:nickel x:nickel 7:nickel 9:nickel +:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 17 | 18 |  | ((x+2)+7)=9 | x 2 + 7 + 9 = | x:nickel 2:nickel +:nickel 7:nickel +:nickel 9:nickel =:nickel
+EXPR: 0 | POS | INT | 17 | 18 | 14 | 2=((7+9)-x) | 2 7 9 + x - = | 2:nickel 7:nickel 9:nickel +:nickel x:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 17 | 18 | 4 | 2=((7-9)+x) | 2 7 9 - x + = | 2:nickel 7:nickel 9:nickel -:nickel x:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 17 | 18 | 4 | 2=(x+(7-9)) | 2 x 7 9 - + = | 2:nickel x:nickel 7:nickel 9:nickel -:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 17 | 18 | 0 | 2=(x-(7-9)) | 2 x 7 9 - - = | 2:nickel x:nickel 7:nickel 9:nickel -:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 22 | 18 | 14 | (7-x)=(2-9) | 7 x - 2 9 - = | 7:nickel x:nickel -:nickel 2:nickel 9:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 22 | 18 | 4 | (7-2)=(9-x) | 7 2 - 9 x - = | 7:nickel 2:nickel -:nickel 9:nickel x:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 22 | 18 |  | (x+9)=(7+2) | x 9 + 7 2 + = | x:nickel 9:nickel +:nickel 7:nickel 2:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 22 | 18 |  | (x-7)=(2-9) | x 7 - 2 9 - = | x:nickel 7:nickel -:nickel 2:nickel 9:nickel -:nickel =:nickel
+EXPR: 1 | POS | INT | 22 | 18 | 18 | (x-9)=(7+2) | x 9 - 7 2 + = | x:nickel 9:nickel -:nickel 7:nickel 2:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 22 | 18 | 14 | (x-9)=(7-2) | x 9 - 7 2 - = | x:nickel 9:nickel -:nickel 7:nickel 2:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 22 | 18 | 0 | (9-7)=(2+x) | 9 7 - 2 x + = | 9:nickel 7:nickel -:nickel 2:nickel x:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 22 | 18 |  | (9-x)=(7+2) | 9 x - 7 2 + = | 9:nickel x:nickel -:nickel 7:nickel 2:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 22 | 18 | 4 | (9-x)=(7-2) | 9 x - 7 2 - = | 9:nickel x:nickel -:nickel 7:nickel 2:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 22 | 18 | 0 | (9-7)=(2-x) | 9 7 - 2 x - = | 9:nickel 7:nickel -:nickel 2:nickel x:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 22 | 18 | 14 | (7-2)=(x-9) | 7 2 - x 9 - = | 7:nickel 2:nickel -:nickel x:nickel 9:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 22 | 18 | 4 | (9-7)=(x-2) | 9 7 - x 2 - = | 9:nickel 7:nickel -:nickel x:nickel 2:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 22 | 18 | 0 | (9-7)=(x+2) | 9 7 - x 2 + = | 9:nickel 7:nickel -:nickel x:nickel 2:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 22 | 18 |  | (9+x)=(7+2) | 9 x + 7 2 + = | 9:nickel x:nickel +:nickel 7:nickel 2:nickel +:nickel =:nickel
+EXPR: 1 | POS | INT | 22 | 18 | 18 | (7+2)=(x-9) | 7 2 + x 9 - = | 7:nickel 2:nickel +:nickel x:nickel 9:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 22 | 18 | 0 | (7+2)=(9-x) | 7 2 + 9 x - = | 7:nickel 2:nickel +:nickel 9:nickel x:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 22 | 18 | 0 | (7+2)=(x+9) | 7 2 + x 9 + = | 7:nickel 2:nickel +:nickel x:nickel 9:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 22 | 18 | 0 | (7+2)=(9+x) | 7 2 + 9 x + = | 7:nickel 2:nickel +:nickel 9:nickel x:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 25 | 18 | 4 | x=((9+2)-7) | x 9 2 + 7 - = | x:nickel 9:nickel 2:nickel +:nickel 7:nickel -:nickel =:nickel
+EXPR: 1 | POS | INT | 25 | 18 | 18 | x=((9+2)+7) | x 9 2 + 7 + = | x:nickel 9:nickel 2:nickel +:nickel 7:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 25 | 18 |  | x=((9-2)-7) | x 9 2 - 7 - = | x:nickel 9:nickel 2:nickel -:nickel 7:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 25 | 18 |  | x=((2-9)+7) | x 2 9 - 7 + = | x:nickel 2:nickel 9:nickel -:nickel 7:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 25 | 18 | 4 | x=(9+(2-7)) | x 9 2 7 - + = | x:nickel 9:nickel 2:nickel 7:nickel -:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 25 | 18 | 4 | x=(2+(9-7)) | x 2 9 7 - + = | x:nickel 2:nickel 9:nickel 7:nickel -:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 25 | 18 | 14 | x=(9-(2-7)) | x 9 2 7 - - = | x:nickel 9:nickel 2:nickel 7:nickel -:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 25 | 18 |  | x=(2-(9-7)) | x 2 9 7 - - = | x:nickel 2:nickel 9:nickel 7:nickel -:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 25 | 18 | 14 | x=((9-2)+7) | x 9 2 - 7 + = | x:nickel 9:nickel 2:nickel -:nickel 7:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 26 | 18 |  | x=((2-9)+7) | x 2 9 - 7 + = | x:nickel 2:nickel 9:nickel -:nickel 7:nickel +:nickel =:nickel
+EXPR: 1 | POS | INT | 26 | 18 | 18 | x=((9+2)+7) | x 9 2 + 7 + = | x:nickel 9:nickel 2:nickel +:nickel 7:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 26 | 18 | 4 | x=(9+(2-7)) | x 9 2 7 - + = | x:nickel 9:nickel 2:nickel 7:nickel -:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 26 | 18 |  | x=((9-2)-7) | x 9 2 - 7 - = | x:nickel 9:nickel 2:nickel -:nickel 7:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 26 | 18 | 4 | x=((9+2)-7) | x 9 2 + 7 - = | x:nickel 9:nickel 2:nickel +:nickel 7:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 26 | 18 | 4 | x=(2+(9-7)) | x 2 9 7 - + = | x:nickel 2:nickel 9:nickel 7:nickel -:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 26 | 18 | 14 | x=(9-(2-7)) | x 9 2 7 - - = | x:nickel 9:nickel 2:nickel 7:nickel -:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 26 | 18 |  | x=(2-(9-7)) | x 2 9 7 - - = | x:nickel 2:nickel 9:nickel 7:nickel -:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 26 | 18 | 14 | x=((9-2)+7) | x 9 2 - 7 + = | x:nickel 9:nickel 2:nickel -:nickel 7:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 | 0 | 2=(9-(x+7)) | 2 9 x 7 + - = | 2:nickel 9:nickel x:nickel 7:nickel +:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 | 14 | 2=((9-x)+7) | 2 9 x - 7 + = | 2:nickel 9:nickel x:nickel -:nickel 7:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 | 4 | ((9-x)+2)=7 | 9 x - 2 + 7 = | 9:nickel x:nickel -:nickel 2:nickel +:nickel 7:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 | 14 | 2=(9-(x-7)) | 2 9 x 7 - - = | 2:nickel 9:nickel x:nickel 7:nickel -:nickel -:nickel =:nickel
+EXPR: 1 | POS | INT | 27 | 18 | 18 | (x-2)=(7+9) | x 2 - 7 9 + = | x:nickel 2:nickel -:nickel 7:nickel 9:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 | 4 | ((2-x)+9)=7 | 2 x - 9 + 7 = | 2:nickel x:nickel -:nickel 9:nickel +:nickel 7:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 |  | ((x-2)+9)=7 | x 2 - 9 + 7 = | x:nickel 2:nickel -:nickel 9:nickel +:nickel 7:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 |  | ((9-x)-2)=7 | 9 x - 2 - 7 = | 9:nickel x:nickel -:nickel 2:nickel -:nickel 7:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 | 14 | (x+2)=(7+9) | x 2 + 7 9 + = | x:nickel 2:nickel +:nickel 7:nickel 9:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 | 4 | (2-(x-9))=7 | 2 x 9 - - 7 = | 2:nickel x:nickel 9:nickel -:nickel -:nickel 7:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 | 14 | (x-(9-2))=7 | x 9 2 - - 7 = | x:nickel 9:nickel 2:nickel -:nickel -:nickel 7:nickel =:nickel
+EXPR: 1 | POS | INT | 27 | 18 | 18 | (x-(9+2))=7 | x 9 2 + - 7 = | x:nickel 9:nickel 2:nickel +:nickel -:nickel 7:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 |  | (x-(2-9))=7 | x 2 9 - - 7 = | x:nickel 2:nickel 9:nickel -:nickel -:nickel 7:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 |  | (x+(9-2))=7 | x 9 2 - + 7 = | x:nickel 9:nickel 2:nickel -:nickel +:nickel 7:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 | 4 | (2+(9-x))=7 | 2 9 x - + 7 = | 2:nickel 9:nickel x:nickel -:nickel +:nickel 7:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 |  | (x-2)=(7-9) | x 2 - 7 9 - = | x:nickel 2:nickel -:nickel 7:nickel 9:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 | 14 | ((2+x)-9)=7 | 2 x + 9 - 7 = | 2:nickel x:nickel +:nickel 9:nickel -:nickel 7:nickel =:nickel
+EXPR: 1 | POS | INT | 27 | 18 | 18 | ((x-2)-9)=7 | x 2 - 9 - 7 = | x:nickel 2:nickel -:nickel 9:nickel -:nickel 7:nickel =:nickel
+EXPR: 1 | POS | INT | 27 | 18 | 18 | ((x-9)-2)=7 | x 9 - 2 - 7 = | x:nickel 9:nickel -:nickel 2:nickel -:nickel 7:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 | 0 | 9=(2+(x+7)) | 9 2 x 7 + + = | 9:nickel 2:nickel x:nickel 7:nickel +:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 | 0 | 2=((9+x)-7) | 2 9 x + 7 - = | 2:nickel 9:nickel x:nickel +:nickel 7:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 | 14 | (2-(9-x))=7 | 2 9 x - - 7 = | 2:nickel 9:nickel x:nickel -:nickel -:nickel 7:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 | 14 | 2=(9+(7-x)) | 2 9 7 x - + = | 2:nickel 9:nickel 7:nickel x:nickel -:nickel +:nickel =:nickel
+EXPR: 1 | POS | INT | 27 | 18 | 18 | 9=((x-2)-7) | 9 x 2 - 7 - = | 9:nickel x:nickel 2:nickel -:nickel 7:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 | 4 | (9-(x-2))=7 | 9 x 2 - - 7 = | 9:nickel x:nickel 2:nickel -:nickel -:nickel 7:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 | 14 | (2-7)=(9-x) | 2 7 - 9 x - = | 2:nickel 7:nickel -:nickel 9:nickel x:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 | 4 | 2=((x-9)+7) | 2 x 9 - 7 + = | 2:nickel x:nickel 9:nickel -:nickel 7:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 | 14 | 9=((x+2)-7) | 9 x 2 + 7 - = | 9:nickel x:nickel 2:nickel +:nickel 7:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 | 14 | (2+(x-9))=7 | 2 x 9 - + 7 = | 2:nickel x:nickel 9:nickel -:nickel +:nickel 7:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 | 0 | 2=(9-(7-x)) | 2 9 7 x - - = | 2:nickel 9:nickel 7:nickel x:nickel -:nickel -:nickel =:nickel
+EXPR: 1 | POS | INT | 27 | 18 | 18 | 2=((x-9)-7) | 2 x 9 - 7 - = | 2:nickel x:nickel 9:nickel -:nickel 7:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 | 4 | (9+(2-x))=7 | 9 2 x - + 7 = | 9:nickel 2:nickel x:nickel -:nickel +:nickel 7:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 | 0 | 2=(9-(7+x)) | 2 9 7 x + - = | 2:nickel 9:nickel 7:nickel x:nickel +:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 | 14 | (x+(2-9))=7 | x 2 9 - + 7 = | x:nickel 2:nickel 9:nickel -:nickel +:nickel 7:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 | 4 | 9=((x-2)+7) | 9 x 2 - 7 + = | 9:nickel x:nickel 2:nickel -:nickel 7:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 | 4 | (2-7)=(x-9) | 2 7 - x 9 - = | 2:nickel 7:nickel -:nickel x:nickel 9:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 | 0 | 2=((9-x)-7) | 2 9 x - 7 - = | 2:nickel 9:nickel x:nickel -:nickel 7:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 | 0 | 2=((x+9)-7) | 2 x 9 + 7 - = | 2:nickel x:nickel 9:nickel +:nickel 7:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 |  | (9-(2+x))=7 | 9 2 x + - 7 = | 9:nickel 2:nickel x:nickel +:nickel -:nickel 7:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 | 0 | 2=(9+(x-7)) | 2 9 x 7 - + = | 2:nickel 9:nickel x:nickel 7:nickel -:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 | 4 | (2-x)=(7-9) | 2 x - 7 9 - = | 2:nickel x:nickel -:nickel 7:nickel 9:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 |  | (9-(2-x))=7 | 9 2 x - - 7 = | 9:nickel 2:nickel x:nickel -:nickel -:nickel 7:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 | 0 | 9=(2-(x-7)) | 9 2 x 7 - - = | 9:nickel 2:nickel x:nickel 7:nickel -:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 | 0 | 9=(2+(7-x)) | 9 2 7 x - + = | 9:nickel 2:nickel 7:nickel x:nickel -:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 |  | (9-(x+2))=7 | 9 x 2 + - 7 = | 9:nickel x:nickel 2:nickel +:nickel -:nickel 7:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 | 14 | 9=(x+(2-7)) | 9 x 2 7 - + = | 9:nickel x:nickel 2:nickel 7:nickel -:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 | 4 | 9=(x-(2-7)) | 9 x 2 7 - - = | 9:nickel x:nickel 2:nickel 7:nickel -:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 | 14 | 9=(2+(x-7)) | 9 2 x 7 - + = | 9:nickel 2:nickel x:nickel 7:nickel -:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 | 14 | ((x+2)-9)=7 | x 2 + 9 - 7 = | x:nickel 2:nickel +:nickel 9:nickel -:nickel 7:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 | 0 | 9=((x+2)+7) | 9 x 2 + 7 + = | 9:nickel x:nickel 2:nickel +:nickel 7:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 | 14 | ((2-9)+x)=7 | 2 9 - x + 7 = | 2:nickel 9:nickel -:nickel x:nickel +:nickel 7:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 | 0 | 9=(2+(7+x)) | 9 2 7 x + + = | 9:nickel 2:nickel 7:nickel x:nickel +:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 |  | ((9+x)-2)=7 | 9 x + 2 - 7 = | 9:nickel x:nickel +:nickel 2:nickel -:nickel 7:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 | 14 | 9=((2+x)-7) | 9 2 x + 7 - = | 9:nickel 2:nickel x:nickel +:nickel 7:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 | 0 | 9=((2-x)+7) | 9 2 x - 7 + = | 9:nickel 2:nickel x:nickel -:nickel 7:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 | 0 | 2=(x+(9-7)) | 2 x 9 7 - + = | 2:nickel x:nickel 9:nickel 7:nickel -:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 | 14 | 9=(2-(7-x)) | 9 2 7 x - - = | 9:nickel 2:nickel 7:nickel x:nickel -:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 | 4 | ((9+2)-x)=7 | 9 2 + x - 7 = | 9:nickel 2:nickel +:nickel x:nickel -:nickel 7:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 | 14 | (2+x)=(7+9) | 2 x + 7 9 + = | 2:nickel x:nickel +:nickel 7:nickel 9:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 |  | (9+(x-2))=7 | 9 x 2 - + 7 = | 9:nickel x:nickel 2:nickel -:nickel +:nickel 7:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 |  | ((x+9)-2)=7 | x 9 + 2 - 7 = | x:nickel 9:nickel +:nickel 2:nickel -:nickel 7:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 | 0 | 2=((9-7)+x) | 2 9 7 - x + = | 2:nickel 9:nickel 7:nickel -:nickel x:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 | 4 | 2=(x-(9-7)) | 2 x 9 7 - - = | 2:nickel x:nickel 9:nickel 7:nickel -:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 | 14 | ((x-9)+2)=7 | x 9 - 2 + 7 = | x:nickel 9:nickel -:nickel 2:nickel +:nickel 7:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 |  | ((9-2)+x)=7 | 9 2 - x + 7 = | 9:nickel 2:nickel -:nickel x:nickel +:nickel 7:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 | 14 | 9=((2-7)+x) | 9 2 7 - x + = | 9:nickel 2:nickel 7:nickel -:nickel x:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 |  | ((9-2)-x)=7 | 9 2 - x - 7 = | 9:nickel 2:nickel -:nickel x:nickel -:nickel 7:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 | 0 | 9=((2+x)+7) | 9 2 x + 7 + = | 9:nickel 2:nickel x:nickel +:nickel 7:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 27 | 18 | 0 | 2=((9-7)-x) | 2 9 7 - x - = | 2:nickel 9:nickel 7:nickel -:nickel x:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 37 | 18 | 4 | (x-2)=(9-7) | x 2 - 9 7 - = | x:nickel 2:nickel -:nickel 9:nickel 7:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 37 | 18 | 0 | (9-2)=(7+x) | 9 2 - 7 x + = | 9:nickel 2:nickel -:nickel 7:nickel x:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 37 | 18 | 14 | (9-x)=(2-7) | 9 x - 2 7 - = | 9:nickel x:nickel -:nickel 2:nickel 7:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 37 | 18 |  | (2-x)=(9-7) | 2 x - 9 7 - = | 2:nickel x:nickel -:nickel 9:nickel 7:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 37 | 18 | 0 | (9-2)=(7-x) | 9 2 - 7 x - = | 9:nickel 2:nickel -:nickel 7:nickel x:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 37 | 18 |  | (x+2)=(9-7) | x 2 + 9 7 - = | x:nickel 2:nickel +:nickel 9:nickel 7:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 37 | 18 | 14 | (2-9)=(7-x) | 2 9 - 7 x - = | 2:nickel 9:nickel -:nickel 7:nickel x:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 37 | 18 | 4 | (x-9)=(2-7) | x 9 - 2 7 - = | x:nickel 9:nickel -:nickel 2:nickel 7:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 37 | 18 | 14 | (9-2)=(x-7) | 9 2 - x 7 - = | 9:nickel 2:nickel -:nickel x:nickel 7:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 37 | 18 | 0 | (9-2)=(x+7) | 9 2 - x 7 + = | 9:nickel 2:nickel -:nickel x:nickel 7:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 37 | 18 | 0 | (2-9)=(x-7) | 2 9 - x 7 - = | 2:nickel 9:nickel -:nickel x:nickel 7:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 37 | 18 |  | (2+x)=(9-7) | 2 x + 9 7 - = | 2:nickel x:nickel +:nickel 9:nickel 7:nickel -:nickel =:nickel
+EXPR: 1 | POS | INT | 37 | 18 | 18 | (9+2)=(x-7) | 9 2 + x 7 - = | 9:nickel 2:nickel +:nickel x:nickel 7:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 37 | 18 | 4 | (9+2)=(x+7) | 9 2 + x 7 + = | 9:nickel 2:nickel +:nickel x:nickel 7:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 37 | 18 | 4 | (9+2)=(7+x) | 9 2 + 7 x + = | 9:nickel 2:nickel +:nickel 7:nickel x:nickel +:nickel =:nickel
+NET 304 non-negative, integer-valued solutions found out of 408 total solutions

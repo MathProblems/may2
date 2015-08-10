@@ -1,0 +1,227 @@
+parameters: n=7 l=3 k=1 p=5 q=3 m=9
+TOTAL 1000 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 72 | 144 | x=((2*6)*12) | x 2 6 * 12 * = | x:egg 2:people 6:dozen *:dozen 12:egg *:egg =:egg
+EXPR: 0 | POS | INT | 0 | 72 | 144 | ((2*6)*12)=x | 2 6 * 12 * x = | 2:people 6:dozen *:dozen 12:egg *:egg x:egg =:egg
+EXPR: 0 | POS | INT | 2 | 72 | 1 | ((2*x)*6)=12 | 2 x * 6 * 12 = | 2:people x:egg *:egg 6:dozen *:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 2 | 72 | 1 | ((2*6)*x)=12 | 2 6 * x * 12 = | 2:people 6:dozen *:people x:egg *:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 2 | 72 | 144 | ((2*12)*6)=x | 2 12 * 6 * x = | 2:people 12:egg *:egg 6:dozen *:egg x:egg =:egg
+EXPR: 0 | POS | INT | 2 | 72 | 1 | ((x*2)*6)=12 | x 2 * 6 * 12 = | x:egg 2:people *:egg 6:dozen *:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 4 | 72 | 1 | ((6*x)*2)=12 | 6 x * 2 * 12 = | 6:dozen x:egg *:egg 2:people *:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 5 | 72 | 144 | ((6*12)*2)=x | 6 12 * 2 * x = | 6:dozen 12:egg *:egg 2:people *:egg x:egg =:egg
+EXPR: 0 | POS | INT | 7 | 72 | 1 | 12=((2*6)*x) | 12 2 6 * x * = | 12:egg 2:people 6:dozen *:dozen x:egg *:egg =:egg
+EXPR: 0 | POS | INT | 7 | 72 | 1 | 12=((x*2)*6) | 12 x 2 * 6 * = | 12:egg x:egg 2:people *:egg 6:dozen *:egg =:egg
+EXPR: 0 | POS | INT | 9 | 72 | 1 | 12=((x*6)*2) | 12 x 6 * 2 * = | 12:egg x:egg 6:dozen *:egg 2:people *:egg =:egg
+EXPR: 0 | POS | INT | 10 | 72 | 96 | x=((2+6)*12) | x 2 6 + 12 * = | x:egg 2:people 6:people +:people 12:egg *:egg =:egg
+EXPR: 0 | POS | INT | 10 | 72 |  | x=((2*6)-12) | x 2 6 * 12 - = | x:egg 2:egg 6:dozen *:egg 12:egg -:egg =:egg
+EXPR: 0 | POS | INT | 10 | 72 | 96 | ((2+6)*12)=x | 2 6 + 12 * x = | 2:people 6:people +:people 12:egg *:egg x:egg =:egg
+EXPR: 0 | POS | INT | 10 | 72 | 0 | ((2*6)-12)=x | 2 6 * 12 - x = | 2:people 6:egg *:egg 12:egg -:egg x:egg =:egg
+EXPR: 0 | POS | INT | 10 | 72 | 36 | (2*(6+12))=x | 2 6 12 + * x = | 2:people 6:egg 12:egg +:egg *:egg x:egg =:egg
+EXPR: 0 | POS | INT | 10 | 72 | 24 | ((2*6)+12)=x | 2 6 * 12 + x = | 2:people 6:egg *:egg 12:egg +:egg x:egg =:egg
+EXPR: 0 | POS | INT | 10 | 72 | 24 | x=((2*6)+12) | x 2 6 * 12 + = | x:egg 2:people 6:egg *:egg 12:egg +:egg =:egg
+EXPR: 0 | POS | INT | 10 | 72 | 36 | x=(2*(6+12)) | x 2 6 12 + * = | x:egg 2:people 6:egg 12:egg +:egg *:egg =:egg
+EXPR: 0 | POS | INT | 10 | 72 | 74 | (2+(6*12))=x | 2 6 12 * + x = | 2:egg 6:dozen 12:egg *:egg +:egg x:egg =:egg
+EXPR: 0 | POS | INT | 10 | 72 | 74 | x=(2+(6*12)) | x 2 6 12 * + = | x:egg 2:egg 6:dozen 12:egg *:egg +:egg =:egg
+EXPR: 0 | POS | INT | 12 | 72 | 48 | x=((6-2)*12) | x 6 2 - 12 * = | x:egg 6:dozen 2:dozen -:dozen 12:egg *:egg =:egg
+EXPR: 0 | POS | INT | 12 | 72 | 15 | x=((6/2)+12) | x 6 2 / 12 + = | x:egg 6:egg 2:people /:egg 12:egg +:egg =:egg
+EXPR: 0 | POS | INT | 12 | 72 | 30 | x=(6+(2*12)) | x 6 2 12 * + = | x:egg 6:egg 2:people 12:egg *:egg +:egg =:egg
+EXPR: 0 | POS | INT | 12 | 72 | 9 | ((2*x)-6)=12 | 2 x * 6 - 12 = | 2:people x:egg *:egg 6:egg -:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 12 | 72 | 3 | ((2*x)+6)=12 | 2 x * 6 + 12 = | 2:people x:egg *:egg 6:egg +:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 12 | 72 | 12 | (2*(x-6))=12 | 2 x 6 - * 12 = | 2:people x:egg 6:egg -:egg *:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 12 | 72 |  | (2*(x+6))=12 | 2 x 6 + * 12 = | 2:people x:egg 6:egg +:egg *:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 12 | 72 | 12 | x=(2*(12-6)) | x 2 12 6 - * = | x:egg 2:people 12:egg 6:egg -:egg *:egg =:egg
+EXPR: 0 | POS | INT | 12 | 72 | 84 | x=(6*(2+12)) | x 6 2 12 + * = | x:egg 6:dozen 2:egg 12:egg +:egg *:egg =:egg
+EXPR: 0 | POS | INT | 12 | 72 | 84 | (6*(2+12))=x | 6 2 12 + * x = | 6:dozen 2:egg 12:egg +:egg *:egg x:egg =:egg
+EXPR: 0 | POS | INT | 12 | 72 | 15 | 2=(6/(x-12)) | 2 6 x 12 - / = | 2:dozen 6:dozen x:egg 12:egg -:egg /:dozen =:dozen
+EXPR: 0 | POS | INT | 12 | 72 | 12 | (2*(12-6))=x | 2 12 6 - * x = | 2:people 12:egg 6:egg -:egg *:egg x:egg =:egg
+EXPR: 0 | POS | INT | 12 | 72 | 30 | ((2*12)+6)=x | 2 12 * 6 + x = | 2:people 12:egg *:egg 6:egg +:egg x:egg =:egg
+EXPR: 0 | POS | INT | 12 | 72 | 96 | (x/(2+6))=12 | x 2 6 + / 12 = | x:egg 2:dozen 6:dozen +:dozen /:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 12 | 72 |  | ((2*6)-x)=12 | 2 6 * x - 12 = | 2:people 6:egg *:egg x:egg -:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 12 | 72 | 15 | ((6/2)+12)=x | 6 2 / 12 + x = | 6:egg 2:people /:egg 12:egg +:egg x:egg =:egg
+EXPR: 0 | POS | INT | 12 | 72 | 144 | x=((2*12)*6) | x 2 12 * 6 * = | x:dozen 2:people 12:egg *:egg 6:dozen *:dozen =:dozen
+EXPR: 0 | POS | INT | 12 | 72 | 36 | (x*2)=(6*12) | x 2 * 6 12 * = | x:egg 2:people *:egg 6:dozen 12:egg *:egg =:egg
+EXPR: 0 | POS | INT | 12 | 72 | 144 | (x/2)=(6*12) | x 2 / 6 12 * = | x:egg 2:people /:egg 6:dozen 12:egg *:egg =:egg
+EXPR: 0 | POS | INT | 12 | 72 | 48 | ((6-2)*12)=x | 6 2 - 12 * x = | 6:people 2:people -:people 12:egg *:egg x:egg =:egg
+EXPR: 0 | POS | INT | 12 | 72 | 36 | (2*x)=(6*12) | 2 x * 6 12 * = | 2:people x:egg *:egg 6:dozen 12:egg *:egg =:egg
+EXPR: 0 | POS | INT | 12 | 72 |  | (x+(2*6))=12 | x 2 6 * + 12 = | x:egg 2:people 6:egg *:egg +:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 12 | 72 |  | ((2*6)+x)=12 | 2 6 * x + 12 = | 2:people 6:egg *:egg x:egg +:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 12 | 72 | 18 | ((2*12)-6)=x | 2 12 * 6 - x = | 2:people 12:egg *:egg 6:egg -:egg x:egg =:egg
+EXPR: 0 | POS | INT | 12 | 72 | 24 | (x-(2*6))=12 | x 2 6 * - 12 = | x:egg 2:egg 6:dozen *:egg -:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 12 | 72 |  | ((x+2)*6)=12 | x 2 + 6 * 12 = | x:egg 2:egg +:egg 6:dozen *:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 12 | 72 | 70 | ((x+2)/6)=12 | x 2 + 6 / 12 = | x:egg 2:egg +:egg 6:dozen /:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 12 | 72 |  | x=(2-(12/6)) | x 2 12 6 / - = | x:egg 2:egg 12:egg 6:dozen /:egg -:egg =:egg
+EXPR: 0 | POS | INT | 12 | 72 | 4 | x=(2+(12/6)) | x 2 12 6 / + = | x:egg 2:egg 12:egg 6:dozen /:egg +:egg =:egg
+EXPR: 0 | POS | INT | 12 | 72 | 74 | ((x-2)/6)=12 | x 2 - 6 / 12 = | x:egg 2:egg -:egg 6:dozen /:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 12 | 72 | 4 | ((x-2)*6)=12 | x 2 - 6 * 12 = | x:egg 2:egg -:egg 6:dozen *:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 12 | 72 | 84 | x=((2+12)*6) | x 2 12 + 6 * = | x:egg 2:egg 12:egg +:egg 6:dozen *:egg =:egg
+EXPR: 0 | POS | INT | 12 | 72 |  | (2*(6-x))=12 | 2 6 x - * 12 = | 2:people 6:egg x:egg -:egg *:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 12 | 72 |  | (2*(6+x))=12 | 2 6 x + * 12 = | 2:people 6:egg x:egg +:egg *:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 12 | 72 |  | ((2+x)*6)=12 | 2 x + 6 * 12 = | 2:egg x:egg +:egg 6:dozen *:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 12 | 72 | 84 | ((2+12)*6)=x | 2 12 + 6 * x = | 2:egg 12:egg +:egg 6:dozen *:egg x:egg =:egg
+EXPR: 0 | POS | INT | 12 | 72 | 30 | (6+(2*12))=x | 6 2 12 * + x = | 6:egg 2:people 12:egg *:egg +:egg x:egg =:egg
+EXPR: 0 | POS | INT | 12 | 72 | 60 | (2+(x/6))=12 | 2 x 6 / + 12 = | 2:egg x:egg 6:dozen /:egg +:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 12 | 72 | 4 | (2+(12/6))=x | 2 12 6 / + x = | 2:egg 12:egg 6:dozen /:egg +:egg x:egg =:egg
+EXPR: 0 | POS | INT | 12 | 72 | 70 | ((2+x)/6)=12 | 2 x + 6 / 12 = | 2:egg x:egg +:egg 6:dozen /:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 12 | 72 | 70 | 2=((6*12)-x) | 2 6 12 * x - = | 2:egg 6:dozen 12:egg *:egg x:egg -:egg =:egg
+EXPR: 0 | POS | INT | 12 | 72 | 84 | 2=((x/6)-12) | 2 x 6 / 12 - = | 2:egg x:egg 6:dozen /:egg 12:egg -:egg =:egg
+EXPR: 0 | POS | INT | 12 | 72 |  | ((2-x)*6)=12 | 2 x - 6 * 12 = | 2:egg x:egg -:egg 6:dozen *:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 12 | 72 | 9 | ((x*2)-6)=12 | x 2 * 6 - 12 = | x:egg 2:people *:egg 6:egg -:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 12 | 72 | 3 | ((x*2)+6)=12 | x 2 * 6 + 12 = | x:egg 2:people *:egg 6:egg +:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 12 | 72 | 36 | ((x/2)-6)=12 | x 2 / 6 - 12 = | x:egg 2:people /:egg 6:egg -:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 14 | 72 | 1 | ((x*6)*2)=12 | x 6 * 2 * 12 = | x:egg 6:dozen *:dozen 2:egg *:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 14 | 72 | 9 | ((2*x)-12)=6 | 2 x * 12 - 6 = | 2:people x:egg *:egg 12:egg -:egg 6:egg =:egg
+EXPR: 0 | POS | INT | 14 | 72 | 4 | (6*(x-2))=12 | 6 x 2 - * 12 = | 6:dozen x:egg 2:egg -:egg *:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 14 | 72 |  | (6*(x+2))=12 | 6 x 2 + * 12 = | 6:dozen x:egg 2:egg +:egg *:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 14 | 72 | 144 | (2*12)=(x/6) | 2 12 * x 6 / = | 2:people 12:egg *:egg x:egg 6:dozen /:egg =:egg
+EXPR: 0 | POS | INT | 14 | 72 | 4 | (2*12)=(x*6) | 2 12 * x 6 * = | 2:people 12:egg *:egg x:egg 6:dozen *:egg =:egg
+EXPR: 0 | POS | INT | 14 | 72 | 48 | (x/(6-2))=12 | x 6 2 - / 12 = | x:egg 6:dozen 2:dozen -:dozen /:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 14 | 72 | 4 | (6*x)=(2*12) | 6 x * 2 12 * = | 6:dozen x:egg *:egg 2:people 12:egg *:egg =:egg
+EXPR: 0 | POS | INT | 14 | 72 | 1 | (2*x)=(12/6) | 2 x * 12 6 / = | 2:people x:egg *:egg 12:egg 6:dozen /:egg =:egg
+EXPR: 0 | POS | INT | 14 | 72 | 18 | ((2*12)-x)=6 | 2 12 * x - 6 = | 2:people 12:egg *:egg x:egg -:egg 6:egg =:egg
+EXPR: 0 | POS | INT | 14 | 72 | 3 | ((6-2)*x)=12 | 6 2 - x * 12 = | 6:people 2:people -:people x:egg *:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 14 | 72 | 9 | (x+(6/2))=12 | x 6 2 / + 12 = | x:egg 6:egg 2:people /:egg +:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 14 | 72 | 3 | (x*(6-2))=12 | x 6 2 - * 12 = | x:egg 6:dozen 2:dozen -:dozen *:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 14 | 72 | 15 | (x-(6/2))=12 | x 6 2 / - 12 = | x:egg 6:egg 2:people /:egg -:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 14 | 72 | 4 | (2*12)=(6*x) | 2 12 * 6 x * = | 2:people 12:egg *:egg 6:dozen x:egg *:egg =:egg
+EXPR: 0 | POS | INT | 14 | 72 | 144 | (x/6)=(2*12) | x 6 / 2 12 * = | x:egg 6:dozen /:egg 2:people 12:egg *:egg =:egg
+EXPR: 0 | POS | INT | 14 | 72 |  | ((x+6)*2)=12 | x 6 + 2 * 12 = | x:egg 6:egg +:egg 2:people *:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 14 | 72 | 18 | ((x+6)/2)=12 | x 6 + 2 / 12 = | x:egg 6:egg +:egg 2:people /:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 14 | 72 | 9 | ((6/2)+x)=12 | 6 2 / x + 12 = | 6:egg 2:people /:egg x:egg +:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 14 | 72 | 15 | (2*(x-12))=6 | 2 x 12 - * 6 = | 2:people x:egg 12:egg -:egg *:egg 6:egg =:egg
+EXPR: 0 | POS | INT | 14 | 72 | 9 | (2*(12-x))=6 | 2 12 x - * 6 = | 2:people 12:egg x:egg -:egg *:egg 6:egg =:egg
+EXPR: 0 | POS | INT | 14 | 72 | 1 | (x*2)=(12/6) | x 2 * 12 6 / = | x:egg 2:people *:egg 12:egg 6:dozen /:egg =:egg
+EXPR: 0 | POS | INT | 14 | 72 |  | (6*(2-x))=12 | 6 2 x - * 12 = | 6:dozen 2:egg x:egg -:egg *:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 14 | 72 |  | (6*(2+x))=12 | 6 2 x + * 12 = | 6:dozen 2:egg x:egg +:egg *:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 14 | 72 |  | ((6-x)*2)=12 | 6 x - 2 * 12 = | 6:egg x:egg -:egg 2:people *:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 14 | 72 | 3 | (6+(2*x))=12 | 6 2 x * + 12 = | 6:egg 2:people x:egg *:egg +:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 14 | 72 | 12 | (6+(x/2))=12 | 6 x 2 / + 12 = | 6:egg x:egg 2:people /:egg +:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 14 | 72 | 18 | 6=((2*12)-x) | 6 2 12 * x - = | 6:egg 2:people 12:egg *:egg x:egg -:egg =:egg
+EXPR: 0 | POS | INT | 14 | 72 | 9 | 6=((x*2)-12) | 6 x 2 * 12 - = | 6:egg x:egg 2:people *:egg 12:egg -:egg =:egg
+EXPR: 0 | POS | INT | 14 | 72 | 3 | (6+(x*2))=12 | 6 x 2 * + 12 = | 6:egg x:egg 2:people *:egg +:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 14 | 72 | 9 | 6=((2*x)-12) | 6 2 x * 12 - = | 6:egg 2:people x:egg *:egg 12:egg -:egg =:egg
+EXPR: 0 | POS | INT | 14 | 72 | 0 | 2=((12/6)-x) | 2 12 6 / x - = | 2:egg 12:egg 6:dozen /:egg x:egg -:egg =:egg
+EXPR: 0 | POS | INT | 14 | 72 | 0 | 2=((12/6)+x) | 2 12 6 / x + = | 2:egg 12:egg 6:dozen /:egg x:egg +:egg =:egg
+EXPR: 0 | POS | INT | 14 | 72 | 36 | 6=((x/2)-12) | 6 x 2 / 12 - = | 6:egg x:egg 2:people /:egg 12:egg -:egg =:egg
+EXPR: 0 | POS | INT | 14 | 72 | 4 | (x/2)=(12/6) | x 2 / 12 6 / = | x:egg 2:people /:egg 12:egg 6:dozen /:egg =:egg
+EXPR: 0 | POS | INT | 14 | 72 | 15 | 6=(2*(x-12)) | 6 2 x 12 - * = | 6:egg 2:people x:egg 12:egg -:egg *:egg =:egg
+EXPR: 0 | POS | INT | 14 | 72 | 9 | 6=(2*(12-x)) | 6 2 12 x - * = | 6:egg 2:people 12:egg x:egg -:egg *:egg =:egg
+EXPR: 0 | POS | INT | 14 | 72 | 60 | 2=(12-(x/6)) | 2 12 x 6 / - = | 2:egg 12:egg x:egg 6:dozen /:egg -:egg =:egg
+EXPR: 0 | POS | INT | 14 | 72 | 36 | ((x/2)-12)=6 | x 2 / 12 - 6 = | x:egg 2:people /:egg 12:egg -:egg 6:egg =:egg
+EXPR: 0 | POS | INT | 15 | 72 | 12 | x=((12/2)+6) | x 12 2 / 6 + = | x:egg 12:egg 2:people /:egg 6:egg +:egg =:egg
+EXPR: 0 | POS | INT | 15 | 72 | 74 | x=((6*12)+2) | x 6 12 * 2 + = | x:egg 6:dozen 12:egg *:egg 2:egg +:egg =:egg
+EXPR: 0 | POS | INT | 15 | 72 | 60 | (6*(12-2))=x | 6 12 2 - * x = | 6:dozen 12:egg 2:egg -:egg *:egg x:egg =:egg
+EXPR: 0 | POS | INT | 15 | 72 |  | x=(6-(12/2)) | x 6 12 2 / - = | x:egg 6:egg 12:egg 2:people /:egg -:egg =:egg
+EXPR: 0 | POS | INT | 15 | 72 | 12 | x=(6+(12/2)) | x 6 12 2 / + = | x:egg 6:egg 12:egg 2:people /:egg +:egg =:egg
+EXPR: 0 | POS | INT | 15 | 72 | 60 | x=(6*(12-2)) | x 6 12 2 - * = | x:egg 6:dozen 12:egg 2:egg -:egg *:egg =:egg
+EXPR: 0 | POS | INT | 15 | 72 |  | x=(12-(2*6)) | x 12 2 6 * - = | x:egg 12:egg 2:people 6:egg *:egg -:egg =:egg
+EXPR: 0 | POS | INT | 15 | 72 | 24 | x=(12+(2*6)) | x 12 2 6 * + = | x:egg 12:egg 2:people 6:egg *:egg +:egg =:egg
+EXPR: 0 | POS | INT | 15 | 72 | 60 | ((12-2)*6)=x | 12 2 - 6 * x = | 12:egg 2:egg -:egg 6:dozen *:egg x:egg =:egg
+EXPR: 0 | POS | INT | 15 | 72 | 96 | x=(12*(2+6)) | x 12 2 6 + * = | x:egg 12:egg 2:dozen 6:dozen +:dozen *:egg =:egg
+EXPR: 0 | POS | INT | 15 | 72 | 60 | x=((12-2)*6) | x 12 2 - 6 * = | x:egg 12:egg 2:egg -:egg 6:dozen *:egg =:egg
+EXPR: 0 | POS | INT | 15 | 72 | 144 | x=((6*12)*2) | x 6 12 * 2 * = | x:egg 6:dozen 12:egg *:dozen 2:egg *:egg =:egg
+EXPR: 0 | POS | INT | 15 | 72 | 0 | ((12/2)-6)=x | 12 2 / 6 - x = | 12:egg 2:people /:egg 6:egg -:egg x:egg =:egg
+EXPR: 0 | POS | INT | 15 | 72 | 36 | x=((6+12)*2) | x 6 12 + 2 * = | x:egg 6:egg 12:egg +:egg 2:people *:egg =:egg
+EXPR: 0 | POS | INT | 15 | 72 | 74 | ((6*12)+2)=x | 6 12 * 2 + x = | 6:dozen 12:egg *:egg 2:egg +:egg x:egg =:egg
+EXPR: 0 | POS | INT | 15 | 72 | 12 | (6+(12/2))=x | 6 12 2 / + x = | 6:egg 12:egg 2:people /:egg +:egg x:egg =:egg
+EXPR: 0 | POS | INT | 15 | 72 | 0 | (12-(2*6))=x | 12 2 6 * - x = | 12:egg 2:people 6:egg *:egg -:egg x:egg =:egg
+EXPR: 0 | POS | INT | 15 | 72 | 96 | (12*(2+6))=x | 12 2 6 + * x = | 12:egg 2:people 6:people +:people *:egg x:egg =:egg
+EXPR: 0 | POS | INT | 15 | 72 | 24 | (12+(2*6))=x | 12 2 6 * + x = | 12:egg 2:egg 6:dozen *:egg +:egg x:egg =:egg
+EXPR: 0 | POS | INT | 15 | 72 | 0 | (6-(12/2))=x | 6 12 2 / - x = | 6:egg 12:egg 2:people /:egg -:egg x:egg =:egg
+EXPR: 0 | POS | INT | 17 | 72 | 15 | ((x-12)*2)=6 | x 12 - 2 * 6 = | x:egg 12:egg -:egg 2:people *:egg 6:egg =:egg
+EXPR: 0 | POS | INT | 17 | 72 | 24 | ((x-12)/2)=6 | x 12 - 2 / 6 = | x:egg 12:egg -:egg 2:people /:egg 6:egg =:egg
+EXPR: 0 | POS | INT | 17 | 72 | 9 | x=(12-(6/2)) | x 12 6 2 / - = | x:egg 12:egg 6:egg 2:people /:egg -:egg =:egg
+EXPR: 0 | POS | INT | 17 | 72 | 15 | x=(12+(6/2)) | x 12 6 2 / + = | x:egg 12:egg 6:egg 2:people /:egg +:egg =:egg
+EXPR: 0 | POS | INT | 17 | 72 | 4 | x=((12/6)+2) | x 12 6 / 2 + = | x:egg 12:egg 6:dozen /:egg 2:egg +:egg =:egg
+EXPR: 0 | POS | INT | 17 | 72 | 96 | 12=(x/(2+6)) | 12 x 2 6 + / = | 12:egg x:egg 2:people 6:people +:people /:egg =:egg
+EXPR: 0 | POS | INT | 17 | 72 | 1 | (6*x)=(12/2) | 6 x * 12 2 / = | 6:dozen x:egg *:egg 12:egg 2:people /:egg =:egg
+EXPR: 0 | POS | INT | 17 | 72 |  | (x+(12/2))=6 | x 12 2 / + 6 = | x:egg 12:egg 2:people /:egg +:egg 6:egg =:egg
+EXPR: 0 | POS | INT | 17 | 72 | 36 | (6*12)=(2*x) | 6 12 * 2 x * = | 6:dozen 12:egg *:egg 2:people x:egg *:egg =:egg
+EXPR: 0 | POS | INT | 17 | 72 | 12 | ((12-6)*2)=x | 12 6 - 2 * x = | 12:egg 6:egg -:egg 2:people *:egg x:egg =:egg
+EXPR: 0 | POS | INT | 17 | 72 | 3 | x=((12-6)/2) | x 12 6 - 2 / = | x:egg 12:egg 6:egg -:egg 2:people /:egg =:egg
+EXPR: 0 | POS | INT | 17 | 72 | 9 | ((12-x)*2)=6 | 12 x - 2 * 6 = | 12:egg x:egg -:egg 2:people *:people 6:people =:people
+EXPR: 0 | POS | INT | 17 | 72 | 12 | (x-(12/2))=6 | x 12 2 / - 6 = | x:egg 12:egg 2:people /:egg -:egg 6:egg =:egg
+EXPR: 0 | POS | INT | 17 | 72 | 3 | x=(12/(6-2)) | x 12 6 2 - / = | x:egg 12:egg 6:people 2:people -:people /:egg =:egg
+EXPR: 0 | POS | INT | 17 | 72 | 1 | (12/2)=(6*x) | 12 2 / 6 x * = | 12:egg 2:people /:egg 6:dozen x:egg *:egg =:egg
+EXPR: 0 | POS | INT | 17 | 72 | 12 | x=((12-6)*2) | x 12 6 - 2 * = | x:egg 12:egg 6:egg -:egg 2:people *:egg =:egg
+EXPR: 0 | POS | INT | 17 | 72 | 48 | x=(12*(6-2)) | x 12 6 2 - * = | x:egg 12:egg 6:people 2:people -:people *:egg =:egg
+EXPR: 0 | POS | INT | 17 | 72 | 36 | (6*12)=(x*2) | 6 12 * x 2 * = | 6:dozen 12:egg *:egg x:egg 2:people *:egg =:egg
+EXPR: 0 | POS | INT | 17 | 72 | 144 | (6*12)=(x/2) | 6 12 * x 2 / = | 6:dozen 12:egg *:egg x:egg 2:people /:egg =:egg
+EXPR: 0 | POS | INT | 17 | 72 |  | ((12/2)+x)=6 | 12 2 / x + 6 = | 12:egg 2:people /:egg x:egg +:egg 6:egg =:egg
+EXPR: 0 | POS | INT | 17 | 72 | 70 | ((6*12)-x)=2 | 6 12 * x - 2 = | 6:dozen 12:egg *:egg x:egg -:egg 2:egg =:egg
+EXPR: 0 | POS | INT | 17 | 72 | 0 | ((12/6)-2)=x | 12 6 / 2 - x = | 12:egg 6:dozen /:egg 2:egg -:egg x:egg =:egg
+EXPR: 0 | POS | INT | 17 | 72 | 1 | (x*6)=(12/2) | x 6 * 12 2 / = | x:egg 6:dozen *:egg 12:egg 2:people /:egg =:egg
+EXPR: 0 | POS | INT | 17 | 72 | 36 | (x/6)=(12/2) | x 6 / 12 2 / = | x:egg 6:dozen /:egg 12:egg 2:people /:egg =:egg
+EXPR: 0 | POS | INT | 17 | 72 | 15 | (6/(x-12))=2 | 6 x 12 - / 2 = | 6:people x:egg 12:egg -:egg /:people 2:people =:people
+EXPR: 0 | POS | INT | 17 | 72 | 12 | (12-(x/2))=6 | 12 x 2 / - 6 = | 12:egg x:egg 2:people /:egg -:egg 6:egg =:egg
+EXPR: 0 | POS | INT | 17 | 72 | 15 | (12+(6/2))=x | 12 6 2 / + x = | 12:egg 6:egg 2:people /:egg +:egg x:egg =:egg
+EXPR: 0 | POS | INT | 17 | 72 | 9 | (6/(12-x))=2 | 6 12 x - / 2 = | 6:people 12:egg x:egg -:egg /:people 2:people =:people
+EXPR: 0 | POS | INT | 17 | 72 | 1 | 12=((2*x)*6) | 12 2 x * 6 * = | 12:dozen 2:people x:egg *:people 6:dozen *:dozen =:dozen
+EXPR: 0 | POS | INT | 17 | 72 | 48 | (12*(6-2))=x | 12 6 2 - * x = | 12:egg 6:people 2:people -:people *:egg x:egg =:egg
+EXPR: 0 | POS | INT | 17 | 72 | 3 | (12/(6-2))=x | 12 6 2 - / x = | 12:egg 6:people 2:people -:people /:egg x:egg =:egg
+EXPR: 0 | POS | INT | 17 | 72 | 0 | 12=((2*6)-x) | 12 2 6 * x - = | 12:egg 2:people 6:egg *:egg x:egg -:egg =:egg
+EXPR: 0 | POS | INT | 17 | 72 | 0 | 12=((2*6)+x) | 12 2 6 * x + = | 12:egg 2:people 6:egg *:egg x:egg +:egg =:egg
+EXPR: 0 | POS | INT | 17 | 72 | 9 | 12=((2*x)-6) | 12 2 x * 6 - = | 12:egg 2:people x:egg *:egg 6:egg -:egg =:egg
+EXPR: 0 | POS | INT | 17 | 72 | 3 | 12=((2*x)+6) | 12 2 x * 6 + = | 12:egg 2:people x:egg *:egg 6:egg +:egg =:egg
+EXPR: 0 | POS | INT | 17 | 72 | 3 | 6=(12-(x*2)) | 6 12 x 2 * - = | 6:egg 12:egg x:egg 2:people *:egg -:egg =:egg
+EXPR: 0 | POS | INT | 17 | 72 | 3 | (12-(x*2))=6 | 12 x 2 * - 6 = | 12:egg x:egg 2:people *:egg -:egg 6:egg =:egg
+EXPR: 0 | POS | INT | 17 | 72 | 36 | (12/2)=(x/6) | 12 2 / x 6 / = | 12:egg 2:people /:egg x:egg 6:dozen /:egg =:egg
+EXPR: 0 | POS | INT | 17 | 72 | 1 | (12/2)=(x*6) | 12 2 / x 6 * = | 12:egg 2:people /:egg x:egg 6:dozen *:egg =:egg
+EXPR: 0 | POS | INT | 17 | 72 | 9 | 6=((12-x)*2) | 6 12 x - 2 * = | 6:dozen 12:egg x:egg -:egg 2:dozen *:dozen =:dozen
+EXPR: 0 | POS | INT | 17 | 72 | 9 | (12-(6/2))=x | 12 6 2 / - x = | 12:egg 6:egg 2:people /:egg -:egg x:egg =:egg
+EXPR: 0 | POS | INT | 17 | 72 | 0 | 6=((12/2)-x) | 6 12 2 / x - = | 6:egg 12:egg 2:people /:egg x:egg -:egg =:egg
+EXPR: 0 | POS | INT | 17 | 72 | 0 | 6=((12/2)+x) | 6 12 2 / x + = | 6:egg 12:egg 2:people /:egg x:egg +:egg =:egg
+EXPR: 0 | POS | INT | 17 | 72 | 36 | 12=((x/2)-6) | 12 x 2 / 6 - = | 12:egg x:egg 2:people /:egg 6:egg -:egg =:egg
+EXPR: 0 | POS | INT | 17 | 72 | 12 | 12=((x/2)+6) | 12 x 2 / 6 + = | 12:egg x:egg 2:people /:egg 6:egg +:egg =:egg
+EXPR: 0 | POS | INT | 17 | 72 | 60 | 12=(2+(x/6)) | 12 2 x 6 / + = | 12:egg 2:egg x:egg 6:dozen /:egg +:egg =:egg
+EXPR: 0 | POS | INT | 17 | 72 | 0 | 12=(2*(x+6)) | 12 2 x 6 + * = | 12:egg 2:people x:egg 6:egg +:egg *:egg =:egg
+EXPR: 0 | POS | INT | 17 | 72 | 12 | 6=(12-(x/2)) | 6 12 x 2 / - = | 6:egg 12:egg x:egg 2:people /:egg -:egg =:egg
+EXPR: 0 | POS | INT | 17 | 72 | 3 | (12-(2*x))=6 | 12 2 x * - 6 = | 12:egg 2:people x:egg *:egg -:egg 6:egg =:egg
+EXPR: 0 | POS | INT | 19 | 72 |  | ((12-x)/6)=2 | 12 x - 6 / 2 = | 12:egg x:egg -:egg 6:dozen /:egg 2:egg =:egg
+EXPR: 0 | POS | INT | 19 | 72 |  | ((12+x)/6)=2 | 12 x + 6 / 2 = | 12:egg x:egg +:egg 6:dozen /:egg 2:egg =:egg
+EXPR: 0 | POS | INT | 19 | 72 | 48 | 12=(x/(6-2)) | 12 x 6 2 - / = | 12:egg x:egg 6:people 2:people -:people /:egg =:egg
+EXPR: 0 | POS | INT | 19 | 72 | 3 | 12=(x*(6-2)) | 12 x 6 2 - * = | 12:egg x:egg 6:people 2:people -:people *:egg =:egg
+EXPR: 0 | POS | INT | 19 | 72 | 4 | (x-(12/6))=2 | x 12 6 / - 2 = | x:egg 12:egg 6:dozen /:egg -:egg 2:egg =:egg
+EXPR: 0 | POS | INT | 19 | 72 |  | (x+(12/6))=2 | x 12 6 / + 2 = | x:egg 12:egg 6:dozen /:egg +:egg 2:egg =:egg
+EXPR: 0 | POS | INT | 19 | 72 |  | ((12/6)+x)=2 | 12 6 / x + 2 = | 12:egg 6:dozen /:egg x:egg +:egg 2:egg =:egg
+EXPR: 0 | POS | INT | 19 | 72 |  | ((x+12)/6)=2 | x 12 + 6 / 2 = | x:egg 12:egg +:egg 6:dozen /:egg 2:egg =:egg
+EXPR: 0 | POS | INT | 19 | 72 | 24 | ((x-12)/6)=2 | x 12 - 6 / 2 = | x:egg 12:egg -:egg 6:dozen /:egg 2:egg =:egg
+EXPR: 0 | POS | INT | 19 | 72 | 1 | 12=((6*x)*2) | 12 6 x * 2 * = | 12:people 6:dozen x:egg *:dozen 2:people *:people =:people
+EXPR: 0 | POS | INT | 19 | 72 | 3 | 12=(6+(x*2)) | 12 6 x 2 * + = | 12:egg 6:egg x:egg 2:people *:egg +:egg =:egg
+EXPR: 0 | POS | INT | 19 | 72 | 4 | (12/6)=(x/2) | 12 6 / x 2 / = | 12:egg 6:dozen /:egg x:egg 2:people /:egg =:egg
+EXPR: 0 | POS | INT | 19 | 72 | 1 | (12/6)=(x*2) | 12 6 / x 2 * = | 12:egg 6:dozen /:egg x:egg 2:people *:egg =:egg
+EXPR: 0 | POS | INT | 19 | 72 | 9 | 12=((6/2)+x) | 12 6 2 / x + = | 12:egg 6:egg 2:people /:egg x:egg +:egg =:egg
+EXPR: 0 | POS | INT | 19 | 72 | 84 | 12=((x/6)-2) | 12 x 6 / 2 - = | 12:egg x:egg 6:dozen /:egg 2:egg -:egg =:egg
+EXPR: 0 | POS | INT | 19 | 72 | 60 | 12=((x/6)+2) | 12 x 6 / 2 + = | 12:egg x:egg 6:dozen /:egg 2:egg +:egg =:egg
+EXPR: 0 | POS | INT | 19 | 72 | 15 | 12=(x-(6/2)) | 12 x 6 2 / - = | 12:egg x:egg 6:egg 2:people /:egg -:egg =:egg
+EXPR: 0 | POS | INT | 19 | 72 | 9 | 12=(x+(6/2)) | 12 x 6 2 / + = | 12:egg x:egg 6:egg 2:people /:egg +:egg =:egg
+EXPR: 0 | POS | INT | 19 | 72 | 12 | 12=(6+(x/2)) | 12 6 x 2 / + = | 12:egg 6:egg x:egg 2:people /:egg +:egg =:egg
+EXPR: 0 | POS | INT | 19 | 72 | 0 | 12=(6*(x+2)) | 12 6 x 2 + * = | 12:egg 6:dozen x:egg 2:egg +:egg *:egg =:egg
+EXPR: 0 | POS | INT | 19 | 72 | 4 | 12=(6*(x-2)) | 12 6 x 2 - * = | 12:egg 6:dozen x:egg 2:egg -:egg *:egg =:egg
+EXPR: 0 | POS | INT | 20 | 72 | 20 | x=((2+6)+12) | x 2 6 + 12 + = | x:egg 2:egg 6:egg +:egg 12:egg +:egg =:egg
+EXPR: 0 | POS | INT | 20 | 72 | 8 | ((2-6)+12)=x | 2 6 - 12 + x = | 2:egg 6:egg -:egg 12:egg +:egg x:egg =:egg
+EXPR: 0 | POS | INT | 20 | 72 | 20 | ((2+6)+12)=x | 2 6 + 12 + x = | 2:egg 6:egg +:egg 12:egg +:egg x:egg =:egg
+EXPR: 0 | POS | INT | 20 | 72 | 8 | x=((2-6)+12) | x 2 6 - 12 + = | x:egg 2:egg 6:egg -:egg 12:egg +:egg =:egg
+EXPR: 0 | POS | INT | 20 | 72 | 20 | x=(2+(6+12)) | x 2 6 12 + + = | x:egg 2:egg 6:egg 12:egg +:egg +:egg =:egg
+EXPR: 0 | POS | INT | 20 | 72 | 8 | (2-(6-12))=x | 2 6 12 - - x = | 2:egg 6:egg 12:egg -:egg -:egg x:egg =:egg
+EXPR: 0 | POS | INT | 20 | 72 | 20 | (2+(6+12))=x | 2 6 12 + + x = | 2:egg 6:egg 12:egg +:egg +:egg x:egg =:egg
+EXPR: 0 | POS | INT | 20 | 72 | 8 | x=(2-(6-12)) | x 2 6 12 - - = | x:egg 2:egg 6:egg 12:egg -:egg -:egg =:egg
+EXPR: 0 | POS | INT | 22 | 72 | 4 | ((x+2)+6)=12 | x 2 + 6 + 12 = | x:egg 2:egg +:egg 6:egg +:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 22 | 72 | 20 | ((x-2)-6)=12 | x 2 - 6 - 12 = | x:egg 2:egg -:egg 6:egg -:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 22 | 72 | 8 | x=(2+(12-6)) | x 2 12 6 - + = | x:egg 2:egg 12:egg 6:egg -:egg +:egg =:egg
+EXPR: 0 | POS | INT | 22 | 72 | 16 | x=((6-2)+12) | x 6 2 - 12 + = | x:egg 6:egg 2:egg -:egg 12:egg +:egg =:egg
+EXPR: 0 | POS | INT | 22 | 72 | 16 | ((6-2)+12)=x | 6 2 - 12 + x = | 6:egg 2:egg -:egg 12:egg +:egg x:egg =:egg
+EXPR: 0 | POS | INT | 22 | 72 | 16 | ((2-6)+x)=12 | 2 6 - x + 12 = | 2:egg 6:egg -:egg x:egg +:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 22 | 72 | 4 | ((2+x)+6)=12 | 2 x + 6 + 12 = | 2:egg x:egg +:egg 6:egg +:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 22 | 72 | 20 | x=((2+12)+6) | x 2 12 + 6 + = | x:egg 2:egg 12:egg +:egg 6:egg +:egg =:egg
+EXPR: 0 | POS | INT | 22 | 72 | 4 | ((2+6)+x)=12 | 2 6 + x + 12 = | 2:egg 6:egg +:egg x:egg +:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 22 | 72 | 0 | (2*6)=(12+x) | 2 6 * 12 x + = | 2:people 6:egg *:egg 12:egg x:egg +:egg =:egg
+EXPR: 0 | POS | INT | 22 | 72 | 0 | (2*6)=(12-x) | 2 6 * 12 x - = | 2:people 6:egg *:egg 12:egg x:egg -:egg =:egg
+EXPR: 0 | POS | INT | 22 | 72 | 9 | (x*2)=(6+12) | x 2 * 6 12 + = | x:egg 2:people *:egg 6:egg 12:egg +:egg =:egg
+EXPR: 0 | POS | INT | 22 | 72 | 36 | 2=(x/(6+12)) | 2 x 6 12 + / = | 2:egg x:egg 6:dozen 12:dozen +:dozen /:egg =:egg
+EXPR: 0 | POS | INT | 22 | 72 | 20 | x=(6+(2+12)) | x 6 2 12 + + = | x:egg 6:egg 2:egg 12:egg +:egg +:egg =:egg
+EXPR: 0 | POS | INT | 22 | 72 | 4 | (x+(2+6))=12 | x 2 6 + + 12 = | x:egg 2:egg 6:egg +:egg +:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 22 | 72 | 20 | (x-(2+6))=12 | x 2 6 + - 12 = | x:egg 2:egg 6:egg +:egg -:egg 12:egg =:egg
+EXPR: 0 | POS | INT | 22 | 72 | 1 | (2*6)=(12*x) | 2 6 * 12 x * = | 2:people 6:dozen *:people 12:egg x:people *:people =:people
+EXPR: 0 | POS | INT | 22 | 72 | 16 | x=(6-(2-12)) | x 6 2 12 - - = | x:egg 6:egg 2:egg 12:egg -:egg -:egg =:egg
+EXPR: 0 | POS | INT | 22 | 72 | 20 | ((2+12)+6)=x | 2 12 + 6 + x = | 2:egg 12:egg +:egg 6:egg +:egg x:egg =:egg
+NET 223 unique, non-negative, integer-valued solutions found out of 1000 total solutions

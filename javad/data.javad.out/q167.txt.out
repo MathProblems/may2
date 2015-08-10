@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 22 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 3731 | 8681 | x=(2475+6206) | x 2475 6206 + = | x:gallon 2475:gallon 6206:gallon +:gallon =:gallon
+EXPR: 0 | POS | INT | 1 | 3731 | 8681 | x=(2475+6206) | x 2475 6206 + = | x:gallon 2475:gallon 6206:gallon +:gallon =:gallon
+EXPR: 1 | POS | INT | 2 | 3731 | 3731 | (2475+x)=6206 | 2475 x + 6206 = | 2475:gallon x:gallon +:gallon 6206:gallon =:gallon
+EXPR: 0 | POS | INT | 2 | 3731 | 8681 | (x-2475)=6206 | x 2475 - 6206 = | x:gallon 2475:gallon -:gallon 6206:gallon =:gallon
+EXPR: 1 | POS | INT | 2 | 3731 | 3731 | (x+2475)=6206 | x 2475 + 6206 = | x:gallon 2475:gallon +:gallon 6206:gallon =:gallon
+EXPR: 1 | POS | INT | 2 | 3731 | 3731 | 2475=(6206-x) | 2475 6206 x - = | 2475:gallon 6206:gallon x:gallon -:gallon =:gallon
+EXPR: 0 | POS | INT | 2 | 3731 | 8681 | 2475=(x-6206) | 2475 x 6206 - = | 2475:gallon x:gallon 6206:gallon -:gallon =:gallon
+EXPR: 1 | POS | INT | 10 | 3731 | 3731 | x=(6206-2475) | x 6206 2475 - = | x:gallon 6206:gallon 2475:gallon -:gallon =:gallon
+EXPR: 1 | POS | INT | 11 | 3731 | 3731 | x=(6206-2475) | x 6206 2475 - = | x:gallon 6206:gallon 2475:gallon -:gallon =:gallon
+EXPR: 1 | POS | INT | 12 | 3731 | 3731 | 6206=(x+2475) | 6206 x 2475 + = | 6206:gallon x:gallon 2475:gallon +:gallon =:gallon
+EXPR: 0 | POS | INT | 12 | 3731 | 8681 | 6206=(x-2475) | 6206 x 2475 - = | 6206:gallon x:gallon 2475:gallon -:gallon =:gallon
+EXPR: 1 | POS | INT | 12 | 3731 | 3731 | (6206-x)=2475 | 6206 x - 2475 = | 6206:gallon x:gallon -:gallon 2475:gallon =:gallon
+EXPR: 0 | POS | INT | 12 | 3731 | 8681 | (x-6206)=2475 | x 6206 - 2475 = | x:gallon 6206:gallon -:gallon 2475:gallon =:gallon
+EXPR: 1 | POS | INT | 12 | 3731 | 3731 | 6206=(2475+x) | 6206 2475 x + = | 6206:gallon 2475:gallon x:gallon +:gallon =:gallon
+NET 14 non-negative, integer-valued solutions found out of 22 total solutions

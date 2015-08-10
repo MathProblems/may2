@@ -1,0 +1,46 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 100 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 24 | 30 | x=(5*6) | x 5 6 * = | x:card 5:people 6:card *:card =:card
+EXPR: 0 | POS | INT | 1 | 24 | 30 | x=(5*6) | x 5 6 * = | x:card 5:people 6:card *:card =:card
+EXPR: 0 | POS | INT | 2 | 24 | 30 | (x/5)=6 | x 5 / 6 = | x:card 5:people /:card 6:card =:card
+EXPR: 0 | POS | INT | 10 | 24 | 11 | x=(5+6) | x 5 6 + = | x:card 5:card 6:card +:card =:card
+EXPR: 0 | POS | INT | 10 | 24 | 30 | x=(5*6) | x 5 6 * = | x:people 5:people 6:card *:people =:people
+EXPR: 0 | POS | INT | 11 | 24 | 11 | x=(5+6) | x 5 6 + = | x:card 5:card 6:card +:card =:card
+EXPR: 0 | POS | INT | 11 | 24 | 30 | x=(5*6) | x 5 6 * = | x:people 5:people 6:card *:people =:people
+EXPR: 0 | POS | INT | 12 | 24 | 11 | 5=(x-6) | 5 x 6 - = | 5:card x:card 6:card -:card =:card
+EXPR: 0 | POS | INT | 12 | 24 | 30 | 5=(x/6) | 5 x 6 / = | 5:people x:people 6:card /:people =:people
+EXPR: 0 | POS | INT | 12 | 24 | 1 | 5=(6-x) | 5 6 x - = | 5:card 6:card x:card -:card =:card
+EXPR: 0 | POS | INT | 12 | 24 | 30 | 6=(x/5) | 6 x 5 / = | 6:card x:card 5:people /:card =:card
+EXPR: 0 | POS | INT | 12 | 24 | 1 | (x+5)=6 | x 5 + 6 = | x:card 5:card +:card 6:card =:card
+EXPR: 0 | POS | INT | 12 | 24 | 1 | (5+x)=6 | 5 x + 6 = | 5:card x:card +:card 6:card =:card
+EXPR: 0 | POS | INT | 12 | 24 | 11 | (x-5)=6 | x 5 - 6 = | x:card 5:card -:card 6:card =:card
+EXPR: 0 | POS | INT | 20 | 24 | 1 | x=(6-5) | x 6 5 - = | x:card 6:card 5:card -:card =:card
+EXPR: 0 | POS | INT | 20 | 24 | 11 | x=(5+6) | x 5 6 + = | x:people 5:people 6:people +:people =:people
+EXPR: 0 | POS | INT | 20 | 24 | 30 | x=(5*6) | x 5 6 * = | x:card 5:card 6:people *:card =:card
+EXPR: 0 | POS | INT | 21 | 24 | 1 | x=(6-5) | x 6 5 - = | x:card 6:card 5:card -:card =:card
+EXPR: 0 | POS | INT | 21 | 24 | 11 | x=(5+6) | x 5 6 + = | x:people 5:people 6:people +:people =:people
+EXPR: 0 | POS | INT | 21 | 24 | 30 | x=(5*6) | x 5 6 * = | x:card 5:card 6:people *:card =:card
+EXPR: 0 | POS | INT | 22 | 24 | 11 | 5=(x-6) | 5 x 6 - = | 5:people x:people 6:people -:people =:people
+EXPR: 0 | POS | INT | 22 | 24 | 11 | 6=(x-5) | 6 x 5 - = | 6:card x:card 5:card -:card =:card
+EXPR: 0 | POS | INT | 22 | 24 | 30 | 5=(x/6) | 5 x 6 / = | 5:card x:card 6:people /:card =:card
+EXPR: 0 | POS | INT | 22 | 24 | 1 | 6=(5+x) | 6 5 x + = | 6:card 5:card x:card +:card =:card
+EXPR: 0 | POS | INT | 22 | 24 | 1 | 5=(6-x) | 5 6 x - = | 5:people 6:people x:people -:people =:people
+EXPR: 0 | POS | INT | 22 | 24 | 1 | (x+5)=6 | x 5 + 6 = | x:people 5:people +:people 6:people =:people
+EXPR: 0 | POS | INT | 22 | 24 | 1 | (5+x)=6 | 5 x + 6 = | 5:people x:people +:people 6:people =:people
+EXPR: 0 | POS | INT | 22 | 24 | 11 | (x-6)=5 | x 6 - 5 = | x:card 6:card -:card 5:card =:card
+EXPR: 0 | POS | INT | 22 | 24 | 1 | 6=(x+5) | 6 x 5 + = | 6:card x:card 5:card +:card =:card
+EXPR: 0 | POS | INT | 22 | 24 | 30 | (x/6)=5 | x 6 / 5 = | x:people 6:card /:people 5:people =:people
+EXPR: 0 | POS | INT | 22 | 24 | 1 | (6-x)=5 | 6 x - 5 = | 6:card x:card -:card 5:card =:card
+EXPR: 0 | POS | INT | 22 | 24 | 11 | (x-5)=6 | x 5 - 6 = | x:people 5:people -:people 6:people =:people
+EXPR: 0 | POS | INT | 30 | 24 | 30 | x=(5*6) | x 5 6 * = | x:people 5:card 6:people *:people =:people
+EXPR: 0 | POS | INT | 30 | 24 | 1 | x=(6-5) | x 6 5 - = | x:people 6:people 5:people -:people =:people
+EXPR: 0 | POS | INT | 31 | 24 | 30 | x=(5*6) | x 5 6 * = | x:people 5:card 6:people *:people =:people
+EXPR: 0 | POS | INT | 31 | 24 | 1 | x=(6-5) | x 6 5 - = | x:people 6:people 5:people -:people =:people
+EXPR: 0 | POS | INT | 32 | 24 | 1 | 6=(5+x) | 6 5 x + = | 6:people 5:people x:people +:people =:people
+EXPR: 0 | POS | INT | 32 | 24 | 11 | 6=(x-5) | 6 x 5 - = | 6:people x:people 5:people -:people =:people
+EXPR: 0 | POS | INT | 32 | 24 | 11 | (x-6)=5 | x 6 - 5 = | x:people 6:people -:people 5:people =:people
+EXPR: 0 | POS | INT | 32 | 24 | 1 | 6=(x+5) | 6 x 5 + = | 6:people x:people 5:people +:people =:people
+EXPR: 0 | POS | INT | 32 | 24 | 1 | (6-x)=5 | 6 x - 5 = | 6:people x:people -:people 5:people =:people
+EXPR: 0 | POS | INT | 32 | 24 | 30 | (x/6)=5 | x 6 / 5 = | x:card 6:people /:card 5:card =:card
+NET 42 non-negative, integer-valued solutions found out of 100 total solutions

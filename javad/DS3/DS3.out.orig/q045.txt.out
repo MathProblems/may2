@@ -1,0 +1,40 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 2 | 5.88 | 4.44444444444444 | 1.08=(4.80/x) | 1.08 4.80 x / = | 1.08:dollar 4.80:dollar x:bill /:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 5.88 | 4.44444444444444 | (1.08*x)=4.80 | 1.08 x * 4.80 = | 1.08:dollar x:bill *:dollar 4.80:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 5.88 | 0.225 | (1.08/x)=4.80 | 1.08 x / 4.80 = | 1.08:dollar x:bill /:dollar 4.80:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 5.88 | 0.225 | 1.08=(x*4.80) | 1.08 x 4.80 * = | 1.08:dollar x:bill 4.80:dollar *:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 5.88 | 0.225 | 1.08=(4.80*x) | 1.08 4.80 x * = | 1.08:dollar 4.80:dollar x:bill *:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 5.88 | 4.44444444444444 | (x*1.08)=4.80 | x 1.08 * 4.80 = | x:bill 1.08:dollar *:dollar 4.80:dollar =:dollar
+EXPR: 0 | POS | FRA | 4 | 5.88 | 0.225 | (4.80*x)=1.08 | 4.80 x * 1.08 = | 4.80:dollar x:bill *:dollar 1.08:dollar =:dollar
+EXPR: 0 | POS | FRA | 4 | 5.88 | 0.225 | (x*4.80)=1.08 | x 4.80 * 1.08 = | x:bill 4.80:dollar *:dollar 1.08:dollar =:dollar
+EXPR: 0 | POS | FRA | 4 | 5.88 | 0.225 | 4.80=(1.08/x) | 4.80 1.08 x / = | 4.80:dollar 1.08:dollar x:bill /:dollar =:dollar
+EXPR: 0 | POS | FRA | 4 | 5.88 | 4.44444444444444 | 4.80=(1.08*x) | 4.80 1.08 x * = | 4.80:dollar 1.08:dollar x:bill *:dollar =:dollar
+EXPR: 0 | POS | FRA | 4 | 5.88 | 4.44444444444444 | (4.80/x)=1.08 | 4.80 x / 1.08 = | 4.80:dollar x:bill /:dollar 1.08:dollar =:dollar
+EXPR: 0 | POS | FRA | 4 | 5.88 | 4.44444444444444 | 4.80=(x*1.08) | 4.80 x 1.08 * = | 4.80:dollar x:bill 1.08:dollar *:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 5.88 | 0.225 | x=(1.08/4.80) | x 1.08 4.80 / = | x:bill 1.08:bill 4.80:dollar /:bill =:bill
+EXPR: 1 | POS | FRA | 10 | 5.88 | 5.88 | (1.08+4.80)=x | 1.08 4.80 + x = | 1.08:dollar 4.80:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | FRA | 10 | 5.88 | 5.184 | x=(1.08*4.80) | x 1.08 4.80 * = | x:bill 1.08:dollar 4.80:bill *:bill =:bill
+EXPR: 0 | POS | FRA | 10 | 5.88 | 5.184 | (1.08*4.80)=x | 1.08 4.80 * x = | 1.08:dollar 4.80:bill *:bill x:bill =:bill
+EXPR: 0 | POS | FRA | 10 | 5.88 | 0.225 | (1.08/4.80)=x | 1.08 4.80 / x = | 1.08:bill 4.80:dollar /:bill x:bill =:bill
+EXPR: 1 | POS | FRA | 10 | 5.88 | 5.88 | x=(1.08+4.80) | x 1.08 4.80 + = | x:dollar 1.08:dollar 4.80:dollar +:dollar =:dollar
+EXPR: 1 | POS | FRA | 12 | 5.88 | 5.88 | (x-1.08)=4.80 | x 1.08 - 4.80 = | x:dollar 1.08:dollar -:dollar 4.80:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 5.88 | 5.184 | (x/1.08)=4.80 | x 1.08 / 4.80 = | x:bill 1.08:dollar /:bill 4.80:bill =:bill
+EXPR: 0 | POS | FRA | 12 | 5.88 | 4.44444444444444 | x=(4.80/1.08) | x 4.80 1.08 / = | x:bill 4.80:bill 1.08:dollar /:bill =:bill
+EXPR: 1 | POS | FRA | 12 | 5.88 | 5.88 | 1.08=(x-4.80) | 1.08 x 4.80 - = | 1.08:dollar x:dollar 4.80:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 5.88 | 3.72 | (x+1.08)=4.80 | x 1.08 + 4.80 = | x:dollar 1.08:dollar +:dollar 4.80:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 5.88 | 3.72 | (1.08+x)=4.80 | 1.08 x + 4.80 = | 1.08:dollar x:dollar +:dollar 4.80:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 5.88 | 5.184 | 1.08=(x/4.80) | 1.08 x 4.80 / = | 1.08:bill x:bill 4.80:dollar /:bill =:bill
+EXPR: 0 | POS | FRA | 12 | 5.88 | 3.72 | x=(4.80-1.08) | x 4.80 1.08 - = | x:dollar 4.80:dollar 1.08:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 5.88 | 3.72 | 1.08=(4.80-x) | 1.08 4.80 x - = | 1.08:dollar 4.80:dollar x:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 5.88 | 3.72 | (4.80-1.08)=x | 4.80 1.08 - x = | 4.80:dollar 1.08:dollar -:dollar x:dollar =:dollar
+EXPR: 0 | POS | FRA | 12 | 5.88 | 4.44444444444444 | (4.80/1.08)=x | 4.80 1.08 / x = | 4.80:bill 1.08:dollar /:bill x:bill =:bill
+EXPR: 0 | POS | FRA | 14 | 5.88 | 5.184 | (x/4.80)=1.08 | x 4.80 / 1.08 = | x:bill 4.80:dollar /:bill 1.08:bill =:bill
+EXPR: 0 | POS | FRA | 14 | 5.88 | 3.72 | (4.80-x)=1.08 | 4.80 x - 1.08 = | 4.80:dollar x:dollar -:dollar 1.08:dollar =:dollar
+EXPR: 1 | POS | FRA | 14 | 5.88 | 5.88 | (x-4.80)=1.08 | x 4.80 - 1.08 = | x:dollar 4.80:dollar -:dollar 1.08:dollar =:dollar
+EXPR: 0 | POS | FRA | 14 | 5.88 | 5.184 | 4.80=(x/1.08) | 4.80 x 1.08 / = | 4.80:bill x:bill 1.08:dollar /:bill =:bill
+EXPR: 1 | POS | FRA | 14 | 5.88 | 5.88 | 4.80=(x-1.08) | 4.80 x 1.08 - = | 4.80:dollar x:dollar 1.08:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 14 | 5.88 | 3.72 | 4.80=(x+1.08) | 4.80 x 1.08 + = | 4.80:dollar x:dollar 1.08:dollar +:dollar =:dollar
+EXPR: 0 | POS | FRA | 14 | 5.88 | 3.72 | 4.80=(1.08+x) | 4.80 1.08 x + = | 4.80:dollar 1.08:dollar x:dollar +:dollar =:dollar
+NET 36 unique, non-negative solutions found out of 136 total solutions

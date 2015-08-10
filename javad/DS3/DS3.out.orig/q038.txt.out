@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 11 | 11 | (31-20)=x | 31 20 - x = | 31:nickel 20:nickel -:nickel x:nickel =:nickel
+EXPR: 0 | POS | INT | 0 | 11 | 51 | x=(31+20) | x 31 20 + = | x:nickel 31:nickel 20:nickel +:nickel =:nickel
+EXPR: 1 | POS | INT | 0 | 11 | 11 | x=(31-20) | x 31 20 - = | x:nickel 31:nickel 20:nickel -:nickel =:nickel
+EXPR: 0 | POS | INT | 0 | 11 | 51 | (31+20)=x | 31 20 + x = | 31:nickel 20:nickel +:nickel x:nickel =:nickel
+EXPR: 1 | POS | INT | 2 | 11 | 11 | 31=(20+x) | 31 20 x + = | 31:nickel 20:nickel x:nickel +:nickel =:nickel
+EXPR: 1 | POS | INT | 2 | 11 | 11 | 31=(x+20) | 31 x 20 + = | 31:nickel x:nickel 20:nickel +:nickel =:nickel
+EXPR: 0 | POS | INT | 2 | 11 | 51 | 31=(x-20) | 31 x 20 - = | 31:nickel x:nickel 20:nickel -:nickel =:nickel
+EXPR: 1 | POS | INT | 2 | 11 | 11 | (31-x)=20 | 31 x - 20 = | 31:nickel x:nickel -:nickel 20:nickel =:nickel
+EXPR: 0 | POS | INT | 2 | 11 | 51 | (x-31)=20 | x 31 - 20 = | x:nickel 31:nickel -:nickel 20:nickel =:nickel
+EXPR: 0 | POS | INT | 4 | 11 | 51 | 20=(x-31) | 20 x 31 - = | 20:nickel x:nickel 31:nickel -:nickel =:nickel
+EXPR: 1 | POS | INT | 4 | 11 | 11 | (20+x)=31 | 20 x + 31 = | 20:nickel x:nickel +:nickel 31:nickel =:nickel
+EXPR: 0 | POS | INT | 4 | 11 | 51 | (x-20)=31 | x 20 - 31 = | x:nickel 20:nickel -:nickel 31:nickel =:nickel
+EXPR: 1 | POS | INT | 4 | 11 | 11 | (x+20)=31 | x 20 + 31 = | x:nickel 20:nickel +:nickel 31:nickel =:nickel
+EXPR: 1 | POS | INT | 4 | 11 | 11 | 20=(31-x) | 20 31 x - = | 20:nickel 31:nickel x:nickel -:nickel =:nickel
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

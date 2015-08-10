@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 8 | 8 | x=(2+6) | x 2 6 + = | x:puppy 2:puppy 6:puppy +:puppy =:puppy
+EXPR: 1 | POS | INT | 0 | 8 | 8 | (2+6)=x | 2 6 + x = | 2:puppy 6:puppy +:puppy x:puppy =:puppy
+EXPR: 0 | POS | INT | 2 | 8 | 4 | (x+2)=6 | x 2 + 6 = | x:puppy 2:puppy +:puppy 6:puppy =:puppy
+EXPR: 0 | POS | INT | 2 | 8 | 4 | 2=(6-x) | 2 6 x - = | 2:puppy 6:puppy x:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 2 | 8 | 4 | x=(6-2) | x 6 2 - = | x:puppy 6:puppy 2:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 2 | 8 | 4 | (6-2)=x | 6 2 - x = | 6:puppy 2:puppy -:puppy x:puppy =:puppy
+EXPR: 1 | POS | INT | 2 | 8 | 8 | 2=(x-6) | 2 x 6 - = | 2:puppy x:puppy 6:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 2 | 8 | 4 | (2+x)=6 | 2 x + 6 = | 2:puppy x:puppy +:puppy 6:puppy =:puppy
+EXPR: 1 | POS | INT | 2 | 8 | 8 | (x-2)=6 | x 2 - 6 = | x:puppy 2:puppy -:puppy 6:puppy =:puppy
+EXPR: 1 | POS | INT | 4 | 8 | 8 | 6=(x-2) | 6 x 2 - = | 6:puppy x:puppy 2:puppy -:puppy =:puppy
+EXPR: 0 | POS | INT | 4 | 8 | 4 | (6-x)=2 | 6 x - 2 = | 6:puppy x:puppy -:puppy 2:puppy =:puppy
+EXPR: 1 | POS | INT | 4 | 8 | 8 | (x-6)=2 | x 6 - 2 = | x:puppy 6:puppy -:puppy 2:puppy =:puppy
+EXPR: 0 | POS | INT | 4 | 8 | 4 | 6=(2+x) | 6 2 x + = | 6:puppy 2:puppy x:puppy +:puppy =:puppy
+EXPR: 0 | POS | INT | 4 | 8 | 4 | 6=(x+2) | 6 x 2 + = | 6:puppy x:puppy 2:puppy +:puppy =:puppy
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

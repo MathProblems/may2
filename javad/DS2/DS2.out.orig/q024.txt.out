@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 8317 | 9517 | x=(600+8917) | x 600 8917 + = | x:bacterium 600:bacterium 8917:bacterium +:bacterium =:bacterium
+EXPR: 0 | POS | INT | 0 | 8317 | 9517 | (600+8917)=x | 600 8917 + x = | 600:bacterium 8917:bacterium +:bacterium x:bacterium =:bacterium
+EXPR: 1 | POS | INT | 2 | 8317 | 8317 | (x+600)=8917 | x 600 + 8917 = | x:bacterium 600:bacterium +:bacterium 8917:bacterium =:bacterium
+EXPR: 1 | POS | INT | 2 | 8317 | 8317 | 600=(8917-x) | 600 8917 x - = | 600:bacterium 8917:bacterium x:bacterium -:bacterium =:bacterium
+EXPR: 1 | POS | INT | 2 | 8317 | 8317 | x=(8917-600) | x 8917 600 - = | x:bacterium 8917:bacterium 600:bacterium -:bacterium =:bacterium
+EXPR: 1 | POS | INT | 2 | 8317 | 8317 | (8917-600)=x | 8917 600 - x = | 8917:bacterium 600:bacterium -:bacterium x:bacterium =:bacterium
+EXPR: 0 | POS | INT | 2 | 8317 | 9517 | 600=(x-8917) | 600 x 8917 - = | 600:bacterium x:bacterium 8917:bacterium -:bacterium =:bacterium
+EXPR: 1 | POS | INT | 2 | 8317 | 8317 | (600+x)=8917 | 600 x + 8917 = | 600:bacterium x:bacterium +:bacterium 8917:bacterium =:bacterium
+EXPR: 0 | POS | INT | 2 | 8317 | 9517 | (x-600)=8917 | x 600 - 8917 = | x:bacterium 600:bacterium -:bacterium 8917:bacterium =:bacterium
+EXPR: 0 | POS | INT | 4 | 8317 | 9517 | 8917=(x-600) | 8917 x 600 - = | 8917:bacterium x:bacterium 600:bacterium -:bacterium =:bacterium
+EXPR: 1 | POS | INT | 4 | 8317 | 8317 | (8917-x)=600 | 8917 x - 600 = | 8917:bacterium x:bacterium -:bacterium 600:bacterium =:bacterium
+EXPR: 0 | POS | INT | 4 | 8317 | 9517 | (x-8917)=600 | x 8917 - 600 = | x:bacterium 8917:bacterium -:bacterium 600:bacterium =:bacterium
+EXPR: 1 | POS | INT | 4 | 8317 | 8317 | 8917=(600+x) | 8917 600 x + = | 8917:bacterium 600:bacterium x:bacterium +:bacterium =:bacterium
+EXPR: 1 | POS | INT | 4 | 8317 | 8317 | 8917=(x+600) | 8917 x 600 + = | 8917:bacterium x:bacterium 600:bacterium +:bacterium =:bacterium
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

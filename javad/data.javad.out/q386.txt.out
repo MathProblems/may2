@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 22 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 9 | 9 | x=(5+4) | x 5 4 + = | x:scissors 5:scissors 4:scissors +:scissors =:scissors
+EXPR: 0 | POS | INT | 0 | 9 | 1 | x=(5-4) | x 5 4 - = | x:scissors 5:scissors 4:scissors -:scissors =:scissors
+EXPR: 0 | POS | INT | 1 | 9 | 1 | x=(5-4) | x 5 4 - = | x:scissors 5:scissors 4:scissors -:scissors =:scissors
+EXPR: 1 | POS | INT | 1 | 9 | 9 | x=(5+4) | x 5 4 + = | x:scissors 5:scissors 4:scissors +:scissors =:scissors
+EXPR: 0 | POS | INT | 2 | 9 | 1 | (5-x)=4 | 5 x - 4 = | 5:scissors x:scissors -:scissors 4:scissors =:scissors
+EXPR: 1 | POS | INT | 2 | 9 | 9 | (x-5)=4 | x 5 - 4 = | x:scissors 5:scissors -:scissors 4:scissors =:scissors
+EXPR: 0 | POS | INT | 2 | 9 | 1 | 5=(4+x) | 5 4 x + = | 5:scissors 4:scissors x:scissors +:scissors =:scissors
+EXPR: 1 | POS | INT | 2 | 9 | 9 | 5=(x-4) | 5 x 4 - = | 5:scissors x:scissors 4:scissors -:scissors =:scissors
+EXPR: 0 | POS | INT | 2 | 9 | 1 | 5=(x+4) | 5 x 4 + = | 5:scissors x:scissors 4:scissors +:scissors =:scissors
+EXPR: 1 | POS | INT | 12 | 9 | 9 | 4=(x-5) | 4 x 5 - = | 4:scissors x:scissors 5:scissors -:scissors =:scissors
+EXPR: 0 | POS | INT | 12 | 9 | 1 | (4+x)=5 | 4 x + 5 = | 4:scissors x:scissors +:scissors 5:scissors =:scissors
+EXPR: 0 | POS | INT | 12 | 9 | 1 | (x+4)=5 | x 4 + 5 = | x:scissors 4:scissors +:scissors 5:scissors =:scissors
+EXPR: 1 | POS | INT | 12 | 9 | 9 | (x-4)=5 | x 4 - 5 = | x:scissors 4:scissors -:scissors 5:scissors =:scissors
+EXPR: 0 | POS | INT | 12 | 9 | 1 | 4=(5-x) | 4 5 x - = | 4:scissors 5:scissors x:scissors -:scissors =:scissors
+NET 14 non-negative, integer-valued solutions found out of 22 total solutions

@@ -1,0 +1,47 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 100 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 1.84 | 63 | x=(9*7) | x 9 7 * = | x:money 9:penny 7:money *:money =:money
+EXPR: 0 | POS | INT | 10 | 1.84 | 63 | x=(9*7) | x 9 7 * = | x:money 9:money 7:quarter *:money =:money
+EXPR: 0 | POS | INT | 10 | 1.84 | 63 | x=(9*7) | x 9 7 * = | x:quarter 9:penny 7:quarter *:quarter =:quarter
+EXPR: 0 | POS | INT | 10 | 1.84 | 63 | x=(9*7) | x 9 7 * = | x:penny 9:penny 7:quarter *:penny =:penny
+EXPR: 0 | POS | INT | 11 | 1.84 | 63 | x=(9*7) | x 9 7 * = | x:money 9:penny 7:money *:money =:money
+EXPR: 0 | POS | INT | 11 | 1.84 | 63 | x=(9*7) | x 9 7 * = | x:quarter 9:penny 7:quarter *:quarter =:quarter
+EXPR: 0 | POS | INT | 11 | 1.84 | 63 | x=(9*7) | x 9 7 * = | x:money 9:money 7:quarter *:money =:money
+EXPR: 0 | POS | INT | 11 | 1.84 | 63 | x=(9*7) | x 9 7 * = | x:penny 9:penny 7:quarter *:penny =:penny
+EXPR: 0 | POS | INT | 12 | 1.84 | 63 | 9=(x/7) | 9 x 7 / = | 9:penny x:penny 7:quarter /:penny =:penny
+EXPR: 0 | POS | INT | 12 | 1.84 | 63 | (x/9)=7 | x 9 / 7 = | x:money 9:penny /:money 7:money =:money
+EXPR: 0 | POS | INT | 12 | 1.84 | 63 | (x/9)=7 | x 9 / 7 = | x:quarter 9:penny /:quarter 7:quarter =:quarter
+EXPR: 0 | POS | INT | 12 | 1.84 | 63 | 9=(x/7) | 9 x 7 / = | 9:money x:money 7:quarter /:money =:money
+EXPR: 0 | POS | INT | 20 | 1.84 | 63 | x=(9*7) | x 9 7 * = | x:money 9:quarter 7:money *:money =:money
+EXPR: 0 | POS | INT | 20 | 1.84 | 63 | x=(9*7) | x 9 7 * = | x:money 9:money 7:penny *:money =:money
+EXPR: 0 | POS | INT | 20 | 1.84 | 63 | x=(9*7) | x 9 7 * = | x:quarter 9:money 7:quarter *:quarter =:quarter
+EXPR: 0 | POS | INT | 20 | 1.84 | 63 | x=(9*7) | x 9 7 * = | x:penny 9:penny 7:money *:penny =:penny
+EXPR: 0 | POS | INT | 20 | 1.84 | 16 | x=(9+7) | x 9 7 + = | x:money 9:money 7:money +:money =:money
+EXPR: 0 | POS | INT | 20 | 1.84 | 2 | x=(9-7) | x 9 7 - = | x:money 9:money 7:money -:money =:money
+EXPR: 0 | POS | INT | 20 | 1.84 | 2 | x=(9-7) | x 9 7 - = | x:quarter 9:quarter 7:quarter -:quarter =:quarter
+EXPR: 0 | POS | INT | 20 | 1.84 | 16 | x=(9+7) | x 9 7 + = | x:penny 9:penny 7:penny +:penny =:penny
+EXPR: 0 | POS | INT | 20 | 1.84 | 2 | x=(9-7) | x 9 7 - = | x:penny 9:penny 7:penny -:penny =:penny
+EXPR: 0 | POS | INT | 20 | 1.84 | 16 | x=(9+7) | x 9 7 + = | x:quarter 9:quarter 7:quarter +:quarter =:quarter
+EXPR: 0 | POS | INT | 21 | 1.84 | 16 | x=(9+7) | x 9 7 + = | x:quarter 9:quarter 7:quarter +:quarter =:quarter
+EXPR: 0 | POS | INT | 21 | 1.84 | 63 | x=(9*7) | x 9 7 * = | x:money 9:quarter 7:money *:money =:money
+EXPR: 0 | POS | INT | 21 | 1.84 | 63 | x=(9*7) | x 9 7 * = | x:money 9:money 7:penny *:money =:money
+EXPR: 0 | POS | INT | 21 | 1.84 | 16 | x=(9+7) | x 9 7 + = | x:money 9:money 7:money +:money =:money
+EXPR: 0 | POS | INT | 21 | 1.84 | 2 | x=(9-7) | x 9 7 - = | x:money 9:money 7:money -:money =:money
+EXPR: 0 | POS | INT | 21 | 1.84 | 63 | x=(9*7) | x 9 7 * = | x:quarter 9:money 7:quarter *:quarter =:quarter
+EXPR: 0 | POS | INT | 21 | 1.84 | 2 | x=(9-7) | x 9 7 - = | x:quarter 9:quarter 7:quarter -:quarter =:quarter
+EXPR: 0 | POS | INT | 21 | 1.84 | 63 | x=(9*7) | x 9 7 * = | x:penny 9:penny 7:money *:penny =:penny
+EXPR: 0 | POS | INT | 21 | 1.84 | 16 | x=(9+7) | x 9 7 + = | x:penny 9:penny 7:penny +:penny =:penny
+EXPR: 0 | POS | INT | 21 | 1.84 | 2 | x=(9-7) | x 9 7 - = | x:penny 9:penny 7:penny -:penny =:penny
+EXPR: 0 | POS | INT | 22 | 1.84 | 16 | (x-9)=7 | x 9 - 7 = | x:penny 9:penny -:penny 7:penny =:penny
+EXPR: 0 | POS | INT | 22 | 1.84 | 63 | 9=(x/7) | 9 x 7 / = | 9:penny x:penny 7:money /:penny =:penny
+EXPR: 0 | POS | INT | 22 | 1.84 | 63 | (x/7)=9 | x 7 / 9 = | x:penny 7:quarter /:penny 9:penny =:penny
+EXPR: 0 | POS | INT | 22 | 1.84 | 2 | 9=(7+x) | 9 7 x + = | 9:quarter 7:quarter x:quarter +:quarter =:quarter
+EXPR: 0 | POS | INT | 22 | 1.84 | 63 | 7=(x/9) | 7 x 9 / = | 7:money x:money 9:penny /:money =:money
+EXPR: 0 | POS | INT | 22 | 1.84 | 63 | (x/7)=9 | x 7 / 9 = | x:money 7:quarter /:money 9:money =:money
+EXPR: 0 | POS | INT | 22 | 1.84 | 16 | (x-9)=7 | x 9 - 7 = | x:money 9:money -:money 7:money =:money
+EXPR: 0 | POS | INT | 22 | 1.84 | 63 | (x/9)=7 | x 9 / 7 = | x:money 9:quarter /:money 7:money =:money
+EXPR: 0 | POS | INT | 22 | 1.84 | 2 | 9=(7+x) | 9 7 x + = | 9:penny 7:penny x:penny +:penny =:penny
+EXPR: 0 | POS | INT | 22 | 1.84 | 16 | (x-9)=7 | x 9 - 7 = | x:quarter 9:quarter -:quarter 7:quarter =:quarter
+EXPR: 0 | POS | INT | 22 | 1.84 | 2 | 9=(7+x) | 9 7 x + = | 9:money 7:money x:money +:money =:money
+NET 43 non-negative, integer-valued solutions found out of 100 total solutions

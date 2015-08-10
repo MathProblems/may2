@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 56 | 10 | (33-23)=x | 33 23 - x = | 33:card 23:card -:card x:card =:card
+EXPR: 1 | POS | INT | 0 | 56 | 56 | x=(33+23) | x 33 23 + = | x:card 33:card 23:card +:card =:card
+EXPR: 0 | POS | INT | 0 | 56 | 10 | x=(33-23) | x 33 23 - = | x:card 33:card 23:card -:card =:card
+EXPR: 1 | POS | INT | 0 | 56 | 56 | (33+23)=x | 33 23 + x = | 33:card 23:card +:card x:card =:card
+EXPR: 0 | POS | INT | 2 | 56 | 10 | 33=(23+x) | 33 23 x + = | 33:card 23:card x:card +:card =:card
+EXPR: 0 | POS | INT | 2 | 56 | 10 | 33=(x+23) | 33 x 23 + = | 33:card x:card 23:card +:card =:card
+EXPR: 1 | POS | INT | 2 | 56 | 56 | 33=(x-23) | 33 x 23 - = | 33:card x:card 23:card -:card =:card
+EXPR: 0 | POS | INT | 2 | 56 | 10 | (33-x)=23 | 33 x - 23 = | 33:card x:card -:card 23:card =:card
+EXPR: 1 | POS | INT | 2 | 56 | 56 | (x-33)=23 | x 33 - 23 = | x:card 33:card -:card 23:card =:card
+EXPR: 1 | POS | INT | 4 | 56 | 56 | 23=(x-33) | 23 x 33 - = | 23:card x:card 33:card -:card =:card
+EXPR: 0 | POS | INT | 4 | 56 | 10 | (23+x)=33 | 23 x + 33 = | 23:card x:card +:card 33:card =:card
+EXPR: 1 | POS | INT | 4 | 56 | 56 | (x-23)=33 | x 23 - 33 = | x:card 23:card -:card 33:card =:card
+EXPR: 0 | POS | INT | 4 | 56 | 10 | (x+23)=33 | x 23 + 33 = | x:card 23:card +:card 33:card =:card
+EXPR: 0 | POS | INT | 4 | 56 | 10 | 23=(33-x) | 23 33 x - = | 23:card 33:card x:card -:card =:card
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

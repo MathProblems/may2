@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 11.9 | 28 | x=(2*14) | x 2 14 * = | x:toothfairy 2:people 14:toothfairy *:toothfairy =:toothfairy
+EXPR: 0 | POS | INT | 0 | 11.9 | 28 | (2*14)=x | 2 14 * x = | 2:people 14:toothfairy *:toothfairy x:toothfairy =:toothfairy
+EXPR: 0 | POS | INT | 2 | 11.9 | 7 | (14/2)=x | 14 2 / x = | 14:toothfairy 2:people /:toothfairy x:toothfairy =:toothfairy
+EXPR: 0 | POS | INT | 2 | 11.9 | 28 | (x/2)=14 | x 2 / 14 = | x:toothfairy 2:people /:toothfairy 14:toothfairy =:toothfairy
+EXPR: 0 | POS | INT | 2 | 11.9 | 7 | x=(14/2) | x 14 2 / = | x:toothfairy 14:toothfairy 2:people /:toothfairy =:toothfairy
+EXPR: 0 | POS | INT | 2 | 11.9 | 7 | (x*2)=14 | x 2 * 14 = | x:toothfairy 2:people *:toothfairy 14:toothfairy =:toothfairy
+EXPR: 0 | POS | INT | 2 | 11.9 | 7 | (2*x)=14 | 2 x * 14 = | 2:people x:toothfairy *:toothfairy 14:toothfairy =:toothfairy
+EXPR: 0 | POS | INT | 4 | 11.9 | 7 | 14=(x*2) | 14 x 2 * = | 14:toothfairy x:toothfairy 2:people *:toothfairy =:toothfairy
+EXPR: 0 | POS | INT | 4 | 11.9 | 28 | 14=(x/2) | 14 x 2 / = | 14:toothfairy x:toothfairy 2:people /:toothfairy =:toothfairy
+EXPR: 0 | POS | INT | 4 | 11.9 | 7 | 14=(2*x) | 14 2 x * = | 14:toothfairy 2:people x:toothfairy *:toothfairy =:toothfairy
+EXPR: 0 | POS | INT | 10 | 11.9 | 16 | (2+14)=x | 2 14 + x = | 2:toothfairy 14:toothfairy +:toothfairy x:toothfairy =:toothfairy
+EXPR: 0 | POS | INT | 10 | 11.9 | 16 | x=(2+14) | x 2 14 + = | x:toothfairy 2:toothfairy 14:toothfairy +:toothfairy =:toothfairy
+EXPR: 0 | POS | INT | 12 | 11.9 | 16 | 2=(x-14) | 2 x 14 - = | 2:toothfairy x:toothfairy 14:toothfairy -:toothfairy =:toothfairy
+EXPR: 0 | POS | INT | 12 | 11.9 | 12 | (14-2)=x | 14 2 - x = | 14:toothfairy 2:toothfairy -:toothfairy x:toothfairy =:toothfairy
+EXPR: 0 | POS | INT | 12 | 11.9 | 16 | (x-2)=14 | x 2 - 14 = | x:toothfairy 2:toothfairy -:toothfairy 14:toothfairy =:toothfairy
+EXPR: 0 | POS | INT | 12 | 11.9 | 12 | x=(14-2) | x 14 2 - = | x:toothfairy 14:toothfairy 2:toothfairy -:toothfairy =:toothfairy
+EXPR: 0 | POS | INT | 12 | 11.9 | 28 | 2=(x/14) | 2 x 14 / = | 2:people x:people 14:toothfairy /:people =:people
+EXPR: 0 | POS | INT | 12 | 11.9 | 12 | (x+2)=14 | x 2 + 14 = | x:toothfairy 2:toothfairy +:toothfairy 14:toothfairy =:toothfairy
+EXPR: 0 | POS | INT | 12 | 11.9 | 12 | 2=(14-x) | 2 14 x - = | 2:toothfairy 14:toothfairy x:toothfairy -:toothfairy =:toothfairy
+EXPR: 0 | POS | INT | 12 | 11.9 | 7 | 2=(14/x) | 2 14 x / = | 2:people 14:people x:toothfairy /:people =:people
+EXPR: 0 | POS | INT | 12 | 11.9 | 12 | (2+x)=14 | 2 x + 14 = | 2:toothfairy x:toothfairy +:toothfairy 14:toothfairy =:toothfairy
+EXPR: 0 | POS | INT | 14 | 11.9 | 28 | (x/14)=2 | x 14 / 2 = | x:people 14:toothfairy /:people 2:people =:people
+EXPR: 0 | POS | INT | 14 | 11.9 | 16 | (x-14)=2 | x 14 - 2 = | x:toothfairy 14:toothfairy -:toothfairy 2:toothfairy =:toothfairy
+EXPR: 0 | POS | INT | 14 | 11.9 | 12 | (14-x)=2 | 14 x - 2 = | 14:toothfairy x:toothfairy -:toothfairy 2:toothfairy =:toothfairy
+EXPR: 0 | POS | INT | 14 | 11.9 | 12 | 14=(x+2) | 14 x 2 + = | 14:toothfairy x:toothfairy 2:toothfairy +:toothfairy =:toothfairy
+EXPR: 0 | POS | INT | 14 | 11.9 | 16 | 14=(x-2) | 14 x 2 - = | 14:toothfairy x:toothfairy 2:toothfairy -:toothfairy =:toothfairy
+EXPR: 0 | POS | INT | 14 | 11.9 | 7 | (14/x)=2 | 14 x / 2 = | 14:people x:toothfairy /:people 2:people =:people
+EXPR: 0 | POS | INT | 14 | 11.9 | 12 | 14=(2+x) | 14 2 x + = | 14:toothfairy 2:toothfairy x:toothfairy +:toothfairy =:toothfairy
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

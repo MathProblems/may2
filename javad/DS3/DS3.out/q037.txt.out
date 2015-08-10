@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 29 | 29 | (42-13)=x | 42 13 - x = | 42:tree 13:tree -:tree x:tree =:tree
+EXPR: 0 | POS | INT | 0 | 29 | 55 | x=(42+13) | x 42 13 + = | x:tree 42:tree 13:tree +:tree =:tree
+EXPR: 1 | POS | INT | 0 | 29 | 29 | x=(42-13) | x 42 13 - = | x:tree 42:tree 13:tree -:tree =:tree
+EXPR: 0 | POS | INT | 0 | 29 | 55 | (42+13)=x | 42 13 + x = | 42:tree 13:tree +:tree x:tree =:tree
+EXPR: 1 | POS | INT | 2 | 29 | 29 | 42=(13+x) | 42 13 x + = | 42:tree 13:tree x:tree +:tree =:tree
+EXPR: 1 | POS | INT | 2 | 29 | 29 | 42=(x+13) | 42 x 13 + = | 42:tree x:tree 13:tree +:tree =:tree
+EXPR: 0 | POS | INT | 2 | 29 | 55 | 42=(x-13) | 42 x 13 - = | 42:tree x:tree 13:tree -:tree =:tree
+EXPR: 1 | POS | INT | 2 | 29 | 29 | (42-x)=13 | 42 x - 13 = | 42:tree x:tree -:tree 13:tree =:tree
+EXPR: 0 | POS | INT | 2 | 29 | 55 | (x-42)=13 | x 42 - 13 = | x:tree 42:tree -:tree 13:tree =:tree
+EXPR: 0 | POS | INT | 4 | 29 | 55 | 13=(x-42) | 13 x 42 - = | 13:tree x:tree 42:tree -:tree =:tree
+EXPR: 1 | POS | INT | 4 | 29 | 29 | (13+x)=42 | 13 x + 42 = | 13:tree x:tree +:tree 42:tree =:tree
+EXPR: 0 | POS | INT | 4 | 29 | 55 | (x-13)=42 | x 13 - 42 = | x:tree 13:tree -:tree 42:tree =:tree
+EXPR: 1 | POS | INT | 4 | 29 | 29 | (x+13)=42 | x 13 + 42 = | x:tree 13:tree +:tree 42:tree =:tree
+EXPR: 1 | POS | INT | 4 | 29 | 29 | 13=(42-x) | 13 42 x - = | 13:tree 42:tree x:tree -:tree =:tree
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

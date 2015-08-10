@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 5110 | 5110 | (5155-45)=x | 5155 45 - x = | 5155:gem 45:gem -:gem x:gem =:gem
+EXPR: 0 | POS | INT | 0 | 5110 | 5200 | x=(5155+45) | x 5155 45 + = | x:gem 5155:gem 45:gem +:gem =:gem
+EXPR: 1 | POS | INT | 0 | 5110 | 5110 | x=(5155-45) | x 5155 45 - = | x:gem 5155:gem 45:gem -:gem =:gem
+EXPR: 0 | POS | INT | 0 | 5110 | 5200 | (5155+45)=x | 5155 45 + x = | 5155:gem 45:gem +:gem x:gem =:gem
+EXPR: 1 | POS | INT | 2 | 5110 | 5110 | 5155=(45+x) | 5155 45 x + = | 5155:gem 45:gem x:gem +:gem =:gem
+EXPR: 1 | POS | INT | 2 | 5110 | 5110 | 5155=(x+45) | 5155 x 45 + = | 5155:gem x:gem 45:gem +:gem =:gem
+EXPR: 0 | POS | INT | 2 | 5110 | 5200 | 5155=(x-45) | 5155 x 45 - = | 5155:gem x:gem 45:gem -:gem =:gem
+EXPR: 1 | POS | INT | 2 | 5110 | 5110 | (5155-x)=45 | 5155 x - 45 = | 5155:gem x:gem -:gem 45:gem =:gem
+EXPR: 0 | POS | INT | 2 | 5110 | 5200 | (x-5155)=45 | x 5155 - 45 = | x:gem 5155:gem -:gem 45:gem =:gem
+EXPR: 0 | POS | INT | 4 | 5110 | 5200 | 45=(x-5155) | 45 x 5155 - = | 45:gem x:gem 5155:gem -:gem =:gem
+EXPR: 1 | POS | INT | 4 | 5110 | 5110 | (45+x)=5155 | 45 x + 5155 = | 45:gem x:gem +:gem 5155:gem =:gem
+EXPR: 0 | POS | INT | 4 | 5110 | 5200 | (x-45)=5155 | x 45 - 5155 = | x:gem 45:gem -:gem 5155:gem =:gem
+EXPR: 1 | POS | INT | 4 | 5110 | 5110 | (x+45)=5155 | x 45 + 5155 = | x:gem 45:gem +:gem 5155:gem =:gem
+EXPR: 1 | POS | INT | 4 | 5110 | 5110 | 45=(5155-x) | 45 5155 x - = | 45:gem 5155:gem x:gem -:gem =:gem
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

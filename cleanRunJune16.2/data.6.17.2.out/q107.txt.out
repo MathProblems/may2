@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 8 | 1152 | x=(12*96) | x 12 96 * = | x:box 12:box 96:muffin *:box =:box
+EXPR: 0 | POS | INT | 10 | 8 | 1152 | (12*96)=x | 12 96 * x = | 12:dozen 96:muffin *:muffin x:muffin =:muffin
+EXPR: 1 | POS | INT | 12 | 8 | 8 | (96/12)=x | 96 12 / x = | 96:box 12:dozen /:box x:box =:box
+EXPR: 1 | POS | INT | 12 | 8 | 8 | x=(96/12) | x 96 12 / = | x:box 96:box 12:dozen /:box =:box
+EXPR: 1 | POS | INT | 12 | 8 | 8 | 12=(96/x) | 12 96 x / = | 12:muffin 96:muffin x:box /:muffin =:muffin
+EXPR: 1 | POS | INT | 12 | 8 | 8 | (x*12)=96 | x 12 * 96 = | x:box 12:dozen *:dozen 96:dozen =:dozen
+EXPR: 1 | POS | INT | 12 | 8 | 8 | (12*x)=96 | 12 x * 96 = | 12:muffin x:box *:muffin 96:muffin =:muffin
+EXPR: 0 | POS | INT | 12 | 8 | 1152 | (x/12)=96 | x 12 / 96 = | x:box 12:dozen /:box 96:box =:box
+EXPR: 0 | POS | INT | 12 | 8 | 1152 | 12=(x/96) | 12 x 96 / = | 12:box x:box 96:muffin /:box =:box
+EXPR: 1 | POS | INT | 14 | 8 | 8 | 96=(12*x) | 96 12 x * = | 96:dozen 12:dozen x:box *:dozen =:dozen
+EXPR: 1 | POS | INT | 14 | 8 | 8 | (96/x)=12 | 96 x / 12 = | 96:dozen x:box /:dozen 12:dozen =:dozen
+EXPR: 1 | POS | INT | 14 | 8 | 8 | 96=(x*12) | 96 x 12 * = | 96:muffin x:muffin 12:dozen *:muffin =:muffin
+EXPR: 0 | POS | INT | 14 | 8 | 1152 | 96=(x/12) | 96 x 12 / = | 96:muffin x:muffin 12:dozen /:muffin =:muffin
+EXPR: 0 | POS | INT | 14 | 8 | 1152 | (x/96)=12 | x 96 / 12 = | x:dozen 96:muffin /:dozen 12:dozen =:dozen
+EXPR: 0 | POS | INT | 20 | 8 | 108 | (12+96)=x | 12 96 + x = | 12:box 96:box +:box x:box =:box
+EXPR: 0 | POS | INT | 20 | 8 | 108 | x=(12+96) | x 12 96 + = | x:muffin 12:muffin 96:muffin +:muffin =:muffin
+EXPR: 0 | POS | INT | 22 | 8 | 84 | (96-12)=x | 96 12 - x = | 96:muffin 12:muffin -:muffin x:muffin =:muffin
+EXPR: 0 | POS | INT | 22 | 8 | 84 | (12+x)=96 | 12 x + 96 = | 12:dozen x:dozen +:dozen 96:dozen =:dozen
+EXPR: 0 | POS | INT | 22 | 8 | 84 | x=(96-12) | x 96 12 - = | x:muffin 96:muffin 12:muffin -:muffin =:muffin
+EXPR: 0 | POS | INT | 22 | 8 | 108 | 12=(x-96) | 12 x 96 - = | 12:box x:box 96:box -:box =:box
+EXPR: 0 | POS | INT | 22 | 8 | 84 | 12=(96-x) | 12 96 x - = | 12:box 96:box x:box -:box =:box
+EXPR: 0 | POS | INT | 22 | 8 | 84 | (x+12)=96 | x 12 + 96 = | x:box 12:box +:box 96:box =:box
+EXPR: 0 | POS | INT | 22 | 8 | 108 | (x-12)=96 | x 12 - 96 = | x:box 12:box -:box 96:box =:box
+EXPR: 0 | POS | INT | 24 | 8 | 84 | (96-x)=12 | 96 x - 12 = | 96:muffin x:muffin -:muffin 12:muffin =:muffin
+EXPR: 0 | POS | INT | 24 | 8 | 108 | 96=(x-12) | 96 x 12 - = | 96:box x:box 12:box -:box =:box
+EXPR: 0 | POS | INT | 24 | 8 | 84 | 96=(12+x) | 96 12 x + = | 96:box 12:box x:box +:box =:box
+EXPR: 0 | POS | INT | 24 | 8 | 84 | 96=(x+12) | 96 x 12 + = | 96:muffin x:muffin 12:muffin +:muffin =:muffin
+EXPR: 0 | POS | INT | 24 | 8 | 108 | (x-96)=12 | x 96 - 12 = | x:box 96:box -:box 12:box =:box
+NET 28 unique, non-negative, integer-valued solutions found out of 324 total solutions

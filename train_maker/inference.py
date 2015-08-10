@@ -92,7 +92,7 @@ def infer(q,a,VERBOSE):
             wrong.append(k)
             continue
 
-        equations, scores, equalsmatch, contmatch, integerproblem = ret
+        equations, scores, equalsmatch, contmatch, integerproblem, failurerate, fivescores = ret
         m = np.argmax(scores)
         #print(scores[m],ST.equations[m].toString())
         srt = sorted([(x,i) for i,x in enumerate(scores)],reverse=True)
@@ -106,6 +106,7 @@ def infer(q,a,VERBOSE):
         seen = []
         tright = 0
         globallyadjusted = []
+        locally = []
         answ = float(answs[k])
         for i in eqidxs:
             eq = equations[i].toString()
@@ -146,17 +147,19 @@ def infer(q,a,VERBOSE):
             if equalsmatch[i]=='x':
                 equalsmatch[i]= 0 #continue
                 contmatch[i]=0
+                failurerate[i]=1
 
             #build training vector
 
-            vec = vectorize_eqn.vec(scores[i],guess,ogeq.strip().split(" "),integerproblem,equalsmatch[i],contmatch[i],problem)
+            vec = vectorize_eqn.vec(scores[i],guess,ogeq.strip().split(" "),integerproblem,equalsmatch[i],contmatch[i],problem,failurerate[i],fivescores[i])
             #print(vec)
 
 
             op_label, op_acc, op_val = svm_predict([-1], [vec], globalm,'-q -b 1')
             op_val = op_val[0][0]
 
-            globallyadjusted.append((scores[i],i,guess))
+            locally.append((scores[i],i,guess))
+            globallyadjusted.append((op_val*scores[i],i,guess))
             #globallyadjusted.append(((0.5*op_val)+scores[i],i,guess))
         
         srt = sorted(globallyadjusted,reverse=True)
@@ -166,6 +169,9 @@ def infer(q,a,VERBOSE):
             print("eq : ",equations[i].toString())
             print("guess : ",guess)
 
+        srt2 = sorted(locally,reverse=True)
+        if srt2[0][0] >0.9:
+            srt = srt2
         if len(srt)==0:
             guess = -1
             score = 0

@@ -1,0 +1,3943 @@
+0
+ mike had 34 peaches left at his roadside fruit stand . he went to the orchard and picked more peaches to stock up the stand . there are now 86 peaches at the stand , how many did he pick  ? 
+peaches 34
+orchard the
+stand the
+peaches 86
+stand the
+3 1
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : mike
+contains : None
+entity : peach
+idx : 2
+location : None
+num : 34
+subtypes : []
+surface : peaches
+type_failure : 0
+verbs : had
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : stand
+contains : None
+entity : peach
+idx : 1008
+location : None
+num : x
+subtypes : []
+surface : stand
+type_failure : 0
+verbs : None
+widx : None
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : peach
+idx : 2003
+location : stand
+num : 86
+subtypes : []
+surface : peaches
+type_failure : 0
+verbs : None
+widx : 5
+_____________
+
+
+ Top scoring 3 equations: 
+0.8495895643996724 34 + x = 86
+0.5876811871494536 34 = x - 86
+0.28859841482557996 34 = x + 86
+top 3 globally adjusted:
+score :  0.6679060930954186
+eq :  34 + x = 86
+guess :  52
+score :  0.1101484653865186
+eq :  34 = x - 86
+guess :  120
+score :  0.03222086731570933
+eq :  34 = x / 86
+guess :  2924
+
+CORRECT
+Guessed Equation :  34 + x = 86
+Guess :  52 
+True Answer : 52.0 
+
+
+1
+ benny bought 4 new baseball trading cards to add to his collection . the next day his dog ate half of his collection . there are now only 34 cards left . how many cards did benny start with  ? 
+cards 4
+day the
+collection half
+cards 34
+Sets detected: 
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : card
+idx : 0
+location : None
+num : x
+subtypes : []
+surface : cards
+type_failure : 0
+verbs : None
+widx : 3
+_____________
+
+_____________
+adjs : new
+compound : 0
+container : None
+contains : None
+entity : card
+idx : 2
+location : None
+num : 4
+subtypes : []
+surface : cards
+type_failure : 0
+verbs : None
+widx : 7
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : card
+idx : 2004
+location : None
+num : 34
+subtypes : []
+surface : cards
+type_failure : 0
+verbs : None
+widx : 6
+_____________
+
+
+ Top scoring 3 equations: 
+0.7436930212085102 x - 4 = 34
+0.4493880535152441 x = 4 + 34
+0.4049112231366092 x = 4 - 34
+top 3 globally adjusted:
+score :  0.2474214172933346
+eq :  x - 4 = 34
+guess :  38
+score :  0.014403309438220465
+eq :  x = 4 * 34
+guess :  136
+score :  0.014240607635540881
+eq :  x + 4 = 34
+guess :  30
+
+INCORRECT
+Guessed Equation :  x - 4 = 34
+Guess :  38 
+True Answer : 64.0 
+
+
+2
+ alyssa's dog had puppies . she gave 7 to her friends .  she now has 5 puppies left . how many puppies did she have to start with  ? 
+puppies 5
+Sets detected: 
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : puppy
+idx : 0
+location : None
+num : x
+subtypes : []
+surface : puppies
+type_failure : 0
+verbs : None
+widx : 3
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : puppy
+idx : 1002
+location : None
+num : 7
+subtypes : []
+surface : puppies
+type_failure : 0
+verbs : None
+widx : None
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : she
+contains : None
+entity : puppy
+idx : 2003
+location : None
+num : 5
+subtypes : []
+surface : puppies
+type_failure : 0
+verbs : has
+widx : 5
+_____________
+
+
+ Top scoring 3 equations: 
+0.752763266787599 x - 7 = 5
+0.6051053341651806 x = 7 + 5
+0.22079519670407988 x = 7 - 5
+top 3 globally adjusted:
+score :  0.6021221942244506
+eq :  x - 7 = 5
+guess :  12
+score :  0.04137320361717001
+eq :  x = 7 - 5
+guess :  2
+score :  0.013894245526743228
+eq :  x = 7 / 5
+guess :  7/5
+
+CORRECT
+Guessed Equation :  x - 7 = 5
+Guess :  12 
+True Answer : 12.0 
+
+
+3
+ a restaurant served 9 pizzas during lunch and 6 during dinner today . how many pizzas were served today  ? 
+restaurant a
+pizzas 9
+3 2
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : restaurant
+contains : None
+entity : pizza
+idx : 3
+location : None
+num : 9
+subtypes : []
+surface : pizzas
+type_failure : 0
+verbs : served
+widx : 5
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : pizza
+idx : 8
+location : None
+num : 6
+subtypes : []
+surface : pizzas
+type_failure : 0
+verbs : None
+widx : None
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : pizza
+idx : 1002
+location : None
+num : x
+subtypes : []
+surface : pizzas
+type_failure : 0
+verbs : None
+widx : None
+_____________
+
+
+ Top scoring 3 equations: 
+0.642886119783872 9 + 6 = x
+0.5505002336110798 9 = 6 + x
+0.36130668391110077 9 = 6 - x
+top 3 globally adjusted:
+score :  0.4442019218612775
+eq :  9 + 6 = x
+guess :  15
+score :  0.10258159454251453
+eq :  9 = 6 + x
+guess :  3
+score :  0.00772898803446096
+eq :  9 = 6 * x
+guess :  3/2
+
+CORRECT
+Guessed Equation :  9 + 6 = x
+Guess :  15 
+True Answer : 15.0 
+
+
+4
+ there are 7 dogwood trees currently in the park . park workers will plant 3 more dogwood trees today and 2 more dogwood trees tomorrow . how many dogwood trees will the park have when the workers are finished  ? 
+trees 7
+park the
+trees 3
+trees 2
+park the
+workers the
+4 3
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : park
+contains : None
+entity : tree
+idx : 2
+location : None
+num : 7
+subtypes : []
+surface : trees
+type_failure : 0
+verbs : None
+widx : 5
+_____________
+
+_____________
+adjs : more
+compound : 0
+container : None
+contains : None
+entity : tree
+idx : 1004
+location : None
+num : 3
+subtypes : []
+surface : trees
+type_failure : 0
+verbs : None
+widx : 8
+_____________
+
+_____________
+adjs : more
+compound : 0
+container : None
+contains : None
+entity : tree
+idx : 1010
+location : None
+num : 2
+subtypes : []
+surface : trees
+type_failure : 0
+verbs : None
+widx : 14
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : worker
+contains : None
+entity : tree
+idx : 2003
+location : None
+num : x
+subtypes : []
+surface : dogwood
+type_failure : 0
+verbs : have
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.927172102992464 7 + ( 3 + 2 ) = x
+0.9164092825554656 ( 7 + 3 ) + 2 = x
+0.8367217550141164 7 = ( 3 + 2 ) + x
+top 3 globally adjusted:
+score :  0.7836277450384442
+eq :  7 + ( 3 + 2 ) = x
+guess :  12
+score :  0.2071214287153579
+eq :  7 + ( 3 - 2 ) = x
+guess :  8
+score :  0.17868845001027284
+eq :  ( 7 + 3 ) / 2 = x
+guess :  5
+
+CORRECT
+Guessed Equation :  7 + ( 3 + 2 ) = x
+Guess :  12 
+True Answer : 12.0 
+
+
+5
+ jason had 49 quarters in his bank . his dad gave him 25 more quarters . how many quarters does he have now  ? 
+quarters 49
+quarters 25
+3 2
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : jason
+contains : None
+entity : quarter
+idx : 2
+location : bank
+num : 49
+subtypes : []
+surface : quarters
+type_failure : 0
+verbs : had
+widx : 4
+_____________
+
+_____________
+adjs : more
+compound : 0
+container : dad
+contains : None
+entity : quarter
+idx : 1004
+location : None
+num : 25
+subtypes : []
+surface : quarters
+type_failure : 0
+verbs : gave
+widx : 7
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : quarter
+idx : 2002
+location : None
+num : x
+subtypes : []
+surface : quarters
+type_failure : 0
+verbs : None
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.8880261021338695 49 = 25 - x
+0.7754602648382871 49 + 25 = x
+0.12765996595842247 49 - 25 = x
+top 3 globally adjusted:
+score :  0.609639549476773
+eq :  49 + 25 = x
+guess :  74
+score :  0.019396297012332343
+eq :  49 - 25 = x
+guess :  24
+score :  0.006555968349435925
+eq :  49 / 25 = x
+guess :  49/25
+
+CORRECT
+Guessed Equation :  49 + 25 = x
+Guess :  74 
+True Answer : 74.0 
+
+
+6
+ sam went to 14 football games this year . he went to 29 games  last year . how many football games did sam go to in all  ? 
+games 14
+year this
+games 29
+3 2
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : game
+idx : 3
+location : None
+num : 14
+subtypes : []
+surface : games
+type_failure : 0
+verbs : None
+widx : 6
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : game
+idx : 1003
+location : None
+num : 29
+subtypes : []
+surface : games
+type_failure : 0
+verbs : None
+widx : 5
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : game
+idx : 2003
+location : None
+num : x
+subtypes : []
+surface : games
+type_failure : 0
+verbs : None
+widx : 4
+_____________
+
+
+ Top scoring 3 equations: 
+0.7714086489141997 14 + 29 = x
+0.5640748915067607 14 = 29 - x
+0.31664285586089225 14 = 29 + x
+top 3 globally adjusted:
+score :  0.6447853925441742
+eq :  14 + 29 = x
+guess :  43
+score :  0.10569124588659702
+eq :  14 = 29 - x
+guess :  15
+score :  0.007699379829502663
+eq :  14 = 29 * x
+guess :  14/29
+
+CORRECT
+Guessed Equation :  14 + 29 = x
+Guess :  43 
+True Answer : 43.0 
+
+
+7
+ jason picked 46 pears , keith picked 47 pears , and mike picked  12 pears from the pear tree . how many pears were picked in total  ? 
+pears 46
+pears 47
+pears 12
+tree the
+4 3
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : jason
+contains : None
+entity : pear
+idx : 2
+location : None
+num : 46
+subtypes : []
+surface : pears
+type_failure : 0
+verbs : picked
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : keith
+contains : None
+entity : pear
+idx : 7
+location : None
+num : 47
+subtypes : []
+surface : pears
+type_failure : 0
+verbs : picked
+widx : 9
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : tree
+contains : None
+entity : pear
+idx : 13
+location : None
+num : 12
+subtypes : []
+surface : pears
+type_failure : 0
+verbs : picked
+widx : 15
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : pear
+idx : 17
+location : None
+num : x
+subtypes : []
+surface : pears
+type_failure : 0
+verbs : None
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.9441268728745142 ( 46 + 47 ) + 12 = x
+0.9197260628838453 46 + ( 47 + 12 ) = x
+0.9031568184881991 46 = ( 47 + 12 ) + x
+top 3 globally adjusted:
+score :  0.913795671055146
+eq :  ( 46 + 47 ) + 12 = x
+guess :  105
+score :  0.23044591021614855
+eq :  46 + ( 47 - 12 ) = x
+guess :  81
+score :  0.15042825165864765
+eq :  46 + ( 47 / 12 ) = x
+guess :  599/12
+
+CORRECT
+Guessed Equation :  ( 46 + 47 ) + 12 = x
+Guess :  105 
+True Answer : 105.0 
+
+
+8
+ mike has 35 books in his library . he bought several books at a yard sale over the weekend . he now has 56 books in his library . how many books did he buy at the yard sale  ? 
+books 35
+sale a
+weekend the
+books 56
+sale the
+3 1
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : mike
+contains : None
+entity : book
+idx : 2
+location : library
+num : 35
+subtypes : []
+surface : books
+type_failure : 0
+verbs : has
+widx : 4
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : sale
+contains : None
+entity : book
+idx : 1003
+location : None
+num : x
+subtypes : []
+surface : books
+type_failure : 0
+verbs : buy
+widx : 3
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : he
+contains : None
+entity : book
+idx : 2003
+location : library
+num : 56
+subtypes : []
+surface : books
+type_failure : 0
+verbs : has
+widx : 5
+_____________
+
+
+ Top scoring 3 equations: 
+0.5425664134377962 35 = x - 56
+0.4855450301387123 35 + x = 56
+0.3463165298665777 35 - x = 56
+top 3 globally adjusted:
+score :  0.37206693362388343
+eq :  35 + x = 56
+guess :  21
+score :  0.12956659051115976
+eq :  35 = x - 56
+guess :  91
+score :  0.0694064502993627
+eq :  35 = x / 56
+guess :  1960
+
+CORRECT
+Guessed Equation :  35 + x = 56
+Guess :  21 
+True Answer : 21.0 
+
+
+9
+ dan found 56 seashells on the beach , he gave jessica some of his seashells . he has 22 seashell left . how many seashells did he give to jessica  ? 
+seashells 56
+beach the
+seashell 22
+3 1
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : beach
+contains : None
+entity : seashell
+idx : 2
+location : None
+num : 56
+subtypes : []
+surface : seashells
+type_failure : 0
+verbs : found
+widx : 4
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : seashell
+idx : 14
+location : None
+num : x
+subtypes : []
+surface : seashells
+type_failure : 0
+verbs : None
+widx : 3
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : he
+contains : None
+entity : seashell
+idx : 1002
+location : None
+num : 22
+subtypes : []
+surface : seashell
+type_failure : 0
+verbs : has
+widx : 4
+_____________
+
+
+ Top scoring 3 equations: 
+0.7335802372283394 56 = x - 22
+0.7138972593477814 56 - x = 22
+0.17965415441771437 56 + x = 22
+top 3 globally adjusted:
+score :  0.5734150458316779
+eq :  56 - x = 22
+guess :  34
+score :  0.14251129139178506
+eq :  56 = x - 22
+guess :  78
+score :  0.014351203207792748
+eq :  56 = x / 22
+guess :  1232
+
+CORRECT
+Guessed Equation :  56 - x = 22
+Guess :  34 
+True Answer : 34.0 
+
+
+10
+ nancy grew 6 potatoes . sandy grew 7 potatoes . how many potatoes did they grow in total  ? 
+potatoes 6
+potatoes 7
+3 2
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : nancy
+contains : None
+entity : potato
+idx : 2
+location : None
+num : 6
+subtypes : []
+surface : potatoes
+type_failure : 0
+verbs : grew
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : sandy
+contains : None
+entity : potato
+idx : 1002
+location : None
+num : 7
+subtypes : []
+surface : potatoes
+type_failure : 0
+verbs : grew
+widx : 4
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : they
+contains : None
+entity : potato
+idx : 2002
+location : None
+num : x
+subtypes : []
+surface : potatoes
+type_failure : 0
+verbs : grow
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.8853160685383952 6 + 7 = x
+0.5327910523967616 6 = 7 + x
+0.35295112777970733 6 = 7 - x
+top 3 globally adjusted:
+score :  0.7657408543872547
+eq :  6 + 7 = x
+guess :  13
+score :  0.05554518339707158
+eq :  6 = 7 - x
+guess :  1
+score :  0.002596497492023806
+eq :  6 = 7 / x
+guess :  7/6
+
+CORRECT
+Guessed Equation :  6 + 7 = x
+Guess :  13 
+True Answer : 13.0 
+
+
+11
+ joan has 8 orange balloons  but lost 2 of them . how many orange balloons does joan have now  ? 
+balloons 8
+them 2
+3 2
+Sets detected: 
+_____________
+adjs : orange
+compound : 0
+container : joan
+contains : None
+entity : balloon
+idx : 2
+location : None
+num : 8
+subtypes : []
+surface : balloons
+type_failure : 0
+verbs : has
+widx : 5
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : balloon
+idx : 7
+location : None
+num : 2
+subtypes : []
+surface : balloons
+type_failure : 0
+verbs : None
+widx : None
+_____________
+
+_____________
+adjs : many orange
+compound : 0
+container : None
+contains : None
+entity : balloon
+idx : 1003
+location : None
+num : x
+subtypes : []
+surface : balloons
+type_failure : 0
+verbs : None
+widx : 4
+_____________
+
+
+ Top scoring 3 equations: 
+0.8553310099541082 8 = 2 - x
+0.8526714769002881 8 - 2 = x
+0.07583707639793946 8 + 2 = x
+top 3 globally adjusted:
+score :  0.7185860412642028
+eq :  8 - 2 = x
+guess :  6
+score :  0.026101991465502194
+eq :  8 = 2 * x
+guess :  4
+score :  0.009496451545891571
+eq :  8 + 2 = x
+guess :  10
+
+CORRECT
+Guessed Equation :  8 - 2 = x
+Guess :  6 
+True Answer : 6.0 
+
+
+12
+ joan's cat had 8 kittens . she gave 2 to her friends .  how many kittens does she have now  ? 
+kittens 8
+3 2
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : cat
+contains : None
+entity : kitten
+idx : 4
+location : None
+num : 8
+subtypes : []
+surface : kittens
+type_failure : 0
+verbs : had
+widx : 6
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : kitten
+idx : 1002
+location : None
+num : 2
+subtypes : []
+surface : kittens
+type_failure : 0
+verbs : None
+widx : None
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : kitten
+idx : 2002
+location : None
+num : x
+subtypes : []
+surface : kittens
+type_failure : 0
+verbs : None
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.8553310099542327 8 = 2 - x
+0.7476983123199604 8 - 2 = x
+0.18506886580491713 8 + 2 = x
+top 3 globally adjusted:
+score :  0.5701803607992644
+eq :  8 - 2 = x
+guess :  6
+score :  0.034681545281702066
+eq :  8 + 2 = x
+guess :  10
+score :  0.026101991465464006
+eq :  8 = 2 * x
+guess :  4
+
+CORRECT
+Guessed Equation :  8 - 2 = x
+Guess :  6 
+True Answer : 6.0 
+
+
+13
+ tim has 22 books . mike has 20 books .  how many books do they have together  ? 
+books 22
+books 20
+3 2
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : tim
+contains : None
+entity : book
+idx : 2
+location : None
+num : 22
+subtypes : []
+surface : books
+type_failure : 0
+verbs : has
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : mike
+contains : None
+entity : book
+idx : 1002
+location : None
+num : 20
+subtypes : []
+surface : books
+type_failure : 0
+verbs : has
+widx : 4
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : they
+contains : None
+entity : book
+idx : 2002
+location : None
+num : x
+subtypes : []
+surface : books
+type_failure : 0
+verbs : have
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.8293973612403311 22 + 20 = x
+0.4612635048077647 22 = 20 - x
+0.411610349022086 22 = 20 + x
+top 3 globally adjusted:
+score :  0.6520248040306389
+eq :  22 + 20 = x
+guess :  42
+score :  0.0757848435936638
+eq :  22 = 20 + x
+guess :  2
+score :  0.010368829543655594
+eq :  22 = 20 / x
+guess :  10/11
+
+CORRECT
+Guessed Equation :  22 + 20 = x
+Guess :  42 
+True Answer : 42.0 
+
+
+14
+ alyssa picked 42 pears and nancy picked 17 pears from the pear tree . how many pears were picked in all  ? 
+pears 42
+pears 17
+tree the
+3 2
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : pear
+idx : 2
+location : None
+num : 42
+subtypes : []
+surface : pears
+type_failure : 0
+verbs : None
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : tree
+contains : None
+entity : pear
+idx : 7
+location : None
+num : 17
+subtypes : []
+surface : pears
+type_failure : 0
+verbs : picked
+widx : 9
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : pear
+idx : 11
+location : None
+num : x
+subtypes : []
+surface : pears
+type_failure : 0
+verbs : None
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.7494532924515404 42 + 17 = x
+0.68364684250325 42 = 17 - x
+0.19484763316471038 42 = 17 + x
+top 3 globally adjusted:
+score :  0.6112443777183156
+eq :  42 + 17 = x
+guess :  59
+score :  0.01883422169790482
+eq :  42 = 17 + x
+guess :  25
+score :  0.008564205545663601
+eq :  42 = 17 / x
+guess :  17/42
+
+CORRECT
+Guessed Equation :  42 + 17 = x
+Guess :  59 
+True Answer : 59.0 
+
+
+15
+ sam has 110 books . joan has 102 books .  how many books do they have together  ? 
+books 110
+books 102
+3 2
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : sam
+contains : None
+entity : book
+idx : 2
+location : None
+num : 110
+subtypes : []
+surface : books
+type_failure : 0
+verbs : has
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : joan
+contains : None
+entity : book
+idx : 1002
+location : None
+num : 102
+subtypes : []
+surface : books
+type_failure : 0
+verbs : has
+widx : 4
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : they
+contains : None
+entity : book
+idx : 2002
+location : None
+num : x
+subtypes : []
+surface : books
+type_failure : 0
+verbs : have
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.8293973612403311 110 + 102 = x
+0.4612635048077647 110 = 102 - x
+0.411610349022086 110 = 102 + x
+top 3 globally adjusted:
+score :  0.6520248040306389
+eq :  110 + 102 = x
+guess :  212
+score :  0.0757848435936638
+eq :  110 = 102 + x
+guess :  8
+score :  0.010368829543655594
+eq :  110 = 102 / x
+guess :  51/55
+
+CORRECT
+Guessed Equation :  110 + 102 = x
+Guess :  212 
+True Answer : 212.0 
+
+
+16
+ melanie grew 139 turnips . benny grew 113 turnips . how many turnips did they grow in all  ? 
+turnips 139
+turnips 113
+3 2
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : melanie
+contains : None
+entity : turnip
+idx : 2
+location : None
+num : 139
+subtypes : []
+surface : turnips
+type_failure : 0
+verbs : grew
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : benny
+contains : None
+entity : turnip
+idx : 1002
+location : None
+num : 113
+subtypes : []
+surface : turnips
+type_failure : 0
+verbs : grew
+widx : 4
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : turnip
+idx : 2002
+location : None
+num : x
+subtypes : []
+surface : turnips
+type_failure : 0
+verbs : None
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.7447535746905091 139 + 113 = x
+0.6836468426068203 139 = 113 - x
+0.1948476330605879 139 = 113 + x
+top 3 globally adjusted:
+score :  0.604000647732077
+eq :  139 + 113 = x
+guess :  252
+score :  0.03643239517563667
+eq :  139 = 113 + x
+guess :  26
+score :  0.009428911647108785
+eq :  139 = 113 / x
+guess :  113/139
+
+CORRECT
+Guessed Equation :  139 + 113 = x
+Guess :  252 
+True Answer : 252.0 
+
+
+17
+ a restaurant sold 63 hamburgers last week . how many hamburgers on average were sold each day  ? 
+restaurant a
+hamburgers 63
+day each
+2 1
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : restaurant
+contains : None
+entity : hamburger
+idx : 3
+location : None
+num : 63
+subtypes : []
+surface : hamburgers
+type_failure : 0
+verbs : sold
+widx : 5
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : day
+contains : None
+entity : hamburger
+idx : 1002
+location : average
+num : x
+subtypes : []
+surface : hamburgers
+type_failure : 0
+verbs : None
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.0 63 = x
+top 3 globally adjusted:
+score :  0.0
+eq :  63 = x
+guess :  63
+
+INCORRECT
+Guessed Equation :  63 = x
+Guess :  63 
+True Answer : 9.0 
+
+
+18
+ nancy bought 615 crayons that came in packs of 15 .  how many packs of crayons did nancy buy ? 
+crayons 615
+3 2
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : nancy
+contains : None
+entity : crayon
+idx : 2
+location : None
+num : 615
+subtypes : []
+surface : crayons
+type_failure : 0
+verbs : bought
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : crayon
+idx : 9
+location : None
+num : 15
+subtypes : []
+surface : crayons
+type_failure : 0
+verbs : None
+widx : None
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : nancy
+contains : None
+entity : crayon
+idx : 1004
+location : None
+num : x
+subtypes : []
+surface : packs
+type_failure : 0
+verbs : buy
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.6428861197835154 615 + 15 = x
+0.5186596034715891 615 = 15 - x
+0.363552781252065 615 = 15 + x
+top 3 globally adjusted:
+score :  0.4077193332066594
+eq :  615 + 15 = x
+guess :  630
+score :  0.06692550386396087
+eq :  615 = 15 + x
+guess :  600
+score :  0.00913869464015126
+eq :  615 = 15 * x
+guess :  41
+
+INCORRECT
+Guessed Equation :  615 + 15 = x
+Guess :  630 
+True Answer : 41.0 
+
+
+19
+ there were a total of 323 football games in the season . the season is played for 17 months . how many football games were played each month , if each month has the same number of games ? 
+total a
+games 323
+season the
+season the
+months 17
+month each
+month each
+number the
+3 2
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : season
+contains : None
+entity : game
+idx : 5
+location : season
+num : 323
+subtypes : []
+surface : games
+type_failure : 0
+verbs : None
+widx : 8
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : season
+contains : game
+entity : month
+idx : 1005
+location : None
+num : 17
+subtypes : []
+surface : months
+type_failure : 0
+verbs : None
+widx : 7
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : number
+contains : None
+entity : game
+idx : 2017
+location : None
+num : x
+subtypes : []
+surface : games
+type_failure : 0
+verbs : None
+widx : 4
+_____________
+
+
+ Top scoring 3 equations: 
+0.8964824267221245 323 = 17 * x
+0.7029337554072989 323 / 17 = x
+0.24185910517062473 323 * 17 = x
+top 3 globally adjusted:
+score :  0.41944599137035415
+eq :  323 = 17 * x
+guess :  19
+score :  0.04534019251530193
+eq :  323 * 17 = x
+guess :  5491
+score :  0.003478012775788186
+eq :  323 = 17 / x
+guess :  1/19
+
+CORRECT
+Guessed Equation :  323 = 17 * x
+Guess :  19 
+True Answer : 19.0 
+
+
+20
+ melanie has 84 blue marbles . sandy has 8 times more blue marbles than melanie . how many dozen blue marbles does sandy have ? 
+marbles 84
+times 8
+marbles times
+4 2
+Sets detected: 
+_____________
+adjs : blue
+compound : 0
+container : melanie
+contains : None
+entity : marble
+idx : 2
+location : None
+num : 84
+subtypes : []
+surface : marbles
+type_failure : 0
+verbs : has
+widx : 5
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : melanie
+idx : 1002
+location : None
+num : 8
+subtypes : []
+surface : times
+type_failure : 0
+verbs : None
+widx : 4
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : sandy
+contains : marble
+entity : dozen
+idx : 2002
+location : None
+num : x
+subtypes : []
+surface : dozen
+type_failure : 0
+verbs : have
+widx : 3
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : dozen
+contains : None
+entity : marble
+idx : 2003
+location : None
+num : 12
+subtypes : []
+surface : marbles
+type_failure : 0
+verbs : None
+widx : None
+_____________
+
+
+ Top scoring 3 equations: 
+0.9005194169195772 84 * 8 = x * 12
+0.9005194169195772 84 / 8 = x * 12
+0.9005194169195772 84 - 8 = x * 12
+top 3 globally adjusted:
+score :  0.7080300089646907
+eq :  84 * 8 = x * 12
+guess :  56
+score :  0.168836216490801
+eq :  84 / 8 = x * 12
+guess :  7/8
+score :  0.168836216490801
+eq :  84 - 8 = x * 12
+guess :  19/3
+
+CORRECT
+Guessed Equation :  84 * 8 = x * 12
+Guess :  56 
+True Answer : 56.0 
+
+
+21
+ mike has 8 orange marbles , he gave sam 4 of the marbles . how many orange marbles does he now have  ? 
+marbles 8
+marbles the
+marbles 4
+3 2
+Sets detected: 
+_____________
+adjs : orange
+compound : 0
+container : mike
+contains : None
+entity : marble
+idx : 2
+location : None
+num : 8
+subtypes : []
+surface : marbles
+type_failure : 0
+verbs : has
+widx : 5
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : marble
+contains : None
+entity : marble
+idx : 9
+location : None
+num : 4
+subtypes : []
+surface : marbles
+type_failure : 0
+verbs : None
+widx : 13
+_____________
+
+_____________
+adjs : many orange
+compound : 0
+container : None
+contains : None
+entity : marble
+idx : 11
+location : None
+num : x
+subtypes : []
+surface : marbles
+type_failure : 0
+verbs : None
+widx : 4
+_____________
+
+
+ Top scoring 3 equations: 
+0.8907764501931167 8 - 4 = x
+0.6219010905854936 8 = 4 - x
+0.22199356737905396 8 = 4 * x
+top 3 globally adjusted:
+score :  0.7713309919971202
+eq :  8 - 4 = x
+guess :  4
+score :  0.07373253245524243
+eq :  8 = 4 * x
+guess :  2
+score :  0.007275881753495075
+eq :  8 = 4 / x
+guess :  1/2
+
+CORRECT
+Guessed Equation :  8 - 4 = x
+Guess :  4 
+True Answer : 4.0 
+
+
+22
+ sara has 9 dozen golf balls . how many golf balls does she have  ? 
+dozen 9
+balls dozen
+3 2
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : None
+contains : ball
+entity : dozen
+idx : 2
+location : None
+num : 9
+subtypes : []
+surface : dozen
+type_failure : 0
+verbs : None
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : dozen
+contains : None
+entity : ball
+idx : 3
+location : None
+num : 12
+subtypes : []
+surface : balls
+type_failure : 0
+verbs : has
+widx : 6
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : she
+contains : None
+entity : ball
+idx : 1003
+location : None
+num : x
+subtypes : []
+surface : golf
+type_failure : 0
+verbs : have
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.8281913636016592 9 * 12 = x
+0.5472838059683858 9 = 12 - x
+0.31449688904386547 9 = 12 + x
+top 3 globally adjusted:
+score :  0.6503990970469697
+eq :  9 * 12 = x
+guess :  108
+score :  0.10251112889472977
+eq :  9 = 12 - x
+guess :  3
+score :  0.018090035191420432
+eq :  9 / 12 = x
+guess :  3/4
+
+CORRECT
+Guessed Equation :  9 * 12 = x
+Guess :  108 
+True Answer : 108.0 
+
+
+23
+ melanie , benny , sally , and jessica each have 3 baseball cards .  how many baseball cards do they have in all  ? 
+cards 3
+2 1
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : card
+idx : 8
+location : None
+num : 3
+subtypes : []
+surface : cards
+type_failure : 0
+verbs : None
+widx : 10
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : they
+contains : None
+entity : card
+idx : 12
+location : None
+num : x
+subtypes : []
+surface : cards
+type_failure : 0
+verbs : have
+widx : 4
+_____________
+
+
+ Top scoring 3 equations: 
+0.0 3 = x
+top 3 globally adjusted:
+score :  0.0
+eq :  3 = x
+guess :  3
+
+INCORRECT
+Guessed Equation :  3 = x
+Guess :  3 
+True Answer : 12.0 
+
+
+24
+ there are 4 children in the classroom , each student will get 2 pencils . how many pencils will the teacher have to give out  ? 
+children 4
+classroom the
+student each
+pencils 2
+teacher the
+3 2
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : child
+idx : 2
+location : classroom
+num : 4
+subtypes : []
+surface : children
+type_failure : 0
+verbs : None
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : student
+contains : None
+entity : pencil
+idx : 12
+location : None
+num : 2
+subtypes : []
+surface : pencils
+type_failure : 0
+verbs : get
+widx : 14
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : teacher
+contains : None
+entity : pencil
+idx : 1002
+location : None
+num : x
+subtypes : []
+surface : pencils
+type_failure : 0
+verbs : None
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.7138972594463298 4 = 2 - x
+0.5043191875012027 4 * 2 = x
+0.35790160483358696 4 / 2 = x
+top 3 globally adjusted:
+score :  0.2521595937506014
+eq :  4 * 2 = x
+guess :  8
+score :  0.13096737750649962
+eq :  4 / 2 = x
+guess :  2
+score :  0.007961179214112631
+eq :  4 = 2 / x
+guess :  1/2
+
+CORRECT
+Guessed Equation :  4 * 2 = x
+Guess :  8 
+True Answer : 8.0 
+
+
+25
+ there are 8 calories in a candy bar . how many calories are there in 3 candy bars  ? 
+calories 8
+bar a
+bars 3
+3 2
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : bar
+contains : None
+entity : calorie
+idx : 2
+location : bar
+num : 8
+subtypes : []
+surface : calories
+type_failure : 0
+verbs : None
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : bar
+idx : 5
+location : None
+num : 3
+subtypes : []
+surface : bar
+type_failure : 0
+verbs : None
+widx : 8
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : calorie
+idx : 1002
+location : None
+num : x
+subtypes : []
+surface : calories
+type_failure : 0
+verbs : None
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.8358956879961124 8 * 3 = x
+0.7543132015814257 8 = 3 * x
+0.11756745000934433 8 = 3 - x
+top 3 globally adjusted:
+score :  0.7399025785768045
+eq :  8 * 3 = x
+guess :  24
+score :  0.06757637161918768
+eq :  8 = 3 * x
+guess :  8/3
+score :  0.016431892367837823
+eq :  8 = 3 / x
+guess :  3/8
+
+CORRECT
+Guessed Equation :  8 * 3 = x
+Guess :  24 
+True Answer : 24.0 
+
+
+26
+ sally earns $12.50 an hour cleaning houses . if she works for 12 hours , how much money will she make  ? 
+$ 12.50
+hour an
+hours 12
+3 2
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : hour
+contains : None
+entity : dollar
+idx : 3
+location : None
+num : 12.50
+subtypes : []
+surface : $
+type_failure : 0
+verbs : earns
+widx : 3
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : hour
+idx : 4
+location : None
+num : 12
+subtypes : []
+surface : hour
+type_failure : 0
+verbs : None
+widx : 6
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 1013
+location : None
+num : x
+subtypes : []
+surface : dollar
+type_failure : 0
+verbs : None
+widx : 14
+_____________
+
+
+ Top scoring 3 equations: 
+0.8468693848589078 12.50 * 12 = x
+0.7640288030507493 12.50 = 12 * x
+0.09553170686337234 12.50 = 12 - x
+top 3 globally adjusted:
+score :  0.6972900299067132
+eq :  12.50 * 12 = x
+guess :  150.000000000000
+score :  0.14327407241291057
+eq :  12.50 = 12 * x
+guess :  1.04166666666667
+score :  0.01142055073239288
+eq :  12.50 = 12 / x
+guess :  0.960000000000000
+
+CORRECT
+Guessed Equation :  12.50 * 12 = x
+Guess :  150.000000000000 
+True Answer : 150.0 
+
+
+27
+ fred earns $12.50 an hour cleaning houses . if he works for 8 hours , how much money will he make  ? 
+$ 12.50
+houses an
+hours 8
+3 2
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : house
+contains : None
+entity : dollar
+idx : 3
+location : None
+num : 12.50
+subtypes : []
+surface : $
+type_failure : 0
+verbs : None
+widx : 3
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : hour
+idx : 1004
+location : None
+num : 8
+subtypes : []
+surface : hours
+type_failure : 0
+verbs : None
+widx : 6
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 1013
+location : None
+num : x
+subtypes : []
+surface : dollar
+type_failure : 0
+verbs : None
+widx : 14
+_____________
+
+
+ Top scoring 3 equations: 
+0.7640288030567156 12.50 = 8 * x
+0.6923250979583945 12.50 * 8 = x
+0.12911564601468478 12.50 / 8 = x
+top 3 globally adjusted:
+score :  0.5623342931554539
+eq :  12.50 * 8 = x
+guess :  100.000000000000
+score :  0.05755998080005158
+eq :  12.50 = 8 * x
+guess :  1.56250000000000
+score :  0.014279413313533941
+eq :  12.50 - 8 = x
+guess :  4.50000000000000
+
+CORRECT
+Guessed Equation :  12.50 * 8 = x
+Guess :  100.000000000000 
+True Answer : 100.0 
+
+
+28
+ jessica , sandy , and jason each have 8 pencils . how many pencils do they have have in all  ? 
+pencils 8
+2 1
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : pencil
+idx : 6
+location : None
+num : 8
+subtypes : []
+surface : pencils
+type_failure : 0
+verbs : None
+widx : 8
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : pencil
+idx : 9
+location : None
+num : x
+subtypes : []
+surface : pencils
+type_failure : 0
+verbs : None
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.0 8 = x
+top 3 globally adjusted:
+score :  0.0
+eq :  8 = x
+guess :  8
+
+INCORRECT
+Guessed Equation :  8 = x
+Guess :  8 
+True Answer : 24.0 
+
+
+29
+ alyssa has 36 books . nancy has 7 times more books than  alyssa . how many books does nancy have  ? 
+books 36
+times 7
+books times
+3 2
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : alyssa
+contains : None
+entity : book
+idx : 2
+location : None
+num : 36
+subtypes : []
+surface : books
+type_failure : 0
+verbs : has
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : alyssa
+idx : 1002
+location : None
+num : 7
+subtypes : []
+surface : times
+type_failure : 0
+verbs : None
+widx : 4
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : nancy
+contains : None
+entity : book
+idx : 1003
+location : None
+num : x
+subtypes : []
+surface : books
+type_failure : 0
+verbs : have
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.8505997437528278 36 * 7 = x
+0.5878678830223497 36 = 7 * x
+0.2880089925225885 36 = 7 / x
+top 3 globally adjusted:
+score :  0.6806234219026335
+eq :  36 * 7 = x
+guess :  252
+score :  0.06086296061105905
+eq :  36 = 7 * x
+guess :  36/7
+score :  0.041263031855996495
+eq :  36 = 7 / x
+guess :  7/36
+
+CORRECT
+Guessed Equation :  36 * 7 = x
+Guess :  252 
+True Answer : 252.0 
+
+
+30
+ there were a total of 13 hockey games a month . the season is played for  14 months . how many hockey games are in the seasons  ? 
+total a
+games 13
+month a
+season the
+months 14
+seasons the
+3 2
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : month
+contains : None
+entity : game
+idx : 5
+location : None
+num : 13
+subtypes : []
+surface : games
+type_failure : 0
+verbs : None
+widx : 8
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : month
+idx : 8
+location : None
+num : 14
+subtypes : []
+surface : month
+type_failure : 0
+verbs : None
+widx : 10
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : season
+contains : None
+entity : game
+idx : 2003
+location : None
+num : x
+subtypes : []
+surface : games
+type_failure : 0
+verbs : None
+widx : 4
+_____________
+
+
+ Top scoring 3 equations: 
+0.7854459496905101 13 * 14 = x
+0.6456840282423658 13 = 14 * x
+0.16747238435573417 13 = 14 / x
+top 3 globally adjusted:
+score :  0.6175346242721741
+eq :  13 * 14 = x
+guess :  182
+score :  0.0557143580663827
+eq :  13 = 14 * x
+guess :  13/14
+score :  0.02800316734992831
+eq :  13 = 14 - x
+guess :  1
+
+CORRECT
+Guessed Equation :  13 * 14 = x
+Guess :  182 
+True Answer : 182.0 
+
+
+31
+ benny bought 7 dozen eggs from the grocery store to bake some cakes .  how many eggs did benny buy  ? 
+dozen 7
+eggs dozen
+store the
+cakes some
+3 2
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : None
+contains : egg
+entity : dozen
+idx : 2
+location : None
+num : 7
+subtypes : []
+surface : dozen
+type_failure : 0
+verbs : None
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : dozen
+contains : None
+entity : egg
+idx : 3
+location : None
+num : 12
+subtypes : []
+surface : eggs
+type_failure : 0
+verbs : bought
+widx : 5
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : benny
+contains : None
+entity : egg
+idx : 1002
+location : None
+num : x
+subtypes : []
+surface : eggs
+type_failure : 0
+verbs : buy
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.8463661355613253 7 * 12 = x
+0.4531884725967111 7 = 12 - x
+0.43633302445109595 7 = 12 + x
+top 3 globally adjusted:
+score :  0.6749113985509371
+eq :  7 * 12 = x
+guess :  84
+score :  0.06737443381246933
+eq :  7 = 12 - x
+guess :  5
+score :  0.015124308703997568
+eq :  7 / 12 = x
+guess :  7/12
+
+CORRECT
+Guessed Equation :  7 * 12 = x
+Guess :  84 
+True Answer : 84.0 
+
+
+32
+ there are 31 calories in a candy bar . how many calories are there in 11 candy bars  ? 
+calories 31
+bar a
+bars 11
+3 2
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : bar
+contains : None
+entity : calorie
+idx : 2
+location : bar
+num : 31
+subtypes : []
+surface : calories
+type_failure : 0
+verbs : None
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : bar
+idx : 5
+location : None
+num : 11
+subtypes : []
+surface : bar
+type_failure : 0
+verbs : None
+widx : 8
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : calorie
+idx : 1002
+location : None
+num : x
+subtypes : []
+surface : calories
+type_failure : 0
+verbs : None
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.8358956879961124 31 * 11 = x
+0.7543132015814257 31 = 11 * x
+0.11756745000934433 31 = 11 - x
+top 3 globally adjusted:
+score :  0.7399025785768045
+eq :  31 * 11 = x
+guess :  341
+score :  0.06757637161918768
+eq :  31 = 11 * x
+guess :  31/11
+score :  0.016431892367837823
+eq :  31 = 11 / x
+guess :  11/31
+
+CORRECT
+Guessed Equation :  31 * 11 = x
+Guess :  341 
+True Answer : 341.0 
+
+
+33
+ sara has saved 11 quarters from washing cars .  how many cents does sara have  ? 
+quarters 11
+2 1
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : sara
+contains : None
+entity : cent
+idx : 3
+location : None
+num : 275.0
+subtypes : []
+surface : quarters
+type_failure : 0
+verbs : saved
+widx : 5
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : cent
+idx : 1002
+location : None
+num : x
+subtypes : []
+surface : cents
+type_failure : 0
+verbs : None
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.0 275.0 = x
+top 3 globally adjusted:
+score :  0.0
+eq :  275.0 = x
+guess :  275.000000000000
+
+CORRECT
+Guessed Equation :  275.0 = x
+Guess :  275.000000000000 
+True Answer : 275.0 
+
+
+34
+ sara goes fishing with melanie . sara catches 5 trout . melanie catches twice as many trout as sara . how many trout did melanie catch  ? 
+trout 5
+3 2
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : sara
+contains : None
+entity : trout
+idx : 1002
+location : None
+num : 5
+subtypes : []
+surface : trout
+type_failure : 0
+verbs : catches
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : trout
+idx : 2002
+location : None
+num : 2
+subtypes : []
+surface : trout
+type_failure : 0
+verbs : None
+widx : None
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : trout
+idx : 2005
+location : None
+num : x
+subtypes : []
+surface : trout
+type_failure : 0
+verbs : None
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.6428861196296234 5 + 2 = x
+0.5955805004864164 5 = 2 - x
+0.2951483874242673 5 = 2 + x
+top 3 globally adjusted:
+score :  0.444201921620451
+eq :  5 + 2 = x
+guess :  7
+score :  0.054512655058275995
+eq :  5 = 2 + x
+guess :  3
+score :  0.008444813281532234
+eq :  5 = 2 * x
+guess :  5/2
+
+INCORRECT
+Guessed Equation :  5 + 2 = x
+Guess :  7 
+True Answer : 10.0 
+
+
+35
+ a restaurant sold 49 hamburgers last week . how many hamburgers on average were sold each day  ? 
+restaurant a
+hamburgers 49
+day each
+2 1
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : restaurant
+contains : None
+entity : hamburger
+idx : 3
+location : None
+num : 49
+subtypes : []
+surface : hamburgers
+type_failure : 0
+verbs : sold
+widx : 5
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : day
+contains : None
+entity : hamburger
+idx : 1002
+location : average
+num : x
+subtypes : []
+surface : hamburgers
+type_failure : 0
+verbs : None
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.0 49 = x
+top 3 globally adjusted:
+score :  0.0
+eq :  49 = x
+guess :  49
+
+INCORRECT
+Guessed Equation :  49 = x
+Guess :  49 
+True Answer : 7.0 
+
+
+36
+ jessica had 8 quarters in her bank . her sister borrowed 3 of her quarters . how many quarters does jessica have now  ? 
+quarters 8
+quarters 3
+3 2
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : jessica
+contains : None
+entity : quarter
+idx : 2
+location : bank
+num : 8
+subtypes : []
+surface : quarters
+type_failure : 0
+verbs : had
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : quarter
+idx : 1003
+location : None
+num : 3
+subtypes : []
+surface : quarters
+type_failure : 0
+verbs : None
+widx : 7
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : quarter
+idx : 2002
+location : None
+num : x
+subtypes : []
+surface : quarters
+type_failure : 0
+verbs : None
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.855331009954197 8 = 3 - x
+0.6726102288634949 8 - 3 = x
+0.2285749215524768 8 + 3 = x
+top 3 globally adjusted:
+score :  0.4645149850678878
+eq :  8 - 3 = x
+guess :  5
+score :  0.04999003618836011
+eq :  8 + 3 = x
+guess :  11
+score :  0.008823091391360954
+eq :  8 = 3 * x
+guess :  8/3
+
+CORRECT
+Guessed Equation :  8 - 3 = x
+Guess :  5 
+True Answer : 5.0 
+
+
+37
+ there are 7 crayons in the drawer . mary took 3 crayons out of the drawer . how many crayons are there now  ? 
+crayons 7
+drawer the
+crayons 3
+drawer the
+3 2
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : drawer
+contains : None
+entity : crayon
+idx : 2
+location : drawer
+num : 7
+subtypes : []
+surface : crayons
+type_failure : 0
+verbs : None
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : drawer
+contains : None
+entity : crayon
+idx : 1002
+location : None
+num : 3
+subtypes : []
+surface : crayons
+type_failure : 0
+verbs : None
+widx : 4
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : crayon
+idx : 2002
+location : None
+num : x
+subtypes : []
+surface : crayons
+type_failure : 0
+verbs : None
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.8928967274912759 7 = 3 - x
+0.5019353808167284 7 + 3 = x
+0.40771127048423667 7 - 3 = x
+top 3 globally adjusted:
+score :  0.2509676904083642
+eq :  7 + 3 = x
+guess :  10
+score :  0.15767805988561637
+eq :  7 - 3 = x
+guess :  4
+score :  0.007315744742172571
+eq :  7 = 3 * x
+guess :  7/3
+
+INCORRECT
+Guessed Equation :  7 + 3 = x
+Guess :  10 
+True Answer : 4.0 
+
+
+38
+ fred found 47 seashells on the beach , he gave jessica 25 of the seashells . how many seashells does he now have  ? 
+seashells 47
+beach the
+seashells the
+seashells 25
+3 2
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : seashell
+idx : 2
+location : beach
+num : 47
+subtypes : []
+surface : seashells
+type_failure : 0
+verbs : found
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : seashell
+contains : None
+entity : seashell
+idx : 11
+location : None
+num : 25
+subtypes : []
+surface : seashells
+type_failure : 0
+verbs : None
+widx : 15
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : seashell
+idx : 13
+location : None
+num : x
+subtypes : []
+surface : seashells
+type_failure : 0
+verbs : None
+widx : None
+_____________
+
+
+ Top scoring 3 equations: 
+0.8127946413897824 47 - 25 = x
+0.5875979132934473 47 = 25 - x
+0.21552790986630765 47 = 25 * x
+top 3 globally adjusted:
+score :  0.662569564741417
+eq :  47 - 25 = x
+guess :  22
+score :  0.019448855531607145
+eq :  47 = 25 * x
+guess :  47/25
+score :  0.010527453183415619
+eq :  47 + 25 = x
+guess :  72
+
+CORRECT
+Guessed Equation :  47 - 25 = x
+Guess :  22 
+True Answer : 22.0 
+
+
+39
+ there are 46 rulers in the drawer . tim took 25  rulers from the drawer . how many rulers are now in the drawer  ? 
+rulers 46
+drawer the
+rulers 25
+drawer the
+drawer the
+3 2
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : drawer
+contains : None
+entity : ruler
+idx : 2
+location : drawer
+num : 46
+subtypes : []
+surface : rulers
+type_failure : 0
+verbs : None
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : drawer
+contains : None
+entity : ruler
+idx : 1002
+location : None
+num : 25
+subtypes : []
+surface : rulers
+type_failure : 0
+verbs : took
+widx : 4
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : drawer
+contains : None
+entity : ruler
+idx : 2002
+location : None
+num : x
+subtypes : []
+surface : rulers
+type_failure : 0
+verbs : None
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.7884563132684174 46 = 25 - x
+0.6815993179910401 46 + 25 = x
+0.2163295448841149 46 - 25 = x
+top 3 globally adjusted:
+score :  0.49593597964858444
+eq :  46 + 25 = x
+guess :  71
+score :  0.10816477244205745
+eq :  46 - 25 = x
+guess :  21
+score :  0.012566423735971218
+eq :  46 * 25 = x
+guess :  1150
+
+INCORRECT
+Guessed Equation :  46 + 25 = x
+Guess :  71 
+True Answer : 21.0 
+
+
+40
+ when joan was visited by the toothfairy , she received 14 each of quarters , half-dollars , and dimes . how much money did the toothfairy leave joan ? 
+toothfairy the
+joan the
+2 1
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : toothfairy
+contains : toothfairy
+entity : toothfairy
+idx : 11
+location : None
+num : 14
+subtypes : []
+surface : toothfairy
+type_failure : 0
+verbs : None
+widx : None
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : joan
+contains : None
+entity : dollar
+idx : 1008
+location : None
+num : x
+subtypes : []
+surface : dollar
+type_failure : 0
+verbs : None
+widx : 9
+_____________
+
+
+ Top scoring 3 equations: 
+0.0 14 = x
+top 3 globally adjusted:
+score :  0.0
+eq :  14 = x
+guess :  14
+
+INCORRECT
+Guessed Equation :  14 = x
+Guess :  14 
+True Answer : 11.9 
+
+
+41
+ while digging through her clothes for ice cream money , joan found 15 dimes in her jacket , and 4 dimes in her shorts . how much money did joan find ? 
+dimes 15
+dimes 4
+3 2
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : joan
+contains : None
+entity : dollar
+idx : 12
+location : jacket
+num : 1.5
+subtypes : []
+surface : dimes
+type_failure : 0
+verbs : found
+widx : 14
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 19
+location : shorts
+num : 0.4
+subtypes : []
+surface : dimes
+type_failure : 0
+verbs : None
+widx : 21
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 1006
+location : None
+num : x
+subtypes : []
+surface : dollar
+type_failure : 0
+verbs : None
+widx : 7
+_____________
+
+
+ Top scoring 3 equations: 
+0.6662873585382456 1.5 + 0.4 = x
+0.6039599830386889 1.5 = 0.4 + x
+0.28744708655684115 1.5 = 0.4 - x
+top 3 globally adjusted:
+score :  0.4365093130914947
+eq :  1.5 + 0.4 = x
+guess :  1.90000000000000
+score :  0.038201808309268635
+eq :  1.5 = 0.4 + x
+guess :  1.10000000000000
+score :  0.007978977551920825
+eq :  1.5 / 0.4 = x
+guess :  3.75000000000000
+
+CORRECT
+Guessed Equation :  1.5 + 0.4 = x
+Guess :  1.90000000000000 
+True Answer : 1.9 
+
+
+42
+ mike joined his school's band . he bought a trumpet for $145.16 , and a song book which was $5.84 . how much did mike spend at the music store ? 
+trumpet a
+$ 145.16
+book a
+$ 5.84
+store the
+3 2
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : book
+contains : None
+entity : dollar
+idx : 1006
+location : None
+num : 145.16
+subtypes : []
+surface : $
+type_failure : 0
+verbs : None
+widx : 6
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 1015
+location : None
+num : 5.84
+subtypes : []
+surface : $
+type_failure : 0
+verbs : None
+widx : 15
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : store
+contains : None
+entity : dollar
+idx : 2009
+location : None
+num : x
+subtypes : []
+surface : dollar
+type_failure : 0
+verbs : None
+widx : 10
+_____________
+
+
+ Top scoring 3 equations: 
+0.6428861197831736 145.16 + 5.84 = x
+0.5188857453996535 145.16 = 5.84 - x
+0.3887911634233318 145.16 = 5.84 + x
+top 3 globally adjusted:
+score :  0.22972537356379913
+eq :  145.16 + 5.84 = x
+guess :  151.000000000000
+score :  0.029733656228135532
+eq :  145.16 = 5.84 + x
+guess :  139.320000000000
+score :  0.0052744233541692
+eq :  145.16 = 5.84 * x
+guess :  24.8561643835616
+
+CORRECT
+Guessed Equation :  145.16 + 5.84 = x
+Guess :  151.000000000000 
+True Answer : 151.0 
+
+
+43
+ keith loves trading cards . she bought 4 packs of digimon cards for $4.45 each , and a deck of baseball cards for $6.06 . how much did keith spend on cards ? 
+packs 4
+$ 4.45
+deck a
+$ 6.06
+4 3
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : she
+contains : dollar
+entity : pack
+idx : 1002
+location : None
+num : 4
+subtypes : []
+surface : packs
+type_failure : 0
+verbs : bought
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : pack
+contains : None
+entity : dollar
+idx : 1003
+location : None
+num : 6.06
+subtypes : []
+surface : $
+type_failure : 0
+verbs : None
+widx : 20
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : deck
+contains : None
+entity : dollar
+idx : 1009
+location : None
+num : 4.45
+subtypes : []
+surface : $
+type_failure : 0
+verbs : None
+widx : 9
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 2007
+location : None
+num : x
+subtypes : []
+surface : dollar
+type_failure : 0
+verbs : None
+widx : 8
+_____________
+
+
+ Top scoring 3 equations: 
+0.9174503406811296 ( 4 * 6.06 ) + 4.45 = x
+0.7711099565935218 4 * ( 6.06 + 4.45 ) = x
+0.7682172978774666 4 = ( 6.06 + 4.45 ) + x
+top 3 globally adjusted:
+score :  0.2002898126701064
+eq :  ( 4 + 6.06 ) + 4.45 = x
+guess :  14.5100000000000
+score :  0.1720017387026158
+eq :  ( 4 * 6.06 ) + 4.45 = x
+guess :  28.6900000000000
+score :  0.07902272943505681
+eq :  4 * ( 6.06 + 4.45 ) = x
+guess :  42.0400000000000
+
+INCORRECT
+Guessed Equation :  ( 4 + 6.06 ) + 4.45 = x
+Guess :  14.5100000000000 
+True Answer : 23.86 
+
+
+44
+ sandy went to the mall to buy clothes . she spent $13.99 on shorts , $12.14 on a shirt , and $7.43 on a jacket . how much money did sandy spend on clothes ? 
+mall the
+$ 13.99
+$ 12.14
+shirt a
+$ 7.43
+jacket a
+4 3
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : she
+contains : None
+entity : dollar
+idx : 1003
+location : shorts
+num : 13.99
+subtypes : []
+surface : $
+type_failure : 0
+verbs : spent
+widx : 3
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : shirt
+contains : None
+entity : dollar
+idx : 1008
+location : shirt
+num : 12.14
+subtypes : []
+surface : $
+type_failure : 0
+verbs : None
+widx : 8
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : jacket
+contains : None
+entity : dollar
+idx : 1015
+location : jacket
+num : 7.43
+subtypes : []
+surface : $
+type_failure : 0
+verbs : None
+widx : 15
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 2008
+location : None
+num : x
+subtypes : []
+surface : dollar
+type_failure : 0
+verbs : None
+widx : 9
+_____________
+
+
+ Top scoring 3 equations: 
+0.7986436163182191 ( 13.99 + 12.14 ) + 7.43 = x
+0.7872711446842658 13.99 = ( 12.14 + 7.43 ) + x
+0.7236955375726939 13.99 + ( 12.14 + 7.43 ) = x
+top 3 globally adjusted:
+score :  0.6278624033983778
+eq :  ( 13.99 + 12.14 ) + 7.43 = x
+guess :  33.5600000000000
+score :  0.23060462976966736
+eq :  13.99 + ( 12.14 - 7.43 ) = x
+guess :  18.7000000000000
+score :  0.16103365646169254
+eq :  13.99 + ( 12.14 / 7.43 ) = x
+guess :  15.6239165545087
+
+CORRECT
+Guessed Equation :  ( 13.99 + 12.14 ) + 7.43 = x
+Guess :  33.5600000000000 
+True Answer : 33.56 
+
+
+45
+ fred loves trading cards . he bought 2 packs of football cards for $2.73 each , a pack of pokemon cards for $4.01 , and a deck of baseball cards for $8.95 . how much did fred spend on cards ? 
+packs 2
+$ 2.73
+pack a
+$ 4.01
+deck a
+$ 8.95
+5 4
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : he
+contains : dollar
+entity : pack
+idx : 1002
+location : None
+num : 2
+subtypes : []
+surface : packs
+type_failure : 0
+verbs : bought
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : pack
+contains : None
+entity : dollar
+idx : 1003
+location : None
+num : 2.73
+subtypes : []
+surface : $
+type_failure : 0
+verbs : None
+widx : 9
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : deck
+contains : None
+entity : dollar
+idx : 1019
+location : None
+num : 4.01
+subtypes : []
+surface : $
+type_failure : 0
+verbs : None
+widx : 19
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 1029
+location : None
+num : 8.95
+subtypes : []
+surface : $
+type_failure : 0
+verbs : None
+widx : 29
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 2007
+location : None
+num : x
+subtypes : []
+surface : dollar
+type_failure : 0
+verbs : None
+widx : 8
+_____________
+
+
+ Top scoring 3 equations: 
+0.9309336512212703 ( ( 2 * 2.73 ) + 4.01 ) + 8.95 = x
+0.8414626390377835 ( 2 * 2.73 ) + ( 4.01 + 8.95 ) = x
+0.8414626390377835 ( 2 * 2.73 ) + ( 4.01 + 8.95 ) = x
+top 3 globally adjusted:
+score :  0.7354972062602272
+eq :  ( ( 2 * 2.73 ) + 4.01 ) + 8.95 = x
+guess :  18.4200000000000
+score :  0.6548910160063146
+eq :  2 * ( ( 2.73 + 4.01 ) + 8.95 ) = x
+guess :  31.3800000000000
+score :  0.6548910160062884
+eq :  ( 2 * ( 2.73 + 4.01 ) ) + 8.95 = x
+guess :  22.4300000000000
+
+CORRECT
+Guessed Equation :  ( ( 2 * 2.73 ) + 4.01 ) + 8.95 = x
+Guess :  18.4200000000000 
+True Answer : 18.42 
+
+
+46
+ mary loves eating fruits . mary paid $7.19 for berries , and $6.83 for peaches with a $20 bill . how much change did mary receive ? 
+$ 7.19
+$ 6.83
+bill a
+$ 20
+4 3
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : mary
+contains : None
+entity : dollar
+idx : 1003
+location : None
+num : 7.19
+subtypes : []
+surface : $
+type_failure : 0
+verbs : paid
+widx : 3
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : bill
+contains : None
+entity : dollar
+idx : 1009
+location : None
+num : 6.83
+subtypes : []
+surface : $
+type_failure : 0
+verbs : None
+widx : 9
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 1015
+location : None
+num : 20
+subtypes : []
+surface : $
+type_failure : 0
+verbs : None
+widx : 15
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : dollar
+idx : 2006
+location : None
+num : x
+subtypes : []
+surface : dollar
+type_failure : 0
+verbs : None
+widx : 7
+_____________
+
+
+ Top scoring 3 equations: 
+0.8003931960429735 ( 7.19 + 6.83 ) + 20 = x
+0.7682172978776475 7.19 = ( 6.83 + 20 ) + x
+0.7015758635368501 7.19 + ( 6.83 + 20 ) = x
+top 3 globally adjusted:
+score :  0.6303929233214269
+eq :  ( 7.19 + 6.83 ) + 20 = x
+guess :  34.0200000000000
+score :  0.1386345335178102
+eq :  7.19 + ( 6.83 / 20 ) = x
+guess :  7.53150000000000
+score :  0.10168507863516396
+eq :  ( 7.19 - 6.83 ) + 20 = x
+guess :  20.3600000000000
+
+INCORRECT
+Guessed Equation :  ( 7.19 + 6.83 ) + 20 = x
+Guess :  34.0200000000000 
+True Answer : 5.98 
+
+
+47
+ there were originally 20,817 houses in lincoln county . during a housing boom , developers built 97,741 more . how many houses are there now in lincoln county ? 
+houses 20,817
+boom a
+3 2
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : house
+idx : 3
+location : county
+num : 20,817
+subtypes : []
+surface : houses
+type_failure : 0
+verbs : None
+widx : 5
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : house
+idx : 1007
+location : None
+num : 97,741
+subtypes : []
+surface : houses
+type_failure : 0
+verbs : None
+widx : None
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : house
+idx : 2002
+location : None
+num : x
+subtypes : []
+surface : houses
+type_failure : 0
+verbs : None
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.8499701054456799 20817 = 97741 - x
+0.8391785534940442 20817 + 97741 = x
+0.11424850835156175 20817 - 97741 = x
+top 3 globally adjusted:
+score :  0.6997126450304313
+eq :  20817 + 97741 = x
+guess :  118558
+score :  0.18683286325328852
+eq :  20817 = 97741 - x
+guess :  76924
+score :  0.0070060334327258925
+eq :  20817 = 97741 * x
+guess :  20817/97741
+
+CORRECT
+Guessed Equation :  20817 + 97741 = x
+Guess :  118558 
+True Answer : 118558.0 
+
+
+48
+ some insects called aphids attack a large farm . in response , the farmer releases ladybugs onto the fields . there are 12,170 ladybugs with spots and 54,912 ladybugs without spots . how many ladybugs are there in all ? 
+insects some
+farm a
+farmer the
+fields the
+ladybugs 12,170
+ladybugs 54,912
+Sets detected: 
+_____________
+adjs : many
+compound : 0
+container : None
+contains : None
+entity : ladybug
+idx : 1006
+location : None
+num : x
+subtypes : []
+surface : ladybugs
+type_failure : 0
+verbs : None
+widx : 3
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : ladybug
+idx : 2002
+location : None
+num : 12,170
+subtypes : []
+surface : ladybugs
+type_failure : 0
+verbs : None
+widx : 4
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : ladybug
+idx : 2007
+location : None
+num : 54,912
+subtypes : []
+surface : ladybugs
+type_failure : 0
+verbs : None
+widx : 9
+_____________
+
+
+ Top scoring 3 equations: 
+0.7714086490118267 x = 12170 + 54912
+0.7169800133462205 x - 12170 = 54912
+0.1812980972599905 x + 12170 = 54912
+top 3 globally adjusted:
+score :  0.21168030912354913
+eq :  x = 12170 + 54912
+guess :  67082
+score :  0.028948834028964036
+eq :  x + 12170 = 54912
+guess :  42742
+score :  0.005864274771299997
+eq :  x / 12170 = 54912
+guess :  668279040
+
+CORRECT
+Guessed Equation :  x = 12170 + 54912
+Guess :  67082 
+True Answer : 67082.0 
+
+
+49
+ to fill an order , the factory dyed 61,921 yards of silk green and 49,500 yards pink . how many yards of silk did it dye for that order ? 
+order an
+factory the
+yards 61,921
+yards 49,500
+order that
+3 2
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : factory
+contains : None
+entity : yard
+idx : 8
+location : None
+num : 61,921
+subtypes : []
+surface : yards
+type_failure : 0
+verbs : None
+widx : 10
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : yard
+idx : 14
+location : None
+num : 49,500
+subtypes : []
+surface : yards
+type_failure : 0
+verbs : None
+widx : 16
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : it
+contains : None
+entity : yard
+idx : 1002
+location : None
+num : x
+subtypes : []
+surface : yards
+type_failure : 0
+verbs : dye
+widx : 3
+_____________
+
+
+ Top scoring 3 equations: 
+0.7315059151786699 61921 = 49500 - x
+0.6428861197838182 61921 + 49500 = x
+0.27961271808255156 61921 - 49500 = x
+top 3 globally adjusted:
+score :  0.4077193332045864
+eq :  61921 + 49500 = x
+guess :  111421
+score :  0.08505755458714626
+eq :  61921 - 49500 = x
+guess :  12421
+score :  0.007374638187968798
+eq :  61921 = 49500 * x
+guess :  61921/49500
+
+CORRECT
+Guessed Equation :  61921 + 49500 = x
+Guess :  111421 
+True Answer : 111421.0 
+
+
+50
+ a worker at a medical lab is studying blood samples . two samples contained a total of 7,341 blood cells . the first sample contained 4,221 blood cells . how many blood cells were in the second sample ? 
+worker a
+lab a
+samples 2
+total a
+cells 7,341
+sample the
+cells 4,221
+sample the
+4 3
+Sets detected: 
+_____________
+adjs : None
+compound : 0
+container : total
+contains : None
+entity : sample
+idx : 1000
+location : None
+num : 2
+subtypes : []
+surface : samples
+type_failure : 0
+verbs : None
+widx : 2
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : None
+contains : None
+entity : cell
+idx : 1006
+location : None
+num : 7,341
+subtypes : []
+surface : cells
+type_failure : 0
+verbs : None
+widx : 9
+_____________
+
+_____________
+adjs : None
+compound : 0
+container : sample
+contains : None
+entity : cell
+idx : 2004
+location : None
+num : 4,221
+subtypes : []
+surface : cells
+type_failure : 0
+verbs : contained
+widx : 7
+_____________
+
+_____________
+adjs : many
+compound : 0
+container : sample
+contains : None
+entity : cell
+idx : 3003
+location : None
+num : x
+subtypes : []
+surface : cells
+type_failure : 0
+verbs : None
+widx : 4
+_____________
+
+
+ Top scoring 3 equations: 
+0.6508357185529786 ( 2 * 7341 ) + 4221 = x
+0.615189694861437 2 = ( 7341 - 4221 ) - x
+0.5900903634058317 2 * ( 7341 - 4221 ) = x
+top 3 globally adjusted:
+score :  0.12139775862743442
+eq :  ( 2 + 7341 ) + 4221 = x
+guess :  11564
+score :  0.06794839162529309
+eq :  2 + ( 7341 - 4221 ) = x
+guess :  3122
+score :  0.06039931147909481
+eq :  2 = ( 7341 - 4221 ) - x
+guess :  3118
+
+INCORRECT
+Guessed Equation :  ( 2 + 7341 ) + 4221 = x
+Guess :  11564 
+True Answer : 3120.0 
+
+
+38 51

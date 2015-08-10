@@ -1,0 +1,36 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 288 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 10 | 9 | 1.875 | (1*1.875)=x | 1 1.875 * x = | 1:people 1.875:LENGTH *:LENGTH x:LENGTH =:LENGTH
+EXPR: 0 | POS | FRA | 10 | 9 | 1.875 | x=(1*1.875) | x 1 1.875 * = | x:LENGTH 1:LENGTH 1.875:day *:LENGTH =:LENGTH
+EXPR: 0 | POS | FRA | 10 | 9 | 0.533333333333333 | (1/1.875)=x | 1 1.875 / x = | 1:people 1.875:day /:people x:people =:people
+EXPR: 0 | POS | FRA | 10 | 9 | 0.533333333333333 | x=(1/1.875) | x 1 1.875 / = | x:people 1:people 1.875:day /:people =:people
+EXPR: 0 | POS | FRA | 12 | 9 | 1.875 | (1*x)=1.875 | 1 x * 1.875 = | 1:people x:LENGTH *:people 1.875:people =:people
+EXPR: 0 | POS | FRA | 12 | 9 | 0.533333333333333 | 1=(1.875*x) | 1 1.875 x * = | 1:day 1.875:day x:LENGTH *:day =:day
+EXPR: 0 | POS | FRA | 12 | 9 | 1.875 | 1=(1.875/x) | 1 1.875 x / = | 1:day 1.875:day x:LENGTH /:day =:day
+EXPR: 0 | POS | FRA | 12 | 9 | 0.533333333333333 | (1/x)=1.875 | 1 x / 1.875 = | 1:day x:LENGTH /:day 1.875:day =:day
+EXPR: 0 | POS | FRA | 12 | 9 | 0.533333333333333 | 1=(x*1.875) | 1 x 1.875 * = | 1:LENGTH x:LENGTH 1.875:day *:LENGTH =:LENGTH
+EXPR: 0 | POS | FRA | 12 | 9 | 1.875 | 1=(x/1.875) | 1 x 1.875 / = | 1:LENGTH x:LENGTH 1.875:day /:LENGTH =:LENGTH
+EXPR: 0 | POS | FRA | 12 | 9 | 1.875 | (x*1)=1.875 | x 1 * 1.875 = | x:LENGTH 1:people *:people 1.875:people =:people
+EXPR: 0 | POS | FRA | 14 | 9 | 1.875 | 1.875=(x*1) | 1.875 x 1 * = | 1.875:LENGTH x:LENGTH 1:people *:LENGTH =:LENGTH
+EXPR: 0 | POS | FRA | 14 | 9 | 0.533333333333333 | (x*1.875)=1 | x 1.875 * 1 = | x:LENGTH 1.875:people *:people 1:people =:people
+EXPR: 0 | POS | FRA | 14 | 9 | 1.875 | 1.875=(1*x) | 1.875 1 x * = | 1.875:day 1:people x:day *:day =:day
+EXPR: 0 | POS | FRA | 14 | 9 | 1.875 | (x/1.875)=1 | x 1.875 / 1 = | x:LENGTH 1.875:day /:LENGTH 1:LENGTH =:LENGTH
+EXPR: 0 | POS | FRA | 14 | 9 | 0.533333333333333 | (1.875*x)=1 | 1.875 x * 1 = | 1.875:day x:LENGTH *:LENGTH 1:LENGTH =:LENGTH
+EXPR: 0 | POS | FRA | 14 | 9 | 0.533333333333333 | 1.875=(1/x) | 1.875 1 x / = | 1.875:day 1:day x:LENGTH /:day =:day
+EXPR: 0 | POS | FRA | 14 | 9 | 1.875 | (1.875/x)=1 | 1.875 x / 1 = | 1.875:people x:LENGTH /:people 1:people =:people
+EXPR: 0 | POS | FRA | 20 | 9 | 2.875 | x=(1+1.875) | x 1 1.875 + = | x:day 1:day 1.875:day +:day =:day
+EXPR: 0 | POS | FRA | 20 | 9 | 2.875 | (1+1.875)=x | 1 1.875 + x = | 1:day 1.875:day +:day x:day =:day
+EXPR: 0 | POS | FRA | 22 | 9 | 0.875 | (x+1)=1.875 | x 1 + 1.875 = | x:day 1:day +:day 1.875:day =:day
+EXPR: 0 | POS | FRA | 22 | 9 | 0.875 | (1.875-1)=x | 1.875 1 - x = | 1.875:day 1:day -:day x:day =:day
+EXPR: 0 | POS | FRA | 22 | 9 | 0.875 | x=(1.875-1) | x 1.875 1 - = | x:people 1.875:people 1:people -:people =:people
+EXPR: 0 | POS | FRA | 22 | 9 | 0.875 | (1+x)=1.875 | 1 x + 1.875 = | 1:people x:people +:people 1.875:people =:people
+EXPR: 0 | POS | FRA | 22 | 9 | 0.875 | 1=(1.875-x) | 1 1.875 x - = | 1:day 1.875:day x:day -:day =:day
+EXPR: 0 | POS | FRA | 22 | 9 | 2.875 | 1=(x-1.875) | 1 x 1.875 - = | 1:people x:people 1.875:people -:people =:people
+EXPR: 0 | POS | FRA | 22 | 9 | 2.875 | (x-1)=1.875 | x 1 - 1.875 = | x:day 1:day -:day 1.875:day =:day
+EXPR: 0 | POS | FRA | 24 | 9 | 0.875 | 1.875=(x+1) | 1.875 x 1 + = | 1.875:LENGTH x:LENGTH 1:LENGTH +:LENGTH =:LENGTH
+EXPR: 0 | POS | FRA | 24 | 9 | 2.875 | (x-1.875)=1 | x 1.875 - 1 = | x:day 1.875:day -:day 1:day =:day
+EXPR: 0 | POS | FRA | 24 | 9 | 0.875 | (1.875-x)=1 | 1.875 x - 1 = | 1.875:people x:people -:people 1:people =:people
+EXPR: 0 | POS | FRA | 24 | 9 | 2.875 | 1.875=(x-1) | 1.875 x 1 - = | 1.875:LENGTH x:LENGTH 1:LENGTH -:LENGTH =:LENGTH
+EXPR: 0 | POS | FRA | 24 | 9 | 0.875 | 1.875=(1+x) | 1.875 1 x + = | 1.875:day 1:day x:day +:day =:day
+NET 32 unique, non-negative solutions found out of 288 total solutions

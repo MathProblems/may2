@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 56 | 70 | (5*14)=x | 5 14 * x = | 5:people 14:pokemon *:pokemon x:pokemon =:pokemon
+EXPR: 0 | POS | INT | 10 | 56 | 70 | x=(5*14) | x 5 14 * = | x:pokemon 5:people 14:pokemon *:pokemon =:pokemon
+EXPR: 0 | POS | INT | 12 | 56 | 70 | (x/5)=14 | x 5 / 14 = | x:pokemon 5:people /:pokemon 14:pokemon =:pokemon
+EXPR: 0 | POS | INT | 12 | 56 | 70 | 5=(x/14) | 5 x 14 / = | 5:pokemon x:pokemon 14:card /:pokemon =:pokemon
+EXPR: 0 | POS | INT | 14 | 56 | 70 | 14=(x/5) | 14 x 5 / = | 14:pokemon x:pokemon 5:people /:pokemon =:pokemon
+EXPR: 0 | POS | INT | 14 | 56 | 70 | (x/14)=5 | x 14 / 5 = | x:people 14:card /:people 5:people =:people
+EXPR: 0 | POS | INT | 20 | 56 | 19 | x=(5+14) | x 5 14 + = | x:people 5:people 14:people +:people =:people
+EXPR: 0 | POS | INT | 20 | 56 | 19 | (5+14)=x | 5 14 + x = | 5:pokemon 14:pokemon +:pokemon x:pokemon =:pokemon
+EXPR: 0 | POS | INT | 22 | 56 | 9 | (x+5)=14 | x 5 + 14 = | x:people 5:people +:people 14:people =:people
+EXPR: 0 | POS | INT | 22 | 56 | 9 | (14-5)=x | 14 5 - x = | 14:people 5:people -:people x:people =:people
+EXPR: 0 | POS | INT | 22 | 56 | 9 | x=(14-5) | x 14 5 - = | x:people 14:people 5:people -:people =:people
+EXPR: 0 | POS | INT | 22 | 56 | 19 | 5=(x-14) | 5 x 14 - = | 5:people x:people 14:people -:people =:people
+EXPR: 0 | POS | INT | 22 | 56 | 9 | (5+x)=14 | 5 x + 14 = | 5:people x:people +:people 14:people =:people
+EXPR: 0 | POS | INT | 22 | 56 | 19 | (x-5)=14 | x 5 - 14 = | x:pokemon 5:pokemon -:pokemon 14:pokemon =:pokemon
+EXPR: 0 | POS | INT | 22 | 56 | 9 | 5=(14-x) | 5 14 x - = | 5:people 14:people x:people -:people =:people
+EXPR: 0 | POS | INT | 24 | 56 | 9 | 14=(x+5) | 14 x 5 + = | 14:pokemon x:pokemon 5:pokemon +:pokemon =:pokemon
+EXPR: 0 | POS | INT | 24 | 56 | 9 | (14-x)=5 | 14 x - 5 = | 14:pokemon x:pokemon -:pokemon 5:pokemon =:pokemon
+EXPR: 0 | POS | INT | 24 | 56 | 9 | 14=(5+x) | 14 5 x + = | 14:card 5:card x:card +:card =:card
+EXPR: 0 | POS | INT | 24 | 56 | 19 | (x-14)=5 | x 14 - 5 = | x:pokemon 14:pokemon -:pokemon 5:pokemon =:pokemon
+EXPR: 0 | POS | INT | 24 | 56 | 19 | 14=(x-5) | 14 x 5 - = | 14:card x:card 5:card -:card =:card
+NET 20 unique, non-negative, integer-valued solutions found out of 324 total solutions

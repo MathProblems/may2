@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 22 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 2515 | 16359 | x=(9437+6922) | x 9437 6922 + = | x:coat 9437:coat 6922:coat +:coat =:coat
+EXPR: 1 | POS | INT | 0 | 2515 | 2515 | x=(9437-6922) | x 9437 6922 - = | x:coat 9437:coat 6922:coat -:coat =:coat
+EXPR: 1 | POS | INT | 1 | 2515 | 2515 | x=(9437-6922) | x 9437 6922 - = | x:coat 9437:coat 6922:coat -:coat =:coat
+EXPR: 0 | POS | INT | 1 | 2515 | 16359 | x=(9437+6922) | x 9437 6922 + = | x:coat 9437:coat 6922:coat +:coat =:coat
+EXPR: 1 | POS | INT | 2 | 2515 | 2515 | (9437-x)=6922 | 9437 x - 6922 = | 9437:coat x:coat -:coat 6922:coat =:coat
+EXPR: 0 | POS | INT | 2 | 2515 | 16359 | (x-9437)=6922 | x 9437 - 6922 = | x:coat 9437:coat -:coat 6922:coat =:coat
+EXPR: 1 | POS | INT | 2 | 2515 | 2515 | 9437=(6922+x) | 9437 6922 x + = | 9437:coat 6922:coat x:coat +:coat =:coat
+EXPR: 0 | POS | INT | 2 | 2515 | 16359 | 9437=(x-6922) | 9437 x 6922 - = | 9437:coat x:coat 6922:coat -:coat =:coat
+EXPR: 1 | POS | INT | 2 | 2515 | 2515 | 9437=(x+6922) | 9437 x 6922 + = | 9437:coat x:coat 6922:coat +:coat =:coat
+EXPR: 0 | POS | INT | 12 | 2515 | 16359 | 6922=(x-9437) | 6922 x 9437 - = | 6922:coat x:coat 9437:coat -:coat =:coat
+EXPR: 1 | POS | INT | 12 | 2515 | 2515 | (6922+x)=9437 | 6922 x + 9437 = | 6922:coat x:coat +:coat 9437:coat =:coat
+EXPR: 1 | POS | INT | 12 | 2515 | 2515 | (x+6922)=9437 | x 6922 + 9437 = | x:coat 6922:coat +:coat 9437:coat =:coat
+EXPR: 0 | POS | INT | 12 | 2515 | 16359 | (x-6922)=9437 | x 6922 - 9437 = | x:coat 6922:coat -:coat 9437:coat =:coat
+EXPR: 1 | POS | INT | 12 | 2515 | 2515 | 6922=(9437-x) | 6922 9437 x - = | 6922:coat 9437:coat x:coat -:coat =:coat
+NET 14 non-negative, integer-valued solutions found out of 22 total solutions

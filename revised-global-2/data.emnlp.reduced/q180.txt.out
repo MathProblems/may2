@@ -1,0 +1,47 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 108 solutions found
+EXPR: 1 | POS | INT | 0 | 10 | 10 | x=(5*2) | x 5 2 * = | x:trout 5:trout 2:sara *:trout =:trout
+EXPR: 1 | POS | INT | 1 | 10 | 10 | x=(5*2) | x 5 2 * = | x:trout 5:trout 2:sara *:trout =:trout
+EXPR: 1 | POS | INT | 2 | 10 | 10 | 5=(x/2) | 5 x 2 / = | 5:trout x:trout 2:sara /:trout =:trout
+EXPR: 1 | POS | INT | 10 | 10 | 10 | x=(5*2) | x 5 2 * = | x:sara 5:trout 2:sara *:sara =:sara
+EXPR: 0 | POS | INT | 10 | 10 | 3 | x=(5-2) | x 5 2 - = | x:trout 5:trout 2:trout -:trout =:trout
+EXPR: 0 | POS | INT | 10 | 10 | 7 | x=(5+2) | x 5 2 + = | x:trout 5:trout 2:trout +:trout =:trout
+EXPR: 1 | POS | INT | 11 | 10 | 10 | x=(5*2) | x 5 2 * = | x:sara 5:trout 2:sara *:sara =:sara
+EXPR: 0 | POS | INT | 11 | 10 | 3 | x=(5-2) | x 5 2 - = | x:trout 5:trout 2:trout -:trout =:trout
+EXPR: 0 | POS | INT | 11 | 10 | 7 | x=(5+2) | x 5 2 + = | x:trout 5:trout 2:trout +:trout =:trout
+EXPR: 0 | POS | INT | 12 | 10 | 3 | 5=(2+x) | 5 2 x + = | 5:trout 2:trout x:trout +:trout =:trout
+EXPR: 1 | POS | INT | 12 | 10 | 10 | (x/5)=2 | x 5 / 2 = | x:sara 5:trout /:sara 2:sara =:sara
+EXPR: 0 | POS | INT | 12 | 10 | 7 | (x-5)=2 | x 5 - 2 = | x:trout 5:trout -:trout 2:trout =:trout
+EXPR: 0 | POS | INT | 12 | 10 | 3 | 5=(x+2) | 5 x 2 + = | 5:trout x:trout 2:trout +:trout =:trout
+EXPR: 1 | POS | INT | 12 | 10 | 10 | (x/2)=5 | x 2 / 5 = | x:trout 2:sara /:trout 5:trout =:trout
+EXPR: 0 | POS | INT | 12 | 10 | 7 | 5=(x-2) | 5 x 2 - = | 5:trout x:trout 2:trout -:trout =:trout
+EXPR: 0 | POS | INT | 12 | 10 | 3 | (5-x)=2 | 5 x - 2 = | 5:trout x:trout -:trout 2:trout =:trout
+EXPR: 1 | POS | INT | 20 | 10 | 10 | x=(5*2) | x 5 2 * = | x:trout 5:sara 2:trout *:trout =:trout
+EXPR: 0 | POS | INT | 20 | 10 | 7 | x=(5+2) | x 5 2 + = | x:sara 5:sara 2:sara +:sara =:sara
+EXPR: 0 | POS | INT | 20 | 10 | 3 | x=(5-2) | x 5 2 - = | x:sara 5:sara 2:sara -:sara =:sara
+EXPR: 1 | POS | INT | 21 | 10 | 10 | x=(5*2) | x 5 2 * = | x:trout 5:sara 2:trout *:trout =:trout
+EXPR: 0 | POS | INT | 21 | 10 | 7 | x=(5+2) | x 5 2 + = | x:sara 5:sara 2:sara +:sara =:sara
+EXPR: 0 | POS | INT | 21 | 10 | 3 | x=(5-2) | x 5 2 - = | x:sara 5:sara 2:sara -:sara =:sara
+EXPR: 0 | POS | INT | 22 | 10 | 3 | 5=(2+x) | 5 2 x + = | 5:sara 2:sara x:sara +:sara =:sara
+EXPR: 1 | POS | INT | 22 | 10 | 10 | 2=(x/5) | 2 x 5 / = | 2:sara x:sara 5:trout /:sara =:sara
+EXPR: 0 | POS | INT | 22 | 10 | 7 | (x-5)=2 | x 5 - 2 = | x:sara 5:sara -:sara 2:sara =:sara
+EXPR: 0 | POS | INT | 22 | 10 | 3 | (x+2)=5 | x 2 + 5 = | x:trout 2:trout +:trout 5:trout =:trout
+EXPR: 0 | POS | INT | 22 | 10 | 3 | 5=(x+2) | 5 x 2 + = | 5:sara x:sara 2:sara +:sara =:sara
+EXPR: 0 | POS | INT | 22 | 10 | 7 | 5=(x-2) | 5 x 2 - = | 5:sara x:sara 2:sara -:sara =:sara
+EXPR: 0 | POS | INT | 22 | 10 | 7 | (x-2)=5 | x 2 - 5 = | x:trout 2:trout -:trout 5:trout =:trout
+EXPR: 1 | POS | INT | 22 | 10 | 10 | (x/5)=2 | x 5 / 2 = | x:trout 5:sara /:trout 2:trout =:trout
+EXPR: 0 | POS | INT | 22 | 10 | 7 | 2=(x-5) | 2 x 5 - = | 2:trout x:trout 5:trout -:trout =:trout
+EXPR: 0 | POS | INT | 22 | 10 | 3 | (2+x)=5 | 2 x + 5 = | 2:trout x:trout +:trout 5:trout =:trout
+EXPR: 0 | POS | INT | 22 | 10 | 3 | 2=(5-x) | 2 5 x - = | 2:trout 5:trout x:trout -:trout =:trout
+EXPR: 0 | POS | INT | 22 | 10 | 3 | (5-x)=2 | 5 x - 2 = | 5:sara x:sara -:sara 2:sara =:sara
+EXPR: 1 | POS | INT | 30 | 10 | 10 | x=(5*2) | x 5 2 * = | x:sara 5:sara 2:trout *:sara =:sara
+EXPR: 1 | POS | INT | 31 | 10 | 10 | x=(5*2) | x 5 2 * = | x:sara 5:sara 2:trout *:sara =:sara
+EXPR: 1 | POS | INT | 32 | 10 | 10 | 5=(x/2) | 5 x 2 / = | 5:sara x:sara 2:trout /:sara =:sara
+EXPR: 0 | POS | INT | 32 | 10 | 3 | (x+2)=5 | x 2 + 5 = | x:sara 2:sara +:sara 5:sara =:sara
+EXPR: 0 | POS | INT | 32 | 10 | 7 | (x-2)=5 | x 2 - 5 = | x:sara 2:sara -:sara 5:sara =:sara
+EXPR: 0 | POS | INT | 32 | 10 | 7 | 2=(x-5) | 2 x 5 - = | 2:sara x:sara 5:sara -:sara =:sara
+EXPR: 0 | POS | INT | 32 | 10 | 3 | (2+x)=5 | 2 x + 5 = | 2:sara x:sara +:sara 5:sara =:sara
+EXPR: 1 | POS | INT | 32 | 10 | 10 | 2=(x/5) | 2 x 5 / = | 2:trout x:trout 5:sara /:trout =:trout
+EXPR: 0 | POS | INT | 32 | 10 | 3 | 2=(5-x) | 2 5 x - = | 2:sara 5:sara x:sara -:sara =:sara
+EXPR: 1 | POS | INT | 42 | 10 | 10 | (x/2)=5 | x 2 / 5 = | x:sara 2:trout /:sara 5:sara =:sara
+NET 44 non-negative, integer-valued solutions found out of 108 total solutions

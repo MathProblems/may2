@@ -1,0 +1,23 @@
+parameters: n=11 l=5 k=1 p=5 q=2 m=11
+TOTAL 141 solutions found
+EXPR: 0 | POS | INT | 0 | 29 | 69 | (((11+(3*19))-7)+8)=x | 11 3 19 * + 7 - 8 + x = | 11:dollar 3:book 19:dollar *:dollar +:dollar 7:dollar -:dollar 8:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 0 | 29 | 53 | (((11+(3*19))-7)-8)=x | 11 3 19 * + 7 - 8 - x = | 11:dollar 3:book 19:dollar *:dollar +:dollar 7:dollar -:dollar 8:dollar -:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 0 | 29 | 67 | (((11+(3*19))+7)-8)=x | 11 3 19 * + 7 + 8 - x = | 11:dollar 3:book 19:dollar *:dollar +:dollar 7:dollar +:dollar 8:dollar -:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 1 | 29 | 53 | (((11+(3*19))-7)-8)=x | 11 3 19 * + 7 - 8 - x = | 11:dollar 3:book 19:dollar *:dollar +:dollar 7:dollar -:dollar 8:dollar -:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 1 | 29 | 67 | (((11+(3*19))+7)-8)=x | 11 3 19 * + 7 + 8 - x = | 11:dollar 3:book 19:dollar *:dollar +:dollar 7:dollar +:dollar 8:dollar -:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 2 | 29 | 69 | (((11+(3*19))+8)-7)=x | 11 3 19 * + 8 + 7 - x = | 11:dollar 3:book 19:dollar *:dollar +:dollar 8:dollar +:dollar 7:dollar -:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 4 | 29 | 5 | (((11+(3*7))-x)-19)=8 | 11 3 7 * + x - 19 - 8 = | 11:dollar 3:book 7:dollar *:dollar +:dollar x:dollar -:dollar 19:dollar -:dollar 8:dollar =:dollar
+EXPR: 0 | POS | INT | 20 | 29 | 243 | (((11*(3+19))-7)+8)=x | 11 3 19 + * 7 - 8 + x = | 11:book 3:dollar 19:dollar +:dollar *:dollar 7:dollar -:dollar 8:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 24 | 29 | 300 | ((((11*8)+19)-7)*3)=x | 11 8 * 19 + 7 - 3 * x = | 11:dollar 8:book *:dollar 19:dollar +:dollar 7:dollar -:dollar 3:book *:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 25 | 29 | 300 | ((((11*8)+19)-7)*3)=x | 11 8 * 19 + 7 - 3 * x = | 11:dollar 8:book *:dollar 19:dollar +:dollar 7:dollar -:dollar 3:book *:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 30 | 29 | 1045 | (((11/3)*19)*(7+8))=x | 11 3 / 19 * 7 8 + * x = | 11:dollar 3:book /:dollar 19:book *:dollar 7:book 8:book +:book *:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 34 | 29 | - | 7=((((11-3)-8)*x)-19) | 7 11 3 - 8 - x * 19 - = | 7:dollar 11:dollar 3:dollar -:dollar 8:dollar -:dollar x:book *:dollar 19:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 36 | 29 | 28 | ((((11*8)/x)*7)-3)=19 | 11 8 * x / 7 * 3 - 19 = | 11:dollar 8:book *:book x:dollar /:book 7:dollar *:dollar 3:dollar -:dollar 19:dollar =:dollar
+EXPR: 0 | POS | INT | 36 | 29 | 68 | ((3+((11-19)*8))+x)=7 | 3 11 19 - 8 * + x + 7 = | 3:dollar 11:book 19:book -:book 8:dollar *:dollar +:dollar x:dollar +:dollar 7:dollar =:dollar
+EXPR: 0 | POS | INT | 40 | 29 | 21 | ((((3*8)/x)*7)+11)=19 | 3 8 * x / 7 * 11 + 19 = | 3:dollar 8:book *:book x:dollar /:book 7:dollar *:dollar 11:dollar +:dollar 19:dollar =:dollar
+EXPR: 0 | POS | INT | 43 | 29 | 12103 | 19=(x/(((11*8)+3)*7)) | 19 x 11 8 * 3 + 7 * / = | 19:dollar x:dollar 11:dollar 8:book *:dollar 3:dollar +:dollar 7:book *:book /:dollar =:dollar
+EXPR: 0 | POS | INT | 50 | 29 | 22 | 19=(8+(((3*x)+11)/7)) | 19 8 3 x * 11 + 7 / + = | 19:dollar 8:dollar 3:dollar x:book *:dollar 11:dollar +:dollar 7:book /:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 51 | 29 | 3762 | (x/11)=(19*((7+8)+3)) | x 11 / 19 7 8 + 3 + * = | x:dollar 11:book /:dollar 19:book 7:dollar 8:dollar +:dollar 3:dollar +:dollar *:dollar =:dollar
+EXPR: 0 | POS | INT | 52 | 29 | 264 | (((11-7)+8)*(3+19))=x | 11 7 - 8 + 3 19 + * x = | 11:book 7:book -:book 8:book +:book 3:dollar 19:dollar +:dollar *:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 56 | 29 | 160 | (19+(11-((x/8)+7)))=3 | 19 11 x 8 / 7 + - + 3 = | 19:book 11:book x:book 8:dollar /:book 7:book +:book -:book +:book 3:book =:book
+NET 20 non-negative, integer-valued solutions found out of 141 total solutions

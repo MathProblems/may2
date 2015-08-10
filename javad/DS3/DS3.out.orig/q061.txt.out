@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 44 | 44 | (72-28)=x | 72 28 - x = | 72:seashell 28:seashell -:seashell x:seashell =:seashell
+EXPR: 0 | POS | INT | 0 | 44 | 100 | x=(72+28) | x 72 28 + = | x:seashell 72:seashell 28:seashell +:seashell =:seashell
+EXPR: 1 | POS | INT | 0 | 44 | 44 | x=(72-28) | x 72 28 - = | x:seashell 72:seashell 28:seashell -:seashell =:seashell
+EXPR: 0 | POS | INT | 0 | 44 | 100 | (72+28)=x | 72 28 + x = | 72:seashell 28:seashell +:seashell x:seashell =:seashell
+EXPR: 1 | POS | INT | 2 | 44 | 44 | 72=(28+x) | 72 28 x + = | 72:seashell 28:seashell x:seashell +:seashell =:seashell
+EXPR: 1 | POS | INT | 2 | 44 | 44 | 72=(x+28) | 72 x 28 + = | 72:seashell x:seashell 28:seashell +:seashell =:seashell
+EXPR: 0 | POS | INT | 2 | 44 | 100 | 72=(x-28) | 72 x 28 - = | 72:seashell x:seashell 28:seashell -:seashell =:seashell
+EXPR: 1 | POS | INT | 2 | 44 | 44 | (72-x)=28 | 72 x - 28 = | 72:seashell x:seashell -:seashell 28:seashell =:seashell
+EXPR: 0 | POS | INT | 2 | 44 | 100 | (x-72)=28 | x 72 - 28 = | x:seashell 72:seashell -:seashell 28:seashell =:seashell
+EXPR: 0 | POS | INT | 4 | 44 | 100 | 28=(x-72) | 28 x 72 - = | 28:seashell x:seashell 72:seashell -:seashell =:seashell
+EXPR: 1 | POS | INT | 4 | 44 | 44 | (28+x)=72 | 28 x + 72 = | 28:seashell x:seashell +:seashell 72:seashell =:seashell
+EXPR: 0 | POS | INT | 4 | 44 | 100 | (x-28)=72 | x 28 - 72 = | x:seashell 28:seashell -:seashell 72:seashell =:seashell
+EXPR: 1 | POS | INT | 4 | 44 | 44 | (x+28)=72 | x 28 + 72 = | x:seashell 28:seashell +:seashell 72:seashell =:seashell
+EXPR: 1 | POS | INT | 4 | 44 | 44 | 28=(72-x) | 28 72 x - = | 28:seashell 72:seashell x:seashell -:seashell =:seashell
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

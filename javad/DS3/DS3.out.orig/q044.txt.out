@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | FRA | 0 | 19.02 | 19.02 | x=(9.46+9.56) | x 9.46 9.56 + = | x:dollar 9.46:dollar 9.56:dollar +:dollar =:dollar
+EXPR: 1 | POS | FRA | 0 | 19.02 | 19.02 | (9.46+9.56)=x | 9.46 9.56 + x = | 9.46:dollar 9.56:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 19.02 | 0.1 | (x+9.46)=9.56 | x 9.46 + 9.56 = | x:dollar 9.46:dollar +:dollar 9.56:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 19.02 | 0.1 | 9.46=(9.56-x) | 9.46 9.56 x - = | 9.46:dollar 9.56:dollar x:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 19.02 | 0.1 | x=(9.56-9.46) | x 9.56 9.46 - = | x:dollar 9.56:dollar 9.46:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 19.02 | 0.1 | (9.56-9.46)=x | 9.56 9.46 - x = | 9.56:dollar 9.46:dollar -:dollar x:dollar =:dollar
+EXPR: 1 | POS | FRA | 2 | 19.02 | 19.02 | 9.46=(x-9.56) | 9.46 x 9.56 - = | 9.46:dollar x:dollar 9.56:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 19.02 | 0.1 | (9.46+x)=9.56 | 9.46 x + 9.56 = | 9.46:dollar x:dollar +:dollar 9.56:dollar =:dollar
+EXPR: 1 | POS | FRA | 2 | 19.02 | 19.02 | (x-9.46)=9.56 | x 9.46 - 9.56 = | x:dollar 9.46:dollar -:dollar 9.56:dollar =:dollar
+EXPR: 1 | POS | FRA | 4 | 19.02 | 19.02 | 9.56=(x-9.46) | 9.56 x 9.46 - = | 9.56:dollar x:dollar 9.46:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 4 | 19.02 | 0.1 | (9.56-x)=9.46 | 9.56 x - 9.46 = | 9.56:dollar x:dollar -:dollar 9.46:dollar =:dollar
+EXPR: 1 | POS | FRA | 4 | 19.02 | 19.02 | (x-9.56)=9.46 | x 9.56 - 9.46 = | x:dollar 9.56:dollar -:dollar 9.46:dollar =:dollar
+EXPR: 0 | POS | FRA | 4 | 19.02 | 0.1 | 9.56=(9.46+x) | 9.56 9.46 x + = | 9.56:dollar 9.46:dollar x:dollar +:dollar =:dollar
+EXPR: 0 | POS | FRA | 4 | 19.02 | 0.1 | 9.56=(x+9.46) | 9.56 x 9.46 + = | 9.56:dollar x:dollar 9.46:dollar +:dollar =:dollar
+NET 14 unique, non-negative solutions found out of 28 total solutions

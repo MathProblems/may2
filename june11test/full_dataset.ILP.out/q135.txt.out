@@ -1,0 +1,46 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 100 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 12 | 15 | x=(5*3) | x 5 3 * = | x:card 5:people 3:card *:card =:card
+EXPR: 0 | POS | INT | 1 | 12 | 15 | x=(5*3) | x 5 3 * = | x:card 5:people 3:card *:card =:card
+EXPR: 0 | POS | INT | 2 | 12 | 15 | (x/5)=3 | x 5 / 3 = | x:card 5:people /:card 3:card =:card
+EXPR: 0 | POS | INT | 10 | 12 | 8 | x=(5+3) | x 5 3 + = | x:card 5:card 3:card +:card =:card
+EXPR: 0 | POS | INT | 10 | 12 | 2 | x=(5-3) | x 5 3 - = | x:card 5:card 3:card -:card =:card
+EXPR: 0 | POS | INT | 10 | 12 | 15 | x=(5*3) | x 5 3 * = | x:people 5:people 3:card *:people =:people
+EXPR: 0 | POS | INT | 11 | 12 | 8 | x=(5+3) | x 5 3 + = | x:card 5:card 3:card +:card =:card
+EXPR: 0 | POS | INT | 11 | 12 | 2 | x=(5-3) | x 5 3 - = | x:card 5:card 3:card -:card =:card
+EXPR: 0 | POS | INT | 11 | 12 | 15 | x=(5*3) | x 5 3 * = | x:people 5:people 3:card *:people =:people
+EXPR: 0 | POS | INT | 12 | 12 | 8 | 5=(x-3) | 5 x 3 - = | 5:card x:card 3:card -:card =:card
+EXPR: 0 | POS | INT | 12 | 12 | 15 | 5=(x/3) | 5 x 3 / = | 5:people x:people 3:card /:people =:people
+EXPR: 0 | POS | INT | 12 | 12 | 15 | 3=(x/5) | 3 x 5 / = | 3:card x:card 5:people /:card =:card
+EXPR: 0 | POS | INT | 12 | 12 | 2 | 5=(x+3) | 5 x 3 + = | 5:card x:card 3:card +:card =:card
+EXPR: 0 | POS | INT | 12 | 12 | 2 | (5-x)=3 | 5 x - 3 = | 5:card x:card -:card 3:card =:card
+EXPR: 0 | POS | INT | 12 | 12 | 8 | (x-5)=3 | x 5 - 3 = | x:card 5:card -:card 3:card =:card
+EXPR: 0 | POS | INT | 12 | 12 | 2 | 5=(3+x) | 5 3 x + = | 5:card 3:card x:card +:card =:card
+EXPR: 0 | POS | INT | 20 | 12 | 8 | x=(5+3) | x 5 3 + = | x:people 5:people 3:people +:people =:people
+EXPR: 0 | POS | INT | 20 | 12 | 2 | x=(5-3) | x 5 3 - = | x:people 5:people 3:people -:people =:people
+EXPR: 0 | POS | INT | 20 | 12 | 15 | x=(5*3) | x 5 3 * = | x:card 5:card 3:people *:card =:card
+EXPR: 0 | POS | INT | 21 | 12 | 8 | x=(5+3) | x 5 3 + = | x:people 5:people 3:people +:people =:people
+EXPR: 0 | POS | INT | 21 | 12 | 15 | x=(5*3) | x 5 3 * = | x:card 5:card 3:people *:card =:card
+EXPR: 0 | POS | INT | 21 | 12 | 2 | x=(5-3) | x 5 3 - = | x:people 5:people 3:people -:people =:people
+EXPR: 0 | POS | INT | 22 | 12 | 2 | 5=(3+x) | 5 3 x + = | 5:people 3:people x:people +:people =:people
+EXPR: 0 | POS | INT | 22 | 12 | 8 | 5=(x-3) | 5 x 3 - = | 5:people x:people 3:people -:people =:people
+EXPR: 0 | POS | INT | 22 | 12 | 8 | 3=(x-5) | 3 x 5 - = | 3:card x:card 5:card -:card =:card
+EXPR: 0 | POS | INT | 22 | 12 | 2 | 3=(5-x) | 3 5 x - = | 3:card 5:card x:card -:card =:card
+EXPR: 0 | POS | INT | 22 | 12 | 2 | (x+3)=5 | x 3 + 5 = | x:card 3:card +:card 5:card =:card
+EXPR: 0 | POS | INT | 22 | 12 | 15 | 5=(x/3) | 5 x 3 / = | 5:card x:card 3:people /:card =:card
+EXPR: 0 | POS | INT | 22 | 12 | 2 | (3+x)=5 | 3 x + 5 = | 3:card x:card +:card 5:card =:card
+EXPR: 0 | POS | INT | 22 | 12 | 8 | (x-3)=5 | x 3 - 5 = | x:card 3:card -:card 5:card =:card
+EXPR: 0 | POS | INT | 22 | 12 | 15 | (x/3)=5 | x 3 / 5 = | x:people 3:card /:people 5:people =:people
+EXPR: 0 | POS | INT | 22 | 12 | 2 | 5=(x+3) | 5 x 3 + = | 5:people x:people 3:people +:people =:people
+EXPR: 0 | POS | INT | 22 | 12 | 2 | (5-x)=3 | 5 x - 3 = | 5:people x:people -:people 3:people =:people
+EXPR: 0 | POS | INT | 22 | 12 | 8 | (x-5)=3 | x 5 - 3 = | x:people 5:people -:people 3:people =:people
+EXPR: 0 | POS | INT | 30 | 12 | 15 | x=(5*3) | x 5 3 * = | x:people 5:card 3:people *:people =:people
+EXPR: 0 | POS | INT | 31 | 12 | 15 | x=(5*3) | x 5 3 * = | x:people 5:card 3:people *:people =:people
+EXPR: 0 | POS | INT | 32 | 12 | 2 | 3=(5-x) | 3 5 x - = | 3:people 5:people x:people -:people =:people
+EXPR: 0 | POS | INT | 32 | 12 | 2 | (x+3)=5 | x 3 + 5 = | x:people 3:people +:people 5:people =:people
+EXPR: 0 | POS | INT | 32 | 12 | 2 | (3+x)=5 | 3 x + 5 = | 3:people x:people +:people 5:people =:people
+EXPR: 0 | POS | INT | 32 | 12 | 8 | 3=(x-5) | 3 x 5 - = | 3:people x:people 5:people -:people =:people
+EXPR: 0 | POS | INT | 32 | 12 | 8 | (x-3)=5 | x 3 - 5 = | x:people 3:people -:people 5:people =:people
+EXPR: 0 | POS | INT | 32 | 12 | 15 | (x/3)=5 | x 3 / 5 = | x:card 3:people /:card 5:card =:card
+NET 42 non-negative, integer-valued solutions found out of 100 total solutions

@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 22 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 53 | 53 | x=(41+12) | x 41 12 + = | x:crayon 41:crayon 12:crayon +:crayon =:crayon
+EXPR: 0 | POS | INT | 0 | 53 | 29 | x=(41-12) | x 41 12 - = | x:crayon 41:crayon 12:crayon -:crayon =:crayon
+EXPR: 0 | POS | INT | 1 | 53 | 29 | x=(41-12) | x 41 12 - = | x:crayon 41:crayon 12:crayon -:crayon =:crayon
+EXPR: 1 | POS | INT | 1 | 53 | 53 | x=(41+12) | x 41 12 + = | x:crayon 41:crayon 12:crayon +:crayon =:crayon
+EXPR: 0 | POS | INT | 2 | 53 | 29 | (41-x)=12 | 41 x - 12 = | 41:crayon x:crayon -:crayon 12:crayon =:crayon
+EXPR: 1 | POS | INT | 2 | 53 | 53 | (x-41)=12 | x 41 - 12 = | x:crayon 41:crayon -:crayon 12:crayon =:crayon
+EXPR: 0 | POS | INT | 2 | 53 | 29 | 41=(12+x) | 41 12 x + = | 41:crayon 12:crayon x:crayon +:crayon =:crayon
+EXPR: 1 | POS | INT | 2 | 53 | 53 | 41=(x-12) | 41 x 12 - = | 41:crayon x:crayon 12:crayon -:crayon =:crayon
+EXPR: 0 | POS | INT | 2 | 53 | 29 | 41=(x+12) | 41 x 12 + = | 41:crayon x:crayon 12:crayon +:crayon =:crayon
+EXPR: 1 | POS | INT | 12 | 53 | 53 | 12=(x-41) | 12 x 41 - = | 12:crayon x:crayon 41:crayon -:crayon =:crayon
+EXPR: 0 | POS | INT | 12 | 53 | 29 | (12+x)=41 | 12 x + 41 = | 12:crayon x:crayon +:crayon 41:crayon =:crayon
+EXPR: 0 | POS | INT | 12 | 53 | 29 | (x+12)=41 | x 12 + 41 = | x:crayon 12:crayon +:crayon 41:crayon =:crayon
+EXPR: 1 | POS | INT | 12 | 53 | 53 | (x-12)=41 | x 12 - 41 = | x:crayon 12:crayon -:crayon 41:crayon =:crayon
+EXPR: 0 | POS | INT | 12 | 53 | 29 | 12=(41-x) | 12 41 x - = | 12:crayon 41:crayon x:crayon -:crayon =:crayon
+NET 14 non-negative, integer-valued solutions found out of 22 total solutions

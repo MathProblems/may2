@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 47 | 47 | (79-32)=x | 79 32 - x = | 79:dollar 32:dollar -:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 0 | 47 | 111 | x=(79+32) | x 79 32 + = | x:dollar 79:dollar 32:dollar +:dollar =:dollar
+EXPR: 1 | POS | INT | 0 | 47 | 47 | x=(79-32) | x 79 32 - = | x:dollar 79:dollar 32:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 0 | 47 | 111 | (79+32)=x | 79 32 + x = | 79:dollar 32:dollar +:dollar x:dollar =:dollar
+EXPR: 1 | POS | INT | 2 | 47 | 47 | 79=(32+x) | 79 32 x + = | 79:dollar 32:dollar x:dollar +:dollar =:dollar
+EXPR: 1 | POS | INT | 2 | 47 | 47 | 79=(x+32) | 79 x 32 + = | 79:dollar x:dollar 32:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 2 | 47 | 111 | 79=(x-32) | 79 x 32 - = | 79:dollar x:dollar 32:dollar -:dollar =:dollar
+EXPR: 1 | POS | INT | 2 | 47 | 47 | (79-x)=32 | 79 x - 32 = | 79:dollar x:dollar -:dollar 32:dollar =:dollar
+EXPR: 0 | POS | INT | 2 | 47 | 111 | (x-79)=32 | x 79 - 32 = | x:dollar 79:dollar -:dollar 32:dollar =:dollar
+EXPR: 0 | POS | INT | 4 | 47 | 111 | 32=(x-79) | 32 x 79 - = | 32:dollar x:dollar 79:dollar -:dollar =:dollar
+EXPR: 1 | POS | INT | 4 | 47 | 47 | (32+x)=79 | 32 x + 79 = | 32:dollar x:dollar +:dollar 79:dollar =:dollar
+EXPR: 0 | POS | INT | 4 | 47 | 111 | (x-32)=79 | x 32 - 79 = | x:dollar 32:dollar -:dollar 79:dollar =:dollar
+EXPR: 1 | POS | INT | 4 | 47 | 47 | (x+32)=79 | x 32 + 79 = | x:dollar 32:dollar +:dollar 79:dollar =:dollar
+EXPR: 1 | POS | INT | 4 | 47 | 47 | 32=(79-x) | 32 79 x - = | 32:dollar 79:dollar x:dollar -:dollar =:dollar
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

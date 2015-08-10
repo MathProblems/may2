@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 217 | 7 | (112-105)=x | 112 105 - x = | 112:tree 105:tree -:tree x:tree =:tree
+EXPR: 1 | POS | INT | 0 | 217 | 217 | x=(112+105) | x 112 105 + = | x:tree 112:tree 105:tree +:tree =:tree
+EXPR: 0 | POS | INT | 0 | 217 | 7 | x=(112-105) | x 112 105 - = | x:tree 112:tree 105:tree -:tree =:tree
+EXPR: 1 | POS | INT | 0 | 217 | 217 | (112+105)=x | 112 105 + x = | 112:tree 105:tree +:tree x:tree =:tree
+EXPR: 0 | POS | INT | 2 | 217 | 7 | 112=(105+x) | 112 105 x + = | 112:tree 105:tree x:tree +:tree =:tree
+EXPR: 0 | POS | INT | 2 | 217 | 7 | 112=(x+105) | 112 x 105 + = | 112:tree x:tree 105:tree +:tree =:tree
+EXPR: 1 | POS | INT | 2 | 217 | 217 | 112=(x-105) | 112 x 105 - = | 112:tree x:tree 105:tree -:tree =:tree
+EXPR: 0 | POS | INT | 2 | 217 | 7 | (112-x)=105 | 112 x - 105 = | 112:tree x:tree -:tree 105:tree =:tree
+EXPR: 1 | POS | INT | 2 | 217 | 217 | (x-112)=105 | x 112 - 105 = | x:tree 112:tree -:tree 105:tree =:tree
+EXPR: 1 | POS | INT | 4 | 217 | 217 | 105=(x-112) | 105 x 112 - = | 105:tree x:tree 112:tree -:tree =:tree
+EXPR: 0 | POS | INT | 4 | 217 | 7 | (105+x)=112 | 105 x + 112 = | 105:tree x:tree +:tree 112:tree =:tree
+EXPR: 1 | POS | INT | 4 | 217 | 217 | (x-105)=112 | x 105 - 112 = | x:tree 105:tree -:tree 112:tree =:tree
+EXPR: 0 | POS | INT | 4 | 217 | 7 | (x+105)=112 | x 105 + 112 = | x:tree 105:tree +:tree 112:tree =:tree
+EXPR: 0 | POS | INT | 4 | 217 | 7 | 105=(112-x) | 105 112 x - = | 105:tree 112:tree x:tree -:tree =:tree
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

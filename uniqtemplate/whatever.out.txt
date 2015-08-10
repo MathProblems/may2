@@ -1,0 +1,559 @@
+ sandy went to the mall to buy clothes . she spent $13.99 on shorts , $12.14 on a shirt , and $7.43 on a jacket . how much money did sandy spend on clothes ? 
+33.56
+
+['13.99', '12.14', '7.43', 'x']
+( 13.99 + 12.14 ) + 7.43 = x
+13.99 + ( 12.14 + 7.43 ) = x
+___
+ jason joined his school's band . he bought a flute for $142.46 , a music stand for $8.89 , and a song book for $7 . how much did jason spend at the music store ? 
+158.35
+
+['142.46', '8.89', '7', 'x']
+( 142.46 + 8.89 ) + 7 = x
+142.46 + ( 8.89 + 7 ) = x
+___
+ tom purchased a football game for $14.02 , a strategy game for $9.46 , and a batman game for $12.04 . how much did tom spend on video games ? 
+35.52
+
+['14.02', '9.46', '12.04', 'x']
+( 14.02 + 9.46 ) + 12.04 = x
+14.02 + ( 9.46 + 12.04 ) = x
+___
+ fred loves trading cards . he bought 2 packs of football cards for $2.73 each , a pack of pokemon cards for $4.01 , and a deck of baseball cards for $8.95 . how much did fred spend on cards ? 
+18.42
+
+['2', '2.73', '4.01', '8.95', 'x']
+( ( 2 * 2.73 ) + 4.01 ) + 8.95 = x
+( 2 * 2.73 ) + ( 4.01 + 8.95 ) = x
+( 2 * 2.73 ) + ( 4.01 + 8.95 ) = x
+___
+ on saturday , sara spent $10.62 each on 2 tickets to a movie theater . she also rented a movie for $1.59 , and bought a movie for $13.95 . how much money in total did sara spend on movies ? 
+36.78
+
+['10.62', '2', '1.59', '13.95', 'x']
+( ( 10.62 * 2 ) + 1.59 ) + 13.95 = x
+( 10.62 * 2 ) + ( 1.59 + 13.95 ) = x
+( 10.62 * 2 ) + ( 1.59 + 13.95 ) = x
+___
+ mike bought some toys . he bought marbles for $9.05 , a football for $4.95 , and spent $6.52 on a baseball . in total , how much did mike spend on toys ? 
+20.52
+
+['9.05', '4.95', '6.52', 'x']
+( 9.05 + 4.95 ) + 6.52 = x
+9.05 + ( 4.95 + 6.52 ) = x
+___
+ mary loves eating fruits . mary paid $7.19 for berries , and $6.83 for peaches with a $20 bill . how much change did mary receive ? 
+5.98
+
+['7.19', '6.83', '20', 'x']
+( x + 7.19 ) + 6.83 = 20
+x + ( 7.19 + 6.83 ) = 20
+( 7.19 + x ) + 6.83 = 20
+7.19 + ( x + 6.83 ) = 20
+( 7.19 + 6.83 ) + x = 20
+7.19 + ( 6.83 + x ) = 20
+___
+ the basketball coach bought 9 new basketballs for $14 each . the baseball coach bought 7 new baseballs for $1 each . how much more did the basketball coach spend than the baseball coach ? 
+119
+
+['9', '14', '7', 'x']
+( 9 * 14 ) - 7 = x
+___
+ jonathan wants to buy a dictionary that costs $11 , a dinosaur book that costs $19 , and a children's cookbook that costs $7 . he has saved $8 from his allowance . how much more money does jonathan need to buy all 3 books ? 
+29
+
+['11', '3', '19', '7', '8', 'x']
+( ( ( 11 * 3 ) - 19 ) + 7 ) + 8 = x
+( ( 11 * 3 ) - 19 ) + ( 7 + 8 ) = x
+( ( 11 * 3 ) - 19 ) + ( 7 + 8 ) = x
+( ( 11 * 3 ) - 19 ) + ( 7 + 8 ) = x
+( ( 11 * 3 ) - ( 19 - 7 ) ) + 8 = x
+( 11 * 3 ) - ( 19 - ( 7 + 8 ) ) = x
+( ( 11 * 3 ) - ( 19 - 7 ) ) + 8 = x
+( 11 * 3 ) - ( 19 - ( 7 + 8 ) ) = x
+( 11 * 3 ) - ( 19 - ( 7 + 8 ) ) = x
+( 11 * 3 ) - ( ( 19 - 7 ) - 8 ) = x
+( 11 * 3 ) - ( ( 19 - 7 ) - 8 ) = x
+( 11 * 3 ) - ( ( 19 - 7 ) - 8 ) = x
+11 = ( ( 3 - 19 ) + ( 7 * 8 ) ) - x
+11 = ( 3 - 19 ) + ( ( 7 * 8 ) - x )
+11 = ( ( 3 - 19 ) + ( 7 * 8 ) ) - x
+11 = ( 3 - 19 ) + ( ( 7 * 8 ) - x )
+11 = ( 3 - 19 ) + ( ( 7 * 8 ) - x )
+11 = 3 - ( ( 19 - ( 7 * 8 ) ) + x )
+11 = ( 3 - ( 19 - ( 7 * 8 ) ) ) - x
+11 = 3 - ( 19 - ( ( 7 * 8 ) - x ) )
+___
+ philip always takes the same route when he walks his dog . first , he walks 2 blocks to the park . then he walks 8 blocks to the elementary school . finally , he walks 7 blocks to get back home . philip walks his dog 5 times each day . how many blocks does philip's dog walk each day ? 
+85
+
+['2', '8', '7', '5', 'x']
+( ( 2 + 8 ) + 7 ) * 5 = x
+( 2 + ( 8 + 7 ) ) * 5 = x
+___
+ dana earns $13 per hour . she worked 9 hours on friday , 10 hours on saturday , and 3 hours on sunday . how much money did dana earn in all ? 
+286
+
+['13', '9', '10', '3', 'x']
+( 13 + 9 ) * ( 10 + 3 ) = x
+( 13 + 9 ) * ( 10 + 3 ) = x
+13 * ( ( 9 + 10 ) + 3 ) = x
+13 * ( 9 + ( 10 + 3 ) ) = x
+___
+ tanner saved $17 in september . he saved $48 in october and $25 in november . then tanner spent $49 on a video game . how much money does tanner have left ? 
+41
+
+['17', '48', '25', '49', 'x']
+( ( 17 + 48 ) + 25 ) - 49 = x
+( 17 + 48 ) + ( 25 - 49 ) = x
+( 17 + ( 48 + 25 ) ) - 49 = x
+17 + ( ( 48 + 25 ) - 49 ) = x
+( 17 + 48 ) + ( 25 - 49 ) = x
+17 + ( 48 + ( 25 - 49 ) ) = x
+___
+ mika had 20 stickers . she bought 26 stickers from a store in the mall and got 20 stickers for her birthday . then mika gave 6 of the stickers to her sister and used 58 to decorate a greeting card . how many stickers does mika have left ? 
+2
+
+['20', '26', '20', '6', '58', 'x']
+( ( 20 + 26 ) + 20 ) - ( 6 + 58 ) = x
+( ( 20 + 26 ) + 20 ) - ( 6 + 58 ) = x
+( 20 + 26 ) + ( 20 - ( 6 + 58 ) ) = x
+( 20 + ( 26 + 20 ) ) - ( 6 + 58 ) = x
+( 20 + ( 26 + 20 ) ) - ( 6 + 58 ) = x
+20 + ( ( 26 + 20 ) - ( 6 + 58 ) ) = x
+( ( 20 + 26 ) + 20 ) - ( 6 + 58 ) = x
+( 20 + 26 ) + ( 20 - ( 6 + 58 ) ) = x
+( 20 + ( 26 + 20 ) ) - ( 6 + 58 ) = x
+20 + ( ( 26 + 20 ) - ( 6 + 58 ) ) = x
+( 20 + 26 ) + ( 20 - ( 6 + 58 ) ) = x
+20 + ( 26 + ( 20 - ( 6 + 58 ) ) ) = x
+( ( ( 20 + 26 ) + 20 ) - 6 ) - 58 = x
+( ( 20 + 26 ) + ( 20 - 6 ) ) - 58 = x
+( 20 + 26 ) + ( ( 20 - 6 ) - 58 ) = x
+( ( 20 + ( 26 + 20 ) ) - 6 ) - 58 = x
+( 20 + ( ( 26 + 20 ) - 6 ) ) - 58 = x
+20 + ( ( ( 26 + 20 ) - 6 ) - 58 ) = x
+( ( 20 + 26 ) + ( 20 - 6 ) ) - 58 = x
+( 20 + 26 ) + ( ( 20 - 6 ) - 58 ) = x
+( 20 + ( 26 + ( 20 - 6 ) ) ) - 58 = x
+20 + ( ( 26 + ( 20 - 6 ) ) - 58 ) = x
+( 20 + 26 ) + ( ( 20 - 6 ) - 58 ) = x
+20 + ( 26 + ( ( 20 - 6 ) - 58 ) ) = x
+20 = ( 26 + 20 ) + ( ( 6 - 58 ) / x )
+20 = ( 26 + 20 ) + ( ( 6 - 58 ) / x )
+20 = ( 26 + 20 ) + ( ( 6 - 58 ) / x )
+20 = 26 + ( 20 + ( ( 6 - 58 ) / x ) )
+___
+ susan had 78 dolphin stickers . she gave 5 stickers each to 3 friends . how many stickers does susan have left ? 
+63
+
+['78', '5', '3', 'x']
+78 - ( 5 * 3 ) = x
+78 = ( 5 * 3 ) + x
+___
+ a group of science students went on a field trip . they took 6 vans and 8 buses . there were 6 people in each van and 18 people in each bus . how many people went on the field trip ? 
+180
+
+['6', '6', '8', '18', 'x']
+( 6 * 6 ) + ( 8 * 18 ) = x
+( 6 * 6 ) + ( 8 * 18 ) = x
+6 * ( ( 6 * 8 ) - 18 ) = x
+___
+ carrie's mom gave her $91 to go shopping . she bought a sweater for $24 , a t-shirt for $6 , and a pair of shoes for $11 . how much money does carrie have left ? 
+50
+
+['91', '24', '6', '11', 'x']
+91 - ( ( 24 + 6 ) + 11 ) = x
+91 - ( 24 + ( 6 + 11 ) ) = x
+( 91 - ( 24 + 6 ) ) - 11 = x
+( 91 - 24 ) - ( 6 + 11 ) = x
+( 91 - 24 ) - ( 6 + 11 ) = x
+( ( 91 - 24 ) - 6 ) - 11 = x
+91 = ( ( 24 + 6 ) + 11 ) + x
+91 = ( 24 + 6 ) + ( 11 + x )
+91 = ( 24 + ( 6 + 11 ) ) + x
+91 = 24 + ( ( 6 + 11 ) + x )
+91 = ( 24 + 6 ) + ( 11 + x )
+91 = 24 + ( 6 + ( 11 + x ) )
+___
+ kylie was collecting coins . she got 15 coins from her piggy bank and 13 coins from her brother . her father gave kylie 8 coins . kylie gave 21 of the coins to her friend laura . how many coins did kylie have left ? 
+15
+
+['15', '13', '8', '21', 'x']
+( ( 15 + 13 ) + 8 ) - 21 = x
+( 15 + 13 ) + ( 8 - 21 ) = x
+( 15 + ( 13 + 8 ) ) - 21 = x
+15 + ( ( 13 + 8 ) - 21 ) = x
+( 15 + 13 ) + ( 8 - 21 ) = x
+15 + ( 13 + ( 8 - 21 ) ) = x
+( 15 - ( 13 + 8 ) ) + 21 = x
+15 - ( ( 13 + 8 ) - 21 ) = x
+15 - ( 13 + ( 8 - 21 ) ) = x
+( ( 15 - 13 ) - 8 ) + 21 = x
+( 15 - 13 ) - ( 8 - 21 ) = x
+( 15 - 13 ) - ( 8 - 21 ) = x
+15 / ( ( 13 + 8 ) / 21 ) = x
+( 15 / ( 13 + 8 ) ) * 21 = x
+( 15 * ( 13 + 8 ) ) / 21 = x
+15 * ( ( 13 + 8 ) / 21 ) = x
+15 = ( ( 13 + 8 ) - 21 ) + x
+15 = ( 13 + ( 8 - 21 ) ) + x
+15 = 13 + ( ( 8 - 21 ) + x )
+15 = ( 13 + 8 ) - ( 21 - x )
+15 = ( 13 + 8 ) - ( 21 - x )
+15 = 13 + ( 8 - ( 21 - x ) )
+15 = ( 13 + 8 ) / ( 21 / x )
+15 = ( 13 + 8 ) / ( 21 / x )
+15 = ( ( 13 + 8 ) / 21 ) * x
+___
+ justin needs 61 paper plates for a birthday party . he already has 26 blue plates and 7 red plates . how many more plates should justin buy ? 
+28
+
+['61', '26', '7', 'x']
+61 - ( 26 + 7 ) = x
+( 61 - 26 ) - 7 = x
+61 = ( 26 + 7 ) + x
+61 = 26 + ( 7 + x )
+___
+ mark's father gave him $85 . mark bought 10 books , each of which cost $5 . how much money does mark have left ? 
+35
+
+['85', '10', '5', 'x']
+85 - ( 10 * 5 ) = x
+85 = ( 10 * 5 ) + x
+___
+ 7 students and 2 teachers went on a field trip to an art museum . student tickets cost $5 each , and adult tickets cost $9 each . how much did the museum tickets cost in all ? 
+53
+
+['7', '9', '2', '5', 'x']
+( 7 * 9 ) - ( 2 * 5 ) = x
+( 7 * 9 ) - ( 2 * 5 ) = x
+___
+ elise had $8 . then she saved $13 from her allowance and spent $2 on a comic book and $18 on a puzzle . how much money does elise have left ? 
+1
+
+['8', '13', '2', '18', 'x']
+( 8 + 13 ) - ( 2 + 18 ) = x
+( 8 + 13 ) - ( 2 + 18 ) = x
+8 + ( 13 - ( 2 + 18 ) ) = x
+( ( 8 + 13 ) - 2 ) - 18 = x
+( 8 + ( 13 - 2 ) ) - 18 = x
+8 + ( ( 13 - 2 ) - 18 ) = x
+8 / ( ( 13 * 2 ) - 18 ) = x
+8 = ( ( 13 * 2 ) - 18 ) / x
+8 = ( 13 * 2 ) - ( 18 / x )
+8 = ( 13 * 2 ) - ( 18 / x )
+8 = ( ( 13 * 2 ) - 18 ) * x
+8 = ( 13 * 2 ) - ( 18 * x )
+8 = ( 13 * 2 ) - ( 18 * x )
+___
+ lindsey earns $8 per hour . last week , she worked 7 hours on monday , 6 hours on tuesday , and 3 hours on wednesday . she had thursday off , and then she worked 9 hours on friday . how much money did lindsey earn in all last week ? 
+200
+
+['8', '7', '6', '3', '9', 'x']
+( ( ( 8 + 7 ) + 6 ) - 3 ) / 9 = x
+( ( 8 + 7 ) + ( 6 - 3 ) ) / 9 = x
+( ( 8 + ( 7 + 6 ) ) - 3 ) / 9 = x
+( 8 + ( ( 7 + 6 ) - 3 ) ) / 9 = x
+( ( 8 + 7 ) + ( 6 - 3 ) ) / 9 = x
+( 8 + ( 7 + ( 6 - 3 ) ) ) / 9 = x
+( 8 + ( ( 7 - 6 ) * 3 ) ) - 9 = x
+8 + ( ( ( 7 - 6 ) * 3 ) - 9 ) = x
+8 + ( ( 7 - 6 ) * ( 3 - 9 ) ) = x
+8 + ( ( 7 - 6 ) * ( 3 - 9 ) ) = x
+( 8 - 7 ) + ( ( 6 + 3 ) / 9 ) = x
+( 8 - 7 ) + ( ( 6 + 3 ) / 9 ) = x
+( 8 - 7 ) + ( ( 6 + 3 ) / 9 ) = x
+8 - ( 7 + ( 6 / ( 3 - 9 ) ) ) = x
+8 - ( 7 - ( ( 6 + 3 ) / 9 ) ) = x
+( 8 - 7 ) - ( 6 / ( 3 - 9 ) ) = x
+( 8 - 7 ) - ( 6 / ( 3 - 9 ) ) = x
+( 8 - 7 ) - ( 6 / ( 3 - 9 ) ) = x
+( 8 - 7 ) / ( 6 / ( 3 + 9 ) ) = x
+( 8 - 7 ) / ( 6 / ( 3 + 9 ) ) = x
+( 8 - 7 ) / ( 6 / ( 3 + 9 ) ) = x
+( ( 8 - 7 ) / 6 ) * ( 3 + 9 ) = x
+( ( 8 - 7 ) / 6 ) * ( 3 + 9 ) = x
+( ( 8 - 7 ) / 6 ) * ( 3 + 9 ) = x
+( ( ( 8 - 7 ) * 6 ) * 3 ) / 9 = x
+( ( 8 - 7 ) * 6 ) * ( 3 / 9 ) = x
+( ( 8 - 7 ) * ( 6 * 3 ) ) / 9 = x
+( 8 - 7 ) * ( ( 6 * 3 ) / 9 ) = x
+( ( 8 - 7 ) * 6 ) * ( 3 / 9 ) = x
+( 8 - 7 ) * ( 6 * ( 3 / 9 ) ) = x
+( ( 8 - 7 ) * ( 6 * 3 ) ) / 9 = x
+( 8 - 7 ) * ( ( 6 * 3 ) / 9 ) = x
+( 8 - 7 ) * ( ( 6 * 3 ) / 9 ) = x
+( ( 8 - 7 ) * 6 ) * ( 3 / 9 ) = x
+( 8 - 7 ) * ( 6 * ( 3 / 9 ) ) = x
+( 8 - 7 ) * ( 6 * ( 3 / 9 ) ) = x
+( ( 8 / ( 7 - 6 ) ) + 3 ) - 9 = x
+( 8 / ( 7 - 6 ) ) + ( 3 - 9 ) = x
+( 8 / ( 7 - 6 ) ) + ( 3 - 9 ) = x
+( 8 / ( 7 - 6 ) ) + ( 3 - 9 ) = x
+8 * ( ( ( 7 + 6 ) + 3 ) + 9 ) = x
+8 * ( ( 7 + 6 ) + ( 3 + 9 ) ) = x
+8 * ( ( 7 + ( 6 + 3 ) ) + 9 ) = x
+8 * ( 7 + ( ( 6 + 3 ) + 9 ) ) = x
+8 * ( ( 7 + 6 ) + ( 3 + 9 ) ) = x
+8 * ( 7 + ( 6 + ( 3 + 9 ) ) ) = x
+8 * ( 7 + ( 6 / ( 3 / 9 ) ) ) = x
+8 * ( 7 + ( ( 6 / 3 ) * 9 ) ) = x
+( ( 8 * ( 7 - 6 ) ) + 3 ) - 9 = x
+( 8 * ( 7 - 6 ) ) + ( 3 - 9 ) = x
+( 8 * ( 7 - 6 ) ) + ( 3 - 9 ) = x
+( 8 * ( 7 - 6 ) ) + ( 3 - 9 ) = x
+8 = 7 + ( 6 / ( ( 3 + 9 ) / x ) )
+8 = 7 + ( ( 6 / ( 3 + 9 ) ) * x )
+8 = ( 7 + ( 6 / ( 3 - 9 ) ) ) + x
+8 = 7 + ( ( 6 / ( 3 - 9 ) ) + x )
+8 = ( ( 7 + ( 6 * 3 ) ) - 9 ) / x
+8 = ( 7 + ( ( 6 * 3 ) - 9 ) ) / x
+8 = 7 + ( ( ( 6 * 3 ) / 9 ) / x )
+8 = 7 + ( ( 6 * ( 3 / 9 ) ) / x )
+8 = 7 + ( 6 * ( ( 3 / 9 ) / x ) )
+8 = 7 + ( ( 6 * 3 ) / ( 9 * x ) )
+8 = 7 + ( ( 6 * 3 ) / ( 9 * x ) )
+8 = 7 + ( 6 * ( 3 / ( 9 * x ) ) )
+8 = ( 7 - ( ( 6 + 3 ) / 9 ) ) + x
+8 = 7 - ( ( ( 6 + 3 ) / 9 ) - x )
+8 = ( 7 / ( 6 / 3 ) ) + ( 9 / x )
+8 = ( 7 / ( 6 / 3 ) ) + ( 9 / x )
+8 = ( 7 / ( 6 / 3 ) ) + ( 9 / x )
+8 = ( ( 7 / 6 ) * 3 ) + ( 9 / x )
+8 = ( ( 7 / 6 ) * 3 ) + ( 9 / x )
+8 = ( ( 7 / 6 ) * 3 ) + ( 9 / x )
+___
+ luke had 20 stickers . he bought 12 stickers from a store in the mall and got 20 stickers for his birthday . then luke gave 5 of the stickers to his sister and used 8 to decorate a greeting card . how many stickers does luke have left ? 
+39
+
+['20', '12', '20', '5', '8', 'x']
+( ( 20 + 12 ) + 20 ) - ( 5 + 8 ) = x
+( ( 20 + 12 ) + 20 ) - ( 5 + 8 ) = x
+( 20 + 12 ) + ( 20 - ( 5 + 8 ) ) = x
+( 20 + ( 12 + 20 ) ) - ( 5 + 8 ) = x
+( 20 + ( 12 + 20 ) ) - ( 5 + 8 ) = x
+20 + ( ( 12 + 20 ) - ( 5 + 8 ) ) = x
+( ( 20 + 12 ) + 20 ) - ( 5 + 8 ) = x
+( 20 + 12 ) + ( 20 - ( 5 + 8 ) ) = x
+( 20 + ( 12 + 20 ) ) - ( 5 + 8 ) = x
+20 + ( ( 12 + 20 ) - ( 5 + 8 ) ) = x
+( 20 + 12 ) + ( 20 - ( 5 + 8 ) ) = x
+20 + ( 12 + ( 20 - ( 5 + 8 ) ) ) = x
+( ( ( 20 + 12 ) + 20 ) - 5 ) - 8 = x
+( ( 20 + 12 ) + ( 20 - 5 ) ) - 8 = x
+( 20 + 12 ) + ( ( 20 - 5 ) - 8 ) = x
+( ( 20 + ( 12 + 20 ) ) - 5 ) - 8 = x
+( 20 + ( ( 12 + 20 ) - 5 ) ) - 8 = x
+20 + ( ( ( 12 + 20 ) - 5 ) - 8 ) = x
+( ( 20 + 12 ) + ( 20 - 5 ) ) - 8 = x
+( 20 + 12 ) + ( ( 20 - 5 ) - 8 ) = x
+( 20 + ( 12 + ( 20 - 5 ) ) ) - 8 = x
+20 + ( ( 12 + ( 20 - 5 ) ) - 8 ) = x
+( 20 + 12 ) + ( ( 20 - 5 ) - 8 ) = x
+20 + ( 12 + ( ( 20 - 5 ) - 8 ) ) = x
+20 = ( 12 / ( 20 / ( 5 + 8 ) ) ) / x
+20 = 12 / ( 20 / ( ( 5 + 8 ) / x ) )
+20 = 12 / ( ( 20 / ( 5 + 8 ) ) * x )
+20 = ( ( 12 / 20 ) * ( 5 + 8 ) ) / x
+20 = ( 12 / 20 ) * ( ( 5 + 8 ) / x )
+20 = ( ( 12 / 20 ) * ( 5 + 8 ) ) / x
+20 = ( 12 / 20 ) * ( ( 5 + 8 ) / x )
+20 = ( 12 / 20 ) * ( ( 5 + 8 ) / x )
+___
+ ethan needs 38 cupcakes for a birthday party . he already has 20 chocolate cupcakes and 10 vanilla cupcakes . how many more cupcakes should ethan buy ? 
+8
+
+['38', '20', '10', 'x']
+38 - ( 20 + 10 ) = x
+( 38 - 20 ) - 10 = x
+38 = ( 20 + 10 ) + x
+38 = 20 + ( 10 + x )
+___
+ johnny saved $30 in september . he saved $49 in october and $46 in november . then johnny spent $58 on a video game . how much money does johnny have left ? 
+67
+
+['30', '49', '46', '58', 'x']
+( ( 30 + 49 ) + 46 ) - 58 = x
+( 30 + 49 ) + ( 46 - 58 ) = x
+( 30 + ( 49 + 46 ) ) - 58 = x
+30 + ( ( 49 + 46 ) - 58 ) = x
+( 30 + 49 ) + ( 46 - 58 ) = x
+30 + ( 49 + ( 46 - 58 ) ) = x
+___
+ seth bought 20 cartons of ice cream and 2 cartons of yogurt . each carton of ice cream cost $6 and each carton of yogurt cost $1 . how much more did seth spend on ice cream than on yogurt ? 
+118
+
+['20', '2', '6', 'x']
+20 = ( x + 2 ) / 6
+20 = ( 2 + x ) / 6
+___
+ dalton wants to buy a jump rope that costs $7 , a board game that costs $12 , and a playground ball that costs $4 . he has saved $6 from his allowance , and his uncle gave him $13 . how much more money does dalton need to buy the jump rope , the game , and the ball ? 
+4
+
+['7', '12', '4', '6', '13', 'x']
+( ( 7 + 12 ) + 4 ) - ( 6 + 13 ) = x
+( ( 7 + 12 ) + 4 ) - ( 6 + 13 ) = x
+( 7 + 12 ) + ( 4 - ( 6 + 13 ) ) = x
+( 7 + ( 12 + 4 ) ) - ( 6 + 13 ) = x
+( 7 + ( 12 + 4 ) ) - ( 6 + 13 ) = x
+7 + ( ( 12 + 4 ) - ( 6 + 13 ) ) = x
+( ( 7 + 12 ) + 4 ) - ( 6 + 13 ) = x
+( 7 + 12 ) + ( 4 - ( 6 + 13 ) ) = x
+( 7 + ( 12 + 4 ) ) - ( 6 + 13 ) = x
+7 + ( ( 12 + 4 ) - ( 6 + 13 ) ) = x
+( 7 + 12 ) + ( 4 - ( 6 + 13 ) ) = x
+7 + ( 12 + ( 4 - ( 6 + 13 ) ) ) = x
+( ( ( 7 + 12 ) + 4 ) - 6 ) - 13 = x
+( ( 7 + 12 ) + ( 4 - 6 ) ) - 13 = x
+( 7 + 12 ) + ( ( 4 - 6 ) - 13 ) = x
+( ( 7 + ( 12 + 4 ) ) - 6 ) - 13 = x
+( 7 + ( ( 12 + 4 ) - 6 ) ) - 13 = x
+7 + ( ( ( 12 + 4 ) - 6 ) - 13 ) = x
+( ( 7 + 12 ) + ( 4 - 6 ) ) - 13 = x
+( 7 + 12 ) + ( ( 4 - 6 ) - 13 ) = x
+( 7 + ( 12 + ( 4 - 6 ) ) ) - 13 = x
+7 + ( ( 12 + ( 4 - 6 ) ) - 13 ) = x
+( 7 + 12 ) + ( ( 4 - 6 ) - 13 ) = x
+7 + ( 12 + ( ( 4 - 6 ) - 13 ) ) = x
+( ( 7 + 12 ) * 4 ) / ( 6 + 13 ) = x
+( ( 7 + 12 ) * 4 ) / ( 6 + 13 ) = x
+( 7 + 12 ) * ( 4 / ( 6 + 13 ) ) = x
+( ( 7 + 12 ) * 4 ) / ( 6 + 13 ) = x
+( 7 + 12 ) * ( 4 / ( 6 + 13 ) ) = x
+( 7 + 12 ) * ( 4 / ( 6 + 13 ) ) = x
+___
+ the swimming club went to a swim meet in another town . they took 3 cars and 3 vans . there were 5 people in each car and 4 people in each van . how many people went on the trip ? 
+27
+
+['3', '5', '3', '4', 'x']
+( 3 * 5 ) + ( 3 * 4 ) = x
+( 3 * 5 ) + ( 3 * 4 ) = x
+___
+ mandy's father gave her $198 . mandy bought 3 books , each of which cost $2 . how much money does mandy have left ? 
+192
+
+['198', '3', '2', 'x']
+198 - ( 3 * 2 ) = x
+198 = ( 3 * 2 ) + x
+___
+ abe bought 2 packs of white t-shirts and 3 packs of blue t-shirts for his basketball team . the white t-shirts come in packs of 9 , and the blue t-shirts come in packs of 2 . how many t-shirts did abe buy in all ? 
+24
+
+['2', '3', 'x', '9', '2']
+2 = 3 * ( ( x / 9 ) - 2 )
+___
+ priya needs 54 cupcakes for a birthday party . she already has 15 chocolate cupcakes and 25 vanilla cupcakes . how many more cupcakes should priya buy ? 
+14
+
+['54', '15', '25', 'x']
+54 - ( 15 + 25 ) = x
+( 54 - 15 ) - 25 = x
+54 = ( 15 + 25 ) + x
+54 = 15 + ( 25 + x )
+___
+ maria needs 21 cartons of berries to make a berry cobbler . she already has 4 cartons of strawberries and 8 cartons of blueberries . how many more cartons of berries should maria buy ? 
+9
+
+['21', '4', '8', 'x']
+21 - ( 4 + 8 ) = x
+( 21 - 4 ) - 8 = x
+21 = ( 4 + 8 ) + x
+21 = 4 + ( 8 + x )
+___
+ there are 24 bicycles and 14 tricycles in the storage area at danny's apartment building . each bicycle has 2 wheels and each tricycle has 3 wheels . how many wheels are there in all ? 
+90
+
+['24', '2', '14', '3', 'x']
+( 24 * 2 ) + ( 14 * 3 ) = x
+( 24 * 2 ) + ( 14 * 3 ) = x
+___
+ tim got 3 nickels and 13 dimes for shining shoes , and in his tip jar found 7 dimes and 9 half-dollars . how much money did tim get ? 
+6.65
+
+['0.15', '1.3', '0.7', '4.5', 'x']
+( ( 0.15 + 1.3 ) + 0.7 ) + 4.5 = x
+( 0.15 + 1.3 ) + ( 0.7 + 4.5 ) = x
+( 0.15 + ( 1.3 + 0.7 ) ) + 4.5 = x
+0.15 + ( ( 1.3 + 0.7 ) + 4.5 ) = x
+( 0.15 + 1.3 ) + ( 0.7 + 4.5 ) = x
+0.15 + ( 1.3 + ( 0.7 + 4.5 ) ) = x
+___
+ mary has 9 yellow marbles joan has 3 yellow marbles . how many yellow marbles do they have in all  ? 
+12
+
+['9', '3', 'x']
+9 + 3 = x
+___
+ there are 8 calories in a candy bar . how many calories are there in 3 candy bars  ? 
+24
+
+['8', '3', 'x']
+8 * 3 = x
+___
+ a restaurant made 9 hamburgers to serve during lunch . only 3 were  actually served . how many hamburgers were left over from lunch  ? 
+6
+
+['9', '3', 'x']
+9 - 3 = x
+9 = 3 + x
+___
+ there are 7 crayons in the drawer . mary took 3 crayons out of the drawer . how many crayons are there now  ? 
+4
+
+['7', '3', 'x']
+7 - 3 = x
+7 = 3 + x
+___
+ jason had pokemon cards . he gave 9 to his friends . he now has 4 pokemon cards left . how many pokemon cards did he have to start with  ? 
+13
+
+['x', '9', '4']
+x - 9 = 4
+x = 9 + 4
+___
+ benny bought a soft drink for 2 dollars and 5 candy bars . he spent a total of 27 dollars . how much did each candy bar cost  ? 
+5
+
+['2', '5', 'x', '27']
+2 + ( 5 * x ) = 27
+___
+ alyssa spent half of her allowance going to the movies . she washed the family car and earned 8 dollars . what is her weekly allowance if she ended with 12 dollars  ? 
+8
+
+['8', 'x', '12']
+8 = x
+___
+ oceanside bike rental shop charges 17 dollars plus 7 dollars an hour for renting a bike . tom paid 80 dollars to rent a bike . how many hours did he pay to have the bike checked out  ? 
+9
+
+['17', '7', 'x', '80']
+17 + ( 7 * x ) = 80
+___
+ on monday , 375 students went on a trip to the zoo . all 7 buses were filled and 4 students had to travel in cars . how many students were in each bus  ? 
+53
+
+['375', '7', '4', 'x']
+375 - ( x * 7 ) = 4
+375 = ( x * 7 ) + 4
+375 - ( 7 * x ) = 4
+375 = ( 7 * x ) + 4
+___
+ zach wants to ride the ferris wheel , the roller coaster , and the log ride . the ferris wheel costs 2 tickets , the roller coaster costs 7 tickets and the log ride costs 1 ticket . zach has 1 ticket . how many more tickets should zach buy ? 
+9
+
+['2', '7', 'x']
+2 + 7 = x
+___
+ maggie bought 4 packs of red bouncy balls , 8 packs of yellow bouncy balls , and 4 packs of green bouncy balls . there were 10 bouncy balls in each package . how many bouncy balls did maggie buy in all ? 
+160
+
+['4', 'x', '8', '4', '10']
+4 / ( x / ( 8 - 4 ) ) = 10
+( 4 / x ) * ( 8 - 4 ) = 10
+( 4 / x ) * ( 8 - 4 ) = 10
+4 = ( x / ( 8 - 4 ) ) / 10
+4 = x / ( ( 8 - 4 ) / 10 )
+4 = ( x / ( 8 - 4 ) ) * 10
+4 = x / ( ( 8 - 4 ) * 10 )
+___

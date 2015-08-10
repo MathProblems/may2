@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 46 | 128 | x=(41+87) | x 41 87 + = | x:book 41:book 87:book +:book =:book
+EXPR: 0 | POS | INT | 0 | 46 | 128 | (41+87)=x | 41 87 + x = | 41:book 87:book +:book x:book =:book
+EXPR: 1 | POS | INT | 2 | 46 | 46 | (x+41)=87 | x 41 + 87 = | x:book 41:book +:book 87:book =:book
+EXPR: 1 | POS | INT | 2 | 46 | 46 | 41=(87-x) | 41 87 x - = | 41:book 87:book x:book -:book =:book
+EXPR: 1 | POS | INT | 2 | 46 | 46 | x=(87-41) | x 87 41 - = | x:book 87:book 41:book -:book =:book
+EXPR: 1 | POS | INT | 2 | 46 | 46 | (87-41)=x | 87 41 - x = | 87:book 41:book -:book x:book =:book
+EXPR: 0 | POS | INT | 2 | 46 | 128 | 41=(x-87) | 41 x 87 - = | 41:book x:book 87:book -:book =:book
+EXPR: 1 | POS | INT | 2 | 46 | 46 | (41+x)=87 | 41 x + 87 = | 41:book x:book +:book 87:book =:book
+EXPR: 0 | POS | INT | 2 | 46 | 128 | (x-41)=87 | x 41 - 87 = | x:book 41:book -:book 87:book =:book
+EXPR: 0 | POS | INT | 4 | 46 | 128 | 87=(x-41) | 87 x 41 - = | 87:book x:book 41:book -:book =:book
+EXPR: 1 | POS | INT | 4 | 46 | 46 | (87-x)=41 | 87 x - 41 = | 87:book x:book -:book 41:book =:book
+EXPR: 0 | POS | INT | 4 | 46 | 128 | (x-87)=41 | x 87 - 41 = | x:book 87:book -:book 41:book =:book
+EXPR: 1 | POS | INT | 4 | 46 | 46 | 87=(41+x) | 87 41 x + = | 87:book 41:book x:book +:book =:book
+EXPR: 1 | POS | INT | 4 | 46 | 46 | 87=(x+41) | 87 x 41 + = | 87:book x:book 41:book +:book =:book
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

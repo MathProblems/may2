@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 22 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 63 | 63 | x=(32+31) | x 32 31 + = | x:watermelon 32:watermelon 31:watermelon +:watermelon =:watermelon
+EXPR: 0 | POS | INT | 0 | 63 | 1 | x=(32-31) | x 32 31 - = | x:watermelon 32:watermelon 31:watermelon -:watermelon =:watermelon
+EXPR: 0 | POS | INT | 1 | 63 | 1 | x=(32-31) | x 32 31 - = | x:watermelon 32:watermelon 31:watermelon -:watermelon =:watermelon
+EXPR: 1 | POS | INT | 1 | 63 | 63 | x=(32+31) | x 32 31 + = | x:watermelon 32:watermelon 31:watermelon +:watermelon =:watermelon
+EXPR: 0 | POS | INT | 2 | 63 | 1 | (32-x)=31 | 32 x - 31 = | 32:watermelon x:watermelon -:watermelon 31:watermelon =:watermelon
+EXPR: 1 | POS | INT | 2 | 63 | 63 | (x-32)=31 | x 32 - 31 = | x:watermelon 32:watermelon -:watermelon 31:watermelon =:watermelon
+EXPR: 0 | POS | INT | 2 | 63 | 1 | 32=(31+x) | 32 31 x + = | 32:watermelon 31:watermelon x:watermelon +:watermelon =:watermelon
+EXPR: 1 | POS | INT | 2 | 63 | 63 | 32=(x-31) | 32 x 31 - = | 32:watermelon x:watermelon 31:watermelon -:watermelon =:watermelon
+EXPR: 0 | POS | INT | 2 | 63 | 1 | 32=(x+31) | 32 x 31 + = | 32:watermelon x:watermelon 31:watermelon +:watermelon =:watermelon
+EXPR: 1 | POS | INT | 12 | 63 | 63 | 31=(x-32) | 31 x 32 - = | 31:watermelon x:watermelon 32:watermelon -:watermelon =:watermelon
+EXPR: 0 | POS | INT | 12 | 63 | 1 | (31+x)=32 | 31 x + 32 = | 31:watermelon x:watermelon +:watermelon 32:watermelon =:watermelon
+EXPR: 0 | POS | INT | 12 | 63 | 1 | (x+31)=32 | x 31 + 32 = | x:watermelon 31:watermelon +:watermelon 32:watermelon =:watermelon
+EXPR: 1 | POS | INT | 12 | 63 | 63 | (x-31)=32 | x 31 - 32 = | x:watermelon 31:watermelon -:watermelon 32:watermelon =:watermelon
+EXPR: 0 | POS | INT | 12 | 63 | 1 | 31=(32-x) | 31 32 x - = | 31:watermelon 32:watermelon x:watermelon -:watermelon =:watermelon
+NET 14 non-negative, integer-valued solutions found out of 22 total solutions

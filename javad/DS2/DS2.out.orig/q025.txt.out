@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 1232 | 1232 | (1576-344)=x | 1576 344 - x = | 1576:piece 344:piece -:piece x:piece =:piece
+EXPR: 0 | POS | INT | 0 | 1232 | 1920 | x=(1576+344) | x 1576 344 + = | x:piece 1576:piece 344:piece +:piece =:piece
+EXPR: 1 | POS | INT | 0 | 1232 | 1232 | x=(1576-344) | x 1576 344 - = | x:piece 1576:piece 344:piece -:piece =:piece
+EXPR: 0 | POS | INT | 0 | 1232 | 1920 | (1576+344)=x | 1576 344 + x = | 1576:piece 344:piece +:piece x:piece =:piece
+EXPR: 1 | POS | INT | 2 | 1232 | 1232 | 1576=(344+x) | 1576 344 x + = | 1576:piece 344:piece x:piece +:piece =:piece
+EXPR: 1 | POS | INT | 2 | 1232 | 1232 | 1576=(x+344) | 1576 x 344 + = | 1576:piece x:piece 344:piece +:piece =:piece
+EXPR: 0 | POS | INT | 2 | 1232 | 1920 | 1576=(x-344) | 1576 x 344 - = | 1576:piece x:piece 344:piece -:piece =:piece
+EXPR: 1 | POS | INT | 2 | 1232 | 1232 | (1576-x)=344 | 1576 x - 344 = | 1576:piece x:piece -:piece 344:piece =:piece
+EXPR: 0 | POS | INT | 2 | 1232 | 1920 | (x-1576)=344 | x 1576 - 344 = | x:piece 1576:piece -:piece 344:piece =:piece
+EXPR: 0 | POS | INT | 4 | 1232 | 1920 | 344=(x-1576) | 344 x 1576 - = | 344:piece x:piece 1576:piece -:piece =:piece
+EXPR: 1 | POS | INT | 4 | 1232 | 1232 | (344+x)=1576 | 344 x + 1576 = | 344:piece x:piece +:piece 1576:piece =:piece
+EXPR: 0 | POS | INT | 4 | 1232 | 1920 | (x-344)=1576 | x 344 - 1576 = | x:piece 344:piece -:piece 1576:piece =:piece
+EXPR: 1 | POS | INT | 4 | 1232 | 1232 | (x+344)=1576 | x 344 + 1576 = | x:piece 344:piece +:piece 1576:piece =:piece
+EXPR: 1 | POS | INT | 4 | 1232 | 1232 | 344=(1576-x) | 344 1576 x - = | 344:piece 1576:piece x:piece -:piece =:piece
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

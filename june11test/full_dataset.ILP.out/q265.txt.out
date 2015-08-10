@@ -1,0 +1,14 @@
+parameters: n=9 l=4 k=1 p=5 q=2 m=10
+TOTAL 100 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 2 | 1 | 169 | 8=(((x/13)*2)-18) | 8 x 13 / 2 * 18 - = | 8:dollar x:money 13:dollar /:money 2:dollar *:dollar 18:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 1 | 342 | x=((8+(13-2))*18) | x 8 13 2 - + 18 * = | x:money 8:dollar 13:dollar 2:dollar -:dollar +:dollar 18:money *:money =:money
+EXPR: 0 | POS | INT | 12 | 1 | 124 | 8=(2*(x/(13+18))) | 8 2 x 13 18 + / * = | 8:dollar 2:dollar x:money 13:dollar 18:dollar +:dollar /:money *:dollar =:dollar
+EXPR: 1 | POS | INT | 12 | 1 | 1 | 8=(((13*2)/x)-18) | 8 13 2 * x / 18 - = | 8:dollar 13:money 2:dollar *:dollar x:money /:dollar 18:dollar -:dollar =:dollar
+EXPR: 1 | POS | INT | 12 | 1 | 1 | 8=(((13*2)/x)-18) | 8 13 2 * x / 18 - = | 8:dollar 13:dollar 2:money *:dollar x:money /:dollar 18:dollar -:dollar =:dollar
+EXPR: 1 | POS | INT | 22 | 1 | 1 | 8=(x+(2-(13-18))) | 8 x 2 13 18 - - + = | 8:dollar x:dollar 2:dollar 13:dollar 18:dollar -:dollar -:dollar +:dollar =:dollar
+EXPR: 1 | POS | INT | 22 | 1 | 1 | 8=(((2-13)+18)+x) | 8 2 13 - 18 + x + = | 8:dollar 2:dollar 13:dollar -:dollar 18:dollar +:dollar x:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 1 | 36 | 8=(((13*2)+18)-x) | 8 13 2 * 18 + x - = | 8:dollar 13:money 2:dollar *:dollar 18:dollar +:dollar x:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 1 | 39 | 13=((x*(8-2))/18) | 13 x 8 2 - * 18 / = | 13:dollar x:money 8:dollar 2:dollar -:dollar *:dollar 18:money /:dollar =:dollar
+EXPR: 0 | POS | INT | 27 | 1 | 169 | 13=(2*(x/(8+18))) | 13 2 x 8 18 + / * = | 13:dollar 2:dollar x:money 8:dollar 18:dollar +:dollar /:money *:dollar =:dollar
+NET 10 non-negative, integer-valued solutions found out of 100 total solutions

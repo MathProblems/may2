@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 108 | 520 | (540-20)=x | 540 20 - x = | 540:card 20:card -:card x:card =:card
+EXPR: 0 | POS | INT | 0 | 108 | 560 | x=(540+20) | x 540 20 + = | x:card 540:card 20:card +:card =:card
+EXPR: 0 | POS | INT | 0 | 108 | 520 | x=(540-20) | x 540 20 - = | x:card 540:card 20:card -:card =:card
+EXPR: 0 | POS | INT | 0 | 108 | 560 | (540+20)=x | 540 20 + x = | 540:card 20:card +:card x:card =:card
+EXPR: 0 | POS | INT | 2 | 108 | 520 | 540=(20+x) | 540 20 x + = | 540:card 20:card x:card +:card =:card
+EXPR: 0 | POS | INT | 2 | 108 | 520 | 540=(x+20) | 540 x 20 + = | 540:card x:card 20:card +:card =:card
+EXPR: 0 | POS | INT | 2 | 108 | 560 | 540=(x-20) | 540 x 20 - = | 540:card x:card 20:card -:card =:card
+EXPR: 0 | POS | INT | 2 | 108 | 520 | (540-x)=20 | 540 x - 20 = | 540:card x:card -:card 20:card =:card
+EXPR: 0 | POS | INT | 2 | 108 | 560 | (x-540)=20 | x 540 - 20 = | x:card 540:card -:card 20:card =:card
+EXPR: 0 | POS | INT | 4 | 108 | 560 | 20=(x-540) | 20 x 540 - = | 20:card x:card 540:card -:card =:card
+EXPR: 0 | POS | INT | 4 | 108 | 520 | (20+x)=540 | 20 x + 540 = | 20:card x:card +:card 540:card =:card
+EXPR: 0 | POS | INT | 4 | 108 | 560 | (x-20)=540 | x 20 - 540 = | x:card 20:card -:card 540:card =:card
+EXPR: 0 | POS | INT | 4 | 108 | 520 | (x+20)=540 | x 20 + 540 = | x:card 20:card +:card 540:card =:card
+EXPR: 0 | POS | INT | 4 | 108 | 520 | 20=(540-x) | 20 540 x - = | 20:card 540:card x:card -:card =:card
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

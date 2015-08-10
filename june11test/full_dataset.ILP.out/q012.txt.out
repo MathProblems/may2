@@ -1,0 +1,52 @@
+parameters: n=7 l=3 k=1 p=5 q=2 m=9
+TOTAL 100 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 7 | 223 | x=(79+(9*16)) | x 79 9 16 * + = | x:dollar 79:dollar 9:book 16:dollar *:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 0 | 7 | 695 | x=((79*9)-16) | x 79 9 * 16 - = | x:dollar 79:dollar 9:book *:dollar 16:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 0 | 7 | 727 | x=((79*9)+16) | x 79 9 * 16 + = | x:dollar 79:dollar 9:book *:dollar 16:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 1 | 7 | 727 | x=((79*9)+16) | x 79 9 * 16 + = | x:dollar 79:dollar 9:book *:dollar 16:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 1 | 7 | 223 | x=(79+(9*16)) | x 79 9 16 * + = | x:dollar 79:dollar 9:book 16:dollar *:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 1 | 7 | 695 | x=((79*9)-16) | x 79 9 * 16 - = | x:dollar 79:dollar 9:book *:dollar 16:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 2 | 7 | 223 | 79=(x-(9*16)) | 79 x 9 16 * - = | 79:dollar x:dollar 9:book 16:dollar *:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 2 | 7 | 11376 | 79=(x/(9*16)) | 79 x 9 16 * / = | 79:dollar x:dollar 9:book 16:dollar *:book /:dollar =:dollar
+EXPR: 0 | POS | INT | 2 | 7 | 11376 | (x/(79*9))=16 | x 79 9 * / 16 = | x:dollar 79:dollar 9:book *:book /:dollar 16:dollar =:dollar
+EXPR: 0 | POS | INT | 2 | 7 | 855 | 79=((x/9)-16) | 79 x 9 / 16 - = | 79:dollar x:dollar 9:book /:dollar 16:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 2 | 7 | 567 | 79=((x/9)+16) | 79 x 9 / 16 + = | 79:dollar x:dollar 9:book /:dollar 16:dollar +:dollar =:dollar
+EXPR: 1 | POS | INT | 2 | 7 | 7 | 79=((x*9)+16) | 79 x 9 * 16 + = | 79:dollar x:dollar 9:book *:dollar 16:dollar +:dollar =:dollar
+EXPR: 1 | POS | INT | 2 | 7 | 7 | (79-(x*9))=16 | 79 x 9 * - 16 = | 79:dollar x:dollar 9:book *:dollar -:dollar 16:dollar =:dollar
+EXPR: 0 | POS | INT | 2 | 7 | 65 | ((x+79)/9)=16 | x 79 + 9 / 16 = | x:dollar 79:dollar +:dollar 9:book /:dollar 16:dollar =:dollar
+EXPR: 1 | POS | INT | 2 | 7 | 7 | 79=((9*x)+16) | 79 9 x * 16 + = | 79:dollar 9:book x:dollar *:dollar 16:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 2 | 7 | 223 | ((x-79)/9)=16 | x 79 - 9 / 16 = | x:dollar 79:dollar -:dollar 9:book /:dollar 16:dollar =:dollar
+EXPR: 0 | POS | INT | 2 | 7 | 65 | 79=((9*16)-x) | 79 9 16 * x - = | 79:dollar 9:book 16:dollar *:dollar x:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 2 | 7 | 65 | ((79+x)/9)=16 | 79 x + 9 / 16 = | 79:dollar x:dollar +:dollar 9:book /:dollar 16:dollar =:dollar
+EXPR: 0 | POS | INT | 2 | 7 | 727 | (x-(79*9))=16 | x 79 9 * - 16 = | x:dollar 79:dollar 9:book *:dollar -:dollar 16:dollar =:dollar
+EXPR: 0 | POS | INT | 2 | 7 | 567 | (79-(x/9))=16 | 79 x 9 / - 16 = | 79:dollar x:dollar 9:book /:dollar -:dollar 16:dollar =:dollar
+EXPR: 0 | POS | INT | 2 | 7 | 695 | ((79*9)-x)=16 | 79 9 * x - 16 = | 79:dollar 9:book *:dollar x:dollar -:dollar 16:dollar =:dollar
+EXPR: 1 | POS | INT | 2 | 7 | 7 | (79-(9*x))=16 | 79 9 x * - 16 = | 79:dollar 9:book x:dollar *:dollar -:dollar 16:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 7 | 567 | x=((79-16)*9) | x 79 16 - 9 * = | x:dollar 79:dollar 16:dollar -:dollar 9:book *:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 7 | 855 | x=((79+16)*9) | x 79 16 + 9 * = | x:dollar 79:dollar 16:dollar +:dollar 9:book *:dollar =:dollar
+EXPR: 1 | POS | INT | 10 | 7 | 7 | x=((79-16)/9) | x 79 16 - 9 / = | x:dollar 79:dollar 16:dollar -:dollar 9:book /:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 7 | 567 | x=(9*(79-16)) | x 9 79 16 - * = | x:dollar 9:book 79:dollar 16:dollar -:dollar *:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 7 | 855 | x=(9*(79+16)) | x 9 79 16 + * = | x:dollar 9:book 79:dollar 16:dollar +:dollar *:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 7 | 54 | x=(79-(9+16)) | x 79 9 16 + - = | x:dollar 79:dollar 9:dollar 16:dollar +:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 7 | 86 | x=(79-(9-16)) | x 79 9 16 - - = | x:dollar 79:dollar 9:dollar 16:dollar -:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 7 | 104 | x=(79+(9+16)) | x 79 9 16 + + = | x:dollar 79:dollar 9:dollar 16:dollar +:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 7 | 72 | x=((79+9)-16) | x 79 9 + 16 - = | x:dollar 79:dollar 9:dollar +:dollar 16:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 7 | 86 | x=((79-9)+16) | x 79 9 - 16 + = | x:dollar 79:dollar 9:dollar -:dollar 16:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 7 | 54 | x=((79-9)-16) | x 79 9 - 16 - = | x:dollar 79:dollar 9:dollar -:dollar 16:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 7 | 104 | x=((79+9)+16) | x 79 9 + 16 + = | x:dollar 79:dollar 9:dollar +:dollar 16:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 7 | 1975 | x=(79*(9+16)) | x 79 9 16 + * = | x:dollar 79:dollar 9:book 16:book +:book *:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 7 | 1120 | x=((79-9)*16) | x 79 9 - 16 * = | x:dollar 79:book 9:book -:book 16:dollar *:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 7 | 1408 | x=((79+9)*16) | x 79 9 + 16 * = | x:dollar 79:book 9:book +:book 16:dollar *:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 7 | 72 | x=(79+(9-16)) | x 79 9 16 - + = | x:dollar 79:dollar 9:dollar 16:dollar -:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 11 | 7 | 855 | x=((79+16)*9) | x 79 16 + 9 * = | x:dollar 79:dollar 16:dollar +:dollar 9:book *:dollar =:dollar
+EXPR: 0 | POS | INT | 11 | 7 | 567 | x=((79-16)*9) | x 79 16 - 9 * = | x:dollar 79:dollar 16:dollar -:dollar 9:book *:dollar =:dollar
+EXPR: 0 | POS | INT | 11 | 7 | 54 | x=(79-(9+16)) | x 79 9 16 + - = | x:dollar 79:dollar 9:dollar 16:dollar +:dollar -:dollar =:dollar
+EXPR: 1 | POS | INT | 11 | 7 | 7 | x=((79-16)/9) | x 79 16 - 9 / = | x:dollar 79:dollar 16:dollar -:dollar 9:book /:dollar =:dollar
+EXPR: 0 | POS | INT | 11 | 7 | 567 | x=(9*(79-16)) | x 9 79 16 - * = | x:dollar 9:book 79:dollar 16:dollar -:dollar *:dollar =:dollar
+EXPR: 0 | POS | INT | 11 | 7 | 104 | x=(79+(9+16)) | x 79 9 16 + + = | x:dollar 79:dollar 9:dollar 16:dollar +:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 11 | 7 | 72 | x=(79+(9-16)) | x 79 9 16 - + = | x:dollar 79:dollar 9:dollar 16:dollar -:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 11 | 7 | 72 | x=((79+9)-16) | x 79 9 + 16 - = | x:dollar 79:dollar 9:dollar +:dollar 16:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 11 | 7 | 86 | x=((79-9)+16) | x 79 9 - 16 + = | x:dollar 79:dollar 9:dollar -:dollar 16:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 11 | 7 | 1120 | x=((79-9)*16) | x 79 9 - 16 * = | x:dollar 79:book 9:book -:book 16:dollar *:dollar =:dollar
+NET 48 non-negative, integer-valued solutions found out of 100 total solutions

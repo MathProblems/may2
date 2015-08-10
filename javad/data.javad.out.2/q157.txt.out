@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 22 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 5703 | 13437 | x=(9570+3867) | x 9570 3867 + = | x:ticket 9570:ticket 3867:ticket +:ticket =:ticket
+EXPR: 1 | POS | INT | 0 | 5703 | 5703 | x=(9570-3867) | x 9570 3867 - = | x:ticket 9570:ticket 3867:ticket -:ticket =:ticket
+EXPR: 1 | POS | INT | 1 | 5703 | 5703 | x=(9570-3867) | x 9570 3867 - = | x:ticket 9570:ticket 3867:ticket -:ticket =:ticket
+EXPR: 0 | POS | INT | 1 | 5703 | 13437 | x=(9570+3867) | x 9570 3867 + = | x:ticket 9570:ticket 3867:ticket +:ticket =:ticket
+EXPR: 1 | POS | INT | 2 | 5703 | 5703 | (9570-x)=3867 | 9570 x - 3867 = | 9570:ticket x:ticket -:ticket 3867:ticket =:ticket
+EXPR: 0 | POS | INT | 2 | 5703 | 13437 | (x-9570)=3867 | x 9570 - 3867 = | x:ticket 9570:ticket -:ticket 3867:ticket =:ticket
+EXPR: 1 | POS | INT | 2 | 5703 | 5703 | 9570=(3867+x) | 9570 3867 x + = | 9570:ticket 3867:ticket x:ticket +:ticket =:ticket
+EXPR: 0 | POS | INT | 2 | 5703 | 13437 | 9570=(x-3867) | 9570 x 3867 - = | 9570:ticket x:ticket 3867:ticket -:ticket =:ticket
+EXPR: 1 | POS | INT | 2 | 5703 | 5703 | 9570=(x+3867) | 9570 x 3867 + = | 9570:ticket x:ticket 3867:ticket +:ticket =:ticket
+EXPR: 0 | POS | INT | 12 | 5703 | 13437 | 3867=(x-9570) | 3867 x 9570 - = | 3867:ticket x:ticket 9570:ticket -:ticket =:ticket
+EXPR: 1 | POS | INT | 12 | 5703 | 5703 | (3867+x)=9570 | 3867 x + 9570 = | 3867:ticket x:ticket +:ticket 9570:ticket =:ticket
+EXPR: 1 | POS | INT | 12 | 5703 | 5703 | (x+3867)=9570 | x 3867 + 9570 = | x:ticket 3867:ticket +:ticket 9570:ticket =:ticket
+EXPR: 0 | POS | INT | 12 | 5703 | 13437 | (x-3867)=9570 | x 3867 - 9570 = | x:ticket 3867:ticket -:ticket 9570:ticket =:ticket
+EXPR: 1 | POS | INT | 12 | 5703 | 5703 | 3867=(9570-x) | 3867 9570 x - = | 3867:ticket 9570:ticket x:ticket -:ticket =:ticket
+NET 14 non-negative, integer-valued solutions found out of 22 total solutions

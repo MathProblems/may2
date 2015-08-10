@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 22 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 57 | 57 | x=(25+32) | x 25 32 + = | x:lime 25:lime 32:lime +:lime =:lime
+EXPR: 1 | POS | INT | 1 | 57 | 57 | x=(25+32) | x 25 32 + = | x:lime 25:lime 32:lime +:lime =:lime
+EXPR: 0 | POS | INT | 2 | 57 | 7 | (25+x)=32 | 25 x + 32 = | 25:lime x:lime +:lime 32:lime =:lime
+EXPR: 1 | POS | INT | 2 | 57 | 57 | (x-25)=32 | x 25 - 32 = | x:lime 25:lime -:lime 32:lime =:lime
+EXPR: 0 | POS | INT | 2 | 57 | 7 | (x+25)=32 | x 25 + 32 = | x:lime 25:lime +:lime 32:lime =:lime
+EXPR: 0 | POS | INT | 2 | 57 | 7 | 25=(32-x) | 25 32 x - = | 25:lime 32:lime x:lime -:lime =:lime
+EXPR: 1 | POS | INT | 2 | 57 | 57 | 25=(x-32) | 25 x 32 - = | 25:lime x:lime 32:lime -:lime =:lime
+EXPR: 0 | POS | INT | 10 | 57 | 7 | x=(32-25) | x 32 25 - = | x:lime 32:lime 25:lime -:lime =:lime
+EXPR: 0 | POS | INT | 11 | 57 | 7 | x=(32-25) | x 32 25 - = | x:lime 32:lime 25:lime -:lime =:lime
+EXPR: 0 | POS | INT | 12 | 57 | 7 | 32=(x+25) | 32 x 25 + = | 32:lime x:lime 25:lime +:lime =:lime
+EXPR: 1 | POS | INT | 12 | 57 | 57 | 32=(x-25) | 32 x 25 - = | 32:lime x:lime 25:lime -:lime =:lime
+EXPR: 0 | POS | INT | 12 | 57 | 7 | (32-x)=25 | 32 x - 25 = | 32:lime x:lime -:lime 25:lime =:lime
+EXPR: 1 | POS | INT | 12 | 57 | 57 | (x-32)=25 | x 32 - 25 = | x:lime 32:lime -:lime 25:lime =:lime
+EXPR: 0 | POS | INT | 12 | 57 | 7 | 32=(25+x) | 32 25 x + = | 32:lime 25:lime x:lime +:lime =:lime
+NET 14 non-negative, integer-valued solutions found out of 22 total solutions

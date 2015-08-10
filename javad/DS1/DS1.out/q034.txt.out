@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 47 | 27 | (37-10)=x | 37 10 - x = | 37:orange 10:orange -:orange x:orange =:orange
+EXPR: 1 | POS | INT | 0 | 47 | 47 | x=(37+10) | x 37 10 + = | x:orange 37:orange 10:orange +:orange =:orange
+EXPR: 0 | POS | INT | 0 | 47 | 27 | x=(37-10) | x 37 10 - = | x:orange 37:orange 10:orange -:orange =:orange
+EXPR: 1 | POS | INT | 0 | 47 | 47 | (37+10)=x | 37 10 + x = | 37:orange 10:orange +:orange x:orange =:orange
+EXPR: 0 | POS | INT | 2 | 47 | 27 | 37=(10+x) | 37 10 x + = | 37:orange 10:orange x:orange +:orange =:orange
+EXPR: 0 | POS | INT | 2 | 47 | 27 | 37=(x+10) | 37 x 10 + = | 37:orange x:orange 10:orange +:orange =:orange
+EXPR: 1 | POS | INT | 2 | 47 | 47 | 37=(x-10) | 37 x 10 - = | 37:orange x:orange 10:orange -:orange =:orange
+EXPR: 0 | POS | INT | 2 | 47 | 27 | (37-x)=10 | 37 x - 10 = | 37:orange x:orange -:orange 10:orange =:orange
+EXPR: 1 | POS | INT | 2 | 47 | 47 | (x-37)=10 | x 37 - 10 = | x:orange 37:orange -:orange 10:orange =:orange
+EXPR: 1 | POS | INT | 4 | 47 | 47 | 10=(x-37) | 10 x 37 - = | 10:orange x:orange 37:orange -:orange =:orange
+EXPR: 0 | POS | INT | 4 | 47 | 27 | (10+x)=37 | 10 x + 37 = | 10:orange x:orange +:orange 37:orange =:orange
+EXPR: 1 | POS | INT | 4 | 47 | 47 | (x-10)=37 | x 10 - 37 = | x:orange 10:orange -:orange 37:orange =:orange
+EXPR: 0 | POS | INT | 4 | 47 | 27 | (x+10)=37 | x 10 + 37 = | x:orange 10:orange +:orange 37:orange =:orange
+EXPR: 0 | POS | INT | 4 | 47 | 27 | 10=(37-x) | 10 37 x - = | 10:orange 37:orange x:orange -:orange =:orange
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

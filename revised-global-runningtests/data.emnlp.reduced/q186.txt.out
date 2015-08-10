@@ -1,0 +1,11 @@
+parameters: n=3 l=1 k=1 p=5 q=2 m=7
+TOTAL 8 solutions found
+EXPR: 0 | POS | INT | 10 | 32 | 4 | x=4 | x 4 = | x:gumball 4:gumball =:gumball
+EXPR: 0 | POS | INT | 10 | 32 | 4 | 4=x | 4 x = | 4:gumball x:gumball =:gumball
+EXPR: 0 | POS | INT | 10 | 32 | 4 | 4=x | 4 x = | 4:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 32 | 4 | x=4 | x 4 = | x:dollar 4:dollar =:dollar
+EXPR: 0 | POS | INT | 11 | 32 | 4 | x=4 | x 4 = | x:dollar 4:dollar =:dollar
+EXPR: 0 | POS | INT | 11 | 32 | 4 | x=4 | x 4 = | x:gumball 4:gumball =:gumball
+EXPR: 0 | POS | INT | 11 | 32 | 4 | 4=x | 4 x = | 4:dollar x:dollar =:dollar
+EXPR: 0 | POS | INT | 11 | 32 | 4 | 4=x | 4 x = | 4:gumball x:gumball =:gumball
+NET 8 non-negative, integer-valued solutions found out of 8 total solutions

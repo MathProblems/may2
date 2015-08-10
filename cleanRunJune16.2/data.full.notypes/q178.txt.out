@@ -1,0 +1,28 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 50 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | INT | 0 | 12 | 12 | (1*12)=x | 1 12 * x = | 1:dozen 12:dozen *:dozen x:dozen =:dozen
+EXPR: 0 | POS | INT | 0 | 12 | 13 | x=(1+12) | x 1 12 + = | x:dozen 1:dozen 12:dozen +:dozen =:dozen
+EXPR: 1 | POS | INT | 0 | 12 | 12 | x=(1*12) | x 1 12 * = | x:dozen 1:dozen 12:dozen *:dozen =:dozen
+EXPR: 0 | POS | INT | 0 | 12 | 13 | (1+12)=x | 1 12 + x = | 1:dozen 12:dozen +:dozen x:dozen =:dozen
+EXPR: 0 | POS | INT | 2 | 12 | 13 | (x-1)=12 | x 1 - 12 = | x:dozen 1:dozen -:dozen 12:dozen =:dozen
+EXPR: 0 | POS | INT | 2 | 12 | 11 | (x+1)=12 | x 1 + 12 = | x:dozen 1:dozen +:dozen 12:dozen =:dozen
+EXPR: 0 | POS | INT | 2 | 12 | 11 | (12-1)=x | 12 1 - x = | 12:dozen 1:dozen -:dozen x:dozen =:dozen
+EXPR: 0 | POS | INT | 2 | 12 | 11 | 1=(12-x) | 1 12 x - = | 1:dozen 12:dozen x:dozen -:dozen =:dozen
+EXPR: 1 | POS | INT | 2 | 12 | 12 | (1*x)=12 | 1 x * 12 = | 1:dozen x:dozen *:dozen 12:dozen =:dozen
+EXPR: 0 | POS | INT | 2 | 12 | 11 | (1+x)=12 | 1 x + 12 = | 1:dozen x:dozen +:dozen 12:dozen =:dozen
+EXPR: 0 | POS | INT | 2 | 12 | 13 | 1=(x-12) | 1 x 12 - = | 1:dozen x:dozen 12:dozen -:dozen =:dozen
+EXPR: 1 | POS | INT | 2 | 12 | 12 | (x*1)=12 | x 1 * 12 = | x:dozen 1:dozen *:dozen 12:dozen =:dozen
+EXPR: 0 | POS | INT | 2 | 12 | 11 | x=(12-1) | x 12 1 - = | x:dozen 12:dozen 1:dozen -:dozen =:dozen
+EXPR: 1 | POS | INT | 2 | 12 | 12 | 1=(12/x) | 1 12 x / = | 1:dozen 12:dozen x:dozen /:dozen =:dozen
+EXPR: 1 | POS | INT | 2 | 12 | 12 | 1=(x/12) | 1 x 12 / = | 1:dozen x:dozen 12:dozen /:dozen =:dozen
+EXPR: 0 | POS | INT | 4 | 12 | 11 | 12=(1+x) | 12 1 x + = | 12:dozen 1:dozen x:dozen +:dozen =:dozen
+EXPR: 0 | POS | INT | 4 | 12 | 11 | (12-x)=1 | 12 x - 1 = | 12:dozen x:dozen -:dozen 1:dozen =:dozen
+EXPR: 0 | POS | INT | 4 | 12 | 13 | (x-12)=1 | x 12 - 1 = | x:dozen 12:dozen -:dozen 1:dozen =:dozen
+EXPR: 1 | POS | INT | 4 | 12 | 12 | (12/x)=1 | 12 x / 1 = | 12:dozen x:dozen /:dozen 1:dozen =:dozen
+EXPR: 0 | POS | INT | 4 | 12 | 11 | 12=(x+1) | 12 x 1 + = | 12:dozen x:dozen 1:dozen +:dozen =:dozen
+EXPR: 0 | POS | INT | 4 | 12 | 13 | 12=(x-1) | 12 x 1 - = | 12:dozen x:dozen 1:dozen -:dozen =:dozen
+EXPR: 1 | POS | INT | 4 | 12 | 12 | 12=(1*x) | 12 1 x * = | 12:dozen 1:dozen x:dozen *:dozen =:dozen
+EXPR: 1 | POS | INT | 4 | 12 | 12 | 12=(x*1) | 12 x 1 * = | 12:dozen x:dozen 1:dozen *:dozen =:dozen
+EXPR: 1 | POS | INT | 4 | 12 | 12 | (x/12)=1 | x 12 / 1 = | x:dozen 12:dozen /:dozen 1:dozen =:dozen
+NET 24 unique, non-negative, integer-valued solutions found out of 50 total solutions

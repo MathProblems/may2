@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 3220 | 6052 | x=(1416+4636) | x 1416 4636 + = | x:egg 1416:egg 4636:egg +:egg =:egg
+EXPR: 0 | POS | INT | 0 | 3220 | 6052 | (1416+4636)=x | 1416 4636 + x = | 1416:egg 4636:egg +:egg x:egg =:egg
+EXPR: 1 | POS | INT | 2 | 3220 | 3220 | (x+1416)=4636 | x 1416 + 4636 = | x:egg 1416:egg +:egg 4636:egg =:egg
+EXPR: 1 | POS | INT | 2 | 3220 | 3220 | 1416=(4636-x) | 1416 4636 x - = | 1416:egg 4636:egg x:egg -:egg =:egg
+EXPR: 1 | POS | INT | 2 | 3220 | 3220 | x=(4636-1416) | x 4636 1416 - = | x:egg 4636:egg 1416:egg -:egg =:egg
+EXPR: 1 | POS | INT | 2 | 3220 | 3220 | (4636-1416)=x | 4636 1416 - x = | 4636:egg 1416:egg -:egg x:egg =:egg
+EXPR: 0 | POS | INT | 2 | 3220 | 6052 | 1416=(x-4636) | 1416 x 4636 - = | 1416:egg x:egg 4636:egg -:egg =:egg
+EXPR: 1 | POS | INT | 2 | 3220 | 3220 | (1416+x)=4636 | 1416 x + 4636 = | 1416:egg x:egg +:egg 4636:egg =:egg
+EXPR: 0 | POS | INT | 2 | 3220 | 6052 | (x-1416)=4636 | x 1416 - 4636 = | x:egg 1416:egg -:egg 4636:egg =:egg
+EXPR: 0 | POS | INT | 4 | 3220 | 6052 | 4636=(x-1416) | 4636 x 1416 - = | 4636:egg x:egg 1416:egg -:egg =:egg
+EXPR: 1 | POS | INT | 4 | 3220 | 3220 | (4636-x)=1416 | 4636 x - 1416 = | 4636:egg x:egg -:egg 1416:egg =:egg
+EXPR: 0 | POS | INT | 4 | 3220 | 6052 | (x-4636)=1416 | x 4636 - 1416 = | x:egg 4636:egg -:egg 1416:egg =:egg
+EXPR: 1 | POS | INT | 4 | 3220 | 3220 | 4636=(1416+x) | 4636 1416 x + = | 4636:egg 1416:egg x:egg +:egg =:egg
+EXPR: 1 | POS | INT | 4 | 3220 | 3220 | 4636=(x+1416) | 4636 x 1416 + = | 4636:egg x:egg 1416:egg +:egg =:egg
+NET 14 unique, non-negative, integer-valued solutions found out of 28 total solutions

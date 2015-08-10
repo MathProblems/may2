@@ -1,0 +1,46 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 100 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 5 | 60 | x=(4*15) | x 4 15 * = | x:dollar 4:people 15:dollar *:dollar =:dollar
+EXPR: 0 | POS | INT | 1 | 5 | 60 | x=(4*15) | x 4 15 * = | x:dollar 4:people 15:dollar *:dollar =:dollar
+EXPR: 0 | POS | INT | 2 | 5 | 60 | (x/4)=15 | x 4 / 15 = | x:dollar 4:people /:dollar 15:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 5 | 19 | x=(4+15) | x 4 15 + = | x:dollar 4:dollar 15:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 5 | 60 | x=(4*15) | x 4 15 * = | x:people 4:people 15:dollar *:people =:people
+EXPR: 0 | POS | INT | 11 | 5 | 19 | x=(4+15) | x 4 15 + = | x:dollar 4:dollar 15:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 11 | 5 | 60 | x=(4*15) | x 4 15 * = | x:people 4:people 15:dollar *:people =:people
+EXPR: 0 | POS | INT | 12 | 5 | 19 | 4=(x-15) | 4 x 15 - = | 4:dollar x:dollar 15:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 5 | 60 | 4=(x/15) | 4 x 15 / = | 4:people x:people 15:dollar /:people =:people
+EXPR: 0 | POS | INT | 12 | 5 | 11 | 4=(15-x) | 4 15 x - = | 4:dollar 15:dollar x:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 5 | 60 | 15=(x/4) | 15 x 4 / = | 15:dollar x:dollar 4:people /:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 5 | 11 | (x+4)=15 | x 4 + 15 = | x:dollar 4:dollar +:dollar 15:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 5 | 11 | (4+x)=15 | 4 x + 15 = | 4:dollar x:dollar +:dollar 15:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 5 | 19 | (x-4)=15 | x 4 - 15 = | x:dollar 4:dollar -:dollar 15:dollar =:dollar
+EXPR: 0 | POS | INT | 20 | 5 | 11 | x=(15-4) | x 15 4 - = | x:dollar 15:dollar 4:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 20 | 5 | 19 | x=(4+15) | x 4 15 + = | x:people 4:people 15:people +:people =:people
+EXPR: 0 | POS | INT | 20 | 5 | 60 | x=(4*15) | x 4 15 * = | x:dollar 4:dollar 15:people *:dollar =:dollar
+EXPR: 0 | POS | INT | 21 | 5 | 11 | x=(15-4) | x 15 4 - = | x:dollar 15:dollar 4:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 21 | 5 | 19 | x=(4+15) | x 4 15 + = | x:people 4:people 15:people +:people =:people
+EXPR: 0 | POS | INT | 21 | 5 | 60 | x=(4*15) | x 4 15 * = | x:dollar 4:dollar 15:people *:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 5 | 19 | 4=(x-15) | 4 x 15 - = | 4:people x:people 15:people -:people =:people
+EXPR: 0 | POS | INT | 22 | 5 | 19 | 15=(x-4) | 15 x 4 - = | 15:dollar x:dollar 4:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 5 | 60 | 4=(x/15) | 4 x 15 / = | 4:dollar x:dollar 15:people /:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 5 | 11 | 15=(4+x) | 15 4 x + = | 15:dollar 4:dollar x:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 5 | 11 | 4=(15-x) | 4 15 x - = | 4:people 15:people x:people -:people =:people
+EXPR: 0 | POS | INT | 22 | 5 | 11 | (x+4)=15 | x 4 + 15 = | x:people 4:people +:people 15:people =:people
+EXPR: 0 | POS | INT | 22 | 5 | 11 | (4+x)=15 | 4 x + 15 = | 4:people x:people +:people 15:people =:people
+EXPR: 0 | POS | INT | 22 | 5 | 19 | (x-15)=4 | x 15 - 4 = | x:dollar 15:dollar -:dollar 4:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 5 | 11 | 15=(x+4) | 15 x 4 + = | 15:dollar x:dollar 4:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 5 | 60 | (x/15)=4 | x 15 / 4 = | x:people 15:dollar /:people 4:people =:people
+EXPR: 0 | POS | INT | 22 | 5 | 11 | (15-x)=4 | 15 x - 4 = | 15:dollar x:dollar -:dollar 4:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 5 | 19 | (x-4)=15 | x 4 - 15 = | x:people 4:people -:people 15:people =:people
+EXPR: 0 | POS | INT | 30 | 5 | 60 | x=(4*15) | x 4 15 * = | x:people 4:dollar 15:people *:people =:people
+EXPR: 0 | POS | INT | 30 | 5 | 11 | x=(15-4) | x 15 4 - = | x:people 15:people 4:people -:people =:people
+EXPR: 0 | POS | INT | 31 | 5 | 60 | x=(4*15) | x 4 15 * = | x:people 4:dollar 15:people *:people =:people
+EXPR: 0 | POS | INT | 31 | 5 | 11 | x=(15-4) | x 15 4 - = | x:people 15:people 4:people -:people =:people
+EXPR: 0 | POS | INT | 32 | 5 | 11 | 15=(4+x) | 15 4 x + = | 15:people 4:people x:people +:people =:people
+EXPR: 0 | POS | INT | 32 | 5 | 19 | 15=(x-4) | 15 x 4 - = | 15:people x:people 4:people -:people =:people
+EXPR: 0 | POS | INT | 32 | 5 | 19 | (x-15)=4 | x 15 - 4 = | x:people 15:people -:people 4:people =:people
+EXPR: 0 | POS | INT | 32 | 5 | 11 | 15=(x+4) | 15 x 4 + = | 15:people x:people 4:people +:people =:people
+EXPR: 0 | POS | INT | 32 | 5 | 11 | (15-x)=4 | 15 x - 4 = | 15:people x:people -:people 4:people =:people
+EXPR: 0 | POS | INT | 32 | 5 | 60 | (x/15)=4 | x 15 / 4 = | x:dollar 15:people /:dollar 4:dollar =:dollar
+NET 42 non-negative, integer-valued solutions found out of 100 total solutions

@@ -1,0 +1,47 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 108 solutions found
+EXPR: 1 | POS | INT | 10 | 27004 | 27004 | x=(69+26935) | x 69 26935 + = | x:dollar 69:dollar 26935:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 27004 | 1858515 | x=(69*26935) | x 69 26935 * = | x:money 69:money 26935:dollar *:money =:money
+EXPR: 0 | POS | INT | 10 | 27004 | 1858515 | x=(69*26935) | x 69 26935 * = | x:money 69:dollar 26935:money *:money =:money
+EXPR: 0 | POS | INT | 11 | 27004 | 1858515 | x=(69*26935) | x 69 26935 * = | x:money 69:dollar 26935:money *:money =:money
+EXPR: 1 | POS | INT | 11 | 27004 | 27004 | x=(69+26935) | x 69 26935 + = | x:dollar 69:dollar 26935:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 11 | 27004 | 1858515 | x=(69*26935) | x 69 26935 * = | x:money 69:money 26935:dollar *:money =:money
+EXPR: 0 | POS | INT | 12 | 27004 | 26866 | (69+x)=26935 | 69 x + 26935 = | 69:dollar x:dollar +:dollar 26935:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 27004 | 26866 | 69=(26935-x) | 69 26935 x - = | 69:dollar 26935:dollar x:dollar -:dollar =:dollar
+EXPR: 1 | POS | INT | 12 | 27004 | 27004 | 69=(x-26935) | 69 x 26935 - = | 69:dollar x:dollar 26935:dollar -:dollar =:dollar
+EXPR: 1 | POS | INT | 12 | 27004 | 27004 | (x-69)=26935 | x 69 - 26935 = | x:dollar 69:dollar -:dollar 26935:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 27004 | 1858515 | 69=(x/26935) | 69 x 26935 / = | 69:money x:money 26935:dollar /:money =:money
+EXPR: 0 | POS | INT | 12 | 27004 | 26866 | (x+69)=26935 | x 69 + 26935 = | x:dollar 69:dollar +:dollar 26935:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 27004 | 1858515 | (x/69)=26935 | x 69 / 26935 = | x:money 69:dollar /:money 26935:money =:money
+EXPR: 1 | POS | INT | 20 | 27004 | 27004 | x=(69+26935) | x 69 26935 + = | x:money 69:money 26935:money +:money =:money
+EXPR: 0 | POS | INT | 20 | 27004 | 1858515 | x=(69*26935) | x 69 26935 * = | x:dollar 69:money 26935:dollar *:dollar =:dollar
+EXPR: 0 | POS | INT | 20 | 27004 | 26866 | x=(26935-69) | x 26935 69 - = | x:dollar 26935:dollar 69:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 20 | 27004 | 1858515 | x=(69*26935) | x 69 26935 * = | x:dollar 69:dollar 26935:money *:dollar =:dollar
+EXPR: 1 | POS | INT | 21 | 27004 | 27004 | x=(69+26935) | x 69 26935 + = | x:money 69:money 26935:money +:money =:money
+EXPR: 0 | POS | INT | 21 | 27004 | 1858515 | x=(69*26935) | x 69 26935 * = | x:dollar 69:money 26935:dollar *:dollar =:dollar
+EXPR: 0 | POS | INT | 21 | 27004 | 26866 | x=(26935-69) | x 26935 69 - = | x:dollar 26935:dollar 69:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 21 | 27004 | 1858515 | x=(69*26935) | x 69 26935 * = | x:dollar 69:dollar 26935:money *:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 27004 | 26866 | (x+69)=26935 | x 69 + 26935 = | x:money 69:money +:money 26935:money =:money
+EXPR: 0 | POS | INT | 22 | 27004 | 26866 | 26935=(69+x) | 26935 69 x + = | 26935:dollar 69:dollar x:dollar +:dollar =:dollar
+EXPR: 1 | POS | INT | 22 | 27004 | 27004 | 69=(x-26935) | 69 x 26935 - = | 69:money x:money 26935:money -:money =:money
+EXPR: 1 | POS | INT | 22 | 27004 | 27004 | (x-26935)=69 | x 26935 - 69 = | x:dollar 26935:dollar -:dollar 69:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 27004 | 26866 | (26935-x)=69 | 26935 x - 69 = | 26935:dollar x:dollar -:dollar 69:dollar =:dollar
+EXPR: 1 | POS | INT | 22 | 27004 | 27004 | 26935=(x-69) | 26935 x 69 - = | 26935:dollar x:dollar 69:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 27004 | 26866 | 26935=(x+69) | 26935 x 69 + = | 26935:dollar x:dollar 69:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 27004 | 1858515 | 26935=(x/69) | 26935 x 69 / = | 26935:money x:money 69:dollar /:money =:money
+EXPR: 0 | POS | INT | 22 | 27004 | 26866 | (69+x)=26935 | 69 x + 26935 = | 69:money x:money +:money 26935:money =:money
+EXPR: 0 | POS | INT | 22 | 27004 | 26866 | 69=(26935-x) | 69 26935 x - = | 69:money 26935:money x:money -:money =:money
+EXPR: 0 | POS | INT | 22 | 27004 | 1858515 | (x/69)=26935 | x 69 / 26935 = | x:dollar 69:money /:dollar 26935:dollar =:dollar
+EXPR: 1 | POS | INT | 22 | 27004 | 27004 | (x-69)=26935 | x 69 - 26935 = | x:money 69:money -:money 26935:money =:money
+EXPR: 0 | POS | INT | 22 | 27004 | 1858515 | 69=(x/26935) | 69 x 26935 / = | 69:dollar x:dollar 26935:money /:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 27004 | 1858515 | (x/26935)=69 | x 26935 / 69 = | x:money 26935:dollar /:money 69:money =:money
+EXPR: 0 | POS | INT | 30 | 27004 | 26866 | x=(26935-69) | x 26935 69 - = | x:money 26935:money 69:money -:money =:money
+EXPR: 0 | POS | INT | 31 | 27004 | 26866 | x=(26935-69) | x 26935 69 - = | x:money 26935:money 69:money -:money =:money
+EXPR: 1 | POS | INT | 32 | 27004 | 27004 | 26935=(x-69) | 26935 x 69 - = | 26935:money x:money 69:money -:money =:money
+EXPR: 0 | POS | INT | 32 | 27004 | 1858515 | (x/26935)=69 | x 26935 / 69 = | x:dollar 26935:money /:dollar 69:dollar =:dollar
+EXPR: 0 | POS | INT | 32 | 27004 | 26866 | 26935=(69+x) | 26935 69 x + = | 26935:money 69:money x:money +:money =:money
+EXPR: 0 | POS | INT | 32 | 27004 | 1858515 | 26935=(x/69) | 26935 x 69 / = | 26935:dollar x:dollar 69:money /:dollar =:dollar
+EXPR: 0 | POS | INT | 32 | 27004 | 26866 | 26935=(x+69) | 26935 x 69 + = | 26935:money x:money 69:money +:money =:money
+EXPR: 1 | POS | INT | 32 | 27004 | 27004 | (x-26935)=69 | x 26935 - 69 = | x:money 26935:money -:money 69:money =:money
+EXPR: 0 | POS | INT | 32 | 27004 | 26866 | (26935-x)=69 | 26935 x - 69 = | 26935:money x:money -:money 69:money =:money
+NET 44 non-negative, integer-valued solutions found out of 108 total solutions

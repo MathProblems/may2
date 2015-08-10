@@ -1,0 +1,24 @@
+parameters: n=5 l=2 k=1 p=5 q=3 m=8
+TOTAL 324 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 10 | 45 | 18 | (2*9)=x | 2 9 * x = | 2:people 9:money *:money x:money =:money
+EXPR: 0 | POS | INT | 10 | 45 | 18 | x=(2*9) | x 2 9 * = | x:money 2:people 9:money *:money =:money
+EXPR: 0 | POS | INT | 12 | 45 | 18 | (x/2)=9 | x 2 / 9 = | x:money 2:people /:money 9:money =:money
+EXPR: 0 | POS | INT | 12 | 45 | 18 | 2=(x/9) | 2 x 9 / = | 2:money x:money 9:bill /:money =:money
+EXPR: 0 | POS | INT | 14 | 45 | 18 | 9=(x/2) | 9 x 2 / = | 9:money x:money 2:people /:money =:money
+EXPR: 0 | POS | INT | 14 | 45 | 18 | (x/9)=2 | x 9 / 2 = | x:people 9:bill /:people 2:people =:people
+EXPR: 0 | POS | INT | 20 | 45 | 11 | x=(2+9) | x 2 9 + = | x:people 2:people 9:people +:people =:people
+EXPR: 0 | POS | INT | 20 | 45 | 11 | (2+9)=x | 2 9 + x = | 2:money 9:money +:money x:money =:money
+EXPR: 0 | POS | INT | 22 | 45 | 7 | (x+2)=9 | x 2 + 9 = | x:people 2:people +:people 9:people =:people
+EXPR: 0 | POS | INT | 22 | 45 | 7 | (9-2)=x | 9 2 - x = | 9:people 2:people -:people x:people =:people
+EXPR: 0 | POS | INT | 22 | 45 | 7 | x=(9-2) | x 9 2 - = | x:people 9:people 2:people -:people =:people
+EXPR: 0 | POS | INT | 22 | 45 | 11 | 2=(x-9) | 2 x 9 - = | 2:people x:people 9:people -:people =:people
+EXPR: 0 | POS | INT | 22 | 45 | 7 | (2+x)=9 | 2 x + 9 = | 2:people x:people +:people 9:people =:people
+EXPR: 0 | POS | INT | 22 | 45 | 11 | (x-2)=9 | x 2 - 9 = | x:money 2:money -:money 9:money =:money
+EXPR: 0 | POS | INT | 22 | 45 | 7 | 2=(9-x) | 2 9 x - = | 2:people 9:people x:people -:people =:people
+EXPR: 0 | POS | INT | 24 | 45 | 7 | 9=(x+2) | 9 x 2 + = | 9:money x:money 2:money +:money =:money
+EXPR: 0 | POS | INT | 24 | 45 | 7 | (9-x)=2 | 9 x - 2 = | 9:money x:money -:money 2:money =:money
+EXPR: 0 | POS | INT | 24 | 45 | 7 | 9=(2+x) | 9 2 x + = | 9:bill 2:bill x:bill +:bill =:bill
+EXPR: 0 | POS | INT | 24 | 45 | 11 | (x-9)=2 | x 9 - 2 = | x:money 9:money -:money 2:money =:money
+EXPR: 0 | POS | INT | 24 | 45 | 11 | 9=(x-2) | 9 x 2 - = | 9:bill x:bill 2:bill -:bill =:bill
+NET 20 unique, non-negative, integer-valued solutions found out of 324 total solutions

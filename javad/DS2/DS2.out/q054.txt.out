@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 1 | POS | FRA | 0 | 0.6 | 0.6 | x=(0.2+0.4) | x 0.2 0.4 + = | x:loaf 0.2:loaf 0.4:loaf +:loaf =:loaf
+EXPR: 1 | POS | FRA | 0 | 0.6 | 0.6 | (0.2+0.4)=x | 0.2 0.4 + x = | 0.2:loaf 0.4:loaf +:loaf x:loaf =:loaf
+EXPR: 0 | POS | FRA | 2 | 0.6 | 0.2 | (x+0.2)=0.4 | x 0.2 + 0.4 = | x:loaf 0.2:loaf +:loaf 0.4:loaf =:loaf
+EXPR: 0 | POS | FRA | 2 | 0.6 | 0.2 | 0.2=(0.4-x) | 0.2 0.4 x - = | 0.2:loaf 0.4:loaf x:loaf -:loaf =:loaf
+EXPR: 0 | POS | FRA | 2 | 0.6 | 0.2 | x=(0.4-0.2) | x 0.4 0.2 - = | x:loaf 0.4:loaf 0.2:loaf -:loaf =:loaf
+EXPR: 0 | POS | FRA | 2 | 0.6 | 0.2 | (0.4-0.2)=x | 0.4 0.2 - x = | 0.4:loaf 0.2:loaf -:loaf x:loaf =:loaf
+EXPR: 1 | POS | FRA | 2 | 0.6 | 0.6 | 0.2=(x-0.4) | 0.2 x 0.4 - = | 0.2:loaf x:loaf 0.4:loaf -:loaf =:loaf
+EXPR: 0 | POS | FRA | 2 | 0.6 | 0.2 | (0.2+x)=0.4 | 0.2 x + 0.4 = | 0.2:loaf x:loaf +:loaf 0.4:loaf =:loaf
+EXPR: 1 | POS | FRA | 2 | 0.6 | 0.6 | (x-0.2)=0.4 | x 0.2 - 0.4 = | x:loaf 0.2:loaf -:loaf 0.4:loaf =:loaf
+EXPR: 1 | POS | FRA | 4 | 0.6 | 0.6 | 0.4=(x-0.2) | 0.4 x 0.2 - = | 0.4:loaf x:loaf 0.2:loaf -:loaf =:loaf
+EXPR: 0 | POS | FRA | 4 | 0.6 | 0.2 | (0.4-x)=0.2 | 0.4 x - 0.2 = | 0.4:loaf x:loaf -:loaf 0.2:loaf =:loaf
+EXPR: 1 | POS | FRA | 4 | 0.6 | 0.6 | (x-0.4)=0.2 | x 0.4 - 0.2 = | x:loaf 0.4:loaf -:loaf 0.2:loaf =:loaf
+EXPR: 0 | POS | FRA | 4 | 0.6 | 0.2 | 0.4=(0.2+x) | 0.4 0.2 x + = | 0.4:loaf 0.2:loaf x:loaf +:loaf =:loaf
+EXPR: 0 | POS | FRA | 4 | 0.6 | 0.2 | 0.4=(x+0.2) | 0.4 x 0.2 + = | 0.4:loaf x:loaf 0.2:loaf +:loaf =:loaf
+NET 14 unique, non-negative solutions found out of 28 total solutions

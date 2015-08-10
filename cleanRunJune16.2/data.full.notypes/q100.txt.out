@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 56 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 9 | 20 | (2+18)=x | 2 18 + x = | 2:people 18:people +:people x:people =:people
+EXPR: 0 | POS | INT | 0 | 9 | 36 | (2*18)=x | 2 18 * x = | 2:people 18:people *:people x:people =:people
+EXPR: 0 | POS | INT | 0 | 9 | 20 | x=(2+18) | x 2 18 + = | x:people 2:people 18:people +:people =:people
+EXPR: 0 | POS | INT | 0 | 9 | 36 | x=(2*18) | x 2 18 * = | x:people 2:people 18:people *:people =:people
+EXPR: 1 | POS | INT | 2 | 9 | 9 | 2=(18/x) | 2 18 x / = | 2:people 18:people x:people /:people =:people
+EXPR: 0 | POS | INT | 2 | 9 | 20 | 2=(x-18) | 2 x 18 - = | 2:people x:people 18:people -:people =:people
+EXPR: 0 | POS | INT | 2 | 9 | 36 | 2=(x/18) | 2 x 18 / = | 2:people x:people 18:people /:people =:people
+EXPR: 1 | POS | INT | 2 | 9 | 9 | (2*x)=18 | 2 x * 18 = | 2:people x:people *:people 18:people =:people
+EXPR: 0 | POS | INT | 2 | 9 | 16 | (x+2)=18 | x 2 + 18 = | x:people 2:people +:people 18:people =:people
+EXPR: 0 | POS | INT | 2 | 9 | 16 | x=(18-2) | x 18 2 - = | x:people 18:people 2:people -:people =:people
+EXPR: 0 | POS | INT | 2 | 9 | 16 | (2+x)=18 | 2 x + 18 = | 2:people x:people +:people 18:people =:people
+EXPR: 1 | POS | INT | 2 | 9 | 9 | x=(18/2) | x 18 2 / = | x:people 18:people 2:people /:people =:people
+EXPR: 0 | POS | INT | 2 | 9 | 16 | (18-2)=x | 18 2 - x = | 18:people 2:people -:people x:people =:people
+EXPR: 1 | POS | INT | 2 | 9 | 9 | (18/2)=x | 18 2 / x = | 18:people 2:people /:people x:people =:people
+EXPR: 0 | POS | INT | 2 | 9 | 20 | (x-2)=18 | x 2 - 18 = | x:people 2:people -:people 18:people =:people
+EXPR: 0 | POS | INT | 2 | 9 | 36 | (x/2)=18 | x 2 / 18 = | x:people 2:people /:people 18:people =:people
+EXPR: 1 | POS | INT | 2 | 9 | 9 | (x*2)=18 | x 2 * 18 = | x:people 2:people *:people 18:people =:people
+EXPR: 0 | POS | INT | 2 | 9 | 16 | 2=(18-x) | 2 18 x - = | 2:people 18:people x:people -:people =:people
+EXPR: 0 | POS | INT | 4 | 9 | 20 | 18=(x-2) | 18 x 2 - = | 18:people x:people 2:people -:people =:people
+EXPR: 0 | POS | INT | 4 | 9 | 16 | 18=(x+2) | 18 x 2 + = | 18:people x:people 2:people +:people =:people
+EXPR: 1 | POS | INT | 4 | 9 | 9 | (18/x)=2 | 18 x / 2 = | 18:people x:people /:people 2:people =:people
+EXPR: 1 | POS | INT | 4 | 9 | 9 | 18=(x*2) | 18 x 2 * = | 18:people x:people 2:people *:people =:people
+EXPR: 0 | POS | INT | 4 | 9 | 36 | 18=(x/2) | 18 x 2 / = | 18:people x:people 2:people /:people =:people
+EXPR: 0 | POS | INT | 4 | 9 | 16 | (18-x)=2 | 18 x - 2 = | 18:people x:people -:people 2:people =:people
+EXPR: 1 | POS | INT | 4 | 9 | 9 | 18=(2*x) | 18 2 x * = | 18:people 2:people x:people *:people =:people
+EXPR: 0 | POS | INT | 4 | 9 | 16 | 18=(2+x) | 18 2 x + = | 18:people 2:people x:people +:people =:people
+EXPR: 0 | POS | INT | 4 | 9 | 36 | (x/18)=2 | x 18 / 2 = | x:people 18:people /:people 2:people =:people
+EXPR: 0 | POS | INT | 4 | 9 | 20 | (x-18)=2 | x 18 - 2 = | x:people 18:people -:people 2:people =:people
+NET 28 unique, non-negative, integer-valued solutions found out of 56 total solutions

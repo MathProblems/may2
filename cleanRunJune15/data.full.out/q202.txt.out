@@ -1,0 +1,8 @@
+parameters: n=3 l=1 k=1 p=5 q=2 m=7
+TOTAL 4 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 10 | 9 | 1.875 | x=1.875 | x 1.875 = | x:LENGTH 1.875:LENGTH =:LENGTH
+EXPR: 0 | POS | FRA | 10 | 9 | 1.875 | x=1.875 | x 1.875 = | x:day 1.875:day =:day
+EXPR: 0 | POS | FRA | 11 | 9 | 1.875 | x=1.875 | x 1.875 = | x:LENGTH 1.875:LENGTH =:LENGTH
+EXPR: 0 | POS | FRA | 11 | 9 | 1.875 | x=1.875 | x 1.875 = | x:day 1.875:day =:day
+NET 4 non-negative solutions found out of 4 total solutions

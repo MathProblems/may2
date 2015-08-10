@@ -1,0 +1,32 @@
+parameters: n=5 l=2 k=1 p=5 q=2 m=8
+TOTAL 136 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 150 | 300 | x=(2*150.0) | x 2 150.0 * = | x:cent 2:people 150.0:cent *:cent =:cent
+EXPR: 0 | POS | INT | 0 | 150 | 300 | (2*150.0)=x | 2 150.0 * x = | 2:people 150.0:cent *:cent x:cent =:cent
+EXPR: 0 | POS | INT | 2 | 150 | 75 | (150.0/2)=x | 150.0 2 / x = | 150.0:cent 2:people /:cent x:cent =:cent
+EXPR: 0 | POS | INT | 2 | 150 | 300 | (x/2)=150.0 | x 2 / 150.0 = | x:cent 2:people /:cent 150.0:cent =:cent
+EXPR: 0 | POS | INT | 2 | 150 | 75 | x=(150.0/2) | x 150.0 2 / = | x:cent 150.0:cent 2:people /:cent =:cent
+EXPR: 0 | POS | INT | 2 | 150 | 75 | (x*2)=150.0 | x 2 * 150.0 = | x:cent 2:people *:cent 150.0:cent =:cent
+EXPR: 0 | POS | INT | 2 | 150 | 75 | (2*x)=150.0 | 2 x * 150.0 = | 2:people x:cent *:cent 150.0:cent =:cent
+EXPR: 0 | POS | INT | 4 | 150 | 75 | 150.0=(x*2) | 150.0 x 2 * = | 150.0:cent x:cent 2:people *:cent =:cent
+EXPR: 0 | POS | INT | 4 | 150 | 300 | 150.0=(x/2) | 150.0 x 2 / = | 150.0:cent x:cent 2:people /:cent =:cent
+EXPR: 0 | POS | INT | 4 | 150 | 75 | 150.0=(2*x) | 150.0 2 x * = | 150.0:cent 2:people x:cent *:cent =:cent
+EXPR: 0 | POS | INT | 10 | 150 | 152 | (2+150.0)=x | 2 150.0 + x = | 2:cent 150.0:cent +:cent x:cent =:cent
+EXPR: 0 | POS | INT | 10 | 150 | 152 | x=(2+150.0) | x 2 150.0 + = | x:cent 2:cent 150.0:cent +:cent =:cent
+EXPR: 0 | POS | INT | 12 | 150 | 152 | 2=(x-150.0) | 2 x 150.0 - = | 2:cent x:cent 150.0:cent -:cent =:cent
+EXPR: 0 | POS | INT | 12 | 150 | 148 | (150.0-2)=x | 150.0 2 - x = | 150.0:cent 2:cent -:cent x:cent =:cent
+EXPR: 0 | POS | INT | 12 | 150 | 152 | (x-2)=150.0 | x 2 - 150.0 = | x:cent 2:cent -:cent 150.0:cent =:cent
+EXPR: 0 | POS | INT | 12 | 150 | 148 | x=(150.0-2) | x 150.0 2 - = | x:cent 150.0:cent 2:cent -:cent =:cent
+EXPR: 0 | POS | INT | 12 | 150 | 300 | 2=(x/150.0) | 2 x 150.0 / = | 2:people x:people 150.0:cent /:people =:people
+EXPR: 0 | POS | INT | 12 | 150 | 148 | (x+2)=150.0 | x 2 + 150.0 = | x:cent 2:cent +:cent 150.0:cent =:cent
+EXPR: 0 | POS | INT | 12 | 150 | 148 | 2=(150.0-x) | 2 150.0 x - = | 2:cent 150.0:cent x:cent -:cent =:cent
+EXPR: 0 | POS | INT | 12 | 150 | 75 | 2=(150.0/x) | 2 150.0 x / = | 2:people 150.0:people x:cent /:people =:people
+EXPR: 0 | POS | INT | 12 | 150 | 148 | (2+x)=150.0 | 2 x + 150.0 = | 2:cent x:cent +:cent 150.0:cent =:cent
+EXPR: 0 | POS | INT | 14 | 150 | 300 | (x/150.0)=2 | x 150.0 / 2 = | x:people 150.0:cent /:people 2:people =:people
+EXPR: 0 | POS | INT | 14 | 150 | 152 | (x-150.0)=2 | x 150.0 - 2 = | x:cent 150.0:cent -:cent 2:cent =:cent
+EXPR: 0 | POS | INT | 14 | 150 | 148 | (150.0-x)=2 | 150.0 x - 2 = | 150.0:cent x:cent -:cent 2:cent =:cent
+EXPR: 0 | POS | INT | 14 | 150 | 148 | 150.0=(x+2) | 150.0 x 2 + = | 150.0:cent x:cent 2:cent +:cent =:cent
+EXPR: 0 | POS | INT | 14 | 150 | 152 | 150.0=(x-2) | 150.0 x 2 - = | 150.0:cent x:cent 2:cent -:cent =:cent
+EXPR: 0 | POS | INT | 14 | 150 | 75 | (150.0/x)=2 | 150.0 x / 2 = | 150.0:people x:cent /:people 2:people =:people
+EXPR: 0 | POS | INT | 14 | 150 | 148 | 150.0=(2+x) | 150.0 2 x + = | 150.0:cent 2:cent x:cent +:cent =:cent
+NET 28 unique, non-negative, integer-valued solutions found out of 136 total solutions

@@ -1,0 +1,46 @@
+parameters: n=7 l=3 k=1 p=5 q=2 m=9
+TOTAL 100 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 432 | 108 | x=(1*(12*9)) | x 1 12 9 * * = | x:pokemon 1:dozen 12:pokemon 9:dozen *:pokemon *:pokemon =:pokemon
+EXPR: 0 | POS | INT | 0 | 432 | 108 | x=((1*12)*9) | x 1 12 * 9 * = | x:pokemon 1:dozen 12:pokemon *:pokemon 9:dozen *:pokemon =:pokemon
+EXPR: 0 | POS | INT | 1 | 432 | 108 | x=((1*12)*9) | x 1 12 * 9 * = | x:pokemon 1:dozen 12:pokemon *:pokemon 9:dozen *:pokemon =:pokemon
+EXPR: 0 | POS | INT | 1 | 432 | 108 | x=(1*(12*9)) | x 1 12 9 * * = | x:pokemon 1:dozen 12:pokemon 9:dozen *:pokemon *:pokemon =:pokemon
+EXPR: 0 | POS | INT | 2 | 432 | 108 | ((1/12)*x)=9 | 1 12 / x * 9 = | 1:dozen 12:pokemon /:dozen x:pokemon *:dozen 9:dozen =:dozen
+EXPR: 0 | POS | INT | 2 | 432 | 108 | ((1*x)/12)=9 | 1 x * 12 / 9 = | 1:dozen x:pokemon *:dozen 12:pokemon /:dozen 9:dozen =:dozen
+EXPR: 0 | POS | INT | 2 | 432 | 108 | 1=((12*9)/x) | 1 12 9 * x / = | 1:dozen 12:pokemon 9:dozen *:dozen x:pokemon /:dozen =:dozen
+EXPR: 0 | POS | INT | 2 | 432 | 3 | (1*(12-x))=9 | 1 12 x - * 9 = | 1:dozen 12:pokemon x:pokemon -:pokemon *:dozen 9:dozen =:dozen
+EXPR: 0 | POS | INT | 2 | 432 | 108 | 1=(12*(9/x)) | 1 12 9 x / * = | 1:dozen 12:pokemon 9:dozen x:pokemon /:dozen *:dozen =:dozen
+EXPR: 0 | POS | INT | 2 | 432 | 21 | (1*(x-12))=9 | 1 x 12 - * 9 = | 1:dozen x:pokemon 12:pokemon -:pokemon *:dozen 9:dozen =:dozen
+EXPR: 0 | POS | INT | 2 | 432 | 108 | (x*(1/12))=9 | x 1 12 / * 9 = | x:pokemon 1:dozen 12:pokemon /:dozen *:dozen 9:dozen =:dozen
+EXPR: 0 | POS | INT | 2 | 432 | 108 | ((x*1)/12)=9 | x 1 * 12 / 9 = | x:pokemon 1:dozen *:dozen 12:pokemon /:dozen 9:dozen =:dozen
+EXPR: 0 | POS | INT | 10 | 432 | 120 | x=(12*(1+9)) | x 12 1 9 + * = | x:pokemon 12:pokemon 1:dozen 9:dozen +:dozen *:pokemon =:pokemon
+EXPR: 0 | POS | INT | 10 | 432 | 3 | x=((1*12)-9) | x 1 12 * 9 - = | x:dozen 1:dozen 12:pokemon *:dozen 9:dozen -:dozen =:dozen
+EXPR: 0 | POS | INT | 10 | 432 | 108 | x=((1*12)*9) | x 1 12 * 9 * = | x:dozen 1:dozen 12:pokemon *:pokemon 9:dozen *:dozen =:dozen
+EXPR: 0 | POS | INT | 10 | 432 | 108 | x=((1*12)*9) | x 1 12 * 9 * = | x:pokemon 1:dozen 12:pokemon *:dozen 9:pokemon *:pokemon =:pokemon
+EXPR: 0 | POS | INT | 10 | 432 | 109 | x=(1+(12*9)) | x 1 12 9 * + = | x:dozen 1:dozen 12:pokemon 9:dozen *:dozen +:dozen =:dozen
+EXPR: 0 | POS | INT | 10 | 432 | 3 | x=((1*12)-9) | x 1 12 * 9 - = | x:pokemon 1:dozen 12:pokemon *:pokemon 9:pokemon -:pokemon =:pokemon
+EXPR: 0 | POS | INT | 10 | 432 | 21 | x=((1*12)+9) | x 1 12 * 9 + = | x:pokemon 1:dozen 12:pokemon *:pokemon 9:pokemon +:pokemon =:pokemon
+EXPR: 0 | POS | INT | 10 | 432 | 21 | x=(1*(12+9)) | x 1 12 9 + * = | x:pokemon 1:dozen 12:pokemon 9:pokemon +:pokemon *:pokemon =:pokemon
+EXPR: 0 | POS | INT | 10 | 432 | 3 | x=(1*(12-9)) | x 1 12 9 - * = | x:pokemon 1:dozen 12:pokemon 9:pokemon -:pokemon *:pokemon =:pokemon
+EXPR: 0 | POS | INT | 10 | 432 | 108 | x=(1*(12*9)) | x 1 12 9 * * = | x:dozen 1:dozen 12:pokemon 9:dozen *:pokemon *:dozen =:dozen
+EXPR: 0 | POS | INT | 10 | 432 | 21 | x=((1*12)+9) | x 1 12 * 9 + = | x:dozen 1:dozen 12:pokemon *:dozen 9:dozen +:dozen =:dozen
+EXPR: 0 | POS | INT | 10 | 432 | 117 | x=((1+12)*9) | x 1 12 + 9 * = | x:pokemon 1:pokemon 12:pokemon +:pokemon 9:dozen *:pokemon =:pokemon
+EXPR: 0 | POS | INT | 10 | 432 | 120 | x=((1+9)*12) | x 1 9 + 12 * = | x:pokemon 1:dozen 9:dozen +:dozen 12:pokemon *:pokemon =:pokemon
+EXPR: 0 | POS | INT | 10 | 432 | 109 | x=(1+(12*9)) | x 1 12 9 * + = | x:pokemon 1:pokemon 12:pokemon 9:dozen *:pokemon +:pokemon =:pokemon
+EXPR: 0 | POS | INT | 10 | 432 | 108 | x=(1*(12*9)) | x 1 12 9 * * = | x:pokemon 1:pokemon 12:pokemon 9:dozen *:dozen *:pokemon =:pokemon
+EXPR: 0 | POS | INT | 11 | 432 | 108 | x=(1*(12*9)) | x 1 12 9 * * = | x:pokemon 1:pokemon 12:pokemon 9:dozen *:dozen *:pokemon =:pokemon
+EXPR: 0 | POS | INT | 11 | 432 | 108 | x=((1*12)*9) | x 1 12 * 9 * = | x:dozen 1:dozen 12:pokemon *:pokemon 9:dozen *:dozen =:dozen
+EXPR: 0 | POS | INT | 11 | 432 | 120 | x=(12*(1+9)) | x 12 1 9 + * = | x:pokemon 12:pokemon 1:dozen 9:dozen +:dozen *:pokemon =:pokemon
+EXPR: 0 | POS | INT | 11 | 432 | 108 | x=((1*12)*9) | x 1 12 * 9 * = | x:pokemon 1:dozen 12:pokemon *:dozen 9:pokemon *:pokemon =:pokemon
+EXPR: 0 | POS | INT | 11 | 432 | 109 | x=(1+(12*9)) | x 1 12 9 * + = | x:dozen 1:dozen 12:pokemon 9:dozen *:dozen +:dozen =:dozen
+EXPR: 0 | POS | INT | 11 | 432 | 3 | x=((1*12)-9) | x 1 12 * 9 - = | x:pokemon 1:dozen 12:pokemon *:pokemon 9:pokemon -:pokemon =:pokemon
+EXPR: 0 | POS | INT | 11 | 432 | 21 | x=((1*12)+9) | x 1 12 * 9 + = | x:pokemon 1:dozen 12:pokemon *:pokemon 9:pokemon +:pokemon =:pokemon
+EXPR: 0 | POS | INT | 11 | 432 | 21 | x=(1*(12+9)) | x 1 12 9 + * = | x:pokemon 1:dozen 12:pokemon 9:pokemon +:pokemon *:pokemon =:pokemon
+EXPR: 0 | POS | INT | 11 | 432 | 3 | x=((1*12)-9) | x 1 12 * 9 - = | x:dozen 1:dozen 12:pokemon *:dozen 9:dozen -:dozen =:dozen
+EXPR: 0 | POS | INT | 11 | 432 | 3 | x=(1*(12-9)) | x 1 12 9 - * = | x:pokemon 1:dozen 12:pokemon 9:pokemon -:pokemon *:pokemon =:pokemon
+EXPR: 0 | POS | INT | 11 | 432 | 108 | x=(1*(12*9)) | x 1 12 9 * * = | x:dozen 1:dozen 12:pokemon 9:dozen *:pokemon *:dozen =:dozen
+EXPR: 0 | POS | INT | 11 | 432 | 21 | x=((1*12)+9) | x 1 12 * 9 + = | x:dozen 1:dozen 12:pokemon *:dozen 9:dozen +:dozen =:dozen
+EXPR: 0 | POS | INT | 11 | 432 | 120 | x=((1+9)*12) | x 1 9 + 12 * = | x:pokemon 1:dozen 9:dozen +:dozen 12:pokemon *:pokemon =:pokemon
+EXPR: 0 | POS | INT | 11 | 432 | 117 | x=((1+12)*9) | x 1 12 + 9 * = | x:pokemon 1:pokemon 12:pokemon +:pokemon 9:dozen *:pokemon =:pokemon
+EXPR: 0 | POS | INT | 11 | 432 | 109 | x=(1+(12*9)) | x 1 12 9 * + = | x:pokemon 1:pokemon 12:pokemon 9:dozen *:pokemon +:pokemon =:pokemon
+NET 42 non-negative, integer-valued solutions found out of 100 total solutions

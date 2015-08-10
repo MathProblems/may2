@@ -1,0 +1,19 @@
+parameters: n=9 l=4 k=1 p=5 q=2 m=10
+TOTAL 100 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 2 | 29 | 0 | 11=(19-((x*7)+8)) | 11 19 x 7 * 8 + - = | 11:dollar 19:dollar x:money 7:dollar *:dollar 8:dollar +:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 10 | 29 | 184 | x=((11+(19-7))*8) | x 11 19 7 - + 8 * = | x:money 11:dollar 19:dollar 7:dollar -:dollar +:dollar 8:money *:money =:money
+EXPR: 0 | POS | INT | 12 | 29 | 7 | 11=(((19*7)/x)-8) | 11 19 7 * x / 8 - = | 11:dollar 19:money 7:dollar *:dollar x:money /:dollar 8:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 12 | 29 | 7 | 11=(((19*7)/x)-8) | 11 19 7 * x / 8 - = | 11:dollar 19:dollar 7:money *:dollar x:money /:dollar 8:dollar -:dollar =:dollar
+EXPR: 0 | POS | INT | 20 | 29 | 3135 | x=((11*19)*(7+8)) | x 11 19 * 7 8 + * = | x:dollar 11:dollar 19:money *:money 7:dollar 8:dollar +:dollar *:dollar =:dollar
+EXPR: 0 | POS | INT | 21 | 29 | 3135 | x=((11*19)*(7+8)) | x 11 19 * 7 8 + * = | x:dollar 11:dollar 19:money *:money 7:dollar 8:dollar +:dollar *:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 29 | 15 | 11=(x+(7-(19-8))) | 11 x 7 19 8 - - + = | 11:dollar x:dollar 7:dollar 19:dollar 8:dollar -:dollar -:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 29 | 15 | 11=(((7-19)+8)+x) | 11 7 19 - 8 + x + = | 11:dollar 7:dollar 19:dollar -:dollar 8:dollar +:dollar x:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 29 | 38 | 19=((x*(11-7))/8) | 19 x 11 7 - * 8 / = | 19:dollar x:money 11:dollar 7:dollar -:dollar *:dollar 8:money /:dollar =:dollar
+EXPR: 0 | POS | INT | 22 | 29 | 7 | 11=((7*(19-8))/x) | 11 7 19 8 - * x / = | 11:dollar 7:money 19:dollar 8:dollar -:dollar *:dollar x:money /:dollar =:dollar
+EXPR: 0 | POS | INT | 27 | 29 | 0 | 11=(((x*7)-8)+19) | 11 x 7 * 8 - 19 + = | 11:dollar x:money 7:dollar *:dollar 8:dollar -:dollar 19:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 32 | 29 | 112 | 19=(11+((x/7)-8)) | 19 11 x 7 / 8 - + = | 19:dollar 11:dollar x:dollar 7:money /:dollar 8:dollar -:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 32 | 29 | 7 | 19=(11+(8-(x-7))) | 19 11 8 x 7 - - + = | 19:dollar 11:dollar 8:dollar x:dollar 7:dollar -:dollar -:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 32 | 29 | 30 | 19=(x+(11*(7-8))) | 19 x 11 7 8 - * + = | 19:dollar x:dollar 11:money 7:dollar 8:dollar -:dollar *:dollar +:dollar =:dollar
+EXPR: 0 | POS | INT | 37 | 29 | 2288 | 11=(x/(8*(19+7))) | 11 x 8 19 7 + * / = | 11:money x:money 8:money 19:dollar 7:dollar +:dollar *:dollar /:money =:money
+NET 15 non-negative, integer-valued solutions found out of 100 total solutions

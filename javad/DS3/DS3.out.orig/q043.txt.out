@@ -1,0 +1,18 @@
+parameters: n=5 l=2 k=1 p=5 q=1 m=8
+TOTAL 28 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | FRA | 0 | 141.54 | 119.06 | (130.30-11.24)=x | 130.30 11.24 - x = | 130.30:dollar 11.24:dollar -:dollar x:dollar =:dollar
+EXPR: 1 | POS | FRA | 0 | 141.54 | 141.54 | x=(130.30+11.24) | x 130.30 11.24 + = | x:dollar 130.30:dollar 11.24:dollar +:dollar =:dollar
+EXPR: 0 | POS | FRA | 0 | 141.54 | 119.06 | x=(130.30-11.24) | x 130.30 11.24 - = | x:dollar 130.30:dollar 11.24:dollar -:dollar =:dollar
+EXPR: 1 | POS | FRA | 0 | 141.54 | 141.54 | (130.30+11.24)=x | 130.30 11.24 + x = | 130.30:dollar 11.24:dollar +:dollar x:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 141.54 | 119.06 | 130.30=(11.24+x) | 130.30 11.24 x + = | 130.30:dollar 11.24:dollar x:dollar +:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 141.54 | 119.06 | 130.30=(x+11.24) | 130.30 x 11.24 + = | 130.30:dollar x:dollar 11.24:dollar +:dollar =:dollar
+EXPR: 1 | POS | FRA | 2 | 141.54 | 141.54 | 130.30=(x-11.24) | 130.30 x 11.24 - = | 130.30:dollar x:dollar 11.24:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 2 | 141.54 | 119.06 | (130.30-x)=11.24 | 130.30 x - 11.24 = | 130.30:dollar x:dollar -:dollar 11.24:dollar =:dollar
+EXPR: 1 | POS | FRA | 2 | 141.54 | 141.54 | (x-130.30)=11.24 | x 130.30 - 11.24 = | x:dollar 130.30:dollar -:dollar 11.24:dollar =:dollar
+EXPR: 1 | POS | FRA | 4 | 141.54 | 141.54 | 11.24=(x-130.30) | 11.24 x 130.30 - = | 11.24:dollar x:dollar 130.30:dollar -:dollar =:dollar
+EXPR: 0 | POS | FRA | 4 | 141.54 | 119.06 | (11.24+x)=130.30 | 11.24 x + 130.30 = | 11.24:dollar x:dollar +:dollar 130.30:dollar =:dollar
+EXPR: 1 | POS | FRA | 4 | 141.54 | 141.54 | (x-11.24)=130.30 | x 11.24 - 130.30 = | x:dollar 11.24:dollar -:dollar 130.30:dollar =:dollar
+EXPR: 0 | POS | FRA | 4 | 141.54 | 119.06 | (x+11.24)=130.30 | x 11.24 + 130.30 = | x:dollar 11.24:dollar +:dollar 130.30:dollar =:dollar
+EXPR: 0 | POS | FRA | 4 | 141.54 | 119.06 | 11.24=(130.30-x) | 11.24 130.30 x - = | 11.24:dollar 130.30:dollar x:dollar -:dollar =:dollar
+NET 14 unique, non-negative solutions found out of 28 total solutions

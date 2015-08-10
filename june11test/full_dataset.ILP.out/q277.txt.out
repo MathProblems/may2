@@ -1,0 +1,55 @@
+parameters: n=9 l=4 k=1 p=5 q=2 m=10
+TOTAL 100 solutions found
+SOLN: CORRECT | POS/NEG | INT/FRA | OBJ-SCORE | TRUE-ANS | ANS | INFIX | POSTFIX | TYPED-POSTFIX
+EXPR: 0 | POS | INT | 0 | 55 | 1 | x=(((9-7)/10)*5) | x 9 7 - 10 / 5 * = | x:can 9:package 7:package -:package 10:can /:package 5:can *:can =:can
+EXPR: 0 | POS | INT | 0 | 55 | 25 | x=(((9-7)*10)+5) | x 9 7 - 10 * 5 + = | x:can 9:package 7:package -:package 10:can *:can 5:can +:can =:can
+EXPR: 0 | POS | INT | 0 | 55 | 15 | x=(((9-7)*10)-5) | x 9 7 - 10 * 5 - = | x:can 9:package 7:package -:package 10:can *:can 5:can -:can =:can
+EXPR: 0 | POS | INT | 0 | 55 | 8 | x=(((9+7)/10)*5) | x 9 7 + 10 / 5 * = | x:can 9:package 7:package +:package 10:can /:package 5:can *:can =:can
+EXPR: 0 | POS | INT | 0 | 55 | 80 | x=((9+7)*(10-5)) | x 9 7 + 10 5 - * = | x:can 9:package 7:package +:package 10:can 5:can -:can *:can =:can
+EXPR: 0 | POS | INT | 0 | 55 | 10 | x=((9-7)*(10-5)) | x 9 7 - 10 5 - * = | x:can 9:package 7:package -:package 10:can 5:can -:can *:can =:can
+EXPR: 0 | POS | INT | 0 | 55 | 240 | x=((9+7)*(10+5)) | x 9 7 + 10 5 + * = | x:can 9:package 7:package +:package 10:can 5:can +:can *:can =:can
+EXPR: 0 | POS | INT | 0 | 55 | 155 | x=(((9+7)*10)-5) | x 9 7 + 10 * 5 - = | x:can 9:package 7:package +:package 10:can *:can 5:can -:can =:can
+EXPR: 0 | POS | INT | 0 | 55 | 165 | x=(((9+7)*10)+5) | x 9 7 + 10 * 5 + = | x:can 9:package 7:package +:package 10:can *:can 5:can +:can =:can
+EXPR: 0 | POS | INT | 0 | 55 | 395 | x=((9+(7*10))*5) | x 9 7 10 * + 5 * = | x:can 9:package 7:package 10:can *:package +:package 5:can *:can =:can
+EXPR: 0 | POS | INT | 0 | 55 | 585 | x=(9*((7*10)-5)) | x 9 7 10 * 5 - * = | x:can 9:package 7:package 10:can *:can 5:can -:can *:can =:can
+EXPR: 0 | POS | INT | 0 | 55 | 675 | x=(9*((7*10)+5)) | x 9 7 10 * 5 + * = | x:can 9:package 7:package 10:can *:can 5:can +:can *:can =:can
+EXPR: 0 | POS | INT | 0 | 55 | 30 | x=((9-7)*(10+5)) | x 9 7 - 10 5 + * = | x:can 9:package 7:package -:package 10:can 5:can +:can *:can =:can
+EXPR: 0 | POS | INT | 1 | 55 | 1 | x=(((9-7)/10)*5) | x 9 7 - 10 / 5 * = | x:can 9:package 7:package -:package 10:can /:package 5:can *:can =:can
+EXPR: 0 | POS | INT | 1 | 55 | 25 | x=(((9-7)*10)+5) | x 9 7 - 10 * 5 + = | x:can 9:package 7:package -:package 10:can *:can 5:can +:can =:can
+EXPR: 0 | POS | INT | 1 | 55 | 15 | x=(((9-7)*10)-5) | x 9 7 - 10 * 5 - = | x:can 9:package 7:package -:package 10:can *:can 5:can -:can =:can
+EXPR: 0 | POS | INT | 1 | 55 | 8 | x=(((9+7)/10)*5) | x 9 7 + 10 / 5 * = | x:can 9:package 7:package +:package 10:can /:package 5:can *:can =:can
+EXPR: 0 | POS | INT | 1 | 55 | 80 | x=((9+7)*(10-5)) | x 9 7 + 10 5 - * = | x:can 9:package 7:package +:package 10:can 5:can -:can *:can =:can
+EXPR: 0 | POS | INT | 1 | 55 | 10 | x=((9-7)*(10-5)) | x 9 7 - 10 5 - * = | x:can 9:package 7:package -:package 10:can 5:can -:can *:can =:can
+EXPR: 0 | POS | INT | 1 | 55 | 240 | x=((9+7)*(10+5)) | x 9 7 + 10 5 + * = | x:can 9:package 7:package +:package 10:can 5:can +:can *:can =:can
+EXPR: 0 | POS | INT | 1 | 55 | 155 | x=(((9+7)*10)-5) | x 9 7 + 10 * 5 - = | x:can 9:package 7:package +:package 10:can *:can 5:can -:can =:can
+EXPR: 0 | POS | INT | 1 | 55 | 165 | x=(((9+7)*10)+5) | x 9 7 + 10 * 5 + = | x:can 9:package 7:package +:package 10:can *:can 5:can +:can =:can
+EXPR: 0 | POS | INT | 1 | 55 | 675 | x=(9*((7*10)+5)) | x 9 7 10 * 5 + * = | x:can 9:package 7:package 10:can *:can 5:can +:can *:can =:can
+EXPR: 0 | POS | INT | 1 | 55 | 395 | x=((9+(7*10))*5) | x 9 7 10 * + 5 * = | x:can 9:package 7:package 10:can *:package +:package 5:can *:can =:can
+EXPR: 0 | POS | INT | 1 | 55 | 30 | x=((9-7)*(10+5)) | x 9 7 - 10 5 + * = | x:can 9:package 7:package -:package 10:can 5:can +:can *:can =:can
+EXPR: 0 | POS | INT | 1 | 55 | 585 | x=(9*((7*10)-5)) | x 9 7 10 * 5 - * = | x:can 9:package 7:package 10:can *:can 5:can -:can *:can =:can
+EXPR: 0 | POS | INT | 10 | 55 | 4 | x=(((9-7)/5)*10) | x 9 7 - 5 / 10 * = | x:can 9:package 7:package -:package 5:can /:package 10:can *:can =:can
+EXPR: 0 | POS | INT | 10 | 55 | 4 | x=(((9-7)*10)/5) | x 9 7 - 10 * 5 / = | x:package 9:package 7:package -:package 10:can *:package 5:can /:package =:package
+EXPR: 0 | POS | INT | 10 | 55 | 126 | x=(9*((7*10)/5)) | x 9 7 10 * 5 / * = | x:can 9:can 7:package 10:can *:package 5:can /:package *:can =:can
+EXPR: 0 | POS | INT | 10 | 55 | 70 | x=(((9+7)*5)-10) | x 9 7 + 5 * 10 - = | x:can 9:package 7:package +:package 5:can *:can 10:can -:can =:can
+EXPR: 0 | POS | INT | 10 | 55 | 595 | x=(7*((9*10)-5)) | x 7 9 10 * 5 - * = | x:can 7:package 9:package 10:can *:can 5:can -:can *:can =:can
+EXPR: 0 | POS | INT | 10 | 55 | 665 | x=(7*((9*10)+5)) | x 7 9 10 * 5 + * = | x:can 7:package 9:package 10:can *:can 5:can +:can *:can =:can
+EXPR: 0 | POS | INT | 10 | 55 | 104 | x=((9+(7/5))*10) | x 9 7 5 / + 10 * = | x:can 9:package 7:package 5:can /:package +:package 10:can *:can =:can
+EXPR: 0 | POS | INT | 10 | 55 | 76 | x=((9-(7/5))*10) | x 9 7 5 / - 10 * = | x:can 9:package 7:package 5:can /:package -:package 10:can *:can =:can
+EXPR: 0 | POS | INT | 10 | 55 | 440 | x=((9+(7*5))*10) | x 9 7 5 * + 10 * = | x:can 9:package 7:package 5:can *:package +:package 10:can *:can =:can
+EXPR: 0 | POS | INT | 10 | 55 | 8 | x=(((9+7)/10)*5) | x 9 7 + 10 / 5 * = | x:package 9:package 7:package +:package 10:can /:package 5:can *:package =:package
+EXPR: 0 | POS | INT | 10 | 55 | 90 | x=(((9+7)*5)+10) | x 9 7 + 5 * 10 + = | x:can 9:package 7:package +:package 5:can *:can 10:can +:can =:can
+EXPR: 0 | POS | INT | 10 | 55 | 30 | x=(((9+7)-10)*5) | x 9 7 + 10 - 5 * = | x:can 9:package 7:package +:package 10:package -:package 5:can *:can =:can
+EXPR: 0 | POS | INT | 10 | 55 | 20 | x=(((9-7)*5)+10) | x 9 7 - 5 * 10 + = | x:can 9:package 7:package -:package 5:can *:can 10:can +:can =:can
+EXPR: 0 | POS | INT | 10 | 55 |  | x=(((9-7)*5)-10) | x 9 7 - 5 * 10 - = | x:can 9:package 7:package -:package 5:can *:can 10:can -:can =:can
+EXPR: 0 | POS | INT | 11 | 55 | 4 | x=(((9-7)*10)/5) | x 9 7 - 10 * 5 / = | x:package 9:package 7:package -:package 10:can *:package 5:can /:package =:package
+EXPR: 0 | POS | INT | 11 | 55 | 126 | x=(9*((7*10)/5)) | x 9 7 10 * 5 / * = | x:can 9:can 7:package 10:can *:package 5:can /:package *:can =:can
+EXPR: 0 | POS | INT | 11 | 55 | 104 | x=((9+(7/5))*10) | x 9 7 5 / + 10 * = | x:can 9:package 7:package 5:can /:package +:package 10:can *:can =:can
+EXPR: 0 | POS | INT | 11 | 55 | 440 | x=((9+(7*5))*10) | x 9 7 5 * + 10 * = | x:can 9:package 7:package 5:can *:package +:package 10:can *:can =:can
+EXPR: 0 | POS | INT | 20 | 55 | 1 | x=(((9-7)*5)/10) | x 9 7 - 5 * 10 / = | x:package 9:package 7:package -:package 5:can *:package 10:can /:package =:package
+EXPR: 0 | POS | INT | 20 | 55 | 10 | x=((7-9)*(5-10)) | x 7 9 - 5 10 - * = | x:can 7:package 9:package -:package 5:can 10:can -:can *:can =:can
+EXPR: 0 | POS | INT | 20 | 55 | 165 | x=(((9+7)*10)+5) | x 9 7 + 10 * 5 + = | x:package 9:package 7:package +:package 10:can *:package 5:package +:package =:package
+EXPR: 0 | POS | INT | 20 | 55 | 1 | x=((9-7)*(5/10)) | x 9 7 - 5 10 / * = | x:can 9:package 7:package -:package 5:can 10:package /:can *:can =:can
+EXPR: 0 | POS | INT | 21 | 55 | 10 | x=((7-9)*(5-10)) | x 7 9 - 5 10 - * = | x:can 7:package 9:package -:package 5:can 10:can -:can *:can =:can
+EXPR: 0 | POS | INT | 21 | 55 | 165 | x=(((9+7)*10)+5) | x 9 7 + 10 * 5 + = | x:package 9:package 7:package +:package 10:can *:package 5:package +:package =:package
+EXPR: 0 | POS | INT | 22 | 55 | 155 | 5=(((9+7)*10)-x) | 5 9 7 + 10 * x - = | 5:can 9:package 7:package +:package 10:can *:can x:can -:can =:can
+NET 51 non-negative, integer-valued solutions found out of 100 total solutions

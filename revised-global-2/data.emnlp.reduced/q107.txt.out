@@ -1,0 +1,7 @@
+parameters: n=3 l=1 k=1 p=5 q=2 m=7
+TOTAL 4 solutions found
+EXPR: 0 | POS | INT | 10 | 8 | 96 | x=96 | x 96 = | x:box 96:box =:box
+EXPR: 0 | POS | INT | 10 | 8 | 96 | x=96 | x 96 = | x:muffin 96:muffin =:muffin
+EXPR: 0 | POS | INT | 11 | 8 | 96 | x=96 | x 96 = | x:box 96:box =:box
+EXPR: 0 | POS | INT | 11 | 8 | 96 | x=96 | x 96 = | x:muffin 96:muffin =:muffin
+NET 4 non-negative, integer-valued solutions found out of 4 total solutions

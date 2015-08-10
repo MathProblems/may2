@@ -1,0 +1,463 @@
+[
+
+{
+"iIndex": 1,
+"sQuestion": "Sandy went to the mall to buy clothes. She spent $13.99 on shorts, $12.14 on a shirt, and $7.43 on a jacket. How much money did Sandy spend on clothes?",
+"lEquations": [
+"13.99+12.14+7.43=x"
+],
+"lSolutions": [ 
+33.56
+ ]
+},
+{
+"iIndex": 2,
+"sQuestion": "Jason joined his school's band. He bought a flute for $142.46, a music stand for $8.89, and a song book for $7. How much did Jason spend at the music store?",
+"lEquations": [
+"142.46+8.89+7=x"
+],
+"lSolutions": [ 
+158.35
+ ]
+},
+{
+"iIndex": 3,
+"sQuestion": "On Saturday, Sara spent $10.62 each on 2.0 tickets to a movie theater. Sara also rented a movie for $1.59, and bought a movie for $13.95. How much money in total did Sara spend on movies?",
+"lEquations": [
+"(2*10.62)+1.59+13.59=x"
+],
+"lSolutions": [ 
+36.78
+ ]
+},
+{
+"iIndex": 4,
+"sQuestion": "Mary loves eating fruits. Mary paid $7.19 for berries, and $6.83 for peaches with a $20 bill. How much change did Mary receive?",
+"lEquations": [
+"(7.19+6.83)=20-x"
+],
+"lSolutions": [ 
+5.98
+ ]
+},
+{
+"iIndex": 5,
+"sQuestion": "Jonathan wants to buy a dictionary that costs $11, a dinosaur book that costs $19, and a children's cookbook that costs $7. He has saved $8 from his allowance. How much more money does Jonathan need to buy all three books?",
+"lEquations": [
+"((11+19)+7)-8=x"
+],
+"lSolutions": [ 
+29.0
+ ]
+},
+{
+"iIndex": 6,
+"sQuestion": "Dana earns $13 per hour. She worked 9.0 hours on Friday, 10.0 hours on Saturday, and 3.0 hours on Sunday. How much money did Dana earn in all?",
+"lEquations": [
+"13*((9+10)+3)=x"
+],
+"lSolutions": [ 
+286.0
+ ]
+},
+{
+"iIndex": 7,
+"sQuestion": "Tanner saved $17 in September. He saved $48 in October and $25 in November. Then Tanner spent $49 on a video game. How much money does Tanner have left?",
+"lEquations": [
+"((17+48)+25)-49=x"
+],
+"lSolutions": [ 
+41.0
+ ]
+},
+{
+"iIndex": 8,
+"sQuestion": "Mika had 20.0 stickers. She bought 26.0 stickers from a store in the mall and got 20.0 stickers for her birthday. Then Mika gave 6.0 of the stickers to her sister and used 58.0 to decorate a greeting card. How many stickers does Mika have left?",
+"lEquations": [
+"((20+26)+20)-(6+58)=x"
+],
+"lSolutions": [ 
+2.0
+ ]
+},
+{
+"iIndex": 9,
+"sQuestion": "A group of science students went on a field trip. They took 6.0 vans and 8.0 buses. There were 6.0 people in each van and 18.0 people in each bus. How many people went on the field trip?",
+"lEquations": [
+"(6*6)+(8*18)=x"
+],
+"lSolutions": [ 
+180.0
+ ]
+},
+{
+"iIndex": 10,
+"sQuestion": "Carrie's mom gave her $91 to go shopping. She bought a sweater for $24, a T-shirt for $6, and a pair of shoes for $11. How much money does Carrie have left?",
+"lEquations": [
+"91-((24+6)+11)=x"
+],
+"lSolutions": [ 
+50.0
+ ]
+},
+{
+"iIndex": 11,
+"sQuestion": "Kylie was collecting coins. She got 15.0 coins from her piggy bank and 13.0 coins from her brother. Her father gave Kylie 8.0 coins. Kylie gave 21.0 of the coins to her friend Laura. How many coins did Kylie have left?",
+"lEquations": [
+"((15+13)+8)-21=x"
+],
+"lSolutions": [ 
+15.0
+ ]
+},
+{
+"iIndex": 12,
+"sQuestion": "Justin needs 61.0 paper plates for a birthday party. He already has 26.0 blue plates and 7.0 red plates. How many more plates should Justin buy?",
+"lEquations": [
+"61-(26+7)=x"
+],
+"lSolutions": [ 
+28.0
+ ]
+},
+{
+"iIndex": 13,
+"sQuestion": "Mark's father gave him $85. Mark bought 10.0 books, each of which cost $5. How much money does Mark have left?",
+"lEquations": [
+"85-(10*5)=x"
+],
+"lSolutions": [ 
+35.0
+ ]
+},
+{
+"iIndex": 14,
+"sQuestion": "Elise had $8. Then she saved $13 from her allowance and spent $2 on a comic book and $18 on a puzzle. How much money does Elise have left?",
+"lEquations": [
+"(8+13)-(2+18)=x"
+],
+"lSolutions": [ 
+1.0
+ ]
+},
+{
+"iIndex": 15,
+"sQuestion": "Luke had 20.0 stickers. He bought 12.0 stickers from a store in the mall and got 20.0 stickers for his birthday. Then Luke gave 5.0 of the stickers to his sister and used 8.0 to decorate a greeting card. How many stickers does Luke have left?",
+"lEquations": [
+"(((20+12)+20)-5)-8=x"
+],
+"lSolutions": [ 
+39.0
+ ]
+},
+{
+"iIndex": 16,
+"sQuestion": "Johnny saved $30 in September. He saved $49 in October and $46 in November. Then Johnny spent $58 on a video game. How much money does Johnny have left?",
+"lEquations": [
+"(30+(49+46))-58=x"
+],
+"lSolutions": [ 
+67.0
+ ]
+},
+{
+"iIndex": 17,
+"sQuestion": "Seth bought 20.0 cartons of ice cream and 2.0 cartons of yogurt. Each carton of ice cream cost $6 and each carton of yogurt cost $1. How much more did Seth spend on ice cream than on yogurt?",
+"lEquations": [
+"(20*6)-(2*1)=x"
+],
+"lSolutions": [ 
+118.0
+ ]
+},
+{
+"iIndex": 18,
+"sQuestion": "Dalton wants to buy a jump rope that costs $7, a board game that costs $12, and a playground ball that costs $4. He has saved $6 from his allowance, and his uncle gave him $13. How much more money does Dalton need to buy the jump rope, the game, and the ball?",
+"lEquations": [
+"((7+12)+4)-(6+13)=x"
+],
+"lSolutions": [ 
+4.0
+ ]
+},
+{
+"iIndex": 19,
+"sQuestion": "Vincent bought 10.0 books about animals, 1.0 book about outer space, and 3.0 books about trains. Each book cost $16. How much did Vincent spend on the books?",
+"lEquations": [
+"((10+1)+3)*16=x"
+],
+"lSolutions": [ 
+224.0
+ ]
+},
+{
+"iIndex": 20,
+"sQuestion": "Priya needs 54.0 cupcakes for a birthday party. She already has 15.0 chocolate cupcakes and 25.0 vanilla cupcakes. How many more cupcakes should Priya buy?",
+"lEquations": [
+"54-(15+25)=x"
+],
+"lSolutions": [ 
+14.0
+ ]
+},
+{
+"iIndex": 21,
+"sQuestion": "Maria needs 21.0 cartons of berries to make a berry cobbler. She already has 4.0 cartons of strawberries and 8.0 cartons of blueberries. How many more cartons of berries should Maria buy?",
+"lEquations": [
+"21-(4+8)=x"
+],
+"lSolutions": [ 
+9.0
+ ]
+},
+{
+"iIndex": 22,
+"sQuestion": "There are 24.0 bicycles and 14.0 tricycles in the storage area at Danny's apartment building. Each bicycle has 2.0 wheels and each tricycle has 3.0 wheels. How many wheels are there in all?",
+"lEquations": [
+"(24*2)+(14*3)=x"
+],
+"lSolutions": [ 
+90.0
+ ]
+},
+{
+"iIndex": 23,
+"sQuestion": "Paula's aunt gave her $109 to spend on clothes at the mall. She bought 2.0 shirts that cost $11 each and a pair of pants that cost $13. How much money does Paula have left to buy more clothes?",
+"lEquations": [
+"109-((2*11)+13)=x"
+],
+"lSolutions": [ 
+74.0
+ ]
+},
+{
+"iIndex": 24,
+"sQuestion": "Tim got 3.0 nickels and 13.0 dimes for shining shoes, and in his tip jar found 7.0 dimes and 9.0 half-dollars. How much money did Tim get?",
+"lEquations": [
+"(3*0.05)+(13*0.1)+(7*0.1)+(9*0.5)=x"
+],
+"lSolutions": [ 
+6.65
+ ]
+},
+{
+"iIndex": 25,
+"sQuestion": "Mary has 9.0 yellow marbles. Joan has 3.0 yellow marbles. How many yellow marbles do they have in all ?",
+"lEquations": [
+"9+3=x"
+],
+"lSolutions": [ 
+12.0
+ ]
+},
+{
+"iIndex": 26,
+"sQuestion": "There are 8.0 calories in a candy bar. How many calories are there in 3.0 candy bars ?",
+"lEquations": [
+"8*3=x"
+],
+"lSolutions": [ 
+24.0
+ ]
+},
+{
+"iIndex": 27,
+"sQuestion": "A restaurant made 9.0 hamburgers to serve during lunch. Only 3.0 were  actually served. How many hamburgers were left over from lunch ?",
+"lEquations": [
+"9=3+x"
+],
+"lSolutions": [ 
+6.0
+ ]
+},
+{
+"iIndex": 28,
+"sQuestion": "Jason had Pokemon cards. Jason gave 9.0 to his friends. Jason now has 4.0 Pokemon cards left. How many Pokemon cards did Jason have to start with ?",
+"lEquations": [
+"x-9=4"
+],
+"lSolutions": [ 
+13.0
+ ]
+},
+{
+"iIndex": 29,
+"sQuestion": "Benny bought a soft drink for 2.0 dollars and 5.0 candy bars. He spent a total of 27.0 dollars. How much did each candy bar cost ?",
+"lEquations": [
+"2+(5*x)=27"
+],
+"lSolutions": [ 
+5.0
+ ]
+},
+{
+"iIndex": 30,
+"sQuestion": "Benny bought 4.0 new baseball trading cards to add to his collection. The next day his dog ate half of his collection. There are now only 34.0 cards left. How many cards did Benny start with ?",
+"lEquations": [
+"(x+4)/2=34"
+],
+"lSolutions": [ 
+64.0
+ ]
+},
+{
+"iIndex": 31,
+"sQuestion": "Oceanside Bike Rental Shop charges 17.0 dollars plus 7.0 dollars an hour for renting a bike. Tom paid 80.0 dollars to rent a bike. How many hours did he pay to have the bike checked out ?",
+"lEquations": [
+"17+(7*x)=80"
+],
+"lSolutions": [ 
+9.0
+ ]
+},
+{
+"iIndex": 32,
+"sQuestion": "On Monday, 375.0 students went on a trip to the zoo. All 7.0 buses were filled and 4.0 students had to travel in cars. How many students were in each bus ?",
+"lEquations": [
+"375=(7*x)+4"
+],
+"lSolutions": [ 
+53.0
+ ]
+},
+{
+"iIndex": 33,
+"sQuestion": "Sandy sold half of her comic books and then bought 6.0 more. She now has 13.0 How many did she begin with ?",
+"lEquations": [
+"(x/2)+6=13"
+],
+"lSolutions": [ 
+14.0
+ ]
+},
+{
+"iIndex": 34,
+"sQuestion": "Adam bought 9.0 packages of cat food and 7.0 packages of dog food. Each package of cat food contained 10.0 cans, and each package of dog food contained 5.0 cans. How many more cans of cat food than dog food did Adam buy?",
+"lEquations": [
+"(9*10)-(7*5)=x"
+],
+"lSolutions": [ 
+55.0
+ ]
+},
+{
+"iIndex": 35,
+"sQuestion": "Zach wants to ride the Ferris wheel, the roller coaster, and the log ride. The Ferris wheel costs 2.0 tickets, the roller coaster costs 7.0 tickets and the log ride costs 1.0 ticket. Zach has 1.0 ticket. How many more tickets should Zach buy?",
+"lEquations": [
+"2+7+1=1+x"
+],
+"lSolutions": [ 
+9.0
+ ]
+},
+{
+"iIndex": 36,
+"sQuestion": "Randy needs 53.0 cupcakes for a birthday party. He already has 7.0 chocolate cupcakes and 19.0 vanilla cupcakes. How many more cupcakes should Randy buy?",
+"lEquations": [
+"53=7+14+x"
+],
+"lSolutions": [ 
+32.0
+ ]
+},
+{
+"iIndex": 37,
+"sQuestion": "Maggie bought 4.0 packs of red bouncy balls, 8.0 packs of yellow bouncy balls, and 4.0 packs of green bouncy balls. There were 10.0 bouncy balls in each package. How many bouncy balls did Maggie buy in all?",
+"lEquations": [
+"(4+8+4)*10=x"
+],
+"lSolutions": [ 
+160.0
+ ]
+},
+{
+"iIndex": 38,
+"sQuestion": "There were 28.0 bales of hay in the barn. Tim stacked more bales in the barn today. There are now 54.0 bales of hay in the barn. How many bales did he store in the barn ?",
+"lEquations": [
+"28+x=54"
+],
+"lSolutions": [ 
+26.0
+ ]
+},
+{
+"iIndex": 39,
+"sQuestion": "Dan picked 9.0 limes and gave Sara 4.0 of the limes.  How many limes does Dan have now ?",
+"lEquations": [
+"9-4=x"
+],
+"lSolutions": [ 
+5.0
+ ]
+},
+{
+"iIndex": 40,
+"sQuestion": "Your class is having a pizza party. You buy 5.0 pizzas. Each pizza has 4.0 slices. How many slices is that altogether?",
+"lEquations": [
+"5*4=x"
+],
+"lSolutions": [ 
+20.0
+ ]
+},
+{
+"iIndex": 41,
+"sQuestion": "My car gets 20.0 miles per gallon. How many miles can I drive on 5.0 gallons of gas?",
+"lEquations": [
+"20*5=x"
+],
+"lSolutions": [ 
+100.0
+ ]
+},
+{
+"iIndex": 42,
+"sQuestion": "58.0 children are taking a bus to the zoo. They sit 2.0 children in every seat. How many seats will the children need in all?",
+"lEquations": [
+"58/2=x"
+],
+"lSolutions": [ 
+29.0
+ ]
+},
+{
+"iIndex": 43,
+"sQuestion": "Marlee has 12.0 guests coming to her Halloween party. Each table will hold 3.0 guests. How many tables will Marlee need?",
+"lEquations": [
+"12/3=x"
+],
+"lSolutions": [ 
+4.0
+ ]
+},
+{
+"iIndex": 44,
+"sQuestion": "Ellen went to a garage sale to buy chairs. Each chair is 15.0 dollars. How much did Ellen spend for the 12.0 chairs she bought?",
+"lEquations": [
+"15*12=x"
+],
+"lSolutions": [ 
+180.0
+ ]
+},
+{
+"iIndex": 45,
+"sQuestion": "There are 7.0 crayons in the drawer. Mary took 3.0 crayons out of the drawer. How many crayons are there now ?",
+"lEquations": [
+"7-3=x"
+],
+"lSolutions": [ 
+4.0
+ ]
+},
+{
+"iIndex": 46,
+"sQuestion": "Fred's high school played 616.0 baseball games this year. He attended  147.0 games. How many baseball games did Fred miss ?",
+"lEquations": [
+"616=147+x"
+],
+"lSolutions": [ 
+469.0
+ ]
+}
+]
